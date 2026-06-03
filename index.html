@@ -133,6 +133,11 @@
     <button class="btn" id="maybe-toggle" style="font-size:12px;">Show</button>
   </section>
 
+  <section class="card" id="fleet-section">
+    <h2>⚙️ n8n fleet <span class="count" id="fleet-count"></span></h2>
+    <div id="fleet-list"></div>
+  </section>
+
   <footer>
     Auto-refreshed each morning + EOD. Built from Fireflies, Gmail, Slack, Cowork sessions.
   </footer>
@@ -332,28 +337,26 @@ async function load() {
   });
 
   render();
+  loadFleet().catch(() => {});
 }
 
-document.getElementById("search").addEventListener("input", render);
-document.getElementById("project-filter").addEventListener("change", render);
-document.getElementById("refresh").addEventListener("click", load);
-document.getElementById("reset-checks").addEventListener("click", () => {
-  if (confirm("Clear all locally-checked items?")) {
-    checked.clear();
-    localStorage.setItem(LS_KEY, "[]");
-    render();
-  }
-});
-document.getElementById("maybe-toggle").addEventListener("click", () => {
-  const m = document.getElementById("maybe-list");
-  const btn = document.getElementById("maybe-toggle");
-  if (m.style.display === "none") { m.style.display = ""; btn.textContent = "Hide"; }
-  else { m.style.display = "none"; btn.textContent = "Show"; }
-});
+function staleClass(lastRun) {
+  if (!lastRun) return "low";
+  const ageDays = (Date.now() - new Date(lastRun).getTime()) / 86400000;
+  if (ageDays < 2) return "high";
+  if (ageDays < 7) return "src";
+  return "low";
+}
 
-load().catch(err => {
-  document.getElementById("subtitle").textContent = "Failed to load tasks.json: " + err.message;
-});
-</script>
-</body>
-</html>
+function renderFleet(fleet) {
+  const list = document.getElementById("fleet-list");
+  list.innerHTML = "";
+  let totalActive = 0, totalStale = 0;
+  fleet.groups.forEach(g => {
+    const active = g.workflows.filter(w => w.active);
+    if (active.length === 0) return;
+    totalActive += active.length;
+    const det = document.createElement("details");
+    det.className = "project-group";
+    const sum = document.createElement("summary");
+    sum.innerHTML = `${g.name} <span class="count">(
