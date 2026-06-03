@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "owner": "blake@tribe.xyz",
+  "updated": "2026-06-03",
+  "projects": [
+    { "id": "fin-dash",         "name": "Tribe Financial Dashboard",     "tier": "big",    "notes": "Main finance dashboard." },
+    { "id": "rec-dash",         "name": "Tribe Recruiting Dashboard",    "tier": "big",    "notes": "Recruiting/staffing dashboard." },
+    { "id": "expense-ops",      "name": "Expense Ops",                   "tier": "big",    "notes": "Receipts, Revolut, categorization, invoicing." },
+    { "id": "tribebot",         "name": "Tribebot",                      "tier": "big",    "notes": "Internal bot, Onyx sync, improvements." },
+    { "id": "people-ops",       "name": "People Ops / BambooHR",         "tier": "big",    "notes": "Supports, doesn't own. Dashboards + termination invoicing." },
+    { "id": "legal",            "name": "Legal & Contracts",             "tier": "big",    "notes": "All Blake. NDAs, vendor contracts, signatures." },
+    { "id": "ai-recruiting",    "name": "Roundup & Intake (AI recruiting tools)", "tier": "big", "notes": "AI First, Rolls Roundup, intake tool." },
+    { "id": "wbr-mbr",          "name": "WBR / MBR",                     "tier": "medium", "notes": "Weekly + monthly business review." },
+    { "id": "project-hub",      "name": "Project Hub",                   "tier": "medium", "notes": "#projecthub_comms." },
+    { "id": "team-cohesion",    "name": "Team cohesion",                 "tier": "medium", "notes": "Pokedex + standup improvement." },
+    { "id": "okrs",             "name": "OKRs",                          "tier": "medium", "notes": "#okr-comms." },
+    { "id": "leadership",       "name": "Leadership comms",              "tier": "medium", "notes": "#leadership, CoS weekly log." },
+    { "id": "keboola-sunset",   "name": "Keboola migration / sunset",    "tier": "medium", "notes": "Migrating off Keboola." },
+    { "id": "sales-hubspot",    "name": "Sales dashboard + HubSpot",     "tier": "medium", "notes": "Sales dashboard, HubSpot convos." },
+    { "id": "linkedin",         "name": "LinkedIn license management",   "tier": "medium", "notes": "License requests + actual spend." },
+    { "id": "circle",           "name": "Project Circle",                "tier": "medium", "notes": "Cross-tags with rec-dash." },
+    { "id": "us-expansion",     "name": "US expansion",                  "tier": "medium", "notes": "New as of May 26." }
+  ],
+  "cross_tags_allowed": true,
+  "private_channels_in_scope": [
+    "tribebot", "okr-comms", "us-expansion", "lir-sharing",
+    "project_circle", "projecthub_comms", "people-ops",
+    "leadership", "standup-improvement", "friday-team-meeting",
+    "data-plugins-roadmap", "data_working_group", "project-data-hygiene"
+  ],
+  "channels_excluded": [
+    "teamtrip-2026", "tribe-teamaway", "prague-trip",
+    "scorecard-videos", "test-fireflies", "test-n8n",
+    "workforce-planning-changes"
+  ],
+  "dismissed_patterns": [],
+  "lookback_days": 60
+}
