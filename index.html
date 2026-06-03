@@ -24,41 +24,20 @@
     --success-fg: #166534;
   }
   * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    font-size: 14px;
-    line-height: 1.5;
-  }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", sans-serif; background: var(--bg); color: var(--text); font-size: 14px; line-height: 1.5; }
   .page { max-width: 1080px; margin: 0 auto; padding: 24px; }
   header { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 24px; gap: 16px; flex-wrap: wrap; }
   h1 { font-size: 22px; font-weight: 600; margin: 0; }
   .subtitle { font-size: 12px; color: var(--text-muted); margin: 4px 0 0; }
   .controls { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
-  .controls input[type="search"] {
-    padding: 6px 10px; font-size: 13px; border: 1px solid var(--border-strong); border-radius: 6px;
-    background: var(--surface); width: 220px; font-family: inherit;
-  }
-  .controls select {
-    padding: 6px 10px; font-size: 13px; border: 1px solid var(--border-strong); border-radius: 6px;
-    background: var(--surface); font-family: inherit;
-  }
-  .btn {
-    padding: 6px 12px; font-size: 13px; border: 1px solid var(--border-strong); border-radius: 6px;
-    background: var(--surface); cursor: pointer; font-family: inherit;
-  }
+  .controls input[type="search"], .controls select { padding: 6px 10px; font-size: 13px; border: 1px solid var(--border-strong); border-radius: 6px; background: var(--surface); font-family: inherit; }
+  .controls input[type="search"] { width: 220px; }
+  .btn { padding: 6px 12px; font-size: 13px; border: 1px solid var(--border-strong); border-radius: 6px; background: var(--surface); cursor: pointer; font-family: inherit; }
   .btn:hover { background: var(--bg); }
   .btn.primary { background: var(--text); color: var(--surface); border-color: var(--text); }
-
-  section.card {
-    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
-    padding: 16px 20px; margin-bottom: 14px;
-  }
+  section.card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px 20px; margin-bottom: 14px; }
   h2 { font-size: 16px; font-weight: 600; margin: 0 0 12px; display: flex; align-items: center; gap: 8px; }
   h2 .count { font-size: 12px; color: var(--text-muted); font-weight: 400; }
-
   .task { display: flex; align-items: flex-start; gap: 10px; padding: 9px 0; border-top: 1px solid var(--border); }
   .task:first-of-type { border-top: 0; }
   .task.done .task-text { text-decoration: line-through; color: var(--text-faint); }
@@ -68,31 +47,19 @@
   .task-meta { font-size: 12px; color: var(--text-muted); margin-top: 3px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
   .task-meta a { color: var(--text-muted); text-decoration: none; border-bottom: 1px dotted var(--text-faint); }
   .task-meta a:hover { color: var(--accent); border-bottom-color: var(--accent); }
-  .pill {
-    display: inline-block; padding: 1px 7px; border-radius: 999px; font-size: 11px;
-    background: var(--info-bg); color: var(--info-fg); white-space: nowrap;
-  }
+  .pill { display: inline-block; padding: 1px 7px; border-radius: 999px; font-size: 11px; background: var(--info-bg); color: var(--info-fg); white-space: nowrap; }
   .pill.low { background: var(--warning-bg); color: var(--warning-fg); }
   .pill.high { background: var(--success-bg); color: var(--success-fg); }
   .pill.src { background: #f3f4f6; color: #525252; }
   .dot { color: var(--text-faint); }
-
   .project-group { margin-top: 12px; }
-  .project-group summary {
-    cursor: pointer; padding: 8px 0; font-size: 14px; font-weight: 500;
-    display: flex; align-items: center; gap: 8px; list-style: none;
-  }
+  .project-group summary { cursor: pointer; padding: 8px 0; font-size: 14px; font-weight: 500; display: flex; align-items: center; gap: 8px; list-style: none; }
   .project-group summary::-webkit-details-marker { display: none; }
-  .project-group summary::before {
-    content: "▸"; font-size: 10px; color: var(--text-muted); transition: transform 0.15s;
-  }
+  .project-group summary::before { content: "▸"; font-size: 10px; color: var(--text-muted); transition: transform 0.15s; }
   .project-group[open] summary::before { transform: rotate(90deg); }
   .project-group summary .count { font-size: 12px; color: var(--text-muted); font-weight: 400; margin-left: 4px; }
-
   .empty { color: var(--text-muted); font-size: 13px; padding: 8px 0; }
-
   footer { margin-top: 32px; font-size: 11px; color: var(--text-faint); text-align: center; }
-
   @media (max-width: 600px) {
     .page { padding: 16px; }
     .controls input[type="search"] { width: 100%; }
@@ -109,9 +76,7 @@
     </div>
     <div class="controls">
       <input type="search" id="search" placeholder="Search tasks…" />
-      <select id="project-filter">
-        <option value="">All projects</option>
-      </select>
+      <select id="project-filter"><option value="">All projects</option></select>
       <button class="btn" id="reset-checks" title="Clear all locally-checked items">Reset</button>
       <button class="btn primary" id="refresh">Refresh</button>
     </div>
@@ -138,9 +103,7 @@
     <div id="fleet-list"></div>
   </section>
 
-  <footer>
-    Auto-refreshed each morning + EOD. Built from Fireflies, Gmail, Slack, Cowork sessions.
-  </footer>
+  <footer>Auto-refreshed each morning + EOD. Built from Fireflies, Gmail, Slack, Cowork sessions.</footer>
 </div>
 
 <script>
@@ -148,26 +111,16 @@ const LS_KEY = "dailyPulseChecked_v1";
 const checked = new Set(JSON.parse(localStorage.getItem(LS_KEY) || "[]"));
 let DATA = null;
 
-function taskId(t) {
-  return `${t.source_type}::${t.source}::${t.text.slice(0,60)}`;
-}
+function taskId(t) { return t.source_type + "::" + t.source + "::" + t.text.slice(0,60); }
 
 function provenanceLink(t) {
   const s = t.source || "";
-  if (s.startsWith("fireflies/")) {
-    const id = s.split("/")[1];
-    return `https://app.fireflies.ai/view/${id}`;
-  }
-  if (s.startsWith("gmail/")) {
-    const id = s.split("/")[1];
-    return `https://mail.google.com/mail/u/0/#inbox/${id}`;
-  }
+  if (s.startsWith("fireflies/")) return "https://app.fireflies.ai/view/" + s.split("/")[1];
+  if (s.startsWith("gmail/")) return "https://mail.google.com/mail/u/0/#inbox/" + s.split("/")[1];
   if (s.startsWith("slack/")) {
     const parts = s.split("/");
     if (parts.length >= 3) {
-      const channel = parts[1];
-      const ts = parts[2].replace(".", "");
-      return `https://tribe-xyz.slack.com/archives/${channel}/p${ts}`;
+      return "https://tribe-xyz.slack.com/archives/" + parts[1] + "/p" + parts[2].replace(".", "");
     }
   }
   return null;
@@ -178,22 +131,19 @@ function renderTask(t) {
   const isDone = checked.has(id);
   const div = document.createElement("div");
   div.className = "task" + (isDone ? " done" : "");
-  div.dataset.project = t.project;
-  div.dataset.text = t.text.toLowerCase();
 
   const cb = document.createElement("input");
   cb.type = "checkbox";
   cb.checked = isDone;
-  cb.addEventListener("change", () => {
+  cb.addEventListener("change", function() {
     if (cb.checked) checked.add(id); else checked.delete(id);
-    localStorage.setItem(LS_KEY, JSON.stringify([...checked]));
+    localStorage.setItem(LS_KEY, JSON.stringify(Array.from(checked)));
     div.classList.toggle("done", cb.checked);
   });
   div.appendChild(cb);
 
   const body = document.createElement("div");
   body.className = "task-body";
-
   const text = document.createElement("div");
   text.className = "task-text";
   text.textContent = t.text;
@@ -219,33 +169,23 @@ function renderTask(t) {
   meta.appendChild(srcPill);
 
   const dot = document.createElement("span"); dot.className = "dot"; dot.textContent = "·"; meta.appendChild(dot);
-
   const dateSpan = document.createElement("span");
   dateSpan.textContent = t.date || "—";
   meta.appendChild(dateSpan);
 
-  const ctx = t.extras?.subject || t.extras?.meeting || t.extras?.session || t.extras?.channel;
-  if (ctx) {
+  const ctx = (t.extras && (t.extras.subject || t.extras.meeting || t.extras.session || t.extras.channel)) || null;
+  const link = provenanceLink(t);
+  if (ctx || link) {
     const d2 = document.createElement("span"); d2.className = "dot"; d2.textContent = "·"; meta.appendChild(d2);
-    const link = provenanceLink(t);
     if (link) {
       const a = document.createElement("a");
       a.href = link; a.target = "_blank"; a.rel = "noopener";
-      a.textContent = ctx;
+      a.textContent = ctx || "open source";
       meta.appendChild(a);
     } else {
       const span = document.createElement("span");
       span.textContent = ctx;
       meta.appendChild(span);
-    }
-  } else {
-    const link = provenanceLink(t);
-    if (link) {
-      const d2 = document.createElement("span"); d2.className = "dot"; d2.textContent = "·"; meta.appendChild(d2);
-      const a = document.createElement("a");
-      a.href = link; a.target = "_blank"; a.rel = "noopener";
-      a.textContent = "open source";
-      meta.appendChild(a);
     }
   }
 
@@ -256,88 +196,66 @@ function renderTask(t) {
 
 function bucket(tasks) {
   const today = new Date(DATA.generated_at);
-  const week = { high_recent: [], by_proj: {}, maybe: [] };
-  tasks.forEach(t => {
-    if (t.confidence === "low") { week.maybe.push(t); return; }
+  const out = { high_recent: [], by_proj: {}, maybe: [] };
+  tasks.forEach(function(t) {
+    if (t.confidence === "low") { out.maybe.push(t); return; }
     const d = t.date ? new Date(t.date) : null;
     const ageDays = d ? (today - d) / 86400000 : 999;
-    if (t.confidence === "high" && ageDays <= 5) {
-      week.high_recent.push(t);
-    }
-    if (!week.by_proj[t.project]) week.by_proj[t.project] = [];
-    week.by_proj[t.project].push(t);
+    if (t.confidence === "high" && ageDays <= 5) out.high_recent.push(t);
+    if (!out.by_proj[t.project]) out.by_proj[t.project] = [];
+    out.by_proj[t.project].push(t);
   });
-  return week;
+  return out;
 }
 
 function render() {
   const q = document.getElementById("search").value.toLowerCase();
   const proj = document.getElementById("project-filter").value;
   let tasks = DATA.tasks;
-  if (q) tasks = tasks.filter(t => t.text.toLowerCase().includes(q) || (t.project_name || "").toLowerCase().includes(q));
-  if (proj) tasks = tasks.filter(t => t.project === proj);
+  if (q) tasks = tasks.filter(function(t) { return t.text.toLowerCase().indexOf(q) >= 0 || (t.project_name || "").toLowerCase().indexOf(q) >= 0; });
+  if (proj) tasks = tasks.filter(function(t) { return t.project === proj; });
 
   const b = bucket(tasks);
 
-  // Today/this week
   const todayList = document.getElementById("today-list");
   todayList.innerHTML = "";
-  b.high_recent.sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+  b.high_recent.sort(function(a, x) { return (x.date || "").localeCompare(a.date || ""); });
   if (b.high_recent.length === 0) {
     todayList.innerHTML = '<div class="empty">No high-confidence items in the last 5 days.</div>';
   } else {
-    b.high_recent.forEach(t => todayList.appendChild(renderTask(t)));
+    b.high_recent.forEach(function(t) { todayList.appendChild(renderTask(t)); });
   }
   document.getElementById("today-count").textContent = b.high_recent.length;
 
-  // By project
   const projList = document.getElementById("projects-list");
   projList.innerHTML = "";
-  const projOrder = Object.keys(b.by_proj).sort((a, b2) => b.by_proj[b2].length - b.by_proj[a].length);
+  const projOrder = Object.keys(b.by_proj).sort(function(a, x) { return b.by_proj[x].length - b.by_proj[a].length; });
   let totalProj = 0;
-  projOrder.forEach(pid => {
-    const items = b.by_proj[pid].sort((a, b2) => (b2.date || "").localeCompare(a.date || ""));
+  projOrder.forEach(function(pid) {
+    const items = b.by_proj[pid].sort(function(a, x) { return (x.date || "").localeCompare(a.date || ""); });
     totalProj += items.length;
-    const projMeta = DATA.projects.find(p => p.id === pid);
-    const name = projMeta?.name || pid;
+    const projMeta = DATA.projects.find(function(p) { return p.id === pid; });
+    const name = projMeta ? projMeta.name : pid;
     const det = document.createElement("details");
     det.className = "project-group";
     const sum = document.createElement("summary");
-    sum.innerHTML = `${name} <span class="count">(${items.length})</span>`;
+    sum.innerHTML = name + ' <span class="count">(' + items.length + ')</span>';
     det.appendChild(sum);
     const inner = document.createElement("div");
     inner.style.paddingLeft = "16px";
-    items.forEach(t => inner.appendChild(renderTask(t)));
+    items.forEach(function(t) { inner.appendChild(renderTask(t)); });
     det.appendChild(inner);
     projList.appendChild(det);
   });
   document.getElementById("projects-count").textContent = totalProj;
 
-  // Maybe
   const maybeList = document.getElementById("maybe-list");
   maybeList.innerHTML = "";
-  b.maybe.sort((a, b2) => (b2.date || "").localeCompare(a.date || ""));
-  b.maybe.forEach(t => maybeList.appendChild(renderTask(t)));
+  b.maybe.sort(function(a, x) { return (x.date || "").localeCompare(a.date || ""); });
+  b.maybe.forEach(function(t) { maybeList.appendChild(renderTask(t)); });
   document.getElementById("maybe-count").textContent = b.maybe.length;
 
-  document.getElementById("subtitle").textContent =
-    `Last scan: ${DATA.generated_at} · ${DATA.total} candidate tasks · ${tasks.length} shown`;
-}
-
-async function load() {
-  const res = await fetch("./data/tasks.json?t=" + Date.now());
-  DATA = await res.json();
-
-  const projFilter = document.getElementById("project-filter");
-  while (projFilter.options.length > 1) projFilter.remove(1);
-  DATA.projects.forEach(p => {
-    const opt = document.createElement("option");
-    opt.value = p.id; opt.textContent = p.name;
-    projFilter.appendChild(opt);
-  });
-
-  render();
-  loadFleet().catch(() => {});
+  document.getElementById("subtitle").textContent = "Last scan: " + DATA.generated_at + " · " + DATA.total + " candidate tasks · " + tasks.length + " shown";
 }
 
 function staleClass(lastRun) {
@@ -352,11 +270,23 @@ function renderFleet(fleet) {
   const list = document.getElementById("fleet-list");
   list.innerHTML = "";
   let totalActive = 0, totalStale = 0;
-  fleet.groups.forEach(g => {
-    const active = g.workflows.filter(w => w.active);
+  fleet.groups.forEach(function(g) {
+    const active = g.workflows.filter(function(w) { return w.active; });
     if (active.length === 0) return;
     totalActive += active.length;
     const det = document.createElement("details");
     det.className = "project-group";
     const sum = document.createElement("summary");
-    sum.innerHTML = `${g.name} <span class="count">(
+    sum.innerHTML = g.name + ' <span class="count">(' + active.length + ')</span>';
+    det.appendChild(sum);
+    const tbl = document.createElement("table");
+    tbl.style.cssText = "width:100%; font-size:13px; border-collapse:collapse; margin-top:8px;";
+    tbl.innerHTML = "<thead><tr style='color:var(--text-muted); font-size:11px; text-align:left;'><th style='padding:6px 8px; font-weight:400;'>Workflow</th><th style='padding:6px 8px; font-weight:400;'>Schedule</th><th style='padding:6px 8px; font-weight:400;'>Last run</th><th style='padding:6px 8px; font-weight:400;'>Status</th></tr></thead>";
+    const tbody = document.createElement("tbody");
+    active.forEach(function(w) {
+      const tr = document.createElement("tr");
+      tr.style.cssText = "border-top:1px solid var(--border);";
+      const lastRunDisplay = w.last_run ? w.last_run.replace("T", " ").replace("Z", "") : "—";
+      const statusCls = staleClass(w.last_run);
+      const ageDays = w.last_run ? Math.floor((Date.now() - new Date(w.last_run).getTime()) / 86400000) : null;
+      const s
