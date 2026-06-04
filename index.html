@@ -58,7 +58,7 @@ footer { margin-top:32px; font-size:11px; color:var(--faint); text-align:center;
 <select id="pf"><option value="">All projects</option></select>
 <button class="btn" id="reset">Reset checks</button>
 <button class="btn" id="resetov" title="Reset all project re-tags">Reset tags</button>
-<button class="btn primary" id="refresh">Refresh</button>
+<button class="btn primary" id="refresh" title="Re-fetch + hide checked items">Refresh</button>
 </div>
 </header>
 <section class="card"><h2>Today &amp; this week <span class="count" id="tc"></span></h2><div id="tl"></div></section>
@@ -72,6 +72,7 @@ var LS_CHK="dpChecked_v1";
 var LS_OV="dpOverrides_v1";
 var checked=new Set(JSON.parse(localStorage.getItem(LS_CHK)||"[]"));
 var overrides=JSON.parse(localStorage.getItem(LS_OV)||"{}");
+var hideDone=false;
 var DATA=null;
 
 function tid(t){return t.source_type+"::"+t.source+"::"+t.text.slice(0,60);}
@@ -200,6 +201,7 @@ function render(){
     return t.text.toLowerCase().indexOf(q)>=0 || effectiveProjectName(t).toLowerCase().indexOf(q)>=0;
   });
   if(pf) tasks=tasks.filter(function(t){ return effectiveProject(t)===pf; });
+  if(hideDone) tasks=tasks.filter(function(t){ return !checked.has(tid(t)); });
 
   var b=bucket(tasks);
 
@@ -235,7 +237,8 @@ function render(){
 
   var ovCount=Object.keys(overrides).length;
   var ovStr=ovCount>0?(" · "+ovCount+" re-tagged"):"";
-  document.getElementById("sub").textContent="Last scan: "+DATA.generated_at+" · "+DATA.total+" candidate tasks · "+tasks.length+" shown"+ovStr;
+  var hiddenStr=(hideDone&&checked.size>0)?(" · "+checked.size+" hidden (Reset to show)"):"";
+  document.getElementById("sub").textContent="Last scan: "+DATA.generated_at+" · "+DATA.total+" candidate tasks · "+tasks.length+" shown"+ovStr+hiddenStr;
 }
 
 function sc(lr){
@@ -307,11 +310,15 @@ async function load(){
 
 document.getElementById("q").addEventListener("input",render);
 document.getElementById("pf").addEventListener("change",render);
-document.getElementById("refresh").addEventListener("click",load);
+document.getElementById("refresh").addEventListener("click",function(){
+  hideDone=true;
+  load();
+});
 document.getElementById("reset").addEventListener("click",function(){
   if(confirm("Clear all locally-checked items?")){
     checked.clear();
     localStorage.setItem(LS_CHK,"[]");
+    hideDone=false;
     render();
   }
 });
