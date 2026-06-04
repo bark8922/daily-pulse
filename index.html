@@ -75,11 +75,14 @@ var overrides=JSON.parse(localStorage.getItem(LS_OV)||"{}");
 var hideDone=false;
 var DATA=null;
 
-function tid(t){return t.source_type+"::"+t.source+"::"+t.text.slice(0,60);}
+function legacyTid(t){return t.source_type+"::"+t.source+"::"+t.text.slice(0,60);}
+function tid(t){return t.id || legacyTid(t);}
+function isDone(t){ return checked.has(tid(t)) || checked.has(legacyTid(t)); }
+function isOv(t){ return overrides[tid(t)] || overrides[legacyTid(t)]; }
 
 function effectiveProject(t){
-  var id=tid(t);
-  if(overrides[id]) return overrides[id];
+  var ov=overrides[tid(t)] || overrides[legacyTid(t)];
+  if(ov) return ov;
   return t.project;
 }
 
@@ -101,8 +104,9 @@ function prov(t){
 
 function rt(t){
   var id=tid(t);
-  var done=checked.has(id);
-  var isOv=!!overrides[id];
+  var done=isDone(t);
+  var ovProj=isOv(t);
+  var isOvBool=!!ovProj;
   var d=document.createElement("div");
   d.className="task"+(done?" done":"");
 
@@ -124,8 +128,8 @@ function rt(t){
 
   // Project dropdown (editable)
   var sel=document.createElement("select");
-  sel.className="pill-edit"+(isOv?" overridden":"");
-  sel.title=isOv?("Re-tagged from: "+(t.project_name||t.project)):"Click to re-tag";
+  sel.className="pill-edit"+(isOvBool?" overridden":"");
+  sel.title=isOvBool?("Re-tagged from: "+(t.project_name||t.project)):"Click to re-tag";
   var effPid=effectiveProject(t);
   // Inbox option first
   var inboxOpt=document.createElement("option");
@@ -201,7 +205,7 @@ function render(){
     return t.text.toLowerCase().indexOf(q)>=0 || effectiveProjectName(t).toLowerCase().indexOf(q)>=0;
   });
   if(pf) tasks=tasks.filter(function(t){ return effectiveProject(t)===pf; });
-  if(hideDone) tasks=tasks.filter(function(t){ return !checked.has(tid(t)); });
+  if(hideDone) tasks=tasks.filter(function(t){ return !isDone(t); });
 
   var b=bucket(tasks);
 
