@@ -80,11 +80,9 @@ for t in new_tasks:
     sid = t.get("id") or stable_id(t["source_type"], t.get("source",""), t["text"])
     t["id"] = sid
     proj = t.get("project", "inbox")
-    if sid not in by_id:
-        sim_id = find_similar(t, by_id)
-        if sim_id:
-            sid = sim_id
-            t["id"] = sid
+    # Semantic dedupe disabled — rely on stable IDs only.
+    # Stable IDs catch true re-detection (same source artifact).
+    # Different action phrasings = different stable IDs = treated as separate tasks (intentional).
     if sid in by_id:
         existing_t = by_id[sid]
         # Keep longer text (usually more informative)
