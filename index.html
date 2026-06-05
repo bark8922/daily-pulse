@@ -45,19 +45,29 @@ h2 .count { font-size:12px; color:var(--muted); font-weight:400; }
 .grp[open] summary::before { transform:rotate(90deg); }
 .grp summary .count { font-size:12px; color:var(--muted); font-weight:400; margin-left:4px; }
 .empty { color:var(--muted); font-size:13px; padding:8px 0; }
+.modal-bg { position:fixed; inset:0; background:rgba(0,0,0,0.4); display:flex; align-items:center; justify-content:center; z-index:100; }
+.modal { background:var(--surface); border-radius:10px; padding:20px 24px; width:380px; box-shadow:0 10px 40px rgba(0,0,0,0.2); }
+.modal h3 { margin:0 0 12px; font-size:16px; }
+.modal label { display:block; font-size:12px; color:var(--muted); margin-top:10px; margin-bottom:4px; }
+.modal input, .modal select { width:100%; padding:6px 10px; font-size:13px; border:1px solid var(--bord2); border-radius:6px; background:var(--surface); font-family:inherit; }
+.modal-actions { margin-top:16px; display:flex; gap:8px; justify-content:flex-end; }
+.sync-badge { display:inline-block; padding:1px 6px; border-radius:999px; font-size:10px; background:#f3f4f6; color:#525252; margin-left:6px; }
+.sync-badge.on { background:var(--ok-bg); color:var(--ok-fg); }
+.sync-badge.off { background:var(--warn-bg); color:var(--warn-fg); }
 footer { margin-top:32px; font-size:11px; color:var(--faint); text-align:center; }
-@media (max-width:600px) { .page { padding:16px; } .controls input { width:100%; } .controls { width:100%; } }
+@media (max-width:600px) { .page { padding:16px; } .controls input { width:100%; } .controls { width:100%; } .modal { width:90%; } }
 </style>
 </head>
 <body>
 <div class="page">
 <header>
-<div><h1>Daily pulse</h1><p class="sub" id="sub">Loading...</p></div>
+<div><h1>Daily pulse <span id="syncBadge" class="sync-badge off" title="Click Settings to configure sync">sync off</span></h1><p class="sub" id="sub">Loading...</p></div>
 <div class="controls">
 <input type="search" id="q" placeholder="Search tasks..." />
 <select id="pf"><option value="">All projects</option></select>
+<button class="btn" id="newproj">+ New project</button>
+<button class="btn" id="settings" title="Webhook settings">Settings</button>
 <button class="btn" id="reset">Reset checks</button>
-<button class="btn" id="resetov" title="Reset all project re-tags">Reset tags</button>
 <button class="btn primary" id="refresh" title="Re-fetch + hide checked items">Refresh</button>
 </div>
 </header>
@@ -67,31 +77,54 @@ footer { margin-top:32px; font-size:11px; color:var(--faint); text-align:center;
 <section class="card"><h2>n8n fleet <span class="count" id="fc"></span></h2><div id="fl"></div></section>
 <footer>Auto-refreshed each morning + EOD. Built from Fireflies, Gmail, Slack, Cowork sessions.</footer>
 </div>
+<div id="modalRoot"></div>
 <script>
 var LS_CHK="dpChecked_v1";
 var LS_OV="dpOverrides_v1";
+var LS_WEBHOOK="dpWebhook_v1";
+var LS_SECRET="dpSecret_v1";
 var checked=new Set(JSON.parse(localStorage.getItem(LS_CHK)||"[]"));
 var overrides=JSON.parse(localStorage.getItem(LS_OV)||"{}");
 var hideDone=false;
 var DATA=null;
+var CLOSED=new Set();
+var SERVER_OV={};
+
+function webhookCfg(){
+  return {
+    url: localStorage.getItem(LS_WEBHOOK) || "",
+    secret: localStorage.getItem(LS_SECRET) || ""
+  };
+}
+function updateSyncBadge(){
+  var b=document.getElementById("syncBadge");
+  var ok=webhookCfg().url && webhookCfg().secret;
+  b.textContent= ok ? "sync on" : "sync off";
+  b.className="sync-badge " + (ok?"on":"off");
+}
+
+async function syncAction(action, payload){
+  var cfg=webhookCfg();
+  if(!cfg.url || !cfg.secret) return; // sync off, fail silently
+  try {
+    var res=await fetch(cfg.url, {
+      method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({ action: action, payload: payload, secret: cfg.secret })
+    });
+    if(!res.ok) console.warn("sync", action, "failed", res.status);
+  } catch(e){ console.warn("sync error", e); }
+}
 
 function legacyTid(t){return t.source_type+"::"+t.source+"::"+t.text.slice(0,60);}
 function tid(t){return t.id || legacyTid(t);}
-function isDone(t){ return checked.has(tid(t)) || checked.has(legacyTid(t)); }
-function isOv(t){ return overrides[tid(t)] || overrides[legacyTid(t)]; }
+function isDone(t){ return checked.has(tid(t)) || checked.has(legacyTid(t)) || CLOSED.has(tid(t)); }
+function isOv(t){ return overrides[tid(t)] || overrides[legacyTid(t)] || SERVER_OV[tid(t)]; }
 
 function effectiveProject(t){
-  var ov=overrides[tid(t)] || overrides[legacyTid(t)];
+  var ov=overrides[tid(t)] || overrides[legacyTid(t)] || SERVER_OV[tid(t)];
   if(ov) return ov;
   return t.project;
-}
-
-function effectiveProjectName(t){
-  var pid=effectiveProject(t);
-  var pm=DATA.projects.find(function(p){return p.id===pid;});
-  if(pm) return pm.name;
-  if(pid==="inbox") return "Inbox (untagged)";
-  return t.project_name||pid;
 }
 
 function prov(t){
@@ -114,9 +147,11 @@ function rt(t){
   cb.type="checkbox";
   cb.checked=done;
   cb.addEventListener("change",function(){
-    if(cb.checked) checked.add(id); else checked.delete(id);
+    if(cb.checked){ checked.add(id); CLOSED.add(id); }
+    else{ checked.delete(id); CLOSED.delete(id); }
     localStorage.setItem(LS_CHK,JSON.stringify(Array.from(checked)));
     d.classList.toggle("done",cb.checked);
+    syncAction(cb.checked?"close":"open", { task_id: id });
   });
   d.appendChild(cb);
 
@@ -126,12 +161,10 @@ function rt(t){
 
   var m=document.createElement("div"); m.className="task-meta";
 
-  // Project dropdown (editable)
   var sel=document.createElement("select");
   sel.className="pill-edit"+(isOvBool?" overridden":"");
   sel.title=isOvBool?("Re-tagged from: "+(t.project_name||t.project)):"Click to re-tag";
   var effPid=effectiveProject(t);
-  // Inbox option first
   var inboxOpt=document.createElement("option");
   inboxOpt.value="inbox"; inboxOpt.textContent="Inbox (untagged)";
   if(effPid==="inbox") inboxOpt.selected=true;
@@ -146,8 +179,12 @@ function rt(t){
     var newPid=sel.value;
     if(newPid===t.project){
       delete overrides[id];
+      delete SERVER_OV[id];
+      syncAction("remove_override", { task_id: id });
     } else {
       overrides[id]=newPid;
+      SERVER_OV[id]=newPid;
+      syncAction("override", { task_id: id, project_id: newPid });
     }
     localStorage.setItem(LS_OV,JSON.stringify(overrides));
     render();
@@ -190,11 +227,7 @@ function bucket(tasks){
     if(t.confidence==="low"){ o.mb.push(t); return; }
     var dt=t.date?new Date(t.date):null;
     var age=dt?(today-dt)/86400000:999;
-    var inThisWeek=(t.confidence==="high"&&age<=5);
-    if(inThisWeek){
-      o.hr.push(t);
-      return; // exclude from "By project" so each task shows once
-    }
+    if(t.confidence==="high"&&age<=5){ o.hr.push(t); return; }
     if(!o.bp[pid]) o.bp[pid]=[];
     o.bp[pid].push(t);
   });
@@ -206,7 +239,7 @@ function render(){
   var pf=document.getElementById("pf").value;
   var tasks=DATA.tasks;
   if(q) tasks=tasks.filter(function(t){
-    return t.text.toLowerCase().indexOf(q)>=0 || effectiveProjectName(t).toLowerCase().indexOf(q)>=0;
+    return t.text.toLowerCase().indexOf(q)>=0 || (t.project_name||"").toLowerCase().indexOf(q)>=0;
   });
   if(pf) tasks=tasks.filter(function(t){ return effectiveProject(t)===pf; });
   if(hideDone) tasks=tasks.filter(function(t){ return !isDone(t); });
@@ -229,8 +262,7 @@ function render(){
     var pm=DATA.projects.find(function(p){ return p.id===pid; });
     var nm=pm?pm.name:(pid==="inbox"?"Inbox (untagged)":pid);
     var det=document.createElement("details"); det.className="grp";
-    var sm=document.createElement("summary");
-    sm.innerHTML=nm+' <span class="count">('+items.length+')</span>';
+    var sm=document.createElement("summary"); sm.innerHTML=nm+' <span class="count">('+items.length+')</span>';
     det.appendChild(sm);
     var inn=document.createElement("div"); inn.style.paddingLeft="16px";
     items.forEach(function(t){ inn.appendChild(rt(t)); });
@@ -246,7 +278,7 @@ function render(){
 
   var ovCount=Object.keys(overrides).length;
   var ovStr=ovCount>0?(" · "+ovCount+" re-tagged"):"";
-  var hiddenStr=(hideDone&&checked.size>0)?(" · "+checked.size+" hidden (Reset to show)"):"";
+  var hiddenStr=(hideDone&&checked.size>0)?(" · "+checked.size+" hidden"):"";
   document.getElementById("sub").textContent="Last scan: "+DATA.generated_at+" · "+DATA.total+" candidate tasks · "+tasks.length+" shown"+ovStr+hiddenStr;
 }
 
@@ -298,8 +330,20 @@ async function lf(){
   }catch(e){ console.error("fleet",e); }
 }
 
+async function loadServerState(){
+  try {
+    var c=await fetch("./data/closed.json?t="+Date.now());
+    if(c.ok){ var cj=await c.json(); CLOSED=new Set(cj.ids||[]); }
+  } catch(e){}
+  try {
+    var o=await fetch("./data/overrides.json?t="+Date.now());
+    if(o.ok){ var oj=await o.json(); SERVER_OV=oj.overrides||{}; }
+  } catch(e){}
+}
+
 async function load(){
   try{
+    await loadServerState();
     var r=await fetch("./data/tasks.json?t="+Date.now());
     DATA=await r.json();
     var pf=document.getElementById("pf");
@@ -317,26 +361,52 @@ async function load(){
   }
 }
 
+// Modal helpers
+function closeModal(){ document.getElementById("modalRoot").innerHTML=""; }
+function showModal(html){ document.getElementById("modalRoot").innerHTML='<div class="modal-bg" onclick="if(event.target===this) document.getElementById(\'modalRoot\').innerHTML=\'\'"><div class="modal">'+html+'</div></div>'; }
+
+function openSettings(){
+  var cfg=webhookCfg();
+  showModal('<h3>Sync settings</h3><label>Webhook URL</label><input id="cfgUrl" placeholder="https://n8n.example.com/webhook/daily-pulse-sync" value="'+(cfg.url||"")+'" /><label>Webhook secret</label><input id="cfgSecret" type="password" placeholder="paste the secret from the workflow" value="'+(cfg.secret||"")+'" /><div class="modal-actions"><button class="btn" onclick="closeModal()">Cancel</button><button class="btn primary" onclick="saveSettings()">Save</button></div>');
+}
+function saveSettings(){
+  localStorage.setItem(LS_WEBHOOK, document.getElementById("cfgUrl").value.trim());
+  localStorage.setItem(LS_SECRET, document.getElementById("cfgSecret").value.trim());
+  updateSyncBadge();
+  closeModal();
+}
+
+function openNewProject(){
+  showModal('<h3>New project</h3><label>Name</label><input id="npName" placeholder="e.g. Q3 board prep" /><label>ID (auto-generated, edit if needed)</label><input id="npId" placeholder="q3-board" /><label>Tier</label><select id="npTier"><option value="big">big</option><option value="medium" selected>medium</option></select><div class="modal-actions"><button class="btn" onclick="closeModal()">Cancel</button><button class="btn primary" onclick="saveNewProject()">Create</button></div>');
+  document.getElementById("npName").addEventListener("input", function(){
+    var v=this.value.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"").slice(0,24);
+    document.getElementById("npId").value=v;
+  });
+}
+async function saveNewProject(){
+  var name=document.getElementById("npName").value.trim();
+  var id=document.getElementById("npId").value.trim();
+  var tier=document.getElementById("npTier").value;
+  if(!name||!id){ alert("Name and ID required"); return; }
+  // Add locally for immediate use
+  DATA.projects.push({ id:id, name:name, tier:tier });
+  // Update filter dropdown
+  var pf=document.getElementById("pf");
+  var o=document.createElement("option"); o.value=id; o.textContent=name; pf.appendChild(o);
+  render();
+  closeModal();
+  // Sync to repo
+  await syncAction("new_project", { id:id, name:name, tier:tier });
+}
+
 document.getElementById("q").addEventListener("input",render);
 document.getElementById("pf").addEventListener("change",render);
-document.getElementById("refresh").addEventListener("click",function(){
-  hideDone=true;
-  load();
-});
+document.getElementById("refresh").addEventListener("click",function(){ hideDone=true; load(); });
 document.getElementById("reset").addEventListener("click",function(){
-  if(confirm("Clear all locally-checked items?")){
+  if(confirm("Clear all locally-checked items (won't reopen on server)?")){
     checked.clear();
     localStorage.setItem(LS_CHK,"[]");
     hideDone=false;
-    render();
-  }
-});
-document.getElementById("resetov").addEventListener("click",function(){
-  var n=Object.keys(overrides).length;
-  if(n===0){ alert("No re-tags to reset."); return; }
-  if(confirm("Reset "+n+" project re-tag(s)?")){
-    overrides={};
-    localStorage.setItem(LS_OV,"{}");
     render();
   }
 });
@@ -345,6 +415,10 @@ document.getElementById("mt").addEventListener("click",function(){
   if(m.style.display==="none"){ m.style.display=""; b.textContent="Hide"; }
   else { m.style.display="none"; b.textContent="Show"; }
 });
+document.getElementById("settings").addEventListener("click", openSettings);
+document.getElementById("newproj").addEventListener("click", openNewProject);
+
+updateSyncBadge();
 load();
 </script>
 </body>

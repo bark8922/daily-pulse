@@ -1,27 +1,37 @@
 #!/usr/bin/env python3
-"""Merge scan results into data/tasks.json via stable IDs + semantic dedupe."""
+"""Merge scan results into data/tasks.json. Stable-ID dedupe. Honor closed.json + overrides.json."""
 import sys, re, json
 from pathlib import Path
 from datetime import date
-from difflib import SequenceMatcher
 
 REPO = Path(__file__).resolve().parent.parent
-TASKS_FILE = REPO / "data" / "tasks.json"
-PROJ_FILE = REPO / "data" / "projects.json"
+DATA = REPO / "data"
+TASKS_FILE = DATA / "tasks.json"
+PROJ_FILE = DATA / "projects.json"
+CLOSED_FILE = DATA / "closed.json"
+OVERRIDES_FILE = DATA / "overrides.json"
 
 cfg = json.load(open(PROJ_FILE))
 PROJECTS = {p["id"]: p["name"] for p in cfg["projects"]}
 PROJECTS["inbox"] = "Inbox (untagged)"
 DISMISSED = cfg.get("dismissed_patterns", [])
 
+CLOSED_IDS = set()
+if CLOSED_FILE.exists():
+    try:
+        CLOSED_IDS = set(json.load(open(CLOSED_FILE)).get("ids", []))
+    except Exception:
+        CLOSED_IDS = set()
+
+OVERRIDES = {}
+if OVERRIDES_FILE.exists():
+    try:
+        OVERRIDES = json.load(open(OVERRIDES_FILE)).get("overrides", {})
+    except Exception:
+        OVERRIDES = {}
+
 def norm_slug(s, n=40):
     return re.sub(r'\W+', '', s.lower())[:n]
-
-def norm_text(s):
-    return re.sub(r'\s+', ' ', s.lower().strip())
-
-def sim_score(a, b):
-    return SequenceMatcher(None, norm_text(a), norm_text(b)).ratio()
 
 def stable_id(source_type, source, text):
     src = (source or "").strip()
@@ -42,17 +52,6 @@ def is_dismissed(text):
             return True
     return False
 
-def find_similar(t, by_id_dict, same_source_threshold=0.65, cross_source_threshold=0.85):
-    new_text = t.get('text','')
-    new_src = t.get('source','')
-    for ex_id, ex in by_id_dict.items():
-        if not ex.get('text'):
-            continue
-        thresh = same_source_threshold if ex.get('source') == new_src else cross_source_threshold
-        if sim_score(new_text, ex['text']) >= thresh:
-            return ex_id
-    return None
-
 today = str(date.today())
 
 if TASKS_FILE.exists():
@@ -67,35 +66,37 @@ for arg in sys.argv[1:]:
     if not p.exists():
         print("WARN: scan file missing: " + str(p), file=sys.stderr)
         continue
-    data = json.load(open(p))
-    if isinstance(data, list):
-        new_tasks.extend(data)
-    elif isinstance(data, dict) and "tasks" in data:
-        new_tasks.extend(data["tasks"])
+    d = json.load(open(p))
+    if isinstance(d, list):
+        new_tasks.extend(d)
+    elif isinstance(d, dict) and "tasks" in d:
+        new_tasks.extend(d["tasks"])
 
-added, updated = 0, 0
+added, updated, skipped_closed = 0, 0, 0
 for t in new_tasks:
     if is_dismissed(t.get("text", "")):
         continue
     sid = t.get("id") or stable_id(t["source_type"], t.get("source",""), t["text"])
     t["id"] = sid
+    if sid in CLOSED_IDS:
+        # User closed this on the dashboard; do not re-introduce
+        skipped_closed += 1
+        if sid in by_id:
+            del by_id[sid]
+        continue
     proj = t.get("project", "inbox")
-    # Semantic dedupe disabled — rely on stable IDs only.
-    # Stable IDs catch true re-detection (same source artifact).
-    # Different action phrasings = different stable IDs = treated as separate tasks (intentional).
     if sid in by_id:
-        existing_t = by_id[sid]
-        # Keep longer text (usually more informative)
-        if len(t.get("text","")) > len(existing_t.get("text","")):
-            existing_t["text"] = t["text"]
-        existing_t["date"] = max(existing_t.get("date","") or "", t.get("date","") or "")
-        existing_t["last_seen"] = today
-        existing_t["project"] = proj
-        existing_t["project_name"] = PROJECTS.get(proj, proj)
+        ex = by_id[sid]
+        if len(t.get("text","")) > len(ex.get("text","")):
+            ex["text"] = t["text"]
+        ex["date"] = max(ex.get("date","") or "", t.get("date","") or "")
+        ex["last_seen"] = today
+        ex["project"] = proj
+        ex["project_name"] = PROJECTS.get(proj, proj)
         if t.get("confidence") == "high":
-            existing_t["confidence"] = "high"
+            ex["confidence"] = "high"
         if "extras" in t:
-            existing_t["extras"] = t["extras"]
+            ex["extras"] = t["extras"]
         updated += 1
     else:
         t["project_name"] = PROJECTS.get(proj, proj)
@@ -105,13 +106,25 @@ for t in new_tasks:
         by_id[sid] = t
         added += 1
 
+# Remove anything that is now in CLOSED_IDS (idempotent housekeeping)
+for cid in list(CLOSED_IDS):
+    if cid in by_id:
+        del by_id[cid]
+
 final = list(by_id.values())
+# Apply project overrides at write time (server-side source of truth for re-tags)
+for t in final:
+    if t["id"] in OVERRIDES:
+        new_proj = OVERRIDES[t["id"]]
+        t["project"] = new_proj
+        t["project_name"] = PROJECTS.get(new_proj, new_proj)
+
 out = {
     "generated_at": today,
     "schema_version": 2,
     "total": len(final),
-    "projects": [{"id": p["id"], "name": p["name"], "tier": p["tier"]} for p in cfg["projects"]],
+    "projects": [{"id": p["id"], "name": p["name"], "tier": p.get("tier","medium")} for p in cfg["projects"]],
     "tasks": final,
 }
 TASKS_FILE.write_text(json.dumps(out, indent=2))
-print("Merge complete: " + str(added) + " added, " + str(updated) + " updated, " + str(len(final)) + " total")
+print(f"Merge: {added} added, {updated} updated, {skipped_closed} skipped (closed), {len(final)} total")
