@@ -190,7 +190,11 @@ function bucket(tasks){
     if(t.confidence==="low"){ o.mb.push(t); return; }
     var dt=t.date?new Date(t.date):null;
     var age=dt?(today-dt)/86400000:999;
-    if(t.confidence==="high"&&age<=5) o.hr.push(t);
+    var inThisWeek=(t.confidence==="high"&&age<=5);
+    if(inThisWeek){
+      o.hr.push(t);
+      return; // exclude from "By project" so each task shows once
+    }
     if(!o.bp[pid]) o.bp[pid]=[];
     o.bp[pid].push(t);
   });
@@ -220,6 +224,7 @@ function render(){
   var tp=0;
   po.forEach(function(pid){
     var items=b.bp[pid].sort(function(a,x){ return (x.date||"").localeCompare(a.date||""); });
+    if(items.length===0) return;
     tp+=items.length;
     var pm=DATA.projects.find(function(p){ return p.id===pid; });
     var nm=pm?pm.name:(pid==="inbox"?"Inbox (untagged)":pid);
