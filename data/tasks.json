@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-05",
   "schema_version": 2,
-  "total": 255,
+  "total": 249,
   "projects": [
     {
       "id": "fin-dash",
@@ -156,14 +156,14 @@
     },
     {
       "id": "fireflies/01KT6S43EPMAQPFAK2DK6BRJRJ/addslidetofridaymeetingagendaforaisessio",
-      "text": "Add slide to Friday meeting agenda for AI session schedule and announce new TA team addition",
+      "text": "Add a slide to Friday meeting agenda for AI session schedule and announce new TA team addition",
       "project": "leadership",
       "project_name": "Leadership comms",
       "source": "fireflies/01KT6S43EPMAQPFAK2DK6BRJRJ",
       "source_type": "fireflies",
       "date": "2026-06-03",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-05",
       "confidence": "high",
       "extras": {
         "meeting": "AI First"
@@ -187,6 +187,38 @@
       "status": "open"
     },
     {
+      "text": "Implement toggle feature to let sourcers choose daily or weekly reminders for Rolls Roundup submission",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KT6S43EPMAQPFAK2DK6BRJRJ",
+      "source_type": "fireflies",
+      "date": "2026-06-03",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KT6S43EPMAQPFAK2DK6BRJRJ/implementtogglefeaturetoletsourcerschoos",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-06-05",
+      "status": "open"
+    },
+    {
+      "text": "Update team on intake tool progress after meeting with Rodrigo, Michal, and Colin",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KT6S43EPMAQPFAK2DK6BRJRJ",
+      "source_type": "fireflies",
+      "date": "2026-06-03",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KT6S43EPMAQPFAK2DK6BRJRJ/updateteamonintaketoolprogressaftermeeti",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-06-05",
+      "status": "open"
+    },
+    {
       "id": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ/verifyandassistwithgoogleaccountaccessfo",
       "text": "Verify and assist with Google account access for Martin to enable collaboration",
       "project": "inbox",
@@ -205,14 +237,14 @@
     },
     {
       "id": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ/helpmartinbuildsalesdashboardsinhubspotf",
-      "text": "Help Martin build sales dashboards in HubSpot for monthly business reviews",
+      "text": "Coordinate and assist Martin in developing sales dashboards in HubSpot for monthly business reviews",
       "project": "sales-hubspot",
       "project_name": "Sales dashboard + HubSpot",
       "source": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ",
       "source_type": "fireflies",
       "date": "2026-06-01",
       "first_seen": "2026-06-01",
-      "last_seen": "2026-06-01",
+      "last_seen": "2026-06-05",
       "confidence": "high",
       "extras": {
         "meeting": "Blake & Martin: 1:1"
@@ -221,14 +253,14 @@
     },
     {
       "id": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ/pushtaxdeductibilityfixesviaeventinvitat",
-      "text": "Push tax deductibility fixes via event invitations/attendance docs, potentially retroactive to March 2026",
+      "text": "Push forward tax deductibility fixes via event invitations and attendance documentation, including retroactive application from March 2026",
       "project": "legal",
       "project_name": "Legal & Contracts",
       "source": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ",
       "source_type": "fireflies",
       "date": "2026-06-01",
       "first_seen": "2026-06-01",
-      "last_seen": "2026-06-01",
+      "last_seen": "2026-06-05",
       "confidence": "high",
       "extras": {
         "meeting": "Blake & Martin: 1:1"
@@ -253,14 +285,14 @@
     },
     {
       "id": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ/setupdirectmeetingbetweenmichalandrodrig",
-      "text": "Set up direct meeting between Michal and Rodrigo to clarify tool requirements",
+      "text": "Set up a direct meeting between Michal and Rodrigo to clarify tool and app development requirements",
       "project": "ai-recruiting",
       "project_name": "Roundup & Intake (AI recruiting tools)",
       "source": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ",
       "source_type": "fireflies",
       "date": "2026-06-01",
       "first_seen": "2026-06-01",
-      "last_seen": "2026-06-01",
+      "last_seen": "2026-06-05",
       "confidence": "high",
       "extras": {
         "meeting": "Blake & Martin: 1:1"
@@ -285,14 +317,14 @@
     },
     {
       "id": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ/assignleadershipforaimeetingsandnotifyte",
-      "text": "Assign leadership for AI meetings and notify team to avoid coordination failures",
+      "text": "Improve communication by assigning leadership for AI meetings and notifying the team to avoid coordination failures",
       "project": "leadership",
       "project_name": "Leadership comms",
       "source": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ",
       "source_type": "fireflies",
       "date": "2026-06-01",
       "first_seen": "2026-06-01",
-      "last_seen": "2026-06-01",
+      "last_seen": "2026-06-05",
       "confidence": "medium",
       "extras": {
         "meeting": "Blake & Martin: 1:1"
@@ -300,15 +332,31 @@
       "status": "open"
     },
     {
+      "text": "Continue negotiations with Power BI vendor to reduce plan tier costs starting from August",
+      "project": "keboola-sunset",
+      "source": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ",
+      "source_type": "fireflies",
+      "date": "2026-06-01",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ/continuenegotiationswithpowerbivendortor",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-06-05",
+      "status": "open"
+    },
+    {
       "id": "fireflies/01KT1JN7H61PMRD2SVHA65F00T/createexportdownloadfeaturefordashboards",
-      "text": "Create export/download feature for dashboards for users who don't use Dispatch",
+      "text": "Create an export/download feature for dashboards so users who don't use Dispatch can manipulate data",
       "project": "rec-dash",
       "project_name": "Tribe Recruiting Dashboard",
       "source": "fireflies/01KT1JN7H61PMRD2SVHA65F00T",
       "source_type": "fireflies",
       "date": "2026-06-01",
       "first_seen": "2026-06-01",
-      "last_seen": "2026-06-01",
+      "last_seen": "2026-06-05",
       "confidence": "medium",
       "extras": {
         "meeting": "Claude: Master Sessions"
@@ -361,6 +409,54 @@
       "extras": {
         "meeting": "Caroline / Blake"
       },
+      "status": "open"
+    },
+    {
+      "text": "Explore and figure out HubSpot product-customer linking and subscription management in a focused work session Thursday",
+      "project": "sales-hubspot",
+      "source": "fireflies/01KT1F8F8E9D9J9H986BYJJSSE",
+      "source_type": "fireflies",
+      "date": "2026-06-01",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Caroline / Blake"
+      },
+      "id": "fireflies/01KT1F8F8E9D9J9H986BYJJSSE/exploreandfigureouthubspotproductcustome",
+      "project_name": "Sales dashboard + HubSpot",
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-06-05",
+      "status": "open"
+    },
+    {
+      "text": "Create and manage subscriptions in HubSpot using updated settings that disable automatic invoices and emails",
+      "project": "sales-hubspot",
+      "source": "fireflies/01KT1F8F8E9D9J9H986BYJJSSE",
+      "source_type": "fireflies",
+      "date": "2026-06-01",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Caroline / Blake"
+      },
+      "id": "fireflies/01KT1F8F8E9D9J9H986BYJJSSE/createandmanagesubscriptionsinhubspotusi",
+      "project_name": "Sales dashboard + HubSpot",
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-06-05",
+      "status": "open"
+    },
+    {
+      "text": "Investigate integration between HubSpot and accounting software for automatic invoice and payment tracking",
+      "project": "sales-hubspot",
+      "source": "fireflies/01KT1F8F8E9D9J9H986BYJJSSE",
+      "source_type": "fireflies",
+      "date": "2026-06-01",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Caroline / Blake"
+      },
+      "id": "fireflies/01KT1F8F8E9D9J9H986BYJJSSE/investigateintegrationbetweenhubspotanda",
+      "project_name": "Sales dashboard + HubSpot",
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-06-05",
       "status": "open"
     },
     {
@@ -444,6 +540,54 @@
       "status": "open"
     },
     {
+      "text": "Adjust dashboard default view to show current week's data instead of last week's, considering Monday/Friday viewing preferences",
+      "project": "rec-dash",
+      "source": "fireflies/01KSSHZPETRA4XVX1043E3N0R2",
+      "source_type": "fireflies",
+      "date": "2026-05-29",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Valeriia / Blake"
+      },
+      "id": "fireflies/01KSSHZPETRA4XVX1043E3N0R2/adjustdashboarddefaultviewtoshowcurrentw",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-05",
+      "status": "open"
+    },
+    {
+      "text": "Inform TA team they'll receive Valeriia's weekly updates on Mondays and gather feedback on usefulness",
+      "project": "tribebot",
+      "source": "fireflies/01KSSHZPETRA4XVX1043E3N0R2",
+      "source_type": "fireflies",
+      "date": "2026-05-29",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Valeriia / Blake"
+      },
+      "id": "fireflies/01KSSHZPETRA4XVX1043E3N0R2/informtateamtheyllreceivevaleriiasweekly",
+      "project_name": "Tribebot",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-05",
+      "status": "open"
+    },
+    {
+      "text": "Evaluate implementing an editable draft mode in the automation bot for incremental weekly updates with final Friday submission",
+      "project": "tribebot",
+      "source": "fireflies/01KSSHZPETRA4XVX1043E3N0R2",
+      "source_type": "fireflies",
+      "date": "2026-05-29",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Valeriia / Blake"
+      },
+      "id": "fireflies/01KSSHZPETRA4XVX1043E3N0R2/evaluateimplementinganeditabledraftmodei",
+      "project_name": "Tribebot",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-05",
+      "status": "open"
+    },
+    {
       "id": "fireflies/01KSSZR64JWQ3MPVEKY500QGH4/gatherteamfeedbackonnewweeklyrecruitingd",
       "text": "Gather team feedback on new weekly recruiting dashboards and prioritize widely requested features",
       "project": "rec-dash",
@@ -473,6 +617,22 @@
       "extras": {
         "meeting": "Friday Team Meeting"
       },
+      "status": "open"
+    },
+    {
+      "text": "Gather and incorporate team feedback on new weekly recruiting data dashboards, prioritize requested features, and ensure data accuracy",
+      "project": "rec-dash",
+      "source": "fireflies/01KSSZR64JWQ3MPVEKY500QGH4",
+      "source_type": "fireflies",
+      "date": "2026-05-29",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Friday Team Meeting"
+      },
+      "id": "fireflies/01KSSZR64JWQ3MPVEKY500QGH4/gatherandincorporateteamfeedbackonnewwee",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-05",
       "status": "open"
     },
     {
@@ -2860,6 +3020,22 @@
       "status": "open"
     },
     {
+      "text": "Trigger the recruiting Keboola Flow (drops_by_sourcer) and the Circle GH Action so the Recruiter Screen tile and rejection-reasons donut data flows, then ship/verify the final Circle HTML",
+      "project": "circle",
+      "source": "cowork/local_db8634a7-b3eb-466b-90f8-bc0dcea02eec",
+      "source_type": "cowork",
+      "date": "2026-06-05",
+      "confidence": "medium",
+      "extras": {
+        "session": "Dashboard data discrepancies"
+      },
+      "id": "cowork/local_db8634a7-b3eb-466b-90f8-bc0dcea02eec/triggertherecruitingkeboolaflowdrops_by_",
+      "project_name": "Project Circle",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-05",
+      "status": "open"
+    },
+    {
       "id": "cowork/local_17a4b182-2613-4f1f-ba8f-ed57f4d7a66e/decideflowbcadencetradeoff3xdayvs2xdayvs",
       "text": "Decide Flow B cadence trade-off (3x/day vs 2x/day vs 1x/day) and Flow A coordination to hit lowest June Keboola spend before renegotiation",
       "project": "keboola-sunset",
@@ -2972,6 +3148,22 @@
       "status": "open"
     },
     {
+      "text": "Run the Keboola sourcing transformation and Python component so Zelimir's allocation fix (Wolt to Aviv on June 1) flows through to the Q2 dashboard",
+      "project": "rec-dash",
+      "source": "cowork/local_7b8da118-b92f-40f5-a001-a82e5ed35cbd",
+      "source_type": "cowork",
+      "date": "2026-06-05",
+      "confidence": "high",
+      "extras": {
+        "session": "Sourcing dashboards analysis"
+      },
+      "id": "cowork/local_7b8da118-b92f-40f5-a001-a82e5ed35cbd/runthekeboolasourcingtransformationandpy",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-05",
+      "status": "open"
+    },
+    {
       "id": "cowork/local_812487b2-21b4-4f5d-b689-afdafd9ee602/senddraftedcardholderslackmessageaboutne",
       "text": "Send drafted cardholder Slack message about new AI expense categorization process (starting Monday June 8 weekly nudges)",
       "project": "expense-ops",
@@ -3020,6 +3212,38 @@
       "status": "open"
     },
     {
+      "text": "Backfill Date completed (MM.YYYY) and Category on the expense rows that landed today before the categorizer fixes were applied",
+      "project": "expense-ops",
+      "source": "cowork/local_812487b2-21b4-4f5d-b689-afdafd9ee602",
+      "source_type": "cowork",
+      "date": "2026-06-05",
+      "confidence": "high",
+      "extras": {
+        "session": "Fix transaction categorization workflows"
+      },
+      "id": "cowork/local_812487b2-21b4-4f5d-b689-afdafd9ee602/backfilldatecompletedmmyyyyandcategoryon",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-05",
+      "status": "open"
+    },
+    {
+      "text": "Send the cardholder Slack post about the expense categorization changes before the first Weekly Receipt Nudge run on Monday June 8",
+      "project": "expense-ops",
+      "source": "cowork/local_812487b2-21b4-4f5d-b689-afdafd9ee602",
+      "source_type": "cowork",
+      "date": "2026-06-05",
+      "confidence": "medium",
+      "extras": {
+        "session": "Fix transaction categorization workflows"
+      },
+      "id": "cowork/local_812487b2-21b4-4f5d-b689-afdafd9ee602/sendthecardholderslackpostabouttheexpens",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-05",
+      "status": "open"
+    },
+    {
       "id": "cowork/local_10c5115b-06ed-441b-ab58-8d65a715a7bb/sendgustavothedraftedmessageaboutarchive",
       "text": "Send Gustavo the drafted message about archived-jobs filter policy (Project Dashboard vs TS Summary) and get his decision on canonical metric",
       "project": "rec-dash",
@@ -3052,6 +3276,54 @@
       "status": "open"
     },
     {
+      "id": "cowork/local_b49abb84-a9bd-454f-818f-2b1c58d169fe/waitforvaleriasirrolesubmissionpostconve",
+      "text": "Wait for Valeria's IR role submission post-conversation; Sanja Pavlovikj DM pending",
+      "project": "tribebot",
+      "project_name": "Tribebot",
+      "source": "cowork/local_b49abb84-a9bd-454f-818f-2b1c58d169fe",
+      "source_type": "cowork",
+      "date": "2026-06-02",
+      "first_seen": "2026-06-02",
+      "last_seen": "2026-06-02",
+      "confidence": "medium",
+      "extras": {
+        "session": "Project status update on two initiatives"
+      },
+      "status": "open"
+    },
+    {
+      "text": "Gather daily-vs-weekly submission cadence feedback from the next 2 pilot calls (e.g. Gustavo) to decide whether to drop, universally build, or build opt-in the daily Roles Roundup check-in flow",
+      "project": "ai-recruiting",
+      "source": "cowork/local_b49abb84-a9bd-454f-818f-2b1c58d169fe",
+      "source_type": "cowork",
+      "date": "2026-06-05",
+      "confidence": "medium",
+      "extras": {
+        "session": "Project status update on two initiatives"
+      },
+      "id": "cowork/local_b49abb84-a9bd-454f-818f-2b1c58d169fe/gatherdailyvsweeklysubmissioncadencefeed",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-05",
+      "status": "open"
+    },
+    {
+      "text": "Get Valeria's IR role submission so the pending digest DM can go to Sanja Pavlovikj on the Tribe.xyz IR role",
+      "project": "ai-recruiting",
+      "source": "cowork/local_b49abb84-a9bd-454f-818f-2b1c58d169fe",
+      "source_type": "cowork",
+      "date": "2026-06-05",
+      "confidence": "medium",
+      "extras": {
+        "session": "Project status update on two initiatives"
+      },
+      "id": "cowork/local_b49abb84-a9bd-454f-818f-2b1c58d169fe/getvaleriasirrolesubmissionsothependingd",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-05",
+      "status": "open"
+    },
+    {
       "id": "cowork/local_7eef98fa-2985-41e6-97f1-a276de2b6d39/manuallytriggerdeploymaingithubactionswo",
       "text": "Manually trigger deploy-main GitHub Actions workflow to push bench cost fix bundle live",
       "project": "fin-dash",
@@ -3081,6 +3353,22 @@
       "extras": {
         "session": "Parlowa payment reconciliation"
       },
+      "status": "open"
+    },
+    {
+      "text": "Send the Parloa wrong-currency reconciliation email with the breakdown sheet attached, asking them to pay 14,050 EUR on the May invoice and pay USD invoices in USD going forward",
+      "project": "expense-ops",
+      "source": "cowork/local_c1aaaae8-1557-43b1-88b3-8c2ba8987835",
+      "source_type": "cowork",
+      "date": "2026-06-05",
+      "confidence": "high",
+      "extras": {
+        "session": "Parlowa payment reconciliation"
+      },
+      "id": "cowork/local_c1aaaae8-1557-43b1-88b3-8c2ba8987835/sendtheparloawrongcurrencyreconciliation",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-05",
       "status": "open"
     },
     {
@@ -3161,6 +3449,22 @@
       "extras": {
         "session": "Sales dashboard rebuild"
       },
+      "status": "open"
+    },
+    {
+      "text": "Ask Martin the sales-dashboard scoping questions: whether the funnel metrics (Viewed to Contacted etc.) are a recruiting-delivery bridge or stale carryover, which existing tabs he still uses, what's missing, refresh cadence, and who needs access",
+      "project": "sales-hubspot",
+      "source": "cowork/local_f2c8cf91-90a0-410c-9af3-cbebf5df775f",
+      "source_type": "cowork",
+      "date": "2026-06-05",
+      "confidence": "high",
+      "extras": {
+        "session": "Sales dashboard rebuild"
+      },
+      "id": "cowork/local_f2c8cf91-90a0-410c-9af3-cbebf5df775f/askmartinthesalesdashboardscopingquestio",
+      "project_name": "Sales dashboard + HubSpot",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-05",
       "status": "open"
     },
     {
@@ -3580,6 +3884,38 @@
       "status": "open"
     },
     {
+      "text": "In the intake automation meeting with Rodrigo and Mikhail, lock in Mikhail's API spec timeline, Rodrigo's extension-changes timeline, a decision on the Bubble job-linking gap (option A/B/C), and a target ready date for the first real intake",
+      "project": "ai-recruiting",
+      "source": "cowork/local_a35f595d-6d3c-451b-afa1-ac19717a83d7",
+      "source_type": "cowork",
+      "date": "2026-06-05",
+      "confidence": "high",
+      "extras": {
+        "session": "Design intake automation and sourcer tracking system"
+      },
+      "id": "cowork/local_a35f595d-6d3c-451b-afa1-ac19717a83d7/intheintakeautomationmeetingwithrodrigoa",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-05",
+      "status": "open"
+    },
+    {
+      "text": "Enforce mandatory intake form on every new role with an end-of-week check with directors (Salem, Kristjana, Chris) plus Jacopo on who opened a role without using the intake form",
+      "project": "ai-recruiting",
+      "source": "cowork/local_a35f595d-6d3c-451b-afa1-ac19717a83d7",
+      "source_type": "cowork",
+      "date": "2026-06-05",
+      "confidence": "high",
+      "extras": {
+        "session": "Design intake automation and sourcer tracking system"
+      },
+      "id": "cowork/local_a35f595d-6d3c-451b-afa1-ac19717a83d7/enforcemandatoryintakeformoneverynewrole",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-05",
+      "status": "open"
+    },
+    {
       "id": "cowork/local_1aec0472-6a4e-4099-8d7d-d13ec3f97a08/cancelinsightfulpipesubscriptioncaroline",
       "text": "Cancel Insightful Pipe subscription (Caroline executing) and complete SaaS license review",
       "project": "expense-ops",
@@ -3644,22 +3980,6 @@
       "status": "open"
     },
     {
-      "id": "cowork/local_b49abb84-a9bd-454f-818f-2b1c58d169fe/waitforvaleriasirrolesubmissionpostconve",
-      "text": "Wait for Valeria's IR role submission post-conversation; Sanja Pavlovikj DM pending",
-      "project": "tribebot",
-      "project_name": "Tribebot",
-      "source": "cowork/local_b49abb84-a9bd-454f-818f-2b1c58d169fe",
-      "source_type": "cowork",
-      "date": "2026-06-02",
-      "first_seen": "2026-06-02",
-      "last_seen": "2026-06-02",
-      "confidence": "medium",
-      "extras": {
-        "session": "Project status update on two initiatives"
-      },
-      "status": "open"
-    },
-    {
       "id": "cowork/local_86acf7c1-85db-43d6-929f-707992e82bef/andreatatrainingtribebothandoffcompleted",
       "text": "Andrea (TA training/Tribe bot handoff) - complete delegation",
       "project": "tribebot",
@@ -3708,214 +4028,6 @@
       "status": "open"
     },
     {
-      "text": "Implement toggle feature to let sourcers choose daily or weekly reminders for Rolls Roundup submission",
-      "project": "ai-recruiting",
-      "source": "fireflies/01KT6S43EPMAQPFAK2DK6BRJRJ",
-      "source_type": "fireflies",
-      "date": "2026-06-03",
-      "confidence": "high",
-      "extras": {
-        "meeting": "AI First"
-      },
-      "id": "fireflies/01KT6S43EPMAQPFAK2DK6BRJRJ/implementtogglefeaturetoletsourcerschoos",
-      "project_name": "Roundup & Intake (AI recruiting tools)",
-      "first_seen": "2026-06-03",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Add a slide to Friday meeting agenda for AI session schedule and announce new TA team addition",
-      "project": "team-cohesion",
-      "source": "fireflies/01KT6S43EPMAQPFAK2DK6BRJRJ",
-      "source_type": "fireflies",
-      "date": "2026-06-03",
-      "confidence": "medium",
-      "extras": {
-        "meeting": "AI First"
-      },
-      "id": "fireflies/01KT6S43EPMAQPFAK2DK6BRJRJ/addaslidetofridaymeetingagendaforaisessi",
-      "project_name": "Team cohesion",
-      "first_seen": "2026-06-03",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Update team on intake tool progress after meeting with Rodrigo, Michal, and Colin",
-      "project": "ai-recruiting",
-      "source": "fireflies/01KT6S43EPMAQPFAK2DK6BRJRJ",
-      "source_type": "fireflies",
-      "date": "2026-06-03",
-      "confidence": "medium",
-      "extras": {
-        "meeting": "AI First"
-      },
-      "id": "fireflies/01KT6S43EPMAQPFAK2DK6BRJRJ/updateteamonintaketoolprogressaftermeeti",
-      "project_name": "Roundup & Intake (AI recruiting tools)",
-      "first_seen": "2026-06-03",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Coordinate and assist Martin in developing sales dashboards in HubSpot for monthly business reviews",
-      "project": "sales-hubspot",
-      "source": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ",
-      "source_type": "fireflies",
-      "date": "2026-06-01",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Blake & Martin: 1:1"
-      },
-      "id": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ/coordinateandassistmartinindevelopingsal",
-      "project_name": "Sales dashboard + HubSpot",
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Push forward tax deductibility fixes via event invitations and attendance documentation, including retroactive application from March 2026",
-      "project": "expense-ops",
-      "source": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ",
-      "source_type": "fireflies",
-      "date": "2026-06-01",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Blake & Martin: 1:1"
-      },
-      "id": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ/pushforwardtaxdeductibilityfixesviaevent",
-      "project_name": "Expense Ops",
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Set up a direct meeting between Michal and Rodrigo to clarify tool and app development requirements",
-      "project": "ai-recruiting",
-      "source": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ",
-      "source_type": "fireflies",
-      "date": "2026-06-01",
-      "confidence": "medium",
-      "extras": {
-        "meeting": "Blake & Martin: 1:1"
-      },
-      "id": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ/setupadirectmeetingbetweenmichalandrodri",
-      "project_name": "Roundup & Intake (AI recruiting tools)",
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Continue negotiations with Power BI vendor to reduce plan tier costs starting from August",
-      "project": "keboola-sunset",
-      "source": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ",
-      "source_type": "fireflies",
-      "date": "2026-06-01",
-      "confidence": "medium",
-      "extras": {
-        "meeting": "Blake & Martin: 1:1"
-      },
-      "id": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ/continuenegotiationswithpowerbivendortor",
-      "project_name": "Keboola migration / sunset",
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Improve communication by assigning leadership for AI meetings and notifying the team to avoid coordination failures",
-      "project": "leadership",
-      "source": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ",
-      "source_type": "fireflies",
-      "date": "2026-06-01",
-      "confidence": "low",
-      "extras": {
-        "meeting": "Blake & Martin: 1:1"
-      },
-      "id": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ/improvecommunicationbyassigningleadershi",
-      "project_name": "Leadership comms",
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Create an export/download feature for dashboards so users who don't use Dispatch can manipulate data",
-      "project": "fin-dash",
-      "source": "fireflies/01KT1JN7H61PMRD2SVHA65F00T",
-      "source_type": "fireflies",
-      "date": "2026-06-01",
-      "confidence": "medium",
-      "extras": {
-        "meeting": "Claude: Master Sessions"
-      },
-      "id": "fireflies/01KT1JN7H61PMRD2SVHA65F00T/createanexportdownloadfeaturefordashboar",
-      "project_name": "Tribe Financial Dashboard",
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Explore and figure out HubSpot product-customer linking and subscription management in a focused work session Thursday",
-      "project": "sales-hubspot",
-      "source": "fireflies/01KT1F8F8E9D9J9H986BYJJSSE",
-      "source_type": "fireflies",
-      "date": "2026-06-01",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Caroline / Blake"
-      },
-      "id": "fireflies/01KT1F8F8E9D9J9H986BYJJSSE/exploreandfigureouthubspotproductcustome",
-      "project_name": "Sales dashboard + HubSpot",
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Create and manage subscriptions in HubSpot using updated settings that disable automatic invoices and emails",
-      "project": "sales-hubspot",
-      "source": "fireflies/01KT1F8F8E9D9J9H986BYJJSSE",
-      "source_type": "fireflies",
-      "date": "2026-06-01",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Caroline / Blake"
-      },
-      "id": "fireflies/01KT1F8F8E9D9J9H986BYJJSSE/createandmanagesubscriptionsinhubspotusi",
-      "project_name": "Sales dashboard + HubSpot",
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Investigate integration between HubSpot and accounting software for automatic invoice and payment tracking",
-      "project": "sales-hubspot",
-      "source": "fireflies/01KT1F8F8E9D9J9H986BYJJSSE",
-      "source_type": "fireflies",
-      "date": "2026-06-01",
-      "confidence": "medium",
-      "extras": {
-        "meeting": "Caroline / Blake"
-      },
-      "id": "fireflies/01KT1F8F8E9D9J9H986BYJJSSE/investigateintegrationbetweenhubspotanda",
-      "project_name": "Sales dashboard + HubSpot",
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Gather and incorporate team feedback on new weekly recruiting data dashboards, prioritize requested features, and ensure data accuracy",
-      "project": "rec-dash",
-      "source": "fireflies/01KSSZR64JWQ3MPVEKY500QGH4",
-      "source_type": "fireflies",
-      "date": "2026-05-29",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Friday Team Meeting"
-      },
-      "id": "fireflies/01KSSZR64JWQ3MPVEKY500QGH4/gatherandincorporateteamfeedbackonnewwee",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-05-29",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
       "text": "Provide insight on US corporate culture bias toward LATAM hires and share LATAM contacts for market insight",
       "project": "us-expansion",
       "source": "fireflies/01KSSSQNAAMPVC0CEKM4XBYAYA",
@@ -3927,54 +4039,6 @@
       },
       "id": "fireflies/01KSSSQNAAMPVC0CEKM4XBYAYA/provideinsightonuscorporateculturebiasto",
       "project_name": "US expansion",
-      "first_seen": "2026-05-29",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Adjust dashboard default view to show current week's data instead of last week's, considering Monday/Friday viewing preferences",
-      "project": "rec-dash",
-      "source": "fireflies/01KSSHZPETRA4XVX1043E3N0R2",
-      "source_type": "fireflies",
-      "date": "2026-05-29",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Valeriia / Blake"
-      },
-      "id": "fireflies/01KSSHZPETRA4XVX1043E3N0R2/adjustdashboarddefaultviewtoshowcurrentw",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-05-29",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Inform TA team they'll receive Valeriia's weekly updates on Mondays and gather feedback on usefulness",
-      "project": "tribebot",
-      "source": "fireflies/01KSSHZPETRA4XVX1043E3N0R2",
-      "source_type": "fireflies",
-      "date": "2026-05-29",
-      "confidence": "medium",
-      "extras": {
-        "meeting": "Valeriia / Blake"
-      },
-      "id": "fireflies/01KSSHZPETRA4XVX1043E3N0R2/informtateamtheyllreceivevaleriiasweekly",
-      "project_name": "Tribebot",
-      "first_seen": "2026-05-29",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Evaluate implementing an editable draft mode in the automation bot for incremental weekly updates with final Friday submission",
-      "project": "tribebot",
-      "source": "fireflies/01KSSHZPETRA4XVX1043E3N0R2",
-      "source_type": "fireflies",
-      "date": "2026-05-29",
-      "confidence": "medium",
-      "extras": {
-        "meeting": "Valeriia / Blake"
-      },
-      "id": "fireflies/01KSSHZPETRA4XVX1043E3N0R2/evaluateimplementinganeditabledraftmodei",
-      "project_name": "Tribebot",
       "first_seen": "2026-05-29",
       "last_seen": "2026-06-05",
       "status": "open"
@@ -4064,22 +4128,6 @@
       "status": "open"
     },
     {
-      "text": "Run the Keboola sourcing transformation and Python component so Zelimir's allocation fix (Wolt to Aviv on June 1) flows through to the Q2 dashboard",
-      "project": "rec-dash",
-      "source": "cowork/local_7b8da118-b92f-40f5-a001-a82e5ed35cbd",
-      "source_type": "cowork",
-      "date": "2026-06-05",
-      "confidence": "high",
-      "extras": {
-        "session": "Sourcing dashboards analysis"
-      },
-      "id": "cowork/local_7b8da118-b92f-40f5-a001-a82e5ed35cbd/runthekeboolasourcingtransformationandpy",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-06-05",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
       "text": "Click Run now on the ai-first-weekly-notion-update scheduled task this week to pre-approve Fireflies and Notion permissions before next Wednesday's auto-run",
       "project": "ai-recruiting",
       "source": "cowork/local_630723d7-8084-40fa-9656-6c93182a954f",
@@ -4091,150 +4139,6 @@
       },
       "id": "cowork/local_630723d7-8084-40fa-9656-6c93182a954f/clickrunnowontheaifirstweeklynotionupdat",
       "project_name": "Roundup & Intake (AI recruiting tools)",
-      "first_seen": "2026-06-05",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "In the intake automation meeting with Rodrigo and Mikhail, lock in Mikhail's API spec timeline, Rodrigo's extension-changes timeline, a decision on the Bubble job-linking gap (option A/B/C), and a target ready date for the first real intake",
-      "project": "ai-recruiting",
-      "source": "cowork/local_a35f595d-6d3c-451b-afa1-ac19717a83d7",
-      "source_type": "cowork",
-      "date": "2026-06-05",
-      "confidence": "high",
-      "extras": {
-        "session": "Design intake automation and sourcer tracking system"
-      },
-      "id": "cowork/local_a35f595d-6d3c-451b-afa1-ac19717a83d7/intheintakeautomationmeetingwithrodrigoa",
-      "project_name": "Roundup & Intake (AI recruiting tools)",
-      "first_seen": "2026-06-05",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Enforce mandatory intake form on every new role with an end-of-week check with directors (Salem, Kristjana, Chris) plus Jacopo on who opened a role without using the intake form",
-      "project": "ai-recruiting",
-      "source": "cowork/local_a35f595d-6d3c-451b-afa1-ac19717a83d7",
-      "source_type": "cowork",
-      "date": "2026-06-05",
-      "confidence": "high",
-      "extras": {
-        "session": "Design intake automation and sourcer tracking system"
-      },
-      "id": "cowork/local_a35f595d-6d3c-451b-afa1-ac19717a83d7/enforcemandatoryintakeformoneverynewrole",
-      "project_name": "Roundup & Intake (AI recruiting tools)",
-      "first_seen": "2026-06-05",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Backfill Date completed (MM.YYYY) and Category on the expense rows that landed today before the categorizer fixes were applied",
-      "project": "expense-ops",
-      "source": "cowork/local_812487b2-21b4-4f5d-b689-afdafd9ee602",
-      "source_type": "cowork",
-      "date": "2026-06-05",
-      "confidence": "high",
-      "extras": {
-        "session": "Fix transaction categorization workflows"
-      },
-      "id": "cowork/local_812487b2-21b4-4f5d-b689-afdafd9ee602/backfilldatecompletedmmyyyyandcategoryon",
-      "project_name": "Expense Ops",
-      "first_seen": "2026-06-05",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Send the cardholder Slack post about the expense categorization changes before the first Weekly Receipt Nudge run on Monday June 8",
-      "project": "expense-ops",
-      "source": "cowork/local_812487b2-21b4-4f5d-b689-afdafd9ee602",
-      "source_type": "cowork",
-      "date": "2026-06-05",
-      "confidence": "medium",
-      "extras": {
-        "session": "Fix transaction categorization workflows"
-      },
-      "id": "cowork/local_812487b2-21b4-4f5d-b689-afdafd9ee602/sendthecardholderslackpostabouttheexpens",
-      "project_name": "Expense Ops",
-      "first_seen": "2026-06-05",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Gather daily-vs-weekly submission cadence feedback from the next 2 pilot calls (e.g. Gustavo) to decide whether to drop, universally build, or build opt-in the daily Roles Roundup check-in flow",
-      "project": "ai-recruiting",
-      "source": "cowork/local_b49abb84-a9bd-454f-818f-2b1c58d169fe",
-      "source_type": "cowork",
-      "date": "2026-06-05",
-      "confidence": "medium",
-      "extras": {
-        "session": "Project status update on two initiatives"
-      },
-      "id": "cowork/local_b49abb84-a9bd-454f-818f-2b1c58d169fe/gatherdailyvsweeklysubmissioncadencefeed",
-      "project_name": "Roundup & Intake (AI recruiting tools)",
-      "first_seen": "2026-06-05",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Get Valeria's IR role submission so the pending digest DM can go to Sanja Pavlovikj on the Tribe.xyz IR role",
-      "project": "ai-recruiting",
-      "source": "cowork/local_b49abb84-a9bd-454f-818f-2b1c58d169fe",
-      "source_type": "cowork",
-      "date": "2026-06-05",
-      "confidence": "medium",
-      "extras": {
-        "session": "Project status update on two initiatives"
-      },
-      "id": "cowork/local_b49abb84-a9bd-454f-818f-2b1c58d169fe/getvaleriasirrolesubmissionsothependingd",
-      "project_name": "Roundup & Intake (AI recruiting tools)",
-      "first_seen": "2026-06-05",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Send the Parloa wrong-currency reconciliation email with the breakdown sheet attached, asking them to pay 14,050 EUR on the May invoice and pay USD invoices in USD going forward",
-      "project": "expense-ops",
-      "source": "cowork/local_c1aaaae8-1557-43b1-88b3-8c2ba8987835",
-      "source_type": "cowork",
-      "date": "2026-06-05",
-      "confidence": "high",
-      "extras": {
-        "session": "Parlowa payment reconciliation"
-      },
-      "id": "cowork/local_c1aaaae8-1557-43b1-88b3-8c2ba8987835/sendtheparloawrongcurrencyreconciliation",
-      "project_name": "Expense Ops",
-      "first_seen": "2026-06-05",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Ask Martin the sales-dashboard scoping questions: whether the funnel metrics (Viewed to Contacted etc.) are a recruiting-delivery bridge or stale carryover, which existing tabs he still uses, what's missing, refresh cadence, and who needs access",
-      "project": "sales-hubspot",
-      "source": "cowork/local_f2c8cf91-90a0-410c-9af3-cbebf5df775f",
-      "source_type": "cowork",
-      "date": "2026-06-05",
-      "confidence": "high",
-      "extras": {
-        "session": "Sales dashboard rebuild"
-      },
-      "id": "cowork/local_f2c8cf91-90a0-410c-9af3-cbebf5df775f/askmartinthesalesdashboardscopingquestio",
-      "project_name": "Sales dashboard + HubSpot",
-      "first_seen": "2026-06-05",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Trigger the recruiting Keboola Flow (drops_by_sourcer) and the Circle GH Action so the Recruiter Screen tile and rejection-reasons donut data flows, then ship/verify the final Circle HTML",
-      "project": "circle",
-      "source": "cowork/local_db8634a7-b3eb-466b-90f8-bc0dcea02eec",
-      "source_type": "cowork",
-      "date": "2026-06-05",
-      "confidence": "medium",
-      "extras": {
-        "session": "Dashboard data discrepancies"
-      },
-      "id": "cowork/local_db8634a7-b3eb-466b-90f8-bc0dcea02eec/triggertherecruitingkeboolaflowdrops_by_",
-      "project_name": "Project Circle",
       "first_seen": "2026-06-05",
       "last_seen": "2026-06-05",
       "status": "open"
