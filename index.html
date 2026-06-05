@@ -92,8 +92,8 @@ var SERVER_OV={};
 
 function webhookCfg(){
   return {
-    url: localStorage.getItem(LS_WEBHOOK) || "",
-    secret: localStorage.getItem(LS_SECRET) || ""
+    url: localStorage.getItem(LS_WEBHOOK) || "https://blakebarkley.app.n8n.cloud/webhook/daily-pulse-sync",
+    secret: localStorage.getItem(LS_SECRET) || "97ubpfdoj9zPss2xf3UmS_WNtfk-ZJHb"
   };
 }
 function updateSyncBadge(){
