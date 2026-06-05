@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-05",
   "schema_version": 2,
-  "total": 249,
+  "total": 241,
   "projects": [
     {
       "id": "fin-dash",
@@ -124,14 +124,14 @@
     },
     {
       "id": "fireflies/01KT6S43EPMAQPFAK2DK6BRJRJ/implementtoggleforsourcerstochoosedailyo",
-      "text": "Implement toggle for sourcers to choose daily or weekly Rolls Roundup reminders",
+      "text": "Implement toggle feature to let sourcers choose daily or weekly reminders for Rolls Roundup submission",
       "project": "ai-recruiting",
       "project_name": "Roundup & Intake (AI recruiting tools)",
       "source": "fireflies/01KT6S43EPMAQPFAK2DK6BRJRJ",
       "source_type": "fireflies",
       "date": "2026-06-03",
       "first_seen": "2026-06-03",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-05",
       "confidence": "high",
       "extras": {
         "meeting": "AI First"
@@ -184,22 +184,6 @@
       "extras": {
         "meeting": "AI First"
       },
-      "status": "open"
-    },
-    {
-      "text": "Implement toggle feature to let sourcers choose daily or weekly reminders for Rolls Roundup submission",
-      "project": "ai-recruiting",
-      "source": "fireflies/01KT6S43EPMAQPFAK2DK6BRJRJ",
-      "source_type": "fireflies",
-      "date": "2026-06-03",
-      "confidence": "high",
-      "extras": {
-        "meeting": "AI First"
-      },
-      "id": "fireflies/01KT6S43EPMAQPFAK2DK6BRJRJ/implementtogglefeaturetoletsourcerschoos",
-      "project_name": "Roundup & Intake (AI recruiting tools)",
-      "first_seen": "2026-06-03",
-      "last_seen": "2026-06-05",
       "status": "open"
     },
     {
@@ -365,14 +349,14 @@
     },
     {
       "id": "fireflies/01KT1F8F8E9D9J9H986BYJJSSE/continuehubspotproductcustomerlinkingand",
-      "text": "Continue HubSpot product-customer linking and subscription management (Thursday focus session)",
+      "text": "Explore and figure out HubSpot product-customer linking and subscription management in a focused work session Thursday",
       "project": "sales-hubspot",
       "project_name": "Sales dashboard + HubSpot",
       "source": "fireflies/01KT1F8F8E9D9J9H986BYJJSSE",
       "source_type": "fireflies",
       "date": "2026-06-01",
       "first_seen": "2026-06-01",
-      "last_seen": "2026-06-01",
+      "last_seen": "2026-06-05",
       "confidence": "high",
       "extras": {
         "meeting": "Caroline / Blake"
@@ -397,34 +381,18 @@
     },
     {
       "id": "fireflies/01KT1F8F8E9D9J9H986BYJJSSE/investigatehubspottoaccountingsoftwarein",
-      "text": "Investigate HubSpot-to-accounting software integration for automated invoice/payment tracking",
+      "text": "Investigate integration between HubSpot and accounting software for automatic invoice and payment tracking",
       "project": "sales-hubspot",
       "project_name": "Sales dashboard + HubSpot",
       "source": "fireflies/01KT1F8F8E9D9J9H986BYJJSSE",
       "source_type": "fireflies",
       "date": "2026-06-01",
       "first_seen": "2026-06-01",
-      "last_seen": "2026-06-01",
+      "last_seen": "2026-06-05",
       "confidence": "medium",
       "extras": {
         "meeting": "Caroline / Blake"
       },
-      "status": "open"
-    },
-    {
-      "text": "Explore and figure out HubSpot product-customer linking and subscription management in a focused work session Thursday",
-      "project": "sales-hubspot",
-      "source": "fireflies/01KT1F8F8E9D9J9H986BYJJSSE",
-      "source_type": "fireflies",
-      "date": "2026-06-01",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Caroline / Blake"
-      },
-      "id": "fireflies/01KT1F8F8E9D9J9H986BYJJSSE/exploreandfigureouthubspotproductcustome",
-      "project_name": "Sales dashboard + HubSpot",
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-06-05",
       "status": "open"
     },
     {
@@ -444,31 +412,15 @@
       "status": "open"
     },
     {
-      "text": "Investigate integration between HubSpot and accounting software for automatic invoice and payment tracking",
-      "project": "sales-hubspot",
-      "source": "fireflies/01KT1F8F8E9D9J9H986BYJJSSE",
-      "source_type": "fireflies",
-      "date": "2026-06-01",
-      "confidence": "medium",
-      "extras": {
-        "meeting": "Caroline / Blake"
-      },
-      "id": "fireflies/01KT1F8F8E9D9J9H986BYJJSSE/investigateintegrationbetweenhubspotanda",
-      "project_name": "Sales dashboard + HubSpot",
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
       "id": "fireflies/01KSSHZPETRA4XVX1043E3N0R2/adjustdashboarddefaultviewtocurrentweeks",
-      "text": "Adjust dashboard default view to current week's data instead of last week's",
+      "text": "Adjust dashboard default view to show current week's data instead of last week's, considering Monday/Friday viewing preferences",
       "project": "rec-dash",
       "project_name": "Tribe Recruiting Dashboard",
       "source": "fireflies/01KSSHZPETRA4XVX1043E3N0R2",
       "source_type": "fireflies",
       "date": "2026-05-29",
       "first_seen": "2026-05-29",
-      "last_seen": "2026-05-29",
+      "last_seen": "2026-06-05",
       "confidence": "high",
       "extras": {
         "meeting": "Valeriia / Blake"
@@ -493,14 +445,14 @@
     },
     {
       "id": "fireflies/01KSSHZPETRA4XVX1043E3N0R2/informtateamaboutvaleriiasweeklymondayup",
-      "text": "Inform TA team about Valeriia's weekly Monday updates and gather feedback",
+      "text": "Inform TA team they'll receive Valeriia's weekly updates on Mondays and gather feedback on usefulness",
       "project": "ai-recruiting",
       "project_name": "Roundup & Intake (AI recruiting tools)",
       "source": "fireflies/01KSSHZPETRA4XVX1043E3N0R2",
       "source_type": "fireflies",
       "date": "2026-05-29",
       "first_seen": "2026-05-29",
-      "last_seen": "2026-05-29",
+      "last_seen": "2026-06-05",
       "confidence": "high",
       "extras": {
         "meeting": "Valeriia / Blake"
@@ -509,14 +461,14 @@
     },
     {
       "id": "fireflies/01KSSHZPETRA4XVX1043E3N0R2/evaluateeditabledraftmodeinautomationbot",
-      "text": "Evaluate editable draft mode in automation bot for incremental weekly updates",
+      "text": "Evaluate implementing an editable draft mode in the automation bot for incremental weekly updates with final Friday submission",
       "project": "ai-recruiting",
       "project_name": "Roundup & Intake (AI recruiting tools)",
       "source": "fireflies/01KSSHZPETRA4XVX1043E3N0R2",
       "source_type": "fireflies",
       "date": "2026-05-29",
       "first_seen": "2026-05-29",
-      "last_seen": "2026-05-29",
+      "last_seen": "2026-06-05",
       "confidence": "medium",
       "extras": {
         "meeting": "Valeriia / Blake"
@@ -540,63 +492,15 @@
       "status": "open"
     },
     {
-      "text": "Adjust dashboard default view to show current week's data instead of last week's, considering Monday/Friday viewing preferences",
-      "project": "rec-dash",
-      "source": "fireflies/01KSSHZPETRA4XVX1043E3N0R2",
-      "source_type": "fireflies",
-      "date": "2026-05-29",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Valeriia / Blake"
-      },
-      "id": "fireflies/01KSSHZPETRA4XVX1043E3N0R2/adjustdashboarddefaultviewtoshowcurrentw",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-05-29",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Inform TA team they'll receive Valeriia's weekly updates on Mondays and gather feedback on usefulness",
-      "project": "tribebot",
-      "source": "fireflies/01KSSHZPETRA4XVX1043E3N0R2",
-      "source_type": "fireflies",
-      "date": "2026-05-29",
-      "confidence": "medium",
-      "extras": {
-        "meeting": "Valeriia / Blake"
-      },
-      "id": "fireflies/01KSSHZPETRA4XVX1043E3N0R2/informtateamtheyllreceivevaleriiasweekly",
-      "project_name": "Tribebot",
-      "first_seen": "2026-05-29",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
-      "text": "Evaluate implementing an editable draft mode in the automation bot for incremental weekly updates with final Friday submission",
-      "project": "tribebot",
-      "source": "fireflies/01KSSHZPETRA4XVX1043E3N0R2",
-      "source_type": "fireflies",
-      "date": "2026-05-29",
-      "confidence": "medium",
-      "extras": {
-        "meeting": "Valeriia / Blake"
-      },
-      "id": "fireflies/01KSSHZPETRA4XVX1043E3N0R2/evaluateimplementinganeditabledraftmodei",
-      "project_name": "Tribebot",
-      "first_seen": "2026-05-29",
-      "last_seen": "2026-06-05",
-      "status": "open"
-    },
-    {
       "id": "fireflies/01KSSZR64JWQ3MPVEKY500QGH4/gatherteamfeedbackonnewweeklyrecruitingd",
-      "text": "Gather team feedback on new weekly recruiting dashboards and prioritize widely requested features",
+      "text": "Gather and incorporate team feedback on new weekly recruiting data dashboards, prioritize requested features, and ensure data accuracy",
       "project": "rec-dash",
       "project_name": "Tribe Recruiting Dashboard",
       "source": "fireflies/01KSSZR64JWQ3MPVEKY500QGH4",
       "source_type": "fireflies",
       "date": "2026-05-29",
       "first_seen": "2026-05-29",
-      "last_seen": "2026-05-29",
+      "last_seen": "2026-06-05",
       "confidence": "high",
       "extras": {
         "meeting": "Friday Team Meeting"
@@ -617,22 +521,6 @@
       "extras": {
         "meeting": "Friday Team Meeting"
       },
-      "status": "open"
-    },
-    {
-      "text": "Gather and incorporate team feedback on new weekly recruiting data dashboards, prioritize requested features, and ensure data accuracy",
-      "project": "rec-dash",
-      "source": "fireflies/01KSSZR64JWQ3MPVEKY500QGH4",
-      "source_type": "fireflies",
-      "date": "2026-05-29",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Friday Team Meeting"
-      },
-      "id": "fireflies/01KSSZR64JWQ3MPVEKY500QGH4/gatherandincorporateteamfeedbackonnewwee",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-05-29",
-      "last_seen": "2026-06-05",
       "status": "open"
     },
     {
@@ -1963,23 +1851,6 @@
       "extras": {
         "from": "notifications@app.bamboohr.com",
         "subject": "Please complete this offboarding task for Priya Sen"
-      },
-      "status": "open"
-    },
-    {
-      "id": "gmail/19e17b6f22443799",
-      "text": "Complete BambooHR offboarding task for Adis Prepoljac",
-      "project": "people-ops",
-      "project_name": "People Ops / BambooHR",
-      "source": "gmail/19e17b6f22443799",
-      "source_type": "gmail",
-      "date": "2026-05-11",
-      "first_seen": "2026-05-11",
-      "last_seen": "2026-05-11",
-      "confidence": "high",
-      "extras": {
-        "from": "notifications@app.bamboohr.com",
-        "subject": "Please complete this offboarding task for Adis Prepoljac"
       },
       "status": "open"
     },
