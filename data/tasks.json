@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-08",
   "schema_version": 2,
-  "total": 241,
+  "total": 252,
   "projects": [
     {
       "id": "fin-dash",
@@ -3698,8 +3698,7 @@
       "date": "2026-06-05",
       "confidence": "high",
       "extras": {
-        "meeting_title": "Friday Team Meeting",
-        "attendees": "all@tribe.xyz, jovana@tribe.xyz, naledi@tribe.xyz"
+        "meeting": "Friday Team Meeting"
       },
       "id": "fireflies/01KTC0HCNXG3JAVGYYXWKY3SYF/recruittestersfortheintaketoolthatautoma",
       "project_name": "Roundup & Intake (AI recruiting tools)",
@@ -3715,7 +3714,7 @@
       "date": "2026-06-05",
       "confidence": "high",
       "extras": {
-        "meeting_title": "Friday Team Meeting"
+        "meeting": "Friday Team Meeting"
       },
       "id": "fireflies/01KTC0HCNXG3JAVGYYXWKY3SYF/collectfeedbackfromtestersonthesourcerto",
       "project_name": "Tribebot",
@@ -3731,7 +3730,7 @@
       "date": "2026-06-05",
       "confidence": "high",
       "extras": {
-        "meeting_title": "Friday Team Meeting"
+        "meeting": "Friday Team Meeting"
       },
       "id": "fireflies/01KTC0HCNXG3JAVGYYXWKY3SYF/inviteanewtalentacquisitionteammembertoj",
       "project_name": "Roundup & Intake (AI recruiting tools)",
@@ -3747,7 +3746,7 @@
       "date": "2026-06-05",
       "confidence": "medium",
       "extras": {
-        "meeting_title": "Friday Team Meeting"
+        "meeting": "Friday Team Meeting"
       },
       "id": "fireflies/01KTC0HCNXG3JAVGYYXWKY3SYF/promoteandsupportthepokemoncardcoffeecha",
       "project_name": "Team cohesion",
@@ -3763,8 +3762,7 @@
       "date": "2026-06-05",
       "confidence": "high",
       "extras": {
-        "meeting_title": "Team Cohesion and Standups - Cultural Integration",
-        "attendees": "katarina@tribe.xyz, simon@tribe.xyz"
+        "meeting": "Team Cohesion and Standups - Cultural Integration"
       },
       "id": "fireflies/01KTBP5S4RMAGFAAS3HJBQJR2Q/announcetherestartofthetribeoftheweeksla",
       "project_name": "Team cohesion",
@@ -3796,7 +3794,7 @@
       "date": "2026-06-05",
       "confidence": "medium",
       "extras": {
-        "meeting_title": "Team Cohesion and Standups - Cultural Integration"
+        "meeting": "Team Cohesion and Standups - Cultural Integration"
       },
       "id": "fireflies/01KTBP5S4RMAGFAAS3HJBQJR2Q/scheduleandconductacoffeechattocreateapo",
       "project_name": "Team cohesion",
@@ -3861,7 +3859,7 @@
       "date": "2026-06-05",
       "confidence": "medium",
       "extras": {
-        "meeting_title": "Nare / Blake"
+        "meeting": "Nare / Blake"
       },
       "id": "fireflies/01KTBKJSV1MPXPQBAH9Y4Y4BE4/coordinatewithvaleriatoreviewherparallel",
       "project_name": "Tribebot",
@@ -3877,8 +3875,7 @@
       "date": "2026-06-04",
       "confidence": "high",
       "extras": {
-        "meeting_title": "Intake Tool Alignment",
-        "attendees": "rodrigo@tribe.xyz, mikhail@tribe.xyz"
+        "meeting": "Intake Tool Alignment"
       },
       "id": "fireflies/01KT9847DWP1VZA59T51589TKA/coordinatewiththeteaminthegroupchattoadv",
       "project_name": "Roundup & Intake (AI recruiting tools)",
@@ -3894,7 +3891,7 @@
       "date": "2026-06-03",
       "confidence": "medium",
       "extras": {
-        "meeting_title": "AI First"
+        "meeting": "AI First"
       },
       "id": "fireflies/01KT6S43EPMAQPFAK2DK6BRJRJ/updateteamonintaketoolprogressaftermeeti",
       "project_name": "Roundup & Intake (AI recruiting tools)",
@@ -3910,8 +3907,7 @@
       "date": "2026-06-05",
       "confidence": "high",
       "extras": {
-        "subject": "SEPA mandate receipt",
-        "from": "no-reply@remote.com"
+        "subject": "SEPA mandate receipt"
       },
       "id": "gmail/19e97e305261c9f6",
       "project_name": "Expense Ops",
@@ -3920,15 +3916,15 @@
       "status": "open"
     },
     {
-      "text": "Fix dashboard data not fully updated for June 1-7 for Andrea Akovic; her sourcing for Chene's Backend Engineer role should show 50 (recently sourced/contacted people not appearing)",
+      "text": "Fix sourcing dashboard so June 1-7 data shows full week (Andrea Akovic sourced ~50 on Chene Backend role but dashboard shows less; ensure work sourced/updated by Sunday midnight renders for that week)",
       "project": "rec-dash",
       "source": "slack/D05AQFRMF08/1780901309.115099",
       "source_type": "slack",
       "date": "2026-06-08",
       "confidence": "high",
       "extras": {
-        "channel": "DM with Andrea Akovic",
-        "from": "Andrea Akovic"
+        "channel": "dm-andrea-akovic",
+        "permalink": "https://tribexyz.slack.com/archives/D05AQFRMF08/p1780901309115099"
       },
       "id": "slack/D05AQFRMF08/1780901309.115099",
       "project_name": "Tribe Recruiting Dashboard",
@@ -3944,8 +3940,8 @@
       "date": "2026-06-06",
       "confidence": "high",
       "extras": {
-        "channel": "DM with Martin Bernard",
-        "from": "Martin Bernard"
+        "channel": "dm-martin-bernard",
+        "permalink": "https://tribexyz.slack.com/archives/D055NJ27YRY/p1780750998225079"
       },
       "id": "slack/D055NJ27YRY/1780750998.225079",
       "project_name": "US expansion",
@@ -3959,10 +3955,10 @@
       "source": "slack/D055Y2ELF9T/1780642838.641189",
       "source_type": "slack",
       "date": "2026-06-05",
-      "confidence": "medium",
+      "confidence": "high",
       "extras": {
-        "channel": "DM with Lejla Silva",
-        "from": "Lejla Silva"
+        "channel": "dm-lejla-silva",
+        "permalink": "https://tribexyz.slack.com/archives/D055Y2ELF9T/p1780642838641189"
       },
       "id": "slack/D055Y2ELF9T/1780642838.641189",
       "project_name": "WBR / MBR",
@@ -4015,6 +4011,183 @@
       "id": "cowork/local_db8634a7-b3eb-466b-90f8-bc0dcea02eec/resolvewhyvaleriiayurykovaismissingfromt",
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-06-04",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Send a reminder message about the Pokedex to the team leads to encourage continued usage and engagement",
+      "project": "team-cohesion",
+      "source": "fireflies/01KTBP5S4RMAGFAAS3HJBQJR2Q",
+      "source_type": "fireflies",
+      "date": "2026-06-05",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Team Cohesion and Standups - Cultural Integration"
+      },
+      "id": "fireflies/01KTBP5S4RMAGFAAS3HJBQJR2Q/sendaremindermessageaboutthepokedextothe",
+      "project_name": "Team cohesion",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Cancel ongoing regular meetings related to the Pokedex project and mark the project complete in the project hub",
+      "project": "project-hub",
+      "source": "fireflies/01KTBP5S4RMAGFAAS3HJBQJR2Q",
+      "source_type": "fireflies",
+      "date": "2026-06-05",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Team Cohesion and Standups - Cultural Integration"
+      },
+      "id": "fireflies/01KTBP5S4RMAGFAAS3HJBQJR2Q/cancelongoingregularmeetingsrelatedtothe",
+      "project_name": "Project Hub",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Collect feedback from Talent Acquisition teams on the weekly sourcing update report format after they receive Monday updates",
+      "project": "tribebot",
+      "source": "fireflies/01KTBKJSV1MPXPQBAH9Y4Y4BE4",
+      "source_type": "fireflies",
+      "date": "2026-06-05",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Nare / Blake"
+      },
+      "id": "fireflies/01KTBKJSV1MPXPQBAH9Y4Y4BE4/collectfeedbackfromtalentacquisitionteam",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Refine the weekly sourcing update system: add a 'no sourcing needed' button and improve filtering logic to reduce updates for low-activity roles",
+      "project": "tribebot",
+      "source": "fireflies/01KTBKJSV1MPXPQBAH9Y4Y4BE4",
+      "source_type": "fireflies",
+      "date": "2026-06-05",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Nare / Blake"
+      },
+      "id": "fireflies/01KTBKJSV1MPXPQBAH9Y4Y4BE4/refinetheweeklysourcingupdatesystemaddan",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Review Boris's TRIBE_loans_FY2025.xlsx summary of Tribe.xyz Czech business relations with Martin/Holding before it feeds the FY2025 annual report sent to lawyers",
+      "project": "legal",
+      "source": "gmail/19ea3d5ee378d237",
+      "source_type": "gmail",
+      "date": "2026-06-07",
+      "confidence": "medium",
+      "extras": {
+        "subject": "TRIBE_loans_FY2025.xlsx"
+      },
+      "id": "gmail/19ea3d5ee378d237",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Review and contribute to Martin's shared \"Competitors\" spreadsheet (US expansion competitor research)",
+      "project": "us-expansion",
+      "source": "gmail/19e9d0705f826c29",
+      "source_type": "gmail",
+      "date": "2026-06-06",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Spreadsheet shared with you: \"Competitors\""
+      },
+      "id": "gmail/19e9d0705f826c29",
+      "project_name": "US expansion",
+      "first_seen": "2026-06-06",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Process Ekaterina Boyprav's final invoice and resolve payment route (Ziraat Bank flagged as possibly not working; signed laptop-purchase doc attached)",
+      "project": "expense-ops",
+      "source": "gmail/19df27afa0ba8953",
+      "source_type": "gmail",
+      "date": "2026-06-05",
+      "confidence": "high",
+      "extras": {
+        "subject": "Re: Termination details"
+      },
+      "id": "gmail/19df27afa0ba8953",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Re-add Tribe.xyz Czech payment/bank info under Remote Legal entities so Remote can process the credit note refund (Sandra reports the field is blank on their end)",
+      "project": "fin-dash",
+      "source": "gmail/19e95115a73fc367",
+      "source_type": "gmail",
+      "date": "2026-06-05",
+      "confidence": "high",
+      "extras": {
+        "subject": "Re: Re: Your new credit note"
+      },
+      "id": "gmail/19e95115a73fc367",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Send Martin funds (salary or the 9,700 EUR) - company account is nearly empty (125 EUR), needs cash before Sunday",
+      "project": "expense-ops",
+      "source": "slack/D055NJ27YRY/1780581361.233269",
+      "source_type": "slack",
+      "date": "2026-06-04",
+      "confidence": "high",
+      "extras": {
+        "channel": "dm-martin-bernard",
+        "permalink": "https://tribexyz.slack.com/archives/D055NJ27YRY/p1780581361233269"
+      },
+      "id": "slack/D055NJ27YRY/1780581361.233269",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Patch the Receipts Workflow matcher with hard date (<=14 days) and amount (<=15%) gates so new unpaid recurring invoices (e.g. Gustavo) flag as NO MATCH instead of false-matching last month's payment row, then redeploy",
+      "project": "expense-ops",
+      "source": "cowork/local_00bb4849-98e3-4fad-9386-a2f6d54c7e2f",
+      "source_type": "cowork",
+      "date": "2026-06-08",
+      "confidence": "high",
+      "extras": {
+        "session": "Webhook receipt processing confusion"
+      },
+      "id": "cowork/local_00bb4849-98e3-4fad-9386-a2f6d54c7e2f/patchthereceiptsworkflowmatcherwithhardd",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Click 'Run now' on the ai-first-weekly-notion-update scheduled task this week to pre-approve Fireflies + Notion permissions before next Wednesday's automated run",
+      "project": "ai-recruiting",
+      "source": "cowork/local_630723d7-8084-40fa-9656-6c93182a954f",
+      "source_type": "cowork",
+      "date": "2026-06-08",
+      "confidence": "medium",
+      "extras": {
+        "session": "AI First Working Group meetings"
+      },
+      "id": "cowork/local_630723d7-8084-40fa-9656-6c93182a954f/clickrunnowontheaifirstweeklynotionupdat",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-08",
       "last_seen": "2026-06-08",
       "status": "open"
     }
