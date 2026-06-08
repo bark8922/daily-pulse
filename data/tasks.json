@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-03",
+  "generated_at": "2026-06-08",
   "schema_version": 2,
-  "total": 221,
+  "total": 241,
   "projects": [
     {
       "id": "fin-dash",
@@ -3688,6 +3688,334 @@
       "extras": {
         "session": "Cos weekly log"
       },
+      "status": "open"
+    },
+    {
+      "text": "Recruit testers for the intake tool that automates intake call transcription and form completion",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KTC0HCNXG3JAVGYYXWKY3SYF",
+      "source_type": "fireflies",
+      "date": "2026-06-05",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Friday Team Meeting",
+        "attendees": "all@tribe.xyz, jovana@tribe.xyz, naledi@tribe.xyz"
+      },
+      "id": "fireflies/01KTC0HCNXG3JAVGYYXWKY3SYF/recruittestersfortheintaketoolthatautoma",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Collect feedback from testers on the Sourcer-to-TA weekly roundup tool and prepare for rollout by end of month",
+      "project": "tribebot",
+      "source": "fireflies/01KTC0HCNXG3JAVGYYXWKY3SYF",
+      "source_type": "fireflies",
+      "date": "2026-06-05",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Friday Team Meeting"
+      },
+      "id": "fireflies/01KTC0HCNXG3JAVGYYXWKY3SYF/collectfeedbackfromtestersonthesourcerto",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Invite a new Talent Acquisition team member to join the AI First working group to cover upcoming maternity leave",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KTC0HCNXG3JAVGYYXWKY3SYF",
+      "source_type": "fireflies",
+      "date": "2026-06-05",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Friday Team Meeting"
+      },
+      "id": "fireflies/01KTC0HCNXG3JAVGYYXWKY3SYF/inviteanewtalentacquisitionteammembertoj",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Promote and support the Pokemon Card coffee chat program to foster remote team social connections",
+      "project": "team-cohesion",
+      "source": "fireflies/01KTC0HCNXG3JAVGYYXWKY3SYF",
+      "source_type": "fireflies",
+      "date": "2026-06-05",
+      "confidence": "medium",
+      "extras": {
+        "meeting_title": "Friday Team Meeting"
+      },
+      "id": "fireflies/01KTC0HCNXG3JAVGYYXWKY3SYF/promoteandsupportthepokemoncardcoffeecha",
+      "project_name": "Team cohesion",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Announce the restart of the 'tribe of the week' Slack post initiative in the Friday meeting and nominate the first participant",
+      "project": "team-cohesion",
+      "source": "fireflies/01KTBP5S4RMAGFAAS3HJBQJR2Q",
+      "source_type": "fireflies",
+      "date": "2026-06-05",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Team Cohesion and Standups - Cultural Integration",
+        "attendees": "katarina@tribe.xyz, simon@tribe.xyz"
+      },
+      "id": "fireflies/01KTBP5S4RMAGFAAS3HJBQJR2Q/announcetherestartofthetribeoftheweeksla",
+      "project_name": "Team cohesion",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Send a reminder message about the Pokedex to team leads to encourage continued usage and engagement",
+      "project": "team-cohesion",
+      "source": "fireflies/01KTBP5S4RMAGFAAS3HJBQJR2Q",
+      "source_type": "fireflies",
+      "date": "2026-06-05",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Team Cohesion and Standups - Cultural Integration"
+      },
+      "id": "fireflies/01KTBP5S4RMAGFAAS3HJBQJR2Q/sendaremindermessageaboutthepokedextotea",
+      "project_name": "Team cohesion",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Schedule and conduct a coffee chat to create a Pocket Card about a team member and kick off the Pokedex nomination chain",
+      "project": "team-cohesion",
+      "source": "fireflies/01KTBP5S4RMAGFAAS3HJBQJR2Q",
+      "source_type": "fireflies",
+      "date": "2026-06-05",
+      "confidence": "medium",
+      "extras": {
+        "meeting_title": "Team Cohesion and Standups - Cultural Integration"
+      },
+      "id": "fireflies/01KTBP5S4RMAGFAAS3HJBQJR2Q/scheduleandconductacoffeechattocreateapo",
+      "project_name": "Team cohesion",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Cancel ongoing regular Pokedex project meetings and mark the project as complete in the project hub",
+      "project": "project-hub",
+      "source": "fireflies/01KTBP5S4RMAGFAAS3HJBQJR2Q",
+      "source_type": "fireflies",
+      "date": "2026-06-05",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Team Cohesion and Standups - Cultural Integration"
+      },
+      "id": "fireflies/01KTBP5S4RMAGFAAS3HJBQJR2Q/cancelongoingregularpokedexprojectmeetin",
+      "project_name": "Project Hub",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Collect feedback from TA teams on the weekly sourcing update report format after they receive Monday updates",
+      "project": "tribebot",
+      "source": "fireflies/01KTBKJSV1MPXPQBAH9Y4Y4BE4",
+      "source_type": "fireflies",
+      "date": "2026-06-05",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Nare / Blake",
+        "attendees": "nare@tribe.xyz"
+      },
+      "id": "fireflies/01KTBKJSV1MPXPQBAH9Y4Y4BE4/collectfeedbackfromtateamsontheweeklysou",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Refine weekly sourcing update system: add 'no sourcing needed' button and improve filtering logic to reduce updates for low-activity roles",
+      "project": "tribebot",
+      "source": "fireflies/01KTBKJSV1MPXPQBAH9Y4Y4BE4",
+      "source_type": "fireflies",
+      "date": "2026-06-05",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Nare / Blake"
+      },
+      "id": "fireflies/01KTBKJSV1MPXPQBAH9Y4Y4BE4/refineweeklysourcingupdatesystemaddnosou",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Coordinate with Valeria to review her parallel testing of the weekly update system and gather additional user insights over multiple weeks",
+      "project": "tribebot",
+      "source": "fireflies/01KTBKJSV1MPXPQBAH9Y4Y4BE4",
+      "source_type": "fireflies",
+      "date": "2026-06-05",
+      "confidence": "medium",
+      "extras": {
+        "meeting_title": "Nare / Blake"
+      },
+      "id": "fireflies/01KTBKJSV1MPXPQBAH9Y4Y4BE4/coordinatewithvaleriatoreviewherparallel",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Coordinate with the team in the group chat to advance the intake call feature development and provide necessary support",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KT9847DWP1VZA59T51589TKA",
+      "source_type": "fireflies",
+      "date": "2026-06-04",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Intake Tool Alignment",
+        "attendees": "rodrigo@tribe.xyz, mikhail@tribe.xyz"
+      },
+      "id": "fireflies/01KT9847DWP1VZA59T51589TKA/coordinatewiththeteaminthegroupchattoadv",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Update team on intake tool progress after meeting with Rodrigo, Michal, and Colin",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KT6S43EPMAQPFAK2DK6BRJRJ",
+      "source_type": "fireflies",
+      "date": "2026-06-03",
+      "confidence": "medium",
+      "extras": {
+        "meeting_title": "AI First"
+      },
+      "id": "fireflies/01KT6S43EPMAQPFAK2DK6BRJRJ/updateteamonintaketoolprogressaftermeeti",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Authorize SEPA Core direct debit mandate ref 4YWGO4KAGYJMK2AA (Remote) with the bank for Tribe.xyz Czech",
+      "project": "expense-ops",
+      "source": "gmail/19e97e305261c9f6",
+      "source_type": "gmail",
+      "date": "2026-06-05",
+      "confidence": "high",
+      "extras": {
+        "subject": "SEPA mandate receipt",
+        "from": "no-reply@remote.com"
+      },
+      "id": "gmail/19e97e305261c9f6",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Fix dashboard data not fully updated for June 1-7 for Andrea Akovic; her sourcing for Chene's Backend Engineer role should show 50 (recently sourced/contacted people not appearing)",
+      "project": "rec-dash",
+      "source": "slack/D05AQFRMF08/1780901309.115099",
+      "source_type": "slack",
+      "date": "2026-06-08",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Andrea Akovic",
+        "from": "Andrea Akovic"
+      },
+      "id": "slack/D05AQFRMF08/1780901309.115099",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Have someone look up 50+ of our competitors (including the Berlin ones, even if smaller) and add them to Martin's Competitors Google Sheet",
+      "project": "us-expansion",
+      "source": "slack/D055NJ27YRY/1780750998.225079",
+      "source_type": "slack",
+      "date": "2026-06-06",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Martin Bernard",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/D055NJ27YRY/1780750998.225079",
+      "project_name": "US expansion",
+      "first_seen": "2026-06-06",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Update WBR dashboard and the WBR target Google sheet - both still showing last week, so comments can't yet be added",
+      "project": "wbr-mbr",
+      "source": "slack/D055Y2ELF9T/1780642838.641189",
+      "source_type": "slack",
+      "date": "2026-06-05",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Lejla Silva",
+        "from": "Lejla Silva"
+      },
+      "id": "slack/D055Y2ELF9T/1780642838.641189",
+      "project_name": "WBR / MBR",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Revert to the Clean Preview MRR-only subscription roster xlsx, confirm with Caroline, then push HubSpot subscription records with auto-invoice and auto-email OFF",
+      "project": "sales-hubspot",
+      "source": "cowork/local_8ee45787-426a-4b58-bdc9-28a3affa865d",
+      "source_type": "cowork",
+      "date": "2026-06-02",
+      "confidence": "high",
+      "extras": {
+        "session_title": "BambooHR employee client timeline"
+      },
+      "id": "cowork/local_8ee45787-426a-4b58-bdc9-28a3affa865d/reverttothecleanpreviewmrronlysubscripti",
+      "project_name": "Sales dashboard + HubSpot",
+      "first_seen": "2026-06-02",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Decide on the AI First Friday slide (drop draft into pptx/Gamma vs wait for Andrea's 3-week topic list), and click Run now on the ai-first-weekly-notion-update scheduled task to pre-approve Fireflies/Notion permissions",
+      "project": "tribebot",
+      "source": "cowork/local_630723d7-8084-40fa-9656-6c93182a954f",
+      "source_type": "cowork",
+      "date": "2026-06-05",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "AI First Working Group meetings"
+      },
+      "id": "cowork/local_630723d7-8084-40fa-9656-6c93182a954f/decideontheaifirstfridayslidedropdraftin",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Resolve why Valeriia Yurykova is missing from the Circle dashboard - verify whether Bubble's iframe passes valeria@ (one i) vs valeriia@ (two i's) email and fix the lookup mismatch",
+      "project": "rec-dash",
+      "source": "cowork/local_db8634a7-b3eb-466b-90f8-bc0dcea02eec",
+      "source_type": "cowork",
+      "date": "2026-06-04",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Dashboard data discrepancies"
+      },
+      "id": "cowork/local_db8634a7-b3eb-466b-90f8-bc0dcea02eec/resolvewhyvaleriiayurykovaismissingfromt",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-08",
       "status": "open"
     }
   ]
