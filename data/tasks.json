@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-08",
+  "generated_at": "2026-06-09",
   "schema_version": 2,
-  "total": 255,
+  "total": 260,
   "projects": [
     {
       "id": "fin-dash",
@@ -2469,23 +2469,6 @@
       "status": "open"
     },
     {
-      "id": "slack/D05AQFRMF08/1780487263.037619",
-      "text": "Meet with Andrea Akovic Monday to walk through requested TS dashboard changes",
-      "project": "rec-dash",
-      "project_name": "Tribe Recruiting Dashboard",
-      "source": "slack/D05AQFRMF08/1780487263.037619",
-      "source_type": "slack",
-      "date": "2026-06-03",
-      "first_seen": "2026-06-03",
-      "last_seen": "2026-06-03",
-      "confidence": "high",
-      "extras": {
-        "channel": "DM:Andrea Akovic",
-        "from": "Andrea Akovic"
-      },
-      "status": "open"
-    },
-    {
       "id": "slack/D058MHYDUBA/1780503247.032489",
       "text": "Fix Zelimir still showing in Q2 TS Team Size hover on dashboard",
       "project": "rec-dash",
@@ -3723,22 +3706,6 @@
       "status": "open"
     },
     {
-      "text": "Announce the restart of the 'tribe of the week' Slack post initiative in the Friday meeting and nominate the first participant",
-      "project": "team-cohesion",
-      "source": "fireflies/01KTBP5S4RMAGFAAS3HJBQJR2Q",
-      "source_type": "fireflies",
-      "date": "2026-06-05",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Team Cohesion and Standups - Cultural Integration"
-      },
-      "id": "fireflies/01KTBP5S4RMAGFAAS3HJBQJR2Q/announcetherestartofthetribeoftheweeksla",
-      "project_name": "Team cohesion",
-      "first_seen": "2026-06-05",
-      "last_seen": "2026-06-08",
-      "status": "open"
-    },
-    {
       "text": "Send a reminder message about the Pokedex to team leads to encourage continued usage and engagement",
       "project": "team-cohesion",
       "source": "fireflies/01KTBP5S4RMAGFAAS3HJBQJR2Q",
@@ -3782,22 +3749,6 @@
       },
       "id": "fireflies/01KTBP5S4RMAGFAAS3HJBQJR2Q/cancelongoingregularpokedexprojectmeetin",
       "project_name": "Project Hub",
-      "first_seen": "2026-06-05",
-      "last_seen": "2026-06-08",
-      "status": "open"
-    },
-    {
-      "text": "Refine weekly sourcing update system: add 'no sourcing needed' button and improve filtering logic to reduce updates for low-activity roles",
-      "project": "tribebot",
-      "source": "fireflies/01KTBKJSV1MPXPQBAH9Y4Y4BE4",
-      "source_type": "fireflies",
-      "date": "2026-06-05",
-      "confidence": "high",
-      "extras": {
-        "meeting_title": "Nare / Blake"
-      },
-      "id": "fireflies/01KTBKJSV1MPXPQBAH9Y4Y4BE4/refineweeklysourcingupdatesystemaddnosou",
-      "project_name": "Tribebot",
       "first_seen": "2026-06-05",
       "last_seen": "2026-06-08",
       "status": "open"
@@ -3847,23 +3798,6 @@
       "id": "gmail/19e97e305261c9f6",
       "project_name": "Expense Ops",
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-08",
-      "status": "open"
-    },
-    {
-      "text": "Have someone look up 50+ of our competitors (including the Berlin ones, even if smaller) and add them to Martin's Competitors Google Sheet",
-      "project": "us-expansion",
-      "source": "slack/D055NJ27YRY/1780750998.225079",
-      "source_type": "slack",
-      "date": "2026-06-06",
-      "confidence": "high",
-      "extras": {
-        "channel": "dm-martin-bernard",
-        "permalink": "https://tribexyz.slack.com/archives/D055NJ27YRY/p1780750998225079"
-      },
-      "id": "slack/D055NJ27YRY/1780750998.225079",
-      "project_name": "US expansion",
-      "first_seen": "2026-06-06",
       "last_seen": "2026-06-08",
       "status": "open"
     },
@@ -3933,7 +3867,7 @@
     },
     {
       "text": "Collect feedback from Talent Acquisition teams on the weekly sourcing update report format after they receive Monday updates",
-      "project": "tribebot",
+      "project": "ai-recruiting",
       "source": "fireflies/01KTBKJSV1MPXPQBAH9Y4Y4BE4",
       "source_type": "fireflies",
       "date": "2026-06-05",
@@ -3942,14 +3876,14 @@
         "meeting": "Nare / Blake"
       },
       "id": "fireflies/01KTBKJSV1MPXPQBAH9Y4Y4BE4/collectfeedbackfromtalentacquisitionteam",
-      "project_name": "Tribebot",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
       "first_seen": "2026-06-05",
       "last_seen": "2026-06-08",
       "status": "open"
     },
     {
       "text": "Refine the weekly sourcing update system: add a 'no sourcing needed' button and improve filtering logic to reduce updates for low-activity roles",
-      "project": "tribebot",
+      "project": "ai-recruiting",
       "source": "fireflies/01KTBKJSV1MPXPQBAH9Y4Y4BE4",
       "source_type": "fireflies",
       "date": "2026-06-05",
@@ -3958,7 +3892,7 @@
         "meeting": "Nare / Blake"
       },
       "id": "fireflies/01KTBKJSV1MPXPQBAH9Y4Y4BE4/refinetheweeklysourcingupdatesystemaddan",
-      "project_name": "Tribebot",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
       "first_seen": "2026-06-05",
       "last_seen": "2026-06-08",
       "status": "open"
@@ -3996,22 +3930,6 @@
       "status": "open"
     },
     {
-      "text": "Re-add Tribe.xyz Czech payment/bank info under Remote Legal entities so Remote can process the credit note refund (Sandra reports the field is blank on their end)",
-      "project": "fin-dash",
-      "source": "gmail/19e95115a73fc367",
-      "source_type": "gmail",
-      "date": "2026-06-05",
-      "confidence": "high",
-      "extras": {
-        "subject": "Re: Re: Your new credit note"
-      },
-      "id": "gmail/19e95115a73fc367",
-      "project_name": "Tribe Financial Dashboard",
-      "first_seen": "2026-06-05",
-      "last_seen": "2026-06-08",
-      "status": "open"
-    },
-    {
       "text": "Click 'Run now' on the ai-first-weekly-notion-update scheduled task this week to pre-approve Fireflies + Notion permissions before next Wednesday's automated run",
       "project": "ai-recruiting",
       "source": "cowork/local_630723d7-8084-40fa-9656-6c93182a954f",
@@ -4023,55 +3941,6 @@
       },
       "id": "cowork/local_630723d7-8084-40fa-9656-6c93182a954f/clickrunnowontheaifirstweeklynotionupdat",
       "project_name": "Roundup & Intake (AI recruiting tools)",
-      "first_seen": "2026-06-08",
-      "last_seen": "2026-06-08",
-      "status": "open"
-    },
-    {
-      "text": "Add Ira's targets to the WBR Target sheet and reach out to her about starting the role in France imminently",
-      "project": "wbr-mbr",
-      "source": "fireflies/01KTK7CYPK2S1YH2ZRN4Y54NSY",
-      "source_type": "fireflies",
-      "date": "2026-06-08",
-      "confidence": "high",
-      "extras": {
-        "meeting": "WBR - Delivery Only"
-      },
-      "id": "fireflies/01KTK7CYPK2S1YH2ZRN4Y54NSY/addirastargetstothewbrtargetsheetandreac",
-      "project_name": "WBR / MBR",
-      "first_seen": "2026-06-08",
-      "last_seen": "2026-06-08",
-      "status": "open"
-    },
-    {
-      "text": "Investigate why sourcing assignments for Naledi, Yovana, and others are not reflecting properly in tracking reports and correct the data alignment",
-      "project": "rec-dash",
-      "source": "fireflies/01KTK7CYPK2S1YH2ZRN4Y54NSY",
-      "source_type": "fireflies",
-      "date": "2026-06-08",
-      "confidence": "high",
-      "extras": {
-        "meeting": "WBR - Delivery Only"
-      },
-      "id": "fireflies/01KTK7CYPK2S1YH2ZRN4Y54NSY/investigatewhysourcingassignmentsfornale",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-06-08",
-      "last_seen": "2026-06-08",
-      "status": "open"
-    },
-    {
-      "text": "Complete BambooHR offboarding tasks for Jelle van Schaick (Director of Marketing, termination 8 June)",
-      "project": "people-ops",
-      "source": "gmail/19ea6790c7bce683",
-      "source_type": "gmail",
-      "date": "2026-06-08",
-      "confidence": "high",
-      "extras": {
-        "subject": "Employee Termination: Jelle van Schaick",
-        "from": "notifications@app.bamboohr.com"
-      },
-      "id": "gmail/19ea6790c7bce683",
-      "project_name": "People Ops / BambooHR",
       "first_seen": "2026-06-08",
       "last_seen": "2026-06-08",
       "status": "open"
@@ -4241,6 +4110,219 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-06-08",
       "last_seen": "2026-06-08",
+      "status": "open"
+    },
+    {
+      "text": "Add toggle feature to view weekly progress comments by role on the hiring overview page, integrating weekly updates after automating data collection",
+      "project": "rec-dash",
+      "source": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761",
+      "source_type": "fireflies",
+      "date": "2026-06-08",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Andrea Dashboard brainstorm"
+      },
+      "id": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761/addtogglefeaturetoviewweeklyprogresscomm",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-09",
+      "status": "open"
+    },
+    {
+      "text": "Implement ability to view up to four weeks of historical data on personal hiring dashboards",
+      "project": "rec-dash",
+      "source": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761",
+      "source_type": "fireflies",
+      "date": "2026-06-08",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Andrea Dashboard brainstorm"
+      },
+      "id": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761/implementabilitytoviewuptofourweeksofhis",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-09",
+      "status": "open"
+    },
+    {
+      "text": "Send samples of different weekly update submissions (including Andrea's and Valeria's) to Andrea for review and feedback",
+      "project": "rec-dash",
+      "source": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761",
+      "source_type": "fireflies",
+      "date": "2026-06-08",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Andrea Dashboard brainstorm"
+      },
+      "id": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761/sendsamplesofdifferentweeklyupdatesubmis",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-09",
+      "status": "open"
+    },
+    {
+      "text": "Develop feature allowing sourcers to submit updates per role throughout the week, enabling immediate TA notifications for faster issue resolution",
+      "project": "rec-dash",
+      "source": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761",
+      "source_type": "fireflies",
+      "date": "2026-06-08",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Andrea Dashboard brainstorm"
+      },
+      "id": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761/developfeatureallowingsourcerstosubmitup",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-09",
+      "status": "open"
+    },
+    {
+      "text": "Continue building Gustavo's internal sourcing dashboard and share the working version with Andrea for feedback",
+      "project": "rec-dash",
+      "source": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761",
+      "source_type": "fireflies",
+      "date": "2026-06-08",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Andrea Dashboard brainstorm"
+      },
+      "id": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761/continuebuildinggustavosinternalsourcing",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-09",
+      "status": "open"
+    },
+    {
+      "text": "Keep Andrea informed on progress of weekly updates transition to daily updates",
+      "project": "rec-dash",
+      "source": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761",
+      "source_type": "fireflies",
+      "date": "2026-06-08",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Blake / Andrea Dashboard brainstorm"
+      },
+      "id": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761/keepandreainformedonprogressofweeklyupda",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-09",
+      "status": "open"
+    },
+    {
+      "text": "Monitor and follow up on volunteering and support-team issues, supporting leadership communications as needed",
+      "project": "team-cohesion",
+      "source": "fireflies/01KT6E1C5BXNZK2BVPN83MPNSK",
+      "source_type": "fireflies",
+      "date": "2026-06-03",
+      "confidence": "low",
+      "extras": {
+        "meeting": "Stand-up BD,PO,Prod,Rec"
+      },
+      "id": "fireflies/01KT6E1C5BXNZK2BVPN83MPNSK/monitorandfollowuponvolunteeringandsuppo",
+      "project_name": "Team cohesion",
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-06-09",
+      "status": "open"
+    },
+    {
+      "text": "Give Maria growth-area feedback in Lattice on AI upskilling (AI Literacy & Application) from the AI project collaboration",
+      "project": "people-ops",
+      "source": "gmail/19ea7982e5d23386",
+      "source_type": "gmail",
+      "date": "2026-06-08",
+      "confidence": "high",
+      "extras": {
+        "subject": "Maria has requested feedback from you",
+        "from": "notifications@mg.latticehq.com"
+      },
+      "id": "gmail/19ea7982e5d23386",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-09",
+      "status": "open"
+    },
+    {
+      "text": "Reply to Maria Desiree Gerbore on whether she should still participate in the AI meetings given she is leaving soon",
+      "project": "ai-recruiting",
+      "source": "slack/D06RRG75CG3/1780986846.071329",
+      "source_type": "slack",
+      "date": "2026-06-09",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM-Maria-Desiree-Gerbore",
+        "from": "Maria Desiree Gerbore"
+      },
+      "id": "slack/D06RRG75CG3/1780986846.071329",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "status": "open"
+    },
+    {
+      "text": "Complete Lattice feedback request from Maria Desiree Gerbore on her growth area",
+      "project": "people-ops",
+      "source": "slack/D06DGN9JW59/1780928224.802739",
+      "source_type": "slack",
+      "date": "2026-06-08",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM-Lattice",
+        "from": "Lattice (re: Maria Desiree Gerbore)"
+      },
+      "id": "slack/D06DGN9JW59/1780928224.802739",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-09",
+      "status": "open"
+    },
+    {
+      "text": "Send Martin the signed Aiven contract (Shaun needs it)",
+      "project": "legal",
+      "source": "slack/C09VBMTP196/1780934405.790019",
+      "source_type": "slack",
+      "date": "2026-06-08",
+      "confidence": "low",
+      "extras": {
+        "channel": "GroupDM-Martin-Kristjana",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/C09VBMTP196/1780934405.790019",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-09",
+      "status": "open"
+    },
+    {
+      "text": "Prepare both Working Groups slides for the Friday team meeting",
+      "project": "team-cohesion",
+      "source": "slack/C03TL255G9E/1780665976.699889",
+      "source_type": "slack",
+      "date": "2026-06-05",
+      "confidence": "medium",
+      "extras": {
+        "channel": "friday-team-meeting",
+        "from": "Blake Barkley (self-commitment)"
+      },
+      "id": "slack/C03TL255G9E/1780665976.699889",
+      "project_name": "Team cohesion",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-09",
+      "status": "open"
+    },
+    {
+      "text": "Review and send the Martin Bernard Slack draft with the CoS Weekly Log sheet link (week of 2026-06-01) before the 1:1",
+      "project": "leadership",
+      "source": "cowork/local_63154281-9b2e-4cf3-922f-829faded468b",
+      "source_type": "cowork",
+      "date": "2026-06-09",
+      "confidence": "high",
+      "extras": {
+        "session": "CoS weekly log (week of Jun 1)"
+      },
+      "id": "cowork/local_63154281-9b2e-4cf3-922f-829faded468b/reviewandsendthemartinbernardslackdraftw",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
       "status": "open"
     }
   ]
