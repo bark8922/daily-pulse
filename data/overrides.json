@@ -1,6 +1,7 @@
 {
   "overrides": {
     "fireflies/01KTBKJSV1MPXPQBAH9Y4Y4BE4/refinetheweeklysourcingupdatesystemaddan": "ai-recruiting",
-    "fireflies/01KTBKJSV1MPXPQBAH9Y4Y4BE4/collectfeedbackfromtalentacquisitionteam": "ai-recruiting"
+    "fireflies/01KTBKJSV1MPXPQBAH9Y4Y4BE4/collectfeedbackfromtalentacquisitionteam": "ai-recruiting",
+    "fireflies/01KTKRGAZ1KWJNEC8BV08XA761/addtogglefeaturetoviewweeklyprogresscomm": "circle"
   }
 }
