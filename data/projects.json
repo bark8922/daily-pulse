@@ -104,6 +104,12 @@
       "name": "US expansion",
       "tier": "medium",
       "notes": "New as of May 26."
+    },
+    {
+      "id": "ai-first-working-group",
+      "name": "AI First Working Group",
+      "tier": "medium",
+      "notes": ""
     }
   ],
   "cross_tags_allowed": true,
