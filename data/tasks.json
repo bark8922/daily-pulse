@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-09",
   "schema_version": 2,
-  "total": 260,
+  "total": 271,
   "projects": [
     {
       "id": "fin-dash",
@@ -86,6 +86,11 @@
     {
       "id": "us-expansion",
       "name": "US expansion",
+      "tier": "medium"
+    },
+    {
+      "id": "ai-first-working-group",
+      "name": "AI First Working Group",
       "tier": "medium"
     }
   ],
@@ -4114,7 +4119,7 @@
     },
     {
       "text": "Add toggle feature to view weekly progress comments by role on the hiring overview page, integrating weekly updates after automating data collection",
-      "project": "rec-dash",
+      "project": "circle",
       "source": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761",
       "source_type": "fireflies",
       "date": "2026-06-08",
@@ -4123,14 +4128,14 @@
         "meeting": "Blake / Andrea Dashboard brainstorm"
       },
       "id": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761/addtogglefeaturetoviewweeklyprogresscomm",
-      "project_name": "Tribe Recruiting Dashboard",
+      "project_name": "Project Circle",
       "first_seen": "2026-06-08",
       "last_seen": "2026-06-09",
       "status": "open"
     },
     {
       "text": "Implement ability to view up to four weeks of historical data on personal hiring dashboards",
-      "project": "rec-dash",
+      "project": "circle",
       "source": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761",
       "source_type": "fireflies",
       "date": "2026-06-08",
@@ -4139,30 +4144,14 @@
         "meeting": "Blake / Andrea Dashboard brainstorm"
       },
       "id": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761/implementabilitytoviewuptofourweeksofhis",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-06-08",
-      "last_seen": "2026-06-09",
-      "status": "open"
-    },
-    {
-      "text": "Send samples of different weekly update submissions (including Andrea's and Valeria's) to Andrea for review and feedback",
-      "project": "rec-dash",
-      "source": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761",
-      "source_type": "fireflies",
-      "date": "2026-06-08",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Blake / Andrea Dashboard brainstorm"
-      },
-      "id": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761/sendsamplesofdifferentweeklyupdatesubmis",
-      "project_name": "Tribe Recruiting Dashboard",
+      "project_name": "Project Circle",
       "first_seen": "2026-06-08",
       "last_seen": "2026-06-09",
       "status": "open"
     },
     {
       "text": "Develop feature allowing sourcers to submit updates per role throughout the week, enabling immediate TA notifications for faster issue resolution",
-      "project": "rec-dash",
+      "project": "ai-recruiting",
       "source": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761",
       "source_type": "fireflies",
       "date": "2026-06-08",
@@ -4171,7 +4160,7 @@
         "meeting": "Blake / Andrea Dashboard brainstorm"
       },
       "id": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761/developfeatureallowingsourcerstosubmitup",
-      "project_name": "Tribe Recruiting Dashboard",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
       "first_seen": "2026-06-08",
       "last_seen": "2026-06-09",
       "status": "open"
@@ -4243,7 +4232,7 @@
     },
     {
       "text": "Reply to Maria Desiree Gerbore on whether she should still participate in the AI meetings given she is leaving soon",
-      "project": "ai-recruiting",
+      "project": "ai-first-working-group",
       "source": "slack/D06RRG75CG3/1780986846.071329",
       "source_type": "slack",
       "date": "2026-06-09",
@@ -4253,7 +4242,7 @@
         "from": "Maria Desiree Gerbore"
       },
       "id": "slack/D06RRG75CG3/1780986846.071329",
-      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "project_name": "AI First Working Group",
       "first_seen": "2026-06-09",
       "last_seen": "2026-06-09",
       "status": "open"
@@ -4310,17 +4299,218 @@
       "status": "open"
     },
     {
-      "text": "Review and send the Martin Bernard Slack draft with the CoS Weekly Log sheet link (week of 2026-06-01) before the 1:1",
-      "project": "leadership",
-      "source": "cowork/local_63154281-9b2e-4cf3-922f-829faded468b",
+      "text": "Discuss travel expense handling options and associated risks (reimbursement vs. lump-sum) with Tribe leadership including Martin and legal counsel, and provide feedback on preferred direction",
+      "project": "legal",
+      "source": "fireflies/01KTP0NBP7HQ50HEGNFMB0Z033",
+      "source_type": "fireflies",
+      "date": "2026-06-09",
+      "confidence": "high",
+      "extras": {
+        "meeting": "TRIBE - deductible expenses"
+      },
+      "id": "fireflies/01KTP0NBP7HQ50HEGNFMB0Z033/discusstravelexpensehandlingoptionsandas",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "status": "open"
+    },
+    {
+      "text": "Assess administrative and tax implications of ending company credit card use for contractors and transitioning to reimbursement or lump-sum deposits for travel, software, and related expenses",
+      "project": "expense-ops",
+      "source": "fireflies/01KTP0NBP7HQ50HEGNFMB0Z033",
+      "source_type": "fireflies",
+      "date": "2026-06-09",
+      "confidence": "high",
+      "extras": {
+        "meeting": "TRIBE - deductible expenses"
+      },
+      "id": "fireflies/01KTP0NBP7HQ50HEGNFMB0Z033/assessadministrativeandtaximplicationsof",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "status": "open"
+    },
+    {
+      "text": "Update Tribe Spain Santander account information per Bove Montero's request (complete and return the attached form)",
+      "project": "fin-dash",
+      "source": "gmail/19eac46e4735bc3d",
+      "source_type": "gmail",
+      "date": "2026-06-09",
+      "confidence": "high",
+      "extras": {
+        "subject": "TRIBE - UPDATE SANTANDER ACCOUNT",
+        "from": "yhan@bovemontero.com"
+      },
+      "id": "gmail/19eac46e4735bc3d",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "status": "open"
+    },
+    {
+      "text": "Arrange the CITR tax-liability advance payment of CZK 1,153,700 due 15.06.2026 (Boris Gnoth office request)",
+      "project": "fin-dash",
+      "source": "gmail/19eac090e9b522ca",
+      "source_type": "gmail",
+      "date": "2026-06-09",
+      "confidence": "high",
+      "extras": {
+        "subject": "CITR - advance",
+        "from": "ehuclova@borisgnoth.cz"
+      },
+      "id": "gmail/19eac090e9b522ca",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "status": "open"
+    },
+    {
+      "text": "Respond to Join Talent's Letter Before Action re: the Tribe comparison page (tribexyz.com/all-comparisons) within the stated timeframe; coordinate with CEE/ATT lawyers (Martin Dohnal replying with recommendation)",
+      "project": "legal",
+      "source": "gmail/19eac052d09d57f6",
+      "source_type": "gmail",
+      "date": "2026-06-09",
+      "confidence": "high",
+      "extras": {
+        "subject": "Competitor Legal Warning / Letter before action",
+        "from": "martin.dohnal@ceeatt.com / martin@tribe.xyz"
+      },
+      "id": "gmail/19eac052d09d57f6",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "status": "open"
+    },
+    {
+      "text": "Review the join.talent legal takedown notice for the tribexyz.com/all-comparisons page, determine if it's legal, get it taken down, and respond to join.talent this week",
+      "project": "legal",
+      "source": "slack/C0B4WRNLC6T/1781002270.606259",
+      "source_type": "slack",
+      "date": "2026-06-09",
+      "confidence": "high",
+      "extras": {
+        "channel": "Group DM (Martin/Caroline)",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/C0B4WRNLC6T/1781002270.606259",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "status": "open"
+    },
+    {
+      "text": "Decide whether to organize Jonaed's refund outside Revolut/Remote (reversal not possible) and tell Andrea what's needed on her end",
+      "project": "expense-ops",
+      "source": "slack/D071AKJ9YG2/1781001196.170339",
+      "source_type": "slack",
+      "date": "2026-06-09",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM (Andrea Darabasic)",
+        "from": "Andrea Darabasic"
+      },
+      "id": "slack/D071AKJ9YG2/1781001196.170339",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "status": "open"
+    },
+    {
+      "text": "Prepare a contract for the new HubSpot company Jacopo flagged (5K pipeline + 10/12K for 1x full-time TA depending on seniority)",
+      "project": "sales-hubspot",
+      "source": "slack/D056EG3QPLP/1781007413.723379",
+      "source_type": "slack",
+      "date": "2026-06-09",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM (Jacopo Lupo Ferrari)",
+        "from": "Jacopo Lupo Ferrari"
+      },
+      "id": "slack/D056EG3QPLP/1781007413.723379",
+      "project_name": "Sales dashboard + HubSpot",
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "status": "open"
+    },
+    {
+      "text": "Build a 'New Project Health' dashboard tab (per project started in last 30 days: days to first ATS move (KR2) and Week 4 AS-to-ATS conversion (KR3)) for the OKRs",
+      "project": "okrs",
+      "source": "slack/D056EG3QPLP/1780994682.707189",
+      "source_type": "slack",
+      "date": "2026-06-09",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM (Jacopo Lupo Ferrari)",
+        "from": "Jacopo Lupo Ferrari"
+      },
+      "id": "slack/D056EG3QPLP/1780994682.707189",
+      "project_name": "OKRs",
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "status": "open"
+    },
+    {
+      "text": "Fill out the WeWork move-out form (with bank details) so they return the deposit, and determine whether the account is Tribe CZ or HoldCo",
+      "project": "expense-ops",
+      "source": "slack/D055NJ27YRY/1781002480.237789",
+      "source_type": "slack",
+      "date": "2026-06-09",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM (Martin Bernard)",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/D055NJ27YRY/1781002480.237789",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "status": "open"
+    },
+    {
+      "text": "Fix the broken Hiring Overview on Valeria's recruiting dashboard (both last and this week show blank/error even though the dashboard has this week's data)",
+      "project": "rec-dash",
+      "source": "slack/D062X9TGXQA/1780645181.977179",
+      "source_type": "slack",
+      "date": "2026-06-05",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM (Valeria Yurykova)",
+        "from": "Valeria Yurykova"
+      },
+      "id": "slack/D062X9TGXQA/1780645181.977179",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-09",
+      "status": "open"
+    },
+    {
+      "text": "Confirm column/threshold tweaks on the new Project Health dashboard tab, then wire the Keboola block so it auto-refreshes 3x/day like the rest of the recruiting dashboard",
+      "project": "rec-dash",
+      "source": "cowork/local_8ccfb663-1090-4ab4-a82c-5a92cb168e8d",
       "source_type": "cowork",
       "date": "2026-06-09",
       "confidence": "high",
       "extras": {
-        "session": "CoS weekly log (week of Jun 1)"
+        "session": "New Project Health dashboard tab"
       },
-      "id": "cowork/local_63154281-9b2e-4cf3-922f-829faded468b/reviewandsendthemartinbernardslackdraftw",
-      "project_name": "Leadership comms",
+      "id": "cowork/local_8ccfb663-1090-4ab4-a82c-5a92cb168e8d/confirmcolumnthresholdtweaksonthenewproj",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "status": "open"
+    },
+    {
+      "text": "Decide whether to align the Recruiter Screen metric across Circle and WBR dashboards (count by screen date vs by Recruiter Screen stage event) - currently diverge 8 vs 7 (parked for now)",
+      "project": "rec-dash",
+      "source": "cowork/local_a04f4095-5631-4c89-b5d5-aa47c7ea7ba0",
+      "source_type": "cowork",
+      "date": "2026-06-09",
+      "confidence": "medium",
+      "extras": {
+        "session": "TA Names column gaps / Recruiter Screen 7-vs-8"
+      },
+      "id": "cowork/local_a04f4095-5631-4c89-b5d5-aa47c7ea7ba0/decidewhethertoaligntherecruiterscreenme",
+      "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-06-09",
       "last_seen": "2026-06-09",
       "status": "open"
