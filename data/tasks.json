@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-10",
+  "generated_at": "2026-06-11",
   "schema_version": 2,
-  "total": 270,
+  "total": 298,
   "projects": [
     {
       "id": "fin-dash",
@@ -3889,23 +3889,6 @@
       "status": "open"
     },
     {
-      "text": "Send Ekaterina Boyprav's final paycheck by EOD (to \u0130\u015fbank account if Ziraat Bank still blocked) so she can withdraw it in Istanbul",
-      "project": "expense-ops",
-      "source": "gmail/19eb01dee43351d8",
-      "source_type": "gmail",
-      "date": "2026-06-10",
-      "confidence": "high",
-      "extras": {
-        "subject": "Boyprav (Final Invoice Bank Details)",
-        "from": "katerina.boyprav@gmail.com"
-      },
-      "id": "gmail/19eb01dee43351d8",
-      "project_name": "Expense Ops",
-      "first_seen": "2026-06-10",
-      "last_seen": "2026-06-10",
-      "status": "open"
-    },
-    {
       "text": "Approve/deny Andrea Akovic's edit access request to the Sourcing Team Meetings page in Notion",
       "project": "project-hub",
       "source": "gmail/19eaccdf3e47e357",
@@ -4513,6 +4496,478 @@
       "project_name": "Leadership comms",
       "first_seen": "2026-06-09",
       "last_seen": "2026-06-10",
+      "status": "open"
+    },
+    {
+      "text": "Investigate and resolve login issues for finance dashboards and Tribe tool access experienced by Ella and Martin",
+      "project": "fin-dash",
+      "source": "fireflies/01KTRZ5HTBVY7Q3SH2FHDJXTZH",
+      "source_type": "fireflies",
+      "date": "2026-06-10",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Meet \u2013 Finance Review"
+      },
+      "id": "fireflies/01KTRZ5HTBVY7Q3SH2FHDJXTZH/investigateandresolveloginissuesforfinan",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Provide exact financial savings amounts to Ella for the cost-cutting contingency spreadsheet",
+      "project": "leadership",
+      "source": "fireflies/01KTRZ5HTBVY7Q3SH2FHDJXTZH",
+      "source_type": "fireflies",
+      "date": "2026-06-10",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Meet \u2013 Finance Review"
+      },
+      "id": "fireflies/01KTRZ5HTBVY7Q3SH2FHDJXTZH/provideexactfinancialsavingsamountstoell",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with lawyers on the 'join talent' webpage; if no response by next morning, have Caroline take the page down and send a polite response",
+      "project": "legal",
+      "source": "fireflies/01KTRXYD41FX8911Q5RFH8ZY3T",
+      "source_type": "fireflies",
+      "date": "2026-06-10",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KTRXYD41FX8911Q5RFH8ZY3T/followupwithlawyersonthejointalentwebpag",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Approve quarterly tax payment at KB Bank with increased daily allowance limit",
+      "project": "expense-ops",
+      "source": "fireflies/01KTRXYD41FX8911Q5RFH8ZY3T",
+      "source_type": "fireflies",
+      "date": "2026-06-10",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KTRXYD41FX8911Q5RFH8ZY3T/approvequarterlytaxpaymentatkbbankwithin",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Research and initiate discussions with lawyers and accountants about relocating company entity from the Czech Republic to a tax-favorable jurisdiction (Dubai, Hong Kong, or Bulgaria)",
+      "project": "legal",
+      "source": "fireflies/01KTRXYD41FX8911Q5RFH8ZY3T",
+      "source_type": "fireflies",
+      "date": "2026-06-10",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KTRXYD41FX8911Q5RFH8ZY3T/researchandinitiatediscussionswithlawyer",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Reduce Keboola token usage (e.g., less frequent geocoding calls) and follow up on the contract renewal meeting to negotiate costs with the new account manager",
+      "project": "keboola-sunset",
+      "source": "fireflies/01KTRXYD41FX8911Q5RFH8ZY3T",
+      "source_type": "fireflies",
+      "date": "2026-06-10",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KTRXYD41FX8911Q5RFH8ZY3T/reducekeboolatokenusageeglessfrequentgeo",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Discuss TaxFix expenses with the provider to review and possibly optimize costs",
+      "project": "expense-ops",
+      "source": "fireflies/01KTRXYD41FX8911Q5RFH8ZY3T",
+      "source_type": "fireflies",
+      "date": "2026-06-10",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KTRXYD41FX8911Q5RFH8ZY3T/discusstaxfixexpenseswiththeprovidertore",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Send AI First workspace link to Nenad to improve onboarding and transparency",
+      "project": "ai-first-working-group",
+      "source": "fireflies/01KTRSWJ6M4WCVERAV2F0ACGDZ",
+      "source_type": "fireflies",
+      "date": "2026-06-10",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KTRSWJ6M4WCVERAV2F0ACGDZ/sendaifirstworkspacelinktonenadtoimprove",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Continue pushing for more users to test the intake tool and monitor job openings weekly",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KTRSWJ6M4WCVERAV2F0ACGDZ",
+      "source_type": "fireflies",
+      "date": "2026-06-10",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KTRSWJ6M4WCVERAV2F0ACGDZ/continuepushingformoreuserstotesttheinta",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Provide Tribe bot usage data by the end of the week for review",
+      "project": "tribebot",
+      "source": "fireflies/01KTRSWJ6M4WCVERAV2F0ACGDZ",
+      "source_type": "fireflies",
+      "date": "2026-06-10",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KTRSWJ6M4WCVERAV2F0ACGDZ/providetribebotusagedatabytheendofthewee",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Follow up on team feedback regarding Tribe bot to increase adoption and usefulness",
+      "project": "tribebot",
+      "source": "fireflies/01KTRSWJ6M4WCVERAV2F0ACGDZ",
+      "source_type": "fireflies",
+      "date": "2026-06-10",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KTRSWJ6M4WCVERAV2F0ACGDZ/followuponteamfeedbackregardingtribebott",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Plan brainstorming session on Tribe bot data sourcing and incremental content improvement",
+      "project": "tribebot",
+      "source": "fireflies/01KTRSWJ6M4WCVERAV2F0ACGDZ",
+      "source_type": "fireflies",
+      "date": "2026-06-10",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KTRSWJ6M4WCVERAV2F0ACGDZ/planbrainstormingsessionontribebotdataso",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Coordinate with Mikhail and Rodrigo in the group chat to advance intake call feature development (API endpoints, automatic job creation) and provide support",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KT9847DWP1VZA59T51589TKA",
+      "source_type": "fireflies",
+      "date": "2026-06-04",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Intake Tool Alignment"
+      },
+      "id": "fireflies/01KT9847DWP1VZA59T51589TKA/coordinatewithmikhailandrodrigointhegrou",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Arrange bank transfer of FY2025 corporate income tax liability (underpayment ~CZK 1.2M of CZK 4.4M total) per Boris Gnoth's instructions \u2014 due 1 July 2026",
+      "project": "expense-ops",
+      "source": "gmail/19eb31c62ec49d95",
+      "source_type": "gmail",
+      "date": "2026-06-10",
+      "confidence": "high",
+      "extras": {
+        "from": "boris@borisgnoth.cz",
+        "subject": "TRIBE - Bank transfer of corporate income tax liability for FY2025"
+      },
+      "id": "gmail/19eb31c62ec49d95",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Review Ashby paid seat usage per quarterly true-up notice (account currently over/under provisioned seats)",
+      "project": "expense-ops",
+      "source": "gmail/19eb2e87ae613192",
+      "source_type": "gmail",
+      "date": "2026-06-10",
+      "confidence": "low",
+      "extras": {
+        "from": "contracts@ashbyhq.com",
+        "subject": "Quarterly True-up Notice"
+      },
+      "id": "gmail/19eb2e87ae613192",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Draft the referral contract for Shaun (10% for first 12 months of a project) requested by Martin - Reaktor TA contract (11,000 EUR/month) already shared, Blake said he needs to find the previous referral contract version",
+      "project": "legal",
+      "source": "slack/C09VBMTP196/1781099126.470629",
+      "source_type": "slack",
+      "date": "2026-06-10",
+      "confidence": "high",
+      "extras": {
+        "channel": "group-dm (Martin, Kristjana, Blake)",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/C09VBMTP196/1781099126.470629",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Follow up by ~June 12 whether Shaun sorted the invoice (Reaktor-related contact) and tell Kristjana if it is not done in 2 days so she can chase again",
+      "project": "expense-ops",
+      "source": "slack/D059MAFUJR0/1781115097.628259",
+      "source_type": "slack",
+      "date": "2026-06-10",
+      "confidence": "medium",
+      "extras": {
+        "channel": "dm",
+        "from": "Kristjana Thorarinsdottir"
+      },
+      "id": "slack/D059MAFUJR0/1781115097.628259",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Give Andrea Akovic full edit access to the Sourcer's-meeting Notion page (meetings + tasks database) Blake shared with her for the monthly Sourcers meeting",
+      "project": "inbox",
+      "source": "slack/D05AQFRMF08/1781015130.114169",
+      "source_type": "slack",
+      "date": "2026-06-09",
+      "confidence": "medium",
+      "extras": {
+        "channel": "dm",
+        "from": "Andrea Akovic"
+      },
+      "id": "slack/D05AQFRMF08/1781015130.114169",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Build a patch/repair process for Your Roles Weekly bot sourcing counts when candidates are saved to the wrong project and then deleted (Valeria's 8 Dutch-sprint contacts stay counted; Blake committed: 'I will need to look into how we patch this')",
+      "project": "tribebot",
+      "source": "slack/D062X9TGXQA/1781105086.443409",
+      "source_type": "slack",
+      "date": "2026-06-10",
+      "confidence": "medium",
+      "extras": {
+        "channel": "dm",
+        "from": "Valeria Yurykova / Blake Barkley (self-commitment)"
+      },
+      "id": "slack/D062X9TGXQA/1781105086.443409",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Fix Receipts Workflow n8n failure - Claude Vision OCR node erroring 'Bad request - please check your parameters' (failed at least twice on 06-10, executions 32110 and 32130)",
+      "project": "expense-ops",
+      "source": "slack/D0AKAPA0X3J/1781109187.367719",
+      "source_type": "slack",
+      "date": "2026-06-10",
+      "confidence": "high",
+      "extras": {
+        "channel": "dm",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1781109187.367719",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Fix 'Tribe Dashboard - Actual Spend Export Github node' n8n workflow - 'refreshToken is required' on Write CSV to GitHub node (failed twice on 06-10); reconnect/refresh the GitHub credential",
+      "project": "fin-dash",
+      "source": "slack/D0AKAPA0X3J/1781108524.706309",
+      "source_type": "slack",
+      "date": "2026-06-10",
+      "confidence": "high",
+      "extras": {
+        "channel": "dm",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1781108524.706309",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Verify Cloudflare side of finance dashboard once Mikhail finishes his two Bubble fixes (Ella's account, Martin's nav button)",
+      "project": "fin-dash",
+      "source": "cowork/local_830209ae-fa70-4b76-a54f-15a3251c1f95",
+      "source_type": "cowork",
+      "date": "2026-06-11",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Finance dashboard access issues"
+      },
+      "id": "cowork/local_830209ae-fa70-4b76-a54f-15a3251c1f95/verifycloudflaresideoffinancedashboardon",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Draft and publish the candidate privacy notice promised in revised DPA v2 (new section 4.5) and write the LIA document (plus TIA for US-hosted Bubble data)",
+      "project": "legal",
+      "source": "cowork/local_e909eec0-5f41-43d0-a27f-77437d122d17",
+      "source_type": "cowork",
+      "date": "2026-06-11",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Tribe _DPA_Template legal review"
+      },
+      "id": "cowork/local_e909eec0-5f41-43d0-a27f-77437d122d17/draftandpublishthecandidateprivacynotice",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Replace the Drive DPA template with the amended v2 (staff augmentation, 48h breach window, notes carve-out, 30-day subprocessor notice)",
+      "project": "legal",
+      "source": "cowork/local_e909eec0-5f41-43d0-a27f-77437d122d17",
+      "source_type": "cowork",
+      "date": "2026-06-11",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Tribe _DPA_Template legal review"
+      },
+      "id": "cowork/local_e909eec0-5f41-43d0-a27f-77437d122d17/replacethedrivedpatemplatewiththeamended",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "HubSpot subscriptions cleanup: delete duplicate Kristina Nikolic sub (1250404886721), create Glovo + Aiven contacts and link their 5 subs, create products for Filip Nogowski + Aleksandra Ivanovic and link their line items",
+      "project": "sales-hubspot",
+      "source": "cowork/local_8ee45787-426a-4b58-bdc9-28a3affa865d",
+      "source_type": "cowork",
+      "date": "2026-06-10",
+      "confidence": "high",
+      "extras": {
+        "session_title": "BambooHR employee client timeline"
+      },
+      "id": "cowork/local_8ee45787-426a-4b58-bdc9-28a3affa865d/hubspotsubscriptionscleanupdeleteduplica",
+      "project_name": "Sales dashboard + HubSpot",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Reply to Valeria: French sprint role now synced into her DM (77 contacted / 7 positive / 1 screen); Dutch 8 contacted stays by design (historical outreach record) - and decide whether to refresh Nare/Andrea DMs for the same sync gap",
+      "project": "tribebot",
+      "source": "cowork/local_b49abb84-a9bd-454f-818f-2b1c58d169fe",
+      "source_type": "cowork",
+      "date": "2026-06-09",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Project status update on two initiatives"
+      },
+      "id": "cowork/local_b49abb84-a9bd-454f-818f-2b1c58d169fe/replytovaleriafrenchsprintrolenowsyncedi",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Decide whether to anchor KR2 (first move to ATS) on first-contacted date instead of role creation date on the Project Health tab - currently 36% vs 90% goal, inflated by roles created before sourcing starts",
+      "project": "rec-dash",
+      "source": "cowork/local_8ccfb663-1090-4ab4-a82c-5a92cb168e8d",
+      "source_type": "cowork",
+      "date": "2026-06-10",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "New Project Health dashboard tab"
+      },
+      "id": "cowork/local_8ccfb663-1090-4ab4-a82c-5a92cb168e8d/decidewhethertoanchorkr2firstmovetoatson",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Send Andrea sample weekly update submissions (Blake's and Valeria's) to unblock her feedback-format sync with Gustavo and Sonia",
+      "project": "circle",
+      "source": "cowork/local_5cccf9b8-11dd-4537-9ad5-6c040960f7af",
+      "source_type": "cowork",
+      "date": "2026-06-09",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Andrea Akovic call summary"
+      },
+      "id": "cowork/local_5cccf9b8-11dd-4537-9ad5-6c040960f7af/sendandreasampleweeklyupdatesubmissionsb",
+      "project_name": "Project Circle",
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-11",
+      "status": "open"
+    },
+    {
+      "text": "Share working version of Gustavo's internal sourcing metrics dashboard (hires-per-sourcer, cost-per-hire) with Andrea for feedback",
+      "project": "rec-dash",
+      "source": "cowork/local_5cccf9b8-11dd-4537-9ad5-6c040960f7af",
+      "source_type": "cowork",
+      "date": "2026-06-09",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Andrea Akovic call summary"
+      },
+      "id": "cowork/local_5cccf9b8-11dd-4537-9ad5-6c040960f7af/shareworkingversionofgustavosinternalsou",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-11",
       "status": "open"
     }
   ]
