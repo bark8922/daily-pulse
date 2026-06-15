@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-15",
   "schema_version": 2,
-  "total": 288,
+  "total": 292,
   "projects": [
     {
       "id": "fin-dash",
@@ -3945,23 +3945,6 @@
       "status": "open"
     },
     {
-      "text": "Draft the referral contract for Shaun (10% for first 12 months of a project) requested by Martin - Reaktor TA contract (11,000 EUR/month) already shared, Blake said he needs to find the previous referral contract version",
-      "project": "legal",
-      "source": "slack/C09VBMTP196/1781099126.470629",
-      "source_type": "slack",
-      "date": "2026-06-10",
-      "confidence": "high",
-      "extras": {
-        "channel": "group-dm (Martin, Kristjana, Blake)",
-        "from": "Martin Bernard"
-      },
-      "id": "slack/C09VBMTP196/1781099126.470629",
-      "project_name": "Legal & Contracts",
-      "first_seen": "2026-06-10",
-      "last_seen": "2026-06-11",
-      "status": "open"
-    },
-    {
       "text": "Follow up by ~June 12 whether Shaun sorted the invoice (Reaktor-related contact) and tell Kristjana if it is not done in 2 days so she can chase again",
       "project": "expense-ops",
       "source": "slack/D059MAFUJR0/1781115097.628259",
@@ -4024,38 +4007,6 @@
       "id": "cowork/local_b49abb84-a9bd-454f-818f-2b1c58d169fe/replytovaleriafrenchsprintrolenowsyncedi",
       "project_name": "Tribebot",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-06-11",
-      "status": "open"
-    },
-    {
-      "text": "Add clear contextual descriptions and definitions below dashboard columns for improved clarity and usability",
-      "project": "rec-dash",
-      "source": "fireflies/01KTV5EJ8F8SA8XMBYYCQPNB3X",
-      "source_type": "fireflies",
-      "date": "2026-06-11",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Gustavo / Blake - Sourcing Dashboard Catchup"
-      },
-      "id": "fireflies/01KTV5EJ8F8SA8XMBYYCQPNB3X/addclearcontextualdescriptionsanddefinit",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-06-11",
-      "last_seen": "2026-06-11",
-      "status": "open"
-    },
-    {
-      "text": "Build the missing TS job ratio metric and continue refining dashboards to ensure accuracy before broader distribution",
-      "project": "rec-dash",
-      "source": "fireflies/01KTV5EJ8F8SA8XMBYYCQPNB3X",
-      "source_type": "fireflies",
-      "date": "2026-06-11",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Gustavo / Blake - Sourcing Dashboard Catchup"
-      },
-      "id": "fireflies/01KTV5EJ8F8SA8XMBYYCQPNB3X/buildthemissingtsjobratiometricandcontin",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-06-11",
       "last_seen": "2026-06-11",
       "status": "open"
     },
@@ -4156,22 +4107,6 @@
       "status": "open"
     },
     {
-      "text": "Provide financial target savings data to Ella to support the workforce contingency list preparation",
-      "project": "inbox",
-      "source": "fireflies/01KTRZ42VTMQEWTGB4ERK09G65",
-      "source_type": "fireflies",
-      "date": "2026-06-10",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Finance Review"
-      },
-      "id": "fireflies/01KTRZ42VTMQEWTGB4ERK09G65/providefinancialtargetsavingsdatatoellat",
-      "project_name": "Inbox (untagged)",
-      "first_seen": "2026-06-10",
-      "last_seen": "2026-06-12",
-      "status": "open"
-    },
-    {
       "text": "Research relocating the company entity from Czech Republic to a tax-favorable jurisdiction (Dubai/Bulgaria) and consult legal/accounting experts",
       "project": "legal",
       "source": "fireflies/01KTRXB7NJ11V84BKRVASJ9Y2G",
@@ -4183,22 +4118,6 @@
       },
       "id": "fireflies/01KTRXB7NJ11V84BKRVASJ9Y2G/researchrelocatingthecompanyentityfromcz",
       "project_name": "Legal & Contracts",
-      "first_seen": "2026-06-10",
-      "last_seen": "2026-06-12",
-      "status": "open"
-    },
-    {
-      "text": "Continue reducing Keboola token usage and follow up with the account manager on contract renewal and cost negotiation",
-      "project": "keboola-sunset",
-      "source": "fireflies/01KTRXB7NJ11V84BKRVASJ9Y2G",
-      "source_type": "fireflies",
-      "date": "2026-06-10",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Blake & Martin: 1:1"
-      },
-      "id": "fireflies/01KTRXB7NJ11V84BKRVASJ9Y2G/continuereducingkeboolatokenusageandfoll",
-      "project_name": "Keboola migration / sunset",
       "first_seen": "2026-06-10",
       "last_seen": "2026-06-12",
       "status": "open"
@@ -4484,23 +4403,6 @@
       "status": "open"
     },
     {
-      "text": "Fully restore disqualification-reasons reporting in the Tribe Dashboard for Alexandra Richiteanu (short-term fix only shows last week + this week on the personal hiring overview page; Blake committed 'Will need more time to add it back in fully')",
-      "project": "rec-dash",
-      "source": "slack/C013VRX2VFB/1781265589.151569",
-      "source_type": "slack",
-      "date": "2026-06-12",
-      "confidence": "high",
-      "extras": {
-        "from": "Alexandra Richiteanu / Mikhail Kuzmin",
-        "channel_name": "tech_support"
-      },
-      "id": "slack/C013VRX2VFB/1781265589.151569",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-06-12",
-      "last_seen": "2026-06-12",
-      "status": "open"
-    },
-    {
       "text": "Fix failing n8n Receipts Workflow - Claude Vision OCR node erroring with 'Bad request - please check your parameters' (failed twice on June 10)",
       "project": "expense-ops",
       "source": "slack/D0AKAPA0X3J/1781107280.820389",
@@ -4571,22 +4473,6 @@
       "status": "open"
     },
     {
-      "text": "Give go-ahead to build the Disqualified Reasons transformation block + UI on the recruiting dashboard (SQL parity with old PBI Overview confirmed at ~125.7k candidates)",
-      "project": "rec-dash",
-      "source": "cowork/local_c507059d-9817-4df2-b053-0813237f7c06",
-      "source_type": "cowork",
-      "date": "2026-06-11",
-      "confidence": "high",
-      "extras": {
-        "session_title": "Disqualified reasons table scope"
-      },
-      "id": "cowork/local_c507059d-9817-4df2-b053-0813237f7c06/givegoaheadtobuildthedisqualifiedreasons",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-06-11",
-      "last_seen": "2026-06-12",
-      "status": "open"
-    },
-    {
       "text": "Decide whether to keep leader dashboard auto-refresh wired into deploy-main.yml or revert to manual-only (Claude superseded the May 27 'sensitive - don't auto-wire' note; per-build director-name leak check now in place)",
       "project": "fin-dash",
       "source": "cowork/local_371861b6-b990-4117-a6ec-f9e03a69d920",
@@ -4617,38 +4503,6 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-06-10",
       "last_seen": "2026-06-12",
-      "status": "open"
-    },
-    {
-      "text": "Investigate composition/classification of volume hires in the sourcing dashboards: verify internal vs external hire counts and clarify discrepancies for 2026 hires",
-      "project": "rec-dash",
-      "source": "fireflies/01KTV5EJ8F8SA8XMBYYCQPNB3X",
-      "source_type": "fireflies",
-      "date": "2026-06-11",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Gustavo / Blake - Sourcing Dashboard Catchup"
-      },
-      "id": "fireflies/01KTV5EJ8F8SA8XMBYYCQPNB3X/investigatecompositionclassificationofvo",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-06-11",
-      "last_seen": "2026-06-15",
-      "status": "open"
-    },
-    {
-      "text": "Send the AI First workspace link to Nenad to improve onboarding and transparency",
-      "project": "ai-first-working-group",
-      "source": "fireflies/01KTRSWJ6M4WCVERAV2F0ACGDZ",
-      "source_type": "fireflies",
-      "date": "2026-06-10",
-      "confidence": "high",
-      "extras": {
-        "meeting": "AI First"
-      },
-      "id": "fireflies/01KTRSWJ6M4WCVERAV2F0ACGDZ/sendtheaifirstworkspacelinktonenadtoimpr",
-      "project_name": "AI First Working Group",
-      "first_seen": "2026-06-10",
-      "last_seen": "2026-06-15",
       "status": "open"
     },
     {
@@ -4702,23 +4556,6 @@
       "status": "open"
     },
     {
-      "text": "Update the Hostaway MSA (Consulting Services Agreement) and DPA per Hostaway legal's 8-point amendment list (fill in client details/fees/signatory, fix MSA Section 1.1 and broken 1.7 refs, add no-auto-renewal + key-personnel substitution + liability cap clauses, switch governing law to Finnish/Helsinki arbitration, shorten DPA breach window to 24h, allow sharing recruiter assessment notes, IP assignment, remove EUR 350 license fee, narrow transfer-fee 'Staff' definition) so it can go to final for signature",
-      "project": "legal",
-      "source": "slack/D057XNFLHTR/1781267587.612079",
-      "source_type": "slack",
-      "date": "2026-06-12",
-      "confidence": "high",
-      "extras": {
-        "channel": "DM",
-        "from": "Salem Mansuri"
-      },
-      "id": "slack/D057XNFLHTR/1781267587.612079",
-      "project_name": "Legal & Contracts",
-      "first_seen": "2026-06-12",
-      "last_seen": "2026-06-15",
-      "status": "open"
-    },
-    {
       "text": "Send Simon Siew a feedback form so he can write feedback about the Pokedeck/Pokedex project",
       "project": "team-cohesion",
       "source": "slack/D07M79K14G0/1781504922.336839",
@@ -4731,22 +4568,6 @@
       },
       "id": "slack/D07M79K14G0/1781504922.336839",
       "project_name": "Team cohesion",
-      "first_seen": "2026-06-15",
-      "last_seen": "2026-06-15",
-      "status": "open"
-    },
-    {
-      "text": "Finish the Hostaway DPA v1 edits (Annex I Part B assessment-notes sentence + fill header: Hostaway entity details and effective date), then send the revised Consulting Agreement + DPA drafts and recap email to Owen Choi (owen.choi@hostaway.com)",
-      "project": "legal",
-      "source": "cowork/local_27c66437-f848-4526-b706-d42faa0fee31",
-      "source_type": "cowork",
-      "date": "2026-06-15",
-      "confidence": "high",
-      "extras": {
-        "session": "Tribe DPA contract revisions"
-      },
-      "id": "cowork/local_27c66437-f848-4526-b706-d42faa0fee31/finishthehostawaydpav1editsannexipartbas",
-      "project_name": "Legal & Contracts",
       "first_seen": "2026-06-15",
       "last_seen": "2026-06-15",
       "status": "open"
@@ -4784,17 +4605,264 @@
       "status": "open"
     },
     {
-      "text": "Send the Q3 OKR prep message to the team (June 17 written deadline, Q2 carryover review, required AI improvement objective per department)",
+      "text": "Reach out to Caroline to initiate the connection with BambooHR's beta program for cloud connectors",
+      "project": "people-ops",
+      "source": "fireflies/01KV5GR7ZM0PF99NQ1BHRNM58J",
+      "source_type": "fireflies",
+      "date": "2026-06-15",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Caroline / Blake"
+      },
+      "id": "fireflies/01KV5GR7ZM0PF99NQ1BHRNM58J/reachouttocarolinetoinitiatetheconnectio",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Set up and maintain monthly HubSpot data uploads via CSV file imports",
+      "project": "sales-hubspot",
+      "source": "fireflies/01KV5GR7ZM0PF99NQ1BHRNM58J",
+      "source_type": "fireflies",
+      "date": "2026-06-15",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Caroline / Blake"
+      },
+      "id": "fireflies/01KV5GR7ZM0PF99NQ1BHRNM58J/setupandmaintainmonthlyhubspotdataupload",
+      "project_name": "Sales dashboard + HubSpot",
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Process the Munich dinner invoice payment promptly",
+      "project": "expense-ops",
+      "source": "fireflies/01KV5GR7ZM0PF99NQ1BHRNM58J",
+      "source_type": "fireflies",
+      "date": "2026-06-15",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Caroline / Blake"
+      },
+      "id": "fireflies/01KV5GR7ZM0PF99NQ1BHRNM58J/processthemunichdinnerinvoicepaymentprom",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Manage receipt submissions and approval automation, ensuring expense processing reminders are sent",
+      "project": "expense-ops",
+      "source": "fireflies/01KV5GR7ZM0PF99NQ1BHRNM58J",
+      "source_type": "fireflies",
+      "date": "2026-06-15",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Caroline / Blake"
+      },
+      "id": "fireflies/01KV5GR7ZM0PF99NQ1BHRNM58J/managereceiptsubmissionsandapprovalautom",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Schedule the next interview step for Karima: a 45-minute session with talent director Christiana",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KTVDNCWHAHCK3DKAHQBK65X5",
+      "source_type": "fireflies",
+      "date": "2026-06-11",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Generalist Talent Acquisition Partner (French speaker) - Recruiter Screen - Karima EL Harim"
+      },
+      "id": "fireflies/01KTVDNCWHAHCK3DKAHQBK65X5/schedulethenextinterviewstepforkarimaa45",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Submit peer feedback for members in projects he leads",
       "project": "okrs",
-      "source": "cowork/local_79d3e1c4-f832-4ebf-9951-5c57f0e9a797",
+      "source": "fireflies/01KTRERCWH3K3XP5CHF6GHZFXJ",
+      "source_type": "fireflies",
+      "date": "2026-06-10",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "OKR Check-in - Stand-up: Delivery, People, BD"
+      },
+      "id": "fireflies/01KTRERCWH3K3XP5CHF6GHZFXJ/submitpeerfeedbackformembersinprojectshe",
+      "project_name": "OKRs",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Add toggle on the hiring overview page to view weekly progress comments by role",
+      "project": "rec-dash",
+      "source": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761",
+      "source_type": "fireflies",
+      "date": "2026-06-08",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Andrea Dashboard brainstorm"
+      },
+      "id": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761/addtoggleonthehiringoverviewpagetoviewwe",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Arrange bank transfer of Tribe Holding VAT liability for 05/2026 (CZK 194,563) by the June 25 deadline per Eva Huclova (Boris Gnoth)",
+      "project": "fin-dash",
+      "source": "gmail/19ecbb84be8d77df",
+      "source_type": "gmail",
+      "date": "2026-06-15",
+      "confidence": "high",
+      "extras": {
+        "subject": "FW: Tribe holding - DPH 05/2025",
+        "from": "ehuclova@borisgnoth.cz"
+      },
+      "id": "gmail/19ecbb84be8d77df",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Complete the BambooHR offboarding task for Adelya Khakimova (Talent Acquisition Partner L2, termination 10 July) assigned by Andrea Darabasic",
+      "project": "people-ops",
+      "source": "gmail/19ecb3e5a314a1f8",
+      "source_type": "gmail",
+      "date": "2026-06-15",
+      "confidence": "high",
+      "extras": {
+        "subject": "Please complete this offboarding task for Adelya Khakimova",
+        "from": "notifications@app.bamboohr.com"
+      },
+      "id": "gmail/19ecb3e5a314a1f8",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Investigate Dolores Palotas's TS Summary data discrepancy: her Enterprise Account Executive Berlin role shows 0 people moved to ATS, but 5 candidates she sourced (Alexander Medgett, Jan Seifert, Alexander Kaminski, Sonmez Uluturk, Christian G.) actually moved to ATS/onsite stages - Blake committed 'let me have a look, will get back to you'",
+      "project": "rec-dash",
+      "source": "slack/D05ELN4EX6W/1781522068.677609",
+      "source_type": "slack",
+      "date": "2026-06-15",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Dolores Palotas",
+        "from": "Dolores Palotas"
+      },
+      "id": "slack/D05ELN4EX6W/1781522068.677609",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Check the IC3 (iOS Engineer IC3) role data mismatch Andrea Akovic flagged where the Slack 'Your Roles Weekly' figures differ from the Tribe Dashboard",
+      "project": "rec-dash",
+      "source": "slack/C0B9GD5JHBN/1781528386.683739",
+      "source_type": "slack",
+      "date": "2026-06-15",
+      "confidence": "high",
+      "extras": {
+        "channel": "Group DM (Andrea/Nare/Valeria)",
+        "from": "Andrea Akovic"
+      },
+      "id": "slack/C0B9GD5JHBN/1781528386.683739",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Fix the invoice automation so Andreea Vrancianu's invoices stop getting filtered out, and make a recurring note to manually verify her invoice is included each cycle (her June 1 invoice was missed)",
+      "project": "expense-ops",
+      "source": "slack/C05R90FDH40/1781511980.292619",
+      "source_type": "slack",
+      "date": "2026-06-15",
+      "confidence": "high",
+      "extras": {
+        "channel": "Group DM (Martin/Andreea)",
+        "from": "Andreea Vrancianu"
+      },
+      "id": "slack/C05R90FDH40/1781511980.292619",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Send Martin and Shaun the referral contract for signature (10% for first 12 months) - Martin asked it be sent by Monday once Shaun's details are in the tool",
+      "project": "legal",
+      "source": "slack/D055NJ27YRY/1781287422.517609",
+      "source_type": "slack",
+      "date": "2026-06-12",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Martin Bernard",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/D055NJ27YRY/1781287422.517609",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-12",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Respond to Join Talent with the lawyers' official letter attached (Martin asked Blake to send the response; Blake was waiting on the lawyers' official letter, comparison page already pulled down)",
+      "project": "legal",
+      "source": "slack/C0B4WRNLC6T/1781165809.146259",
+      "source_type": "slack",
+      "date": "2026-06-11",
+      "confidence": "high",
+      "extras": {
+        "channel": "Group DM (Martin/Caroline)",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/C0B4WRNLC6T/1781165809.146259",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Finish the Invoice PDF Parser n8n update: set the Claude Vision OCR credential and the Slack alert credential in the editor, publish the draft, and run a test execution on Andreea's image-only invoice to confirm the OCR path works end-to-end",
+      "project": "expense-ops",
+      "source": "cowork/local_a2dcd0bb-c778-4839-9c6a-5c4bd655effa",
       "source_type": "cowork",
       "date": "2026-06-15",
       "confidence": "high",
       "extras": {
-        "session": "Q3 OKR prep message"
+        "title": "Invoice download discrepancy"
       },
-      "id": "cowork/local_79d3e1c4-f832-4ebf-9951-5c57f0e9a797/sendtheq3okrprepmessagetotheteamjune17wr",
-      "project_name": "OKRs",
+      "id": "cowork/local_a2dcd0bb-c778-4839-9c6a-5c4bd655effa/finishtheinvoicepdfparsern8nupdatesetthe",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Before approving the statutory financial statements, ask the accountant for the full balance sheet and income statement and get comfort on the intercompany loan terms/recoverability (CZK 23.95M receivable from shareholder) and how the unpaid CZK 15.98M dividend will be funded given only CZK 1.3M cash",
+      "project": "inbox",
+      "source": "cowork/local_9ba9fd8c-1b90-4bf6-b46c-a9d7963c76e8",
+      "source_type": "cowork",
+      "date": "2026-06-15",
+      "confidence": "medium",
+      "extras": {
+        "title": "Financial statements review"
+      },
+      "id": "cowork/local_9ba9fd8c-1b90-4bf6-b46c-a9d7963c76e8/beforeapprovingthestatutoryfinancialstat",
+      "project_name": "Inbox (untagged)",
       "first_seen": "2026-06-15",
       "last_seen": "2026-06-15",
       "status": "open"
