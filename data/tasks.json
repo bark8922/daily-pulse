@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-12",
+  "generated_at": "2026-06-15",
   "schema_version": 2,
-  "total": 296,
+  "total": 288,
   "projects": [
     {
       "id": "fin-dash",
@@ -3448,38 +3448,6 @@
       "status": "open"
     },
     {
-      "text": "Fix the stale leader dashboard refresh (Step 9.5 of the finance refresh task has been silently failing, leaving tribe-dashboard-leaders/dist days out of date)",
-      "project": "fin-dash",
-      "source": "cowork/local_5b11b06d-35d4-464e-9286-c7eb0e08986d",
-      "source_type": "cowork",
-      "date": "2026-06-08",
-      "confidence": "high",
-      "extras": {
-        "session": "Tribe dashboard watchdog - leader dashboard stale"
-      },
-      "id": "cowork/local_5b11b06d-35d4-464e-9286-c7eb0e08986d/fixthestaleleaderdashboardrefreshstep95o",
-      "project_name": "Tribe Financial Dashboard",
-      "first_seen": "2026-06-08",
-      "last_seen": "2026-06-08",
-      "status": "open"
-    },
-    {
-      "text": "Add toggle feature to view weekly progress comments by role on the hiring overview page, integrating weekly updates after automating data collection",
-      "project": "circle",
-      "source": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761",
-      "source_type": "fireflies",
-      "date": "2026-06-08",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Blake / Andrea Dashboard brainstorm"
-      },
-      "id": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761/addtogglefeaturetoviewweeklyprogresscomm",
-      "project_name": "Project Circle",
-      "first_seen": "2026-06-08",
-      "last_seen": "2026-06-09",
-      "status": "open"
-    },
-    {
       "text": "Implement ability to view up to four weeks of historical data on personal hiring dashboards",
       "project": "circle",
       "source": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761",
@@ -3507,23 +3475,6 @@
       },
       "id": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761/keepandreainformedonprogressofweeklyupda",
       "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-06-08",
-      "last_seen": "2026-06-09",
-      "status": "open"
-    },
-    {
-      "text": "Give Maria growth-area feedback in Lattice on AI upskilling (AI Literacy & Application) from the AI project collaboration",
-      "project": "people-ops",
-      "source": "gmail/19ea7982e5d23386",
-      "source_type": "gmail",
-      "date": "2026-06-08",
-      "confidence": "high",
-      "extras": {
-        "subject": "Maria has requested feedback from you",
-        "from": "notifications@mg.latticehq.com"
-      },
-      "id": "gmail/19ea7982e5d23386",
-      "project_name": "People Ops / BambooHR",
       "first_seen": "2026-06-08",
       "last_seen": "2026-06-09",
       "status": "open"
@@ -3655,22 +3606,6 @@
       },
       "id": "fireflies/01KTRERCWH3K3XP5CHF6GHZFXJ/adjustdashboardlogictoreflectokr3percent",
       "project_name": "OKRs",
-      "first_seen": "2026-06-10",
-      "last_seen": "2026-06-10",
-      "status": "open"
-    },
-    {
-      "text": "Submit peer feedback for members in projects Blake leads",
-      "project": "people-ops",
-      "source": "fireflies/01KTRERCWH3K3XP5CHF6GHZFXJ",
-      "source_type": "fireflies",
-      "date": "2026-06-10",
-      "confidence": "high",
-      "extras": {
-        "meeting_title": "OKR Check-in - Stand-up: Delivery, People, BD"
-      },
-      "id": "fireflies/01KTRERCWH3K3XP5CHF6GHZFXJ/submitpeerfeedbackformembersinprojectsbl",
-      "project_name": "People Ops / BambooHR",
       "first_seen": "2026-06-10",
       "last_seen": "2026-06-10",
       "status": "open"
@@ -3827,22 +3762,6 @@
       "id": "slack/D0639UMV9EV/1780561130.494419",
       "project_name": "Roundup & Intake (AI recruiting tools)",
       "first_seen": "2026-06-04",
-      "last_seen": "2026-06-10",
-      "status": "open"
-    },
-    {
-      "text": "Respond to join.talent 'letter before action' this week: take down comparison page, check legality with lawyers, and send response (Martin's ask)",
-      "project": "legal",
-      "source": "cowork/local_8e1026cd-2098-4937-a922-86267a614994",
-      "source_type": "cowork",
-      "date": "2026-06-10",
-      "confidence": "high",
-      "extras": {
-        "session_title": "1on1 with Martin prep"
-      },
-      "id": "cowork/local_8e1026cd-2098-4937-a922-86267a614994/respondtojointalentletterbeforeactionthi",
-      "project_name": "Legal & Contracts",
-      "first_seen": "2026-06-10",
       "last_seen": "2026-06-10",
       "status": "open"
     },
@@ -4125,22 +4044,6 @@
       "status": "open"
     },
     {
-      "text": "Develop or enable dashboard export capabilities for comments and data to assist in report generation",
-      "project": "rec-dash",
-      "source": "fireflies/01KTV5EJ8F8SA8XMBYYCQPNB3X",
-      "source_type": "fireflies",
-      "date": "2026-06-11",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Gustavo / Blake - Sourcing Dashboard Catchup"
-      },
-      "id": "fireflies/01KTV5EJ8F8SA8XMBYYCQPNB3X/developorenabledashboardexportcapabiliti",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-06-11",
-      "last_seen": "2026-06-11",
-      "status": "open"
-    },
-    {
       "text": "Build the missing TS job ratio metric and continue refining dashboards to ensure accuracy before broader distribution",
       "project": "rec-dash",
       "source": "fireflies/01KTV5EJ8F8SA8XMBYYCQPNB3X",
@@ -4269,22 +4172,6 @@
       "status": "open"
     },
     {
-      "text": "Follow up with lawyers on the Join Talent page; if no update by next morning, instruct Caroline to take the page down",
-      "project": "legal",
-      "source": "fireflies/01KTRXB7NJ11V84BKRVASJ9Y2G",
-      "source_type": "fireflies",
-      "date": "2026-06-10",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Blake & Martin: 1:1"
-      },
-      "id": "fireflies/01KTRXB7NJ11V84BKRVASJ9Y2G/followupwithlawyersonthejointalentpageif",
-      "project_name": "Legal & Contracts",
-      "first_seen": "2026-06-10",
-      "last_seen": "2026-06-12",
-      "status": "open"
-    },
-    {
       "text": "Research relocating the company entity from Czech Republic to a tax-favorable jurisdiction (Dubai/Bulgaria) and consult legal/accounting experts",
       "project": "legal",
       "source": "fireflies/01KTRXB7NJ11V84BKRVASJ9Y2G",
@@ -4329,22 +4216,6 @@
       "id": "fireflies/01KTP0NBP7HQ50HEGNFMB0Z033/discusstravelexpensehandlingoptionsandri",
       "project_name": "Expense Ops",
       "first_seen": "2026-06-09",
-      "last_seen": "2026-06-12",
-      "status": "open"
-    },
-    {
-      "text": "Develop feature for sourcers to submit per-role updates throughout the week (not just Fridays) with immediate TA notifications",
-      "project": "ai-recruiting",
-      "source": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761",
-      "source_type": "fireflies",
-      "date": "2026-06-08",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Blake / Andrea Dashboard brainstorm"
-      },
-      "id": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761/developfeatureforsourcerstosubmitperrole",
-      "project_name": "Roundup & Intake (AI recruiting tools)",
-      "first_seen": "2026-06-08",
       "last_seen": "2026-06-12",
       "status": "open"
     },
@@ -4561,39 +4432,6 @@
       "status": "open"
     },
     {
-      "text": "Provide Tribe bot usage data by end of week for review",
-      "project": "tribebot",
-      "source": "fireflies/01KTRSWJ6M4WCVERAV2F0ACGDZ",
-      "source_type": "fireflies",
-      "date": "2026-06-10",
-      "confidence": "high",
-      "extras": {
-        "meeting_title": "AI First"
-      },
-      "id": "fireflies/01KTRSWJ6M4WCVERAV2F0ACGDZ/providetribebotusagedatabyendofweekforre",
-      "project_name": "Tribebot",
-      "first_seen": "2026-06-10",
-      "last_seen": "2026-06-12",
-      "status": "open"
-    },
-    {
-      "text": "Complete BambooHR offboarding task for Zelimir Stajcic (termination 30 June)",
-      "project": "people-ops",
-      "source": "gmail/19ebb345f255b0d4",
-      "source_type": "gmail",
-      "date": "2026-06-12",
-      "confidence": "high",
-      "extras": {
-        "subject": "Please complete this offboarding task for Zelimir Stajcic",
-        "from": "notifications@app.bamboohr.com"
-      },
-      "id": "gmail/19ebb345f255b0d4",
-      "project_name": "People Ops / BambooHR",
-      "first_seen": "2026-06-12",
-      "last_seen": "2026-06-12",
-      "status": "open"
-    },
-    {
       "text": "Send final invoice instructions (billable days and amount) to Zelimir Stajcic for June, as done for Alisa Liddell",
       "project": "people-ops",
       "source": "gmail/19ebb25375487e51",
@@ -4611,57 +4449,6 @@
       "status": "open"
     },
     {
-      "text": "Give requested Lattice feedback to Kat",
-      "project": "people-ops",
-      "source": "gmail/19ebae70a84595d3",
-      "source_type": "gmail",
-      "date": "2026-06-12",
-      "confidence": "high",
-      "extras": {
-        "subject": "Kat has requested feedback from you",
-        "from": "notifications@mg.latticehq.com"
-      },
-      "id": "gmail/19ebae70a84595d3",
-      "project_name": "People Ops / BambooHR",
-      "first_seen": "2026-06-12",
-      "last_seen": "2026-06-12",
-      "status": "open"
-    },
-    {
-      "text": "Give requested Lattice feedback to Chantal",
-      "project": "people-ops",
-      "source": "gmail/19ebafcb94668106",
-      "source_type": "gmail",
-      "date": "2026-06-12",
-      "confidence": "high",
-      "extras": {
-        "subject": "Chantal has requested feedback from you",
-        "from": "notifications@mg.latticehq.com"
-      },
-      "id": "gmail/19ebafcb94668106",
-      "project_name": "People Ops / BambooHR",
-      "first_seen": "2026-06-12",
-      "last_seen": "2026-06-12",
-      "status": "open"
-    },
-    {
-      "text": "Approve/deny Andrea Akovic's edit access request to Sourcing Team Meetings in Notion (requested twice, Jun 9 and Jun 10)",
-      "project": "other",
-      "source": "gmail/19eb0e25b7ab1c6d",
-      "source_type": "gmail",
-      "date": "2026-06-10",
-      "confidence": "high",
-      "extras": {
-        "subject": "Andrea Akovic requested edit access to Sourcing Team Meetings",
-        "from": "notify@mail.notion.so"
-      },
-      "id": "gmail/19eb0e25b7ab1c6d",
-      "project_name": "other",
-      "first_seen": "2026-06-10",
-      "last_seen": "2026-06-12",
-      "status": "open"
-    },
-    {
       "text": "Review Google Workspace suspicious login alert for the tribe.xyz domain (admin alert Jun 10)",
       "project": "other",
       "source": "gmail/19eb1ae67b6ad1a7",
@@ -4675,40 +4462,6 @@
       "id": "gmail/19eb1ae67b6ad1a7",
       "project_name": "other",
       "first_seen": "2026-06-10",
-      "last_seen": "2026-06-12",
-      "status": "open"
-    },
-    {
-      "text": "Complete Lattice feedback request from Katarina Matic Marinkovic",
-      "project": "people-ops",
-      "source": "slack/D06DGN9JW59/1781252162.153979",
-      "source_type": "slack",
-      "date": "2026-06-12",
-      "confidence": "high",
-      "extras": {
-        "from": "Lattice bot",
-        "channel_name": "DM Lattice"
-      },
-      "id": "slack/D06DGN9JW59/1781252162.153979",
-      "project_name": "People Ops / BambooHR",
-      "first_seen": "2026-06-12",
-      "last_seen": "2026-06-12",
-      "status": "open"
-    },
-    {
-      "text": "Complete Lattice feedback request from Chantal Bozkurt",
-      "project": "people-ops",
-      "source": "slack/D06DGN9JW59/1781253583.082989",
-      "source_type": "slack",
-      "date": "2026-06-12",
-      "confidence": "high",
-      "extras": {
-        "from": "Lattice bot",
-        "channel_name": "DM Lattice"
-      },
-      "id": "slack/D06DGN9JW59/1781253583.082989",
-      "project_name": "People Ops / BambooHR",
-      "first_seen": "2026-06-12",
       "last_seen": "2026-06-12",
       "status": "open"
     },
@@ -4784,23 +4537,6 @@
       "status": "open"
     },
     {
-      "text": "Fix stale leader dashboard: Step 9.5 (build_leadership_view.py) of tribe-dashboard-refresh hasn't pushed tribe-dashboard-leaders since 2026-06-01 - Kristjana/Salem are looking at week-old data (flagged by watchdog daily since June 8)",
-      "project": "fin-dash",
-      "source": "slack/C08TYHVKDQT/1780904671.022059",
-      "source_type": "slack",
-      "date": "2026-06-08",
-      "confidence": "high",
-      "extras": {
-        "from": "Dashboard watchdog",
-        "channel_name": "test-n8n"
-      },
-      "id": "slack/C08TYHVKDQT/1780904671.022059",
-      "project_name": "Tribe Financial Dashboard",
-      "first_seen": "2026-06-08",
-      "last_seen": "2026-06-12",
-      "status": "open"
-    },
-    {
       "text": "Fix Zelimir Stajcic (#140) division mismatch in finance dashboard bundle: BambooHR report 228 + live directory show Aviv effective 2026-06-01 but bundle still has him on Bench - report-228 reconciliation (refresh Step 2c) missed the transition",
       "project": "fin-dash",
       "source": "slack/C08TYHVKDQT/1780990976.737209",
@@ -4867,38 +4603,6 @@
       "status": "open"
     },
     {
-      "text": "Finalize Shaun Rudden referral contract: get his invoicing entity + address/tax ID, have Ella review clause 7.2 (Aiven conflict) and lawyer review before signing",
-      "project": "legal",
-      "source": "cowork/local_ae4c6141-5ba1-47e6-9cb2-9ff5dc6ecf9c",
-      "source_type": "cowork",
-      "date": "2026-06-10",
-      "confidence": "high",
-      "extras": {
-        "session_title": "Referral contract search"
-      },
-      "id": "cowork/local_ae4c6141-5ba1-47e6-9cb2-9ff5dc6ecf9c/finalizeshaunruddenreferralcontractgethi",
-      "project_name": "Legal & Contracts",
-      "first_seen": "2026-06-10",
-      "last_seen": "2026-06-12",
-      "status": "open"
-    },
-    {
-      "text": "Submit Lattice feedback requests for Feedback Month (Jacopo, Ella, Caroline; optionally Andrea Darabasic) with Private + Manager visibility by June 15 deadline",
-      "project": "people-ops",
-      "source": "cowork/local_24386a56-b614-4477-8ea6-7a9bf8ad74d5",
-      "source_type": "cowork",
-      "date": "2026-06-11",
-      "confidence": "high",
-      "extras": {
-        "session_title": "Feedback request recommendations"
-      },
-      "id": "cowork/local_24386a56-b614-4477-8ea6-7a9bf8ad74d5/submitlatticefeedbackrequestsforfeedback",
-      "project_name": "People Ops / BambooHR",
-      "first_seen": "2026-06-11",
-      "last_seen": "2026-06-12",
-      "status": "open"
-    },
-    {
       "text": "Tell Valeriia to review/archive the 8 leftover Dutch sprint candidates via the extension (live unarchived rows she missed, not by-design); decide whether to build the optional move-pattern audit alert",
       "project": "rec-dash",
       "source": "cowork/local_018285d0-13e0-4935-ab73-0990205f49f5",
@@ -4916,19 +4620,183 @@
       "status": "open"
     },
     {
-      "text": "Fix Stage 3b regression on sourcing dashboard: Internal vs External tab rendering no data (0 rows in data.json)",
+      "text": "Investigate composition/classification of volume hires in the sourcing dashboards: verify internal vs external hire counts and clarify discrepancies for 2026 hires",
       "project": "rec-dash",
-      "source": "cowork/local_7b8da118-b92f-40f5-a001-a82e5ed35cbd",
-      "source_type": "cowork",
+      "source": "fireflies/01KTV5EJ8F8SA8XMBYYCQPNB3X",
+      "source_type": "fireflies",
+      "date": "2026-06-11",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Gustavo / Blake - Sourcing Dashboard Catchup"
+      },
+      "id": "fireflies/01KTV5EJ8F8SA8XMBYYCQPNB3X/investigatecompositionclassificationofvo",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Send the AI First workspace link to Nenad to improve onboarding and transparency",
+      "project": "ai-first-working-group",
+      "source": "fireflies/01KTRSWJ6M4WCVERAV2F0ACGDZ",
+      "source_type": "fireflies",
+      "date": "2026-06-10",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KTRSWJ6M4WCVERAV2F0ACGDZ/sendtheaifirstworkspacelinktonenadtoimpr",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Send Andrea samples of different weekly update submissions (including Andrea's and Valeria's) for review and feedback",
+      "project": "rec-dash",
+      "source": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761",
+      "source_type": "fireflies",
+      "date": "2026-06-08",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Andrea Dashboard brainstorm"
+      },
+      "id": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761/sendandreasamplesofdifferentweeklyupdate",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Approve the FY2025 financial statements and annex for TRIBE.xyz Czech so Boris Gnoth can file the corporate income tax return with the CZ tax office",
+      "project": "legal",
+      "source": "gmail/19ec12a3d1141887",
+      "source_type": "gmail",
+      "date": "2026-06-13",
+      "confidence": "high",
+      "extras": {
+        "subject": "FW: TRIBE.xyz Czech - draft of financial statements and annex for approval",
+        "from": "boris@borisgnoth.cz"
+      },
+      "id": "gmail/19ec12a3d1141887",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-13",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Finalize the Shaun Rudden referral agreement now that Shaun provided his invoicing entity in the doc comment (TalentOps Lab Oy, Lohja Finland, ID 3572271-6, EU VAT FI35722716) - plug entity details into the draft",
+      "project": "legal",
+      "source": "gmail/19ebcf7baeabe2bc",
+      "source_type": "gmail",
+      "date": "2026-06-12",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Referral_Agreement_-_Shaun_Rudden_-_DRAFT (Google Doc comment)",
+        "from": "comments-noreply@docs.google.com (Shaun Rudden)"
+      },
+      "id": "gmail/19ebcf7baeabe2bc",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-12",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Update the Hostaway MSA (Consulting Services Agreement) and DPA per Hostaway legal's 8-point amendment list (fill in client details/fees/signatory, fix MSA Section 1.1 and broken 1.7 refs, add no-auto-renewal + key-personnel substitution + liability cap clauses, switch governing law to Finnish/Helsinki arbitration, shorten DPA breach window to 24h, allow sharing recruiter assessment notes, IP assignment, remove EUR 350 license fee, narrow transfer-fee 'Staff' definition) so it can go to final for signature",
+      "project": "legal",
+      "source": "slack/D057XNFLHTR/1781267587.612079",
+      "source_type": "slack",
       "date": "2026-06-12",
       "confidence": "high",
       "extras": {
-        "session_title": "Sourcing dashboards analysis"
+        "channel": "DM",
+        "from": "Salem Mansuri"
       },
-      "id": "cowork/local_7b8da118-b92f-40f5-a001-a82e5ed35cbd/fixstage3bregressiononsourcingdashboardi",
-      "project_name": "Tribe Recruiting Dashboard",
+      "id": "slack/D057XNFLHTR/1781267587.612079",
+      "project_name": "Legal & Contracts",
       "first_seen": "2026-06-12",
-      "last_seen": "2026-06-12",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Send Simon Siew a feedback form so he can write feedback about the Pokedeck/Pokedex project",
+      "project": "team-cohesion",
+      "source": "slack/D07M79K14G0/1781504922.336839",
+      "source_type": "slack",
+      "date": "2026-06-15",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM",
+        "from": "Simon Siew"
+      },
+      "id": "slack/D07M79K14G0/1781504922.336839",
+      "project_name": "Team cohesion",
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Finish the Hostaway DPA v1 edits (Annex I Part B assessment-notes sentence + fill header: Hostaway entity details and effective date), then send the revised Consulting Agreement + DPA drafts and recap email to Owen Choi (owen.choi@hostaway.com)",
+      "project": "legal",
+      "source": "cowork/local_27c66437-f848-4526-b706-d42faa0fee31",
+      "source_type": "cowork",
+      "date": "2026-06-15",
+      "confidence": "high",
+      "extras": {
+        "session": "Tribe DPA contract revisions"
+      },
+      "id": "cowork/local_27c66437-f848-4526-b706-d42faa0fee31/finishthehostawaydpav1editsannexipartbas",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Set a renewal reminder ~30 days before the Hostaway 6-month DPA/agreement term ends",
+      "project": "legal",
+      "source": "cowork/local_27c66437-f848-4526-b706-d42faa0fee31",
+      "source_type": "cowork",
+      "date": "2026-06-15",
+      "confidence": "medium",
+      "extras": {
+        "session": "Tribe DPA contract revisions"
+      },
+      "id": "cowork/local_27c66437-f848-4526-b706-d42faa0fee31/setarenewalreminder30daysbeforethehostaw",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Apply final edits to Reaktor consulting agreement (9.2 arbitration language Finnish->English, new 7.3 liability cap, new \u00a72.3 holidays clause) and send the edited contract + recap email to Riku Rahikainen",
+      "project": "legal",
+      "source": "cowork/local_36b5afc6-12bb-4d9c-897c-f81d64fc02dc",
+      "source_type": "cowork",
+      "date": "2026-06-15",
+      "confidence": "medium",
+      "extras": {
+        "session": "Tribe consulting agreement review"
+      },
+      "id": "cowork/local_36b5afc6-12bb-4d9c-897c-f81d64fc02dc/applyfinaleditstoreaktorconsultingagreem",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Send the Q3 OKR prep message to the team (June 17 written deadline, Q2 carryover review, required AI improvement objective per department)",
+      "project": "okrs",
+      "source": "cowork/local_79d3e1c4-f832-4ebf-9951-5c57f0e9a797",
+      "source_type": "cowork",
+      "date": "2026-06-15",
+      "confidence": "high",
+      "extras": {
+        "session": "Q3 OKR prep message"
+      },
+      "id": "cowork/local_79d3e1c4-f832-4ebf-9951-5c57f0e9a797/sendtheq3okrprepmessagetotheteamjune17wr",
+      "project_name": "OKRs",
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-15",
       "status": "open"
     }
   ]
