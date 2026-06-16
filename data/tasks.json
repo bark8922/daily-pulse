@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-15",
+  "generated_at": "2026-06-16",
   "schema_version": 2,
-  "total": 292,
+  "total": 303,
   "projects": [
     {
       "id": "fin-dash",
@@ -4865,6 +4865,187 @@
       "project_name": "Inbox (untagged)",
       "first_seen": "2026-06-15",
       "last_seen": "2026-06-15",
+      "status": "open"
+    },
+    {
+      "text": "Follow up on additional technical interview steps and clarify Karima's experience with embedded recruitment",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KTVC8VR5Z0P1EMWYX9VN1XJ8",
+      "source_type": "fireflies",
+      "date": "2026-06-11",
+      "confidence": "low",
+      "extras": {
+        "meeting_title": "Generalist TA Partner (French) - Recruiter Screen - Karima EL Harim"
+      },
+      "id": "fireflies/01KTVC8VR5Z0P1EMWYX9VN1XJ8/followuponadditionaltechnicalinterviewst",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-16",
+      "status": "open"
+    },
+    {
+      "text": "Add contextual descriptions and definitions below dashboard columns for clarity and usability",
+      "project": "rec-dash",
+      "source": "fireflies/01KTV5EJ8F8SA8XMBYYCQPNB3X",
+      "source_type": "fireflies",
+      "date": "2026-06-11",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Gustavo / Blake - Sourcing Dashboard Catchup"
+      },
+      "id": "fireflies/01KTV5EJ8F8SA8XMBYYCQPNB3X/addcontextualdescriptionsanddefinitionsb",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-16",
+      "status": "open"
+    },
+    {
+      "text": "Build the missing TS job ratio metric and refine dashboards for accuracy before broader distribution",
+      "project": "rec-dash",
+      "source": "fireflies/01KTV5EJ8F8SA8XMBYYCQPNB3X",
+      "source_type": "fireflies",
+      "date": "2026-06-11",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Gustavo / Blake - Sourcing Dashboard Catchup"
+      },
+      "id": "fireflies/01KTV5EJ8F8SA8XMBYYCQPNB3X/buildthemissingtsjobratiometricandrefine",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-16",
+      "status": "open"
+    },
+    {
+      "text": "Continue reducing Kabula/Keboola token usage and follow up with account manager on contract renewal and cost negotiation",
+      "project": "keboola-sunset",
+      "source": "fireflies/01KTRXB7NJ11V84BKRVASJ9Y2G",
+      "source_type": "fireflies",
+      "date": "2026-06-10",
+      "confidence": "low",
+      "extras": {
+        "meeting_title": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KTRXB7NJ11V84BKRVASJ9Y2G/continuereducingkabulakeboolatokenusagea",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-16",
+      "status": "open"
+    },
+    {
+      "text": "Provide Lattice feedback requested by Jacopo on his growth area (Long-Term Planning and Strategic Thinking)",
+      "project": "people-ops",
+      "source": "gmail/19ecf2cc6986cce6",
+      "source_type": "gmail",
+      "date": "2026-06-16",
+      "confidence": "high",
+      "extras": {
+        "subject": "Jacopo has requested feedback from you",
+        "from": "notifications@mg.latticehq.com"
+      },
+      "id": "gmail/19ecf2cc6986cce6",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-16",
+      "status": "open"
+    },
+    {
+      "text": "Complete Lattice feedback request from Jacopo Lupo Ferrari on his growth area",
+      "project": "people-ops",
+      "source": "slack/D06DGN9JW59/1781592273.708229",
+      "source_type": "slack",
+      "date": "2026-06-16",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM-Lattice",
+        "from": "Lattice (Jacopo Lupo Ferrari)"
+      },
+      "id": "slack/D06DGN9JW59/1781592273.708229",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-16",
+      "status": "open"
+    },
+    {
+      "text": "Respond to Kristjana's Reaktor contract clarifications (Simon's planned vacation time, confirm 11k EUR monthly fee covers 8h per working day, accept 30-day termination notice) so Bea can send the contract for digital signature",
+      "project": "legal",
+      "source": "slack/D059MAFUJR0/1781524303.845299",
+      "source_type": "slack",
+      "date": "2026-06-15",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM",
+        "from": "Kristjana Thorarinsdottir"
+      },
+      "id": "slack/D059MAFUJR0/1781524303.845299",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-16",
+      "status": "open"
+    },
+    {
+      "text": "Fully add disqualification/disqualified reasons back into the Tribe Dashboard so Alexandra Richiteanu can pull the report by role (currently only last/this week available; Blake committed '100% next week')",
+      "project": "rec-dash",
+      "source": "slack/C013VRX2VFB/1781263148.969209",
+      "source_type": "slack",
+      "date": "2026-06-12",
+      "confidence": "high",
+      "extras": {
+        "channel": "tech_support",
+        "from": "Mikhail Kuzmin / Alexandra Richiteanu"
+      },
+      "id": "slack/C013VRX2VFB/1781263148.969209",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-12",
+      "last_seen": "2026-06-16",
+      "status": "open"
+    },
+    {
+      "text": "Follow up on the empty/failed 'Claude: Master Sessions' meeting: check with attendees (Martin, Ella, Jacopo, Caroline) whether it took place and troubleshoot the Fireflies recording failure",
+      "project": "inbox",
+      "source": "slack/D0AKAPA0X3J/1781526742.525939",
+      "source_type": "slack",
+      "date": "2026-06-15",
+      "confidence": "low",
+      "extras": {
+        "channel": "DM-Blake Updates Bot",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1781526742.525939",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-16",
+      "status": "open"
+    },
+    {
+      "text": "Run the Keboola Flow 'Recruiting dashboard - Project Dashboard + MBR event-based' to push the TS Summary fix live (Mikhail + Caroline excluded from sourcer breakdown); then confirm Dolores and Ejla appear with validated numbers (769 and 3,027 contacted)",
+      "project": "rec-dash",
+      "source": "cowork/local_0915ee76-f6cb-47ae-b10d-7c70a55fe446",
+      "source_type": "cowork",
+      "date": "2026-06-16",
+      "confidence": "low",
+      "extras": {
+        "session_title": "TS Summary data discrepancy"
+      },
+      "id": "cowork/local_0915ee76-f6cb-47ae-b10d-7c70a55fe446/runthekeboolaflowrecruitingdashboardproj",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-16",
+      "status": "open"
+    },
+    {
+      "text": "Drop the finalized Q3 Ops OKR (2 objectives: TA-Sourcer workflow adoption + markets/roles knowledge-base for Tribe Bot) into the Ops toggle on the OKR Prep Q3 2026 Notion page, and pull the 3 baselines (Q2 intake-form usage %, KR3 pilot role count, Tribe Bot current WAU) to fill the blanks",
+      "project": "okrs",
+      "source": "cowork/local_ec661069-5354-4c68-afeb-c1821314e2cf",
+      "source_type": "cowork",
+      "date": "2026-06-16",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Q3 operations OKRs"
+      },
+      "id": "cowork/local_ec661069-5354-4c68-afeb-c1821314e2cf/dropthefinalizedq3opsokr2objectivestasou",
+      "project_name": "OKRs",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-16",
       "status": "open"
     }
   ]
