@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-17",
   "schema_version": 2,
-  "total": 309,
+  "total": 319,
   "projects": [
     {
       "id": "fin-dash",
@@ -5132,6 +5132,171 @@
       },
       "id": "cowork/local_09bb1407-3ed7-43c8-ba86-04bca89e1fd3/reviewandsendthecosweeklylogdmdrafttomar",
       "project_name": "Leadership comms",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Connect Slack channels to the knowledge base for easier access and usage",
+      "project": "tribebot",
+      "source": "fireflies/01KV8A87QAHFTSXYPCXYB2VNNY",
+      "source_type": "fireflies",
+      "date": "2026-06-16",
+      "confidence": "high",
+      "extras": {
+        "meeting": "People Operations - Tribe Team"
+      },
+      "id": "fireflies/01KV8A87QAHFTSXYPCXYB2VNNY/connectslackchannelstotheknowledgebasefo",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Monitor contract signing for Simon and communicate status updates to the team",
+      "project": "people-ops",
+      "source": "fireflies/01KV8A87QAHFTSXYPCXYB2VNNY",
+      "source_type": "fireflies",
+      "date": "2026-06-16",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "People Operations - Tribe Team"
+      },
+      "id": "fireflies/01KV8A87QAHFTSXYPCXYB2VNNY/monitorcontractsigningforsimonandcommuni",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Review Reaktor's own contract (they won't review ours) and flag what needs to change - Martin asked Blake to take a look and advise; Blake made edits and drafted the reply email to Riku",
+      "project": "legal",
+      "source": "slack/C09VBMTP196/1781181293.265049",
+      "source_type": "slack",
+      "date": "2026-06-11",
+      "confidence": "medium",
+      "extras": {
+        "channel": "Group DM (Martin, Kristjana, Blake)",
+        "from": "Martin Bernard",
+        "client": "Reaktor"
+      },
+      "id": "slack/C09VBMTP196/1781181293.265049",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Kick off Q3 OKR planning: collect department first drafts (due Wed June 17), run the Director's-meeting review, and schedule a follow-up for Monday June 29 (Martin asked Blake to run it while he's out)",
+      "project": "okrs",
+      "source": "slack/C06RERFCAF6/1781175364.996349",
+      "source_type": "slack",
+      "date": "2026-06-11",
+      "confidence": "high",
+      "extras": {
+        "channel": "#okr-comms",
+        "from": "Blake Barkley (commitment)"
+      },
+      "id": "slack/C06RERFCAF6/1781175364.996349",
+      "project_name": "OKRs",
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Set up the intake-tool taskforce: schedule the Monday onboarding session with Rodrigo for the team (Blake, Alex, Andrea, Nenad), confirm Rodrigo finalizes the missing technical items by end of week, then kick off personalized user onboarding to push adoption",
+      "project": "tribebot",
+      "source": "slack/D059PSVF62G/1781624095.325769",
+      "source_type": "slack",
+      "date": "2026-06-16",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Rodrigo Gomes",
+        "from": "Blake Barkley (commitment)"
+      },
+      "id": "slack/D059PSVF62G/1781624095.325769",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Investigate why Andreea Vrancianu's June 1 invoice got filtered out of the payment automation and add a recurring check so her invoice isn't missed in future (Blake: 'will make a note to check... so it doesn't happen again')",
+      "project": "expense-ops",
+      "source": "slack/C05R90FDH40/1781512704.937649",
+      "source_type": "slack",
+      "date": "2026-06-15",
+      "confidence": "medium",
+      "extras": {
+        "channel": "Group DM (Martin, Andreea, Blake)",
+        "from": "Andreea Vrancianu / Blake commitment"
+      },
+      "id": "slack/C05R90FDH40/1781512704.937649",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Finish wiring the new Recruiting Dashboard Deploy Health Monitor n8n workflow: set the Cloudflare Bearer Auth credential on the Fetch Cloudflare Deployments node, pick a Slack credential (Tribe Bot Bot) on the Post Alert node, then flip the workflow Active toggle on",
+      "project": "rec-dash",
+      "source": "cowork/local_099057a5-7a24-4171-8e02-b7e79a68e064",
+      "source_type": "cowork",
+      "date": "2026-06-16",
+      "confidence": "high",
+      "extras": {
+        "session": "Recruiting dashboard health check - built daily 9am deploy-health monitor that alerts #test-n8n only on failed/stale deploys"
+      },
+      "id": "cowork/local_099057a5-7a24-4171-8e02-b7e79a68e064/finishwiringthenewrecruitingdashboarddep",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Reach out to Rodrigo to talk through technical ownership/transfer of the intake tool, and set up a task-force onboarding kickoff meeting (Blake, Nenad, Andrea, Chantal, Alex) early next week to drive intake tool adoption",
+      "project": "ai-first-working-group",
+      "source": "cowork/local_630723d7-8084-40fa-9656-6c93182a954f",
+      "source_type": "cowork",
+      "date": "2026-06-16",
+      "confidence": "high",
+      "extras": {
+        "session": "AI First Working Group meeting Jun 16 - action points"
+      },
+      "id": "cowork/local_630723d7-8084-40fa-9656-6c93182a954f/reachouttorodrigototalkthroughtechnicalo",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Add the Q3 OKR draft to the AI First workspace with discussion notes and rework wording (eligible-roles denominator for KR1, plain-English Obj2 KR1, Tribe Bot baseline/target) before Monday's directors review; invite the group to comment",
+      "project": "ai-first-working-group",
+      "source": "cowork/local_630723d7-8084-40fa-9656-6c93182a954f",
+      "source_type": "cowork",
+      "date": "2026-06-16",
+      "confidence": "high",
+      "extras": {
+        "session": "AI First Working Group meeting Jun 16 - OKR refinement"
+      },
+      "id": "cowork/local_630723d7-8084-40fa-9656-6c93182a954f/addtheq3okrdrafttotheaifirstworkspacewit",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Connect the market and role-specific Slack channels into Tribe Bot's knowledge base",
+      "project": "tribebot",
+      "source": "cowork/local_630723d7-8084-40fa-9656-6c93182a954f",
+      "source_type": "cowork",
+      "date": "2026-06-16",
+      "confidence": "medium",
+      "extras": {
+        "session": "AI First Working Group meeting Jun 16 - action points"
+      },
+      "id": "cowork/local_630723d7-8084-40fa-9656-6c93182a954f/connectthemarketandrolespecificslackchan",
+      "project_name": "Tribebot",
       "first_seen": "2026-06-16",
       "last_seen": "2026-06-17",
       "status": "open"
