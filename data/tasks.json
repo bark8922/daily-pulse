@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-16",
+  "generated_at": "2026-06-17",
   "schema_version": 2,
-  "total": 293,
+  "total": 309,
   "projects": [
     {
       "id": "fin-dash",
@@ -4875,6 +4875,265 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-06-16",
       "last_seen": "2026-06-16",
+      "status": "open"
+    },
+    {
+      "text": "Reconcile Adelia's final termination date with Chris and update the necessary systems",
+      "project": "people-ops",
+      "source": "fireflies/01KV8A87QAHFTSXYPCXYB2VNNY",
+      "source_type": "fireflies",
+      "date": "2026-06-16",
+      "confidence": "high",
+      "extras": {
+        "meeting": "People Operations - Tribe Team"
+      },
+      "id": "fireflies/01KV8A87QAHFTSXYPCXYB2VNNY/reconcileadeliasfinalterminationdatewith",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with Nenad to schedule the onboarding meeting and share OKR communications",
+      "project": "okrs",
+      "source": "fireflies/01KV8A87QAHFTSXYPCXYB2VNNY",
+      "source_type": "fireflies",
+      "date": "2026-06-16",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "People Operations - Tribe Team"
+      },
+      "id": "fireflies/01KV8A87QAHFTSXYPCXYB2VNNY/followupwithnenadtoscheduletheonboarding",
+      "project_name": "OKRs",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Monitor new client start details (e.g. Edu) and relay relevant info to the team as contracts formalize",
+      "project": "sales-hubspot",
+      "source": "fireflies/01KV8A87QAHFTSXYPCXYB2VNNY",
+      "source_type": "fireflies",
+      "date": "2026-06-16",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "People Operations - Tribe Team"
+      },
+      "id": "fireflies/01KV8A87QAHFTSXYPCXYB2VNNY/monitornewclientstartdetailsegeduandrela",
+      "project_name": "Sales dashboard + HubSpot",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Reach out to Rodrigo about technical ownership/transfer of the intake tool and arrange a team onboarding meeting early next week",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KV87EJV0D5FYCGFQJES2AKZQ",
+      "source_type": "fireflies",
+      "date": "2026-06-16",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KV87EJV0D5FYCGFQJES2AKZQ/reachouttorodrigoabouttechnicalownership",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Add the Q3 OKRs draft to the AI workspace, refine the wording from group feedback, and invite comments before presenting to directors Monday",
+      "project": "okrs",
+      "source": "fireflies/01KV87EJV0D5FYCGFQJES2AKZQ",
+      "source_type": "fireflies",
+      "date": "2026-06-16",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KV87EJV0D5FYCGFQJES2AKZQ/addtheq3okrsdrafttotheaiworkspacerefinet",
+      "project_name": "OKRs",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Integrate Slack channels containing market and role-specific info into the Tribot knowledge base",
+      "project": "tribebot",
+      "source": "fireflies/01KV87EJV0D5FYCGFQJES2AKZQ",
+      "source_type": "fireflies",
+      "date": "2026-06-16",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KV87EJV0D5FYCGFQJES2AKZQ/integrateslackchannelscontainingmarketan",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Inform the OKR group about the postponed OKR meeting: draft OKRs Monday during the WBR and finalize Wednesday",
+      "project": "okrs",
+      "source": "fireflies/01KV84TQHNSCXH72601Q97EJY7",
+      "source_type": "fireflies",
+      "date": "2026-06-16",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Operations"
+      },
+      "id": "fireflies/01KV84TQHNSCXH72601Q97EJY7/informtheokrgroupaboutthepostponedokrmee",
+      "project_name": "OKRs",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Help Jacopo resolve his Revolut business account access issues (resend login / request card reset)",
+      "project": "expense-ops",
+      "source": "fireflies/01KV84TQHNSCXH72601Q97EJY7",
+      "source_type": "fireflies",
+      "date": "2026-06-16",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Operations"
+      },
+      "id": "fireflies/01KV84TQHNSCXH72601Q97EJY7/helpjacoporesolvehisrevolutbusinessaccou",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Reach out to Caroline to initiate the BambooHR beta program connection for cloud connectors",
+      "project": "people-ops",
+      "source": "fireflies/01KV5GR7ZM0PF99NQ1BHRNM58J",
+      "source_type": "fireflies",
+      "date": "2026-06-15",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Caroline / Blake"
+      },
+      "id": "fireflies/01KV5GR7ZM0PF99NQ1BHRNM58J/reachouttocarolinetoinitiatethebamboohrb",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Process the Munich dinner invoice payment",
+      "project": "expense-ops",
+      "source": "fireflies/01KV5GR7ZM0PF99NQ1BHRNM58J",
+      "source_type": "fireflies",
+      "date": "2026-06-15",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Caroline / Blake"
+      },
+      "id": "fireflies/01KV5GR7ZM0PF99NQ1BHRNM58J/processthemunichdinnerinvoicepayment",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Complete the BambooHR offboarding task for Jonaed Iqbal (requested by Andrea Darabasic)",
+      "project": "people-ops",
+      "source": "gmail/19ed243d7d9f02b2",
+      "source_type": "gmail",
+      "date": "2026-06-16",
+      "confidence": "high",
+      "extras": {
+        "subject": "Please complete this offboarding task for Jonaed Iqbal",
+        "from": "notifications@app.bamboohr.com"
+      },
+      "id": "gmail/19ed243d7d9f02b2",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Review and resolve the Supabase security vulnerabilities flagged across your projects",
+      "project": "inbox",
+      "source": "gmail/19ed21541c524cd2",
+      "source_type": "gmail",
+      "date": "2026-06-16",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Action required: security vulnerabilities detected in your projects",
+        "from": "noreply@supabase.com"
+      },
+      "id": "gmail/19ed21541c524cd2",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Review and respond to Caroline's comments/suggestions on the OKR Prep Q3 2026 Notion doc",
+      "project": "okrs",
+      "source": "gmail/19ed467e37a5e274",
+      "source_type": "gmail",
+      "date": "2026-06-17",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Caroline Murphy commented in OKR Prep Q3 2026",
+        "from": "notify@mail.notion.so"
+      },
+      "id": "gmail/19ed467e37a5e274",
+      "project_name": "OKRs",
+      "first_seen": "2026-06-17",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Fill in the Q3 Ops OKR baselines (intake-form usage %, Rolls Roundup submission rate, Tribe Bot WAU) and drop the finalized Ops OKRs into the OKR Prep Q3 2026 Notion page",
+      "project": "okrs",
+      "source": "cowork/local_ec661069-5354-4c68-afeb-c1821314e2cf",
+      "source_type": "cowork",
+      "date": "2026-06-16",
+      "confidence": "high",
+      "extras": {
+        "session": "Q3 operations OKRs"
+      },
+      "id": "cowork/local_ec661069-5354-4c68-afeb-c1821314e2cf/fillintheq3opsokrbaselinesintakeformusag",
+      "project_name": "OKRs",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Set credentials on the new Claude Vision OCR and Slack alert nodes in the Invoice PDF Parser n8n workflow, then publish the draft",
+      "project": "expense-ops",
+      "source": "cowork/local_a2dcd0bb-c778-4839-9c6a-5c4bd655effa",
+      "source_type": "cowork",
+      "date": "2026-06-16",
+      "confidence": "high",
+      "extras": {
+        "session": "Invoice download discrepancy"
+      },
+      "id": "cowork/local_a2dcd0bb-c778-4839-9c6a-5c4bd655effa/setcredentialsonthenewclaudevisionocrand",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Review and send the CoS weekly-log DM draft to Martin",
+      "project": "leadership",
+      "source": "cowork/local_09bb1407-3ed7-43c8-ba86-04bca89e1fd3",
+      "source_type": "cowork",
+      "date": "2026-06-16",
+      "confidence": "medium",
+      "extras": {
+        "session": "Cos weekly log"
+      },
+      "id": "cowork/local_09bb1407-3ed7-43c8-ba86-04bca89e1fd3/reviewandsendthecosweeklylogdmdrafttomar",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-17",
       "status": "open"
     }
   ]
