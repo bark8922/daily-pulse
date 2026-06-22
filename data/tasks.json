@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-17",
+  "generated_at": "2026-06-22",
   "schema_version": 2,
-  "total": 319,
+  "total": 339,
   "projects": [
     {
       "id": "fin-dash",
@@ -5299,6 +5299,334 @@
       "project_name": "Tribebot",
       "first_seen": "2026-06-16",
       "last_seen": "2026-06-17",
+      "status": "open"
+    },
+    {
+      "text": "Refine TA sourcer workflow OKRs, improving adoption of intake forms and weekly sourcing updates while exploring barriers to adoption",
+      "project": "okrs",
+      "source": "fireflies/01KVB0VET4EV3X80ZY1FM8VBKF",
+      "source_type": "fireflies",
+      "date": "2026-06-17",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Stand-up BD,PO,Prod,Rec"
+      },
+      "id": "fireflies/01KVB0VET4EV3X80ZY1FM8VBKF/refinetasourcerworkflowokrsimprovingadop",
+      "project_name": "OKRs",
+      "first_seen": "2026-06-17",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Develop knowledge base content plans with working groups and integrate the knowledge base selectively with Slack channels to improve usability",
+      "project": "tribebot",
+      "source": "fireflies/01KVB0VET4EV3X80ZY1FM8VBKF",
+      "source_type": "fireflies",
+      "date": "2026-06-17",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Stand-up BD,PO,Prod,Rec"
+      },
+      "id": "fireflies/01KVB0VET4EV3X80ZY1FM8VBKF/developknowledgebasecontentplanswithwork",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-17",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Explore automation for scorecard creation using transcription tools and AI integrations with recruitment systems like Ashby, assessing feasibility and benefits",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KVB0VET4EV3X80ZY1FM8VBKF",
+      "source_type": "fireflies",
+      "date": "2026-06-17",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Stand-up BD,PO,Prod,Rec"
+      },
+      "id": "fireflies/01KVB0VET4EV3X80ZY1FM8VBKF/exploreautomationforscorecardcreationusi",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-17",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Review Boris Gnoth's proposed summer agenda for Tribe (dividend receivable set-off, FY2025 annual report, intra-group cooperation agreements, intercompany loan consolidation as of 1.1.2026, Holding FY2026 positive tax base, Revolut bank account disclosure) ahead of the planned call",
+      "project": "legal",
+      "source": "gmail/19eeb663366eb103",
+      "source_type": "gmail",
+      "date": "2026-06-21",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Tribe - agenda for summer",
+        "from": "boris@borisgnoth.cz"
+      },
+      "id": "gmail/19eeb663366eb103",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Approve Marina Nikolic's flight to Berlin (Trip ID 41890034, departing June 30) in Perk",
+      "project": "expense-ops",
+      "source": "gmail/19eda6ba1309be71",
+      "source_type": "gmail",
+      "date": "2026-06-18",
+      "confidence": "high",
+      "extras": {
+        "subject": "Marina Nikolic has requested trip 41890034 - Flight to Berlin",
+        "from": "agent@perk.com"
+      },
+      "id": "gmail/19eda6ba1309be71",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Approve Marina Nikolic's hotel stay in Berlin (Trip ID 41887858, departing June 30) in Perk",
+      "project": "expense-ops",
+      "source": "gmail/19eda6a9e819865f",
+      "source_type": "gmail",
+      "date": "2026-06-18",
+      "confidence": "high",
+      "extras": {
+        "subject": "Marina Nikolic has requested trip 41887858 - Stay in Berlin",
+        "from": "agent@perk.com"
+      },
+      "id": "gmail/19eda6a9e819865f",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Provide the feedback Caroline requested in Lattice (effectiveness, communication/collaboration rating, strengths and focus areas)",
+      "project": "people-ops",
+      "source": "gmail/19ed62a07f219116",
+      "source_type": "gmail",
+      "date": "2026-06-17",
+      "confidence": "high",
+      "extras": {
+        "subject": "Caroline has requested feedback from you",
+        "from": "notifications@mg.latticehq.com"
+      },
+      "id": "gmail/19ed62a07f219116",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-06-17",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Renew the expiring GitHub fine-grained personal access token 'Circle Push' (expires in 7 days) to keep the Circle data refresh working",
+      "project": "circle",
+      "source": "gmail/19ee9e094733ddfc",
+      "source_type": "gmail",
+      "date": "2026-06-21",
+      "confidence": "medium",
+      "extras": {
+        "subject": "[GitHub] Your personal access token (Circle Push) is expiring soon",
+        "from": "notifications@github.com"
+      },
+      "id": "gmail/19ee9e094733ddfc",
+      "project_name": "Project Circle",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Reply to Kristjana on giving a 1k discount on Fuad (Aiven) for the next invoice",
+      "project": "expense-ops",
+      "source": "slack/accounting-and-invoicing/1781784774.572709",
+      "source_type": "slack",
+      "date": "2026-06-18",
+      "confidence": "high",
+      "extras": {
+        "channel": "accounting-and-invoicing",
+        "from": "Kristjana Thorarinsdottir"
+      },
+      "id": "slack/accounting-and-invoicing/1781784774.572709",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Complete Lattice feedback request from Caroline Murphy",
+      "project": "people-ops",
+      "source": "slack/D06DGN9JW59/1781709535.202699",
+      "source_type": "slack",
+      "date": "2026-06-17",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM-Lattice",
+        "from": "Lattice (Caroline Murphy)"
+      },
+      "id": "slack/D06DGN9JW59/1781709535.202699",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-06-17",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Resolve why Lejla's recruiter screens are not logging Evaluations to Bubble (15 of her candidates sit in Recruiter Screen with no eval despite completed calls): work with Mikhail to determine sync issue vs. auto-notes not triggering an Evaluation, then fix so her weekly screen counts reconcile",
+      "project": "rec-dash",
+      "source": "slack/D0577RU8WQ1/1781876352.375949",
+      "source_type": "slack",
+      "date": "2026-06-19",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM-Mikhail Kuzmin",
+        "from": "Blake Barkley / Lejla Silva"
+      },
+      "id": "slack/D0577RU8WQ1/1781876352.375949",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Re-check wbr_weekly after the next scheduled aggregation run to confirm it rebuilt cleanly with the new doer-based screen attribution (v43), and draft wrap-up notes to Lejla (screens now show correctly) and Mikhail (was attribution, not a Bubble bug)",
+      "project": "wbr-mbr",
+      "source": "cowork/local_13355e7c-b936-424f-ae6b-19253607471e",
+      "source_type": "cowork",
+      "date": "2026-06-22",
+      "confidence": "high",
+      "extras": {
+        "session_title": "WBR page data accuracy"
+      },
+      "id": "cowork/local_13355e7c-b936-424f-ae6b-19253607471e/recheckwbr_weeklyafterthenextscheduledag",
+      "project_name": "WBR / MBR",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Fix the root cause of the stale WBR page: chain the WBR aggregation job to the candidate-data refresh (close the ~10:42-14:42 gap) so same-day activity is not invisible for hours",
+      "project": "wbr-mbr",
+      "source": "cowork/local_13355e7c-b936-424f-ae6b-19253607471e",
+      "source_type": "cowork",
+      "date": "2026-06-22",
+      "confidence": "high",
+      "extras": {
+        "session_title": "WBR page data accuracy"
+      },
+      "id": "cowork/local_13355e7c-b936-424f-ae6b-19253607471e/fixtherootcauseofthestalewbrpagechainthe",
+      "project_name": "WBR / MBR",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Click 'Run now' on the ai-first-weekly-notion-update scheduled task to pre-approve Fireflies + Notion permissions so future Wednesday 4:45pm CET runs go through unattended",
+      "project": "ai-first-working-group",
+      "source": "cowork/local_3580b378-9696-48e5-9499-e43ea50a8abe",
+      "source_type": "cowork",
+      "date": "2026-06-17",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Project status update (AI First Notion task)"
+      },
+      "id": "cowork/local_3580b378-9696-48e5-9499-e43ea50a8abe/clickrunnowontheaifirstweeklynotionupdat",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-06-17",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Click 'Run now' on the claude-backups-daily scheduled task to pre-approve its tools and get an immediate full transcript backup instead of waiting for the next 11am run",
+      "project": "inbox",
+      "source": "cowork/local_1195d8f7-9258-4879-85f4-612ecd41f0a3",
+      "source_type": "cowork",
+      "date": "2026-06-22",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Project status update (Cowork backup setup)"
+      },
+      "id": "cowork/local_1195d8f7-9258-4879-85f4-612ecd41f0a3/clickrunnowontheclaudebackupsdailyschedu",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Rotate the plaintext secrets left unprotected on disk (Google API keys in _sheet_html.txt, Bubble/token references in n8n workflow JSONs) flagged during the claude-backups setup",
+      "project": "inbox",
+      "source": "cowork/local_1195d8f7-9258-4879-85f4-612ecd41f0a3",
+      "source_type": "cowork",
+      "date": "2026-06-22",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Project status update (Cowork backup setup)"
+      },
+      "id": "cowork/local_1195d8f7-9258-4879-85f4-612ecd41f0a3/rotatetheplaintextsecretsleftunprotected",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Rotate the plaintext secrets on disk flagged during the tribe-recruiting backup (Google service account key wbr_static/google_service_account.json, GitHub PAT + Google API keys in n8n workflow and sheet-export files) and click 'Run now' on the daily 6:08pm backup task to pre-approve its tools",
+      "project": "rec-dash",
+      "source": "cowork/local_aeb4fea2-fcfb-417b-bdaa-e23cf0c34b1b",
+      "source_type": "cowork",
+      "date": "2026-06-22",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Project status update (tribe-recruiting backup)"
+      },
+      "id": "cowork/local_aeb4fea2-fcfb-417b-bdaa-e23cf0c34b1b/rotatetheplaintextsecretsondiskflaggeddu",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Rotate the GitHub PAT stored in plaintext in the github skill (shown to the session during the revolut-contractor-payments backup); optionally add a workflows/ folder with all 9 n8n workflow JSON exports to make the repo a true rebuild-from-scratch backup",
+      "project": "expense-ops",
+      "source": "cowork/local_9141e16e-3f26-4047-a8d7-50ed84579667",
+      "source_type": "cowork",
+      "date": "2026-06-22",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Project status update (Revolut contractor payments backup)"
+      },
+      "id": "cowork/local_9141e16e-3f26-4047-a8d7-50ed84579667/rotatethegithubpatstoredinplaintextinthe",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Complete/chase peer feedback in Lattice before the June 28 Feedback Month writing deadline (request deadline June 15 already passed)",
+      "project": "people-ops",
+      "source": "cowork/local_8ae1d3d3-23e0-4fa8-a008-66233c734ef0",
+      "source_type": "cowork",
+      "date": "2026-06-19",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Project status update (Feedback Month)"
+      },
+      "id": "cowork/local_8ae1d3d3-23e0-4fa8-a008-66233c734ef0/completechasepeerfeedbackinlatticebefore",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Escalate the Cowork reinstall data-loss issue to Anthropic support (in-app Get help / support@anthropic.com / GitHub issues), and avoid reinstalling or running cleanup tools until they respond so existing local session data is not overwritten",
+      "project": "inbox",
+      "source": "cowork/local_78f5aff6-f8ec-4a23-8169-fd801322a7cf",
+      "source_type": "cowork",
+      "date": "2026-06-22",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Claude desktop reinstall issue"
+      },
+      "id": "cowork/local_78f5aff6-f8ec-4a23-8169-fd801322a7cf/escalatethecoworkreinstalldatalossissuet",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
       "status": "open"
     }
   ]
