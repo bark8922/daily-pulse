@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-22",
   "schema_version": 2,
-  "total": 339,
+  "total": 347,
   "projects": [
     {
       "id": "fin-dash",
@@ -5350,12 +5350,12 @@
       "status": "open"
     },
     {
-      "text": "Review Boris Gnoth's proposed summer agenda for Tribe (dividend receivable set-off, FY2025 annual report, intra-group cooperation agreements, intercompany loan consolidation as of 1.1.2026, Holding FY2026 positive tax base, Revolut bank account disclosure) ahead of the planned call",
+      "text": "Review Boris Gnoth's summer legal/tax agenda for Tribe (dividend-loan set-off docs, FY2025 annual report, intercompany cooperation agreements, intercompany loan consolidation as of 1.1.2026, Holding FY2026 positive-tax-base business model, registering Revolut accounts with tax office) and discuss on the scheduled call",
       "project": "legal",
       "source": "gmail/19eeb663366eb103",
       "source_type": "gmail",
       "date": "2026-06-21",
-      "confidence": "medium",
+      "confidence": "high",
       "extras": {
         "subject": "Tribe - agenda for summer",
         "from": "boris@borisgnoth.cz"
@@ -5367,15 +5367,15 @@
       "status": "open"
     },
     {
-      "text": "Approve Marina Nikolic's flight to Berlin (Trip ID 41890034, departing June 30) in Perk",
+      "text": "Approve Marina Nikolic's Berlin trip in Perk (Trip 41890034 flight + Trip 41887858 stay, departing June 30; already approved by Salem)",
       "project": "expense-ops",
       "source": "gmail/19eda6ba1309be71",
       "source_type": "gmail",
-      "date": "2026-06-18",
+      "date": "2026-06-19",
       "confidence": "high",
       "extras": {
-        "subject": "Marina Nikolic has requested trip 41890034 - Flight to Berlin",
-        "from": "agent@perk.com"
+        "subject": "Trip approval request - Marina Nikolic Berlin",
+        "from": "Perk/TravelPerk"
       },
       "id": "gmail/19eda6ba1309be71",
       "project_name": "Expense Ops",
@@ -5418,15 +5418,15 @@
       "status": "open"
     },
     {
-      "text": "Renew the expiring GitHub fine-grained personal access token 'Circle Push' (expires in 7 days) to keep the Circle data refresh working",
+      "text": "Renew or rotate the GitHub fine-grained personal access token 'Circle Push' (bark8922) before it expires in 7 days to avoid breaking the Circle data refresh",
       "project": "circle",
       "source": "gmail/19ee9e094733ddfc",
       "source_type": "gmail",
       "date": "2026-06-21",
       "confidence": "medium",
       "extras": {
-        "subject": "[GitHub] Your personal access token (Circle Push) is expiring soon",
-        "from": "notifications@github.com"
+        "subject": "Your personal access token (Circle Push) is expiring soon",
+        "from": "GitHub"
       },
       "id": "gmail/19ee9e094733ddfc",
       "project_name": "Project Circle",
@@ -5452,15 +5452,15 @@
       "status": "open"
     },
     {
-      "text": "Complete Lattice feedback request from Caroline Murphy",
+      "text": "Complete the Lattice feedback request from Caroline Murphy",
       "project": "people-ops",
       "source": "slack/D06DGN9JW59/1781709535.202699",
       "source_type": "slack",
       "date": "2026-06-17",
       "confidence": "high",
       "extras": {
-        "channel": "DM-Lattice",
-        "from": "Lattice (Caroline Murphy)"
+        "channel": "DM",
+        "from": "Lattice"
       },
       "id": "slack/D06DGN9JW59/1781709535.202699",
       "project_name": "People Ops / BambooHR",
@@ -5625,6 +5625,137 @@
       },
       "id": "cowork/local_78f5aff6-f8ec-4a23-8169-fd801322a7cf/escalatethecoworkreinstalldatalossissuet",
       "project_name": "Inbox (untagged)",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Refine TA sourcer workflow OKRs - improve intake form adoption and weekly sourcing update adoption, and explore challenges to adoption",
+      "project": "okrs",
+      "source": "fireflies/01KVB0VET4EV3X80ZY1FM8VBKF",
+      "source_type": "fireflies",
+      "date": "2026-06-17",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Stand-up BD,PO,Prod,Rec"
+      },
+      "id": "fireflies/01KVB0VET4EV3X80ZY1FM8VBKF/refinetasourcerworkflowokrsimproveintake",
+      "project_name": "OKRs",
+      "first_seen": "2026-06-17",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Develop knowledge base content plans with the working groups and selectively integrate the knowledge base with Slack channels to improve usability",
+      "project": "tribebot",
+      "source": "fireflies/01KVB0VET4EV3X80ZY1FM8VBKF",
+      "source_type": "fireflies",
+      "date": "2026-06-17",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Stand-up BD,PO,Prod,Rec"
+      },
+      "id": "fireflies/01KVB0VET4EV3X80ZY1FM8VBKF/developknowledgebasecontentplanswiththew",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-17",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Explore automating scorecard creation using transcription tools and AI integrations with recruitment systems like Ashby; assess feasibility and benefits",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KVB0VET4EV3X80ZY1FM8VBKF",
+      "source_type": "fireflies",
+      "date": "2026-06-17",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Stand-up BD,PO,Prod,Rec"
+      },
+      "id": "fireflies/01KVB0VET4EV3X80ZY1FM8VBKF/exploreautomatingscorecardcreationusingt",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-17",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Set Gustavo Loureiro Castro up with a Claude Pro account on the company card (he chose option 2 - company card billing); remember to chase him each month for the receipt the accountants need",
+      "project": "expense-ops",
+      "source": "slack/D058MHYDUBA/1782112790.825229",
+      "source_type": "slack",
+      "date": "2026-06-22",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM",
+        "from": "Gustavo Loureiro Castro"
+      },
+      "id": "slack/D058MHYDUBA/1782112790.825229",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Apply a 1k discount on Fuad (Aiven) on the next invoice as Kristjana requested",
+      "project": "expense-ops",
+      "source": "slack/C04FPRVF5L5/1781784774.572709",
+      "source_type": "slack",
+      "date": "2026-06-18",
+      "confidence": "high",
+      "extras": {
+        "channel": "accounting-and-invoicing",
+        "from": "Kristjana Thorarinsdottir"
+      },
+      "id": "slack/C04FPRVF5L5/1781784774.572709",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Fix the Lejla Recruiter Screen evaluation sync gap for week 25 (15-21 June): dashboard shows only ~11 screens but Mikhail confirms 19 evaluation events exist in Bubble with who_created_event=lejla, so the missing 15 are a Bubble-to-dashboard sync issue, not a logging issue - close the gap so all evaluations come through",
+      "project": "rec-dash",
+      "source": "slack/D0577RU8WQ1/1781875075.869349",
+      "source_type": "slack",
+      "date": "2026-06-19",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM",
+        "from": "Mikhail Kuzmin"
+      },
+      "id": "slack/D0577RU8WQ1/1781875075.869349",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Close the WBR aggregation refresh-gap root cause: chain the WBR aggregation jobs to the candidate-data refresh so same-day activity isn't invisible for hours (the 10:42-14:42 gap), and after the next cycle verify wbr_weekly rebuilt cleanly with the new recruiter-screen attribution (v43) then send wrap-up notes to Lejla (screens now show correctly) and Mikhail (it was attribution, not a Bubble bug)",
+      "project": "wbr-mbr",
+      "source": "cowork/local_13355e7c-b936-424f-ae6b-19253607471e",
+      "source_type": "cowork",
+      "date": "2026-06-22",
+      "confidence": "high",
+      "extras": {
+        "session_title": "WBR page data accuracy"
+      },
+      "id": "cowork/local_13355e7c-b936-424f-ae6b-19253607471e/closethewbraggregationrefreshgaprootcaus",
+      "project_name": "WBR / MBR",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Before the Keboola renewal call, dig into the Drive spreadsheets and the Aug 2025 'Keboola Contract Renewal and Usage' notes/Gemini doc to pin the exact current contracted credit ceiling and price, and get Keboola to state the precise 300-vs-400 tier price delta and the overage rate",
+      "project": "keboola-sunset",
+      "source": "cowork/local_f777c135-3077-48ed-aedb-67c752c94b0f",
+      "source_type": "cowork",
+      "date": "2026-06-22",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Keboola contract negotiation prep"
+      },
+      "id": "cowork/local_f777c135-3077-48ed-aedb-67c752c94b0f/beforethekeboolarenewalcalldigintothedri",
+      "project_name": "Keboola migration / sunset",
       "first_seen": "2026-06-22",
       "last_seen": "2026-06-22",
       "status": "open"
