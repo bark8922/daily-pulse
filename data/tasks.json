@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-23",
   "schema_version": 2,
-  "total": 308,
+  "total": 246,
   "projects": [
     {
       "id": "fin-dash",
@@ -176,22 +176,6 @@
       "status": "open"
     },
     {
-      "id": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ/verifyandassistwithgoogleaccountaccessfo",
-      "text": "Verify and assist with Google account access for Martin",
-      "project": "people-ops",
-      "project_name": "People Ops / BambooHR",
-      "source": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ",
-      "source_type": "fireflies",
-      "date": "2026-06-01",
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-06-01",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Blake & Martin: 1:1"
-      },
-      "status": "open"
-    },
-    {
       "id": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ/helpmartinbuildsalesdashboardsinhubspotf",
       "text": "Help Martin build sales dashboards in HubSpot for monthly business reviews",
       "project": "sales-hubspot",
@@ -212,22 +196,6 @@
       "text": "Push tax deductibility fixes via event invitations/attendance docs, potentially retroactive to March 2026",
       "project": "legal",
       "project_name": "Legal & Contracts",
-      "source": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ",
-      "source_type": "fireflies",
-      "date": "2026-06-01",
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-06-01",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Blake & Martin: 1:1"
-      },
-      "status": "open"
-    },
-    {
-      "id": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ/implementlegallycomplianttravelexpensepr",
-      "text": "Implement legally compliant travel expense procedures and confirm Salam's expenses are processed",
-      "project": "expense-ops",
-      "project_name": "Expense Ops",
       "source": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ",
       "source_type": "fireflies",
       "date": "2026-06-01",
@@ -544,22 +512,6 @@
       "status": "open"
     },
     {
-      "id": "fireflies/01KSMRAN064ZM7E5Q0XE8NHRJE/recruitadditionaltaparticipantsforaifirs",
-      "text": "Recruit additional TA participants for AI First group to cover Maria's maternity leave",
-      "project": "people-ops",
-      "project_name": "People Ops / BambooHR",
-      "source": "fireflies/01KSMRAN064ZM7E5Q0XE8NHRJE",
-      "source_type": "fireflies",
-      "date": "2026-05-27",
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-05-27",
-      "confidence": "high",
-      "extras": {
-        "meeting": "AI First"
-      },
-      "status": "open"
-    },
-    {
       "id": "fireflies/01KSMHFS2V8E7CJ0PP7A97P4P7/pushformandatoryintakeformprocessfornewh",
       "text": "Push for mandatory intake form process for new hires in leadership meeting",
       "project": "ai-recruiting",
@@ -628,22 +580,6 @@
       "text": "Set up meeting with TAs Sinead and Sam to discuss Roles Roundup Slack bot updates",
       "project": "ai-recruiting",
       "project_name": "Roundup & Intake (AI recruiting tools)",
-      "source": "fireflies/01KS7EM857M3M97F776K77K75H",
-      "source_type": "fireflies",
-      "date": "2026-05-22",
-      "first_seen": "2026-05-22",
-      "last_seen": "2026-05-22",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Blake / Andrea"
-      },
-      "status": "open"
-    },
-    {
-      "id": "fireflies/01KS7EM857M3M97F776K77K75H/communicateweeklysubmissionexpectationst",
-      "text": "Communicate weekly submission expectations to sourcers and build notifier/flag for missed submissions",
-      "project": "tribebot",
-      "project_name": "Tribebot",
       "source": "fireflies/01KS7EM857M3M97F776K77K75H",
       "source_type": "fireflies",
       "date": "2026-05-22",
@@ -784,22 +720,6 @@
       "status": "open"
     },
     {
-      "id": "fireflies/01KS001YKT8H92J0JTP8XKBP3R/verifyandmanagesoftwaresubscriptionslova",
-      "text": "Verify and manage software subscriptions: Lovable, Figma, Insightful Pipe, Paddle/N8N",
-      "project": "expense-ops",
-      "project_name": "Expense Ops",
-      "source": "fireflies/01KS001YKT8H92J0JTP8XKBP3R",
-      "source_type": "fireflies",
-      "date": "2026-05-19",
-      "first_seen": "2026-05-19",
-      "last_seen": "2026-05-19",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Caroline / Blake"
-      },
-      "status": "open"
-    },
-    {
       "id": "fireflies/01KRXH0KEGM9QX359HBT53P95P/fixsharedfolderaccessforcarolinestribego",
       "text": "Fix shared folder access for Caroline's Tribe Google account for skills upload",
       "project": "tribebot",
@@ -860,22 +780,6 @@
       "confidence": "high",
       "extras": {
         "meeting": "AI First"
-      },
-      "status": "open"
-    },
-    {
-      "id": "fireflies/01KRDPQ3DZGB2XX9ZTHX5P2C2F/monitorslackbotusagefixbugsaddressauthen",
-      "text": "Monitor Slackbot usage, fix bugs, address authentication issues",
-      "project": "tribebot",
-      "project_name": "Tribebot",
-      "source": "fireflies/01KRDPQ3DZGB2XX9ZTHX5P2C2F",
-      "source_type": "fireflies",
-      "date": "2026-05-12",
-      "first_seen": "2026-05-12",
-      "last_seen": "2026-05-12",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Blake / Ella 1:1"
       },
       "status": "open"
     },
@@ -1008,22 +912,6 @@
       "status": "open"
     },
     {
-      "id": "fireflies/01KQSFFW6ZB391TCGNZ1TV6GB5/maintaindrivefolderstructureforclaudeski",
-      "text": "Maintain Drive folder structure for Claude skills/connectors with packaging instructions",
-      "project": "tribebot",
-      "project_name": "Tribebot",
-      "source": "fireflies/01KQSFFW6ZB391TCGNZ1TV6GB5",
-      "source_type": "fireflies",
-      "date": "2026-05-04",
-      "first_seen": "2026-05-04",
-      "last_seen": "2026-05-04",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Claude: Master Sessions"
-      },
-      "status": "open"
-    },
-    {
       "id": "fireflies/01KQ7CZDVYMXGGKJE76CVANSEC/providerodrigowithapiendpointcodetoenabl",
       "text": "Provide Rodrigo with API endpoint/code to enable HTTP POST of intake data to database",
       "project": "ai-recruiting",
@@ -1148,38 +1036,6 @@
       "confidence": "high",
       "extras": {
         "meeting": "AI First"
-      },
-      "status": "open"
-    },
-    {
-      "id": "fireflies/01KQCA1FHJWWQ1HNK56RE543MT/coordinatewithriverugotopushreleaseforta",
-      "text": "Coordinate with River Ugo to push release for TA Sourcer transcripts and prompt system",
-      "project": "tribebot",
-      "project_name": "Tribebot",
-      "source": "fireflies/01KQCA1FHJWWQ1HNK56RE543MT",
-      "source_type": "fireflies",
-      "date": "2026-04-29",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-04-29",
-      "confidence": "high",
-      "extras": {
-        "meeting": "OKR Check-in - Stand-up"
-      },
-      "status": "open"
-    },
-    {
-      "id": "fireflies/01KPT98CXCXTZRCCGK9RPP0CYJ/exploreautomationforweeklyslackupdatesli",
-      "text": "Explore automation for weekly Slack updates listing unapproved/upcoming long vacations",
-      "project": "people-ops",
-      "project_name": "People Ops / BambooHR",
-      "source": "fireflies/01KPT98CXCXTZRCCGK9RPP0CYJ",
-      "source_type": "fireflies",
-      "date": "2026-04-22",
-      "first_seen": "2026-04-22",
-      "last_seen": "2026-04-22",
-      "confidence": "medium",
-      "extras": {
-        "meeting": "Stand-up BD,PO,Prod,Rec"
       },
       "status": "open"
     },
@@ -1312,22 +1168,6 @@
       "status": "open"
     },
     {
-      "id": "fireflies/01KNP53C2HX10Y03105PNGK8TW/refreshandfixtribebotsauthorizationtoken",
-      "text": "Refresh and fix Tribe bot's authorization/token issues causing unresponsiveness",
-      "project": "tribebot",
-      "project_name": "Tribebot",
-      "source": "fireflies/01KNP53C2HX10Y03105PNGK8TW",
-      "source_type": "fireflies",
-      "date": "2026-04-08",
-      "first_seen": "2026-04-08",
-      "last_seen": "2026-04-08",
-      "confidence": "high",
-      "extras": {
-        "meeting": "AI Live Training Sessions"
-      },
-      "status": "open"
-    },
-    {
       "id": "fireflies/01KNP53C2HX10Y03105PNGK8TW/implementusagetrackingfortribebottomeasu",
       "text": "Implement usage tracking for Tribe bot to measure engagement and justify cost",
       "project": "tribebot",
@@ -1340,40 +1180,6 @@
       "confidence": "high",
       "extras": {
         "meeting": "AI Live Training Sessions"
-      },
-      "status": "open"
-    },
-    {
-      "id": "gmail/19e830b9f75d0163",
-      "text": "Send May payroll data to Yujing once May payroll arrives, then complete the TRIBE Spain May submission",
-      "project": "people-ops",
-      "project_name": "People Ops / BambooHR",
-      "source": "gmail/19e830b9f75d0163",
-      "source_type": "gmail",
-      "date": "2026-06-01",
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-06-01",
-      "confidence": "high",
-      "extras": {
-        "from": "yhan@bovemontero.com",
-        "subject": "TRIBE - 05.26"
-      },
-      "status": "open"
-    },
-    {
-      "id": "gmail/19e83106d7f1a786",
-      "text": "Complete BambooHR offboarding tasks for Anna Tyulpanova (termination 30 June)",
-      "project": "people-ops",
-      "project_name": "People Ops / BambooHR",
-      "source": "gmail/19e83106d7f1a786",
-      "source_type": "gmail",
-      "date": "2026-06-01",
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-06-01",
-      "confidence": "high",
-      "extras": {
-        "from": "notifications@app.bamboohr.com",
-        "subject": "Please complete this offboarding task for Anna Tyulpanova"
       },
       "status": "open"
     },
@@ -1391,23 +1197,6 @@
       "extras": {
         "from": "notifications@app.bamboohr.com",
         "subject": "Please complete this offboarding task for Priya Sen"
-      },
-      "status": "open"
-    },
-    {
-      "id": "gmail/19e17b6f22443799",
-      "text": "Complete BambooHR offboarding task for Adis Prepoljac",
-      "project": "people-ops",
-      "project_name": "People Ops / BambooHR",
-      "source": "gmail/19e17b6f22443799",
-      "source_type": "gmail",
-      "date": "2026-05-11",
-      "first_seen": "2026-05-11",
-      "last_seen": "2026-05-11",
-      "confidence": "high",
-      "extras": {
-        "from": "notifications@app.bamboohr.com",
-        "subject": "Please complete this offboarding task for Adis Prepoljac"
       },
       "status": "open"
     },
@@ -1480,23 +1269,6 @@
       "status": "open"
     },
     {
-      "id": "gmail/19e6127b0415dedf",
-      "text": "File May payroll info for Tribe.xyz CZ and HoldCo with Vera (docs received)",
-      "project": "people-ops",
-      "project_name": "People Ops / BambooHR",
-      "source": "gmail/19e6127b0415dedf",
-      "source_type": "gmail",
-      "date": "2026-05-29",
-      "first_seen": "2026-05-29",
-      "last_seen": "2026-05-29",
-      "confidence": "high",
-      "extras": {
-        "from": "vkolihova@borisgnoth.cz",
-        "subject": "Re: Tribe.xyz CZ Payroll (May)"
-      },
-      "status": "open"
-    },
-    {
       "id": "gmail/19e638c819311e94",
       "text": "Add Annex 1 countries to xls file (not PDF) and return signed RFI to Dalia at Nexi",
       "project": "sales-hubspot",
@@ -1510,23 +1282,6 @@
       "extras": {
         "from": "dalia.dalcorso@nexigroup.com",
         "subject": "R: Nexi Group - RFI Recruiter Process Outsourcing Services"
-      },
-      "status": "open"
-    },
-    {
-      "id": "gmail/19e6f6d8dbea80f7",
-      "text": "Approve/decline Salem Mansuri's trip to Munich (departing June 9) in Perk",
-      "project": "people-ops",
-      "project_name": "People Ops / BambooHR",
-      "source": "gmail/19e6f6d8dbea80f7",
-      "source_type": "gmail",
-      "date": "2026-05-28",
-      "first_seen": "2026-05-28",
-      "last_seen": "2026-05-28",
-      "confidence": "high",
-      "extras": {
-        "from": "agent@perk.com",
-        "subject": "Salem Ismat Mansuri has requested trip 41081511 - Flight to Munich"
       },
       "status": "open"
     },
@@ -1616,23 +1371,6 @@
       "status": "open"
     },
     {
-      "id": "gmail/19df227932dfd5bc",
-      "text": "Send corrected Spain April invoice to Yujing (missing disbursements 23.86 EUR + 46.15 EUR)",
-      "project": "people-ops",
-      "project_name": "People Ops / BambooHR",
-      "source": "gmail/19df227932dfd5bc",
-      "source_type": "gmail",
-      "date": "2026-05-15",
-      "first_seen": "2026-05-15",
-      "last_seen": "2026-05-15",
-      "confidence": "high",
-      "extras": {
-        "from": "yhan@bovemontero.com",
-        "subject": "RE: TRIBE - 04.26"
-      },
-      "status": "open"
-    },
-    {
       "id": "gmail/19e637ad0077935d",
       "text": "Complete Lattice May 2026 engagement survey (reminder sent \u2014 90% participation target)",
       "project": "team-cohesion",
@@ -1650,23 +1388,6 @@
       "status": "open"
     },
     {
-      "id": "gmail/19e640321a0e2426",
-      "text": "Approve/deny Mateja's access request to PPR Template in Notion",
-      "project": "people-ops",
-      "project_name": "People Ops / BambooHR",
-      "source": "gmail/19e640321a0e2426",
-      "source_type": "gmail",
-      "date": "2026-05-26",
-      "first_seen": "2026-05-26",
-      "last_seen": "2026-05-26",
-      "confidence": "medium",
-      "extras": {
-        "from": "notify@mail.notion.so",
-        "subject": "Mateja Jokovi\u0107 requested access to PPR Template"
-      },
-      "status": "open"
-    },
-    {
       "id": "gmail/19e3a0edd1e47142",
       "text": "Acknowledge Delivery Hero new Purchase Order 4400250151 (Ariba)",
       "project": "sales-hubspot",
@@ -1680,40 +1401,6 @@
       "extras": {
         "from": "ordersender-prod@ansmtp.ariba.com",
         "subject": "Delivery Hero sent a new Purchase Order 4400250151"
-      },
-      "status": "open"
-    },
-    {
-      "id": "gmail/19e8d56d9309dd5c",
-      "text": "Confirm Performance Reviews refresher attendance (IC + LS options Jun 16-24)",
-      "project": "people-ops",
-      "project_name": "People Ops / BambooHR",
-      "source": "gmail/19e8d56d9309dd5c",
-      "source_type": "gmail",
-      "date": "2026-06-03",
-      "first_seen": "2026-06-03",
-      "last_seen": "2026-06-03",
-      "confidence": "medium",
-      "extras": {
-        "from": "andreadarabasic@tribe.xyz",
-        "subject": "Invitation: Performance Reviews refresher"
-      },
-      "status": "open"
-    },
-    {
-      "id": "gmail/19e6d9b2515b74b3",
-      "text": "Confirm Radical Candor refresher attendance (Jun 4 or Jun 9 option)",
-      "project": "people-ops",
-      "project_name": "People Ops / BambooHR",
-      "source": "gmail/19e6d9b2515b74b3",
-      "source_type": "gmail",
-      "date": "2026-05-28",
-      "first_seen": "2026-05-28",
-      "last_seen": "2026-05-28",
-      "confidence": "medium",
-      "extras": {
-        "from": "andreadarabasic@tribe.xyz",
-        "subject": "Invitation: Radical Candor refresher"
       },
       "status": "open"
     },
@@ -1820,40 +1507,6 @@
       "status": "open"
     },
     {
-      "id": "slack/D059MAFUJR0/1780495864.037239",
-      "text": "Redo Wolt/Aviv(?) invoices based on the new contract numbers (Kristjana confirmed numbers, redo invoices)",
-      "project": "expense-ops",
-      "project_name": "Expense Ops",
-      "source": "slack/D059MAFUJR0/1780495864.037239",
-      "source_type": "slack",
-      "date": "2026-06-03",
-      "first_seen": "2026-06-03",
-      "last_seen": "2026-06-03",
-      "confidence": "high",
-      "extras": {
-        "channel": "DM:Kristjana Thorarinsdottir",
-        "from": "Kristjana Thorarinsdottir"
-      },
-      "status": "open"
-    },
-    {
-      "id": "slack/D059MAFUJR0/1780495742.694359",
-      "text": "Follow up with Aviv on outstanding response Kristjana asked about",
-      "project": "expense-ops",
-      "project_name": "Expense Ops",
-      "source": "slack/D059MAFUJR0/1780495742.694359",
-      "source_type": "slack",
-      "date": "2026-06-03",
-      "first_seen": "2026-06-03",
-      "last_seen": "2026-06-03",
-      "confidence": "high",
-      "extras": {
-        "channel": "DM:Kristjana Thorarinsdottir",
-        "from": "Kristjana Thorarinsdottir"
-      },
-      "status": "open"
-    },
-    {
       "id": "slack/D059MAFUJR0/1780474315.149659",
       "text": "Send contract to Cornelia (Wolt new contact) so Marcin can follow up",
       "project": "legal",
@@ -1918,23 +1571,6 @@
       "extras": {
         "channel": "DM:Zelimir Stajcic",
         "from": "Zelimir Stajcic"
-      },
-      "status": "open"
-    },
-    {
-      "id": "slack/D0ACPJUD2UX/1779263688.383449",
-      "text": "Share Surf Shark code with Mateja Jokovic",
-      "project": "people-ops",
-      "project_name": "People Ops / BambooHR",
-      "source": "slack/D0ACPJUD2UX/1779263688.383449",
-      "source_type": "slack",
-      "date": "2026-05-20",
-      "first_seen": "2026-05-20",
-      "last_seen": "2026-05-20",
-      "confidence": "high",
-      "extras": {
-        "channel": "DM:Mateja Jokovic",
-        "from": "Mateja Jokovic"
       },
       "status": "open"
     },
@@ -2205,38 +1841,6 @@
       "status": "open"
     },
     {
-      "id": "cowork/local_812487b2-21b4-4f5d-b689-afdafd9ee602/senddraftedcardholderslackmessageaboutne",
-      "text": "Send drafted cardholder Slack message about new AI expense categorization process (starting Monday June 8 weekly nudges)",
-      "project": "expense-ops",
-      "project_name": "Expense Ops",
-      "source": "cowork/local_812487b2-21b4-4f5d-b689-afdafd9ee602",
-      "source_type": "cowork",
-      "date": "2026-06-02",
-      "first_seen": "2026-06-02",
-      "last_seen": "2026-06-02",
-      "confidence": "high",
-      "extras": {
-        "session": "Fix transaction categorization workflows"
-      },
-      "status": "open"
-    },
-    {
-      "id": "cowork/local_812487b2-21b4-4f5d-b689-afdafd9ee602/update4stalen8nworkflowdescriptionsaisha",
-      "text": "Update 4 stale n8n workflow descriptions (AI Shadow Categorizer, Approval Queue, Weekly Nudge, Receipts Workflow) to reflect post-shadow live mode",
-      "project": "expense-ops",
-      "project_name": "Expense Ops",
-      "source": "cowork/local_812487b2-21b4-4f5d-b689-afdafd9ee602",
-      "source_type": "cowork",
-      "date": "2026-06-02",
-      "first_seen": "2026-06-02",
-      "last_seen": "2026-06-02",
-      "confidence": "high",
-      "extras": {
-        "session": "Fix transaction categorization workflows"
-      },
-      "status": "open"
-    },
-    {
       "id": "cowork/local_10c5115b-06ed-441b-ab58-8d65a715a7bb/sendgustavothedraftedmessageaboutarchive",
       "text": "Send Gustavo the drafted message about archived-jobs filter policy (Project Dashboard vs TS Summary) and get his decision on canonical metric",
       "project": "rec-dash",
@@ -2301,22 +1905,6 @@
       "status": "open"
     },
     {
-      "id": "cowork/local_8f348885-f195-4f13-af20-822655546b46/findekaterinaboypravslastrealclientendda",
-      "text": "Find Ekaterina Boyprav's last real client/end date (she's on Bench in both Apr 30 and Jun 1 snapshots)",
-      "project": "people-ops",
-      "project_name": "People Ops / BambooHR",
-      "source": "cowork/local_8f348885-f195-4f13-af20-822655546b46",
-      "source_type": "cowork",
-      "date": "2026-06-01",
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-06-01",
-      "confidence": "medium",
-      "extras": {
-        "session": "May 2026 terminations"
-      },
-      "status": "open"
-    },
-    {
       "id": "cowork/local_f2c8cf91-90a0-410c-9af3-cbebf5df775f/walkthrough3existingsalesdashboardtabswi",
       "text": "Walk through 3 existing sales dashboard tabs with Martin to determine what stays/drops/gets added before rebuild",
       "project": "sales-hubspot",
@@ -2345,22 +1933,6 @@
       "confidence": "medium",
       "extras": {
         "session": "Sales dashboard rebuild"
-      },
-      "status": "open"
-    },
-    {
-      "id": "cowork/local_5e71a341-1601-43eb-a766-74a8b2fec6e2/updateinvoicepdfparsern8nworkflowstickie",
-      "text": "Update Invoice PDF Parser n8n workflow stickies to reference Claude (not GPT-4) and verify Anthropic credential attached",
-      "project": "tribebot",
-      "project_name": "Tribebot",
-      "source": "cowork/local_5e71a341-1601-43eb-a766-74a8b2fec6e2",
-      "source_type": "cowork",
-      "date": "2026-06-01",
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-06-01",
-      "confidence": "medium",
-      "extras": {
-        "session": "N8n OpenAI workflow audit"
       },
       "status": "open"
     },
@@ -2445,38 +2017,6 @@
       "status": "open"
     },
     {
-      "id": "cowork/local_9f9a8402-0e40-4b6f-9de5-c4f5e905f9a1/rewireborisinvoiceforwardnodetositafterc",
-      "text": "Rewire Boris invoice forward node to sit AFTER classifier (only invoices, not receipts/junk) OR draft manual catch-up forwards for ~6-7 May invoices",
-      "project": "expense-ops",
-      "project_name": "Expense Ops",
-      "source": "cowork/local_9f9a8402-0e40-4b6f-9de5-c4f5e905f9a1",
-      "source_type": "cowork",
-      "date": "2026-05-29",
-      "first_seen": "2026-05-29",
-      "last_seen": "2026-05-29",
-      "confidence": "high",
-      "extras": {
-        "session": "Email workflow issue with Boris"
-      },
-      "status": "open"
-    },
-    {
-      "id": "cowork/local_9f9a8402-0e40-4b6f-9de5-c4f5e905f9a1/investigatewhyreceiptsworkflowtestemails",
-      "text": "Investigate why Receipts Workflow test emails are landing in accounting@ mailbox instead of personal inbox",
-      "project": "expense-ops",
-      "project_name": "Expense Ops",
-      "source": "cowork/local_9f9a8402-0e40-4b6f-9de5-c4f5e905f9a1",
-      "source_type": "cowork",
-      "date": "2026-05-29",
-      "first_seen": "2026-05-29",
-      "last_seen": "2026-05-29",
-      "confidence": "medium",
-      "extras": {
-        "session": "Email workflow issue with Boris"
-      },
-      "status": "open"
-    },
-    {
       "id": "cowork/local_6d9d598a-6777-4a4b-85ba-919803939bc9/addpricesfor3datarecruitmentspecialistsd",
       "text": "Add prices for 3 Data Recruitment Specialists (Damla, Erzana, Natalie) + Rachele (Performance Marketing) to HubSpot products",
       "project": "sales-hubspot",
@@ -2489,38 +2029,6 @@
       "confidence": "high",
       "extras": {
         "session": "Add staff roles to HubSpot"
-      },
-      "status": "open"
-    },
-    {
-      "id": "cowork/local_4daa2d6d-c33c-4954-887b-eeaf3ed8bddd/applysupabasesecurityhardeningmigrationr",
-      "text": "Apply Supabase security hardening migration (revoke anon CRUD + enable RLS on 6 tables) for tribe-job-intel project",
-      "project": "tribebot",
-      "project_name": "Tribebot",
-      "source": "cowork/local_4daa2d6d-c33c-4954-887b-eeaf3ed8bddd",
-      "source_type": "cowork",
-      "date": "2026-05-27",
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-05-27",
-      "confidence": "high",
-      "extras": {
-        "session": "Supabase Data API schema access changes"
-      },
-      "status": "open"
-    },
-    {
-      "id": "cowork/local_4daa2d6d-c33c-4954-887b-eeaf3ed8bddd/greplocalfilesforplaintextsupabasetokens",
-      "text": "Grep local files for plaintext Supabase tokens/anon key leaks (test scripts, public repos, Slack history)",
-      "project": "tribebot",
-      "project_name": "Tribebot",
-      "source": "cowork/local_4daa2d6d-c33c-4954-887b-eeaf3ed8bddd",
-      "source_type": "cowork",
-      "date": "2026-05-27",
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-05-27",
-      "confidence": "medium",
-      "extras": {
-        "session": "Supabase Data API schema access changes"
       },
       "status": "open"
     },
@@ -2630,38 +2138,6 @@
       "date": "2026-05-25",
       "first_seen": "2026-05-25",
       "last_seen": "2026-05-25",
-      "confidence": "medium",
-      "extras": {
-        "session": "Cos weekly log"
-      },
-      "status": "open"
-    },
-    {
-      "id": "cowork/local_b49abb84-a9bd-454f-818f-2b1c58d169fe/waitforvaleriasirrolesubmissionpostconve",
-      "text": "Wait for Valeria's IR role submission post-conversation; Sanja Pavlovikj DM pending",
-      "project": "tribebot",
-      "project_name": "Tribebot",
-      "source": "cowork/local_b49abb84-a9bd-454f-818f-2b1c58d169fe",
-      "source_type": "cowork",
-      "date": "2026-06-02",
-      "first_seen": "2026-06-02",
-      "last_seen": "2026-06-02",
-      "confidence": "medium",
-      "extras": {
-        "session": "Project status update on two initiatives"
-      },
-      "status": "open"
-    },
-    {
-      "id": "cowork/local_86acf7c1-85db-43d6-929f-707992e82bef/andreatatrainingtribebothandoffcompleted",
-      "text": "Andrea (TA training/Tribe bot handoff) - complete delegation",
-      "project": "tribebot",
-      "project_name": "Tribebot",
-      "source": "cowork/local_86acf7c1-85db-43d6-929f-707992e82bef",
-      "source_type": "cowork",
-      "date": "2026-05-30",
-      "first_seen": "2026-05-30",
-      "last_seen": "2026-05-30",
       "confidence": "medium",
       "extras": {
         "session": "Cos weekly log"
@@ -2797,40 +2273,6 @@
       "status": "open"
     },
     {
-      "text": "Process Bove Montero Spain May 2026 payslip (received from Laia Majka) and complete the Spain May payroll run",
-      "project": "people-ops",
-      "source": "gmail/19e6127af5e58c14",
-      "source_type": "gmail",
-      "date": "2026-06-04",
-      "confidence": "high",
-      "extras": {
-        "subject": "RE: Payroll - May 2026",
-        "from": "lmajka@bovemontero.com"
-      },
-      "id": "gmail/19e6127af5e58c14",
-      "project_name": "People Ops / BambooHR",
-      "first_seen": "2026-06-04",
-      "last_seen": "2026-06-08",
-      "status": "open"
-    },
-    {
-      "text": "Process Tina Aramouni May 2026 invoice (Invoice_Tina_2605.pdf) for payment",
-      "project": "expense-ops",
-      "source": "gmail/19e9691827f47dc4",
-      "source_type": "gmail",
-      "date": "2026-06-05",
-      "confidence": "medium",
-      "extras": {
-        "subject": "Tina Abdul Karim Invoice May 2026",
-        "from": "tinaaramouni@tribe.xyz"
-      },
-      "id": "gmail/19e9691827f47dc4",
-      "project_name": "Expense Ops",
-      "first_seen": "2026-06-05",
-      "last_seen": "2026-06-08",
-      "status": "open"
-    },
-    {
       "text": "Fill out Project Feedback for the AI First project participants in Notion (Phase 7 evaluate) by June 22",
       "project": "ai-recruiting",
       "source": "slack/D071AKJ9YG2/1780903970.268179",
@@ -2876,23 +2318,6 @@
       },
       "id": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761/keepandreainformedonprogressofweeklyupda",
       "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-06-08",
-      "last_seen": "2026-06-09",
-      "status": "open"
-    },
-    {
-      "text": "Complete Lattice feedback request from Maria Desiree Gerbore on her growth area",
-      "project": "people-ops",
-      "source": "slack/D06DGN9JW59/1780928224.802739",
-      "source_type": "slack",
-      "date": "2026-06-08",
-      "confidence": "medium",
-      "extras": {
-        "channel": "DM-Lattice",
-        "from": "Lattice (re: Maria Desiree Gerbore)"
-      },
-      "id": "slack/D06DGN9JW59/1780928224.802739",
-      "project_name": "People Ops / BambooHR",
       "first_seen": "2026-06-08",
       "last_seen": "2026-06-09",
       "status": "open"
@@ -3012,23 +2437,6 @@
       "status": "open"
     },
     {
-      "text": "Complete Lattice feedback request from Gustavo Loureiro Castro",
-      "project": "people-ops",
-      "source": "slack/D06DGN9JW59/1781013528.615949",
-      "source_type": "slack",
-      "date": "2026-06-09",
-      "confidence": "medium",
-      "extras": {
-        "channel": "Lattice bot DM",
-        "sender": "Lattice (on behalf of Gustavo Loureiro Castro)"
-      },
-      "id": "slack/D06DGN9JW59/1781013528.615949",
-      "project_name": "People Ops / BambooHR",
-      "first_seen": "2026-06-09",
-      "last_seen": "2026-06-10",
-      "status": "open"
-    },
-    {
       "text": "Help Iryna test the new intake tool on her 2 new Aviv roles (Senior ML Engineer kickoff call, Junior Backend Developer JD-only) - Kris asked her to ping Blake; Rodrigo prepared instructions, confirm it worked",
       "project": "ai-recruiting",
       "source": "slack/D06KVGY05FC/1780936373.840339",
@@ -3043,23 +2451,6 @@
       "id": "slack/D06KVGY05FC/1780936373.840339",
       "project_name": "Roundup & Intake (AI recruiting tools)",
       "first_seen": "2026-06-08",
-      "last_seen": "2026-06-10",
-      "status": "open"
-    },
-    {
-      "text": "Share with Valeria an example of what the 'Your Roles Weekly' bot updates look like for TAs (Blake previously offered)",
-      "project": "tribebot",
-      "source": "slack/D062X9TGXQA/1780654515.391519",
-      "source_type": "slack",
-      "date": "2026-06-05",
-      "confidence": "medium",
-      "extras": {
-        "channel": "DM with Valeria Yurykova",
-        "sender": "Valeria Yurykova"
-      },
-      "id": "slack/D062X9TGXQA/1780654515.391519",
-      "project_name": "Tribebot",
-      "first_seen": "2026-06-05",
       "last_seen": "2026-06-10",
       "status": "open"
     },
@@ -3094,22 +2485,6 @@
       "id": "slack/D0639UMV9EV/1780561130.494419",
       "project_name": "Roundup & Intake (AI recruiting tools)",
       "first_seen": "2026-06-04",
-      "last_seen": "2026-06-10",
-      "status": "open"
-    },
-    {
-      "text": "Send exploratory email to Bove Montero (Arantxa Ardizzi) about recharging Salem's travel expenses from Tribe CZ card to Tribe Spain (draft written but not saved to Gmail)",
-      "project": "expense-ops",
-      "source": "cowork/local_9f208fcc-c5d7-499a-b3c0-ffca6daa6cf4",
-      "source_type": "cowork",
-      "date": "2026-06-09",
-      "confidence": "high",
-      "extras": {
-        "session_title": "Meeting prep with lawyers and accountants"
-      },
-      "id": "cowork/local_9f208fcc-c5d7-499a-b3c0-ffca6daa6cf4/sendexploratoryemailtobovemonteroarantxa",
-      "project_name": "Expense Ops",
-      "first_seen": "2026-06-09",
       "last_seen": "2026-06-10",
       "status": "open"
     },
@@ -3157,38 +2532,6 @@
       },
       "id": "fireflies/01KTRSWJ6M4WCVERAV2F0ACGDZ/continuepushingformoreuserstotesttheinta",
       "project_name": "Roundup & Intake (AI recruiting tools)",
-      "first_seen": "2026-06-10",
-      "last_seen": "2026-06-11",
-      "status": "open"
-    },
-    {
-      "text": "Follow up on team feedback regarding Tribe bot to increase adoption and usefulness",
-      "project": "tribebot",
-      "source": "fireflies/01KTRSWJ6M4WCVERAV2F0ACGDZ",
-      "source_type": "fireflies",
-      "date": "2026-06-10",
-      "confidence": "medium",
-      "extras": {
-        "meeting": "AI First"
-      },
-      "id": "fireflies/01KTRSWJ6M4WCVERAV2F0ACGDZ/followuponteamfeedbackregardingtribebott",
-      "project_name": "Tribebot",
-      "first_seen": "2026-06-10",
-      "last_seen": "2026-06-11",
-      "status": "open"
-    },
-    {
-      "text": "Plan brainstorming session on Tribe bot data sourcing and incremental content improvement",
-      "project": "tribebot",
-      "source": "fireflies/01KTRSWJ6M4WCVERAV2F0ACGDZ",
-      "source_type": "fireflies",
-      "date": "2026-06-10",
-      "confidence": "medium",
-      "extras": {
-        "meeting": "AI First"
-      },
-      "id": "fireflies/01KTRSWJ6M4WCVERAV2F0ACGDZ/planbrainstormingsessionontribebotdataso",
-      "project_name": "Tribebot",
       "first_seen": "2026-06-10",
       "last_seen": "2026-06-11",
       "status": "open"
@@ -3244,40 +2587,6 @@
       "status": "open"
     },
     {
-      "text": "Follow up by ~June 12 whether Shaun sorted the invoice (Reaktor-related contact) and tell Kristjana if it is not done in 2 days so she can chase again",
-      "project": "expense-ops",
-      "source": "slack/D059MAFUJR0/1781115097.628259",
-      "source_type": "slack",
-      "date": "2026-06-10",
-      "confidence": "medium",
-      "extras": {
-        "channel": "dm",
-        "from": "Kristjana Thorarinsdottir"
-      },
-      "id": "slack/D059MAFUJR0/1781115097.628259",
-      "project_name": "Expense Ops",
-      "first_seen": "2026-06-10",
-      "last_seen": "2026-06-11",
-      "status": "open"
-    },
-    {
-      "text": "Build a patch/repair process for Your Roles Weekly bot sourcing counts when candidates are saved to the wrong project and then deleted (Valeria's 8 Dutch-sprint contacts stay counted; Blake committed: 'I will need to look into how we patch this')",
-      "project": "tribebot",
-      "source": "slack/D062X9TGXQA/1781105086.443409",
-      "source_type": "slack",
-      "date": "2026-06-10",
-      "confidence": "medium",
-      "extras": {
-        "channel": "dm",
-        "from": "Valeria Yurykova / Blake Barkley (self-commitment)"
-      },
-      "id": "slack/D062X9TGXQA/1781105086.443409",
-      "project_name": "Tribebot",
-      "first_seen": "2026-06-10",
-      "last_seen": "2026-06-11",
-      "status": "open"
-    },
-    {
       "text": "Replace the Drive DPA template with the amended v2 (staff augmentation, 48h breach window, notes carve-out, 30-day subprocessor notice)",
       "project": "legal",
       "source": "cowork/local_e909eec0-5f41-43d0-a27f-77437d122d17",
@@ -3290,22 +2599,6 @@
       "id": "cowork/local_e909eec0-5f41-43d0-a27f-77437d122d17/replacethedrivedpatemplatewiththeamended",
       "project_name": "Legal & Contracts",
       "first_seen": "2026-06-11",
-      "last_seen": "2026-06-11",
-      "status": "open"
-    },
-    {
-      "text": "Reply to Valeria: French sprint role now synced into her DM (77 contacted / 7 positive / 1 screen); Dutch 8 contacted stays by design (historical outreach record) - and decide whether to refresh Nare/Andrea DMs for the same sync gap",
-      "project": "tribebot",
-      "source": "cowork/local_b49abb84-a9bd-454f-818f-2b1c58d169fe",
-      "source_type": "cowork",
-      "date": "2026-06-09",
-      "confidence": "medium",
-      "extras": {
-        "session_title": "Project status update on two initiatives"
-      },
-      "id": "cowork/local_b49abb84-a9bd-454f-818f-2b1c58d169fe/replytovaleriafrenchsprintrolenowsyncedi",
-      "project_name": "Tribebot",
-      "first_seen": "2026-06-09",
       "last_seen": "2026-06-11",
       "status": "open"
     },
@@ -3553,23 +2846,6 @@
       "status": "open"
     },
     {
-      "text": "Send final invoice instructions (billable days and amount) to Zelimir Stajcic for June, as done for Alisa Liddell",
-      "project": "people-ops",
-      "source": "gmail/19ebb25375487e51",
-      "source_type": "gmail",
-      "date": "2026-06-12",
-      "confidence": "medium",
-      "extras": {
-        "subject": "Termination details - Zelimir Stajcic",
-        "from": "andreadarabasic@tribe.xyz"
-      },
-      "id": "gmail/19ebb25375487e51",
-      "project_name": "People Ops / BambooHR",
-      "first_seen": "2026-06-12",
-      "last_seen": "2026-06-12",
-      "status": "open"
-    },
-    {
       "text": "Fix 'Tribe Dashboard - Actual Spend Export Github node' n8n workflow - Write CSV to GitHub node failing with 'refreshToken is required' (failed twice on June 10)",
       "project": "fin-dash",
       "source": "slack/D0AKAPA0X3J/1781108042.159209",
@@ -3715,23 +2991,6 @@
       "id": "fireflies/01KTKRGAZ1KWJNEC8BV08XA761/addtoggleonthehiringoverviewpagetoviewwe",
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-06-08",
-      "last_seen": "2026-06-15",
-      "status": "open"
-    },
-    {
-      "text": "Arrange bank transfer of Tribe Holding VAT liability for 05/2026 (CZK 194,563) by the June 25 deadline per Eva Huclova (Boris Gnoth)",
-      "project": "expense-ops",
-      "source": "gmail/19ecbb84be8d77df",
-      "source_type": "gmail",
-      "date": "2026-06-15",
-      "confidence": "high",
-      "extras": {
-        "subject": "FW: Tribe holding - DPH 05/2025",
-        "from": "ehuclova@borisgnoth.cz"
-      },
-      "id": "gmail/19ecbb84be8d77df",
-      "project_name": "Expense Ops",
-      "first_seen": "2026-06-15",
       "last_seen": "2026-06-15",
       "status": "open"
     },
@@ -3982,23 +3241,6 @@
       "status": "open"
     },
     {
-      "text": "Review Marc Garcia's (Bove Montero) recommendation on handling Salem's travel costs between TRIBE CZECH and TRIBE SPAIN and respond with a decision",
-      "project": "expense-ops",
-      "source": "gmail/19eb069e2592968d",
-      "source_type": "gmail",
-      "date": "2026-06-16",
-      "confidence": "high",
-      "extras": {
-        "subject": "RE: Salem Expenses",
-        "from": "mgarcia@bovemontero.com"
-      },
-      "id": "gmail/19eb069e2592968d",
-      "project_name": "Expense Ops",
-      "first_seen": "2026-06-16",
-      "last_seen": "2026-06-16",
-      "status": "open"
-    },
-    {
       "text": "Follow up at end of day on whether Maria at Hostaway responded / whether Blake was CC'd, and report back to Salem",
       "project": "sales-hubspot",
       "source": "slack/D057XNFLHTR/1781602484.208479",
@@ -4011,23 +3253,6 @@
       },
       "id": "slack/D057XNFLHTR/1781602484.208479",
       "project_name": "Sales dashboard + HubSpot",
-      "first_seen": "2026-06-16",
-      "last_seen": "2026-06-16",
-      "status": "open"
-    },
-    {
-      "text": "Send Andrea Darabasic the list of what needs to be done re: Jonaed's offboarding (refund handling - he can send the money straight to Tribe CZ) so she can include it in today's let-go comms",
-      "project": "people-ops",
-      "source": "slack/D071AKJ9YG2/1781600263.221969",
-      "source_type": "slack",
-      "date": "2026-06-16",
-      "confidence": "high",
-      "extras": {
-        "channel": "DM with Andrea Darabasic",
-        "from": "Andrea Darabasic"
-      },
-      "id": "slack/D071AKJ9YG2/1781600263.221969",
-      "project_name": "People Ops / BambooHR",
       "first_seen": "2026-06-16",
       "last_seen": "2026-06-16",
       "status": "open"
@@ -4065,22 +3290,6 @@
       "status": "open"
     },
     {
-      "text": "Reconcile Adelia's final termination date with Chris and update the necessary systems",
-      "project": "people-ops",
-      "source": "fireflies/01KV8A87QAHFTSXYPCXYB2VNNY",
-      "source_type": "fireflies",
-      "date": "2026-06-16",
-      "confidence": "high",
-      "extras": {
-        "meeting": "People Operations - Tribe Team"
-      },
-      "id": "fireflies/01KV8A87QAHFTSXYPCXYB2VNNY/reconcileadeliasfinalterminationdatewith",
-      "project_name": "People Ops / BambooHR",
-      "first_seen": "2026-06-16",
-      "last_seen": "2026-06-17",
-      "status": "open"
-    },
-    {
       "text": "Follow up with Nenad to schedule the onboarding meeting and share OKR communications",
       "project": "okrs",
       "source": "fireflies/01KV8A87QAHFTSXYPCXYB2VNNY",
@@ -4113,103 +3322,6 @@
       "status": "open"
     },
     {
-      "text": "Integrate Slack channels containing market and role-specific info into the Tribot knowledge base",
-      "project": "tribebot",
-      "source": "fireflies/01KV87EJV0D5FYCGFQJES2AKZQ",
-      "source_type": "fireflies",
-      "date": "2026-06-16",
-      "confidence": "high",
-      "extras": {
-        "meeting": "AI First"
-      },
-      "id": "fireflies/01KV87EJV0D5FYCGFQJES2AKZQ/integrateslackchannelscontainingmarketan",
-      "project_name": "Tribebot",
-      "first_seen": "2026-06-16",
-      "last_seen": "2026-06-17",
-      "status": "open"
-    },
-    {
-      "text": "Help Jacopo resolve his Revolut business account access issues (resend login / request card reset)",
-      "project": "expense-ops",
-      "source": "fireflies/01KV84TQHNSCXH72601Q97EJY7",
-      "source_type": "fireflies",
-      "date": "2026-06-16",
-      "confidence": "medium",
-      "extras": {
-        "meeting": "Operations"
-      },
-      "id": "fireflies/01KV84TQHNSCXH72601Q97EJY7/helpjacoporesolvehisrevolutbusinessaccou",
-      "project_name": "Expense Ops",
-      "first_seen": "2026-06-16",
-      "last_seen": "2026-06-17",
-      "status": "open"
-    },
-    {
-      "text": "Reach out to Caroline to initiate the BambooHR beta program connection for cloud connectors",
-      "project": "people-ops",
-      "source": "fireflies/01KV5GR7ZM0PF99NQ1BHRNM58J",
-      "source_type": "fireflies",
-      "date": "2026-06-15",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Caroline / Blake"
-      },
-      "id": "fireflies/01KV5GR7ZM0PF99NQ1BHRNM58J/reachouttocarolinetoinitiatethebamboohrb",
-      "project_name": "People Ops / BambooHR",
-      "first_seen": "2026-06-15",
-      "last_seen": "2026-06-17",
-      "status": "open"
-    },
-    {
-      "text": "Process the Munich dinner invoice payment",
-      "project": "expense-ops",
-      "source": "fireflies/01KV5GR7ZM0PF99NQ1BHRNM58J",
-      "source_type": "fireflies",
-      "date": "2026-06-15",
-      "confidence": "medium",
-      "extras": {
-        "meeting": "Caroline / Blake"
-      },
-      "id": "fireflies/01KV5GR7ZM0PF99NQ1BHRNM58J/processthemunichdinnerinvoicepayment",
-      "project_name": "Expense Ops",
-      "first_seen": "2026-06-15",
-      "last_seen": "2026-06-17",
-      "status": "open"
-    },
-    {
-      "text": "Complete the BambooHR offboarding task for Jonaed Iqbal (requested by Andrea Darabasic)",
-      "project": "people-ops",
-      "source": "gmail/19ed243d7d9f02b2",
-      "source_type": "gmail",
-      "date": "2026-06-16",
-      "confidence": "high",
-      "extras": {
-        "subject": "Please complete this offboarding task for Jonaed Iqbal",
-        "from": "notifications@app.bamboohr.com"
-      },
-      "id": "gmail/19ed243d7d9f02b2",
-      "project_name": "People Ops / BambooHR",
-      "first_seen": "2026-06-16",
-      "last_seen": "2026-06-17",
-      "status": "open"
-    },
-    {
-      "text": "Set credentials on the new Claude Vision OCR and Slack alert nodes in the Invoice PDF Parser n8n workflow, then publish the draft",
-      "project": "expense-ops",
-      "source": "cowork/local_a2dcd0bb-c778-4839-9c6a-5c4bd655effa",
-      "source_type": "cowork",
-      "date": "2026-06-16",
-      "confidence": "high",
-      "extras": {
-        "session": "Invoice download discrepancy"
-      },
-      "id": "cowork/local_a2dcd0bb-c778-4839-9c6a-5c4bd655effa/setcredentialsonthenewclaudevisionocrand",
-      "project_name": "Expense Ops",
-      "first_seen": "2026-06-16",
-      "last_seen": "2026-06-17",
-      "status": "open"
-    },
-    {
       "text": "Connect Slack channels to the knowledge base for easier access and usage",
       "project": "tribebot",
       "source": "fireflies/01KV8A87QAHFTSXYPCXYB2VNNY",
@@ -4221,22 +3333,6 @@
       },
       "id": "fireflies/01KV8A87QAHFTSXYPCXYB2VNNY/connectslackchannelstotheknowledgebasefo",
       "project_name": "Tribebot",
-      "first_seen": "2026-06-16",
-      "last_seen": "2026-06-17",
-      "status": "open"
-    },
-    {
-      "text": "Monitor contract signing for Simon and communicate status updates to the team",
-      "project": "people-ops",
-      "source": "fireflies/01KV8A87QAHFTSXYPCXYB2VNNY",
-      "source_type": "fireflies",
-      "date": "2026-06-16",
-      "confidence": "medium",
-      "extras": {
-        "meeting": "People Operations - Tribe Team"
-      },
-      "id": "fireflies/01KV8A87QAHFTSXYPCXYB2VNNY/monitorcontractsigningforsimonandcommuni",
-      "project_name": "People Ops / BambooHR",
       "first_seen": "2026-06-16",
       "last_seen": "2026-06-17",
       "status": "open"
@@ -4273,40 +3369,6 @@
       "id": "slack/C06RERFCAF6/1781175364.996349",
       "project_name": "OKRs",
       "first_seen": "2026-06-11",
-      "last_seen": "2026-06-17",
-      "status": "open"
-    },
-    {
-      "text": "Set up the intake-tool taskforce: schedule the Monday onboarding session with Rodrigo for the team (Blake, Alex, Andrea, Nenad), confirm Rodrigo finalizes the missing technical items by end of week, then kick off personalized user onboarding to push adoption",
-      "project": "tribebot",
-      "source": "slack/D059PSVF62G/1781624095.325769",
-      "source_type": "slack",
-      "date": "2026-06-16",
-      "confidence": "high",
-      "extras": {
-        "channel": "DM with Rodrigo Gomes",
-        "from": "Blake Barkley (commitment)"
-      },
-      "id": "slack/D059PSVF62G/1781624095.325769",
-      "project_name": "Tribebot",
-      "first_seen": "2026-06-16",
-      "last_seen": "2026-06-17",
-      "status": "open"
-    },
-    {
-      "text": "Investigate why Andreea Vrancianu's June 1 invoice got filtered out of the payment automation and add a recurring check so her invoice isn't missed in future (Blake: 'will make a note to check... so it doesn't happen again')",
-      "project": "expense-ops",
-      "source": "slack/C05R90FDH40/1781512704.937649",
-      "source_type": "slack",
-      "date": "2026-06-15",
-      "confidence": "medium",
-      "extras": {
-        "channel": "Group DM (Martin, Andreea, Blake)",
-        "from": "Andreea Vrancianu / Blake commitment"
-      },
-      "id": "slack/C05R90FDH40/1781512704.937649",
-      "project_name": "Expense Ops",
-      "first_seen": "2026-06-15",
       "last_seen": "2026-06-17",
       "status": "open"
     },
@@ -4492,22 +3554,6 @@
       "status": "open"
     },
     {
-      "text": "Rotate the GitHub PAT stored in plaintext in the github skill (shown to the session during the revolut-contractor-payments backup); optionally add a workflows/ folder with all 9 n8n workflow JSON exports to make the repo a true rebuild-from-scratch backup",
-      "project": "expense-ops",
-      "source": "cowork/local_9141e16e-3f26-4047-a8d7-50ed84579667",
-      "source_type": "cowork",
-      "date": "2026-06-22",
-      "confidence": "medium",
-      "extras": {
-        "session_title": "Project status update (Revolut contractor payments backup)"
-      },
-      "id": "cowork/local_9141e16e-3f26-4047-a8d7-50ed84579667/rotatethegithubpatstoredinplaintextinthe",
-      "project_name": "Expense Ops",
-      "first_seen": "2026-06-22",
-      "last_seen": "2026-06-22",
-      "status": "open"
-    },
-    {
       "text": "Complete/chase peer feedback in Lattice before the June 28 Feedback Month writing deadline (request deadline June 15 already passed)",
       "project": "people-ops",
       "source": "cowork/local_8ae1d3d3-23e0-4fa8-a008-66233c734ef0",
@@ -4536,22 +3582,6 @@
       "id": "cowork/local_78f5aff6-f8ec-4a23-8169-fd801322a7cf/escalatethecoworkreinstalldatalossissuet",
       "project_name": "Inbox (untagged)",
       "first_seen": "2026-06-22",
-      "last_seen": "2026-06-22",
-      "status": "open"
-    },
-    {
-      "text": "Develop knowledge base content plans with the working groups and selectively integrate the knowledge base with Slack channels to improve usability",
-      "project": "tribebot",
-      "source": "fireflies/01KVB0VET4EV3X80ZY1FM8VBKF",
-      "source_type": "fireflies",
-      "date": "2026-06-17",
-      "confidence": "medium",
-      "extras": {
-        "meeting": "Stand-up BD,PO,Prod,Rec"
-      },
-      "id": "fireflies/01KVB0VET4EV3X80ZY1FM8VBKF/developknowledgebasecontentplanswiththew",
-      "project_name": "Tribebot",
-      "first_seen": "2026-06-17",
       "last_seen": "2026-06-22",
       "status": "open"
     },
@@ -4669,39 +3699,6 @@
       "status": "open"
     },
     {
-      "text": "Schedule a follow-up meeting in about one month to discuss the Keboola contract renewal after internal review",
-      "project": "keboola-sunset",
-      "source": "fireflies/01KVQ28ZAGVBRBMVP7PAA0M9NR",
-      "source_type": "fireflies",
-      "date": "2026-06-22",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Keboola / Tribe.xyz"
-      },
-      "id": "fireflies/01KVQ28ZAGVBRBMVP7PAA0M9NR/scheduleafollowupmeetinginaboutonemontht",
-      "project_name": "Keboola migration / sunset",
-      "first_seen": "2026-06-22",
-      "last_seen": "2026-06-22",
-      "status": "open"
-    },
-    {
-      "text": "Fix the failing GitHub Actions workflow 'Refresh team_leads.json (BambooHR)' in the bark8922/tribe-recruiting repo (all jobs failed, 2 annotations)",
-      "project": "rec-dash",
-      "source": "gmail/19eef507667569f1",
-      "source_type": "gmail",
-      "date": "2026-06-22",
-      "confidence": "high",
-      "extras": {
-        "subject": "[bark8922/tribe-recruiting] Run failed: Refresh team_leads.json (BambooHR) - main (3df200b)",
-        "from": "notifications@github.com"
-      },
-      "id": "gmail/19eef507667569f1",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-06-22",
-      "last_seen": "2026-06-22",
-      "status": "open"
-    },
-    {
       "text": "Update your Lattice goal 'Ship AI and automation infrastructure that makes Tribe faster' (last updated April 9)",
       "project": "okrs",
       "source": "gmail/19ed9c956d589a20",
@@ -4715,57 +3712,6 @@
       "id": "gmail/19ed9c956d589a20",
       "project_name": "OKRs",
       "first_seen": "2026-06-18",
-      "last_seen": "2026-06-22",
-      "status": "open"
-    },
-    {
-      "text": "Complete the 3-month Probation Review for Mariam Chkhikvadze (review launches Jun 23 in Lattice)",
-      "project": "people-ops",
-      "source": "gmail/19ecf73f29c17e7a",
-      "source_type": "gmail",
-      "date": "2026-06-16",
-      "confidence": "medium",
-      "extras": {
-        "subject": "1 review cycle has been created for the rule: Probation Review (3 months)",
-        "from": "notifications@mg.latticehq.com"
-      },
-      "id": "gmail/19ecf73f29c17e7a",
-      "project_name": "People Ops / BambooHR",
-      "first_seen": "2026-06-16",
-      "last_seen": "2026-06-22",
-      "status": "open"
-    },
-    {
-      "text": "Change the sharing setting on the Intake docs folder so anyone with the link can view (not edit) the generated documents (Alex flagged the edit-access concern)",
-      "project": "ai-recruiting",
-      "source": "slack/D059PSVF62G/1782126147.221079",
-      "source_type": "slack",
-      "date": "2026-06-22",
-      "confidence": "high",
-      "extras": {
-        "from": "Rodrigo Gomes",
-        "channel": "DM with Rodrigo Gomes"
-      },
-      "id": "slack/D059PSVF62G/1782126147.221079",
-      "project_name": "Roundup & Intake (AI recruiting tools)",
-      "first_seen": "2026-06-22",
-      "last_seen": "2026-06-22",
-      "status": "open"
-    },
-    {
-      "text": "Increase Rodrigo's InMail credits (he used all of them last week working on Aviv)",
-      "project": "linkedin",
-      "source": "slack/D059PSVF62G/1782126236.344579",
-      "source_type": "slack",
-      "date": "2026-06-22",
-      "confidence": "high",
-      "extras": {
-        "from": "Rodrigo Gomes",
-        "channel": "DM with Rodrigo Gomes"
-      },
-      "id": "slack/D059PSVF62G/1782126236.344579",
-      "project_name": "LinkedIn license management",
-      "first_seen": "2026-06-22",
       "last_seen": "2026-06-22",
       "status": "open"
     },
@@ -4787,22 +3733,6 @@
       "status": "open"
     },
     {
-      "text": "Enable Kai on the Keboola Time-to-Hire app: create a dedicated service master token (kai-app@tribe.xyz), add it as the STORAGE_API_TOKEN secret on the TTH app, and redeploy to turn on the Ask Kai box",
-      "project": "keboola-sunset",
-      "source": "cowork/local_8a400721-0f17-4e66-bd3f-75723fc6671f",
-      "source_type": "cowork",
-      "date": "2026-06-22",
-      "confidence": "high",
-      "extras": {
-        "session_title": "Keboola Kai AI features"
-      },
-      "id": "cowork/local_8a400721-0f17-4e66-bd3f-75723fc6671f/enablekaionthekeboolatimetohireappcreate",
-      "project_name": "Keboola migration / sunset",
-      "first_seen": "2026-06-22",
-      "last_seen": "2026-06-22",
-      "status": "open"
-    },
-    {
       "text": "Trigger a manual run of the Circle Push Keboola job in the UI to confirm the GitHub push and Circle dispatch succeed after fixing the Circle Push token to Contents: Read and write",
       "project": "circle",
       "source": "cowork/local_d8796374-d07e-452f-b1d5-5f2ebe2992f9",
@@ -4814,54 +3744,6 @@
       },
       "id": "cowork/local_d8796374-d07e-452f-b1d5-5f2ebe2992f9/triggeramanualrunofthecirclepushkeboolaj",
       "project_name": "Project Circle",
-      "first_seen": "2026-06-22",
-      "last_seen": "2026-06-22",
-      "status": "open"
-    },
-    {
-      "text": "Green-light adding the missing weekly-finalize-monday cron so the no-submission escalation to TAs actually fires (it has never run in production; 0 of 33 weekly_updates rows are finalized)",
-      "project": "tribebot",
-      "source": "cowork/local_85ee5042-fa3a-40b3-85fc-a0eb24c81fd7",
-      "source_type": "cowork",
-      "date": "2026-06-22",
-      "confidence": "high",
-      "extras": {
-        "session_title": "Roles weekly update status"
-      },
-      "id": "cowork/local_85ee5042-fa3a-40b3-85fc-a0eb24c81fd7/greenlightaddingthemissingweeklyfinalize",
-      "project_name": "Tribebot",
-      "first_seen": "2026-06-22",
-      "last_seen": "2026-06-22",
-      "status": "open"
-    },
-    {
-      "text": "Decide whether to send the week-25 roundup check-in message to the pilot group (Nare/Andrea/Valeriia) as a group DM or split into individual DMs, then send",
-      "project": "tribebot",
-      "source": "cowork/local_85ee5042-fa3a-40b3-85fc-a0eb24c81fd7",
-      "source_type": "cowork",
-      "date": "2026-06-22",
-      "confidence": "medium",
-      "extras": {
-        "session_title": "Roles weekly update status"
-      },
-      "id": "cowork/local_85ee5042-fa3a-40b3-85fc-a0eb24c81fd7/decidewhethertosendtheweek25roundupcheck",
-      "project_name": "Tribebot",
-      "first_seen": "2026-06-22",
-      "last_seen": "2026-06-22",
-      "status": "open"
-    },
-    {
-      "text": "Push the patched backup.sh (now captures all 12 scheduled-task prompts) and 6 new memory files into the bark8922/claude-backups repo and live memory folder, or drop them in manually",
-      "project": "project-hub",
-      "source": "cowork/local_9d4a6418-12d9-430e-ae47-b3c873055f6a",
-      "source_type": "cowork",
-      "date": "2026-06-22",
-      "confidence": "high",
-      "extras": {
-        "session_title": "Project backup quality review"
-      },
-      "id": "cowork/local_9d4a6418-12d9-430e-ae47-b3c873055f6a/pushthepatchedbackupshnowcapturesall12sc",
-      "project_name": "Project Hub",
       "first_seen": "2026-06-22",
       "last_seen": "2026-06-22",
       "status": "open"
@@ -5120,6 +4002,104 @@
       "id": "cowork/local_da732da8-620f-4959-8080-da5366a5cbca/runaonetimegithistoryrewritegitfilterrep",
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-06-22",
+      "last_seen": "2026-06-23",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with Martin to confirm whether Jacopo has sent profiles to the client Taxfix",
+      "project": "rec-dash",
+      "source": "fireflies/01KVSVAF6SKMX2YABNEE4P2ZD8",
+      "source_type": "fireflies",
+      "date": "2026-06-23",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Ella 1:1"
+      },
+      "id": "fireflies/01KVSVAF6SKMX2YABNEE4P2ZD8/followupwithmartintoconfirmwhetherjacopo",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-23",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with Martin via WhatsApp regarding workforce planning, profile sharing, and email account access",
+      "project": "leadership",
+      "source": "fireflies/01KVSRSAVC2DP9H9E2CBEE1J8R",
+      "source_type": "fireflies",
+      "date": "2026-06-23",
+      "confidence": "high",
+      "extras": {
+        "meeting": "OKR Check-in - Stand-up: Delivery, People, BD"
+      },
+      "id": "fireflies/01KVSRSAVC2DP9H9E2CBEE1J8R/followupwithmartinviawhatsappregardingwo",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-23",
+      "status": "open"
+    },
+    {
+      "text": "Schedule a meeting on Monday to finalize BD OKRs once Martin is back",
+      "project": "okrs",
+      "source": "fireflies/01KVSRSAVC2DP9H9E2CBEE1J8R",
+      "source_type": "fireflies",
+      "date": "2026-06-23",
+      "confidence": "high",
+      "extras": {
+        "meeting": "OKR Check-in - Stand-up: Delivery, People, BD"
+      },
+      "id": "fireflies/01KVSRSAVC2DP9H9E2CBEE1J8R/scheduleameetingonmondaytofinalizebdokrs",
+      "project_name": "OKRs",
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-23",
+      "status": "open"
+    },
+    {
+      "text": "Track receipt of the Tribe SRO 05/2026 VAT refund (CZK 64,282) expected by July 25, 2026 per Eva Huclova (Boris Gnoth)",
+      "project": "legal",
+      "source": "gmail/19eefae439a1d4f4",
+      "source_type": "gmail",
+      "date": "2026-06-22",
+      "confidence": "medium",
+      "extras": {
+        "subject": "FW: Tribe - CZ podani",
+        "from": "ehuclova@borisgnoth.cz"
+      },
+      "id": "gmail/19eefae439a1d4f4",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-23",
+      "status": "open"
+    },
+    {
+      "text": "Investigate why Andrea Akovic isn't getting 'Your Roles Weekly' bot pings for any of her roles this week and fix it",
+      "project": "tribebot",
+      "source": "slack/D05AQFRMF08/1782210626.011159",
+      "source_type": "slack",
+      "date": "2026-06-23",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Andrea Akovic",
+        "from": "Andrea Akovic"
+      },
+      "id": "slack/D05AQFRMF08/1782210626.011159",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-23",
+      "status": "open"
+    },
+    {
+      "text": "Resolve the tribe-ashby-mcp Cloudflare Worker 401 from Ashby (global_fetch_strictly_public flag did not fix it; likely Cloudflare egress-IP block) - either confirm the compatibility flag deployed live or host the Ashby MCP connector off Cloudflare Workers on a normal IP",
+      "project": "rec-dash",
+      "source": "cowork/local_f05a2e25-1e43-4a54-913e-cd168fa4ce29",
+      "source_type": "cowork",
+      "date": "2026-06-23",
+      "confidence": "high",
+      "extras": {
+        "session": "Recruiting dashboard health check"
+      },
+      "id": "cowork/local_f05a2e25-1e43-4a54-913e-cd168fa4ce29/resolvethetribeashbymcpcloudflareworker4",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-23",
       "last_seen": "2026-06-23",
       "status": "open"
     }
