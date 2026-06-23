@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-22",
+  "generated_at": "2026-06-23",
   "schema_version": 2,
-  "total": 293,
+  "total": 308,
   "projects": [
     {
       "id": "fin-dash",
@@ -4880,6 +4880,247 @@
       "project_name": "OKRs",
       "first_seen": "2026-06-22",
       "last_seen": "2026-06-22",
+      "status": "open"
+    },
+    {
+      "text": "Divide intake tool testing among users and onboard them to ensure correct installation and usage of the extension",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KVQPQWPM71NJG3465ZW14PF7",
+      "source_type": "fireflies",
+      "date": "2026-06-22",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Intake Tool Full Onboarding and Task Force"
+      },
+      "id": "fireflies/01KVQPQWPM71NJG3465ZW14PF7/divideintaketooltestingamongusersandonbo",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-23",
+      "status": "open"
+    },
+    {
+      "text": "Connect with Rodrigo and other team members to align on next steps and tester assignments for the intake tool rollout",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KVQPQWPM71NJG3465ZW14PF7",
+      "source_type": "fireflies",
+      "date": "2026-06-22",
+      "confidence": "medium",
+      "extras": {
+        "meeting_title": "Intake Tool Full Onboarding and Task Force"
+      },
+      "id": "fireflies/01KVQPQWPM71NJG3465ZW14PF7/connectwithrodrigoandotherteammemberstoa",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-23",
+      "status": "open"
+    },
+    {
+      "text": "Set up and maintain an automated backup system for Claude chats using GitHub to prevent data loss",
+      "project": "tribebot",
+      "source": "fireflies/01KVQN0DB4WZ2K90K5DZYHEPX8",
+      "source_type": "fireflies",
+      "date": "2026-06-22",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Claude: Master Sessions"
+      },
+      "id": "fireflies/01KVQN0DB4WZ2K90K5DZYHEPX8/setupandmaintainanautomatedbackupsystemf",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-23",
+      "status": "open"
+    },
+    {
+      "text": "Respond to Alper's message regarding the team trip company",
+      "project": "inbox",
+      "source": "fireflies/01KVQN0DB4WZ2K90K5DZYHEPX8",
+      "source_type": "fireflies",
+      "date": "2026-06-22",
+      "confidence": "medium",
+      "extras": {
+        "meeting_title": "Claude: Master Sessions"
+      },
+      "id": "fireflies/01KVQN0DB4WZ2K90K5DZYHEPX8/respondtoalpersmessageregardingtheteamtr",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-23",
+      "status": "open"
+    },
+    {
+      "text": "Help reschedule Tuesday meetings around team travel and performance review training conflicts",
+      "project": "inbox",
+      "source": "fireflies/01KVQN0DB4WZ2K90K5DZYHEPX8",
+      "source_type": "fireflies",
+      "date": "2026-06-22",
+      "confidence": "medium",
+      "extras": {
+        "meeting_title": "Claude: Master Sessions"
+      },
+      "id": "fireflies/01KVQN0DB4WZ2K90K5DZYHEPX8/helprescheduletuesdaymeetingsaroundteamt",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-23",
+      "status": "open"
+    },
+    {
+      "text": "Engage more actively with LinkedIn posts by commenting and interacting per team encouragement",
+      "project": "linkedin",
+      "source": "fireflies/01KVQN0DB4WZ2K90K5DZYHEPX8",
+      "source_type": "fireflies",
+      "date": "2026-06-22",
+      "confidence": "medium",
+      "extras": {
+        "meeting_title": "Claude: Master Sessions"
+      },
+      "id": "fireflies/01KVQN0DB4WZ2K90K5DZYHEPX8/engagemoreactivelywithlinkedinpostsbycom",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-23",
+      "status": "open"
+    },
+    {
+      "text": "Monitor new client start details such as Edu and relay relevant information as contracts formalize",
+      "project": "people-ops",
+      "source": "fireflies/01KV8A87QAHFTSXYPCXYB2VNNY",
+      "source_type": "fireflies",
+      "date": "2026-06-16",
+      "confidence": "medium",
+      "extras": {
+        "meeting_title": "People Operations - Tribe Team"
+      },
+      "id": "fireflies/01KV8A87QAHFTSXYPCXYB2VNNY/monitornewclientstartdetailssuchaseduand",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-23",
+      "status": "open"
+    },
+    {
+      "text": "Add the Q3 OKRs draft to the AI workspace, refine wording based on group feedback, and invite comments before presenting to directors Monday",
+      "project": "okrs",
+      "source": "fireflies/01KV87EJV0D5FYCGFQJES2AKZQ",
+      "source_type": "fireflies",
+      "date": "2026-06-16",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "AI First",
+        "due": "Monday"
+      },
+      "id": "fireflies/01KV87EJV0D5FYCGFQJES2AKZQ/addtheq3okrsdrafttotheaiworkspacerefinew",
+      "project_name": "OKRs",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-23",
+      "status": "open"
+    },
+    {
+      "text": "Inform the OKR group about the postponement of the OKR meeting and communicate the new schedule (draft OKRs Monday during WBR, finalize Wednesday)",
+      "project": "okrs",
+      "source": "fireflies/01KV84TQHNSCXH72601Q97EJY7",
+      "source_type": "fireflies",
+      "date": "2026-06-16",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Operations"
+      },
+      "id": "fireflies/01KV84TQHNSCXH72601Q97EJY7/informtheokrgroupaboutthepostponementoft",
+      "project_name": "OKRs",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-23",
+      "status": "open"
+    },
+    {
+      "text": "Post the intake-tool task force channel intro message (with the BambooHR Client Division sheet link) to kick off TA onboarding and the Friday all-hands push announcement",
+      "project": "ai-recruiting",
+      "source": "cowork/local_973ba2c5-a394-449f-9653-8a773c7abc4a",
+      "source_type": "cowork",
+      "date": "2026-06-23",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Intake tool project update"
+      },
+      "id": "cowork/local_973ba2c5-a394-449f-9653-8a773c7abc4a/posttheintaketooltaskforcechannelintrome",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-23",
+      "status": "open"
+    },
+    {
+      "text": "Set up an automated message in the intake-tool task force channel for newly opened roles, so TAs catch them in real time and run those intake calls through the tool",
+      "project": "ai-recruiting",
+      "source": "cowork/local_973ba2c5-a394-449f-9653-8a773c7abc4a",
+      "source_type": "cowork",
+      "date": "2026-06-23",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Intake tool project update"
+      },
+      "id": "cowork/local_973ba2c5-a394-449f-9653-8a773c7abc4a/setupanautomatedmessageintheintaketoolta",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-23",
+      "status": "open"
+    },
+    {
+      "text": "Make the 3 Keboola UI changes to right-size the recruiting pipeline: retime the data pull to 4x/day (8:35/10:35/13:35/16:05 CET), add an Orchestration Trigger chaining it to the dashboard build, and remove the build's standalone timer; then have it verified live",
+      "project": "rec-dash",
+      "source": "cowork/local_95ab024b-3688-4926-b041-6988f351297e",
+      "source_type": "cowork",
+      "date": "2026-06-22",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Failed data refresh jobs"
+      },
+      "id": "cowork/local_95ab024b-3688-4926-b041-6988f351297e/makethe3keboolauichangestorightsizethere",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-23",
+      "status": "open"
+    },
+    {
+      "text": "After the Keboola renewal call, pin down the exact contracted credit ceiling and current price from the Drive spreadsheets and the Aug 2025 'Notes by Gemini' doc (the signed order doc number was not in hand)",
+      "project": "keboola-sunset",
+      "source": "cowork/local_f777c135-3077-48ed-aedb-67c752c94b0f",
+      "source_type": "cowork",
+      "date": "2026-06-22",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Keboola contract negotiation prep"
+      },
+      "id": "cowork/local_f777c135-3077-48ed-aedb-67c752c94b0f/afterthekeboolarenewalcallpindowntheexac",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-23",
+      "status": "open"
+    },
+    {
+      "text": "Review and send the drafted CoS weekly-log Slack message to Martin (one-liner plus the weekly log sheet link) for the week of Jun 15-21",
+      "project": "wbr-mbr",
+      "source": "cowork/local_9ce55996-3f1e-4515-8198-a5293708f8eb",
+      "source_type": "cowork",
+      "date": "2026-06-22",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Cos weekly log"
+      },
+      "id": "cowork/local_9ce55996-3f1e-4515-8198-a5293708f8eb/reviewandsendthedraftedcosweeklylogslack",
+      "project_name": "WBR / MBR",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-23",
+      "status": "open"
+    },
+    {
+      "text": "Run a one-time git history rewrite (git filter-repo or BFG) to purge the old 52MB plaintext data commits from the fin-dash repo, or move the gz snapshot upload straight to Cloudflare to fully decouple from git growth",
+      "project": "fin-dash",
+      "source": "cowork/local_da732da8-620f-4959-8080-da5366a5cbca",
+      "source_type": "cowork",
+      "date": "2026-06-22",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Project health tab review"
+      },
+      "id": "cowork/local_da732da8-620f-4959-8080-da5366a5cbca/runaonetimegithistoryrewritegitfilterrep",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-23",
       "status": "open"
     }
   ]
