@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-24",
   "schema_version": 2,
-  "total": 249,
+  "total": 258,
   "projects": [
     {
       "id": "fin-dash",
@@ -4152,6 +4152,153 @@
       "id": "cowork/local_f05a2e25-1e43-4a54-913e-cd168fa4ce29/beforebuildingthebubbleashbyircrosswalki",
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "status": "open"
+    },
+    {
+      "text": "Lead rollout and onboarding of the intake tool via the 5-person task force, with each member managing a user group and following up weekly on usage",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KVWBVMZZSX6HM0Q2WDFFQ1Y8",
+      "source_type": "fireflies",
+      "date": "2026-06-24",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Intake tool rollout (tvs-eigd-vqq)"
+      },
+      "id": "fireflies/01KVWBVMZZSX6HM0Q2WDFFQ1Y8/leadrolloutandonboardingoftheintaketoolv",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "status": "open"
+    },
+    {
+      "text": "Invite Simon to the 4pm intake tool meeting and support alternate scheduling if his travel conflicts",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KVWBVMZZSX6HM0Q2WDFFQ1Y8",
+      "source_type": "fireflies",
+      "date": "2026-06-24",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Intake tool rollout (tvs-eigd-vqq)"
+      },
+      "id": "fireflies/01KVWBVMZZSX6HM0Q2WDFFQ1Y8/invitesimontothe4pmintaketoolmeetingands",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "status": "open"
+    },
+    {
+      "text": "Check whether Jillian from Pliant responded to email follow-ups; coordinate with Martin to regain email access if needed",
+      "project": "inbox",
+      "source": "fireflies/01KVQ8YXDFE7AXYCC84MA3SMMH",
+      "source_type": "fireflies",
+      "date": "2026-06-22",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "WBR - Delivery Only"
+      },
+      "id": "fireflies/01KVQ8YXDFE7AXYCC84MA3SMMH/checkwhetherjillianfrompliantrespondedto",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-24",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with CEE Attorneys (Alexandra Kabrtova, or Martin Dohnal on his June 30 return) to obtain the response letter to Join Talent re: the competitor comparison page takedown",
+      "project": "legal",
+      "source": "gmail/19eeee24a04b3694",
+      "source_type": "gmail",
+      "date": "2026-06-22",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Out of office Re: Competitor Legal Warning",
+        "from": "martin.dohnal@ceeatt.com"
+      },
+      "id": "gmail/19eeee24a04b3694",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-24",
+      "status": "open"
+    },
+    {
+      "text": "Grant Sanja Pavlovikj access to the requested Drive file 'AI Live Training Sessions - 2026/05/27 - Recording'",
+      "project": "inbox",
+      "source": "gmail/19ef3aa8d0e0c83f",
+      "source_type": "gmail",
+      "date": "2026-06-23",
+      "confidence": "low",
+      "extras": {
+        "subject": "Share request for \"AI Live Training Sessions - 2026/05/27 12:59 GMT+04:00 - Recording\"",
+        "from": "drive-shares-dm-noreply@google.com"
+      },
+      "id": "gmail/19ef3aa8d0e0c83f",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-24",
+      "status": "open"
+    },
+    {
+      "text": "Run the intake-tool onboarding for all TAs - host the group onboarding call Thursday 4pm CET (15 min each, schedule solo sessions for anyone who can't make it) with the goal of having everyone onboarded by next Friday",
+      "project": "intake-tool",
+      "source": "slack/C0BCFHMDEF7/1782221244.745249",
+      "source_type": "slack",
+      "date": "2026-06-23",
+      "confidence": "high",
+      "extras": {
+        "channel": "Group DM (intake tool onboarding)",
+        "from": "Blake Barkley"
+      },
+      "id": "slack/C0BCFHMDEF7/1782221244.745249",
+      "project_name": "intake-tool",
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-24",
+      "status": "open"
+    },
+    {
+      "text": "Decide whether to push the patched backup.sh (now captures all 12 scheduled-task prompts into the repo) plus the 6 new project memory files + updated index into the bark8922/claude-backups repo and live memory folder, or drop them in manually",
+      "project": "claude-backups",
+      "source": "cowork/local_9d4a6418-12d9-430e-ae47-b3c873055f6a",
+      "source_type": "cowork",
+      "date": "2026-06-23",
+      "confidence": "high",
+      "extras": {
+        "session": "Project backup quality review"
+      },
+      "id": "cowork/local_9d4a6418-12d9-430e-ae47-b3c873055f6a/decidewhethertopushthepatchedbackupshnow",
+      "project_name": "claude-backups",
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-24",
+      "status": "open"
+    },
+    {
+      "text": "Send the drafted Roles Roundup pilot check-in message (currently written but unsent)",
+      "project": "roles-roundup",
+      "source": "cowork/local_85ee5042-fa3a-40b3-85fc-a0eb24c81fd7",
+      "source_type": "cowork",
+      "date": "2026-06-23",
+      "confidence": "medium",
+      "extras": {
+        "session": "Roles weekly update status"
+      },
+      "id": "cowork/local_85ee5042-fa3a-40b3-85fc-a0eb24c81fd7/sendthedraftedrolesrounduppilotcheckinme",
+      "project_name": "roles-roundup",
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-24",
+      "status": "open"
+    },
+    {
+      "text": "Tighten RLS on the Roles Roundup Supabase tables (several currently have RLS disabled) before wider TA rollout",
+      "project": "roles-roundup",
+      "source": "cowork/local_85ee5042-fa3a-40b3-85fc-a0eb24c81fd7",
+      "source_type": "cowork",
+      "date": "2026-06-23",
+      "confidence": "medium",
+      "extras": {
+        "session": "Roles weekly update status"
+      },
+      "id": "cowork/local_85ee5042-fa3a-40b3-85fc-a0eb24c81fd7/tightenrlsontherolesroundupsupabasetable",
+      "project_name": "roles-roundup",
+      "first_seen": "2026-06-23",
       "last_seen": "2026-06-24",
       "status": "open"
     }
