@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-23",
+  "generated_at": "2026-06-24",
   "schema_version": 2,
-  "total": 246,
+  "total": 249,
   "projects": [
     {
       "id": "fin-dash",
@@ -3619,22 +3619,6 @@
       "status": "open"
     },
     {
-      "text": "Check and confirm whether Jillian from Pliant has responded to email follow-ups; coordinate with Martin to regain email access if needed",
-      "project": "sales-hubspot",
-      "source": "fireflies/01KVQ8YXDFE7AXYCC84MA3SMMH",
-      "source_type": "fireflies",
-      "date": "2026-06-22",
-      "confidence": "high",
-      "extras": {
-        "meeting": "WBR - Delivery Only"
-      },
-      "id": "fireflies/01KVQ8YXDFE7AXYCC84MA3SMMH/checkandconfirmwhetherjillianfromplianth",
-      "project_name": "Sales dashboard + HubSpot",
-      "first_seen": "2026-06-22",
-      "last_seen": "2026-06-22",
-      "status": "open"
-    },
-    {
       "text": "Provide updates on the token changes impacting the recent refresh push from earlier in the morning",
       "project": "rec-dash",
       "source": "fireflies/01KVQ8YXDFE7AXYCC84MA3SMMH",
@@ -3765,22 +3749,6 @@
       "status": "open"
     },
     {
-      "text": "Divide intake tool testing among users and onboard them to ensure correct installation and usage of the extension",
-      "project": "ai-recruiting",
-      "source": "fireflies/01KVQPQWPM71NJG3465ZW14PF7",
-      "source_type": "fireflies",
-      "date": "2026-06-22",
-      "confidence": "high",
-      "extras": {
-        "meeting_title": "Intake Tool Full Onboarding and Task Force"
-      },
-      "id": "fireflies/01KVQPQWPM71NJG3465ZW14PF7/divideintaketooltestingamongusersandonbo",
-      "project_name": "Roundup & Intake (AI recruiting tools)",
-      "first_seen": "2026-06-22",
-      "last_seen": "2026-06-23",
-      "status": "open"
-    },
-    {
       "text": "Connect with Rodrigo and other team members to align on next steps and tester assignments for the intake tool rollout",
       "project": "ai-recruiting",
       "source": "fireflies/01KVQPQWPM71NJG3465ZW14PF7",
@@ -3792,22 +3760,6 @@
       },
       "id": "fireflies/01KVQPQWPM71NJG3465ZW14PF7/connectwithrodrigoandotherteammemberstoa",
       "project_name": "Roundup & Intake (AI recruiting tools)",
-      "first_seen": "2026-06-22",
-      "last_seen": "2026-06-23",
-      "status": "open"
-    },
-    {
-      "text": "Set up and maintain an automated backup system for Claude chats using GitHub to prevent data loss",
-      "project": "tribebot",
-      "source": "fireflies/01KVQN0DB4WZ2K90K5DZYHEPX8",
-      "source_type": "fireflies",
-      "date": "2026-06-22",
-      "confidence": "high",
-      "extras": {
-        "meeting_title": "Claude: Master Sessions"
-      },
-      "id": "fireflies/01KVQN0DB4WZ2K90K5DZYHEPX8/setupandmaintainanautomatedbackupsystemf",
-      "project_name": "Tribebot",
       "first_seen": "2026-06-22",
       "last_seen": "2026-06-23",
       "status": "open"
@@ -3942,22 +3894,6 @@
       "status": "open"
     },
     {
-      "text": "Make the 3 Keboola UI changes to right-size the recruiting pipeline: retime the data pull to 4x/day (8:35/10:35/13:35/16:05 CET), add an Orchestration Trigger chaining it to the dashboard build, and remove the build's standalone timer; then have it verified live",
-      "project": "rec-dash",
-      "source": "cowork/local_95ab024b-3688-4926-b041-6988f351297e",
-      "source_type": "cowork",
-      "date": "2026-06-22",
-      "confidence": "high",
-      "extras": {
-        "session_title": "Failed data refresh jobs"
-      },
-      "id": "cowork/local_95ab024b-3688-4926-b041-6988f351297e/makethe3keboolauichangestorightsizethere",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-06-22",
-      "last_seen": "2026-06-23",
-      "status": "open"
-    },
-    {
       "text": "After the Keboola renewal call, pin down the exact contracted credit ceiling and current price from the Drive spreadsheets and the Aug 2025 'Notes by Gemini' doc (the signed order doc number was not in hand)",
       "project": "keboola-sunset",
       "source": "cowork/local_f777c135-3077-48ed-aedb-67c752c94b0f",
@@ -3969,22 +3905,6 @@
       },
       "id": "cowork/local_f777c135-3077-48ed-aedb-67c752c94b0f/afterthekeboolarenewalcallpindowntheexac",
       "project_name": "Keboola migration / sunset",
-      "first_seen": "2026-06-22",
-      "last_seen": "2026-06-23",
-      "status": "open"
-    },
-    {
-      "text": "Review and send the drafted CoS weekly-log Slack message to Martin (one-liner plus the weekly log sheet link) for the week of Jun 15-21",
-      "project": "wbr-mbr",
-      "source": "cowork/local_9ce55996-3f1e-4515-8198-a5293708f8eb",
-      "source_type": "cowork",
-      "date": "2026-06-22",
-      "confidence": "high",
-      "extras": {
-        "session_title": "Cos weekly log"
-      },
-      "id": "cowork/local_9ce55996-3f1e-4515-8198-a5293708f8eb/reviewandsendthedraftedcosweeklylogslack",
-      "project_name": "WBR / MBR",
       "first_seen": "2026-06-22",
       "last_seen": "2026-06-23",
       "status": "open"
@@ -4017,22 +3937,6 @@
       },
       "id": "fireflies/01KVSVAF6SKMX2YABNEE4P2ZD8/followupwithmartintoconfirmwhetherjacopo",
       "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-06-23",
-      "last_seen": "2026-06-23",
-      "status": "open"
-    },
-    {
-      "text": "Follow up with Martin via WhatsApp regarding workforce planning, profile sharing, and email account access",
-      "project": "leadership",
-      "source": "fireflies/01KVSRSAVC2DP9H9E2CBEE1J8R",
-      "source_type": "fireflies",
-      "date": "2026-06-23",
-      "confidence": "high",
-      "extras": {
-        "meeting": "OKR Check-in - Stand-up: Delivery, People, BD"
-      },
-      "id": "fireflies/01KVSRSAVC2DP9H9E2CBEE1J8R/followupwithmartinviawhatsappregardingwo",
-      "project_name": "Leadership comms",
       "first_seen": "2026-06-23",
       "last_seen": "2026-06-23",
       "status": "open"
@@ -4088,19 +3992,167 @@
       "status": "open"
     },
     {
-      "text": "Resolve the tribe-ashby-mcp Cloudflare Worker 401 from Ashby (global_fetch_strictly_public flag did not fix it; likely Cloudflare egress-IP block) - either confirm the compatibility flag deployed live or host the Ashby MCP connector off Cloudflare Workers on a normal IP",
-      "project": "rec-dash",
-      "source": "cowork/local_f05a2e25-1e43-4a54-913e-cd168fa4ce29",
-      "source_type": "cowork",
+      "text": "Schedule a follow-up meeting with Keboola in about one month to discuss contract renewal after internal review",
+      "project": "keboola-sunset",
+      "source": "fireflies/01KVQ28ZAGVBRBMVP7PAA0M9NR",
+      "source_type": "fireflies",
+      "date": "2026-06-22",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Keboola / Tribe.xyz"
+      },
+      "id": "fireflies/01KVQ28ZAGVBRBMVP7PAA0M9NR/scheduleafollowupmeetingwithkeboolainabo",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-24",
+      "status": "open"
+    },
+    {
+      "text": "Pay the invoice Martin sent (Kaya2614.pdf) - Martin asked 'Can you please pay this invoice?'",
+      "project": "expense-ops",
+      "source": "slack/D055NJ27YRY/1782277364.191009",
+      "source_type": "slack",
+      "date": "2026-06-24",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM-Martin-Bernard",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/D055NJ27YRY/1782277364.191009",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "status": "open"
+    },
+    {
+      "text": "Grab 5 mins with Simon Siew re: Intake being added to the tool (he asked to sync when Blake has time)",
+      "project": "tribebot",
+      "source": "slack/D07M79K14G0/1782241362.159229",
+      "source_type": "slack",
+      "date": "2026-06-23",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM-Simon-Siew",
+        "from": "Simon Siew"
+      },
+      "id": "slack/D07M79K14G0/1782241362.159229",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-24",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with Jonaed Iqbal to confirm when his final payment clears (he asked 'Please let me know when the payment clears!' after Blake sent it via the Czech EUR account)",
+      "project": "expense-ops",
+      "source": "slack/C0BBRRSH8JW/1782219849.805329",
+      "source_type": "slack",
       "date": "2026-06-23",
       "confidence": "high",
       "extras": {
-        "session": "Recruiting dashboard health check"
+        "channel": "GroupDM-Andrea-Jonaed",
+        "from": "Jonaed Iqbal"
       },
-      "id": "cowork/local_f05a2e25-1e43-4a54-913e-cd168fa4ce29/resolvethetribeashbymcpcloudflareworker4",
-      "project_name": "Tribe Recruiting Dashboard",
+      "id": "slack/C0BBRRSH8JW/1782219849.805329",
+      "project_name": "Expense Ops",
       "first_seen": "2026-06-23",
-      "last_seen": "2026-06-23",
+      "last_seen": "2026-06-24",
+      "status": "open"
+    },
+    {
+      "text": "Approve Marina Nikolic's perk request when back from OOO (she pinged in case she needs Blake's approval; said disregard if not mandatory)",
+      "project": "people-ops",
+      "source": "slack/D06SVD5RN8G/1781784873.035289",
+      "source_type": "slack",
+      "date": "2026-06-18",
+      "confidence": "low",
+      "extras": {
+        "channel": "DM-Marina-Nikolic",
+        "from": "Marina Nikolic"
+      },
+      "id": "slack/D06SVD5RN8G/1781784873.035289",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-24",
+      "status": "open"
+    },
+    {
+      "text": "Post the AI First channel agenda message (confirm OKRs, confirm intake-tool next steps/onboarding by next Friday, brainstorm KB) and seed the first 2-3 zero-build Tribe Bot KB sources: past-hire salaries, Nenad's sourcing spreadsheets, and Andrea's compiled TribeBot data doc",
+      "project": "tribebot",
+      "source": "cowork/local_f7989052-4c4d-4be3-b233-0b672dfe9768",
+      "source_type": "cowork",
+      "date": "2026-06-24",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Tomorrow's meeting prep"
+      },
+      "id": "cowork/local_f7989052-4c4d-4be3-b233-0b672dfe9768/posttheaifirstchannelagendamessageconfir",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "status": "open"
+    },
+    {
+      "text": "Wire intake-tool Google Docs (native Drive connector) and the roles-roundup Slack channel (native Slack connector) into Onyx/Tribe Bot; decide whether to also build the direct Supabase path for full roundup data. Needs Onyx admin access to verify connector setup",
+      "project": "tribebot",
+      "source": "cowork/local_140f910c-5499-4b29-80c9-3fcd26ba883f",
+      "source_type": "cowork",
+      "date": "2026-06-24",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Intake tool and roundup data integration"
+      },
+      "id": "cowork/local_140f910c-5499-4b29-80c9-3fcd26ba883f/wireintaketoolgoogledocsnativedriveconne",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "status": "open"
+    },
+    {
+      "text": "Enable Kai chat on the Time-to-Hire Keboola data app: create a dedicated kai-app@tribe.xyz service admin user, add its master token as STORAGE_API_TOKEN secret, and redeploy (code/kai-client already shipped)",
+      "project": "rec-dash",
+      "source": "cowork/local_8a400721-0f17-4e66-bd3f-75723fc6671f",
+      "source_type": "cowork",
+      "date": "2026-06-24",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Keboola Kai AI features"
+      },
+      "id": "cowork/local_8a400721-0f17-4e66-bd3f-75723fc6671f/enablekaichatonthetimetohirekebooladataa",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "status": "open"
+    },
+    {
+      "text": "Rotate the Ashby API key in Ashby (it was pasted into chat during the dashboard health-check session)",
+      "project": "rec-dash",
+      "source": "cowork/local_f05a2e25-1e43-4a54-913e-cd168fa4ce29",
+      "source_type": "cowork",
+      "date": "2026-06-24",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Recruiting dashboard health check"
+      },
+      "id": "cowork/local_f05a2e25-1e43-4a54-913e-cd168fa4ce29/rotatetheashbyapikeyinashbyitwaspastedin",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "status": "open"
+    },
+    {
+      "text": "Before building the Bubble<->Ashby IR crosswalk, investigate whether Bubble job records already carry an Ashby reference/shared key to join on (could make the crosswalk trivial or unnecessary); then pick the matching approach and finish the IR-tab per-job Ashby attribution (also fix the misleading 'live from Ashby' badge and the stale Ashby sync tokens)",
+      "project": "rec-dash",
+      "source": "cowork/local_f05a2e25-1e43-4a54-913e-cd168fa4ce29",
+      "source_type": "cowork",
+      "date": "2026-06-24",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Recruiting dashboard health check"
+      },
+      "id": "cowork/local_f05a2e25-1e43-4a54-913e-cd168fa4ce29/beforebuildingthebubbleashbyircrosswalki",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
       "status": "open"
     }
   ]
