@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-25",
   "schema_version": 2,
-  "total": 266,
+  "total": 273,
   "projects": [
     {
       "id": "fin-dash",
@@ -4429,6 +4429,121 @@
       "id": "cowork/local_95ab024b-3688-4926-b041-6988f351297e/reauthorizethedeauthorizedashbymcpconnec",
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-06-24",
+      "last_seen": "2026-06-25",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with Andrea on the Deel invoice ($471.45, due Jun 30) - Blake forwarded it asking her to investigate since Tribe was supposed to have stopped using Deel; confirm it's cancelled/not owed",
+      "project": "expense-ops",
+      "source": "gmail/19efe21e59227125",
+      "source_type": "gmail",
+      "date": "2026-06-25",
+      "confidence": 0.78,
+      "extras": {
+        "subject": "Invoice Summary",
+        "from": "no-reply@deel.support"
+      },
+      "id": "gmail/19efe21e59227125",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "status": "open"
+    },
+    {
+      "text": "Confirm the buy-out fee amount in the 'July Invoices 07.26' sheet - Kristjana flagged a discrepancy (11,000 vs 9,350, 'waiting to confirm')",
+      "project": "expense-ops",
+      "source": "gmail/19efda315434667d",
+      "source_type": "gmail",
+      "date": "2026-06-25",
+      "confidence": 0.7,
+      "extras": {
+        "subject": "July Invoices 07.26",
+        "from": "comments-noreply@docs.google.com"
+      },
+      "id": "gmail/19efda315434667d",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "status": "open"
+    },
+    {
+      "text": "Review the Google security alert for team@tribe.xyz (new Windows sign-in) - Blake is the recovery email; verify the login is legitimate and remove access if not recognized",
+      "project": "inbox",
+      "source": "gmail/19ef41115bdee2aa",
+      "source_type": "gmail",
+      "date": "2026-06-23",
+      "confidence": 0.6,
+      "extras": {
+        "subject": "Security alert for team@tribe.xyz",
+        "from": "no-reply@accounts.google.com"
+      },
+      "id": "gmail/19ef41115bdee2aa",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-25",
+      "status": "open"
+    },
+    {
+      "text": "Build the S1+S3+S7 bulletproofing bundle for the LinkedIn Competitor Analyzer extension: evidence-quote check (auto-demote classifications whose quote isn't in the scraped profile), per-profile error isolation (route unparseable profiles to review queue instead of crashing the run), and cross-profile consensus validation",
+      "project": "linkedin",
+      "source": "cowork/local_957aa1c3-5664-4a17-a57f-dc0871a2b465",
+      "source_type": "cowork",
+      "date": "2026-06-25",
+      "confidence": 0.78,
+      "extras": {
+        "session": "Competitor Analyzer extension troubleshooting"
+      },
+      "id": "cowork/local_957aa1c3-5664-4a17-a57f-dc0871a2b465/buildthes1s3s7bulletproofingbundleforthe",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "status": "open"
+    },
+    {
+      "text": "Send the list of countries (and rough headcount per country) where Tribe contractors are based so a country-by-country gross-up reference can be built for the team-trip tax-deductibility play; also confirm with Martin/accountants that the gross-up payment is treated as deductible comp",
+      "project": "fin-dash",
+      "source": "cowork/local_24ff97ee-0443-4b67-b03f-5d2b1df0994f",
+      "source_type": "cowork",
+      "date": "2026-06-25",
+      "confidence": 0.72,
+      "extras": {
+        "session": "Team trip tax deductibility"
+      },
+      "id": "cowork/local_24ff97ee-0443-4b67-b03f-5d2b1df0994f/sendthelistofcountriesandroughheadcountp",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "status": "open"
+    },
+    {
+      "text": "Reply to Iryna on the 'missing' David Vache hire: the hire is in the data (AVIV, hired 24 Jun, week 26) but the job was archived same-day, so confirm which tab/view she's on and have her hard-refresh; her unnamed second hire from today won't show until the next build (~13:50 CET)",
+      "project": "rec-dash",
+      "source": "cowork/local_bb1874eb-01ad-4323-aa9d-e1b94e4bc3da",
+      "source_type": "cowork",
+      "date": "2026-06-25",
+      "confidence": 0.7,
+      "extras": {
+        "session": "Dashboard hire data issue"
+      },
+      "id": "cowork/local_bb1874eb-01ad-4323-aa9d-e1b94e4bc3da/replytoirynaonthemissingdavidvachehireth",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "status": "open"
+    },
+    {
+      "text": "Build the searchable/filterable role + candidate database layer on top of the existing dashboards + ATS data (filter by country/role/recruiter + semantic search) - the technical unlock for the Tribe Bot knowledge base, committed in the 24 Jun AI First meeting",
+      "project": "ai-first-working-group",
+      "source": "cowork/local_f7989052-4c4d-4be3-b233-0b672dfe9768",
+      "source_type": "cowork",
+      "date": "2026-06-25",
+      "confidence": 0.72,
+      "extras": {
+        "session": "Tomorrow's meeting prep / AI First KB recap"
+      },
+      "id": "cowork/local_f7989052-4c4d-4be3-b233-0b672dfe9768/buildthesearchablefilterablerolecandidat",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-06-25",
       "last_seen": "2026-06-25",
       "status": "open"
     }
