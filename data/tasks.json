@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-24",
+  "generated_at": "2026-06-25",
   "schema_version": 2,
-  "total": 258,
+  "total": 266,
   "projects": [
     {
       "id": "fin-dash",
@@ -4300,6 +4300,136 @@
       "project_name": "roles-roundup",
       "first_seen": "2026-06-23",
       "last_seen": "2026-06-24",
+      "status": "open"
+    },
+    {
+      "text": "Share the Q3 OKRs draft with the AI First team and continue refining it based on feedback received",
+      "project": "okrs",
+      "source": "fireflies/01KVWVEN70X5KJA59Y496XGGKQ",
+      "source_type": "fireflies",
+      "date": "2026-06-24",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KVWVEN70X5KJA59Y496XGGKQ/sharetheq3okrsdraftwiththeaifirstteamand",
+      "project_name": "OKRs",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-25",
+      "status": "open"
+    },
+    {
+      "text": "Follow up in the team channel to coordinate next steps and brainstorming on the Tribe Bot knowledge base initiatives",
+      "project": "tribebot",
+      "source": "fireflies/01KVWVEN70X5KJA59Y496XGGKQ",
+      "source_type": "fireflies",
+      "date": "2026-06-24",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KVWVEN70X5KJA59Y496XGGKQ/followupintheteamchanneltocoordinatenext",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-25",
+      "status": "open"
+    },
+    {
+      "text": "Explore building a filtered and searchable candidate and role database leveraging existing dashboards and ATS data for integration with Tribe Bot",
+      "project": "tribebot",
+      "source": "fireflies/01KVWVEN70X5KJA59Y496XGGKQ",
+      "source_type": "fireflies",
+      "date": "2026-06-24",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KVWVEN70X5KJA59Y496XGGKQ/explorebuildingafilteredandsearchablecan",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-25",
+      "status": "open"
+    },
+    {
+      "text": "Send Boris Gnoth your instructions on filing Tribe Holding's FY2025 financial statements with the commercial court (publish balance sheet only vs. balance sheet + P&L, or accept the ~CZK 10k fine)",
+      "project": "legal",
+      "source": "gmail/19ef9e9f2fdcc4a6",
+      "source_type": "gmail",
+      "date": "2026-06-24",
+      "confidence": "high",
+      "extras": {
+        "subject": "Tribe - call tomorrow + filing of financial statements with commercial court",
+        "from": "boris@borisgnoth.cz"
+      },
+      "id": "gmail/19ef9e9f2fdcc4a6",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-25",
+      "status": "open"
+    },
+    {
+      "text": "Check why Iryna Dyda's added hire (David Vache / Senior Backend Engineer - France) is not showing on the recruiting dashboard report; a 2nd hire is being added today and should also appear",
+      "project": "rec-dash",
+      "source": "slack/D06KVGY05FC/1782368681.348329",
+      "source_type": "slack",
+      "date": "2026-06-25",
+      "confidence": "high",
+      "extras": {
+        "channel": "D06KVGY05FC (DM)",
+        "from": "Iryna Dyda"
+      },
+      "id": "slack/D06KVGY05FC/1782368681.348329",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "status": "open"
+    },
+    {
+      "text": "Tick the transcriber_notes data type (and consider call_record) in Bubble's API settings, deploy to live, and confirm privacy is publicly visible - it must be exposed before the Keboola extractor can pull the AI call summaries for the Tribe Bot knowledge base",
+      "project": "tribebot",
+      "source": "cowork/local_03e26807-e7e8-4211-b9dd-f6fe932610fb",
+      "source_type": "cowork",
+      "date": "2026-06-24",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Tribot knowledge base data strategy"
+      },
+      "id": "cowork/local_03e26807-e7e8-4211-b9dd-f6fe932610fb/tickthetranscriber_notesdatatypeandconsi",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-25",
+      "status": "open"
+    },
+    {
+      "text": "Re-check the recruiting dashboard 'last updated' header once the Cloudflare deploy settles; if the Last-Modified header is absent, bake a build-time timestamp into the data feed as a follow-up fix",
+      "project": "rec-dash",
+      "source": "cowork/local_44c6835c-339f-4abb-a347-a40a7a11a741",
+      "source_type": "cowork",
+      "date": "2026-06-24",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Recruiting dashboard data timestamps"
+      },
+      "id": "cowork/local_44c6835c-339f-4abb-a347-a40a7a11a741/rechecktherecruitingdashboardlastupdated",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-25",
+      "status": "open"
+    },
+    {
+      "text": "Re-authorize the deauthorized Ashby MCP connector key (returning 401) so live Ashby lookups and Ashby tools work again - separate from the working pipeline key",
+      "project": "rec-dash",
+      "source": "cowork/local_95ab024b-3688-4926-b041-6988f351297e",
+      "source_type": "cowork",
+      "date": "2026-06-24",
+      "confidence": "low",
+      "extras": {
+        "session_title": "Failed data refresh jobs"
+      },
+      "id": "cowork/local_95ab024b-3688-4926-b041-6988f351297e/reauthorizethedeauthorizedashbymcpconnec",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-25",
       "status": "open"
     }
   ]
