@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-25",
+  "generated_at": "2026-06-26",
   "schema_version": 2,
-  "total": 273,
+  "total": 276,
   "projects": [
     {
       "id": "fin-dash",
@@ -3862,22 +3862,6 @@
       "status": "open"
     },
     {
-      "text": "Post the intake-tool task force channel intro message (with the BambooHR Client Division sheet link) to kick off TA onboarding and the Friday all-hands push announcement",
-      "project": "ai-recruiting",
-      "source": "cowork/local_973ba2c5-a394-449f-9653-8a773c7abc4a",
-      "source_type": "cowork",
-      "date": "2026-06-23",
-      "confidence": "high",
-      "extras": {
-        "session_title": "Intake tool project update"
-      },
-      "id": "cowork/local_973ba2c5-a394-449f-9653-8a773c7abc4a/posttheintaketooltaskforcechannelintrome",
-      "project_name": "Roundup & Intake (AI recruiting tools)",
-      "first_seen": "2026-06-23",
-      "last_seen": "2026-06-23",
-      "status": "open"
-    },
-    {
       "text": "Set up an automated message in the intake-tool task force channel for newly opened roles, so TAs catch them in real time and run those intake calls through the tool",
       "project": "ai-recruiting",
       "source": "cowork/local_973ba2c5-a394-449f-9653-8a773c7abc4a",
@@ -3937,22 +3921,6 @@
       },
       "id": "fireflies/01KVSVAF6SKMX2YABNEE4P2ZD8/followupwithmartintoconfirmwhetherjacopo",
       "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-06-23",
-      "last_seen": "2026-06-23",
-      "status": "open"
-    },
-    {
-      "text": "Schedule a meeting on Monday to finalize BD OKRs once Martin is back",
-      "project": "okrs",
-      "source": "fireflies/01KVSRSAVC2DP9H9E2CBEE1J8R",
-      "source_type": "fireflies",
-      "date": "2026-06-23",
-      "confidence": "high",
-      "extras": {
-        "meeting": "OKR Check-in - Stand-up: Delivery, People, BD"
-      },
-      "id": "fireflies/01KVSRSAVC2DP9H9E2CBEE1J8R/scheduleameetingonmondaytofinalizebdokrs",
-      "project_name": "OKRs",
       "first_seen": "2026-06-23",
       "last_seen": "2026-06-23",
       "status": "open"
@@ -4042,23 +4010,6 @@
       "status": "open"
     },
     {
-      "text": "Follow up with Jonaed Iqbal to confirm when his final payment clears (he asked 'Please let me know when the payment clears!' after Blake sent it via the Czech EUR account)",
-      "project": "expense-ops",
-      "source": "slack/C0BBRRSH8JW/1782219849.805329",
-      "source_type": "slack",
-      "date": "2026-06-23",
-      "confidence": "high",
-      "extras": {
-        "channel": "GroupDM-Andrea-Jonaed",
-        "from": "Jonaed Iqbal"
-      },
-      "id": "slack/C0BBRRSH8JW/1782219849.805329",
-      "project_name": "Expense Ops",
-      "first_seen": "2026-06-23",
-      "last_seen": "2026-06-24",
-      "status": "open"
-    },
-    {
       "text": "Approve Marina Nikolic's perk request when back from OOO (she pinged in case she needs Blake's approval; said disregard if not mandatory)",
       "project": "people-ops",
       "source": "slack/D06SVD5RN8G/1781784873.035289",
@@ -4118,22 +4069,6 @@
         "session_title": "Keboola Kai AI features"
       },
       "id": "cowork/local_8a400721-0f17-4e66-bd3f-75723fc6671f/enablekaichatonthetimetohirekebooladataa",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-06-24",
-      "last_seen": "2026-06-24",
-      "status": "open"
-    },
-    {
-      "text": "Rotate the Ashby API key in Ashby (it was pasted into chat during the dashboard health-check session)",
-      "project": "rec-dash",
-      "source": "cowork/local_f05a2e25-1e43-4a54-913e-cd168fa4ce29",
-      "source_type": "cowork",
-      "date": "2026-06-24",
-      "confidence": "high",
-      "extras": {
-        "session_title": "Recruiting dashboard health check"
-      },
-      "id": "cowork/local_f05a2e25-1e43-4a54-913e-cd168fa4ce29/rotatetheashbyapikeyinashbyitwaspastedin",
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-06-24",
       "last_seen": "2026-06-24",
@@ -4303,22 +4238,6 @@
       "status": "open"
     },
     {
-      "text": "Share the Q3 OKRs draft with the AI First team and continue refining it based on feedback received",
-      "project": "okrs",
-      "source": "fireflies/01KVWVEN70X5KJA59Y496XGGKQ",
-      "source_type": "fireflies",
-      "date": "2026-06-24",
-      "confidence": "high",
-      "extras": {
-        "meeting": "AI First"
-      },
-      "id": "fireflies/01KVWVEN70X5KJA59Y496XGGKQ/sharetheq3okrsdraftwiththeaifirstteamand",
-      "project_name": "OKRs",
-      "first_seen": "2026-06-24",
-      "last_seen": "2026-06-25",
-      "status": "open"
-    },
-    {
       "text": "Follow up in the team channel to coordinate next steps and brainstorming on the Tribe Bot knowledge base initiatives",
       "project": "tribebot",
       "source": "fireflies/01KVWVEN70X5KJA59Y496XGGKQ",
@@ -4347,40 +4266,6 @@
       "id": "fireflies/01KVWVEN70X5KJA59Y496XGGKQ/explorebuildingafilteredandsearchablecan",
       "project_name": "Tribebot",
       "first_seen": "2026-06-24",
-      "last_seen": "2026-06-25",
-      "status": "open"
-    },
-    {
-      "text": "Send Boris Gnoth your instructions on filing Tribe Holding's FY2025 financial statements with the commercial court (publish balance sheet only vs. balance sheet + P&L, or accept the ~CZK 10k fine)",
-      "project": "legal",
-      "source": "gmail/19ef9e9f2fdcc4a6",
-      "source_type": "gmail",
-      "date": "2026-06-24",
-      "confidence": "high",
-      "extras": {
-        "subject": "Tribe - call tomorrow + filing of financial statements with commercial court",
-        "from": "boris@borisgnoth.cz"
-      },
-      "id": "gmail/19ef9e9f2fdcc4a6",
-      "project_name": "Legal & Contracts",
-      "first_seen": "2026-06-24",
-      "last_seen": "2026-06-25",
-      "status": "open"
-    },
-    {
-      "text": "Check why Iryna Dyda's added hire (David Vache / Senior Backend Engineer - France) is not showing on the recruiting dashboard report; a 2nd hire is being added today and should also appear",
-      "project": "rec-dash",
-      "source": "slack/D06KVGY05FC/1782368681.348329",
-      "source_type": "slack",
-      "date": "2026-06-25",
-      "confidence": "high",
-      "extras": {
-        "channel": "D06KVGY05FC (DM)",
-        "from": "Iryna Dyda"
-      },
-      "id": "slack/D06KVGY05FC/1782368681.348329",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-06-25",
       "last_seen": "2026-06-25",
       "status": "open"
     },
@@ -4545,6 +4430,168 @@
       "project_name": "AI First Working Group",
       "first_seen": "2026-06-25",
       "last_seen": "2026-06-25",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with Martin via WhatsApp on workforce planning, profile sharing, and regaining access to the email account",
+      "project": "leadership",
+      "source": "fireflies/01KVSRSAVC2DP9H9E2CBEE1J8R",
+      "source_type": "fireflies",
+      "date": "2026-06-23",
+      "confidence": "high",
+      "extras": {
+        "meeting": "OKR Check-in - Stand-up: Delivery, People, BD"
+      },
+      "id": "fireflies/01KVSRSAVC2DP9H9E2CBEE1J8R/followupwithmartinviawhatsapponworkforce",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-26",
+      "status": "open"
+    },
+    {
+      "text": "Investigate the intake extension's notification and functionality issues on the Google Meet app to find the root cause, and test the extension in a browser vs. the app to isolate the compatibility problem",
+      "project": "tribebot",
+      "source": "fireflies/01KVZDCTFYY4PDH77HFP1H0ATY",
+      "source_type": "fireflies",
+      "date": "2026-06-25",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "gco-afkq-obj"
+      },
+      "id": "fireflies/01KVZDCTFYY4PDH77HFP1H0ATY/investigatetheintakeextensionsnotificati",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-26",
+      "status": "open"
+    },
+    {
+      "text": "Arrange Martin's signature on the Czech versions of the Tribe.xyz Holding documents Boris Gnoth sent (sign in hand, no apostille needed)",
+      "project": "legal",
+      "source": "gmail/19effc006c8ece24",
+      "source_type": "gmail",
+      "date": "2026-06-25",
+      "confidence": "high",
+      "extras": {
+        "subject": "Tribe.xyz Holding - documents to be signed by Martin",
+        "from": "boris@borisgnoth.cz"
+      },
+      "id": "gmail/19effc006c8ece24",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-26",
+      "status": "open"
+    },
+    {
+      "text": "Arrange Martin's signature on the Tribe.xyz Czech FY2025 financial statements Boris Gnoth sent (sign in hand, date 25 June, no apostille needed)",
+      "project": "legal",
+      "source": "gmail/19effb0896cfcb8a",
+      "source_type": "gmail",
+      "date": "2026-06-25",
+      "confidence": "high",
+      "extras": {
+        "subject": "Tribe.xyz Czech - documents to be signed by Martin",
+        "from": "boris@borisgnoth.cz"
+      },
+      "id": "gmail/19effb0896cfcb8a",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-26",
+      "status": "open"
+    },
+    {
+      "text": "Run the Competitor Analyzer extension and paste 1-2 real scraped LinkedIn profiles (including a tricky one) so Claude can calibrate and build the S4 headline-vs-experience triangulation and S5 critic pass",
+      "project": "linkedin",
+      "source": "cowork/local_957aa1c3-5664-4a17-a57f-dc0871a2b465",
+      "source_type": "cowork",
+      "date": "2026-06-25",
+      "confidence": "high",
+      "extras": {
+        "title": "Competitor Analyzer extension troubleshooting"
+      },
+      "id": "cowork/local_957aa1c3-5664-4a17-a57f-dc0871a2b465/runthecompetitoranalyzerextensionandpast",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-26",
+      "status": "open"
+    },
+    {
+      "text": "Enable the Kai (agent-chat) feature flag for Keboola project 855 (KAI button in top nav or Settings -> Features; or have org-admin/support/Anna enable it), then retry a question in the TTH Test app's Ask Kai box",
+      "project": "keboola-sunset",
+      "source": "cowork/local_8a400721-0f17-4e66-bd3f-75723fc6671f",
+      "source_type": "cowork",
+      "date": "2026-06-26",
+      "confidence": "high",
+      "extras": {
+        "title": "Keboola Kai AI features"
+      },
+      "id": "cowork/local_8a400721-0f17-4e66-bd3f-75723fc6671f/enablethekaiagentchatfeatureflagforkeboo",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-26",
+      "status": "open"
+    },
+    {
+      "text": "Encrypt the STORAGE_API_TOKEN in the Keboola TTH Test app config (re-add the secret key with a # prefix) since the master token is currently stored in plaintext, and keep the public app URL private",
+      "project": "keboola-sunset",
+      "source": "cowork/local_8a400721-0f17-4e66-bd3f-75723fc6671f",
+      "source_type": "cowork",
+      "date": "2026-06-26",
+      "confidence": "high",
+      "extras": {
+        "title": "Keboola Kai AI features"
+      },
+      "id": "cowork/local_8a400721-0f17-4e66-bd3f-75723fc6671f/encryptthestorage_api_tokeninthekeboolat",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-26",
+      "status": "open"
+    },
+    {
+      "text": "Decide canonical Tribe Bot card structure (keep 'Tribe Bot feedback' renamed to 'Tribe Bot', archive 'Tribe Bot Knowledge Base' duplicate) and approve the combined overview + knowledge-base-plan write-up; confirm whether 'compensation bands' content stays",
+      "project": "tribebot",
+      "source": "cowork/local_f3789e06-247f-4b6e-a98b-55d39e7d82f8",
+      "source_type": "cowork",
+      "date": "2026-06-26",
+      "confidence": "medium",
+      "extras": {
+        "title": "AI first weekly Notion update"
+      },
+      "id": "cowork/local_f3789e06-247f-4b6e-a98b-55d39e7d82f8/decidecanonicaltribebotcardstructurekeep",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-26",
+      "status": "open"
+    },
+    {
+      "text": "Backfill atsID (Ashby req IDs) on the Internal Recruiting Bubble jobs via Bubble Data -> App Data: the 4 high-confidence matches plus check the UK Talent Acquisition Partner and Country Manager (Berlin) pair; verify the Dutch High-Volume match",
+      "project": "rec-dash",
+      "source": "cowork/local_f05a2e25-1e43-4a54-913e-cd168fa4ce29",
+      "source_type": "cowork",
+      "date": "2026-06-26",
+      "confidence": "high",
+      "extras": {
+        "title": "Recruiting dashboard health check"
+      },
+      "id": "cowork/local_f05a2e25-1e43-4a54-913e-cd168fa4ce29/backfillatsidashbyreqidsontheinternalrec",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-26",
+      "status": "open"
+    },
+    {
+      "text": "Decide on the Internal Recruiting tab Ashby crosswalk: finish the Bubble<->Ashby per-job match so the 'live from Ashby' badge is honest, or hide the badge until then",
+      "project": "rec-dash",
+      "source": "cowork/local_95ab024b-3688-4926-b041-6988f351297e",
+      "source_type": "cowork",
+      "date": "2026-06-23",
+      "confidence": "medium",
+      "extras": {
+        "title": "Failed data refresh jobs"
+      },
+      "id": "cowork/local_95ab024b-3688-4926-b041-6988f351297e/decideontheinternalrecruitingtabashbycro",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-26",
       "status": "open"
     }
   ]
