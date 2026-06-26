@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-26",
   "schema_version": 2,
-  "total": 276,
+  "total": 284,
   "projects": [
     {
       "id": "fin-dash",
@@ -4591,6 +4591,137 @@
       "id": "cowork/local_95ab024b-3688-4926-b041-6988f351297e/decideontheinternalrecruitingtabashbycro",
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-06-23",
+      "last_seen": "2026-06-26",
+      "status": "open"
+    },
+    {
+      "text": "Write and share user guidance on when to toggle intake calls on or off to optimize the recruiter workflow",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KW1R279EHQCJCD6R3SNE2BRP",
+      "source_type": "fireflies",
+      "date": "2026-06-26",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "yfc-jtzg-dqu"
+      },
+      "id": "fireflies/01KW1R279EHQCJCD6R3SNE2BRP/writeandshareuserguidanceonwhentotogglei",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-26",
+      "status": "open"
+    },
+    {
+      "text": "Share the Q3 OKRs draft with the team and continue refining it based on feedback received",
+      "project": "okrs",
+      "source": "fireflies/01KVWVEN70X5KJA59Y496XGGKQ",
+      "source_type": "fireflies",
+      "date": "2026-06-24",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KVWVEN70X5KJA59Y496XGGKQ/sharetheq3okrsdraftwiththeteamandcontinu",
+      "project_name": "OKRs",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-26",
+      "status": "open"
+    },
+    {
+      "text": "Arrange Martin Bernard's wet-ink (blue pen) signatures on the TRIBE.XYZ SPAIN FY2025 annual accounts documents (minutes of drawing-up, minutes of approval signed twice, certificate, annual report/CCAA form, digital fingerprint), then scan and send signed PDFs back to dauss.es/Bove for filing with the Spanish Commercial Registry",
+      "project": "legal",
+      "source": "gmail/19f030c0b9411abe",
+      "source_type": "gmail",
+      "date": "2026-06-26",
+      "confidence": "high",
+      "extras": {
+        "subject": "TRIBE.XYZ SPAIN - ANNUAL ACCOUNTS 2025 - PRO2026-000507",
+        "from": "mserracasablancas@dauss.es"
+      },
+      "id": "gmail/19f030c0b9411abe",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-26",
+      "status": "open"
+    },
+    {
+      "text": "Arrange bank transfer of the Tribe.xyz Czech FY2025 corporate income tax underpayment per Boris Gnoth's final tax calculation and payment details",
+      "project": "legal",
+      "source": "gmail/19effa9db7055ca3",
+      "source_type": "gmail",
+      "date": "2026-06-25",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Tribe - income tax underpayment and final tax calculation",
+        "from": "boris@borisgnoth.cz"
+      },
+      "id": "gmail/19effa9db7055ca3",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-26",
+      "status": "open"
+    },
+    {
+      "text": "Confirm to Jonaed Iqbal (and Andrea Darabasic) when the EUR payment/transfer clears - Blake committed 'Will let you know when it lands'",
+      "project": "expense-ops",
+      "source": "slack/C0BBRRSH8JW/1782390604.586939",
+      "source_type": "slack",
+      "date": "2026-06-25",
+      "confidence": "medium",
+      "extras": {
+        "channel": "Group DM (Andrea Darabasic, Jonaed Iqbal)",
+        "from": "Blake Barkley (self-commitment)"
+      },
+      "id": "slack/C0BBRRSH8JW/1782390604.586939",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-26",
+      "status": "open"
+    },
+    {
+      "text": "Produce the updated CV/resume: swap the $100K stat tile for the $85K dashboard-savings win, reframe the financial + recruiting dashboards around AI leverage and self-serve agility (not Python skills), add the intake-tool and weekly roles-roundup automations, add a data-capture-for-strategy/semantic-search bullet, and refresh the Tools section with the technical stack",
+      "project": "leadership",
+      "source": "cowork/local_c1acd4e4-b607-401d-87a3-599e9ad81e20",
+      "source_type": "cowork",
+      "date": "2026-06-26",
+      "confidence": "high",
+      "extras": {
+        "session_title": "CV update brainstorm"
+      },
+      "id": "cowork/local_c1acd4e4-b607-401d-87a3-599e9ad81e20/producetheupdatedcvresumeswapthe100kstat",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-26",
+      "status": "open"
+    },
+    {
+      "text": "Map Ashby's real stage names onto the IR-tab funnel right-side bars (Application Review, Initial Screen, WHO, Case Study, Onsite = Final Interview/Call with Martin, Culture Interview, Call with Client, Offer, Hired) so the per-job Ashby funnel bars stop reading 0; confirm WHO/Case Study get their own bars and the stage order before building and pushing",
+      "project": "rec-dash",
+      "source": "cowork/local_f05a2e25-1e43-4a54-913e-cd168fa4ce29",
+      "source_type": "cowork",
+      "date": "2026-06-26",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Recruiting dashboard health check - Ashby stage mapping"
+      },
+      "id": "cowork/local_f05a2e25-1e43-4a54-913e-cd168fa4ce29/mapashbysrealstagenamesontotheirtabfunne",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-26",
+      "status": "open"
+    },
+    {
+      "text": "Finalize and re-share the AI First Q3 OKR draft incorporating the 24 Jun meeting changes (eligible-roles target moved to 80%, add a validation phase before piloting the TA-to-sourcer feedback digest, strip jargon), then drop it back to the team",
+      "project": "ai-first-working-group",
+      "source": "cowork/local_f7989052-4c4d-4be3-b233-0b672dfe9768",
+      "source_type": "cowork",
+      "date": "2026-06-25",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Tomorrow's meeting prep / AI First recap"
+      },
+      "id": "cowork/local_f7989052-4c4d-4be3-b233-0b672dfe9768/finalizeandresharetheaifirstq3okrdraftin",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-06-25",
       "last_seen": "2026-06-26",
       "status": "open"
     }
