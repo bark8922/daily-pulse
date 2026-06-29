@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-29",
   "schema_version": 2,
-  "total": 289,
+  "total": 292,
   "projects": [
     {
       "id": "fin-dash",
@@ -4759,7 +4759,7 @@
     },
     {
       "text": "Ensure Alisa Liddell's outstanding invoices are paid out in June/July before she pauses her freelance licence (she asked the team to proceed with payouts; her contract ends June 30 / garden leave to July 10)",
-      "project": "people-ops",
+      "project": "expense-ops",
       "source": "gmail/19eb762b5072ec72",
       "source_type": "gmail",
       "date": "2026-06-26",
@@ -4769,7 +4769,7 @@
         "from": "alisa@tribe.xyz"
       },
       "id": "gmail/19eb762b5072ec72",
-      "project_name": "People Ops / BambooHR",
+      "project_name": "Expense Ops",
       "first_seen": "2026-06-26",
       "last_seen": "2026-06-29",
       "status": "open"
@@ -4804,6 +4804,56 @@
       "id": "cowork/local_f05a2e25-1e43-4a54-913e-cd168fa4ce29/buildtheeventbasedashbyirfunneloption2ad",
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
+      "status": "open"
+    },
+    {
+      "text": "Schedule a meeting Monday to finalize BD OKRs once Martin is back",
+      "project": "okrs",
+      "source": "fireflies/01KVSRSAVC2DP9H9E2CBEE1J8R",
+      "source_type": "fireflies",
+      "date": "2026-06-23",
+      "confidence": "medium",
+      "extras": {
+        "meeting_title": "OKR Check-in - Stand-up: Delivery, People, BD"
+      },
+      "id": "fireflies/01KVSRSAVC2DP9H9E2CBEE1J8R/scheduleameetingmondaytofinalizebdokrson",
+      "project_name": "OKRs",
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-29",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with Boris/Eva to create the missing intra-group service contract from Tribe.xyz Holding to Tribe CZ and Tribe ES",
+      "project": "legal",
+      "source": "gmail/19efdf2070324bfb",
+      "source_type": "gmail",
+      "date": "2026-06-25",
+      "confidence": "high",
+      "extras": {
+        "subject": "Follow up",
+        "from": "blake@tribe.xyz"
+      },
+      "id": "gmail/19efdf2070324bfb",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-29",
+      "status": "open"
+    },
+    {
+      "text": "Confirm to Gustavo which subscription tier the company is on (he asked 'We are using the Pro Monthly, right?' with a screenshot re: first time using the company card) - question still unanswered in thread",
+      "project": "expense-ops",
+      "source": "slack/D058MHYDUBA/1782407169.509319",
+      "source_type": "slack",
+      "date": "2026-06-25",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Gustavo Loureiro Castro (D058MHYDUBA)",
+        "from": "Gustavo Loureiro Castro"
+      },
+      "id": "slack/D058MHYDUBA/1782407169.509319",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-25",
       "last_seen": "2026-06-29",
       "status": "open"
     }
