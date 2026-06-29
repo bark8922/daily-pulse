@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-29",
   "schema_version": 2,
-  "total": 292,
+  "total": 302,
   "projects": [
     {
       "id": "fin-dash",
@@ -4854,6 +4854,172 @@
       "id": "slack/D058MHYDUBA/1782407169.509319",
       "project_name": "Expense Ops",
       "first_seen": "2026-06-25",
+      "last_seen": "2026-06-29",
+      "status": "open"
+    },
+    {
+      "text": "Track whether Mariam or Mattea are covering Melissa's assigned tasks and clarify coverage responsibilities with Salam and Jacopo",
+      "project": "people-ops",
+      "source": "fireflies/01KW99PVKWH29C93Y1GR53TPAP",
+      "source_type": "fireflies",
+      "date": "2026-06-29",
+      "confidence": "high",
+      "extras": {
+        "meeting": "WBR - Delivery Only"
+      },
+      "id": "fireflies/01KW99PVKWH29C93Y1GR53TPAP/trackwhethermariamormatteaarecoveringmel",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
+      "status": "open"
+    },
+    {
+      "text": "Conduct and record an intake call workflow test (recruiter screen, hiring manager, technical interview, CEO meeting) for a backend engineer role to validate the transcriber's intake-call transcription",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KVZHF0MCQRWB28PXYVN2SNW5",
+      "source_type": "fireflies",
+      "date": "2026-06-25",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Intake transcriber test (reh-tshs-ecf)"
+      },
+      "id": "fireflies/01KVZHF0MCQRWB28PXYVN2SNW5/conductandrecordanintakecallworkflowtest",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-29",
+      "status": "open"
+    },
+    {
+      "text": "Complete BambooHR offboarding task for Nare Avetisyan (Sourcer L2, termination date Jul 28, 2026) - update financials per Andrea Darabasic's request",
+      "project": "people-ops",
+      "source": "gmail/19f134d08be4c2a5",
+      "source_type": "gmail",
+      "date": "2026-06-29",
+      "confidence": 0.9,
+      "extras": {
+        "subject": "Please complete this offboarding task for Nare Avetisyan",
+        "from": "notifications@app.bamboohr.com"
+      },
+      "id": "gmail/19f134d08be4c2a5",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
+      "status": "open"
+    },
+    {
+      "text": "Write your H1-2026 Performance Review self-reflection and upwards review for Martin in Lattice (due end of week)",
+      "project": "people-ops",
+      "source": "gmail/19f125a552a3c230",
+      "source_type": "gmail",
+      "date": "2026-06-29",
+      "confidence": 0.92,
+      "extras": {
+        "subject": "Kicking off Performance Review H1-2026",
+        "from": "notifications@mg.latticehq.com"
+      },
+      "id": "gmail/19f125a552a3c230",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
+      "status": "open"
+    },
+    {
+      "text": "Pay Alisa Liddell's final invoice (EUR 2600 + 904.35 for June+July) submitted to accounting",
+      "project": "expense-ops",
+      "source": "gmail/19f1279bbeb56066",
+      "source_type": "gmail",
+      "date": "2026-06-29",
+      "confidence": 0.8,
+      "extras": {
+        "subject": "Final invoice - June, July, Alisa Liddell",
+        "from": "alisa@tribe.xyz"
+      },
+      "id": "gmail/19f1279bbeb56066",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
+      "status": "open"
+    },
+    {
+      "text": "Action the Glovo offboarding Salem forwarded (Chene Elliot - Tech TA, and Milica Mitrovic - Commercial TA, both ending end of July; Samantha Nel continues): update accounting/invoicing and offboarding while Salem is out",
+      "project": "expense-ops",
+      "source": "slack/C052MERDLNM/1782734115.735349",
+      "source_type": "slack",
+      "date": "2026-06-29",
+      "confidence": 0.8,
+      "extras": {
+        "channel": "#directors",
+        "from": "Blake Barkley (covering for Salem, email from Glovo)"
+      },
+      "id": "slack/C052MERDLNM/1782734115.735349",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
+      "status": "open"
+    },
+    {
+      "text": "Make the final call on rescheduling the Ops call - Blake proposed moving it back to Friday since Martin is flying, but got 3 thumbs-down; confirm new time",
+      "project": "leadership",
+      "source": "slack/C085WSR8HT6/1782728488.067149",
+      "source_type": "slack",
+      "date": "2026-06-29",
+      "confidence": 0.65,
+      "extras": {
+        "channel": "#operations",
+        "from": "Blake Barkley"
+      },
+      "id": "slack/C085WSR8HT6/1782728488.067149",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
+      "status": "open"
+    },
+    {
+      "text": "Incorporate Sanja's IR Ashby-to-Bubble reqs clarifications into the 2026 job match (TAP German-speaker = 2 roles on 1 req; Senior Tech TA US/EMEA = same req two Bubble projects; UK role req added) and start pulling the new TXYZ Ashby tracking tags into Tribe projects",
+      "project": "rec-dash",
+      "source": "slack/D06CHF6CCN5/1782460303.816929",
+      "source_type": "slack",
+      "date": "2026-06-26",
+      "confidence": 0.7,
+      "extras": {
+        "channel": "DM with Sanja Pavlovikj",
+        "from": "Blake Barkley / Sanja"
+      },
+      "id": "slack/D06CHF6CCN5/1782460303.816929",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-29",
+      "status": "open"
+    },
+    {
+      "text": "Drop the prepared 1:1 agenda bullets (signatures, team-trip gross-up, relocation findings, finance demo, OKR timing) into the Lattice agenda for the Jun 29 Martin 1:1, pending Blake's go-ahead",
+      "project": "leadership",
+      "source": "cowork/local_05792e49-93dc-485a-bbdc-f6e90f7a76f4",
+      "source_type": "cowork",
+      "date": "2026-06-29",
+      "confidence": 0.7,
+      "extras": {
+        "session": "Martin one-on-one agenda"
+      },
+      "id": "cowork/local_05792e49-93dc-485a-bbdc-f6e90f7a76f4/droptheprepared11agendabulletssignatures",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
+      "status": "open"
+    },
+    {
+      "text": "Clear the two stalled BambooHR time-off approvals: have Andrea Akovic approve Marina Lazarevic's vacation and Kristina Colovic (or a delegate, since she's out 1-13 Jul) approve Sam Nel's 10 Aug bank holiday; optionally reply to Ella that the digest pulls already-started 'requested' leave",
+      "project": "people-ops",
+      "source": "cowork/local_3298ec89-db52-40c2-a552-7c4bff68698d",
+      "source_type": "cowork",
+      "date": "2026-06-29",
+      "confidence": 0.6,
+      "extras": {
+        "session": "Pending vacation approvals"
+      },
+      "id": "cowork/local_3298ec89-db52-40c2-a552-7c4bff68698d/clearthetwostalledbamboohrtimeoffapprova",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-06-29",
       "last_seen": "2026-06-29",
       "status": "open"
     }
