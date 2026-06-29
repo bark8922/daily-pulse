@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-26",
+  "generated_at": "2026-06-29",
   "schema_version": 2,
-  "total": 284,
+  "total": 289,
   "projects": [
     {
       "id": "fin-dash",
@@ -4723,6 +4723,88 @@
       "project_name": "AI First Working Group",
       "first_seen": "2026-06-25",
       "last_seen": "2026-06-26",
+      "status": "open"
+    },
+    {
+      "text": "Conduct the Intake Tool onboarding session (15-min overview and rationale) and demonstrate the automated job creation and intake document generation features",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KVZH9VCCZE271KM3QNGN8JQ1",
+      "source_type": "fireflies",
+      "date": "2026-06-25",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Intake Tool Onboarding"
+      },
+      "id": "fireflies/01KVZH9VCCZE271KM3QNGN8JQ1/conducttheintaketoolonboardingsession15m",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-29",
+      "status": "open"
+    },
+    {
+      "text": "Schedule a meeting on Monday to finalize the BD OKRs once Martin is back and ready",
+      "project": "okrs",
+      "source": "fireflies/01KVSRSAVC2DP9H9E2CBEE1J8R",
+      "source_type": "fireflies",
+      "date": "2026-06-23",
+      "confidence": "high",
+      "extras": {
+        "meeting": "OKR Check-in - Stand-up: Delivery, People, BD"
+      },
+      "id": "fireflies/01KVSRSAVC2DP9H9E2CBEE1J8R/scheduleameetingonmondaytofinalizethebdo",
+      "project_name": "OKRs",
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-29",
+      "status": "open"
+    },
+    {
+      "text": "Ensure Alisa Liddell's outstanding invoices are paid out in June/July before she pauses her freelance licence (she asked the team to proceed with payouts; her contract ends June 30 / garden leave to July 10)",
+      "project": "people-ops",
+      "source": "gmail/19eb762b5072ec72",
+      "source_type": "gmail",
+      "date": "2026-06-26",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Re: Termination details",
+        "from": "alisa@tribe.xyz"
+      },
+      "id": "gmail/19eb762b5072ec72",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-29",
+      "status": "open"
+    },
+    {
+      "text": "Investigate Andrea Akovic's role-submission bug in the intake tool: after fixing the character-limit issue she flagged that other roles still won't submit (a 'triangle' error appears). Confirm whether the remaining submission failures are resolved.",
+      "project": "tribebot",
+      "source": "slack/D05AQFRMF08/1782485776.608769",
+      "source_type": "slack",
+      "date": "2026-06-26",
+      "confidence": "low",
+      "extras": {
+        "channel": "D05AQFRMF08 (DM - Andrea Akovic)",
+        "from": "Andrea Akovic"
+      },
+      "id": "slack/D05AQFRMF08/1782485776.608769",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-29",
+      "status": "open"
+    },
+    {
+      "text": "Build the event-based Ashby IR funnel (option 2): add backfill + incremental modes to ashby_extract.py (application.listHistory), seed a one-time full event log for all Tribe-internal Ashby jobs, store as ashby_stage_events.json.gz, repoint ir_ashby_funnel_jobweek in render_json.py, and fix App.jsx 'All jobs' to count only linked reqs - giving a true any-timeframe funnel like Bubble (pending Blake's 2 decisions: repo-gz vs Keboola table, all-internal vs linked-only)",
+      "project": "rec-dash",
+      "source": "cowork/local_f05a2e25-1e43-4a54-913e-cd168fa4ce29",
+      "source_type": "cowork",
+      "date": "2026-06-29",
+      "confidence": "high",
+      "extras": {
+        "session": "Recruiting dashboard health check - event-based Ashby any-timeframe funnel"
+      },
+      "id": "cowork/local_f05a2e25-1e43-4a54-913e-cd168fa4ce29/buildtheeventbasedashbyirfunneloption2ad",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
       "status": "open"
     }
   ]
