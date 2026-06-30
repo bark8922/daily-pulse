@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-29",
+  "generated_at": "2026-06-30",
   "schema_version": 2,
-  "total": 302,
+  "total": 314,
   "projects": [
     {
       "id": "fin-dash",
@@ -5021,6 +5021,201 @@
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-06-29",
       "last_seen": "2026-06-29",
+      "status": "open"
+    },
+    {
+      "text": "Maintain updated Tribe budget reflecting staffing changes and travel expenses",
+      "project": "fin-dash",
+      "source": "fireflies/01KW9Q6R5TVKQ4MGZFXE3B09JT",
+      "source_type": "fireflies",
+      "date": "2026-06-29",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KW9Q6R5TVKQ4MGZFXE3B09JT/maintainupdatedtribebudgetreflectingstaf",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-30",
+      "status": "open"
+    },
+    {
+      "text": "Arrange signing meeting for year-end Tribe Czech and Spain documents with Martin at WeWork",
+      "project": "legal",
+      "source": "fireflies/01KW9Q6R5TVKQ4MGZFXE3B09JT",
+      "source_type": "fireflies",
+      "date": "2026-06-29",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KW9Q6R5TVKQ4MGZFXE3B09JT/arrangesigningmeetingforyearendtribeczec",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-30",
+      "status": "open"
+    },
+    {
+      "text": "Discuss team trip tax deductibility issue with the board and explore riskier alternatives",
+      "project": "expense-ops",
+      "source": "fireflies/01KW9Q6R5TVKQ4MGZFXE3B09JT",
+      "source_type": "fireflies",
+      "date": "2026-06-29",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KW9Q6R5TVKQ4MGZFXE3B09JT/discussteamtriptaxdeductibilityissuewith",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-30",
+      "status": "open"
+    },
+    {
+      "text": "Bring company relocation tax optimization options (Estonia, Bulgaria, Hong Kong) forward to management for discussion",
+      "project": "legal",
+      "source": "fireflies/01KW9Q6R5TVKQ4MGZFXE3B09JT",
+      "source_type": "fireflies",
+      "date": "2026-06-29",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KW9Q6R5TVKQ4MGZFXE3B09JT/bringcompanyrelocationtaxoptimizationopt",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-30",
+      "status": "open"
+    },
+    {
+      "text": "Post a message in the team channel to coordinate asynchronous OKR reviews and gather feedback before finalizing on Friday",
+      "project": "okrs",
+      "source": "fireflies/01KW9Q6R5TVKQ4MGZFXE3B09JT",
+      "source_type": "fireflies",
+      "date": "2026-06-29",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KW9Q6R5TVKQ4MGZFXE3B09JT/postamessageintheteamchanneltocoordinate",
+      "project_name": "OKRs",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-30",
+      "status": "open"
+    },
+    {
+      "text": "Implement daily backups of Claude conversations and projects to GitHub to prevent data loss",
+      "project": "ai-first-working-group",
+      "source": "fireflies/01KW9NPHB8ZWB0MY6WKA3ZWRQ7",
+      "source_type": "fireflies",
+      "date": "2026-06-29",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Claude: Master Sessions"
+      },
+      "id": "fireflies/01KW9NPHB8ZWB0MY6WKA3ZWRQ7/implementdailybackupsofclaudeconversatio",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-30",
+      "status": "open"
+    },
+    {
+      "text": "Answer Nare Avetisyan's invoicing question: she asks whether to combine her June invoice (1900 EUR) and the July amount (1,716.13 EUR) into one invoice, and whether to mark the period as June 1 - June 30. Confirm how she should structure/date it.",
+      "project": "expense-ops",
+      "source": "slack/D0639UMV9EV/1782744937.762089",
+      "source_type": "slack",
+      "date": "2026-06-29",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM-Nare-Avetisyan",
+        "permalink": "https://tribexyz.slack.com/archives/D0639UMV9EV/p1782744937762089"
+      },
+      "id": "slack/D0639UMV9EV/1782744937.762089",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-30",
+      "status": "open"
+    },
+    {
+      "text": "Review and approve Andrea Darabasic's drafted Deel email to Justin Fregona disputing the $471.45 Prepaid Billing Credit charge (Installment #2, Order Form Q-39879) - she will send it and cc Blake once he agrees.",
+      "project": "expense-ops",
+      "source": "slack/D071AKJ9YG2/1782742191.588629",
+      "source_type": "slack",
+      "date": "2026-06-29",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM-Andrea-Darabasic",
+        "permalink": "https://tribexyz.slack.com/archives/D071AKJ9YG2/p1782742191588629"
+      },
+      "id": "slack/D071AKJ9YG2/1782742191.588629",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-30",
+      "status": "open"
+    },
+    {
+      "text": "Fix the broken Supporting/Internal cost toggle on the dashboard and sort out who belongs in which cost bucket (Client, Core Tribe, Bench, Internal) - flagged when answering Martin's cost-breakdown questions; Blake noted 'needs to be fixed'. Also surface the IT cost breakdown on the dashboard since the source sheet is out of date.",
+      "project": "fin-dash",
+      "source": "slack/D055NJ27YRY/1782716427.108029",
+      "source_type": "slack",
+      "date": "2026-06-29",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM-Martin-Bernard",
+        "permalink": "https://tribexyz.slack.com/archives/D055NJ27YRY/p1782716427108029"
+      },
+      "id": "slack/D055NJ27YRY/1782716427.108029",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-30",
+      "status": "open"
+    },
+    {
+      "text": "Bump max_tokens from 2000 to 4000 on the 'Claude \u2014 CoS Intelligence Analysis' n8n node so the CoS Intelligence/Slack Brief workflow stops truncating Sonnet's output and failing JSON parse (raise to 6000-8000 if you want extra headroom)",
+      "project": "tribebot",
+      "source": "cowork/local_fa792a4d-22d5-4583-9165-ae2abbcd2841",
+      "source_type": "cowork",
+      "date": "2026-06-30",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Workflow failure troubleshooting"
+      },
+      "id": "cowork/local_fa792a4d-22d5-4583-9165-ae2abbcd2841/bumpmax_tokensfrom2000to4000ontheclaudec",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-06-30",
+      "status": "open"
+    },
+    {
+      "text": "Confirm the new Keboola snowflake-transformation config 01kvzgpgwh38awepha7eey08pe (started 2026-06-25, ~4x/day) is an intended pipeline addition, not a runaway",
+      "project": "keboola-sunset",
+      "source": "cowork/local_44a19379-253c-4269-8d97-7552602ca1d8",
+      "source_type": "cowork",
+      "date": "2026-06-29",
+      "confidence": "low",
+      "extras": {
+        "session_title": "Keboola spend check"
+      },
+      "id": "cowork/local_44a19379-253c-4269-8d97-7552602ca1d8/confirmthenewkeboolasnowflaketransformat",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-30",
+      "status": "open"
+    },
+    {
+      "text": "Send the prepared Slack DM to Martin with the CoS Weekly Log (Week of June 22) link - draft is written but not yet sent",
+      "project": "leadership",
+      "source": "cowork/local_85dce463-bee3-4f90-a9c6-891514a15c55",
+      "source_type": "cowork",
+      "date": "2026-06-29",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Cos weekly log"
+      },
+      "id": "cowork/local_85dce463-bee3-4f90-a9c6-891514a15c55/sendthepreparedslackdmtomartinwiththecos",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-30",
       "status": "open"
     }
   ]
