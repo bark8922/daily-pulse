@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-30",
+  "generated_at": "2026-07-01",
   "schema_version": 2,
-  "total": 303,
+  "total": 313,
   "projects": [
     {
       "id": "fin-dash",
@@ -5038,6 +5038,172 @@
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-06-30",
       "last_seen": "2026-06-30",
+      "status": "open"
+    },
+    {
+      "text": "Bring the post-project review idea and knowledge management topic to the continuous improvement meeting next Wednesday for leadership feedback and brainstorming",
+      "project": "tribebot",
+      "source": "fireflies/01KWC82MXD2WR6XDFTWVYA8VAE",
+      "source_type": "fireflies",
+      "date": "2026-06-30",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KWC82MXD2WR6XDFTWVYA8VAE/bringthepostprojectreviewideaandknowledg",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-07-01",
+      "status": "open"
+    },
+    {
+      "text": "Encourage team members to submit additional thoughts or ideas asynchronously in chat before the leadership meeting",
+      "project": "tribebot",
+      "source": "fireflies/01KWC82MXD2WR6XDFTWVYA8VAE",
+      "source_type": "fireflies",
+      "date": "2026-06-30",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KWC82MXD2WR6XDFTWVYA8VAE/encourageteammemberstosubmitadditionalth",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-07-01",
+      "status": "open"
+    },
+    {
+      "text": "Track if Mariam or Mattea are covering Melissa's assigned tasks; clarify responsibilities with Salam and Jacopo to ensure coverage continuity",
+      "project": "wbr-mbr",
+      "source": "fireflies/01KW99PVKWH29C93Y1GR53TPAP",
+      "source_type": "fireflies",
+      "date": "2026-06-29",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "WBR - Delivery Only"
+      },
+      "id": "fireflies/01KW99PVKWH29C93Y1GR53TPAP/trackifmariamormatteaarecoveringmelissas",
+      "project_name": "WBR / MBR",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-07-01",
+      "status": "open"
+    },
+    {
+      "text": "Grant Andrea Darabasic the requested Drive access to the 'AI Live Training Sessions - 2026/06/17 12:58 - Recording' file",
+      "project": "ai-first-working-group",
+      "source": "gmail/19f18e4767471a1b",
+      "source_type": "gmail",
+      "date": "2026-06-30",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Share request for \"AI Live Training Sessions - 2026/06/17 12:58 GMT+04:00 - Recording\"",
+        "from": "drive-shares-dm-noreply@google.com"
+      },
+      "id": "gmail/19f18e4767471a1b",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-07-01",
+      "status": "open"
+    },
+    {
+      "text": "Follow up on the renumbered Tribe CZ invoices Natalie Harustiakova confirmed are ready (Blake had requested the renumbering)",
+      "project": "expense-ops",
+      "source": "gmail/19f17f9277b79f51",
+      "source_type": "gmail",
+      "date": "2026-06-30",
+      "confidence": "medium",
+      "extras": {
+        "subject": "RE: Tribe CZ Invoices",
+        "from": "nharustiakova@borisgnoth.cz"
+      },
+      "id": "gmail/19f17f9277b79f51",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-07-01",
+      "status": "open"
+    },
+    {
+      "text": "Check Iryna's 2 recent hires' offers (Iskander Charfi and Luca Iov) - she didn't change month to annual when submitting offer info but added correct details in the notes; verify it's all good",
+      "project": "rec-dash",
+      "source": "slack/D06KVGY05FC/1782833910.128269",
+      "source_type": "slack",
+      "date": "2026-06-30",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM (Iryna Dyda)",
+        "from": "Iryna Dyda"
+      },
+      "id": "slack/D06KVGY05FC/1782833910.128269",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-07-01",
+      "status": "open"
+    },
+    {
+      "text": "Switch the Tribe Recruiter (LIR) license from Dolores to Valeria Yurykova, starting tomorrow (she is covering Dolores's sourcing this and next week; Dolores confirmed the license can move). Blake already said yes",
+      "project": "linkedin",
+      "source": "slack/D062X9TGXQA/1782833843.206059",
+      "source_type": "slack",
+      "date": "2026-06-30",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM (Valeria Yurykova)",
+        "from": "Valeria Yurykova"
+      },
+      "id": "slack/D062X9TGXQA/1782833843.206059",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-07-01",
+      "status": "open"
+    },
+    {
+      "text": "Draft/finalize the Pliant contract - Martin asked Blake to adjust the roles and pricing because Pliant wants sourcing + screening (not a full-time TA, not a standard sourcer). Blake produced a first draft doc; confirm role/pricing adjustments are correct",
+      "project": "legal",
+      "source": "slack/C09J67CQ727/1782829606.393189",
+      "source_type": "slack",
+      "date": "2026-06-30",
+      "confidence": "high",
+      "extras": {
+        "channel": "Group DM (Martin Bernard, Salem Mansuri)",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/C09J67CQ727/1782829606.393189",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-07-01",
+      "status": "open"
+    },
+    {
+      "text": "Answer Valeria Yurykova's dashboard question: whether there is a way to view offers info (she has 7 offers and 5 hires over the past 6 months and wants to see details on the 2 offers that didn't convert to hires for her performance review)",
+      "project": "rec-dash",
+      "source": "slack/D062X9TGXQA/1782824850.246699",
+      "source_type": "slack",
+      "date": "2026-06-30",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM (Valeria Yurykova)",
+        "from": "Valeria Yurykova"
+      },
+      "id": "slack/D062X9TGXQA/1782824850.246699",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-07-01",
+      "status": "open"
+    },
+    {
+      "text": "Apply the Pliant contract redline: swap Article 2.1.4 'Other Specialist' to the 'Sourcer + Screening' scope (source + first-round screens + calibration + rejections, with a no-references/offers/negotiation carve-out), set the EUR 9,000/mo fee on that line, make Term month-to-month (rewrite 6.1, delete 6.2 auto-renewal) and shorten Article 7.1 notice to 30 days; also decide the LinkedIn Recruiter license (Pliant-provided vs +EUR 350/mo) and the EUR 60k transfer-fee before sending to Pliant (Gillian Lane / Tamara)",
+      "project": "legal",
+      "source": "cowork/local_f3034d18-93f3-4b88-823c-6031319ae126",
+      "source_type": "cowork",
+      "date": "2026-06-30",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Pliant contract adjustments"
+      },
+      "id": "cowork/local_f3034d18-93f3-4b88-823c-6031319ae126/applythepliantcontractredlineswaparticle",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-07-01",
       "status": "open"
     }
   ]
