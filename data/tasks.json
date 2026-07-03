@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-03",
   "schema_version": 2,
-  "total": 328,
+  "total": 338,
   "projects": [
     {
       "id": "fin-dash",
@@ -5274,7 +5274,7 @@
       "status": "open"
     },
     {
-      "text": "Send Yujing Han (Bove Montero) the June information needed to complete the Tribe Spain 06.26 monthly closing",
+      "text": "Share the June 2026 closing information Bove Montero (Yujing Han) requested for the Tribe Spain accounting month-end close",
       "project": "expense-ops",
       "source": "gmail/19f218e7cc20ac30",
       "source_type": "gmail",
@@ -5291,18 +5291,18 @@
       "status": "open"
     },
     {
-      "text": "Help Martin with the Pliant onboarding call - decide/action bringing Salem along (Martin forwarded Gillian Lane's request asking 'Can you help with this?')",
-      "project": "expense-ops",
+      "text": "Gather and send Pliant (Gillian Lane) the onboarding docs they requested for infosec/legal review \u2014 main service agreement, DPA, Art. 32 GDPR TOMs evidence, and ISO 27001/SOC2 certifications (Martin forwarded asking Blake to handle)",
+      "project": "legal",
       "source": "gmail/19f1d50d7384a843",
       "source_type": "gmail",
       "date": "2026-07-01",
-      "confidence": "medium",
+      "confidence": "high",
       "extras": {
         "subject": "Fwd: Today's call: bringing Salem along",
         "from": "martin@tribe.xyz"
       },
       "id": "gmail/19f1d50d7384a843",
-      "project_name": "Expense Ops",
+      "project_name": "Legal & Contracts",
       "first_seen": "2026-07-01",
       "last_seen": "2026-07-03",
       "status": "open"
@@ -5347,9 +5347,9 @@
       "source": "slack/C0BDY349FHV/1782891652.871589",
       "source_type": "slack",
       "date": "2026-07-01",
-      "confidence": "medium",
+      "confidence": "high",
       "extras": {
-        "channel": "group-dm (Martin/Ella/Andrea/Simon)",
+        "channel": "Vista deal group DM (Martin/Ella/Andrea/Simon)",
         "from": "Martin Bernard"
       },
       "id": "slack/C0BDY349FHV/1782891652.871589",
@@ -5383,7 +5383,7 @@
       "date": "2026-07-02",
       "confidence": "low",
       "extras": {
-        "channel": "DM",
+        "channel": "DM with Andreea Vrancianu",
         "from": "Andreea Vrancianu"
       },
       "id": "slack/D0AC2QAA35X/1783007259.716139",
@@ -5451,6 +5451,173 @@
         "session": "Iryna Dyda comments analysis - salary inflation"
       },
       "id": "cowork/local_074f9358-6eb0-43b5-8a14-f914c8f290a2/fixthetwoavivhireslucaioviskandercwhoses",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Update Iskander Charfi and Luca Iov's recent hires in Bubble to show annual instead of monthly salary (Iryna submitted them as monthly by mistake) - coordinate with Mikhail who is checking the sync",
+      "project": "rec-dash",
+      "source": "slack/D0577RU8WQ1/1782892661.488419",
+      "source_type": "slack",
+      "date": "2026-07-01",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Mikhail Kuzmin",
+        "from": "Blake Barkley (self-commit)"
+      },
+      "id": "slack/D0577RU8WQ1/1782892661.488419",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Assign Sashka Sarafinovska a LinkedIn Recruiter license via her private email (sarafinovska.sashka@yahoo.com) since she can't add her Tribe email yet - confirm the invite went through and she has access",
+      "project": "linkedin",
+      "source": "slack/D05828H7J93/1782727917.314539",
+      "source_type": "slack",
+      "date": "2026-06-29",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Sashka Sarafinovska",
+        "from": "Sashka Sarafinovska"
+      },
+      "id": "slack/D05828H7J93/1782727917.314539",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Confirm to Salem whether Maria at Hostaway responded and hold sending the Eucalyptus invoice until the Meho situation is resolved (Salem to update when he knows)",
+      "project": "expense-ops",
+      "source": "slack/D057XNFLHTR/1782889814.259559",
+      "source_type": "slack",
+      "date": "2026-07-01",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Salem Mansuri",
+        "from": "Blake Barkley (self-commit)"
+      },
+      "id": "slack/D057XNFLHTR/1782889814.259559",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Fix Jacopo's expense-approval webhook link (blakebarkley n8n webhook) - Jacopo reports it is 'Not working' when trying to approve his June Tribe CZ card transactions",
+      "project": "expense-ops",
+      "source": "slack/D056EG3QPLP/1782980257.581729",
+      "source_type": "slack",
+      "date": "2026-07-02",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Jacopo Lupo Ferrari",
+        "from": "Jacopo Lupo Ferrari"
+      },
+      "id": "slack/D056EG3QPLP/1782980257.581729",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Follow up on Rodrigo's request for a Slack bot related to the sourcing working group (he flagged he 'just requested something')",
+      "project": "ai-first-working-group",
+      "source": "slack/D059PSVF62G/1782904766.900189",
+      "source_type": "slack",
+      "date": "2026-07-01",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Rodrigo Gomes",
+        "from": "Rodrigo Gomes"
+      },
+      "id": "slack/D059PSVF62G/1782904766.900189",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Investigate why the Post-Meeting Intelligence Brief n8n workflow is failing repeatedly ('The service failed to process your request' at the Claude - CoS Intelligence Analysis node, multiple failures Jun 29)",
+      "project": "tribebot",
+      "source": "slack/D0AKAPA0X3J/1782741869.985879",
+      "source_type": "slack",
+      "date": "2026-06-29",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Blake Updates Bot",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1782741869.985879",
+      "project_name": "Tribebot",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Regroup Friday (Jul 3) to talk through where the Q3 OKRs stand and align before finalizing - everyone was asked to re-review and add feedback after OKRs were pulled from the directors meeting",
+      "project": "okrs",
+      "source": "slack/C06RERFCAF6/1782809482.613419",
+      "source_type": "slack",
+      "date": "2026-06-30",
+      "confidence": "high",
+      "extras": {
+        "channel": "#okr-comms",
+        "from": "Blake Barkley (self-commit)"
+      },
+      "id": "slack/C06RERFCAF6/1782809482.613419",
+      "project_name": "OKRs",
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Run 'Run now' on the linkedin-idea-generator-morning scheduled task once to pre-approve the Slack + web-search permissions so future 8am runs execute clean, then fill the [bracketed] real numbers into the 10 draft LinkedIn posts in the bark8922/linkedin repo to make them post-ready",
+      "project": "linkedin",
+      "source": "cowork/local_b36e6a9f-5933-4f5b-99e1-c3e0d424b39e",
+      "source_type": "cowork",
+      "date": "2026-07-03",
+      "confidence": "high",
+      "extras": {
+        "session": "LinkedIn posting strategy"
+      },
+      "id": "cowork/local_b36e6a9f-5933-4f5b-99e1-c3e0d424b39e/runrunnowonthelinkedinideageneratormorni",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Reactivate the 'Transaction Categorization Form v7' n8n workflow (ID IHP5kGDe6YDhh51o) so Jacopo's expense webhook form loads, and confirm the Monthly Folder Pre-Provisioner ran for July 2026 (Jacopo Lupo Ferrari folder) before he resubmits",
+      "project": "expense-ops",
+      "source": "cowork/local_4cd7e24f-a960-4511-996a-25cfe07630ab",
+      "source_type": "cowork",
+      "date": "2026-07-03",
+      "confidence": "high",
+      "extras": {
+        "session": "Workflow troubleshooting"
+      },
+      "id": "cowork/local_4cd7e24f-a960-4511-996a-25cfe07630ab/reactivatethetransactioncategorizationfo",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Fix the 12x-inflated hired salaries for Iryna Dyda's two Aviv hires (Luca Iov stored EUR 1,293,600; Iskander Charfi stored EUR 990,000): switch the Bubble candidate salary-type from Monthly to Annual (and correct the raw value / confirm EUR vs RON) so out.c-reporting-v2.candidate stops carrying the inflated figures",
+      "project": "rec-dash",
+      "source": "cowork/local_074f9358-6eb0-43b5-8a14-f914c8f290a2",
+      "source_type": "cowork",
+      "date": "2026-07-03",
+      "confidence": "high",
+      "extras": {
+        "session": "Iryna Dyda comments analysis"
+      },
+      "id": "cowork/local_074f9358-6eb0-43b5-8a14-f914c8f290a2/fixthe12xinflatedhiredsalariesforirynady",
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-07-03",
       "last_seen": "2026-07-03",
