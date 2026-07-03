@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-01",
+  "generated_at": "2026-07-03",
   "schema_version": 2,
-  "total": 313,
+  "total": 328,
   "projects": [
     {
       "id": "fin-dash",
@@ -5204,6 +5204,256 @@
       "project_name": "Legal & Contracts",
       "first_seen": "2026-06-30",
       "last_seen": "2026-07-01",
+      "status": "open"
+    },
+    {
+      "text": "Discuss the team trip tax deductibility issue with the board and explore riskier alternatives",
+      "project": "legal",
+      "source": "fireflies/01KW9Q6R5TVKQ4MGZFXE3B09JT",
+      "source_type": "fireflies",
+      "date": "2026-06-29",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KW9Q6R5TVKQ4MGZFXE3B09JT/discusstheteamtriptaxdeductibilityissuew",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Respond to LinkedIn Recruiter 'Unusual Activity' case 260702-008326 (Waiting For Information) - provide requested info within 14 days",
+      "project": "linkedin",
+      "source": "gmail/19f225f59b027030",
+      "source_type": "gmail",
+      "date": "2026-07-02",
+      "confidence": "high",
+      "extras": {
+        "subject": "[Response Required] Unusual LinkedIn Recruiter Activity [Case: 260702-008326]",
+        "from": "linkedin_support@cs.linkedin.com"
+      },
+      "id": "gmail/19f225f59b027030",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Respond to LinkedIn Recruiter 'Unusual Activity' case 260701-012146 (Waiting For Information) - provide requested info within 14 days",
+      "project": "linkedin",
+      "source": "gmail/19f1dc8828804192",
+      "source_type": "gmail",
+      "date": "2026-07-01",
+      "confidence": "high",
+      "extras": {
+        "subject": "[Response Required] Unusual LinkedIn Recruiter Activity [Case: 260701-012146]",
+        "from": "linkedin_support@cs.linkedin.com"
+      },
+      "id": "gmail/19f1dc8828804192",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Confirm/prepare Spain June 2026 payslips - Federico Casal (Bove Montero) asking whether to proceed with PAYROLL 06.2026",
+      "project": "people-ops",
+      "source": "gmail/19f2352da7ef9101",
+      "source_type": "gmail",
+      "date": "2026-07-02",
+      "confidence": "high",
+      "extras": {
+        "subject": "PAYROLL 06.2026",
+        "from": "fcfernandez@bovemontero.com"
+      },
+      "id": "gmail/19f2352da7ef9101",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Send Yujing Han (Bove Montero) the June information needed to complete the Tribe Spain 06.26 monthly closing",
+      "project": "expense-ops",
+      "source": "gmail/19f218e7cc20ac30",
+      "source_type": "gmail",
+      "date": "2026-07-02",
+      "confidence": "high",
+      "extras": {
+        "subject": "TRIBE - CLOSING 06.26",
+        "from": "yhan@bovemontero.com"
+      },
+      "id": "gmail/19f218e7cc20ac30",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Help Martin with the Pliant onboarding call - decide/action bringing Salem along (Martin forwarded Gillian Lane's request asking 'Can you help with this?')",
+      "project": "expense-ops",
+      "source": "gmail/19f1d50d7384a843",
+      "source_type": "gmail",
+      "date": "2026-07-01",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Fwd: Today's call: bringing Salem along",
+        "from": "martin@tribe.xyz"
+      },
+      "id": "gmail/19f1d50d7384a843",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Ensure the overdue GlobalHire/Revolut invoices are funded and paid - Franco Vitali flagged failed collection; Andrea forwarded to Blake as FYI (ensure sufficient funds in Revolut Business account)",
+      "project": "expense-ops",
+      "source": "gmail/19f1ea85dc353707",
+      "source_type": "gmail",
+      "date": "2026-07-01",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Fwd: Action Required: Outstanding GlobalHire Invoices - June Payment",
+        "from": "andreadarabasic@tribe.xyz"
+      },
+      "id": "gmail/19f1ea85dc353707",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Decide next step on the Deel Order Form Q-39879 auto-renewal dispute - Deel confirmed Tribe is committed to $471.45/month until May 31 2027 and will check internally whether the commitment can be broken; determine whether to accept a one-time buyout or push back",
+      "project": "expense-ops",
+      "source": "gmail/19f177bfe396df2c",
+      "source_type": "gmail",
+      "date": "2026-07-02",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Re: Dispute of Invoice - Order Form Q-39879 | Request for Cancellation",
+        "from": "justin.fregona@deel.com"
+      },
+      "id": "gmail/19f177bfe396df2c",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Prep the Djordy (Vista) B2B contract - Martin asked 'please prep the contract'. Salary landed ~5000 EUR, start date July 13; Andrea Darabasic ultimately drafted/sent it for signature, so confirm the contract is correct and fully handled.",
+      "project": "legal",
+      "source": "slack/C0BDY349FHV/1782891652.871589",
+      "source_type": "slack",
+      "date": "2026-07-01",
+      "confidence": "medium",
+      "extras": {
+        "channel": "group-dm (Martin/Ella/Andrea/Simon)",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/C0BDY349FHV/1782891652.871589",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Hold the Eucalyptus invoice until the Meho off-boarding/replacement situation is resolved (Eucalyptus asked to replace Meho with Jan starting 13/07). Salem will ping when confirmed - then send the correct invoice.",
+      "project": "expense-ops",
+      "source": "slack/D057XNFLHTR/1782889919.297719",
+      "source_type": "slack",
+      "date": "2026-07-01",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM",
+        "from": "Salem Mansuri"
+      },
+      "id": "slack/D057XNFLHTR/1782889919.297719",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "When paying Andreea Vrancianu's July invoice, use the latest version - she resent it with the invoice number corrected (4 instead of 10); ignore the earlier duplicate in the inbox.",
+      "project": "expense-ops",
+      "source": "slack/D0AC2QAA35X/1783007259.716139",
+      "source_type": "slack",
+      "date": "2026-07-02",
+      "confidence": "low",
+      "extras": {
+        "channel": "DM",
+        "from": "Andreea Vrancianu"
+      },
+      "id": "slack/D0AC2QAA35X/1783007259.716139",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Activate the inactive 'Transaction Categorization Form v7' n8n workflow (webhook 64377b09) so Jacopo's expense-categorization form link loads, and confirm the July 2026 monthly folder pre-provisioner has run so his person folder exists before he resubmits",
+      "project": "expense-ops",
+      "source": "cowork/local_4cd7e24f-a960-4511-996a-25cfe07630ab",
+      "source_type": "cowork",
+      "date": "2026-07-03",
+      "confidence": "high",
+      "extras": {
+        "session": "Workflow troubleshooting - Jacopo expense form"
+      },
+      "id": "cowork/local_4cd7e24f-a960-4511-996a-25cfe07630ab/activatetheinactivetransactioncategoriza",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Fill in the [bracket] placeholders (real numbers/details only Blake knows) on the 10 draft LinkedIn posts pushed to the bark8922/linkedin repo, then pick which to post first",
+      "project": "linkedin",
+      "source": "cowork/local_b36e6a9f-5933-4f5b-99e1-c3e0d424b39e",
+      "source_type": "cowork",
+      "date": "2026-07-03",
+      "confidence": "high",
+      "extras": {
+        "session": "LinkedIn posting strategy"
+      },
+      "id": "cowork/local_b36e6a9f-5933-4f5b-99e1-c3e0d424b39e/fillinthebracketplaceholdersrealnumbersd",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Click 'Run now' on the linkedin-idea-generator-morning scheduled task once to pre-approve the Slack + web-search permissions before the 8am CET weekday runs",
+      "project": "linkedin",
+      "source": "cowork/local_b36e6a9f-5933-4f5b-99e1-c3e0d424b39e",
+      "source_type": "cowork",
+      "date": "2026-07-03",
+      "confidence": "medium",
+      "extras": {
+        "session": "LinkedIn posting strategy"
+      },
+      "id": "cowork/local_b36e6a9f-5933-4f5b-99e1-c3e0d424b39e/clickrunnowonthelinkedinideageneratormor",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Fix the two Aviv hires (Luca Iov, Iskander C.) whose salary is 12x inflated: switch salary type from Monthly to Annual in the Bubble candidate record (and correct the raw hired_salary / confirm EUR-vs-RON currency) so \u20ac1,293,600 and \u20ac990,000 stop flowing into reporting",
+      "project": "rec-dash",
+      "source": "cowork/local_074f9358-6eb0-43b5-8a14-f914c8f290a2",
+      "source_type": "cowork",
+      "date": "2026-07-03",
+      "confidence": "high",
+      "extras": {
+        "session": "Iryna Dyda comments analysis - salary inflation"
+      },
+      "id": "cowork/local_074f9358-6eb0-43b5-8a14-f914c8f290a2/fixthetwoavivhireslucaioviskandercwhoses",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
       "status": "open"
     }
   ]
