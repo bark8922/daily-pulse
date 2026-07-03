@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-03",
   "schema_version": 2,
-  "total": 338,
+  "total": 344,
   "projects": [
     {
       "id": "fin-dash",
@@ -5620,6 +5620,104 @@
       "id": "cowork/local_074f9358-6eb0-43b5-8a14-f914c8f290a2/fixthe12xinflatedhiredsalariesforirynady",
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Send out a summary of Q2 OKRs and communicate Q3 goals to the team early next week for transparency and alignment",
+      "project": "inbox",
+      "source": "fireflies/01KWKVXTBDBHQV0WNB3GBV8ZGQ",
+      "source_type": "fireflies",
+      "date": "2026-07-03",
+      "confidence": "high",
+      "extras": {
+        "meeting": "OKRs"
+      },
+      "id": "fireflies/01KWKVXTBDBHQV0WNB3GBV8ZGQ/sendoutasummaryofq2okrsandcommunicateq3g",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Review the June 2026 payroll files Laura Majka (Bove Montero) sent for Tribe Spain and flag any questions",
+      "project": "spain-payroll",
+      "source": "gmail/19f274a9c280196a",
+      "source_type": "gmail",
+      "date": "2026-07-03",
+      "confidence": "medium",
+      "extras": {
+        "subject": "RE: Payroll - June 2026",
+        "from": "Laura Majka <lmajka@bovemontero.com>"
+      },
+      "id": "gmail/19f274a9c280196a",
+      "project_name": "spain-payroll",
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Send Reaktor invoices to the correct destination once Kristjana confirms where they should go (Blake asked her to find out)",
+      "project": "inbox",
+      "source": "slack/D059MAFUJR0/1782890718.380789",
+      "source_type": "slack",
+      "date": "2026-07-01",
+      "confidence": "medium",
+      "extras": {
+        "channel": "D059MAFUJR0 (DM Kristjana Thorarinsdottir)",
+        "from": "Blake Barkley"
+      },
+      "id": "slack/D059MAFUJR0/1782890718.380789",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Trim the duplicate Tribe_HoldCo_invoice_Calc_2606 files left in the invoicing folder from today's Intercompany Invoice Generator testing",
+      "project": "finance-ops",
+      "source": "cowork/local_41f0c80d-4b8d-46f7-b315-7143c69ecd5a",
+      "source_type": "cowork",
+      "date": "2026-07-03",
+      "confidence": "medium",
+      "extras": {
+        "session": "Holdco transaction audit and data fixes"
+      },
+      "id": "cowork/local_41f0c80d-4b8d-46f7-b315-7143c69ecd5a/trimtheduplicatetribe_holdco_invoice_cal",
+      "project_name": "finance-ops",
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Confirm Andreea's invoice row (VRANCIANU DANA DOREL ANDREEA / 1680 EUR) actually wrote to the payment sheet on the parser's next Drive poll, then delete the spare reprocess PDF copy so it doesn't double-count",
+      "project": "expense-ops",
+      "source": "cowork/local_4da4a62c-1fdf-4fcf-a3b9-89fbfcfbc582",
+      "source_type": "cowork",
+      "date": "2026-07-02",
+      "confidence": "medium",
+      "extras": {
+        "session": "Processed data review (invoice parser + receipts hardening)"
+      },
+      "id": "cowork/local_4da4a62c-1fdf-4fcf-a3b9-89fbfcfbc582/confirmandreeasinvoicerowvrancianudanado",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Decide whether to regenerate and push the one-cycle-behind recruiting slim file (client_profitability.json in tribe-recruiting) now or let it auto-catch-up on the next refresh/deploy cycle after adding the fetch-rebase-retry loop",
+      "project": "recruiting-dashboard",
+      "source": "cowork/local_20d1e0a8-f38a-4d6a-8b05-be0128d2e2c0",
+      "source_type": "cowork",
+      "date": "2026-06-30",
+      "confidence": "medium",
+      "extras": {
+        "session": "Tribe Dashboard deploy failure"
+      },
+      "id": "cowork/local_20d1e0a8-f38a-4d6a-8b05-be0128d2e2c0/decidewhethertoregenerateandpushtheonecy",
+      "project_name": "recruiting-dashboard",
+      "first_seen": "2026-06-30",
       "last_seen": "2026-07-03",
       "status": "open"
     }
