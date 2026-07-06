@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-06",
   "schema_version": 2,
-  "total": 346,
+  "total": 352,
   "projects": [
     {
       "id": "fin-dash",
@@ -4920,7 +4920,7 @@
       "id": "fireflies/01KW9Q6R5TVKQ4MGZFXE3B09JT/postamessageintheteamchanneltocoordinate",
       "project_name": "OKRs",
       "first_seen": "2026-06-29",
-      "last_seen": "2026-06-30",
+      "last_seen": "2026-07-06",
       "status": "open"
     },
     {
@@ -5208,7 +5208,7 @@
     },
     {
       "text": "Discuss the team trip tax deductibility issue with the board and explore riskier alternatives",
-      "project": "legal",
+      "project": "leadership",
       "source": "fireflies/01KW9Q6R5TVKQ4MGZFXE3B09JT",
       "source_type": "fireflies",
       "date": "2026-06-29",
@@ -5217,9 +5217,9 @@
         "meeting": "Blake & Martin: 1:1"
       },
       "id": "fireflies/01KW9Q6R5TVKQ4MGZFXE3B09JT/discusstheteamtriptaxdeductibilityissuew",
-      "project_name": "Legal & Contracts",
+      "project_name": "Leadership comms",
       "first_seen": "2026-06-29",
-      "last_seen": "2026-07-03",
+      "last_seen": "2026-07-06",
       "status": "open"
     },
     {
@@ -5752,6 +5752,104 @@
       "id": "gmail/19f288196fd761e9",
       "project_name": "Expense Ops",
       "first_seen": "2026-07-03",
+      "last_seen": "2026-07-06",
+      "status": "open"
+    },
+    {
+      "text": "Continue maintaining the updated Tribe budget reflecting staffing changes and travel expenses",
+      "project": "fin-dash",
+      "source": "fireflies/01KW9Q6R5TVKQ4MGZFXE3B09JT",
+      "source_type": "fireflies",
+      "date": "2026-06-29",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KW9Q6R5TVKQ4MGZFXE3B09JT/continuemaintainingtheupdatedtribebudget",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-07-06",
+      "status": "open"
+    },
+    {
+      "text": "Arrange a signing meeting with Martin at WeWork for the Tribe Czech and Spain year-end documents",
+      "project": "legal",
+      "source": "fireflies/01KW9Q6R5TVKQ4MGZFXE3B09JT",
+      "source_type": "fireflies",
+      "date": "2026-06-29",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KW9Q6R5TVKQ4MGZFXE3B09JT/arrangeasigningmeetingwithmartinatwework",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-07-06",
+      "status": "open"
+    },
+    {
+      "text": "Bring forward company relocation tax-optimization options (e.g. Estonia, Bulgaria, Hong Kong) to management for discussion",
+      "project": "leadership",
+      "source": "fireflies/01KW9Q6R5TVKQ4MGZFXE3B09JT",
+      "source_type": "fireflies",
+      "date": "2026-06-29",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KW9Q6R5TVKQ4MGZFXE3B09JT/bringforwardcompanyrelocationtaxoptimiza",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-07-06",
+      "status": "open"
+    },
+    {
+      "text": "Approve Martin Bernard's Google Drive access request for the \"Pliant_Tribe\" document (Blake is the doc owner)",
+      "project": "legal",
+      "source": "gmail/19f1c8c0d8b6e752",
+      "source_type": "gmail",
+      "date": "2026-07-01",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Share request for \"Pliant_Tribe\"",
+        "from": "drive-shares-dm-noreply@google.com (Martin Bernard requesting)"
+      },
+      "id": "gmail/19f1c8c0d8b6e752",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-07-06",
+      "status": "open"
+    },
+    {
+      "text": "Reply to Marina Nikolic on how to structure the onsite per-diem in the offer (separate line vs. added on top of salary)",
+      "project": "people-ops",
+      "source": "slack/D06SVD5RN8G/1783092840.295389",
+      "source_type": "slack",
+      "date": "2026-07-03",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM",
+        "from": "Marina Nikolic"
+      },
+      "id": "slack/D06SVD5RN8G/1783092840.295389",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-06",
+      "status": "open"
+    },
+    {
+      "text": "Investigate the Keboola project 855 configs flagged by the weekly spend check before the next run: unmapped config 01kvzgpgwh38awepha7eey08pe (runtime +937%, 115s->1,193s) and three newly-appearing configs (270972256 orchestrator, 270972036 ex-telemetry-data, 270973275 wr-storage)",
+      "project": "keboola-sunset",
+      "source": "cowork/local_d8b7d5a1-be3f-4f9a-961f-887b08eafe56",
+      "source_type": "cowork",
+      "date": "2026-07-04",
+      "confidence": "low",
+      "extras": {
+        "session_title": "Keboola spend check"
+      },
+      "id": "cowork/local_d8b7d5a1-be3f-4f9a-961f-887b08eafe56/investigatethekeboolaproject855configsfl",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-07-04",
       "last_seen": "2026-07-06",
       "status": "open"
     }
