@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-06",
   "schema_version": 2,
-  "total": 352,
+  "total": 367,
   "projects": [
     {
       "id": "fin-dash",
@@ -5850,6 +5850,251 @@
       "id": "cowork/local_d8b7d5a1-be3f-4f9a-961f-887b08eafe56/investigatethekeboolaproject855configsfl",
       "project_name": "Keboola migration / sunset",
       "first_seen": "2026-07-04",
+      "last_seen": "2026-07-06",
+      "status": "open"
+    },
+    {
+      "text": "Assist Ella with gating and embedding the engagement survey dashboard into the tribe dashboard with role-based access control",
+      "project": "fin-dash",
+      "source": "fireflies/01KWVPFKQ6V8XR3F3YE56TS23T",
+      "source_type": "fireflies",
+      "date": "2026-07-06",
+      "confidence": 0.9,
+      "extras": {
+        "meeting_title": "Claude: Master Sessions"
+      },
+      "id": "fireflies/01KWVPFKQ6V8XR3F3YE56TS23T/assistellawithgatingandembeddingtheengag",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-06",
+      "status": "open"
+    },
+    {
+      "text": "Set up a rotating schedule for team members to present work or improvements in future Claude sessions",
+      "project": "ai-first-working-group",
+      "source": "fireflies/01KWVPFKQ6V8XR3F3YE56TS23T",
+      "source_type": "fireflies",
+      "date": "2026-07-06",
+      "confidence": 0.85,
+      "extras": {
+        "meeting_title": "Claude: Master Sessions"
+      },
+      "id": "fireflies/01KWVPFKQ6V8XR3F3YE56TS23T/setuparotatingscheduleforteammemberstopr",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-06",
+      "status": "open"
+    },
+    {
+      "text": "Verify the signature status and confirm the validity of the India statement of work documents",
+      "project": "legal",
+      "source": "fireflies/01KWVH9B05SFEGA3MA8GNBQ9WW",
+      "source_type": "fireflies",
+      "date": "2026-07-06",
+      "confidence": 0.88,
+      "extras": {
+        "meeting_title": "Kris / blake"
+      },
+      "id": "fireflies/01KWVH9B05SFEGA3MA8GNBQ9WW/verifythesignaturestatusandconfirmtheval",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-06",
+      "status": "open"
+    },
+    {
+      "text": "Engage the legal team to review the contract and prepare to address client pushback on the $4,500 conversion fee invoice for Caitlin",
+      "project": "legal",
+      "source": "fireflies/01KWVH9B05SFEGA3MA8GNBQ9WW",
+      "source_type": "fireflies",
+      "date": "2026-07-06",
+      "confidence": 0.9,
+      "extras": {
+        "meeting_title": "Kris / blake"
+      },
+      "id": "fireflies/01KWVH9B05SFEGA3MA8GNBQ9WW/engagethelegalteamtoreviewthecontractand",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-06",
+      "status": "open"
+    },
+    {
+      "text": "Double-check data discrepancies between the monthly and WBR/VBR sheets, specifically Aviva figures and missing individuals like Irina",
+      "project": "wbr-mbr",
+      "source": "fireflies/01KWVAGBQ18BQ3ZM6C69YYXSMD",
+      "source_type": "fireflies",
+      "date": "2026-07-06",
+      "confidence": 0.85,
+      "extras": {
+        "meeting_title": "MBR"
+      },
+      "id": "fireflies/01KWVAGBQ18BQ3ZM6C69YYXSMD/doublecheckdatadiscrepanciesbetweenthemo",
+      "project_name": "WBR / MBR",
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-06",
+      "status": "open"
+    },
+    {
+      "text": "Explore the feasibility of adding music at the start of Friday meetings to enhance engagement as suggested in surveys",
+      "project": "team-cohesion",
+      "source": "fireflies/01KWVAGBQ18BQ3ZM6C69YYXSMD",
+      "source_type": "fireflies",
+      "date": "2026-07-06",
+      "confidence": 0.7,
+      "extras": {
+        "meeting_title": "MBR"
+      },
+      "id": "fireflies/01KWVAGBQ18BQ3ZM6C69YYXSMD/explorethefeasibilityofaddingmusicatthes",
+      "project_name": "Team cohesion",
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-06",
+      "status": "open"
+    },
+    {
+      "text": "Review/edit the Wolt consulting agreement and Statement of Work template Kristjana shared (Tribe _ Wolt consulting agreement inc. Per Marketeer .docx) along with the related MSA/NDA templates",
+      "project": "legal",
+      "source": "gmail/19f37215e8f1d0ac",
+      "source_type": "gmail",
+      "date": "2026-07-06",
+      "confidence": 0.75,
+      "extras": {
+        "subject": "Fwd: Templates - MSA/NDA",
+        "from": "kristjana@tribe.xyz"
+      },
+      "id": "gmail/19f37215e8f1d0ac",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-06",
+      "status": "open"
+    },
+    {
+      "text": "Prepare for the upcoming call with Boris Gnoth on team-trip tax deductibility alternatives and a potential Tribe Czech company relocation (e.g. Estonia 0% retained-profit tax) - Boris will send a call invite next week",
+      "project": "legal",
+      "source": "gmail/19f176a6289de579",
+      "source_type": "gmail",
+      "date": "2026-06-30",
+      "confidence": 0.7,
+      "extras": {
+        "subject": "Re: Two Topics",
+        "from": "boris@borisgnoth.cz"
+      },
+      "id": "gmail/19f176a6289de579",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-07-06",
+      "status": "open"
+    },
+    {
+      "text": "Kick off (restart) sourcing for the Djordy/Vista role - re-contact the people already contacted, as Martin asked in the Reaktor group DM after the pipeline stalled",
+      "project": "ai-recruiting",
+      "source": "slack/C0BDY349FHV/1783346130.221419",
+      "source_type": "slack",
+      "date": "2026-07-06",
+      "confidence": 0.85,
+      "extras": {
+        "channel": "Reaktor/Vista group DM (C0BDY349FHV)",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/C0BDY349FHV/1783346130.221419",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-06",
+      "status": "open"
+    },
+    {
+      "text": "Resolve the Wolt/Deliveroo (Kathleen) invoicing question: Kristjana wants to invoice the full 55k USD contract fee - raise it with Martin in the 1:1 and get the lawyers to check whether the MSA/SOW covers her (hired via Deliveroo, only India-team SOW attached) before invoicing",
+      "project": "legal",
+      "source": "slack/D059MAFUJR0/1783334250.496159",
+      "source_type": "slack",
+      "date": "2026-07-06",
+      "confidence": 0.8,
+      "extras": {
+        "channel": "DM with Kristjana Thorarinsdottir (D059MAFUJR0)",
+        "from": "Kristjana Thorarinsdottir"
+      },
+      "id": "slack/D059MAFUJR0/1783334250.496159",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-06",
+      "status": "open"
+    },
+    {
+      "text": "Review and action Rodrigo Gomes's request to install the 'Sourcing Lab' Slack app on the TRIBE.XYZ workspace (approve or deny as workspace admin)",
+      "project": "inbox",
+      "source": "slack/D0B94H3QU3G/1782904720.664949",
+      "source_type": "slack",
+      "date": "2026-07-01",
+      "confidence": 0.6,
+      "extras": {
+        "channel": "Slackbot app-approval DM (D0B94H3QU3G)",
+        "from": "Rodrigo Gomes (via Slack)"
+      },
+      "id": "slack/D0B94H3QU3G/1782904720.664949",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-07-06",
+      "status": "open"
+    },
+    {
+      "text": "Decide whether to ship the MBR target-list rebuild (fixes 18 stale/drifted targets like Aiven Fuad Safarov 0->50, Enam Aleksandra Vistac 30->70, and newly surfaces Iryna Dyda on Aviv) - currently validated in a scratch script only, not pushed; separately still need the leave-aware activity gate so people on leave (e.g. Milica) show without the manual injection",
+      "project": "wbr-mbr",
+      "source": "cowork/local_7f166515-d216-4d2e-ba31-a52916e8bd51",
+      "source_type": "cowork",
+      "date": "2026-07-06",
+      "confidence": 0.8,
+      "extras": {
+        "session_title": "Milica Mladzic dashboard issue"
+      },
+      "id": "cowork/local_7f166515-d216-4d2e-ba31-a52916e8bd51/decidewhethertoshipthembrtargetlistrebui",
+      "project_name": "WBR / MBR",
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-06",
+      "status": "open"
+    },
+    {
+      "text": "After relabeling the TS Weekly Note block to 2026W27, trigger the Keboola refresh now so week-27 roster populates and week-26 duplicates clear before the WBR meeting (verify afterward); also check the TA Weekly Note tab for the same off-by-one Wnn mislabel",
+      "project": "wbr-mbr",
+      "source": "cowork/local_2d358f02-9dc9-4cce-b6c8-d0f08b494d58",
+      "source_type": "cowork",
+      "date": "2026-07-06",
+      "confidence": 0.85,
+      "extras": {
+        "session_title": "Sourcing team WBR absence"
+      },
+      "id": "cowork/local_2d358f02-9dc9-4cce-b6c8-d0f08b494d58/afterrelabelingthetsweeklynoteblockto202",
+      "project_name": "WBR / MBR",
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-06",
+      "status": "open"
+    },
+    {
+      "text": "Update the monthly Sourcer Client Assignment runbook: the Keboola sourcer_activity table was decommissioned (fix the query template to rebuild from out.c-reporting-v2 base tables) and correct the runbook's target repo name (tribe-dashboard-project doesn't exist; use bark8922/tribe-dashboard)",
+      "project": "fin-dash",
+      "source": "cowork/local_6caa9e11-9748-401e-98e3-6fc1c676dff5",
+      "source_type": "cowork",
+      "date": "2026-07-06",
+      "confidence": 0.75,
+      "extras": {
+        "session_title": "Sourcer client assignment monthly"
+      },
+      "id": "cowork/local_6caa9e11-9748-401e-98e3-6fc1c676dff5/updatethemonthlysourcerclientassignmentr",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-06",
+      "status": "open"
+    },
+    {
+      "text": "Send the team the Q2 OKR performance summary and communicate the Q3 goals early this week (per Fri Jul 3 OKR meeting); ensure all Q2 OKRs are scored/closed in Lattice",
+      "project": "okrs",
+      "source": "cowork/local_5f088872-8442-4572-9906-1d1d4aed7da9",
+      "source_type": "cowork",
+      "date": "2026-07-06",
+      "confidence": 0.8,
+      "extras": {
+        "session_title": "Friday R meeting recap"
+      },
+      "id": "cowork/local_5f088872-8442-4572-9906-1d1d4aed7da9/sendtheteamtheq2okrperformancesummaryand",
+      "project_name": "OKRs",
+      "first_seen": "2026-07-06",
       "last_seen": "2026-07-06",
       "status": "open"
     }
