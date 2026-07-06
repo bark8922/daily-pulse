@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-03",
+  "generated_at": "2026-07-06",
   "total_workflows": 62,
-  "active_workflows": 52,
-  "inactive_workflows": 10,
+  "active_workflows": 51,
+  "inactive_workflows": 11,
   "groups": [
     {
       "name": "Tribe Financial Dashboard",
@@ -11,41 +11,41 @@
           "id": "HmvV5V57s9a85wdG",
           "name": "Abra PSIs",
           "active": true,
-          "last_run": "2026-06-03T23:00:19Z",
+          "last_run": "2026-07-03T23:00Z",
           "status": "success",
-          "schedule_hint": "scheduled",
-          "stale": true,
-          "unknown": false
+          "unknown": false,
+          "stale": false,
+          "schedule_hint": "scheduled"
         },
         {
           "id": "bhwmdAo1yzgOtoxW",
           "name": "Tribe Dashboard - Actual Spend Export Github node",
           "active": true,
-          "last_run": "2026-07-03T07:00:57Z",
+          "last_run": "2026-07-06T07:00Z",
           "status": "success",
-          "schedule_hint": "webhook",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "webhook"
         },
         {
           "id": "uwHyVvQHgQQ5vEC5",
-          "name": "LinkedIn License -> Actual Spend",
+          "name": "LinkedIn License → Actual Spend",
           "active": true,
           "last_run": null,
           "status": null,
-          "schedule_hint": "scheduled",
+          "unknown": true,
           "stale": false,
-          "unknown": true
+          "schedule_hint": "webhook"
         },
         {
           "id": "YKj5VwKD7NoPkpHy",
           "name": "Tribe Dashboard - Trigger Cloud Refresh",
           "active": true,
-          "last_run": "2026-07-03T07:00:29Z",
+          "last_run": "2026-07-06T07:00Z",
           "status": "success",
-          "schedule_hint": "Daily 09:00 CET",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "Daily 09:00"
         },
         {
           "id": "qjrsNXLJ9mwmZlWr",
@@ -53,95 +53,89 @@
           "active": false,
           "last_run": null,
           "status": null,
-          "schedule_hint": "one-off"
+          "unknown": false,
+          "stale": false,
+          "schedule_hint": null
         },
         {
           "id": "bnUfMSYAdaZ2PZJl",
           "name": "Tribe Dashboard - Revenue Per Tribster Export Github node",
           "active": true,
-          "last_run": "2026-07-03T07:00:54Z",
+          "last_run": "2026-07-06T07:00Z",
           "status": "success",
-          "schedule_hint": "webhook",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "webhook"
         },
         {
           "id": "JTy18XJxV8zFHFDc",
           "name": "BambooHR Lists Tab Sync v2 (Revenue Per Tribster)",
           "active": true,
-          "last_run": "2026-06-29T05:00:21Z",
+          "last_run": "2026-07-06T05:00Z",
           "status": "success",
-          "schedule_hint": "Weekly Mon 7AM",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "Weekly Mon 07:00"
         },
         {
           "id": "5kSICBdfXLnILBbN",
           "name": "Tribe Dashboard - BambooHR Time Off Export",
           "active": true,
-          "last_run": "2026-07-03T04:00:33Z",
+          "last_run": "2026-07-06T04:00Z",
           "status": "success",
-          "schedule_hint": "Daily 6:00 AM",
+          "unknown": false,
           "stale": false,
-          "unknown": false
-        },
-        {
-          "id": "CD5etFd5p3IKNjag",
-          "name": "Tribe Dashboard - Sourcer Client Assignment Append",
-          "active": true,
-          "last_run": null,
-          "status": null,
-          "schedule_hint": "POST webhook",
-          "stale": false,
-          "unknown": true
+          "schedule_hint": "Daily 06:00"
         },
         {
           "id": "ZljXFVCfAGbxL7WS",
           "name": "Tribe Dashboard - Actual Spend Export",
           "active": false,
-          "last_run": "2026-06-10T04:05:18Z",
+          "last_run": "2026-06-10T04:05Z",
           "status": "success",
+          "unknown": false,
+          "stale": false,
           "schedule_hint": null
         },
         {
           "id": "j8PO64EomPrI9q4X",
           "name": "Tribe Dashboard - BambooHR Salary History Export",
           "active": true,
-          "last_run": "2026-07-03T04:10:03Z",
+          "last_run": "2026-07-06T04:10Z",
           "status": "success",
-          "schedule_hint": "scheduled",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "scheduled"
         },
         {
           "id": "eCacgaeZJYYewIeM",
           "name": "Tribe Dashboard - Revenue Per Tribster Export",
           "active": true,
-          "last_run": "2026-07-03T04:00:23Z",
+          "last_run": "2026-07-06T04:00Z",
           "status": "success",
-          "schedule_hint": "scheduled",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "scheduled"
         },
         {
           "id": "j1jRjoq42dZAb8D6",
           "name": "Tribe Dashboard - BambooHR Job History Export",
           "active": true,
-          "last_run": "2026-07-03T04:15:27Z",
+          "last_run": "2026-07-06T04:15Z",
           "status": "success",
-          "schedule_hint": "scheduled",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "scheduled"
         },
         {
           "id": "CNH3g3ByHzx4onik",
           "name": "BambooHR - Monthly Employer True Cost",
           "active": true,
-          "last_run": "2026-07-03T06:00:05Z",
+          "last_run": "2026-07-06T06:00Z",
           "status": "success",
-          "schedule_hint": "Monthly",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "scheduled"
         }
       ]
     },
@@ -149,22 +143,44 @@
       "name": "Tribe Recruiting Dashboard",
       "workflows": [
         {
+          "id": "TsqbstEASyyp5o5Z",
+          "name": "Recruiting Dashboard Deploy Health Monitor",
+          "active": false,
+          "last_run": "2026-06-19T11:57Z",
+          "status": "error",
+          "unknown": false,
+          "stale": false,
+          "schedule_hint": "Daily 09:00"
+        },
+        {
           "id": "WCE150aHwZroiloK",
           "name": "Roles Roundup, Friday DM",
           "active": false,
           "last_run": null,
           "status": null,
-          "schedule_hint": null
+          "unknown": false,
+          "stale": false,
+          "schedule_hint": "Fri 12:00 + 4x daily"
+        },
+        {
+          "id": "CD5etFd5p3IKNjag",
+          "name": "Tribe Dashboard - Sourcer Client Assignment Append",
+          "active": true,
+          "last_run": null,
+          "status": null,
+          "unknown": true,
+          "stale": false,
+          "schedule_hint": "webhook"
         },
         {
           "id": "J3ozkqULC5ZywR6y",
           "name": "Inactive Jobs Sync",
           "active": true,
-          "last_run": "2026-07-03T05:00:33Z",
+          "last_run": "2026-07-06T05:00Z",
           "status": "success",
-          "schedule_hint": "Daily",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "Daily"
         },
         {
           "id": "UzQPu4UnZwFJaoB0",
@@ -172,6 +188,8 @@
           "active": false,
           "last_run": null,
           "status": null,
+          "unknown": false,
+          "stale": false,
           "schedule_hint": null
         }
       ]
@@ -180,94 +198,124 @@
       "name": "Expense Ops",
       "workflows": [
         {
-          "id": "V9mGGhk3E4qbOgqd",
-          "name": "Invoice PDF Parser",
+          "id": "d5fvPUxKFWkgwBkd",
+          "name": "Intercompany Invoice Generator",
           "active": true,
-          "last_run": "2026-07-02T15:30:26Z",
+          "last_run": "2026-07-03T12:48Z",
           "status": "success",
-          "schedule_hint": "scheduled",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "scheduled"
+        },
+        {
+          "id": "HLcKYyZ8R0cBfwdu",
+          "name": "AI Shadow Categorizer",
+          "active": true,
+          "last_run": "2026-07-06T06:00Z",
+          "status": "success",
+          "unknown": false,
+          "stale": false,
+          "schedule_hint": "Daily 08:00"
         },
         {
           "id": "r9PgkkLdq1NibwY4",
           "name": "Receipts Workflow",
           "active": true,
-          "last_run": "2026-07-03T06:00:25Z",
+          "last_run": "2026-07-06T06:00Z",
           "status": "success",
-          "schedule_hint": "Every 2h",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "Every 2h"
+        },
+        {
+          "id": "V9mGGhk3E4qbOgqd",
+          "name": "Invoice PDF Parser",
+          "active": true,
+          "last_run": "2026-07-05T15:30Z",
+          "status": "success",
+          "unknown": false,
+          "stale": false,
+          "schedule_hint": "scheduled"
         },
         {
           "id": "AMaCy64EbYWtMScc",
           "name": "Revolut Draft Payments",
           "active": true,
-          "last_run": "2026-06-09T08:39:30Z",
+          "last_run": "2026-06-09T08:39Z",
           "status": "success",
-          "schedule_hint": "webhook",
+          "unknown": false,
           "stale": true,
-          "unknown": false
+          "schedule_hint": "webhook"
         },
         {
           "id": "xsDfOTWboUFRSWZ3",
           "name": "Categorization Approval Queue",
           "active": true,
-          "last_run": "2026-07-03T07:00:40Z",
+          "last_run": "2026-07-06T07:13Z",
           "status": "success",
-          "schedule_hint": "Daily 9am",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "Daily 09:00"
         },
         {
-          "id": "d5fvPUxKFWkgwBkd",
-          "name": "Intercompany Invoice Generator",
+          "id": "hM5ZKePkVDGXkrMb",
+          "name": "Weekly Receipt + Category Nudge",
           "active": true,
-          "last_run": "2026-06-04T22:00:46Z",
-          "status": "error",
-          "schedule_hint": "scheduled",
-          "stale": true,
-          "unknown": false
+          "last_run": "2026-07-06T07:00Z",
+          "status": "success",
+          "unknown": false,
+          "stale": false,
+          "schedule_hint": "Weekly Mon 09:00"
         },
         {
           "id": "J2MKrwpeuJQIcKJh",
           "name": "Invoice to Gdrive - Forward to Boris - Mark as read",
           "active": true,
-          "last_run": "2026-07-02T15:00:43Z",
+          "last_run": "2026-07-05T15:00Z",
           "status": "success",
-          "schedule_hint": "scheduled",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "scheduled"
         },
         {
           "id": "mN1F07qrQlWqBohj",
           "name": "Revolut Monthly Transactions Categorization",
-          "active": true,
-          "last_run": "2026-07-02T06:00:42Z",
+          "active": false,
+          "last_run": "2026-07-02T06:00Z",
           "status": "success",
-          "schedule_hint": "Monthly",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": null
+        },
+        {
+          "id": "REdHPq3VPITm9YOh",
+          "name": "IC - HoldCo",
+          "active": false,
+          "last_run": null,
+          "status": null,
+          "unknown": false,
+          "stale": false,
+          "schedule_hint": null
         },
         {
           "id": "FFZwI786kl2a3VUL",
           "name": "Revolut Draft Payment Approver v2 (rate-limit safe)",
           "active": true,
-          "last_run": "2026-06-10T06:40:51Z",
+          "last_run": "2026-06-10T06:40Z",
           "status": "success",
-          "schedule_hint": "webhook",
+          "unknown": false,
           "stale": true,
-          "unknown": false
+          "schedule_hint": "webhook"
         },
         {
           "id": "WnEP7gAes4B5KVgZ",
           "name": "Revolut Payment Reconciliation Check",
           "active": true,
-          "last_run": "2026-06-09T08:40:18Z",
+          "last_run": "2026-06-09T08:40Z",
           "status": "success",
-          "schedule_hint": "scheduled",
+          "unknown": false,
           "stale": true,
-          "unknown": false
+          "schedule_hint": "webhook"
         },
         {
           "id": "doLlKKUH3Irctfqe",
@@ -275,19 +323,19 @@
           "active": true,
           "last_run": null,
           "status": null,
-          "schedule_hint": "webhook",
+          "unknown": true,
           "stale": false,
-          "unknown": true
+          "schedule_hint": "webhook"
         },
         {
           "id": "Ifibst3gr2DtOJ1K",
           "name": "PDF Parser - Vendor Mapping",
           "active": true,
-          "last_run": "2026-07-02T12:00:20Z",
+          "last_run": "2026-07-05T12:00Z",
           "status": "success",
-          "schedule_hint": "Daily",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "Daily 12:00"
         },
         {
           "id": "IHP5kGDe6YDhh51o",
@@ -295,7 +343,19 @@
           "active": false,
           "last_run": null,
           "status": null,
+          "unknown": false,
+          "stale": false,
           "schedule_hint": null
+        },
+        {
+          "id": "1l6n6UmHs4zjXZ7C",
+          "name": "Monthly Receipt Folder Pre-Provisioner",
+          "active": true,
+          "last_run": "2026-06-28T05:00Z",
+          "status": "success",
+          "unknown": false,
+          "stale": true,
+          "schedule_hint": "scheduled"
         }
       ]
     },
@@ -306,81 +366,81 @@
           "id": "yMBOkW5FR5d0oHbm",
           "name": "Post-Meeting Intelligence Brief",
           "active": true,
-          "last_run": "2026-07-01T11:10:01Z",
+          "last_run": "2026-07-03T14:08Z",
           "status": "success",
-          "schedule_hint": "webhook (post-meeting)",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "webhook"
         },
         {
           "id": "4nLIRMKVZeFanX2z",
           "name": "Director Meeting Message",
           "active": true,
-          "last_run": "2026-06-30T09:00:51Z",
+          "last_run": "2026-06-30T09:00Z",
           "status": "success",
-          "schedule_hint": "scheduled",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "scheduled"
         },
         {
           "id": "j5QsaTUpk4Nk1xhn",
           "name": "WBR Google Sheet Sync",
           "active": true,
-          "last_run": "2026-07-03T07:00:04Z",
+          "last_run": "2026-07-06T07:00Z",
           "status": "success",
-          "schedule_hint": "scheduled",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "Every 2-3h"
         },
         {
           "id": "9NNA4Iq1yZaxHWSa",
           "name": "Friday Meeting Workflow",
           "active": true,
-          "last_run": "2026-06-29T08:00:38Z",
+          "last_run": "2026-06-29T08:00Z",
           "status": "success",
-          "schedule_hint": "Weekly Fri",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "scheduled"
         },
         {
           "id": "V4pMTs4sDreysMWz",
           "name": "Copy Friday Meeting Transcripts to Onyx Folder",
           "active": true,
-          "last_run": "2026-06-29T06:00:26Z",
+          "last_run": "2026-07-06T06:00Z",
           "status": "success",
-          "schedule_hint": "scheduled",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "scheduled"
         },
         {
           "id": "GgPh9Hmviq1AlnNJ",
           "name": "Friday Meeting Summary from Fireflies",
           "active": true,
-          "last_run": "2026-06-29T08:20:53Z",
+          "last_run": "2026-06-29T08:20Z",
           "status": "success",
-          "schedule_hint": "Weekly Fri",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "scheduled"
         },
         {
           "id": "FvPKWmJ6U8ZN7krp",
           "name": "Friday Meeting Leads",
           "active": true,
-          "last_run": "2026-06-29T12:50:09Z",
+          "last_run": "2026-06-29T12:50Z",
           "status": "success",
-          "schedule_hint": "Weekly Fri",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "scheduled"
         },
         {
           "id": "7HEIDu8blrq0mbMp",
           "name": "TL meeting rotation",
           "active": true,
-          "last_run": "2026-06-29T08:00:46Z",
+          "last_run": "2026-06-29T08:00Z",
           "status": "success",
-          "schedule_hint": "scheduled",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "scheduled"
         }
       ]
     },
@@ -391,41 +451,41 @@
           "id": "cYjt8gjoIawG3oQO",
           "name": "Days Off ES and CZ plus Email copy",
           "active": true,
-          "last_run": "2026-06-25T22:00:44Z",
-          "status": "error",
-          "schedule_hint": "Daily",
-          "stale": true,
-          "unknown": false
+          "last_run": "2026-07-03T07:36Z",
+          "status": "success",
+          "unknown": false,
+          "stale": false,
+          "schedule_hint": "scheduled"
         },
         {
           "id": "EJRGGNZPpAEsV87f",
-          "name": "BambooHR -> Onyx Employee Directory Sync",
+          "name": "BambooHR → Onyx Employee Directory Sync",
           "active": true,
-          "last_run": "2026-06-29T05:00:47Z",
+          "last_run": "2026-07-06T05:00Z",
           "status": "success",
-          "schedule_hint": "scheduled",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "scheduled"
         },
         {
           "id": "yb3IkskK5gZBY91B",
-          "name": "Weekly Time-Off Digest (BambooHR -> Slack Directors Channel)",
+          "name": "Weekly Time-Off Digest (BambooHR → Slack Directors Channel)",
           "active": true,
-          "last_run": "2026-06-29T08:00:44Z",
+          "last_run": "2026-06-29T08:00Z",
           "status": "success",
-          "schedule_hint": "Weekly Mon 10:00",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "Weekly Mon 10:00"
         },
         {
           "id": "pkpE004Zwg6Nu89B",
           "name": "Birthday Bot",
           "active": true,
-          "last_run": "2026-07-03T07:00:44Z",
+          "last_run": "2026-07-06T07:00Z",
           "status": "success",
-          "schedule_hint": "Daily",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "scheduled"
         }
       ]
     },
@@ -434,33 +494,33 @@
       "workflows": [
         {
           "id": "t2SGC34cd346WsRk",
-          "name": "Tribe Pokedex - Slack to Notion (Polling)",
+          "name": "Tribe Pokédex — Slack to Notion (Polling)",
           "active": true,
-          "last_run": "2026-07-03T07:27:00Z",
+          "last_run": "2026-07-06T07:12Z",
           "status": "success",
-          "schedule_hint": "Every 3m (polling)",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "Every 3m"
         },
         {
           "id": "Q00gPjVPhO3NXuNf",
-          "name": "Tribe Pokedex - Delete Card",
+          "name": "Tribe Pokédex — Delete Card",
           "active": true,
           "last_run": null,
           "status": null,
-          "schedule_hint": "webhook",
+          "unknown": true,
           "stale": false,
-          "unknown": true
+          "schedule_hint": "webhook"
         },
         {
           "id": "YalaEobGHf5ICE60",
-          "name": "Tribe Pokedex - API Proxy",
+          "name": "Tribe Pokédex — API Proxy",
           "active": true,
-          "last_run": "2026-06-05T11:11:07Z",
-          "status": "success",
-          "schedule_hint": "webhook",
-          "stale": true,
-          "unknown": false
+          "last_run": null,
+          "status": null,
+          "unknown": true,
+          "stale": false,
+          "schedule_hint": "webhook"
         }
       ]
     },
@@ -471,11 +531,11 @@
           "id": "reqIfjyJlqe8NJjs",
           "name": "LinkedIn License Request Manager",
           "active": true,
-          "last_run": "2026-07-03T04:00:00Z",
+          "last_run": "2026-07-06T07:00Z",
           "status": "success",
-          "schedule_hint": "scheduled",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "scheduled"
         }
       ]
     },
@@ -483,60 +543,24 @@
       "name": "Email forwarders / utilities",
       "workflows": [
         {
-          "id": "TsqbstEASyyp5o5Z",
-          "name": "Recruiting Dashboard Deploy Health Monitor",
-          "active": false,
-          "last_run": "2026-06-19T11:57:48Z",
-          "status": "error",
-          "schedule_hint": "Daily 9am"
-        },
-        {
           "id": "d8BYr0YddMNAg1bt",
           "name": "Daily Pulse Sync",
           "active": true,
-          "last_run": "2026-06-30T07:11:49Z",
+          "last_run": "2026-06-30T07:11Z",
           "status": "success",
-          "schedule_hint": "webhook",
+          "unknown": false,
           "stale": false,
-          "unknown": false
-        },
-        {
-          "id": "HLcKYyZ8R0cBfwdu",
-          "name": "AI Shadow Categorizer",
-          "active": true,
-          "last_run": "2026-07-03T06:00:47Z",
-          "status": "success",
-          "schedule_hint": "Daily 8am",
-          "stale": false,
-          "unknown": false
-        },
-        {
-          "id": "hM5ZKePkVDGXkrMb",
-          "name": "Weekly Receipt + Category Nudge",
-          "active": true,
-          "last_run": "2026-06-29T07:00:48Z",
-          "status": "success",
-          "schedule_hint": "Weekly Mon 9am",
-          "stale": false,
-          "unknown": false
-        },
-        {
-          "id": "REdHPq3VPITm9YOh",
-          "name": "IC - HoldCo",
-          "active": false,
-          "last_run": null,
-          "status": null,
-          "schedule_hint": null
+          "schedule_hint": "webhook"
         },
         {
           "id": "A0WAWo4Vd5iXJxss",
           "name": "Forward from Apix email",
           "active": true,
-          "last_run": "2026-07-03T03:45:26Z",
+          "last_run": "2026-07-06T03:15Z",
           "status": "success",
-          "schedule_hint": "scheduled",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "Every 15-30m"
         },
         {
           "id": "QNoU9r3eEvYmEHFT",
@@ -544,39 +568,29 @@
           "active": true,
           "last_run": null,
           "status": null,
-          "schedule_hint": "scheduled",
+          "unknown": true,
           "stale": false,
-          "unknown": true
+          "schedule_hint": "webhook"
         },
         {
           "id": "EbjHRmcODymjfx7X",
           "name": "Check Personal Email Bot",
           "active": true,
-          "last_run": "2026-07-03T07:00:00Z",
+          "last_run": "2026-07-06T07:00Z",
           "status": "success",
-          "schedule_hint": "Hourly",
+          "unknown": false,
           "stale": false,
-          "unknown": false
+          "schedule_hint": "Hourly"
         },
         {
           "id": "zOQIg24OnIcbGGm5",
-          "name": "CoS Weekly Log - Write Row",
+          "name": "CoS Weekly Log — Write Row",
           "active": true,
-          "last_run": "2026-06-29T07:57:56Z",
+          "last_run": "2026-07-06T07:12Z",
           "status": "success",
-          "schedule_hint": "webhook",
+          "unknown": false,
           "stale": false,
-          "unknown": false
-        },
-        {
-          "id": "1l6n6UmHs4zjXZ7C",
-          "name": "Monthly Receipt Folder Pre-Provisioner",
-          "active": true,
-          "last_run": "2026-06-28T05:00:00Z",
-          "status": "success",
-          "schedule_hint": "Monthly",
-          "stale": false,
-          "unknown": false
+          "schedule_hint": "scheduled"
         },
         {
           "id": "Xrv457gYc4yUtvZt",
@@ -584,9 +598,9 @@
           "active": true,
           "last_run": null,
           "status": null,
-          "schedule_hint": "scheduled",
+          "unknown": true,
           "stale": false,
-          "unknown": true
+          "schedule_hint": "scheduled"
         },
         {
           "id": "8PW5GEV1I4Jn80rQ",
@@ -594,9 +608,9 @@
           "active": true,
           "last_run": null,
           "status": null,
-          "schedule_hint": "error trigger",
+          "unknown": true,
           "stale": false,
-          "unknown": true
+          "schedule_hint": "error trigger"
         },
         {
           "id": "jOPWj4Q72sFWAX8x",
@@ -604,19 +618,19 @@
           "active": true,
           "last_run": null,
           "status": null,
-          "schedule_hint": "webhook",
+          "unknown": true,
           "stale": false,
-          "unknown": true
+          "schedule_hint": "webhook"
         },
         {
           "id": "j6isqEXvykzIJkyn",
           "name": "Update Project hub reminder",
           "active": true,
-          "last_run": "2026-06-23T08:00:44Z",
+          "last_run": "2026-06-23T08:00Z",
           "status": "success",
-          "schedule_hint": "scheduled",
+          "unknown": false,
           "stale": true,
-          "unknown": false
+          "schedule_hint": "scheduled"
         },
         {
           "id": "Yyw4ZbpDnBR20c4O",
@@ -624,6 +638,8 @@
           "active": false,
           "last_run": null,
           "status": null,
+          "unknown": false,
+          "stale": false,
           "schedule_hint": null
         },
         {
@@ -632,6 +648,8 @@
           "active": false,
           "last_run": null,
           "status": null,
+          "unknown": false,
+          "stale": false,
           "schedule_hint": null
         },
         {
@@ -640,6 +658,8 @@
           "active": false,
           "last_run": null,
           "status": null,
+          "unknown": false,
+          "stale": false,
           "schedule_hint": null
         }
       ]
