@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-03",
+  "generated_at": "2026-07-06",
   "schema_version": 2,
-  "total": 344,
+  "total": 346,
   "projects": [
     {
       "id": "fin-dash",
@@ -5719,6 +5719,40 @@
       "project_name": "recruiting-dashboard",
       "first_seen": "2026-06-30",
       "last_seen": "2026-07-03",
+      "status": "open"
+    },
+    {
+      "text": "Process/pay Tina Aramouni's June 2026 Talent Acquisition Partner invoice (PDF attached, cc accounting)",
+      "project": "expense-ops",
+      "source": "gmail/19f2c80e70919a83",
+      "source_type": "gmail",
+      "date": "2026-07-04",
+      "confidence": "high",
+      "extras": {
+        "subject": "Tina Abdul Karim Invoice June 2026",
+        "from": "tina.aramouni@hotmail.com"
+      },
+      "id": "gmail/19f2c80e70919a83",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-04",
+      "last_seen": "2026-07-06",
+      "status": "open"
+    },
+    {
+      "text": "Process/pay Adelya Khakimova's June 2026 Talent Acquisition Partner invoice (PDF attached, cc accounting)",
+      "project": "expense-ops",
+      "source": "gmail/19f288196fd761e9",
+      "source_type": "gmail",
+      "date": "2026-07-03",
+      "confidence": "high",
+      "extras": {
+        "subject": "Adelya invoice June'26",
+        "from": "adelya@tribe.xyz"
+      },
+      "id": "gmail/19f288196fd761e9",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-06",
       "status": "open"
     }
   ]
