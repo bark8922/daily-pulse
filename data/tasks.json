@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-07",
   "schema_version": 2,
-  "total": 370,
+  "total": 389,
   "projects": [
     {
       "id": "fin-dash",
@@ -6145,6 +6145,315 @@
       "id": "cowork/local_b853da2f-81bf-4848-8111-e25df938a756/sendthepreparedonelinerslackdmtomartinwi",
       "project_name": "Leadership comms",
       "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "status": "open"
+    },
+    {
+      "text": "Review and analyze the current data collection system and hiring stage types to prepare for pipeline enhancement discussions with Mikael",
+      "project": "rec-dash",
+      "source": "fireflies/01KWYEFGBDF2ZXBYNVQT4A5R72",
+      "source_type": "fireflies",
+      "date": "2026-07-07",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Jacopo Lupo: OKRs Discussion"
+      },
+      "id": "fireflies/01KWYEFGBDF2ZXBYNVQT4A5R72/reviewandanalyzethecurrentdatacollection",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "status": "open"
+    },
+    {
+      "text": "Ensure analytic processes (Claude AI) can handle new or adjusted stages in the hiring funnel",
+      "project": "rec-dash",
+      "source": "fireflies/01KWYEFGBDF2ZXBYNVQT4A5R72",
+      "source_type": "fireflies",
+      "date": "2026-07-07",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Blake / Jacopo Lupo: OKRs Discussion"
+      },
+      "id": "fireflies/01KWYEFGBDF2ZXBYNVQT4A5R72/ensureanalyticprocessesclaudeaicanhandle",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "status": "open"
+    },
+    {
+      "text": "Attend Thursday 4:00-4:45 PM meeting with Mikael and Jacopo to define technical implementation and pipeline stage standardization",
+      "project": "rec-dash",
+      "source": "fireflies/01KWYEFGBDF2ZXBYNVQT4A5R72",
+      "source_type": "fireflies",
+      "date": "2026-07-07",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Jacopo Lupo: OKRs Discussion"
+      },
+      "id": "fireflies/01KWYEFGBDF2ZXBYNVQT4A5R72/attendthursday400445pmmeetingwithmikaela",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "status": "open"
+    },
+    {
+      "text": "Ensure finance review materials are updated and ready for tomorrow's meeting",
+      "project": "fin-dash",
+      "source": "fireflies/01KWYCB7NJ3H1EVJ3B1Q4YTVTF",
+      "source_type": "fireflies",
+      "date": "2026-07-07",
+      "confidence": "high",
+      "extras": {
+        "meeting": "People Operations - Tribe Team"
+      },
+      "id": "fireflies/01KWYCB7NJ3H1EVJ3B1Q4YTVTF/ensurefinancereviewmaterialsareupdatedan",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "status": "open"
+    },
+    {
+      "text": "Work with team and legal counsel to analyze the Vault master service agreement details and define next steps on the $55k fee dispute",
+      "project": "legal",
+      "source": "fireflies/01KWYCB7NJ3H1EVJ3B1Q4YTVTF",
+      "source_type": "fireflies",
+      "date": "2026-07-07",
+      "confidence": "high",
+      "extras": {
+        "meeting": "People Operations - Tribe Team"
+      },
+      "id": "fireflies/01KWYCB7NJ3H1EVJ3B1Q4YTVTF/workwithteamandlegalcounseltoanalyzethev",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "status": "open"
+    },
+    {
+      "text": "Reassign the LinkedIn recruiter seat for Alexandra's sourcing project",
+      "project": "linkedin",
+      "source": "fireflies/01KWY0AP0RE7NWNHNY4P6WFAVM",
+      "source_type": "fireflies",
+      "date": "2026-07-07",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Salem"
+      },
+      "id": "fireflies/01KWY0AP0RE7NWNHNY4P6WFAVM/reassignthelinkedinrecruiterseatforalexa",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "status": "open"
+    },
+    {
+      "text": "Approve and facilitate Salem's access to a LinkedIn Sales Navigator license",
+      "project": "linkedin",
+      "source": "fireflies/01KWY0AP0RE7NWNHNY4P6WFAVM",
+      "source_type": "fireflies",
+      "date": "2026-07-07",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Salem"
+      },
+      "id": "fireflies/01KWY0AP0RE7NWNHNY4P6WFAVM/approveandfacilitatesalemsaccesstoalinke",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "status": "open"
+    },
+    {
+      "text": "Work with accounting to remove or correct the mischarged restaurant expense on the business card",
+      "project": "expense-ops",
+      "source": "fireflies/01KWY0AP0RE7NWNHNY4P6WFAVM",
+      "source_type": "fireflies",
+      "date": "2026-07-07",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Salem"
+      },
+      "id": "fireflies/01KWY0AP0RE7NWNHNY4P6WFAVM/workwithaccountingtoremoveorcorrectthemi",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "status": "open"
+    },
+    {
+      "text": "Receive and forward Salem's submitted receipts and non-receipt charge list to the accountants for processing",
+      "project": "expense-ops",
+      "source": "fireflies/01KWY0AP0RE7NWNHNY4P6WFAVM",
+      "source_type": "fireflies",
+      "date": "2026-07-07",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Salem"
+      },
+      "id": "fireflies/01KWY0AP0RE7NWNHNY4P6WFAVM/receiveandforwardsalemssubmittedreceipts",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "status": "open"
+    },
+    {
+      "text": "Review the engagement data folder from Ella and determine the best hosting solution (evaluate GitHub for automatic monthly updates and integration)",
+      "project": "team-cohesion",
+      "source": "fireflies/01KWXWYHC1B5C3WVZM5JP4WDM8",
+      "source_type": "fireflies",
+      "date": "2026-07-07",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Ella 1:1"
+      },
+      "id": "fireflies/01KWXWYHC1B5C3WVZM5JP4WDM8/reviewtheengagementdatafolderfromellaand",
+      "project_name": "Team cohesion",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "status": "open"
+    },
+    {
+      "text": "Review the employee engagement survey file/folder from Ella and decide the best hosting approach (likely GitHub), then set it up",
+      "project": "team-cohesion",
+      "source": "gmail/19f3c3d6646c0da8",
+      "source_type": "gmail",
+      "date": "2026-07-07",
+      "confidence": "high",
+      "extras": {
+        "subject": "Your recent 1:1 with Ella",
+        "from": "notifications@mg.latticehq.com (action item from Ella 1:1)"
+      },
+      "id": "gmail/19f3c3d6646c0da8",
+      "project_name": "Team cohesion",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "status": "open"
+    },
+    {
+      "text": "Reply to Eva Huclova on the settlement of mutual receivables/payables between the Tribe entities and Martin (loans+interest, dividends, advances) - confirm her proposed bi-weekly meeting cadence starting July 16 and await the figures CEE Attorneys will use to prepare Martin's signing documents",
+      "project": "legal",
+      "source": "gmail/19f3c33bcc706404",
+      "source_type": "gmail",
+      "date": "2026-07-07",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Settlement of Receivables and Payables",
+        "from": "Eva Huclova <ehuclova@borisgnoth.cz>"
+      },
+      "id": "gmail/19f3c33bcc706404",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "status": "open"
+    },
+    {
+      "text": "Respond to Caroline Murphy's comment in the 'OKR Prep Q3 2026' Notion page re KR1 (5+ qualified conversations per director from marketing-sourced pipeline)",
+      "project": "okrs",
+      "source": "gmail/19f27bd62246cc06",
+      "source_type": "gmail",
+      "date": "2026-07-03",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Caroline Murphy commented in OKR Prep Q3 2026",
+        "from": "notify@mail.notion.so (Caroline Murphy)"
+      },
+      "id": "gmail/19f27bd62246cc06",
+      "project_name": "OKRs",
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-07",
+      "status": "open"
+    },
+    {
+      "text": "Help Ella Darie finish setting up the engagement-survey dashboard auto-update: get her GitHub account connected and her scheduled task linked to the project so the dashboard republishes to tribe-engagement.pages.dev monthly on its own - she asked to do it together during the POps meeting since she needs help",
+      "project": "team-cohesion",
+      "source": "slack/D05Q6UWSV8E/1783424168.557489",
+      "source_type": "slack",
+      "date": "2026-07-07",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Ella Darie",
+        "from": "Ella Darie"
+      },
+      "id": "slack/D05Q6UWSV8E/1783424168.557489",
+      "project_name": "Team cohesion",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "status": "open"
+    },
+    {
+      "text": "Add the finalized Q3 OKR wording into Lattice once departments tidy it up - Blake set the deadline as the next day (by Jul 7)",
+      "project": "okrs",
+      "source": "slack/C06RERFCAF6/1783333808.102979",
+      "source_type": "slack",
+      "date": "2026-07-06",
+      "confidence": "medium",
+      "extras": {
+        "channel": "okr-comms",
+        "from": "Blake Barkley"
+      },
+      "id": "slack/C06RERFCAF6/1783333808.102979",
+      "project_name": "OKRs",
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-07",
+      "status": "open"
+    },
+    {
+      "text": "Clear Marina Nikolic's (Emp #114) 'Move to Bench Date' (2026-07-01) cell in the Actual Spend sheet Revenue Forecast tab so Taxfix July stops showing 10k/0/100%, then trigger the manual n8n spend refresh to push the corrected ~75% margin live; optionally harden the pipeline to ignore a passed bench date when BambooHR still shows the person on a live client",
+      "project": "fin-dash",
+      "source": "cowork/local_2505636e-e9f5-4720-848b-424692aae95a",
+      "source_type": "cowork",
+      "date": "2026-07-07",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Taxfix July revenue direct costs"
+      },
+      "id": "cowork/local_2505636e-e9f5-4720-848b-424692aae95a/clearmarinanikolicsemp114movetobenchdate",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "status": "open"
+    },
+    {
+      "text": "Finish the engagement-survey dashboard cutover: hand Ella the updated publish block (StatiCrypt/password step removed, dashboard now Tribe login-gated with GitHub auto-deploy) to append to her monthly scheduled task, and get Michelle to embed the dashboard iframe on overview.tribe.xyz (the last remaining item); also regenerate the GitHub PAT that was pasted in plaintext",
+      "project": "team-cohesion",
+      "source": "cowork/local_b8f729fa-1726-4c03-9a0d-33f06bd60457",
+      "source_type": "cowork",
+      "date": "2026-07-07",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Tribe engagement survey deployment"
+      },
+      "id": "cowork/local_b8f729fa-1726-4c03-9a0d-33f06bd60457/finishtheengagementsurveydashboardcutove",
+      "project_name": "Team cohesion",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "status": "open"
+    },
+    {
+      "text": "Decide with Yoko how to add interview-round granularity to the recruiting funnel (new controlled values in the single stagesType funnel vs a separate 'interview round type' dimension), then clean up the stagesType enum (dedupe names, fix point_of_process ordering) and expand it so rounds between 'Moved to ATS' and Offer (HM, Technical/Case, Panel, Final) stop collapsing into one bucket; update the reporting SQL's hardcoded stage lists accordingly",
+      "project": "rec-dash",
+      "source": "cowork/local_89e12d9a-7afe-463f-bd7e-dc5d343a365b",
+      "source_type": "cowork",
+      "date": "2026-07-07",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Funnel stages data structure"
+      },
+      "id": "cowork/local_89e12d9a-7afe-463f-bd7e-dc5d343a365b/decidewithyokohowtoaddinterviewroundgran",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "status": "open"
+    },
+    {
+      "text": "Sign the Tribe Czech + Tribe Spain year-end documents at WeWork with Martin (keeps slipping; Blake to go Jul 7 and confirm done)",
+      "project": "legal",
+      "source": "cowork/local_aea59a9f-07f7-45b4-8149-c97c63d931b7",
+      "source_type": "cowork",
+      "date": "2026-07-06",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Meeting prep with Martin"
+      },
+      "id": "cowork/local_aea59a9f-07f7-45b4-8149-c97c63d931b7/signthetribeczechtribespainyearenddocume",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-06",
       "last_seen": "2026-07-07",
       "status": "open"
     }
