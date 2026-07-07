@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-06",
+  "generated_at": "2026-07-07",
   "schema_version": 2,
-  "total": 367,
+  "total": 370,
   "projects": [
     {
       "id": "fin-dash",
@@ -6096,6 +6096,56 @@
       "project_name": "OKRs",
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-06",
+      "status": "open"
+    },
+    {
+      "text": "Fix the failing 'pages build and deployment' GitHub Actions run on bark8922/daily-pulse (main, commit f383ab3)",
+      "project": "project-hub",
+      "source": "gmail/19f37dd929be8046",
+      "source_type": "gmail",
+      "date": "2026-07-06",
+      "confidence": 0.75,
+      "extras": {
+        "subject": "[bark8922/daily-pulse] Run failed: pages build and deployment - main (f383ab3)",
+        "from": "notifications@github.com"
+      },
+      "id": "gmail/19f37dd929be8046",
+      "project_name": "Project Hub",
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-07",
+      "status": "open"
+    },
+    {
+      "text": "Reach out to a senior Deliveroo contact (Head of TA or similar) to build the relationship and handle the Kathleen/Deliveroo conversion-fee situation instead of just invoicing - Martin wants to send them an email; find the right higher-up with Kristjana",
+      "project": "legal",
+      "source": "slack/C09VBMTP196/1783353997.507109",
+      "source_type": "slack",
+      "date": "2026-07-06",
+      "confidence": 0.72,
+      "extras": {
+        "channel": "C09VBMTP196",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/C09VBMTP196/1783353997.507109",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-07",
+      "status": "open"
+    },
+    {
+      "text": "Send the prepared one-liner Slack DM to Martin with the CoS Weekly Log link for the week of Jun 29 - Jul 5 (draft written, awaiting review, not yet sent)",
+      "project": "leadership",
+      "source": "cowork/local_b853da2f-81bf-4848-8111-e25df938a756",
+      "source_type": "cowork",
+      "date": "2026-07-07",
+      "confidence": 0.85,
+      "extras": {
+        "session": "CoS Weekly Log (week of Jun 29 - Jul 5)"
+      },
+      "id": "cowork/local_b853da2f-81bf-4848-8111-e25df938a756/sendthepreparedonelinerslackdmtomartinwi",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
       "status": "open"
     }
   ]
