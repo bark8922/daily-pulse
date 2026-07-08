@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-07",
+  "generated_at": "2026-07-08",
   "schema_version": 2,
-  "total": 389,
+  "total": 393,
   "projects": [
     {
       "id": "fin-dash",
@@ -6455,6 +6455,74 @@
       "project_name": "Legal & Contracts",
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-07",
+      "status": "open"
+    },
+    {
+      "text": "Process/pay the June 2026 Tribe.xyz Holding (HoldCo) payroll using the payment orders Vera Kolihova sent (Prehled mezd, Prikaz k uhrade, domestic payment orders, and Martin's June payslip attached)",
+      "project": "people-ops",
+      "source": "gmail/19f26e693eba1164",
+      "source_type": "gmail",
+      "date": "2026-07-07",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Re: HoldCo Payroll (July)",
+        "from": "vkolihova@borisgnoth.cz"
+      },
+      "id": "gmail/19f26e693eba1164",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-08",
+      "status": "open"
+    },
+    {
+      "text": "Process/pay the June 2026 Tribe.xyz CZ payroll using the payment orders Vera Kolihova sent (Prehled mezd, Prikaz k uhrade, domestic payment orders and payslips for Martin, Miloslav and Damla Kocek attached)",
+      "project": "people-ops",
+      "source": "gmail/19f26e6916fb2e6e",
+      "source_type": "gmail",
+      "date": "2026-07-07",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Re: Tribe.xyz CZ Payroll (July)",
+        "from": "vkolihova@borisgnoth.cz"
+      },
+      "id": "gmail/19f26e6916fb2e6e",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-08",
+      "status": "open"
+    },
+    {
+      "text": "Respond to Martin re: the company tax documents Blake left on Jacopo's desk - Martin flagged them and asked 'what do we do with it?'; decide how to handle/store them.",
+      "project": "inbox",
+      "source": "slack/D055NJ27YRY/1783494181.227759",
+      "source_type": "slack",
+      "date": "2026-07-08",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Martin Bernard",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/D055NJ27YRY/1783494181.227759",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "status": "open"
+    },
+    {
+      "text": "Reply to Simon Siew on the intake-tool onboarding: he reports there were no intake calls and he had to teach the TA teams/HMs the basics over 3 calls, and asks whether he can use the meeting transcripts to fill out the intake info - give him a decision/guidance.",
+      "project": "ai-recruiting",
+      "source": "slack/C0BCFHMDEF7/1783485004.426469",
+      "source_type": "slack",
+      "date": "2026-07-08",
+      "confidence": "medium",
+      "extras": {
+        "channel": "Group DM (intake onboarding)",
+        "from": "Simon Siew"
+      },
+      "id": "slack/C0BCFHMDEF7/1783485004.426469",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
       "status": "open"
     }
   ]
