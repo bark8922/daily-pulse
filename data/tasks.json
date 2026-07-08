@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-08",
   "schema_version": 2,
-  "total": 393,
+  "total": 404,
   "projects": [
     {
       "id": "fin-dash",
@@ -6521,6 +6521,190 @@
       },
       "id": "slack/C0BCFHMDEF7/1783485004.426469",
       "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "status": "open"
+    },
+    {
+      "text": "Assist Chris in resolving the Vault invoicing disputes and client negotiation",
+      "project": "client-disputes",
+      "source": "fireflies/01KX0HW608Z19GXZ2XH24GX06H",
+      "source_type": "fireflies",
+      "date": "2026-07-08",
+      "confidence": "high",
+      "extras": {
+        "meeting": "OKR Check-in - Stand-up: Delivery, People, BD"
+      },
+      "id": "fireflies/01KX0HW608Z19GXZ2XH24GX06H/assistchrisinresolvingthevaultinvoicingd",
+      "project_name": "client-disputes",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "status": "open"
+    },
+    {
+      "text": "Coordinate legal counsel advice on withholding payment and contract breach implications for Kathleen's case",
+      "project": "client-disputes",
+      "source": "fireflies/01KX0HW608Z19GXZ2XH24GX06H",
+      "source_type": "fireflies",
+      "date": "2026-07-08",
+      "confidence": "high",
+      "extras": {
+        "meeting": "OKR Check-in - Stand-up: Delivery, People, BD"
+      },
+      "id": "fireflies/01KX0HW608Z19GXZ2XH24GX06H/coordinatelegalcounseladviceonwithholdin",
+      "project_name": "client-disputes",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "status": "open"
+    },
+    {
+      "text": "Complete the BambooHR offboarding task for Elena Petrovska (Sourcer L1, B2B, Wolt division, termination date Jul 31, 2026) assigned by Andrea Darabasic",
+      "project": "hr",
+      "source": "gmail/19f4138251788fd1",
+      "source_type": "gmail",
+      "date": "2026-07-08",
+      "confidence": "high",
+      "extras": {
+        "subject": "Please complete this offboarding task for Elena Petrovska",
+        "from": "notifications@app.bamboohr.com"
+      },
+      "id": "gmail/19f4138251788fd1",
+      "project_name": "hr",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "status": "open"
+    },
+    {
+      "text": "Respond to Martin Bernard's comment in the 'OKR Prep Q3 2026' Notion page re KR2 (Quarterly Business Review / structured check-in call completed with 100% of...)",
+      "project": "okr",
+      "source": "gmail/19f2725520170f41",
+      "source_type": "gmail",
+      "date": "2026-07-03",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Martin Bernard commented in OKR Prep Q3 2026",
+        "from": "notify@mail.notion.so"
+      },
+      "id": "gmail/19f2725520170f41",
+      "project_name": "okr",
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-08",
+      "status": "open"
+    },
+    {
+      "text": "Prepare for the Finance Review call with Martin, Jacopo and Ella (Thu Jul 9, 1:45pm CEST) - deep dive into Tribe's finances and where money is spent",
+      "project": "finance",
+      "source": "gmail/19f40af0f8102d71",
+      "source_type": "gmail",
+      "date": "2026-07-08",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Updated invitation: Finance Review @ Thu Jul 9, 2026",
+        "from": "martin@tribe.xyz"
+      },
+      "id": "gmail/19f40af0f8102d71",
+      "project_name": "finance",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "status": "open"
+    },
+    {
+      "text": "Re-send the final invoice request to Kathleen Dongo at her personal email (kathleen.dongo@hotmail.com) - the message to kathleen@tribe.xyz bounced; ask her to send the invoice to accounting@tribe.xyz in PDF",
+      "project": "finance",
+      "source": "gmail/19dfc83250fa2c99",
+      "source_type": "gmail",
+      "date": "2026-07-08",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Re: Termination details",
+        "from": "mailer-daemon (bounce) / Kathleen Dongo"
+      },
+      "id": "gmail/19dfc83250fa2c99",
+      "project_name": "finance",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "status": "open"
+    },
+    {
+      "text": "Add the 4,500 EUR Kathleen conversion fee to Wolt's next invoice - Kristjana confirmed in #accounting-and-invoicing that everything is solved and gave the go-ahead ('you can add 4500 EUR for Kathleen conversion fee to next invoice')",
+      "project": "invoicing",
+      "source": "slack/accounting-and-invoicing/1783516598.779119",
+      "source_type": "slack",
+      "date": "2026-07-08",
+      "confidence": "high",
+      "extras": {
+        "channel": "accounting-and-invoicing",
+        "from": "Kristjana Thorarinsdottir"
+      },
+      "id": "slack/accounting-and-invoicing/1783516598.779119",
+      "project_name": "invoicing",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "status": "open"
+    },
+    {
+      "text": "Reschedule the AI First project meeting - Blake cancelled today's session due to a family emergency and committed to reschedule later in the week ('I'll reschedule if I can find a time for all of us')",
+      "project": "ai-first",
+      "source": "slack/ai-first-tribe/1783513566.115569",
+      "source_type": "slack",
+      "date": "2026-07-08",
+      "confidence": "medium",
+      "extras": {
+        "channel": "ai-first-tribe",
+        "from": "Blake Barkley (self-commitment)"
+      },
+      "id": "slack/ai-first-tribe/1783513566.115569",
+      "project_name": "ai-first",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "status": "open"
+    },
+    {
+      "text": "Finish and submit the monthly expense report - Blake told Salem he needs to get everything submitted; still missing Bolt (79 EUR) and Malaga parking (79.80 EUR), and Easyjet invoice may take up to 28 days (add later if it doesn't arrive)",
+      "project": "expenses",
+      "source": "slack/D057XNFLHTR/1783494765.668689",
+      "source_type": "slack",
+      "date": "2026-07-08",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM Salem Mansuri",
+        "from": "Blake Barkley (self-commitment)"
+      },
+      "id": "slack/D057XNFLHTR/1783494765.668689",
+      "project_name": "expenses",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "status": "open"
+    },
+    {
+      "text": "Fix the 'Your Roles Weekly' tool for Andrea Akovic - she now gets the ping but still can't open or write notes for her roles (clicking 'add notes' shows a spinner then nothing); Blake committed 'will keep working on it'",
+      "project": "dashboard",
+      "source": "slack/D05AQFRMF08/1783521068.042979",
+      "source_type": "slack",
+      "date": "2026-07-08",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM Andrea Akovic",
+        "from": "Andrea Akovic"
+      },
+      "id": "slack/D05AQFRMF08/1783521068.042979",
+      "project_name": "dashboard",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "status": "open"
+    },
+    {
+      "text": "Submit the completed six-month performance self-reflection (Sections 1-5: delivery, leadership, skills, value shown, value to improve) and the upward feedback for Martin into Lattice",
+      "project": "ops",
+      "source": "cowork/local_d72a34cc-cde4-4229-8837-b981b0d54a0c",
+      "source_type": "cowork",
+      "date": "2026-07-08",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Six-month performance reflection"
+      },
+      "id": "cowork/local_d72a34cc-cde4-4229-8837-b981b0d54a0c/submitthecompletedsixmonthperformancesel",
+      "project_name": "ops",
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-08",
       "status": "open"
