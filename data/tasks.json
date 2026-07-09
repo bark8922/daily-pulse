@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-09",
   "schema_version": 2,
-  "total": 407,
+  "total": 415,
   "projects": [
     {
       "id": "fin-dash",
@@ -6757,6 +6757,136 @@
       "id": "slack/C01RLBNHRKP/1783331200.851219",
       "project_name": "Leadership comms",
       "first_seen": "2026-07-06",
+      "last_seen": "2026-07-09",
+      "status": "open"
+    },
+    {
+      "text": "Provide input and finalize stage type naming conventions to ensure dashboard tracking and data reporting correctness",
+      "project": "rec-dash",
+      "source": "fireflies/01KX3JXDPF5XDFNE7K0GYKMT1F",
+      "source_type": "fireflies",
+      "date": "2026-07-09",
+      "confidence": "high",
+      "extras": {
+        "meeting": "M/B/J"
+      },
+      "id": "fireflies/01KX3JXDPF5XDFNE7K0GYKMT1F/provideinputandfinalizestagetypenamingco",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "status": "open"
+    },
+    {
+      "text": "Research implications of company bankruptcy in Spain affecting employees on maternity leave and report findings",
+      "project": "legal",
+      "source": "fireflies/01KX3B50YN5G0Q5880EA9VFD0R",
+      "source_type": "fireflies",
+      "date": "2026-07-09",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Finance Review"
+      },
+      "id": "fireflies/01KX3B50YN5G0Q5880EA9VFD0R/researchimplicationsofcompanybankruptcyi",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "status": "open"
+    },
+    {
+      "text": "Provide detailed cost breakdowns for Spanish employees including taxes and severance to assist layoff decision-making",
+      "project": "fin-dash",
+      "source": "fireflies/01KX3B50YN5G0Q5880EA9VFD0R",
+      "source_type": "fireflies",
+      "date": "2026-07-09",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Finance Review"
+      },
+      "id": "fireflies/01KX3B50YN5G0Q5880EA9VFD0R/providedetailedcostbreakdownsforspanishe",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "status": "open"
+    },
+    {
+      "text": "Assist Ella in legal consultations with Federico (accountant) on severance and employment law as required",
+      "project": "legal",
+      "source": "fireflies/01KX3B50YN5G0Q5880EA9VFD0R",
+      "source_type": "fireflies",
+      "date": "2026-07-09",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Finance Review"
+      },
+      "id": "fireflies/01KX3B50YN5G0Q5880EA9VFD0R/assistellainlegalconsultationswithfederi",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "status": "open"
+    },
+    {
+      "text": "Align with Martin on Sales Navigator access for directors, then get back to Tijana Lazovic - she asked for access; Blake said Tribe has no Sales Navigator licenses so she must buy it herself (company card + invoice) but committed to align with Martin since Martin directed her to Blake and 'all directors will need it'",
+      "project": "linkedin",
+      "source": "slack/D0562L90R36/1783602415.932419",
+      "source_type": "slack",
+      "date": "2026-07-09",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Tijana Lazovic",
+        "from": "Tijana Lazovic"
+      },
+      "id": "slack/D0562L90R36/1783602415.932419",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "status": "open"
+    },
+    {
+      "text": "Fix the failing 'Intercompany Invoice Generator' n8n workflow - alert on 03 Jul reports 'No source file found to copy from - only the current month sheet exists in the folder' (line 7)",
+      "project": "expense-ops",
+      "source": "slack/D0AKAPA0X3J/1783082630.557679",
+      "source_type": "slack",
+      "date": "2026-07-03",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Blake Updates Bot",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1783082630.557679",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-09",
+      "status": "open"
+    },
+    {
+      "text": "Send the finalized Q2 OKR recap + Q3 plans Slack posts to the team (drafts trimmed and ready), pointing them to the Q3 OKRs in Lattice and flagging a short live walkthrough + Q&A in two weeks",
+      "project": "okrs",
+      "source": "cowork/local_8a402459-21ca-459e-a36d-1ef923223ef4",
+      "source_type": "cowork",
+      "date": "2026-07-07",
+      "confidence": "medium",
+      "extras": {
+        "session": "Q2 performance summary"
+      },
+      "id": "cowork/local_8a402459-21ca-459e-a36d-1ef923223ef4/sendthefinalizedq2okrrecapq3plansslackpo",
+      "project_name": "OKRs",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-09",
+      "status": "open"
+    },
+    {
+      "text": "Send the 'board picture' referenced for the Q2 recap so it can be folded into the summary (not yet provided; none of the OKR check-ins reference it)",
+      "project": "okrs",
+      "source": "cowork/local_8a402459-21ca-459e-a36d-1ef923223ef4",
+      "source_type": "cowork",
+      "date": "2026-07-07",
+      "confidence": "medium",
+      "extras": {
+        "session": "Q2 performance summary"
+      },
+      "id": "cowork/local_8a402459-21ca-459e-a36d-1ef923223ef4/sendtheboardpicturereferencedfortheq2rec",
+      "project_name": "OKRs",
+      "first_seen": "2026-07-07",
       "last_seen": "2026-07-09",
       "status": "open"
     }
