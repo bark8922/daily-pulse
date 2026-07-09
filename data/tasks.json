@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-08",
+  "generated_at": "2026-07-09",
   "schema_version": 2,
-  "total": 404,
+  "total": 407,
   "projects": [
     {
       "id": "fin-dash",
@@ -6707,6 +6707,57 @@
       "project_name": "ops",
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-08",
+      "status": "open"
+    },
+    {
+      "text": "Help Jovana build an AI-assisted sourcing playbook for AVIV (she asked for your AI guidance)",
+      "project": "ai-recruiting",
+      "source": "slack/D05A02096RX/1783532290.831009",
+      "source_type": "slack",
+      "date": "2026-07-08",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM",
+        "from": "Jovana Drakula"
+      },
+      "id": "slack/D05A02096RX/1783532290.831009",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-09",
+      "status": "open"
+    },
+    {
+      "text": "Write manager performance reviews for your direct reports (Manager Review open until July 20)",
+      "project": "leadership",
+      "source": "slack/C01RLBNHRKP/1783500059.216669",
+      "source_type": "slack",
+      "date": "2026-07-08",
+      "confidence": "medium",
+      "extras": {
+        "channel": "leadership",
+        "from": "Andrea Darabasic"
+      },
+      "id": "slack/C01RLBNHRKP/1783500059.216669",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-09",
+      "status": "open"
+    },
+    {
+      "text": "Review June engagement survey comments with your team and prepare input for the July 15 Leadership meeting",
+      "project": "leadership",
+      "source": "slack/C01RLBNHRKP/1783331200.851219",
+      "source_type": "slack",
+      "date": "2026-07-06",
+      "confidence": "low",
+      "extras": {
+        "channel": "leadership",
+        "from": "Ella Darie"
+      },
+      "id": "slack/C01RLBNHRKP/1783331200.851219",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-09",
       "status": "open"
     }
   ]
