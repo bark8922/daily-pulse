@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-09",
+  "generated_at": "2026-07-10",
   "schema_version": 2,
-  "total": 415,
+  "total": 423,
   "projects": [
     {
       "id": "fin-dash",
@@ -6888,6 +6888,142 @@
       "project_name": "OKRs",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-09",
+      "status": "open"
+    },
+    {
+      "text": "Verify the new Linux sign-in on team@tribe.xyz flagged in the Google security alert (Blake is the recovery email) and remove access if the login is not recognized",
+      "project": "inbox",
+      "source": "gmail/19f470c8145dfcdc",
+      "source_type": "gmail",
+      "date": "2026-07-09",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Security alert for team@tribe.xyz",
+        "from": "no-reply@accounts.google.com"
+      },
+      "id": "gmail/19f470c8145dfcdc",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-10",
+      "status": "open"
+    },
+    {
+      "text": "Add an R2 bucket to Cloudflare billing to store audio transcripts from the extensions, as Mikhail requested",
+      "project": "tribebot",
+      "source": "slack/D0577RU8WQ1/1783616706.789359",
+      "source_type": "slack",
+      "date": "2026-07-09",
+      "confidence": "high",
+      "extras": {
+        "channel": "D0577RU8WQ1",
+        "from": "Mikhail Kuzmin"
+      },
+      "id": "slack/D0577RU8WQ1/1783616706.789359",
+      "project_name": "Tribebot",
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-10",
+      "status": "open"
+    },
+    {
+      "text": "Fix the failing 'Revolut Draft Payments' n8n workflow - error \"(inv.json.Invoice Number || \\\"\\\").trim is not a function\" at line 106 (failed 09 Jul)",
+      "project": "expense-ops",
+      "source": "slack/D0AKAPA0X3J/1783591288.926039",
+      "source_type": "slack",
+      "date": "2026-07-09",
+      "confidence": "high",
+      "extras": {
+        "channel": "D0AKAPA0X3J",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1783591288.926039",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-10",
+      "status": "open"
+    },
+    {
+      "text": "Fix the failing 'Check Personal Email Bot' n8n workflow - 'Bad request' error at the 'Mark a message as read' node (failed 09 Jul)",
+      "project": "inbox",
+      "source": "slack/D0AKAPA0X3J/1783616435.000509",
+      "source_type": "slack",
+      "date": "2026-07-09",
+      "confidence": "medium",
+      "extras": {
+        "channel": "D0AKAPA0X3J",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1783616435.000509",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-10",
+      "status": "open"
+    },
+    {
+      "text": "Investigate the failing 'Tribe Dashboard - Revenue Per Tribster Export' n8n workflow - 'Service unavailable' at the 'Read Revenue Per Tribster Sheet' node (failed 09 Jul); add retry if transient",
+      "project": "fin-dash",
+      "source": "slack/D0AKAPA0X3J/1783569625.322619",
+      "source_type": "slack",
+      "date": "2026-07-09",
+      "confidence": "medium",
+      "extras": {
+        "channel": "D0AKAPA0X3J",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1783569625.322619",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-10",
+      "status": "open"
+    },
+    {
+      "text": "Set up the ground rules for rolling out the new generic pipeline stage taxonomy (Recruiter Screen -> Move to ATS -> Interview 1/2/3 -> Offer -> Hired) that Blake and Jacopo aligned on with Mikhail - define when candidates move between stages and ensure WBR/MBR data and OKRs stay intact",
+      "project": "wbr-mbr",
+      "source": "slack/C0BG7AXTDP0/1783608505.015509",
+      "source_type": "slack",
+      "date": "2026-07-09",
+      "confidence": "medium",
+      "extras": {
+        "channel": "C0BG7AXTDP0",
+        "from": "Jacopo Lupo Ferrari"
+      },
+      "id": "slack/C0BG7AXTDP0/1783608505.015509",
+      "project_name": "WBR / MBR",
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-10",
+      "status": "open"
+    },
+    {
+      "text": "Assign a LinkedIn Recruiter (LIR) license to Eduardo Moral for IR sourcing - Sanja confirmed Edu is sourcing for one of the sprints alongside Mariam, Chantal and her",
+      "project": "linkedin",
+      "source": "slack/D06CHF6CCN5/1783599476.263109",
+      "source_type": "slack",
+      "date": "2026-07-09",
+      "confidence": "medium",
+      "extras": {
+        "channel": "D06CHF6CCN5",
+        "from": "Sanja Pavlovikj"
+      },
+      "id": "slack/D06CHF6CCN5/1783599476.263109",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-10",
+      "status": "open"
+    },
+    {
+      "text": "Follow up on LinkedIn's response to the account-sharing flags on Sanja's account (flagged twice in 6 days, risk of 30-day suspension) - Blake replied to LinkedIn disputing the flags; monitor and ensure the IR team stops sharing accounts",
+      "project": "linkedin",
+      "source": "slack/D06CHF6CCN5/1783583687.313169",
+      "source_type": "slack",
+      "date": "2026-07-09",
+      "confidence": "medium",
+      "extras": {
+        "channel": "D06CHF6CCN5",
+        "from": "Sanja Pavlovikj"
+      },
+      "id": "slack/D06CHF6CCN5/1783583687.313169",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-10",
       "status": "open"
     }
   ]
