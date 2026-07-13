@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-13",
   "schema_version": 2,
-  "total": 433,
+  "total": 450,
   "projects": [
     {
       "id": "fin-dash",
@@ -7190,6 +7190,290 @@
       },
       "id": "cowork/local_ad8942d2-cf80-40a3-84d0-01a89c446875/fixthefindashrefreshsoitrecommitsactive_",
       "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Continue refining and maintaining the automated contractor payment workflow (Gmail/Drive/BambooHR/Revolut/Claude) and address any error notifications it raises",
+      "project": "expense-ops",
+      "source": "fireflies/01KXDQ9BE3DQB6WCBQ05PD54MQ",
+      "source_type": "fireflies",
+      "date": "2026-07-13",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Claude: Master Sessions",
+        "attendees": "blake@tribe.xyz, carolinemurphy@tribe.xyz, ella@tribe.xyz, jacopo@tribe.xyz, martin@tribe.xyz"
+      },
+      "id": "fireflies/01KXDQ9BE3DQB6WCBQ05PD54MQ/continuerefiningandmaintainingtheautomat",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Use Claude-powered scraping and tracking tools to document dashboard and workflow work for reporting and justification in meetings",
+      "project": "project-hub",
+      "source": "fireflies/01KXDKXSX05CTPD0QJH9DKQV5T",
+      "source_type": "fireflies",
+      "date": "2026-07-13",
+      "confidence": "medium",
+      "extras": {
+        "meeting_title": "Caroline / Blake",
+        "attendees": "blake@tribe.xyz, carolinemurphy@tribe.xyz"
+      },
+      "id": "fireflies/01KXDKXSX05CTPD0QJH9DKQV5T/useclaudepoweredscrapingandtrackingtools",
+      "project_name": "Project Hub",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Support outreach on the highlighted ICP targets from Caroline's scraped BD Tribe talk list",
+      "project": "sales-hubspot",
+      "source": "fireflies/01KXDKXSX05CTPD0QJH9DKQV5T",
+      "source_type": "fireflies",
+      "date": "2026-07-13",
+      "confidence": "medium",
+      "extras": {
+        "meeting_title": "Caroline / Blake",
+        "attendees": "blake@tribe.xyz, carolinemurphy@tribe.xyz"
+      },
+      "id": "fireflies/01KXDKXSX05CTPD0QJH9DKQV5T/supportoutreachonthehighlightedicptarget",
+      "project_name": "Sales dashboard + HubSpot",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Prepare own content and background work documentation for the upcoming one-on-one with Martin",
+      "project": "leadership",
+      "source": "fireflies/01KXDKXSX05CTPD0QJH9DKQV5T",
+      "source_type": "fireflies",
+      "date": "2026-07-13",
+      "confidence": "medium",
+      "extras": {
+        "meeting_title": "Caroline / Blake",
+        "attendees": "blake@tribe.xyz, carolinemurphy@tribe.xyz"
+      },
+      "id": "fireflies/01KXDKXSX05CTPD0QJH9DKQV5T/prepareowncontentandbackgroundworkdocume",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Pay the Tribe.xyz Holding VAT (DPH) 06/2026 liability of CZK 172,163 by July 25, 2026 per Eva Huclova (Boris Gnoth) - SRO return to follow",
+      "project": "expense-ops",
+      "source": "gmail/19f5b847a97e2fd3",
+      "source_type": "gmail",
+      "date": "2026-07-13",
+      "confidence": "high",
+      "extras": {
+        "subject": "Tribe Holding - DPH 06/2026",
+        "from": "ehuclova@borisgnoth.cz"
+      },
+      "id": "gmail/19f5b847a97e2fd3",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Decide on Lynsey Douglas-Lowe's (Vista, external) Google Drive access request for the 'Vista_Tribe_Draft' document",
+      "project": "inbox",
+      "source": "gmail/19f5b2cfa4fb3835",
+      "source_type": "gmail",
+      "date": "2026-07-13",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Share request for \"Vista_Tribe_Draft\"",
+        "from": "drive-shares-dm-noreply@google.com (Lynsey Douglas-Lowe, vista.com)"
+      },
+      "id": "gmail/19f5b2cfa4fb3835",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Action the 13 Jul dashboard watchdog findings: lower the stale active_employees >= 60 threshold in pipeline/watchdog_check.py (BambooHR genuinely shows 58 active), and investigate why Sashka Sarafinovska is active in BambooHR but has no 2026-07 rows in the bundle (snapshots stop at 2026-06, likely a bad termination/end date upstream)",
+      "project": "fin-dash",
+      "source": "slack/test-n8n/1783933885.947469",
+      "source_type": "slack",
+      "date": "2026-07-13",
+      "confidence": "high",
+      "extras": {
+        "from": "Dashboard watchdog (Blake)",
+        "channel": "#test-n8n"
+      },
+      "id": "slack/test-n8n/1783933885.947469",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Fix the dashboard refresh step that is supposed to re-commit data/active_employees.json from BambooHR each run - it hasn't updated in ~7 weeks (file has 69 names, last real update 2026-05-22, vs 60 live); check Step 5 of the refresh task before the cloud build ever falls back to the committed file",
+      "project": "fin-dash",
+      "source": "slack/test-n8n/1783674798.308149",
+      "source_type": "slack",
+      "date": "2026-07-10",
+      "confidence": "medium",
+      "extras": {
+        "from": "Dashboard watchdog (Blake)",
+        "channel": "#test-n8n"
+      },
+      "id": "slack/test-n8n/1783674798.308149",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Fix the stale revenue actuals source flagged by the watchdog: data/revenue/revenue_per_tribster.csv only has actuals through 12/2025 (~7 months stale, 07/2026 missing) - the revenue-CSV refresh step appears not to be running; also update the stale 'Talent Coordinators on Bench' marker string in pipeline/watchdog_check.py",
+      "project": "fin-dash",
+      "source": "slack/test-n8n/1783415474.732349",
+      "source_type": "slack",
+      "date": "2026-07-07",
+      "confidence": "medium",
+      "extras": {
+        "from": "Dashboard watchdog (Blake)",
+        "channel": "#test-n8n"
+      },
+      "id": "slack/test-n8n/1783415474.732349",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Manually handle the 2 unmatched invoices from the 09 Jul Revolut draft-payments run - Marina Lazarevic 2000 EUR (no counterparty match in HoldCo) and Wladyslaw Gadomski 5000 EUR (no counterparty match in Tribe CZ); they were not drafted",
+      "project": "expense-ops",
+      "source": "slack/test-n8n/1783591818.321479",
+      "source_type": "slack",
+      "date": "2026-07-09",
+      "confidence": "high",
+      "extras": {
+        "from": "Revolut Draft Payments bot",
+        "channel": "#test-n8n"
+      },
+      "id": "slack/test-n8n/1783591818.321479",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Decide the submission timing/workflow for the 'Your Roles Weekly' sourcer updates before rolling it out to all sourcers - Valeria and Andrea did not submit; Valeria says the update structure isn't useful when covering for another sourcer and blockers get raised with TAs directly",
+      "project": "rec-dash",
+      "source": "slack/C0B9GD5JHBN/1783931149.747169",
+      "source_type": "slack",
+      "date": "2026-07-13",
+      "confidence": "medium",
+      "extras": {
+        "from": "Valeria Yurykova",
+        "channel": "Group DM (Blake, Andrea Akovic, Nare, Valeria)"
+      },
+      "id": "slack/C0B9GD5JHBN/1783931149.747169",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Set up the session with Jacopo and Gustavo to lock the plan on the sourcing tool (Andrea and Valeria keep forgetting to use it) and decide whether to push forward or make it more automatic",
+      "project": "tribebot",
+      "source": "slack/ai-first-tribe/1783942100.432549",
+      "source_type": "slack",
+      "date": "2026-07-13",
+      "confidence": "high",
+      "extras": {
+        "from": "Blake Barkley",
+        "channel": "#ai-first-tribe"
+      },
+      "id": "slack/ai-first-tribe/1783942100.432549",
+      "project_name": "Tribebot",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Send the prepared Slack DM to Martin with the CoS Weekly Log link for the week of Jul 6-12 (draft written, still unsent)",
+      "project": "leadership",
+      "source": "cowork/local_ed08268b-718d-4465-8d2f-eb3bf01b543e",
+      "source_type": "cowork",
+      "date": "2026-07-13",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Cos weekly log"
+      },
+      "id": "cowork/local_ed08268b-718d-4465-8d2f-eb3bf01b543e/sendthepreparedslackdmtomartinwiththecos",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Add a monthly-cadence allowlist to the Keboola spend-check skill so the three telemetry configs (ex-telemetry-data 270972036, orchestrator 270972256, wr-storage 270973275) stop firing fake -100% / new-config alerts on the week-over-week regression logic",
+      "project": "keboola-sunset",
+      "source": "cowork/local_17e52ab8-6cc8-442a-acc2-68368d61ea75",
+      "source_type": "cowork",
+      "date": "2026-07-13",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Keboola spend check"
+      },
+      "id": "cowork/local_17e52ab8-6cc8-442a-acc2-68368d61ea75/addamonthlycadenceallowlisttothekeboolas",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Fix the two erroring n8n workflows flagged in the weekly fleet check (WBR Google Sheet Sync and Birthday Bot) and triage the 6 newly-stale ones (Abra PSIs, Intercompany Invoice Generator, Days Off ES/CZ, Daily Pulse Sync, CoS Weekly Log write-row, Sourcer Client Assignment Append)",
+      "project": "inbox",
+      "source": "cowork/local_a0b4a480-2869-4723-a47d-cba448030039",
+      "source_type": "cowork",
+      "date": "2026-07-13",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Daily pulse n8n fleet weekly"
+      },
+      "id": "cowork/local_a0b4a480-2869-4723-a47d-cba448030039/fixthetwoerroringn8nworkflowsflaggedinth",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Patch the claude-backups scheduled task to clone into a unique mktemp -d dir instead of the hardcoded /tmp/claude-backups path - the stale dir from a prior sandbox UID makes the clone and rsyncs fail silently while the run still reports success",
+      "project": "inbox",
+      "source": "cowork/local_f7646a4d-e4e0-4306-9617-950a3ccfd08d",
+      "source_type": "cowork",
+      "date": "2026-07-13",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Claude backups daily"
+      },
+      "id": "cowork/local_f7646a4d-e4e0-4306-9617-950a3ccfd08d/patchtheclaudebackupsscheduledtasktoclon",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Supply one real n8n automation incident (what a workflow silently failed to do) to anchor LinkedIn angles 1 and 4 from the 13 Jul idea drop - they cannot be written without it",
+      "project": "linkedin",
+      "source": "cowork/local_b5b8a804-f912-45df-9ab0-4988395f2ec4",
+      "source_type": "cowork",
+      "date": "2026-07-13",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Linkedin idea generator morning"
+      },
+      "id": "cowork/local_b5b8a804-f912-45df-9ab0-4988395f2ec4/supplyonerealn8nautomationincidentwhataw",
+      "project_name": "LinkedIn license management",
       "first_seen": "2026-07-13",
       "last_seen": "2026-07-13",
       "status": "open"
