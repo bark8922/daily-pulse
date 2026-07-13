@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-10",
+  "generated_at": "2026-07-13",
   "schema_version": 2,
-  "total": 423,
+  "total": 433,
   "projects": [
     {
       "id": "fin-dash",
@@ -6610,19 +6610,19 @@
     },
     {
       "text": "Re-send the final invoice request to Kathleen Dongo at her personal email (kathleen.dongo@hotmail.com) - the message to kathleen@tribe.xyz bounced; ask her to send the invoice to accounting@tribe.xyz in PDF",
-      "project": "finance",
+      "project": "expense-ops",
       "source": "gmail/19dfc83250fa2c99",
       "source_type": "gmail",
-      "date": "2026-07-08",
+      "date": "2026-07-10",
       "confidence": "medium",
       "extras": {
         "subject": "Re: Termination details",
-        "from": "mailer-daemon (bounce) / Kathleen Dongo"
+        "from": "kathleen.dongo@hotmail.com"
       },
       "id": "gmail/19dfc83250fa2c99",
-      "project_name": "finance",
+      "project_name": "Expense Ops",
       "first_seen": "2026-07-08",
-      "last_seen": "2026-07-08",
+      "last_seen": "2026-07-13",
       "status": "open"
     },
     {
@@ -7024,6 +7024,174 @@
       "project_name": "LinkedIn license management",
       "first_seen": "2026-07-09",
       "last_seen": "2026-07-10",
+      "status": "open"
+    },
+    {
+      "text": "Promote attendance and active participation in the AI Live sessions next Wednesday (encourage camera use and engagement)",
+      "project": "ai-first-working-group",
+      "source": "fireflies/01KX64EWVD30KZ0HSND49CBVV4",
+      "source_type": "fireflies",
+      "date": "2026-07-10",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Friday Team Meeting"
+      },
+      "id": "fireflies/01KX64EWVD30KZ0HSND49CBVV4/promoteattendanceandactiveparticipationi",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Resolve Eva Huclova's objection on the Salem Mansuri travel expense recharge (she says a Spanish-payroll employee's travel can't be reimbursed by Tribe CZ) and get Natalie to renumber the Abra invoice so it can be sent to the Spanish accountants",
+      "project": "expense-ops",
+      "source": "gmail/19f40c608f1a432f",
+      "source_type": "gmail",
+      "date": "2026-07-10",
+      "confidence": "high",
+      "extras": {
+        "subject": "Salem Mansuri Travel Expenses",
+        "from": "ehuclova@borisgnoth.cz"
+      },
+      "id": "gmail/19f40c608f1a432f",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Investigate the team@tribe.xyz Google security alerts - 2-Step Verification was turned ON and then turned OFF within 8 minutes on Jul 10; verify it was legitimate and re-enable 2SV / remove access if not",
+      "project": "inbox",
+      "source": "gmail/19f4cba1c9eafecf",
+      "source_type": "gmail",
+      "date": "2026-07-10",
+      "confidence": "high",
+      "extras": {
+        "subject": "Security alert for team@tribe.xyz",
+        "from": "no-reply@accounts.google.com"
+      },
+      "id": "gmail/19f4cba1c9eafecf",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Process the fuel/benzin receipt Martin sent (photo attached, cc'd to Boris Gnoth's office) - book it as a company expense",
+      "project": "expense-ops",
+      "source": "gmail/19f5650fbbaa2baa",
+      "source_type": "gmail",
+      "date": "2026-07-12",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Benzin",
+        "from": "martin@tribe.xyz"
+      },
+      "id": "gmail/19f5650fbbaa2baa",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Investigate why Glovo appears in Valeria Yurykova's client list on the sourcing dashboard (she does not source for Glovo and the expand button shows no positions) - Blake said 'I'll have a look'",
+      "project": "rec-dash",
+      "source": "slack/D062X9TGXQA/1783672814.025789",
+      "source_type": "slack",
+      "date": "2026-07-10",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Valeria Yurykova",
+        "from": "Valeria Yurykova"
+      },
+      "id": "slack/D062X9TGXQA/1783672814.025789",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Fix the failing 'WBR Google Sheet Sync' n8n workflow - 'Bad gateway' error at the 'Push TA Weekly Note' node (failed 13 Jul 09:00)",
+      "project": "wbr-mbr",
+      "source": "slack/D0AKAPA0X3J/1783926014.338509",
+      "source_type": "slack",
+      "date": "2026-07-13",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Blake Updates Bot",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1783926014.338509",
+      "project_name": "WBR / MBR",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Fix the repeatedly failing 'BambooHR - Monthly Employer True Cost' n8n workflow - 'Service unavailable' at the 'Fetch Full Employee Details' node (failed both 11 Jul and 12 Jul); add automatic retry if transient",
+      "project": "fin-dash",
+      "source": "slack/D0AKAPA0X3J/1783836008.457099",
+      "source_type": "slack",
+      "date": "2026-07-12",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Blake Updates Bot",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1783836008.457099",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Resolve the Payment Reconciliation Check exceptions from 09 Jul: 5 missing payments (Martin Bernard, Anastasija Dugalic, Tijana Lazovic, Damla Kocek, Nemanja Erdevicki - all Tribe CZ) and 8 people not found in Revolut (Kristina Colovic, Erzana Maliqi, Dora Vrbanic, Maria Gerbore, Salem Mansuri, Eduardo Moral Casimiro, Rossella Petrillo, Alexandra Richiteanu)",
+      "project": "expense-ops",
+      "source": "slack/D0AKAPA0X3J/1783592925.785749",
+      "source_type": "slack",
+      "date": "2026-07-09",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Blake Updates Bot",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1783592925.785749",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with Kathleen for a PDF version of her invoice (she sent it in Word) and release her payment once received - it is being held only for the format, not the Deliveroo/buyout issue",
+      "project": "expense-ops",
+      "source": "slack/people-ops/1783669181.938039",
+      "source_type": "slack",
+      "date": "2026-07-10",
+      "confidence": "medium",
+      "extras": {
+        "channel": "people-ops",
+        "from": "Blake Barkley (own commitment, Ella Darie in thread)"
+      },
+      "id": "slack/people-ops/1783669181.938039",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Fix the fin-dash refresh so it re-commits active_employees.json from BambooHR each run - the committed file is ~7 weeks stale (69 names, last real update 2026-05-22) vs 60 active in the live BambooHR directory; deployed bundle is currently unaffected but the refresh step (Step 5) is not writing the file back",
+      "project": "fin-dash",
+      "source": "cowork/local_ad8942d2-cf80-40a3-84d0-01a89c446875",
+      "source_type": "cowork",
+      "date": "2026-07-13",
+      "confidence": "high",
+      "extras": {
+        "session": "Tribe dashboard watchdog - all 28 canonical checks passed on today's deploy, but flagged committed active_employees.json as ~7 weeks stale (69 vs 60 live); recurred across multiple watchdog runs"
+      },
+      "id": "cowork/local_ad8942d2-cf80-40a3-84d0-01a89c446875/fixthefindashrefreshsoitrecommitsactive_",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
       "status": "open"
     }
   ]
