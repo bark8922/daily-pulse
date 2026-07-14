@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-13",
+  "generated_at": "2026-07-14",
   "schema_version": 2,
-  "total": 450,
+  "total": 459,
   "projects": [
     {
       "id": "fin-dash",
@@ -6622,7 +6622,7 @@
       "id": "gmail/19dfc83250fa2c99",
       "project_name": "Expense Ops",
       "first_seen": "2026-07-08",
-      "last_seen": "2026-07-13",
+      "last_seen": "2026-07-14",
       "status": "open"
     },
     {
@@ -7476,6 +7476,156 @@
       "project_name": "LinkedIn license management",
       "first_seen": "2026-07-13",
       "last_seen": "2026-07-13",
+      "status": "open"
+    },
+    {
+      "text": "Maintain a real-time view of cash flow and receivables (Sept risk tied to Aviv uncertainty)",
+      "project": "fin-dash",
+      "source": "fireflies/01KXDY7F0TZARHN1VVYBVM9EX2",
+      "source_type": "fireflies",
+      "date": "2026-07-13",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KXDY7F0TZARHN1VVYBVM9EX2/maintainarealtimeviewofcashflowandreceiv",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-14",
+      "status": "open"
+    },
+    {
+      "text": "Approve the draft FY2025 Corporate Income Tax return for TRIBE.XYZ SPAIN SL that Bove Montero (M. Garcia) sent for sign-off",
+      "project": "legal",
+      "source": "gmail/19f5c198d34bcbd4",
+      "source_type": "gmail",
+      "date": "2026-07-13",
+      "confidence": "high",
+      "extras": {
+        "subject": "TRIBE - Draft CIT 2025",
+        "from": "mgarcia@bovemontero.com"
+      },
+      "id": "gmail/19f5c198d34bcbd4",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-14",
+      "status": "open"
+    },
+    {
+      "text": "Review/submit the Spain 2Q 2026 form 111 (WHT) from Bove Montero and ensure the ES account (ES7600491806952812137270) is funded before the July 20 charge",
+      "project": "expense-ops",
+      "source": "gmail/19f5c2868b08fc07",
+      "source_type": "gmail",
+      "date": "2026-07-13",
+      "confidence": "high",
+      "extras": {
+        "subject": "Taxes 2Q 2026 - TRIBE",
+        "from": "fcfernandez@bovemontero.com"
+      },
+      "id": "gmail/19f5c2868b08fc07",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-14",
+      "status": "open"
+    },
+    {
+      "text": "Send Martin's quarterly payment when processing the next batch of scheduled transfers (action item from the Jul 13 1:1 with Martin)",
+      "project": "expense-ops",
+      "source": "gmail/19f5c521fb0f2fa4",
+      "source_type": "gmail",
+      "date": "2026-07-13",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Your recent 1:1 with Martin",
+        "from": "notifications@mg.latticehq.com"
+      },
+      "id": "gmail/19f5c521fb0f2fa4",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-14",
+      "status": "open"
+    },
+    {
+      "text": "Answer Martin: confirm which Tribe entity owns the Mercedes he is selling (he thinks Tribe.xyz Czech s.r.o.) - message from Mon 13 Jul evening is still unanswered",
+      "project": "legal",
+      "source": "slack/D055NJ27YRY/1783963967.451349",
+      "source_type": "slack",
+      "date": "2026-07-13",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Martin Bernard (D055NJ27YRY)",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/D055NJ27YRY/1783963967.451349",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-14",
+      "status": "open"
+    },
+    {
+      "text": "Re-analyze the intake-form process with the team: >80% of opened roles never run an intake call/form, so the intake data-collection goal is currently pointless - decide how to close that gap",
+      "project": "ai-recruiting",
+      "source": "slack/C0BCFHMDEF7/1783512100.781919",
+      "source_type": "slack",
+      "date": "2026-07-08",
+      "confidence": "medium",
+      "extras": {
+        "channel": "Group DM (C0BCFHMDEF7) with Simon Siew, Meho, Aleksandra, Edu, Dusan",
+        "from": "Blake Barkley (own commitment, replying to Simon Siew)"
+      },
+      "id": "slack/C0BCFHMDEF7/1783512100.781919",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-14",
+      "status": "open"
+    },
+    {
+      "text": "AVIV: Wladyslaw Gadomski and Alex Richiteanu last day is 17.07 (not yet communicated to them) - handle the offboarding/invoicing side",
+      "project": "expense-ops",
+      "source": "slack/C04FPRVF5L5/1783953725.907939",
+      "source_type": "slack",
+      "date": "2026-07-13",
+      "confidence": "low",
+      "extras": {
+        "channel": "#accounting-and-invoicing",
+        "from": "Kristjana Thorarinsdottir"
+      },
+      "id": "slack/C04FPRVF5L5/1783953725.907939",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-14",
+      "status": "open"
+    },
+    {
+      "text": "Lower the stale active_employees >= 60 floor in pipeline/watchdog_check.py (~55) - BambooHR now shows 58 active, so the watchdog false-alarms every run",
+      "project": "fin-dash",
+      "source": "cowork/local_e7ac24a5-ccbb-4555-a340-c15f199b4d83",
+      "source_type": "cowork",
+      "date": "2026-07-13",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Tribe dashboard watchdog"
+      },
+      "id": "cowork/local_e7ac24a5-ccbb-4555-a340-c15f199b4d83/lowerthestaleactive_employees60floorinpi",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-14",
+      "status": "open"
+    },
+    {
+      "text": "Investigate Sashka Sarafinovska: active in BambooHR but has no July rows in the dashboard bundle - looks like a bad end-date upstream rather than a pipeline bug",
+      "project": "people-ops",
+      "source": "cowork/local_e7ac24a5-ccbb-4555-a340-c15f199b4d83",
+      "source_type": "cowork",
+      "date": "2026-07-13",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Tribe dashboard watchdog"
+      },
+      "id": "cowork/local_e7ac24a5-ccbb-4555-a340-c15f199b4d83/investigatesashkasarafinovskaactiveinbam",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-14",
       "status": "open"
     }
   ]
