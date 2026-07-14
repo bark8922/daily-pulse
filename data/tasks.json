@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-14",
   "schema_version": 2,
-  "total": 459,
+  "total": 469,
   "projects": [
     {
       "id": "fin-dash",
@@ -7625,6 +7625,170 @@
       "id": "cowork/local_e7ac24a5-ccbb-4555-a340-c15f199b4d83/investigatesashkasarafinovskaactiveinbam",
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-07-13",
+      "last_seen": "2026-07-14",
+      "status": "open"
+    },
+    {
+      "text": "Review settings and implications of the meeting agent, transcript access, and admin impersonation rights to clarify data privacy vs. admin needs",
+      "project": "people-ops",
+      "source": "fireflies/01KXGD6TXK1MABHE68TF7600JV",
+      "source_type": "fireflies",
+      "date": "2026-07-14",
+      "confidence": "high",
+      "extras": {
+        "meeting": "People Operations - Tribe Team"
+      },
+      "id": "fireflies/01KXGD6TXK1MABHE68TF7600JV/reviewsettingsandimplicationsofthemeetin",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14",
+      "status": "open"
+    },
+    {
+      "text": "Send quarterly payment information to Martin when it becomes available to keep him informed about pending payments",
+      "project": "fin-dash",
+      "source": "fireflies/01KXDY7F0TZARHN1VVYBVM9EX2",
+      "source_type": "fireflies",
+      "date": "2026-07-13",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KXDY7F0TZARHN1VVYBVM9EX2/sendquarterlypaymentinformationtomartinw",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-14",
+      "status": "open"
+    },
+    {
+      "text": "Research bankruptcy implications for the Spanish entity and confirm legal/financial feasibility with the accountants (likely to be rejected as an option)",
+      "project": "legal",
+      "source": "fireflies/01KXDWFX4HM3157KF3HNFYT2NN",
+      "source_type": "fireflies",
+      "date": "2026-07-13",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "J/B/E"
+      },
+      "id": "fireflies/01KXDWFX4HM3157KF3HNFYT2NN/researchbankruptcyimplicationsforthespan",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-14",
+      "status": "open"
+    },
+    {
+      "text": "Reply to LinkedIn Support on Recruiter suspension case 260701-012146 - LinkedIn responded Jul 10 and the case is still 'Waiting For Information' (14-day reply window)",
+      "project": "linkedin",
+      "source": "gmail/19f435bee9cee2a7",
+      "source_type": "gmail",
+      "date": "2026-07-10",
+      "confidence": "high",
+      "extras": {
+        "subject": "[Response Required] Suspension Notice for Your Company's LinkedIn Recruiter Account [Case: 260701-012146]",
+        "from": "linkedin_support@cs.linkedin.com"
+      },
+      "id": "gmail/19f435bee9cee2a7",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-14",
+      "status": "open"
+    },
+    {
+      "text": "Fix the 'Refresh Circle data' GitHub Actions workflow in bark8922/tribe-circle - all jobs failed again on main (commit aed8f5b) on Jul 13",
+      "project": "circle",
+      "source": "gmail/19f5ba5b47b54fd6",
+      "source_type": "gmail",
+      "date": "2026-07-13",
+      "confidence": "medium",
+      "extras": {
+        "subject": "[bark8922/tribe-circle] Run failed: Refresh Circle data - main (aed8f5b)",
+        "from": "notifications@github.com"
+      },
+      "id": "gmail/19f5ba5b47b54fd6",
+      "project_name": "Project Circle",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-14",
+      "status": "open"
+    },
+    {
+      "text": "Add a line-item data download/export view to the recruiting dashboard so recruiters can self-reconcile their numbers - Samantha Nel asked for a 'data download' tab to check her Moved-to-ATS count line by line (dashboard showed 15 vs the 10 she sourced); Blake had to reconcile it manually because 'we don't have a line by line breakdown available'. Also consider splitting/labelling the Moved-to-ATS metric so it distinguishes self-sourced candidates from inbound/colleague-sourced ones on a recruiter's reqs.",
+      "project": "rec-dash",
+      "source": "slack/D08FNNZ04QH/1783690279.102509",
+      "source_type": "slack",
+      "date": "2026-07-10",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Samantha Nel",
+        "from": "Samantha Nel"
+      },
+      "id": "slack/D08FNNZ04QH/1783690279.102509",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-14",
+      "status": "open"
+    },
+    {
+      "text": "Fix the Onyx employee directory sync n8n workflow - the 13 Jul success message reports 'undefined employees uploaded as \"undefined\"', so the employee count/name variables are not resolving even though the run is reported as successful (silent data-quality failure).",
+      "project": "tribebot",
+      "source": "slack/D0AKAPA0X3J/1783919005.803949",
+      "source_type": "slack",
+      "date": "2026-07-13",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Blake Updates Bot",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1783919005.803949",
+      "project_name": "Tribebot",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-14",
+      "status": "open"
+    },
+    {
+      "text": "Delete the old redundant 'claude-backups-daily' scheduled task in Claude now that the rewritten nightly backup (22:00, verbatim transcripts + all 8 memory spaces + 21 scheduled-task definitions) supersedes it",
+      "project": "project-hub",
+      "source": "cowork/local_8f37f0b6-b885-4b86-8bc9-2a23f3488da3",
+      "source_type": "cowork",
+      "date": "2026-07-14",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Claude backups daily"
+      },
+      "id": "cowork/local_8f37f0b6-b885-4b86-8bc9-2a23f3488da3/deletetheoldredundantclaudebackupsdailys",
+      "project_name": "Project Hub",
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14",
+      "status": "open"
+    },
+    {
+      "text": "Open the 'Dance Yourself Fit' role (score 93 gold standard) directly to confirm whether it closed or just aged out of the 7-day LinkedIn search window - it no longer surfaces in the daily job-search run",
+      "project": "inbox",
+      "source": "cowork/local_61cbb2ec-f941-4c46-8107-90a4dd448847",
+      "source_type": "cowork",
+      "date": "2026-07-14",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Job search daily"
+      },
+      "id": "cowork/local_61cbb2ec-f941-4c46-8107-90a4dd448847/openthedanceyourselffitrolescore93goldst",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14",
+      "status": "open"
+    },
+    {
+      "text": "Connect the Documents\\Claude\\Projects\\Job-Research-Project folder to the job-search scheduled task session so future runs can mirror the dashboard files locally (currently repo/live site only, local mirror is skipped)",
+      "project": "inbox",
+      "source": "cowork/local_61cbb2ec-f941-4c46-8107-90a4dd448847",
+      "source_type": "cowork",
+      "date": "2026-07-14",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Job search daily"
+      },
+      "id": "cowork/local_61cbb2ec-f941-4c46-8107-90a4dd448847/connectthedocumentsclaudeprojectsjobrese",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-14",
       "last_seen": "2026-07-14",
       "status": "open"
     }
