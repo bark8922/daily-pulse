@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-14",
+  "generated_at": "2026-07-15",
   "schema_version": 2,
-  "total": 469,
+  "total": 471,
   "projects": [
     {
       "id": "fin-dash",
@@ -7790,6 +7790,39 @@
       "project_name": "Inbox (untagged)",
       "first_seen": "2026-07-14",
       "last_seen": "2026-07-14",
+      "status": "open"
+    },
+    {
+      "text": "Investigate the new Jul 14 Google security alerts for team@tribe.xyz - a new Windows sign-in followed by 2-Step Verification being turned ON and then OFF; verify the activity is legitimate and re-secure the account if not recognized (Blake is the recovery email)",
+      "project": "inbox",
+      "source": "gmail/19f622db54dbcbcb",
+      "source_type": "gmail",
+      "date": "2026-07-14",
+      "confidence": "high",
+      "extras": {
+        "subject": "Security alert",
+        "from": "Google"
+      },
+      "id": "gmail/19f622db54dbcbcb",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
+      "status": "open"
+    },
+    {
+      "text": "Manually 'Run now' the job-search-daily scheduled task while watching and approve the tool-permission prompts, so tomorrow's 10:06 Prague run does not silently stall on a permission dialog (prompt was rewritten today; approvals are stored per-task)",
+      "project": "linkedin",
+      "source": "cowork/local_a3239943-3b1c-4e62-b14e-9f66b0509409",
+      "source_type": "cowork",
+      "date": "2026-07-14",
+      "confidence": "high",
+      "extras": {
+        "session": "Job search daily - repo/branch cleanup finished; only remaining action is Blake approving tool prompts on a manual run"
+      },
+      "id": "cowork/local_a3239943-3b1c-4e62-b14e-9f66b0509409/manuallyrunnowthejobsearchdailyscheduled",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "status": "open"
     }
   ]
