@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-15",
   "schema_version": 2,
-  "total": 471,
+  "total": 486,
   "projects": [
     {
       "id": "fin-dash",
@@ -6610,19 +6610,19 @@
     },
     {
       "text": "Re-send the final invoice request to Kathleen Dongo at her personal email (kathleen.dongo@hotmail.com) - the message to kathleen@tribe.xyz bounced; ask her to send the invoice to accounting@tribe.xyz in PDF",
-      "project": "expense-ops",
+      "project": "accounting",
       "source": "gmail/19dfc83250fa2c99",
       "source_type": "gmail",
       "date": "2026-07-10",
       "confidence": "medium",
       "extras": {
-        "subject": "Re: Termination details",
-        "from": "kathleen.dongo@hotmail.com"
+        "from": "kathleen.dongo@hotmail.com",
+        "subject": "Re: Termination details"
       },
       "id": "gmail/19dfc83250fa2c99",
-      "project_name": "Expense Ops",
+      "project_name": "accounting",
       "first_seen": "2026-07-08",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
       "status": "open"
     },
     {
@@ -7822,6 +7822,256 @@
       "id": "cowork/local_a3239943-3b1c-4e62-b14e-9f66b0509409/manuallyrunnowthejobsearchdailyscheduled",
       "project_name": "LinkedIn license management",
       "first_seen": "2026-07-14",
+      "last_seen": "2026-07-15",
+      "status": "open"
+    },
+    {
+      "text": "Reach out to team leads and identify suitable Slack channels for Tribot knowledge base testing to pilot integration as a data source",
+      "project": "tribot-kb",
+      "source": "fireflies/01KXJXTMDDP66B2J660WAMA68H",
+      "source_type": "fireflies",
+      "date": "2026-07-15",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KXJXTMDDP66B2J660WAMA68H/reachouttoteamleadsandidentifysuitablesl",
+      "project_name": "tribot-kb",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "status": "open"
+    },
+    {
+      "text": "Bring intake tool and TA-to-Sourcer Weekly Roundup adoption issues to Jacopo and Gustavo for support and next steps on compliance and data quality",
+      "project": "intake-tool",
+      "source": "fireflies/01KXJXTMDDP66B2J660WAMA68H",
+      "source_type": "fireflies",
+      "date": "2026-07-15",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KXJXTMDDP66B2J660WAMA68H/bringintaketoolandtatosourcerweeklyround",
+      "project_name": "intake-tool",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with Rodrigo on the browser extension audio distortion issue to ensure resolution",
+      "project": "intake-tool",
+      "source": "fireflies/01KXJXTMDDP66B2J660WAMA68H",
+      "source_type": "fireflies",
+      "date": "2026-07-15",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KXJXTMDDP66B2J660WAMA68H/followupwithrodrigoonthebrowserextension",
+      "project_name": "intake-tool",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "status": "open"
+    },
+    {
+      "text": "Propose a feature letting TAs drop intake call summaries directly into the system to auto-fill forms and reduce manual entry",
+      "project": "intake-tool",
+      "source": "fireflies/01KXJXTMDDP66B2J660WAMA68H",
+      "source_type": "fireflies",
+      "date": "2026-07-15",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KXJXTMDDP66B2J660WAMA68H/proposeafeaturelettingtasdropintakecalls",
+      "project_name": "intake-tool",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "status": "open"
+    },
+    {
+      "text": "Discuss AI training session frequency and content planning, testing a biweekly cadence to improve attendance",
+      "project": "ai-training",
+      "source": "fireflies/01KXJXTMDDP66B2J660WAMA68H",
+      "source_type": "fireflies",
+      "date": "2026-07-15",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KXJXTMDDP66B2J660WAMA68H/discussaitrainingsessionfrequencyandcont",
+      "project_name": "ai-training",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "status": "open"
+    },
+    {
+      "text": "Pause aggressive Tribot promotion temporarily to allow rebranding and repurposing efforts",
+      "project": "tribot-kb",
+      "source": "fireflies/01KXJXTMDDP66B2J660WAMA68H",
+      "source_type": "fireflies",
+      "date": "2026-07-15",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KXJXTMDDP66B2J660WAMA68H/pauseaggressivetribotpromotiontemporaril",
+      "project_name": "tribot-kb",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "status": "open"
+    },
+    {
+      "text": "Schedule a dashboard overview and Q&A session for team members to help with dashboard usage and collect feedback",
+      "project": "dashboards",
+      "source": "fireflies/01KXJPY5VKMQ6GSZ6E744PVD7D",
+      "source_type": "fireflies",
+      "date": "2026-07-15",
+      "confidence": "high",
+      "extras": {
+        "meeting": "TL Meeting"
+      },
+      "id": "fireflies/01KXJPY5VKMQ6GSZ6E744PVD7D/scheduleadashboardoverviewandqasessionfo",
+      "project_name": "dashboards",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "status": "open"
+    },
+    {
+      "text": "Investigate and fix bugs or inaccuracies from the new recruitment pipeline data input; collect feedback from leadership and users",
+      "project": "recruiting-pipeline",
+      "source": "fireflies/01KXJPY5VKMQ6GSZ6E744PVD7D",
+      "source_type": "fireflies",
+      "date": "2026-07-15",
+      "confidence": "high",
+      "extras": {
+        "meeting": "TL Meeting"
+      },
+      "id": "fireflies/01KXJPY5VKMQ6GSZ6E744PVD7D/investigateandfixbugsorinaccuraciesfromt",
+      "project_name": "recruiting-pipeline",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "status": "open"
+    },
+    {
+      "text": "Add the new mentoring program to the project hub for visibility and tracking",
+      "project": "people-ops",
+      "source": "fireflies/01KXJPY5VKMQ6GSZ6E744PVD7D",
+      "source_type": "fireflies",
+      "date": "2026-07-15",
+      "confidence": "high",
+      "extras": {
+        "meeting": "TL Meeting"
+      },
+      "id": "fireflies/01KXJPY5VKMQ6GSZ6E744PVD7D/addthenewmentoringprogramtotheprojecthub",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "status": "open"
+    },
+    {
+      "text": "Track receipt of the Tribe SRO 06/2026 VAT refund (CZK 148,487) expected by August 25, 2026 per Eva Huclova (Boris Gnoth) - VAT reports submitted",
+      "project": "cz-tax",
+      "source": "gmail/19f65fb2e586c350",
+      "source_type": "gmail",
+      "date": "2026-07-15",
+      "confidence": "high",
+      "extras": {
+        "from": "ehuclova@borisgnoth.cz",
+        "subject": "Tribe SRO - VAT 06/2026"
+      },
+      "id": "gmail/19f65fb2e586c350",
+      "project_name": "cz-tax",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "status": "open"
+    },
+    {
+      "text": "Create a Cloudflare API token for Mikhail Kuzmin and send him both keys, plus create the bucket he flagged (screenshot in DM) - or grant him permissions to do it himself. Follow-up to the R2 bucket he requested on Jul 9; his Jul 15 messages are still unanswered.",
+      "project": "cloudflare",
+      "source": "slack/D0577RU8WQ1/1784126350.673009",
+      "source_type": "slack",
+      "date": "2026-07-15",
+      "confidence": 0.9,
+      "extras": {
+        "from": "Mikhail Kuzmin",
+        "channel": "DM D0577RU8WQ1",
+        "related_messages": [
+          "1784126377.899299 (also please create a bucket here)",
+          "1784126397.262699 (Or give me permissions to do it myself)"
+        ]
+      },
+      "id": "slack/D0577RU8WQ1/1784126350.673009",
+      "project_name": "cloudflare",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "status": "open"
+    },
+    {
+      "text": "Fix the failing 'Receipts Workflow' n8n workflow - 'The service is receiving too many requests from you' (rate limit) at the 'Update Main Sheet' node, failed 13 Jul 18:00; add throttling/retry or batch the sheet updates.",
+      "project": "n8n-workflows",
+      "source": "slack/D0AKAPA0X3J/1783958455.863529",
+      "source_type": "slack",
+      "date": "2026-07-13",
+      "confidence": 0.8,
+      "extras": {
+        "from": "Blake Updates Bot",
+        "channel": "DM D0AKAPA0X3J",
+        "workflow_url": "https://blakebarkley.app.n8n.cloud/workflow/r9PgkkLdq1NibwY4/executions/39599"
+      },
+      "id": "slack/D0AKAPA0X3J/1783958455.863529",
+      "project_name": "n8n-workflows",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-15",
+      "status": "open"
+    },
+    {
+      "text": "Run the pilot/test in the 'enam' and 'taxfix' project channels (single TA per project: Aleksandra Vistac and Marina Nikolic) as Lejla Silva recommended - Blake agreed 'Yes, good call.' Likely the test rollout of the Slack channel automation Blake is building.",
+      "project": "slack-automation",
+      "source": "slack/D055Y2ELF9T/1784116195.016219",
+      "source_type": "slack",
+      "date": "2026-07-15",
+      "confidence": 0.5,
+      "extras": {
+        "from": "Lejla Silva",
+        "channel": "DM D055Y2ELF9T",
+        "note": "Preceding context not visible in DM history; exact thing being tested unclear"
+      },
+      "id": "slack/D055Y2ELF9T/1784116195.016219",
+      "project_name": "slack-automation",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "status": "open"
+    },
+    {
+      "text": "Pilot automatic knowledge capture from Slack project channels via Tribe Bot (Blake's action from Jul 15 TL meeting - room preferred automatic capture over the manual role-close questionnaire; keep questionnaire only for what automation misses)",
+      "project": "ai-first",
+      "source": "cowork/local_f7989052-4c4d-4be3-b233-0b672dfe9768",
+      "source_type": "cowork",
+      "date": "2026-07-15",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Tomorrow's meeting prep"
+      },
+      "id": "cowork/local_f7989052-4c4d-4be3-b233-0b672dfe9768/pilotautomaticknowledgecapturefromslackp",
+      "project_name": "ai-first",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "status": "open"
+    },
+    {
+      "text": "Set up a session with Jacopo and Gustavo to lock the sourcing tool plan and decide whether to push forward (Andrea + Valeria testing works but they forget to use it - make it more automatic/harder to forget)",
+      "project": "ai-first",
+      "source": "cowork/local_f7989052-4c4d-4be3-b233-0b672dfe9768",
+      "source_type": "cowork",
+      "date": "2026-07-15",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Tomorrow's meeting prep"
+      },
+      "id": "cowork/local_f7989052-4c4d-4be3-b233-0b672dfe9768/setupasessionwithjacopoandgustavotolockt",
+      "project_name": "ai-first",
+      "first_seen": "2026-07-15",
       "last_seen": "2026-07-15",
       "status": "open"
     }
