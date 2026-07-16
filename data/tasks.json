@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-15",
+  "generated_at": "2026-07-16",
   "schema_version": 2,
-  "total": 486,
+  "total": 495,
   "projects": [
     {
       "id": "fin-dash",
@@ -6610,19 +6610,19 @@
     },
     {
       "text": "Re-send the final invoice request to Kathleen Dongo at her personal email (kathleen.dongo@hotmail.com) - the message to kathleen@tribe.xyz bounced; ask her to send the invoice to accounting@tribe.xyz in PDF",
-      "project": "accounting",
+      "project": "expense-ops",
       "source": "gmail/19dfc83250fa2c99",
       "source_type": "gmail",
       "date": "2026-07-10",
       "confidence": "medium",
       "extras": {
-        "from": "kathleen.dongo@hotmail.com",
-        "subject": "Re: Termination details"
+        "subject": "Re: Termination details",
+        "sender": "kathleen.dongo@hotmail.com"
       },
       "id": "gmail/19dfc83250fa2c99",
-      "project_name": "accounting",
+      "project_name": "Expense Ops",
       "first_seen": "2026-07-08",
-      "last_seen": "2026-07-15",
+      "last_seen": "2026-07-16",
       "status": "open"
     },
     {
@@ -7530,19 +7530,19 @@
     },
     {
       "text": "Send Martin's quarterly payment when processing the next batch of scheduled transfers (action item from the Jul 13 1:1 with Martin)",
-      "project": "expense-ops",
+      "project": "leadership",
       "source": "gmail/19f5c521fb0f2fa4",
       "source_type": "gmail",
       "date": "2026-07-13",
-      "confidence": "medium",
+      "confidence": "high",
       "extras": {
         "subject": "Your recent 1:1 with Martin",
-        "from": "notifications@mg.latticehq.com"
+        "sender": "notifications@mg.latticehq.com"
       },
       "id": "gmail/19f5c521fb0f2fa4",
-      "project_name": "Expense Ops",
+      "project_name": "Leadership comms",
       "first_seen": "2026-07-13",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-16",
       "status": "open"
     },
     {
@@ -8073,6 +8073,163 @@
       "project_name": "ai-first",
       "first_seen": "2026-07-15",
       "last_seen": "2026-07-15",
+      "status": "open"
+    },
+    {
+      "text": "Pilot extraction of knowledge from Slack project channels to build the knowledge base with minimal admin effort",
+      "project": "tribebot",
+      "source": "fireflies/01KXJPY5VKMQ6GSZ6E744PVD7D",
+      "source_type": "fireflies",
+      "date": "2026-07-15",
+      "confidence": "medium",
+      "extras": {
+        "meeting_title": "TL Meeting",
+        "context": "Raised at ~48:47 in the TL Meeting alongside knowledge-management discussion. Note: overlaps thematically with already-tracked AI First (01KXJXTMDD) task about identifying Slack channels for Tribot knowledge base testing, but that task is scoped to reaching out to team leads/testing; this one is about piloting extraction from project channels."
+      },
+      "id": "fireflies/01KXJPY5VKMQ6GSZ6E744PVD7D/pilotextractionofknowledgefromslackproje",
+      "project_name": "Tribebot",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-16",
+      "status": "open"
+    },
+    {
+      "text": "Review Maria Gerbore's sick-leave questions (FREMAP appointment only covered Baja por enfermedad comun, not Riesgo durante el embarazo) and reply with next steps per Andrea's request",
+      "project": "people-ops",
+      "source": "gmail/19ef90ce4d615c95",
+      "source_type": "gmail",
+      "date": "2026-07-15",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Re: Re : Re: Maria Desiree Gerbore - sick leave",
+        "sender": "andreadarabasic@tribe.xyz"
+      },
+      "id": "gmail/19ef90ce4d615c95",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-16",
+      "status": "open"
+    },
+    {
+      "text": "Investigate the Jul 15-16 Google security alerts for team@tribe.xyz (2-Step Verification repeatedly turned on and off) - verify the activity is legitimate and re-secure the account if not",
+      "project": "inbox",
+      "source": "gmail/19f669a4d1308cc6",
+      "source_type": "gmail",
+      "date": "2026-07-16",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Security alert for team@tribe.xyz",
+        "sender": "no-reply@accounts.google.com"
+      },
+      "id": "gmail/19f669a4d1308cc6",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "status": "open"
+    },
+    {
+      "text": "Send Martin Bernard his outstanding payment - he flagged he still hasn't received the money; Blake committed to send it today (Jul 16) after paying the remaining bills",
+      "project": "expense-ops",
+      "source": "slack/D055NJ27YRY/1784185347.827589",
+      "source_type": "slack",
+      "date": "2026-07-16",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Martin Bernard (D055NJ27YRY)",
+        "from": "Martin Bernard",
+        "permalink": "https://tribexyz.slack.com/archives/D055NJ27YRY/p1784185347827589"
+      },
+      "id": "slack/D055NJ27YRY/1784185347.827589",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "status": "open"
+    },
+    {
+      "text": "Review and approve/deny Rodrigo Gomes's request to install the 'Tribe Extension' Slack app on the TRIBE.XYZ workspace (workspace-admin approval pending)",
+      "project": "inbox",
+      "source": "slack/D0B94H3QU3G/1784169449.216719",
+      "source_type": "slack",
+      "date": "2026-07-16",
+      "confidence": "high",
+      "extras": {
+        "channel": "Slackbot DM (D0B94H3QU3G)",
+        "from": "Slack (on behalf of Rodrigo Gomes)",
+        "permalink": "https://tribexyz.slack.com/archives/D0B94H3QU3G/p1784169449216719"
+      },
+      "id": "slack/D0B94H3QU3G/1784169449.216719",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "status": "open"
+    },
+    {
+      "text": "Investigate the 13 Jul 'Tribe Dashboard - Actual Spend Export Github node' n8n failure - 'Bad gateway' at the Write CSV to GitHub node (new failure mode, distinct from the June refreshToken issue); add retry if transient",
+      "project": "fin-dash",
+      "source": "slack/D0AKAPA0X3J/1783935969.395429",
+      "source_type": "slack",
+      "date": "2026-07-13",
+      "confidence": "medium",
+      "extras": {
+        "channel": "Blake Updates Bot DM (D0AKAPA0X3J)",
+        "from": "Blake Updates Bot",
+        "permalink": "https://tribexyz.slack.com/archives/D0AKAPA0X3J/p1783935969395429"
+      },
+      "id": "slack/D0AKAPA0X3J/1783935969.395429",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-16",
+      "status": "open"
+    },
+    {
+      "text": "Check the 10 Jul 'Check Personal Email Bot' n8n failure at the Basic LLM Chain node ('The service failed to process your request') - different node than the tracked 'Mark a message as read' failure; verify it recovered or add retry",
+      "project": "tribebot",
+      "source": "slack/D0AKAPA0X3J/1783692030.535589",
+      "source_type": "slack",
+      "date": "2026-07-10",
+      "confidence": "low",
+      "extras": {
+        "channel": "Blake Updates Bot DM (D0AKAPA0X3J)",
+        "from": "Blake Updates Bot",
+        "permalink": "https://tribexyz.slack.com/archives/D0AKAPA0X3J/p1783692030535589"
+      },
+      "id": "slack/D0AKAPA0X3J/1783692030.535589",
+      "project_name": "Tribebot",
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-16",
+      "status": "open"
+    },
+    {
+      "text": "Click 'Run now' once on the new interview-funnel usage-check scheduled task (Mon/Wed/Fri 9am) to pre-approve the Keboola connector permission before its first automated run",
+      "project": "rec-dash",
+      "source": "cowork/local_89e12d9a-7afe-463f-bd7e-dc5d343a365b",
+      "source_type": "cowork",
+      "date": "2026-07-15",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Funnel stages data structure",
+        "context": "New scheduled check watches for first candidates entering Interview 1/2/3 stages - the green light to start the funnel build; first run stalls without pre-approved Keboola permission"
+      },
+      "id": "cowork/local_89e12d9a-7afe-463f-bd7e-dc5d343a365b/clickrunnowonceonthenewinterviewfunnelus",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-16",
+      "status": "open"
+    },
+    {
+      "text": "Set team ground rules with Jacopo for how recruiters use the new interview stages (Move to ATS resolved via backfill rule; ground rules is one of two remaining active to-dos before the funnel build)",
+      "project": "rec-dash",
+      "source": "cowork/local_89e12d9a-7afe-463f-bd7e-dc5d343a365b",
+      "source_type": "cowork",
+      "date": "2026-07-15",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Funnel stages data structure",
+        "context": "STAGE_FUNNEL_BUILD_PLAN.md updated; enum tidy (Mikhail) already tracked separately; build itself parked until real candidates flow through stages"
+      },
+      "id": "cowork/local_89e12d9a-7afe-463f-bd7e-dc5d343a365b/setteamgroundruleswithjacopoforhowrecrui",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-16",
       "status": "open"
     }
   ]
