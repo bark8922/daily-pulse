@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-16",
   "schema_version": 2,
-  "total": 495,
+  "total": 504,
   "projects": [
     {
       "id": "fin-dash",
@@ -6616,8 +6616,8 @@
       "date": "2026-07-10",
       "confidence": "medium",
       "extras": {
-        "subject": "Re: Termination details",
-        "sender": "kathleen.dongo@hotmail.com"
+        "from": "kathleen.dongo@hotmail.com",
+        "subject": "Re: Termination details"
       },
       "id": "gmail/19dfc83250fa2c99",
       "project_name": "Expense Ops",
@@ -7536,8 +7536,8 @@
       "date": "2026-07-13",
       "confidence": "high",
       "extras": {
-        "subject": "Your recent 1:1 with Martin",
-        "sender": "notifications@mg.latticehq.com"
+        "from": "notifications@mg.latticehq.com (Lattice)",
+        "subject": "Your recent 1:1 with Martin"
       },
       "id": "gmail/19f5c521fb0f2fa4",
       "project_name": "Leadership comms",
@@ -8229,6 +8229,152 @@
       "id": "cowork/local_89e12d9a-7afe-463f-bd7e-dc5d343a365b/setteamgroundruleswithjacopoforhowrecrui",
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-07-15",
+      "last_seen": "2026-07-16",
+      "status": "open"
+    },
+    {
+      "text": "Announce the Weekly Roundup rollout plan to all sourcing team members via the Slack channel",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KXNB2BZHV78Q1SK5N62P9V2F",
+      "source_type": "fireflies",
+      "date": "2026-07-16",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Weekly Round Up - Sourcing"
+      },
+      "id": "fireflies/01KXNB2BZHV78Q1SK5N62P9V2F/announcetheweeklyrounduprolloutplantoall",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "status": "open"
+    },
+    {
+      "text": "Set up a feedback channel for Weekly Roundup bug reports and improvement suggestions",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KXNB2BZHV78Q1SK5N62P9V2F",
+      "source_type": "fireflies",
+      "date": "2026-07-16",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Weekly Round Up - Sourcing"
+      },
+      "id": "fireflies/01KXNB2BZHV78Q1SK5N62P9V2F/setupafeedbackchannelforweeklyroundupbug",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "status": "open"
+    },
+    {
+      "text": "Develop an automated daily job creation alert system from Keboola and Bubble data streams to notify sourcers about new roles",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KXNB2BZHV78Q1SK5N62P9V2F",
+      "source_type": "fireflies",
+      "date": "2026-07-16",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Weekly Round Up - Sourcing"
+      },
+      "id": "fireflies/01KXNB2BZHV78Q1SK5N62P9V2F/developanautomateddailyjobcreationalerts",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "status": "open"
+    },
+    {
+      "text": "Investigate and prototype a centralized dashboard integrating Weekly Roundup and sourcing data, including historical role data",
+      "project": "rec-dash",
+      "source": "fireflies/01KXNB2BZHV78Q1SK5N62P9V2F",
+      "source_type": "fireflies",
+      "date": "2026-07-16",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Weekly Round Up - Sourcing"
+      },
+      "id": "fireflies/01KXNB2BZHV78Q1SK5N62P9V2F/investigateandprototypeacentralizeddashb",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "status": "open"
+    },
+    {
+      "text": "Explore adding initial summary reports for new roles linking historical data and relevant contacts to boost Weekly Roundup value",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KXNB2BZHV78Q1SK5N62P9V2F",
+      "source_type": "fireflies",
+      "date": "2026-07-16",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Weekly Round Up - Sourcing"
+      },
+      "id": "fireflies/01KXNB2BZHV78Q1SK5N62P9V2F/exploreaddinginitialsummaryreportsfornew",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "status": "open"
+    },
+    {
+      "text": "Check/grant Fuad Safarov access to the Perk app so he can look at September Helsinki travel tickets (Vlad asked him to check them; his DM is unanswered)",
+      "project": "people-ops",
+      "source": "slack/D065EERA15H/1784211494.956929",
+      "source_type": "slack",
+      "date": "2026-07-16",
+      "confidence": "high",
+      "extras": {
+        "channel": "D065EERA15H",
+        "from": "Fuad Safarov"
+      },
+      "id": "slack/D065EERA15H/1784211494.956929",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "status": "open"
+    },
+    {
+      "text": "Build a simple dashboard from the Bubble extension-screening usage data so Rodrigo can track user usage of the extension - Blake started pulling the data for the first time and committed 'I'll let you know soon'",
+      "project": "ai-recruiting",
+      "source": "slack/D059PSVF62G/1784207657.212509",
+      "source_type": "slack",
+      "date": "2026-07-16",
+      "confidence": "high",
+      "extras": {
+        "channel": "D059PSVF62G",
+        "from": "Rodrigo Gomes"
+      },
+      "id": "slack/D059PSVF62G/1784207657.212509",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "status": "open"
+    },
+    {
+      "text": "Verify the Roles Roundup all-sourcer go-live auto-flips Monday Jul 20 at 13:00 CET (daily DMs to full roster + TA-notify unlocked), review the dry-run Monday 9:00 reminder / 12:00 cutoff outputs, then flip those Monday jobs from dry-run to real for Jul 27",
+      "project": "ai-recruiting",
+      "source": "cowork/local_85ee5042-fa3a-40b3-85fc-a0eb24c81fd7",
+      "source_type": "cowork",
+      "date": "2026-07-16",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Roles weekly update status"
+      },
+      "id": "cowork/local_85ee5042-fa3a-40b3-85fc-a0eb24c81fd7/verifytherolesroundupallsourcergoliveaut",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "status": "open"
+    },
+    {
+      "text": "Hold the promised Roles Roundup feedback/retro session with sourcers after the mandatory weekly-update testing phase has run for a few weeks (committed in the rollout Slack message)",
+      "project": "ai-recruiting",
+      "source": "cowork/local_85ee5042-fa3a-40b3-85fc-a0eb24c81fd7",
+      "source_type": "cowork",
+      "date": "2026-07-16",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Roles weekly update status"
+      },
+      "id": "cowork/local_85ee5042-fa3a-40b3-85fc-a0eb24c81fd7/holdthepromisedrolesroundupfeedbackretro",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-07-16",
       "last_seen": "2026-07-16",
       "status": "open"
     }
