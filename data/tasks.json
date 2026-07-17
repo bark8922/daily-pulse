@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-17",
   "schema_version": 2,
-  "total": 511,
+  "total": 517,
   "projects": [
     {
       "id": "fin-dash",
@@ -8494,6 +8494,108 @@
       },
       "id": "cowork/local_a08cd4a2-8874-42e6-a8b9-eb962a03e31a/updatethewatchdog4lreport228divisionpari",
       "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-17",
+      "status": "open"
+    },
+    {
+      "text": "Send Andreea Vrancianu the new Google verification code for the team@tribe account (code goes to Blake's phone 776 204 745) so she can finish verifying the account and upload the rebuilt extension - she asked again on Jul 17 after the earlier code session lapsed",
+      "project": "extension",
+      "source": "slack/D0AC2QAA35X/1784298777.128669",
+      "source_type": "slack",
+      "date": "2026-07-17",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM Andreea Vrancianu",
+        "requester": "Andreea Vrancianu"
+      },
+      "id": "slack/D0AC2QAA35X/1784298777.128669",
+      "project_name": "extension",
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "status": "open"
+    },
+    {
+      "text": "Extend the extension-screening usage dashboard (now live at tribe-calls.tribe-bamboohr.workers.dev) for Rodrigo: add a per-day filter so he can see whether unfinished calls decrease day over day after each extension update, and differentiate Pending calls (transcript/summary but not completed) from Unfinished (no transcript) - Blake said 'Yes for sure. Need a bit of time. It's just a prototype'",
+      "project": "extension-dashboard",
+      "source": "slack/D059PSVF62G/1784288579.396349",
+      "source_type": "slack",
+      "date": "2026-07-17",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM Rodrigo Gomes",
+        "requester": "Rodrigo Gomes"
+      },
+      "id": "slack/D059PSVF62G/1784288579.396349",
+      "project_name": "extension-dashboard",
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "status": "open"
+    },
+    {
+      "text": "Remove the AI session calendar invites for July 29, August 12 and August 26 - Andrea Darabasic asked; she will share the update via Slack and the Friday meeting instead",
+      "project": "ai-first",
+      "source": "slack/D071AKJ9YG2/1784192038.923609",
+      "source_type": "slack",
+      "date": "2026-07-16",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM Andrea Darabasic",
+        "requester": "Andrea Darabasic"
+      },
+      "id": "slack/D071AKJ9YG2/1784192038.923609",
+      "project_name": "ai-first",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-17",
+      "status": "open"
+    },
+    {
+      "text": "Decide how recontacting work should be reflected in the sourcing dashboard/numbers: roles marked 'recontacting' have sourcers re-reaching out to previously contacted candidates, but that work doesn't show in their numbers unless they open a new project (which skews job counts). Open thread with Alexandra Richiteanu; Blake floated reinstating candidates into pipelines as a possible fix",
+      "project": "intake",
+      "source": "slack/C0BD4MNA6SC/1784275145.343349",
+      "source_type": "slack",
+      "date": "2026-07-17",
+      "confidence": "medium",
+      "extras": {
+        "channel": "intake-task-force",
+        "requester": "Alexandra Richiteanu"
+      },
+      "id": "slack/C0BD4MNA6SC/1784275145.343349",
+      "project_name": "intake",
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "status": "open"
+    },
+    {
+      "text": "Decide whether to onboard sourcers onto the intake tool - Nenad flagged that sourcers kicking off roles (esp. those doing sourcing + screening who join kickoff calls) were left out of the TA onboarding; Blake narrowed it to 'pretty much just Gustavo and Jovana', Nenad added Zelimir used to do calls too and Rodrigo/Andrea Akovic work directly on clients",
+      "project": "intake",
+      "source": "slack/C0BD4MNA6SC/1784022603.236859",
+      "source_type": "slack",
+      "date": "2026-07-14",
+      "confidence": "medium",
+      "extras": {
+        "channel": "intake-task-force",
+        "requester": "Nenad Skoko"
+      },
+      "id": "slack/C0BD4MNA6SC/1784022603.236859",
+      "project_name": "intake",
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-17",
+      "status": "open"
+    },
+    {
+      "text": "Build the new-role briefing bot for Roles Roundup: auto-ping the TA when a new role opens with relevant data and a strong starting brief (publicly announced at the Jul 17 Friday meeting as coming in the next few weeks - step two after the weekly updates go-live)",
+      "project": "roles-roundup",
+      "source": "cowork/local_85ee5042-fa3a-40b3-85fc-a0eb24c81fd7",
+      "source_type": "cowork",
+      "date": "2026-07-16",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Roles weekly update status",
+        "summary": "All-sourcer go-live wired to auto-flip Mon Jul 20 13:00 CET (Nare off roster, Monday reminder/cutoff jobs dry-run until ~Jul 27). Blake requested a Friday-meeting slide announcing the rollout, which committed a 'coming soon' new-role briefing feature that auto-pings TAs with data + starting brief on role open - new build scope not yet tracked."
+      },
+      "id": "cowork/local_85ee5042-fa3a-40b3-85fc-a0eb24c81fd7/buildthenewrolebriefingbotforrolesroundu",
+      "project_name": "roles-roundup",
       "first_seen": "2026-07-16",
       "last_seen": "2026-07-17",
       "status": "open"
