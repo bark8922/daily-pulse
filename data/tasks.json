@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-16",
+  "generated_at": "2026-07-17",
   "schema_version": 2,
-  "total": 504,
+  "total": 511,
   "projects": [
     {
       "id": "fin-dash",
@@ -6616,13 +6616,13 @@
       "date": "2026-07-10",
       "confidence": "medium",
       "extras": {
-        "from": "kathleen.dongo@hotmail.com",
-        "subject": "Re: Termination details"
+        "subject": "Re: Termination details",
+        "sender": "kathleen.dongo@hotmail.com"
       },
       "id": "gmail/19dfc83250fa2c99",
       "project_name": "Expense Ops",
       "first_seen": "2026-07-08",
-      "last_seen": "2026-07-16",
+      "last_seen": "2026-07-17",
       "status": "open"
     },
     {
@@ -8376,6 +8376,126 @@
       "project_name": "Roundup & Intake (AI recruiting tools)",
       "first_seen": "2026-07-16",
       "last_seen": "2026-07-16",
+      "status": "open"
+    },
+    {
+      "text": "Define and roll out a formal invoice/receipt handling workflow for company card purchases (receipts currently sent ad hoc to accounting)",
+      "project": "expense-ops",
+      "source": "fireflies/01KX5STXYBVWX99XA8YG8E6RHC",
+      "source_type": "fireflies",
+      "date": "2026-07-10",
+      "confidence": "medium",
+      "extras": {
+        "meeting_title": "VAT Payment and Invoice Processing Meeting",
+        "context": "Blake told Dana to send receipts to accounting as a temporary measure and committed to formalizing invoice routing over the coming weeks; VAT field confirmed optional on Revolut card purchases."
+      },
+      "id": "fireflies/01KX5STXYBVWX99XA8YG8E6RHC/defineandrolloutaformalinvoicereceipthan",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-17",
+      "status": "open"
+    },
+    {
+      "text": "Approve Bove Montero's Spain 2Q 2026 VAT filings (Form 303 to be offset in future periods + informative Form 349) - Yujing Han awaiting Blake's approval for submission",
+      "project": "expense-ops",
+      "source": "gmail/19f6b961eed21f16",
+      "source_type": "gmail",
+      "date": "2026-07-16",
+      "confidence": "high",
+      "extras": {
+        "subject": "TRIBE - FORM 303 + 349 Q2 2026",
+        "sender": "yhan@bovemontero.com"
+      },
+      "id": "gmail/19f6b961eed21f16",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-17",
+      "status": "open"
+    },
+    {
+      "text": "Decide on Marina Lazarevic's (external, lazarevic.m98@gmail.com) Google Drive access request for the 'Roles_Weekly_Update_Guide' document",
+      "project": "inbox",
+      "source": "gmail/19f6b695869b1d31",
+      "source_type": "gmail",
+      "date": "2026-07-16",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Share request for \"Roles_Weekly_Update_Guide\"",
+        "sender": "drive-shares-dm-noreply@google.com"
+      },
+      "id": "gmail/19f6b695869b1d31",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-17",
+      "status": "open"
+    },
+    {
+      "text": "Reply to Andrea's nudge on Rossella's time-off plan (lactancia Jul 20-Aug 4, paid holiday Aug 5-Sep 3, unpaid leave until Nov 1) - confirm whether anything else is needed to finalize it for payroll",
+      "project": "people-ops",
+      "source": "gmail/19f17920776a5763",
+      "source_type": "gmail",
+      "date": "2026-07-16",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Permiso de lactancia and other time off - Rossella",
+        "sender": "andreadarabasic@tribe.xyz"
+      },
+      "id": "gmail/19f17920776a5763",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-17",
+      "status": "open"
+    },
+    {
+      "text": "Build out the recruiting line-item candidate view per Samantha Nel's request: a recruiter-level weekly view (select recruiter, see all roles/candidates for the week together instead of per-role) - settle the design with her first (Blake asked whether to drop the per-role split and use week + stage filters with role badges)",
+      "project": "rec-dash",
+      "source": "slack/C0BHQD578LV/1784213951.345529",
+      "source_type": "slack",
+      "date": "2026-07-16",
+      "confidence": "medium",
+      "extras": {
+        "channel": "Group DM: Chene Elliot, Alexandra Richiteanu, Samantha Nel, Dusan Spica, Blake (C0BHQD578LV)",
+        "from": "Samantha Nel",
+        "permalink": "https://tribexyz.slack.com/archives/C0BHQD578LV/p1784213951345529"
+      },
+      "id": "slack/C0BHQD578LV/1784213951.345529",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-17",
+      "status": "open"
+    },
+    {
+      "text": "Clean up Roles Roundup temporary debug artifacts (debug table + one-off helper function from the modal-fix saga) once the Jul 20 all-sourcer go-live is stable",
+      "project": "ai-recruiting",
+      "source": "cowork/local_85ee5042-fa3a-40b3-85fc-a0eb24c81fd7",
+      "source_type": "cowork",
+      "date": "2026-07-16",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Roles weekly update status",
+        "context": "Flagged as a remaining low-priority to-do after wiring the Monday Jul 20 auto-flip; distinct from the tracked go-live verification and dry-run flip tasks"
+      },
+      "id": "cowork/local_85ee5042-fa3a-40b3-85fc-a0eb24c81fd7/cleanuprolesrounduptemporarydebugartifac",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-17",
+      "status": "open"
+    },
+    {
+      "text": "Update the watchdog 4l report-228 division-parity script to the 2026-06-29 bkt model so it stops false-positiving on AVIV casing, Salem's Supporting Role allocation, and Gerbore's paid-leave override",
+      "project": "fin-dash",
+      "source": "cowork/local_a08cd4a2-8874-42e6-a8b9-eb962a03e31a",
+      "source_type": "cowork",
+      "date": "2026-07-16",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Tribe dashboard watchdog",
+        "context": "Watchdog run noted to Blake that the 4l parity script predates the bkt model; separate from the already-tracked active_employees floor fix"
+      },
+      "id": "cowork/local_a08cd4a2-8874-42e6-a8b9-eb962a03e31a/updatethewatchdog4lreport228divisionpari",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-17",
       "status": "open"
     }
   ]
