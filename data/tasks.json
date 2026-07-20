@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-17",
+  "generated_at": "2026-07-20",
   "schema_version": 2,
-  "total": 517,
+  "total": 527,
   "projects": [
     {
       "id": "fin-dash",
@@ -8598,6 +8598,170 @@
       "project_name": "roles-roundup",
       "first_seen": "2026-07-16",
       "last_seen": "2026-07-17",
+      "status": "open"
+    },
+    {
+      "text": "Support new Tribe dashboard features and address user feedback to improve usability and adoption",
+      "project": "rec-dash",
+      "source": "fireflies/01KXR5453J49MQ7JMT06XYZJSD",
+      "source_type": "fireflies",
+      "date": "2026-07-17",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Friday Team Meeting"
+      },
+      "id": "fireflies/01KXR5453J49MQ7JMT06XYZJSD/supportnewtribedashboardfeaturesandaddre",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
+      "status": "open"
+    },
+    {
+      "text": "Host a 30-minute data dashboard Q&A and feedback session next week",
+      "project": "rec-dash",
+      "source": "fireflies/01KXR5453J49MQ7JMT06XYZJSD",
+      "source_type": "fireflies",
+      "date": "2026-07-17",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Friday Team Meeting"
+      },
+      "id": "fireflies/01KXR5453J49MQ7JMT06XYZJSD/hosta30minutedatadashboardqaandfeedbacks",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
+      "status": "open"
+    },
+    {
+      "text": "Roll out the Weekly Roles Roundup tool to all sourcers starting Monday",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KXR5453J49MQ7JMT06XYZJSD",
+      "source_type": "fireflies",
+      "date": "2026-07-17",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Friday Team Meeting"
+      },
+      "id": "fireflies/01KXR5453J49MQ7JMT06XYZJSD/rollouttheweeklyrolesrounduptooltoallsou",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
+      "status": "open"
+    },
+    {
+      "text": "Develop and deliver a new role briefing prototype including sourcing strategies and data insights",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KXR5453J49MQ7JMT06XYZJSD",
+      "source_type": "fireflies",
+      "date": "2026-07-17",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Friday Team Meeting"
+      },
+      "id": "fireflies/01KXR5453J49MQ7JMT06XYZJSD/developanddeliveranewrolebriefingprototy",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
+      "status": "open"
+    },
+    {
+      "text": "Investigate the Jul 17 Google security alerts for team@tribe.xyz (2-Step Verification turned on then off again) - verify the activity is legitimate and re-secure the account if not (Blake is the recovery email)",
+      "project": "inbox",
+      "source": "gmail/19f70971b75ccac6",
+      "source_type": "gmail",
+      "date": "2026-07-17",
+      "confidence": "medium",
+      "extras": {
+        "from": "no-reply@accounts.google.com",
+        "subject": "Security alert for team@tribe.xyz"
+      },
+      "id": "gmail/19f70971b75ccac6",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
+      "status": "open"
+    },
+    {
+      "text": "Host the data-dashboards Q&A session this week (committed via slide in Friday meeting: let everyone ask questions about the dashboards and give improvement feedback)",
+      "project": "inbox",
+      "source": "slack/D0562L90R36/1784285103.920949",
+      "source_type": "slack",
+      "date": "2026-07-17",
+      "confidence": "medium",
+      "extras": {
+        "from": "Blake Barkley (own commitment, slide added via Tijana Lazovic)",
+        "channel": "D0562L90R36"
+      },
+      "id": "slack/D0562L90R36/1784285103.920949",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
+      "status": "open"
+    },
+    {
+      "text": "Fix the failing 'Inactive Jobs Sync' n8n workflow - 'Service unavailable' at the 'Read Inactive Jobs' node (failed 20 Jul 07:03); add automatic retry if transient",
+      "project": "tribebot",
+      "source": "slack/D0AKAPA0X3J/1784523818.641109",
+      "source_type": "slack",
+      "date": "2026-07-20",
+      "confidence": "high",
+      "extras": {
+        "from": "Blake Updates Bot",
+        "channel": "D0AKAPA0X3J"
+      },
+      "id": "slack/D0AKAPA0X3J/1784523818.641109",
+      "project_name": "Tribebot",
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
+      "status": "open"
+    },
+    {
+      "text": "Remove Wladyslaw Gadomski's LinkedIn Recruiter seat in LinkedIn admin - he returned his license (Request ID: LI-20260317-737), consistent with his 17.07 AVIV offboarding",
+      "project": "linkedin",
+      "source": "slack/D0AKAPA0X3J/1784531438.525439",
+      "source_type": "slack",
+      "date": "2026-07-20",
+      "confidence": "high",
+      "extras": {
+        "from": "Blake Updates Bot",
+        "channel": "D0AKAPA0X3J"
+      },
+      "id": "slack/D0AKAPA0X3J/1784531438.525439",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
+      "status": "open"
+    },
+    {
+      "text": "Send the CoS Weekly Log Slack DM to Martin for week of Jul 13-19 (draft sitting in Slack drafts with sheet link, 6 rows pushed, not yet sent)",
+      "project": "leadership",
+      "source": "cowork/local_ad6eff33-bbe6-4617-8a75-198499b48e15",
+      "source_type": "cowork",
+      "date": "2026-07-20",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Cos weekly log"
+      },
+      "id": "cowork/local_ad6eff33-bbe6-4617-8a75-198499b48e15/sendthecosweeklylogslackdmtomartinforwee",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
+      "status": "open"
+    },
+    {
+      "text": "Submit the Trinsic Product Operations Lead application using the finalized plain-voice 'Why Trinsic?' answer (drafted and revised in session, not yet submitted)",
+      "project": "inbox",
+      "source": "cowork/local_de47a767-e219-408c-8b9b-6e281aeb091a",
+      "source_type": "cowork",
+      "date": "2026-07-17",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Job search daily"
+      },
+      "id": "cowork/local_de47a767-e219-408c-8b9b-6e281aeb091a/submitthetrinsicproductoperationsleadapp",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
       "status": "open"
     }
   ]
