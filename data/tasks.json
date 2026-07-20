@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-20",
   "schema_version": 2,
-  "total": 527,
+  "total": 529,
   "projects": [
     {
       "id": "fin-dash",
@@ -8649,14 +8649,15 @@
       "status": "open"
     },
     {
-      "text": "Develop and deliver a new role briefing prototype including sourcing strategies and data insights",
+      "text": "Develop and deliver a new role briefing prototype with sourcing strategies and data insights to enhance role kickoffs",
       "project": "ai-recruiting",
       "source": "fireflies/01KXR5453J49MQ7JMT06XYZJSD",
       "source_type": "fireflies",
       "date": "2026-07-17",
       "confidence": "high",
       "extras": {
-        "meeting": "Friday Team Meeting"
+        "meeting": "Friday Team Meeting",
+        "note": "Goes beyond existing 'explore initial summary reports for new roles' task - commits to building and delivering a prototype"
       },
       "id": "fireflies/01KXR5453J49MQ7JMT06XYZJSD/developanddeliveranewrolebriefingprototy",
       "project_name": "Roundup & Intake (AI recruiting tools)",
@@ -8665,18 +8666,19 @@
       "status": "open"
     },
     {
-      "text": "Investigate the Jul 17 Google security alerts for team@tribe.xyz (2-Step Verification turned on then off again) - verify the activity is legitimate and re-secure the account if not (Blake is the recovery email)",
-      "project": "inbox",
+      "text": "Investigate the new Jul 16-17 Google security alerts for team@tribe.xyz (2-Step Verification turned on and off again, latest Jul 17 ~15:00 UTC) - verify the activity is legitimate and re-secure the account if not recognized (Blake is the recovery email)",
+      "project": "it-security",
       "source": "gmail/19f70971b75ccac6",
       "source_type": "gmail",
       "date": "2026-07-17",
       "confidence": "medium",
       "extras": {
         "from": "no-reply@accounts.google.com",
-        "subject": "Security alert for team@tribe.xyz"
+        "subject": "Security alert for team@tribe.xyz",
+        "note": "New alert threads after the already-tracked Jul 15-16 batch; related thread 19f6c4ad98e8a909 (Jul 16 evening) is covered by the same action"
       },
       "id": "gmail/19f70971b75ccac6",
-      "project_name": "Inbox (untagged)",
+      "project_name": "it-security",
       "first_seen": "2026-07-17",
       "last_seen": "2026-07-20",
       "status": "open"
@@ -8700,17 +8702,17 @@
     },
     {
       "text": "Fix the failing 'Inactive Jobs Sync' n8n workflow - 'Service unavailable' at the 'Read Inactive Jobs' node (failed 20 Jul 07:03); add automatic retry if transient",
-      "project": "tribebot",
+      "project": "n8n",
       "source": "slack/D0AKAPA0X3J/1784523818.641109",
       "source_type": "slack",
       "date": "2026-07-20",
       "confidence": "high",
       "extras": {
         "from": "Blake Updates Bot",
-        "channel": "D0AKAPA0X3J"
+        "channel": "DM Blake Updates Bot"
       },
       "id": "slack/D0AKAPA0X3J/1784523818.641109",
-      "project_name": "Tribebot",
+      "project_name": "n8n",
       "first_seen": "2026-07-20",
       "last_seen": "2026-07-20",
       "status": "open"
@@ -8761,6 +8763,40 @@
       "id": "cowork/local_de47a767-e219-408c-8b9b-6e281aeb091a/submitthetrinsicproductoperationsleadapp",
       "project_name": "Inbox (untagged)",
       "first_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
+      "status": "open"
+    },
+    {
+      "text": "Set up Nexi invoicing/accounting for Lisa starting 17 August - Jacopo posted in #accounting-and-invoicing that Lisa starts with Nexi on 17.08 (PTO aligned with Clarissa, her Nexi TL); reflect the placement in invoicing",
+      "project": "invoicing",
+      "source": "slack/C04FPRVF5L5/1784272113.206549",
+      "source_type": "slack",
+      "date": "2026-07-17",
+      "confidence": "medium",
+      "extras": {
+        "from": "Jacopo Lupo Ferrari",
+        "channel": "accounting-and-invoicing"
+      },
+      "id": "slack/C04FPRVF5L5/1784272113.206549",
+      "project_name": "invoicing",
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-20",
+      "status": "open"
+    },
+    {
+      "text": "Send the drafted Slack DM to Martin with the CoS Weekly Log link for the week of Jul 13-19 (draft sitting in Slack drafts for the Martin Bernard DM, one line + sheet link, not yet sent)",
+      "project": "cos-weekly-log",
+      "source": "cowork/local_ad6eff33-bbe6-4617-8a75-198499b48e15",
+      "source_type": "cowork",
+      "date": "2026-07-20",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Cos weekly log",
+        "note": "6 rows pushed to the CoS Weekly Log sheet for week of Jul 13; only the DM send remains"
+      },
+      "id": "cowork/local_ad6eff33-bbe6-4617-8a75-198499b48e15/sendthedraftedslackdmtomartinwiththecosw",
+      "project_name": "cos-weekly-log",
+      "first_seen": "2026-07-20",
       "last_seen": "2026-07-20",
       "status": "open"
     }
