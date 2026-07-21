@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-21",
   "schema_version": 2,
-  "total": 544,
+  "total": 554,
   "projects": [
     {
       "id": "fin-dash",
@@ -9043,6 +9043,171 @@
       },
       "id": "cowork/local_acc4a3c9-bc91-4cb6-9477-1617fbaf5163/confirmwhethertherecruitingdashboardrefr",
       "project_name": "LinkedIn license management",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "status": "open"
+    },
+    {
+      "text": "Review and update the team forecast to reflect Yan's onboarding and Meho's offboarding",
+      "project": "fin-dash",
+      "source": "fireflies/01KY20WV54YAPZFY2K8YNG09Z9",
+      "source_type": "fireflies",
+      "date": "2026-07-21",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Salem"
+      },
+      "id": "fireflies/01KY20WV54YAPZFY2K8YNG09Z9/reviewandupdatetheteamforecasttoreflecty",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "status": "open"
+    },
+    {
+      "text": "Coordinate document sharing in Slack and ensure the agreement documents (DPA, ToS, main agreement) are accessible for the team",
+      "project": "legal",
+      "source": "fireflies/01KY20WV54YAPZFY2K8YNG09Z9",
+      "source_type": "fireflies",
+      "date": "2026-07-21",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Blake / Salem"
+      },
+      "id": "fireflies/01KY20WV54YAPZFY2K8YNG09Z9/coordinatedocumentsharinginslackandensur",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "status": "open"
+    },
+    {
+      "text": "Troubleshoot the GitHub integration and scheduled tasks to support Ella's performance dashboard launch",
+      "project": "people-ops",
+      "source": "fireflies/01KY1YF7PC9P43P1DBFGJ2778J",
+      "source_type": "fireflies",
+      "date": "2026-07-21",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Ella 1:1"
+      },
+      "id": "fireflies/01KY1YF7PC9P43P1DBFGJ2778J/troubleshootthegithubintegrationandsched",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "status": "open"
+    },
+    {
+      "text": "Verify Lattice connection limitations related to admin rights and explore workarounds for the performance dashboard data integration",
+      "project": "people-ops",
+      "source": "fireflies/01KY1YF7PC9P43P1DBFGJ2778J",
+      "source_type": "fireflies",
+      "date": "2026-07-21",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Ella 1:1"
+      },
+      "id": "fireflies/01KY1YF7PC9P43P1DBFGJ2778J/verifylatticeconnectionlimitationsrelate",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "status": "open"
+    },
+    {
+      "text": "Complete the BambooHR offboarding task for Meho Saracevic (Team Lead, B2B, Leadership/Bench, termination date Aug 21, 2026) assigned by Andrea Darabasic",
+      "project": "people-ops",
+      "source": "gmail/19f8421df4f63f32",
+      "source_type": "gmail",
+      "date": "2026-07-21",
+      "confidence": "high",
+      "extras": {
+        "subject": "Please complete this offboarding task for Meho Saracevic",
+        "from": "notifications@app.bamboohr.com"
+      },
+      "id": "gmail/19f8421df4f63f32",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with Nexi (Dalia Dal Corso) to obtain and provide the new PO number for the new RPO recruiter's invoices - Jacopo assigned Blake to handle the PO once Nexi issues it",
+      "project": "expense-ops",
+      "source": "gmail/19f83f5207f2492c",
+      "source_type": "gmail",
+      "date": "2026-07-21",
+      "confidence": "high",
+      "extras": {
+        "subject": "New RPO recruiter set up - TRIBE",
+        "from": "dalia.dalcorso@nexigroup.com"
+      },
+      "id": "gmail/19f83f5207f2492c",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "status": "open"
+    },
+    {
+      "text": "Decide on Alexandra Richiteanu's Notion access request for the 'PPR Alexandra Richiteanu' page (TL Home/TL Docs)",
+      "project": "project-hub",
+      "source": "gmail/19f83b217e57dbb0",
+      "source_type": "gmail",
+      "date": "2026-07-21",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Alexandra Richiteanu requested access to PPR Alexandra Richiteanu",
+        "from": "notify@mail.notion.so"
+      },
+      "id": "gmail/19f83b217e57dbb0",
+      "project_name": "Project Hub",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "status": "open"
+    },
+    {
+      "text": "Review and resolve the security gaps flagged in the Google Workspace Admin Console ('Possible unresolved security risks') for the tribe.xyz organization",
+      "project": "inbox",
+      "source": "gmail/19f840d49eac5e2f",
+      "source_type": "gmail",
+      "date": "2026-07-21",
+      "confidence": "low",
+      "extras": {
+        "subject": "[Notice] Possible unresolved security risks in your Admin Console",
+        "from": "workspace-noreply@google.com"
+      },
+      "id": "gmail/19f840d49eac5e2f",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "status": "open"
+    },
+    {
+      "text": "Prepare an example client contract for Kristjana's new potential client with the two pricing options (13k/month/TA OR 7k fixed + 2k per hire) and 30-day notice, and add the risk-free first month clause she requested",
+      "project": "legal",
+      "source": "slack/D059MAFUJR0/1784641300.675749",
+      "source_type": "slack",
+      "date": "2026-07-21",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Kristjana Thorarinsdottir",
+        "from": "Kristjana Thorarinsdottir"
+      },
+      "id": "slack/D059MAFUJR0/1784641300.675749",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "status": "open"
+    },
+    {
+      "text": "Decide whether COO-titled roles should be hard-cut from the job-search dashboard entirely or kept visible as capped stretch partials (score capped at 8/15 seniority, can't reach the 70+ pick bar) - Claude asked for Blake's preference and left it open",
+      "project": "inbox",
+      "source": "cowork/local_45825d95-eae2-44e9-9041-6d1669d728e2",
+      "source_type": "cowork",
+      "date": "2026-07-21",
+      "confidence": "low",
+      "extras": {
+        "session_title": "Job search daily"
+      },
+      "id": "cowork/local_45825d95-eae2-44e9-9041-6d1669d728e2/decidewhethercootitledrolesshouldbehardc",
+      "project_name": "Inbox (untagged)",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "status": "open"
