@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-22",
   "schema_version": 2,
-  "total": 563,
+  "total": 575,
   "projects": [
     {
       "id": "fin-dash",
@@ -9361,6 +9361,201 @@
       "id": "cowork/local_9ea0e3d6-429c-4b10-a352-298d2829f6dc/switchtheclaudebackupsscheduledtaskoffth",
       "project_name": "Inbox (untagged)",
       "first_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
+      "status": "open"
+    },
+    {
+      "text": "Investigate technical options for integrating voice recording and transcription in Slack for sourcer/TA weekly roundups to automate data capture",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KY4YK9Q002B8HFNGEGHJ3XB9",
+      "source_type": "fireflies",
+      "date": "2026-07-22",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KY4YK9Q002B8HFNGEGHJ3XB9/investigatetechnicaloptionsforintegratin",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "status": "open"
+    },
+    {
+      "text": "Discuss role category/subcategory taxonomy improvements with Mikhail and consider retroactive updating to improve dashboard role matching accuracy",
+      "project": "rec-dash",
+      "source": "fireflies/01KY4YK9Q002B8HFNGEGHJ3XB9",
+      "source_type": "fireflies",
+      "date": "2026-07-22",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KY4YK9Q002B8HFNGEGHJ3XB9/discussrolecategorysubcategorytaxonomyim",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "status": "open"
+    },
+    {
+      "text": "Build dashboard functionality to flag intake-eligible roles and track intake form completion, cross-referencing historical data to verify stale vs new roles",
+      "project": "rec-dash",
+      "source": "fireflies/01KY4YK9Q002B8HFNGEGHJ3XB9",
+      "source_type": "fireflies",
+      "date": "2026-07-22",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KY4YK9Q002B8HFNGEGHJ3XB9/builddashboardfunctionalitytoflagintakee",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with Rodrigo/technical team on microphone and caption integration for transcription to support voice-based data capture",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KY4YK9Q002B8HFNGEGHJ3XB9",
+      "source_type": "fireflies",
+      "date": "2026-07-22",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KY4YK9Q002B8HFNGEGHJ3XB9/followupwithrodrigotechnicalteamonmicrop",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "status": "open"
+    },
+    {
+      "text": "Send meeting summary and follow-up notes to the team and absentees to ensure alignment",
+      "project": "ai-first-working-group",
+      "source": "fireflies/01KY4YK9Q002B8HFNGEGHJ3XB9",
+      "source_type": "fireflies",
+      "date": "2026-07-22",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KY4YK9Q002B8HFNGEGHJ3XB9/sendmeetingsummaryandfollowupnotestothet",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "status": "open"
+    },
+    {
+      "text": "Offer demonstrations of the weekly roundup Slack integration and Tribe Bot to Martin and other interested parties to increase adoption",
+      "project": "tribebot",
+      "source": "fireflies/01KY4KFPRKSCVEW80F5G9E0GEA",
+      "source_type": "fireflies",
+      "date": "2026-07-22",
+      "confidence": "high",
+      "extras": {
+        "meeting": "OKR Check-in - Stand-up: Delivery, People, BD"
+      },
+      "id": "fireflies/01KY4KFPRKSCVEW80F5G9E0GEA/offerdemonstrationsoftheweeklyroundupsla",
+      "project_name": "Tribebot",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "status": "open"
+    },
+    {
+      "text": "Track and report on ATS dashboard usage data and discuss candidate flow metrics with Jacopo and Martin to identify pipeline bottlenecks",
+      "project": "rec-dash",
+      "source": "fireflies/01KY4KFPRKSCVEW80F5G9E0GEA",
+      "source_type": "fireflies",
+      "date": "2026-07-22",
+      "confidence": "high",
+      "extras": {
+        "meeting": "OKR Check-in - Stand-up: Delivery, People, BD"
+      },
+      "id": "fireflies/01KY4KFPRKSCVEW80F5G9E0GEA/trackandreportonatsdashboardusagedataand",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "status": "open"
+    },
+    {
+      "text": "Test migrating AI setups from Claude to cheaper open-source LLMs like Kimi to reduce costs",
+      "project": "ai-first-working-group",
+      "source": "fireflies/01KY4GYDMQ9HEN9W5E7NX5RFS8",
+      "source_type": "fireflies",
+      "date": "2026-07-22",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI Live Training Sessions"
+      },
+      "id": "fireflies/01KY4GYDMQ9HEN9W5E7NX5RFS8/testmigratingaisetupsfromclaudetocheaper",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "status": "open"
+    },
+    {
+      "text": "Discuss Obsidian Karpathi tool capabilities and knowledge-consolidation integration with Martin and Nenad",
+      "project": "ai-first-working-group",
+      "source": "fireflies/01KY4GYDMQ9HEN9W5E7NX5RFS8",
+      "source_type": "fireflies",
+      "date": "2026-07-22",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "AI Live Training Sessions"
+      },
+      "id": "fireflies/01KY4GYDMQ9HEN9W5E7NX5RFS8/discussobsidiankarpathitoolcapabilitiesa",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "status": "open"
+    },
+    {
+      "text": "Complete the BambooHR offboarding task for Tijana Lazovic (Talent Director, Senior Leadership, termination date Jul 31, 2026) assigned by Andrea Darabasic",
+      "project": "people-ops",
+      "source": "gmail/19f898de1d5a196a",
+      "source_type": "gmail",
+      "date": "2026-07-22",
+      "confidence": "high",
+      "extras": {
+        "subject": "Please complete this offboarding task for Tijana Lazovic",
+        "from": "notifications@app.bamboohr.com"
+      },
+      "id": "gmail/19f898de1d5a196a",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "status": "open"
+    },
+    {
+      "text": "Check with Veronika about the Allianz account/policy - Blake couldn't log into Allianz with either of Martin's emails and thinks it may be under Veronika's email; confirm with her and coordinate cancelling the policy",
+      "project": "expense-ops",
+      "source": "slack/D055NJ27YRY/1784724093.234809",
+      "source_type": "slack",
+      "date": "2026-07-22",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Martin Bernard",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/D055NJ27YRY/1784724093.234809",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "status": "open"
+    },
+    {
+      "text": "Decide whether to productionize/roll out the automated new-role briefings - Blake shared 3 example briefings for roles opened this week in the Jacopo/Gustavo group DM and both endorsed them as useful; move it forward",
+      "project": "tribebot",
+      "source": "slack/C0B53149BUH/1784724007.931569",
+      "source_type": "slack",
+      "date": "2026-07-22",
+      "confidence": "medium",
+      "extras": {
+        "channel": "Group DM (Jacopo, Gustavo, Blake)",
+        "from": "Blake Barkley"
+      },
+      "id": "slack/C0B53149BUH/1784724007.931569",
+      "project_name": "Tribebot",
+      "first_seen": "2026-07-22",
       "last_seen": "2026-07-22",
       "status": "open"
     }
