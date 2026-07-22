@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-21",
+  "generated_at": "2026-07-22",
   "schema_version": 2,
-  "total": 554,
+  "total": 563,
   "projects": [
     {
       "id": "fin-dash",
@@ -9210,6 +9210,158 @@
       "project_name": "Inbox (untagged)",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
+      "status": "open"
+    },
+    {
+      "text": "Send the finalized Mercedes Vito sale invoice (renumbered PSI/01/2607092, buyer Harmonisi s.r.o., payment to KB CZK HLAVNI 51-14500217/0100) to the waiting buyer, incorporating the car's WIN and registration number Natalie added",
+      "project": "expense-ops",
+      "source": "gmail/19f838af183c6707",
+      "source_type": "gmail",
+      "date": "2026-07-21",
+      "confidence": "high",
+      "extras": {
+        "subject": "Mercedes Vito",
+        "from": "Natalie Harustiakova (BORIS GNOTH TAX) <nharustiakova@borisgnoth.cz>"
+      },
+      "id": "gmail/19f838af183c6707",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
+      "status": "open"
+    },
+    {
+      "text": "Investigate the new Jul 21 Google security alerts for team@tribe.xyz (Authenticator app added, 2-Step Verification turned on then off, Authenticator app removed - all within minutes) and re-secure the account if the activity is not recognized (Blake is the recovery email)",
+      "project": "inbox",
+      "source": "gmail/19f85e729797cd3c",
+      "source_type": "gmail",
+      "date": "2026-07-21",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Security alert for team@tribe.xyz",
+        "from": "no-reply@accounts.google.com"
+      },
+      "id": "gmail/19f85e729797cd3c",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
+      "status": "open"
+    },
+    {
+      "text": "Resolve the security vulnerabilities Supabase flagged in your projects (Jul 21 'Action required' notice)",
+      "project": "inbox",
+      "source": "gmail/19f863e51bf71981",
+      "source_type": "gmail",
+      "date": "2026-07-21",
+      "confidence": "low",
+      "extras": {
+        "subject": "Action required: security vulnerabilities detected in your projects",
+        "from": "noreply@supabase.com"
+      },
+      "id": "gmail/19f863e51bf71981",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
+      "status": "open"
+    },
+    {
+      "text": "Pay Meho Saracevic's final invoices per the agreed schedule - July invoice in full plus the prorated August invoice (3,214.29 EUR), to be sent by Aug 5 for payment by Aug 10 (contract ends Aug 21)",
+      "project": "people-ops",
+      "source": "gmail/19f8413ab85c748f",
+      "source_type": "gmail",
+      "date": "2026-07-21",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Termination details",
+        "from": "Andrea Darabasic <andreadarabasic@tribe.xyz>"
+      },
+      "id": "gmail/19f8413ab85c748f",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
+      "status": "open"
+    },
+    {
+      "text": "Respond to Eduardo Moral about the planned TribeTalks LI Live session with Marcel van der Meer (AI/automation expert, tentatively late October): decide whether to participate and find a Tribe person comfortable with connectors/custom automations to co-present.",
+      "project": "linkedin",
+      "source": "slack/D08N39FGJN4/1784650522.213849",
+      "source_type": "slack",
+      "date": "2026-07-21",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM-Eduardo-Moral",
+        "from": "Eduardo Moral"
+      },
+      "id": "slack/D08N39FGJN4/1784650522.213849",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
+      "status": "open"
+    },
+    {
+      "text": "Check whether Pliant sent back the signed contract and report the status to Salem (he asked 'Do you know if they sent the signed contract?').",
+      "project": "legal",
+      "source": "slack/D057XNFLHTR/1784652365.283089",
+      "source_type": "slack",
+      "date": "2026-07-21",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM-Salem-Mansuri",
+        "from": "Salem Mansuri"
+      },
+      "id": "slack/D057XNFLHTR/1784652365.283089",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
+      "status": "open"
+    },
+    {
+      "text": "Share the updated Pliant contract files with Salem so he can respond to Gil (Pliant's contact/lawyer).",
+      "project": "legal",
+      "source": "slack/C09J67CQ727/1784204007.242449",
+      "source_type": "slack",
+      "date": "2026-07-16",
+      "confidence": "low",
+      "extras": {
+        "channel": "groupdm-Martin-Salem-Pliant",
+        "from": "Salem Mansuri"
+      },
+      "id": "slack/C09J67CQ727/1784204007.242449",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-22",
+      "status": "open"
+    },
+    {
+      "text": "Add a 1:1 topic (10-15 min) to the agenda for Ella since Notion wasn't loading for her.",
+      "project": "people-ops",
+      "source": "slack/D05Q6UWSV8E/1784102491.276599",
+      "source_type": "slack",
+      "date": "2026-07-15",
+      "confidence": "low",
+      "extras": {
+        "channel": "DM-Ella-Darie",
+        "from": "Ella Darie"
+      },
+      "id": "slack/D05Q6UWSV8E/1784102491.276599",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-22",
+      "status": "open"
+    },
+    {
+      "text": "Switch the claude-backups scheduled task off the full git clone (times out on the ~45MB repo within the 45s shell cap) to the GitHub Git Data API method (diff blobs by hash, upload changed only, build tree on base_tree) or a shallow/blobless clone, so Step 1/Step 3 scripts run as written",
+      "project": "inbox",
+      "source": "cowork/local_9ea0e3d6-429c-4b10-a352-298d2829f6dc",
+      "source_type": "cowork",
+      "date": "2026-07-21",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Claude backups daily"
+      },
+      "id": "cowork/local_9ea0e3d6-429c-4b10-a352-298d2829f6dc/switchtheclaudebackupsscheduledtaskoffth",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
       "status": "open"
     }
   ]
