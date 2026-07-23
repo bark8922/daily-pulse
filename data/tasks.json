@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-22",
+  "generated_at": "2026-07-23",
   "schema_version": 2,
-  "total": 575,
+  "total": 577,
   "projects": [
     {
       "id": "fin-dash",
@@ -9557,6 +9557,39 @@
       "project_name": "Tribebot",
       "first_seen": "2026-07-22",
       "last_seen": "2026-07-22",
+      "status": "open"
+    },
+    {
+      "text": "Assist Nenad with complex AI migration processes or workflow transitions between platforms if needed",
+      "project": "ai-first-working-group",
+      "source": "fireflies/01KY4GYDMQ9HEN9W5E7NX5RFS8",
+      "source_type": "fireflies",
+      "date": "2026-07-22",
+      "confidence": "low",
+      "extras": {
+        "meeting": "AI Live Training Sessions"
+      },
+      "id": "fireflies/01KY4GYDMQ9HEN9W5E7NX5RFS8/assistnenadwithcomplexaimigrationprocess",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-23",
+      "status": "open"
+    },
+    {
+      "text": "Trace Rodrigo Gomes's missing salary payment - he hasn't received his last salary (paid in EUR via an intermediate company in Brazil); the money reportedly never arrived. Check whether the transaction reached the final bank or is stuck somewhere and report back. Flagged urgent.",
+      "project": "people-ops",
+      "source": "slack/D059PSVF62G/1784786408.539359",
+      "source_type": "slack",
+      "date": "2026-07-23",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM-Rodrigo-Gomes",
+        "from": "Rodrigo Gomes"
+      },
+      "id": "slack/D059PSVF62G/1784786408.539359",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
       "status": "open"
     }
   ]
