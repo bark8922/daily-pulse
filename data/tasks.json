@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-23",
   "schema_version": 2,
-  "total": 577,
+  "total": 590,
   "projects": [
     {
       "id": "fin-dash",
@@ -9589,6 +9589,218 @@
       "id": "slack/D059PSVF62G/1784786408.539359",
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "status": "open"
+    },
+    {
+      "text": "Investigate and improve the accuracy of the LinkedIn 'profiles viewed' metric given current LinkedIn extension limitations",
+      "project": "rec-dash",
+      "source": "fireflies/01KY7DJPVWRT13WTP39VHVXRPB",
+      "source_type": "fireflies",
+      "date": "2026-07-23",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Data Dashboards Overview and Q&A - Optional"
+      },
+      "id": "fireflies/01KY7DJPVWRT13WTP39VHVXRPB/investigateandimprovetheaccuracyofthelin",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "status": "open"
+    },
+    {
+      "text": "Refine the Candidate Finder dashboard filters and categorization for better usability and accuracy",
+      "project": "rec-dash",
+      "source": "fireflies/01KY7DJPVWRT13WTP39VHVXRPB",
+      "source_type": "fireflies",
+      "date": "2026-07-23",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Data Dashboards Overview and Q&A - Optional"
+      },
+      "id": "fireflies/01KY7DJPVWRT13WTP39VHVXRPB/refinethecandidatefinderdashboardfilters",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "status": "open"
+    },
+    {
+      "text": "Add a user-personalized TA Summary page showing tailored KPIs with improved visuals, per Nenad's feedback",
+      "project": "rec-dash",
+      "source": "fireflies/01KY7DJPVWRT13WTP39VHVXRPB",
+      "source_type": "fireflies",
+      "date": "2026-07-23",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Data Dashboards Overview and Q&A - Optional"
+      },
+      "id": "fireflies/01KY7DJPVWRT13WTP39VHVXRPB/addauserpersonalizedtasummarypageshowing",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "status": "open"
+    },
+    {
+      "text": "Provide access to historical raw data prior to 2023 on request, since it is not available live on the dashboards",
+      "project": "rec-dash",
+      "source": "fireflies/01KY7DJPVWRT13WTP39VHVXRPB",
+      "source_type": "fireflies",
+      "date": "2026-07-23",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Data Dashboards Overview and Q&A - Optional"
+      },
+      "id": "fireflies/01KY7DJPVWRT13WTP39VHVXRPB/provideaccesstohistoricalrawdatapriorto2",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "status": "open"
+    },
+    {
+      "text": "Investigate linking candidate records to Tribe profiles as requested by Wladyslaw",
+      "project": "rec-dash",
+      "source": "fireflies/01KY7DJPVWRT13WTP39VHVXRPB",
+      "source_type": "fireflies",
+      "date": "2026-07-23",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Data Dashboards Overview and Q&A - Optional"
+      },
+      "id": "fireflies/01KY7DJPVWRT13WTP39VHVXRPB/investigatelinkingcandidaterecordstotrib",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "status": "open"
+    },
+    {
+      "text": "Review previous Tribetalk sessions, starting with Vanessa's, to understand session dynamics and hosting responsibilities",
+      "project": "inbox",
+      "source": "fireflies/01KY71K4H8M2RTNWSF8SZJXCVW",
+      "source_type": "fireflies",
+      "date": "2026-07-23",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Tribetalks"
+      },
+      "id": "fireflies/01KY71K4H8M2RTNWSF8SZJXCVW/reviewprevioustribetalksessionsstartingw",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "status": "open"
+    },
+    {
+      "text": "Brainstorm with Nenad on Marcel's initial questions and topics before the coffee chat to prepare for Tribetalk session planning",
+      "project": "inbox",
+      "source": "fireflies/01KY71K4H8M2RTNWSF8SZJXCVW",
+      "source_type": "fireflies",
+      "date": "2026-07-23",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Tribetalks"
+      },
+      "id": "fireflies/01KY71K4H8M2RTNWSF8SZJXCVW/brainstormwithnenadonmarcelsinitialquest",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "status": "open"
+    },
+    {
+      "text": "Lead or co-lead hosting the Tribetalk session with Marcel, managing conversation flow and timing",
+      "project": "inbox",
+      "source": "fireflies/01KY71K4H8M2RTNWSF8SZJXCVW",
+      "source_type": "fireflies",
+      "date": "2026-07-23",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Tribetalks"
+      },
+      "id": "fireflies/01KY71K4H8M2RTNWSF8SZJXCVW/leadorcoleadhostingthetribetalksessionwi",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "status": "open"
+    },
+    {
+      "text": "Align on discussion points with Marcel (Klikwork) and Nenad for the Tribetalks 04 AI & Automation session where Blake represents Tribe (late October), and send Eduardo the promo info he'll request",
+      "project": "inbox",
+      "source": "gmail/19f8ec857b90364e",
+      "source_type": "gmail",
+      "date": "2026-07-23",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Tribetalks 04 w/ Marcel (AI & Automation)",
+        "from": "eduardo@tribe.xyz"
+      },
+      "id": "gmail/19f8ec857b90364e",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "status": "open"
+    },
+    {
+      "text": "Reply to Tijana Lazovic: confirm whether she and Du\u0161an can each send a separate invoice to the Spanish entity, and whether Tribe can store their contracts (e.g. BambooHR); send her Du\u0161an's old signed contracts",
+      "project": "people-ops",
+      "source": "slack/D0562L90R36/1784813884.434139",
+      "source_type": "slack",
+      "date": "2026-07-23",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Tijana Lazovic (D0562L90R36)",
+        "from": "Tijana Lazovic"
+      },
+      "id": "slack/D0562L90R36/1784813884.434139",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "status": "open"
+    },
+    {
+      "text": "Keep the Tribetalks conversation going with Marcel (AI & Automation LI Live session) and research him while Nenad is OoO; define the discussion points",
+      "project": "inbox",
+      "source": "slack/C0BKUKTV2QG/1784811975.829149",
+      "source_type": "slack",
+      "date": "2026-07-23",
+      "confidence": "high",
+      "extras": {
+        "channel": "Group DM (Blake, Nenad Skoko, Eduardo Moral) (C0BKUKTV2QG)",
+        "from": "Nenad Skoko"
+      },
+      "id": "slack/C0BKUKTV2QG/1784811975.829149",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "status": "open"
+    },
+    {
+      "text": "Fix LinkedIn 'Viewed' attribution on the recruiting dashboard so Reaktor views are credited to the correct TA (Simon) instead of showing 0 for Andrea",
+      "project": "rec-dash",
+      "source": "slack/D05AQFRMF08/1784816351.292419",
+      "source_type": "slack",
+      "date": "2026-07-23",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Andrea Akovic (D05AQFRMF08)",
+        "from": "Blake Barkley (commitment)"
+      },
+      "id": "slack/D05AQFRMF08/1784816351.292419",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "status": "open"
+    },
+    {
+      "text": "Re-check candidate adoption of the new Interview 1/2/3 recruiting stages before starting the stage funnel transform build \u2014 8 clients are wired up but candidate flow is still zero, so no green light per STAGE_FUNNEL_BUILD_PLAN.md",
+      "project": "rec-dash",
+      "source": "cowork/local_60397b9d-97ab-456b-8322-716ba776561a",
+      "source_type": "cowork",
+      "date": "2026-07-22",
+      "confidence": "medium",
+      "extras": {
+        "session": "Recruiting new stages usage check"
+      },
+      "id": "cowork/local_60397b9d-97ab-456b-8322-716ba776561a/recheckcandidateadoptionofthenewintervie",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-22",
       "last_seen": "2026-07-23",
       "status": "open"
     }
