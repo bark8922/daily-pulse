@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-24",
   "schema_version": 2,
-  "total": 595,
+  "total": 599,
   "projects": [
     {
       "id": "fin-dash",
@@ -9125,24 +9125,24 @@
       "id": "gmail/19f8421df4f63f32",
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-07-21",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-07-24",
       "status": "open"
     },
     {
       "text": "Follow up with Nexi (Dalia Dal Corso) to obtain and provide the new PO number for the new RPO recruiter's invoices - Jacopo assigned Blake to handle the PO once Nexi issues it",
-      "project": "expense-ops",
+      "project": "sales-hubspot",
       "source": "gmail/19f83f5207f2492c",
       "source_type": "gmail",
       "date": "2026-07-21",
       "confidence": "high",
       "extras": {
-        "subject": "New RPO recruiter set up - TRIBE",
+        "subject": "Re: New RPO recruiter set up - TRIBE",
         "from": "dalia.dalcorso@nexigroup.com"
       },
       "id": "gmail/19f83f5207f2492c",
-      "project_name": "Expense Ops",
+      "project_name": "Sales dashboard + HubSpot",
       "first_seen": "2026-07-21",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-07-24",
       "status": "open"
     },
     {
@@ -9214,19 +9214,19 @@
     },
     {
       "text": "Send the finalized Mercedes Vito sale invoice (renumbered PSI/01/2607092, buyer Harmonisi s.r.o., payment to KB CZK HLAVNI 51-14500217/0100) to the waiting buyer, incorporating the car's WIN and registration number Natalie added",
-      "project": "expense-ops",
+      "project": "legal",
       "source": "gmail/19f838af183c6707",
       "source_type": "gmail",
       "date": "2026-07-21",
       "confidence": "high",
       "extras": {
-        "subject": "Mercedes Vito",
-        "from": "Natalie Harustiakova (BORIS GNOTH TAX) <nharustiakova@borisgnoth.cz>"
+        "subject": "RE: Mercedes Vito",
+        "from": "nharustiakova@borisgnoth.cz"
       },
       "id": "gmail/19f838af183c6707",
-      "project_name": "Expense Ops",
+      "project_name": "Legal & Contracts",
       "first_seen": "2026-07-21",
-      "last_seen": "2026-07-22",
+      "last_seen": "2026-07-24",
       "status": "open"
     },
     {
@@ -9522,7 +9522,7 @@
       "id": "gmail/19f898de1d5a196a",
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-07-22",
-      "last_seen": "2026-07-22",
+      "last_seen": "2026-07-24",
       "status": "open"
     },
     {
@@ -9722,19 +9722,19 @@
     },
     {
       "text": "Align on discussion points with Marcel (Klikwork) and Nenad for the Tribetalks 04 AI & Automation session where Blake represents Tribe (late October), and send Eduardo the promo info he'll request",
-      "project": "inbox",
+      "project": "ai-recruiting",
       "source": "gmail/19f8ec857b90364e",
       "source_type": "gmail",
-      "date": "2026-07-23",
-      "confidence": "medium",
+      "date": "2026-07-24",
+      "confidence": "high",
       "extras": {
-        "subject": "Tribetalks 04 w/ Marcel (AI & Automation)",
-        "from": "eduardo@tribe.xyz"
+        "subject": "Re: Tribetalks 04 w/ Marcel (AI & Automation)",
+        "from": "marcel@klikwork.com"
       },
       "id": "gmail/19f8ec857b90364e",
-      "project_name": "Inbox (untagged)",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
       "first_seen": "2026-07-23",
-      "last_seen": "2026-07-23",
+      "last_seen": "2026-07-24",
       "status": "open"
     },
     {
@@ -9884,6 +9884,74 @@
       "id": "cowork/local_acc9378a-9ad8-4eed-90de-faf74b0013e8/begintheinterviewstagefunneltransformdas",
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-07-24",
+      "last_seen": "2026-07-24",
+      "status": "open"
+    },
+    {
+      "text": "Answer Jovana's comments on Tribe_Job_Taxonomy_v1 (how to classify Directors/Heads/VPs for Sales and Engineering, add AI Ops Manager)",
+      "project": "people-ops",
+      "source": "gmail/19f943180894606d",
+      "source_type": "gmail",
+      "date": "2026-07-24",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Tribe_Job_Taxonomy_v1 (Google Sheet comments)",
+        "from": "Jovana Drakula (comments-noreply@docs.google.com)"
+      },
+      "id": "gmail/19f943180894606d",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-24",
+      "status": "open"
+    },
+    {
+      "text": "Send Caroline Murphy the link to the photographer's photos from Portugal so she can use the headshots for the website",
+      "project": "inbox",
+      "source": "slack/D0A90RPGE92/1784888047.942419",
+      "source_type": "slack",
+      "date": "2026-07-24",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Caroline Murphy",
+        "from": "Caroline Murphy"
+      },
+      "id": "slack/D0A90RPGE92/1784888047.942419",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-24",
+      "status": "open"
+    },
+    {
+      "text": "Join the brainstorm call next week with Dolores and Jovana (Sourcing Lab group) on improving/upgrading the sourcer roles weekly update",
+      "project": "tribebot",
+      "source": "slack/D05ELN4EX6W/1784882603.246419",
+      "source_type": "slack",
+      "date": "2026-07-24",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Dolores Palotas",
+        "from": "Dolores Palotas"
+      },
+      "id": "slack/D05ELN4EX6W/1784882603.246419",
+      "project_name": "Tribebot",
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-24",
+      "status": "open"
+    },
+    {
+      "text": "Pay Elena Petrovska's final invoice when she sends it (around July 31, her last day; she may send it from her personal email)",
+      "project": "expense-ops",
+      "source": "slack/D08LJKR0HFF/1784640970.915719",
+      "source_type": "slack",
+      "date": "2026-07-21",
+      "confidence": "low",
+      "extras": {
+        "channel": "DM with Elena Petrovska",
+        "from": "Elena Petrovska"
+      },
+      "id": "slack/D08LJKR0HFF/1784640970.915719",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-21",
       "last_seen": "2026-07-24",
       "status": "open"
     }
