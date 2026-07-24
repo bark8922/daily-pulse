@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-23",
+  "generated_at": "2026-07-24",
   "schema_version": 2,
-  "total": 590,
+  "total": 595,
   "projects": [
     {
       "id": "fin-dash",
@@ -9802,6 +9802,89 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-07-22",
       "last_seen": "2026-07-23",
+      "status": "open"
+    },
+    {
+      "text": "Respond to dashboard feature requests and offer support on dashboard queries and data concerns as they arise",
+      "project": "rec-dash",
+      "source": "fireflies/01KY7DJPVWRT13WTP39VHVXRPB",
+      "source_type": "fireflies",
+      "date": "2026-07-23",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Data Dashboards Overview and Q&A - Optional"
+      },
+      "id": "fireflies/01KY7DJPVWRT13WTP39VHVXRPB/respondtodashboardfeaturerequestsandoffe",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-24",
+      "status": "open"
+    },
+    {
+      "text": "Enforce required 2-Step Verification for Google Cloud Identity users in the tribe.xyz organization before it becomes mandatory on Oct 20, 2026 (Google 'Action Advised' notice)",
+      "project": "inbox",
+      "source": "gmail/19f8caeafce72b96",
+      "source_type": "gmail",
+      "date": "2026-07-23",
+      "confidence": "medium",
+      "extras": {
+        "subject": "[Action Advised] Secure Google Cloud Identity users with required 2SV",
+        "from": "CloudPlatform-noreply@google.com"
+      },
+      "id": "gmail/19f8caeafce72b96",
+      "project_name": "Inbox (untagged)",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-24",
+      "status": "open"
+    },
+    {
+      "text": "Add an offers view/metric to the recruiting dashboard so Chene can see her TS (Andrea) offers vs hires - she wants recognition for TS getting candidates to Offer stage, not just Hires (Glovo paused all offers mid-sprint after the TS did the work). She asked where she can see this if it exists.",
+      "project": "rec-dash",
+      "source": "slack/D056G656T5M/1784713225.321649",
+      "source_type": "slack",
+      "date": "2026-07-22",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM-Chene-Elliot",
+        "from": "Chene Elliot"
+      },
+      "id": "slack/D056G656T5M/1784713225.321649",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-24",
+      "status": "open"
+    },
+    {
+      "text": "Create a PPR (post-project review) page for Wladyslaw Gadomski in the private TL/PPR database and share it with him - Blake committed 'I will create one for Wlad and share it with him' after sorting out Kristina's PPR page access.",
+      "project": "people-ops",
+      "source": "slack/D058BHH24NM/1784621499.515259",
+      "source_type": "slack",
+      "date": "2026-07-21",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM-Kristina-Colovic",
+        "from": "Blake Barkley"
+      },
+      "id": "slack/D058BHH24NM/1784621499.515259",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-24",
+      "status": "open"
+    },
+    {
+      "text": "Begin the interview stage funnel transform + dashboard build per STAGE_FUNNEL_BUILD_PLAN.md - the trigger has now fired: the first candidate moved through the new Interview 1/2/3 stage types on 2026-07-22 (9 jobs have the new pipeline set up), which is the green light previously gated on zero candidate movement",
+      "project": "rec-dash",
+      "source": "cowork/local_acc9378a-9ad8-4eed-90de-faf74b0013e8",
+      "source_type": "cowork",
+      "date": "2026-07-24",
+      "confidence": "high",
+      "extras": {
+        "session": "Recruiting new stages usage check"
+      },
+      "id": "cowork/local_acc9378a-9ad8-4eed-90de-faf74b0013e8/begintheinterviewstagefunneltransformdas",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-24",
       "status": "open"
     }
   ]
