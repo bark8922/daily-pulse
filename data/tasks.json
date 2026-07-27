@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-24",
+  "generated_at": "2026-07-27",
   "schema_version": 2,
-  "total": 599,
+  "total": 602,
   "projects": [
     {
       "id": "fin-dash",
@@ -9953,6 +9953,55 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-24",
+      "status": "open"
+    },
+    {
+      "text": "Provide Eva Huclova (Boris Gnoth) the list of incoming payments for Tribe Holding for Jan-Jun 2026 and clarify the unclear payments on both sides of Tribe Czech (she sent the missing incoming invoices and awaits this to reconcile; will move to monthly cadence after)",
+      "project": "expense-ops",
+      "source": "gmail/19f93145014ce9f3",
+      "source_type": "gmail",
+      "date": "2026-07-24",
+      "confidence": "high",
+      "extras": {
+        "subject": "missing invoices 1-6/2026 Tribe Holding",
+        "from": "Eva Huclova <ehuclova@borisgnoth.cz>"
+      },
+      "id": "gmail/19f93145014ce9f3",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-27",
+      "status": "open"
+    },
+    {
+      "text": "Finalize the new job Category/Subcategory taxonomy: gather TA feedback on the drafted Google Sheet (sent to Wladyslaw Gadomski, Samantha Nel, Jovana Drakula and #help/#intake-task-force volunteers), consolidate into a final going-forward list, and send it to Mikhail to implement in the tool. Blake told Mikhail 'Once I gather everything and I have a final list Ill send it over.'",
+      "project": "rec-dash",
+      "source": "slack/D0577RU8WQ1/1784895219.610649",
+      "source_type": "slack",
+      "date": "2026-07-24",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Mikhail Kuzmin"
+      },
+      "id": "slack/D0577RU8WQ1/1784895219.610649",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-27",
+      "status": "open"
+    },
+    {
+      "text": "Fix the failing 'Slack private channels to Onyx' n8n workflow - 'The service was not able to process your request' error at the 'Ingest into Onyx' node (failed 24 Jul 11:04, execution 42165).",
+      "project": "tribebot",
+      "source": "slack/D0AKAPA0X3J/1784883863.697749",
+      "source_type": "slack",
+      "date": "2026-07-24",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1784883863.697749",
+      "project_name": "Tribebot",
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-27",
       "status": "open"
     }
   ]
