@@ -68,6 +68,7 @@ footer { margin-top:32px; font-size:11px; color:var(--faint); text-align:center;
 <button class="btn" id="newproj">+ New project</button>
 <button class="btn" id="settings" title="Webhook settings">Settings</button>
 <button class="btn" id="reset">Reset checks</button>
+<button class="btn" id="archiveBtn" title="Show archived / aged-out items">Archive</button>
 <button class="btn primary" id="refresh" title="Re-fetch + hide checked items">Refresh</button>
 </div>
 </header>
@@ -75,7 +76,7 @@ footer { margin-top:32px; font-size:11px; color:var(--faint); text-align:center;
 <section class="card"><h2>By project <span class="count" id="pc"></span></h2><div id="pl"></div></section>
 <section class="card"><h2>Maybe / low-confidence <span class="count" id="mc"></span></h2><div id="ml" style="display:none;"></div><button class="btn" id="mt" style="font-size:12px;">Show</button></section>
 <section class="card"><h2>n8n fleet <span class="count" id="fc"></span></h2><div id="fl"></div></section>
-<footer>Auto-refreshed each morning + EOD. Built from Fireflies, Gmail, Slack, Cowork sessions.</footer>
+<footer>Auto-refreshed each morning + EOD. Built from Fireflies, Gmail, Slack, Cowork sessions. Untouched items auto-archive after 21 days &mdash; re-tag one to keep it active.</footer>
 </div>
 <div id="modalRoot"></div>
 <script>
@@ -86,6 +87,7 @@ var LS_SECRET="dpSecret_v1";
 var checked=new Set(JSON.parse(localStorage.getItem(LS_CHK)||"[]"));
 var overrides=JSON.parse(localStorage.getItem(LS_OV)||"{}");
 var hideDone=false;
+var showArchived=false;
 var DATA=null;
 var CLOSED=new Set();
 var SERVER_OV={};
@@ -166,7 +168,7 @@ function rt(t){
   sel.title=isOvBool?("Re-tagged from: "+(t.project_name||t.project)):"Click to re-tag";
   var effPid=effectiveProject(t);
   var inboxOpt=document.createElement("option");
-  inboxOpt.value="inbox"; inboxOpt.textContent="Inbox (untagged)";
+  inboxOpt.value="inbox"; inboxOpt.textContent="📥 Needs sorting";
   if(effPid==="inbox") inboxOpt.selected=true;
   sel.appendChild(inboxOpt);
   DATA.projects.forEach(function(p){
@@ -237,7 +239,10 @@ function bucket(tasks){
 function render(){
   var q=document.getElementById("q").value.toLowerCase();
   var pf=document.getElementById("pf").value;
-  var tasks=DATA.tasks;
+  var tasks=DATA.tasks.filter(function(t){
+    var arch=(t.status==="archived");
+    return showArchived ? arch : !arch;
+  });
   if(q) tasks=tasks.filter(function(t){
     return t.text.toLowerCase().indexOf(q)>=0 || (t.project_name||"").toLowerCase().indexOf(q)>=0;
   });
@@ -254,13 +259,15 @@ function render(){
 
   var pl=document.getElementById("pl"); pl.innerHTML="";
   var po=Object.keys(b.bp).sort(function(a,x){ return b.bp[x].length-b.bp[a].length; });
+  po=po.filter(function(p){ return p!=="inbox"; });
+  if(b.bp["inbox"]) po.unshift("inbox");
   var tp=0;
   po.forEach(function(pid){
     var items=b.bp[pid].sort(function(a,x){ return (x.date||"").localeCompare(a.date||""); });
     if(items.length===0) return;
     tp+=items.length;
     var pm=DATA.projects.find(function(p){ return p.id===pid; });
-    var nm=pm?pm.name:(pid==="inbox"?"Inbox (untagged)":pid);
+    var nm=pm?pm.name:(pid==="inbox"?"📥 Needs sorting":pid);
     var det=document.createElement("details"); det.className="grp";
     var sm=document.createElement("summary"); sm.innerHTML=nm+' <span class="count">('+items.length+')</span>';
     det.appendChild(sm);
@@ -279,7 +286,10 @@ function render(){
   var ovCount=Object.keys(overrides).length;
   var ovStr=ovCount>0?(" · "+ovCount+" re-tagged"):"";
   var hiddenStr=(hideDone&&checked.size>0)?(" · "+checked.size+" hidden"):"";
-  document.getElementById("sub").textContent="Last scan: "+DATA.generated_at+" · "+DATA.total+" candidate tasks · "+tasks.length+" shown"+ovStr+hiddenStr;
+  var actC=(DATA.active_count!=null?DATA.active_count:DATA.total);
+  var arcC=(DATA.archived_count||0);
+  var viewStr=showArchived?" · ARCHIVE VIEW":"";
+  document.getElementById("sub").textContent="Last scan: "+DATA.generated_at+" · "+actC+" active · "+arcC+" archived · "+tasks.length+" shown"+viewStr+ovStr+hiddenStr;
 }
 
 function sc(lr){
@@ -417,6 +427,12 @@ document.getElementById("mt").addEventListener("click",function(){
 });
 document.getElementById("settings").addEventListener("click", openSettings);
 document.getElementById("newproj").addEventListener("click", openNewProject);
+document.getElementById("archiveBtn").addEventListener("click",function(){
+  showArchived=!showArchived;
+  this.classList.toggle("primary",showArchived);
+  this.textContent=showArchived?"← Back to active":"Archive";
+  render();
+});
 
 updateSyncBadge();
 load();

@@ -1,142 +1,100 @@
 {
-  "version": 1,
+  "version": 2,
   "owner": "blake@tribe.xyz",
-  "updated": "2026-06-03",
+  "updated": "2026-07-27",
+  "aging_days": 21,
+  "dedup_threshold": 0.7,
   "projects": [
-    {
-      "id": "fin-dash",
-      "name": "Tribe Financial Dashboard",
-      "tier": "big",
-      "notes": "Main finance dashboard."
-    },
-    {
-      "id": "rec-dash",
-      "name": "Tribe Recruiting Dashboard",
-      "tier": "big",
-      "notes": "Recruiting/staffing dashboard."
-    },
-    {
-      "id": "expense-ops",
-      "name": "Expense Ops",
-      "tier": "big",
-      "notes": "Receipts, Revolut, categorization, invoicing."
-    },
-    {
-      "id": "tribebot",
-      "name": "Tribebot",
-      "tier": "big",
-      "notes": "Internal bot, Onyx sync, improvements."
-    },
-    {
-      "id": "people-ops",
-      "name": "People Ops / BambooHR",
-      "tier": "big",
-      "notes": "Supports, doesn't own. Dashboards + termination invoicing."
-    },
-    {
-      "id": "legal",
-      "name": "Legal & Contracts",
-      "tier": "big",
-      "notes": "All Blake. NDAs, vendor contracts, signatures."
-    },
-    {
-      "id": "ai-recruiting",
-      "name": "Roundup & Intake (AI recruiting tools)",
-      "tier": "big",
-      "notes": "AI First, Rolls Roundup, intake tool."
-    },
-    {
-      "id": "wbr-mbr",
-      "name": "WBR / MBR",
-      "tier": "medium",
-      "notes": "Weekly + monthly business review."
-    },
-    {
-      "id": "project-hub",
-      "name": "Project Hub",
-      "tier": "medium",
-      "notes": "#projecthub_comms."
-    },
-    {
-      "id": "team-cohesion",
-      "name": "Team cohesion",
-      "tier": "medium",
-      "notes": "Pokedex + standup improvement."
-    },
-    {
-      "id": "okrs",
-      "name": "OKRs",
-      "tier": "medium",
-      "notes": "#okr-comms."
-    },
-    {
-      "id": "leadership",
-      "name": "Leadership comms",
-      "tier": "medium",
-      "notes": "#leadership, CoS weekly log."
-    },
-    {
-      "id": "keboola-sunset",
-      "name": "Keboola migration / sunset",
-      "tier": "medium",
-      "notes": "Migrating off Keboola."
-    },
-    {
-      "id": "sales-hubspot",
-      "name": "Sales dashboard + HubSpot",
-      "tier": "medium",
-      "notes": "Sales dashboard, HubSpot convos."
-    },
-    {
-      "id": "linkedin",
-      "name": "LinkedIn license management",
-      "tier": "medium",
-      "notes": "License requests + actual spend."
-    },
-    {
-      "id": "circle",
-      "name": "Project Circle",
-      "tier": "medium",
-      "notes": "Cross-tags with rec-dash."
-    },
-    {
-      "id": "us-expansion",
-      "name": "US expansion",
-      "tier": "medium",
-      "notes": "New as of May 26."
-    },
-    {
-      "id": "ai-first-working-group",
-      "name": "AI First Working Group",
-      "tier": "medium",
-      "notes": ""
-    }
+    { "id": "fin-dash", "name": "Tribe Financial Dashboard", "tier": "big", "notes": "Main finance dashboard." },
+    { "id": "rec-dash", "name": "Tribe Recruiting Dashboard", "tier": "big", "notes": "Recruiting/staffing dashboard." },
+    { "id": "expense-ops", "name": "Expense Ops", "tier": "big", "notes": "Receipts, Revolut, categorization, invoicing." },
+    { "id": "tribebot", "name": "Tribebot", "tier": "big", "notes": "Internal bot, Onyx sync, improvements." },
+    { "id": "people-ops", "name": "People Ops / BambooHR", "tier": "big", "notes": "Supports, doesn't own. Dashboards + termination invoicing." },
+    { "id": "legal", "name": "Legal & Contracts", "tier": "big", "notes": "All Blake. NDAs, vendor contracts, signatures." },
+    { "id": "ai-recruiting", "name": "Roundup & Intake (AI recruiting tools)", "tier": "big", "notes": "AI First, Rolls Roundup, intake tool." },
+    { "id": "infra", "name": "Infra & Automation", "tier": "medium", "notes": "n8n, Cloudflare, backups, browser extension, IT security." },
+    { "id": "wbr-mbr", "name": "WBR / MBR", "tier": "medium", "notes": "Weekly + monthly business review." },
+    { "id": "project-hub", "name": "Project Hub", "tier": "medium", "notes": "#projecthub_comms." },
+    { "id": "team-cohesion", "name": "Team cohesion", "tier": "medium", "notes": "Pokedex + standup improvement." },
+    { "id": "okrs", "name": "OKRs", "tier": "medium", "notes": "#okr-comms." },
+    { "id": "leadership", "name": "Leadership comms", "tier": "medium", "notes": "#leadership, CoS weekly log." },
+    { "id": "keboola-sunset", "name": "Keboola migration / sunset", "tier": "medium", "notes": "Migrating off Keboola." },
+    { "id": "sales-hubspot", "name": "Sales dashboard + HubSpot", "tier": "medium", "notes": "Sales dashboard, HubSpot convos." },
+    { "id": "linkedin", "name": "LinkedIn license management", "tier": "medium", "notes": "License requests + actual spend." },
+    { "id": "circle", "name": "Project Circle", "tier": "medium", "notes": "Cross-tags with rec-dash." },
+    { "id": "us-expansion", "name": "US expansion", "tier": "medium", "notes": "New as of May 26." },
+    { "id": "ai-first-working-group", "name": "AI First Working Group", "tier": "medium", "notes": "" }
+  ],
+  "project_aliases": {
+    "intake-tool": "ai-recruiting",
+    "intake": "ai-recruiting",
+    "roles-roundup": "ai-recruiting",
+    "roles-round-up": "ai-recruiting",
+    "rolls-roundup": "ai-recruiting",
+    "ai-first": "ai-first-working-group",
+    "ai-training": "ai-first-working-group",
+    "ai-first-wg": "ai-first-working-group",
+    "recruiting-dashboard": "rec-dash",
+    "recruiting-pipeline": "rec-dash",
+    "recruiting": "rec-dash",
+    "clients": "rec-dash",
+    "circle-project": "circle",
+    "project-circle": "circle",
+    "finance": "fin-dash",
+    "finance-ops": "fin-dash",
+    "cz-tax": "fin-dash",
+    "budget": "fin-dash",
+    "invoicing": "expense-ops",
+    "invoices": "expense-ops",
+    "invoice": "expense-ops",
+    "expenses": "expense-ops",
+    "client-disputes": "expense-ops",
+    "okr": "okrs",
+    "tribot-kb": "tribebot",
+    "tribot": "tribebot",
+    "tribebot-kb": "tribebot",
+    "hr": "people-ops",
+    "spain-payroll": "people-ops",
+    "payroll": "people-ops",
+    "cos-weekly-log": "leadership",
+    "cos": "leadership",
+    "n8n": "infra",
+    "n8n-workflows": "infra",
+    "slack-automation": "infra",
+    "automation": "infra",
+    "cloudflare": "infra",
+    "claude-backups": "infra",
+    "backups": "infra",
+    "extension": "infra",
+    "extension-dashboard": "infra",
+    "it-security": "infra",
+    "security": "infra"
+  },
+  "dismissed_patterns": [
+    "google security alert",
+    "security alert for team@tribe",
+    "new sign-in on team@tribe",
+    "sign-in on team@tribe.xyz",
+    "linkedin recruiter 'unusual activity'",
+    "unusual activity' case",
+    "cos weekly log",
+    "cos-weekly-log",
+    "expense ops daily digest",
+    "dashboard watchdog",
+    "all systems healthy",
+    "no action needed",
+    "routine run"
   ],
   "cross_tags_allowed": true,
   "private_channels_in_scope": [
-    "tribebot",
-    "okr-comms",
-    "us-expansion",
-    "lir-sharing",
-    "project_circle",
-    "projecthub_comms",
-    "people-ops",
-    "leadership",
-    "standup-improvement",
-    "friday-team-meeting",
-    "data-plugins-roadmap",
-    "data_working_group",
-    "project-data-hygiene"
+    "tribebot", "okr-comms", "us-expansion", "lir-sharing", "project_circle",
+    "projecthub_comms", "people-ops", "leadership", "standup-improvement",
+    "friday-team-meeting", "data-plugins-roadmap", "data_working_group", "project-data-hygiene"
   ],
   "channels_excluded": [
-    "teamtrip-2026",
-    "tribe-teamaway",
-    "prague-trip",
-    "scorecard-videos",
-    "test-fireflies",
-    "test-n8n",
-    "workforce-planning-changes"
+    "teamtrip-2026", "tribe-teamaway", "prague-trip", "scorecard-videos",
+    "test-fireflies", "test-n8n", "workforce-planning-changes"
   ],
-  "dismissed_patterns": [],
+  "dismissed_patterns_note": "Recurring automation pings that should never become tasks.",
   "lookback_days": 60
 }
