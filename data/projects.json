@@ -124,6 +124,12 @@
       "name": "Tribe Talks - MArcel",
       "tier": "medium",
       "notes": ""
+    },
+    {
+      "id": "tribe-talks",
+      "name": "Tribe Talks",
+      "tier": "medium",
+      "notes": ""
     }
   ],
   "project_aliases": {
