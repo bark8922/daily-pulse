@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-27",
   "schema_version": 2,
-  "total": 602,
+  "total": 603,
   "projects": [
     {
       "id": "fin-dash",
@@ -9957,17 +9957,17 @@
     },
     {
       "text": "Provide Eva Huclova (Boris Gnoth) the list of incoming payments for Tribe Holding for Jan-Jun 2026 and clarify the unclear payments on both sides of Tribe Czech (she sent the missing incoming invoices and awaits this to reconcile; will move to monthly cadence after)",
-      "project": "expense-ops",
+      "project": "fin-dash",
       "source": "gmail/19f93145014ce9f3",
       "source_type": "gmail",
       "date": "2026-07-24",
       "confidence": "high",
       "extras": {
         "subject": "missing invoices 1-6/2026 Tribe Holding",
-        "from": "Eva Huclova <ehuclova@borisgnoth.cz>"
+        "from": "ehuclova@borisgnoth.cz"
       },
       "id": "gmail/19f93145014ce9f3",
-      "project_name": "Expense Ops",
+      "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-07-24",
       "last_seen": "2026-07-27",
       "status": "open"
@@ -10000,6 +10000,23 @@
       },
       "id": "slack/D0AKAPA0X3J/1784883863.697749",
       "project_name": "Tribebot",
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-27",
+      "status": "open"
+    },
+    {
+      "text": "As a people leader, plan and schedule 1:1 conversations with your team members starting next week to deliver performance-review feedback: (1) meet with the leads you are doing handover with, and (2) hold feedback calls with each team member together with their upcoming lead. Calibrations finalize early next week.",
+      "project": "people-ops",
+      "source": "slack/C01RLBNHRKP/1784889627.904659",
+      "source_type": "slack",
+      "date": "2026-07-24",
+      "confidence": "high",
+      "extras": {
+        "channel": "leadership",
+        "from": "Andrea Darabasic"
+      },
+      "id": "slack/C01RLBNHRKP/1784889627.904659",
+      "project_name": "People Ops / BambooHR",
       "first_seen": "2026-07-24",
       "last_seen": "2026-07-27",
       "status": "open"
