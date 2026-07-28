@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-07-28",
   "schema_version": 3,
-  "total": 236,
-  "active_count": 236,
+  "total": 245,
+  "active_count": 245,
   "archived_count": 357,
   "projects": [
     {
@@ -10230,6 +10230,153 @@
       "id": "cowork/local_a7ddf6a0-05e6-4cac-821b-bcf4a3f3fe46/closeoutsalespadsalespadpteltdvendordued",
       "project_name": "Legal & Contracts",
       "first_seen": "2026-07-27",
+      "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Investigate improving the Slack bot's update frequency to support multiple daily updates without overwhelming users.",
+      "project": "tribebot",
+      "source": "fireflies/01KYM2NR91RZ9M6NQ7HPTZVS2Q",
+      "source_type": "fireflies",
+      "date": "2026-07-28",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Dolores/Jovana - Roles Weekly Update"
+      },
+      "id": "fireflies/01KYM2NR91RZ9M6NQ7HPTZVS2Q/investigateimprovingtheslackbotsupdatefr",
+      "project_name": "Tribebot",
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Share Supabase database access with Rodrigo and team to enable sourcing dashboard data integration.",
+      "project": "rec-dash",
+      "source": "fireflies/01KYM2NR91RZ9M6NQ7HPTZVS2Q",
+      "source_type": "fireflies",
+      "date": "2026-07-28",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Dolores/Jovana - Roles Weekly Update"
+      },
+      "id": "fireflies/01KYM2NR91RZ9M6NQ7HPTZVS2Q/sharesupabasedatabaseaccesswithrodrigoan",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Continue developing and testing the role insights Slack bot feature and prepare it for broader rollout to sourcers and TAs.",
+      "project": "tribebot",
+      "source": "fireflies/01KYM2NR91RZ9M6NQ7HPTZVS2Q",
+      "source_type": "fireflies",
+      "date": "2026-07-28",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Dolores/Jovana - Roles Weekly Update"
+      },
+      "id": "fireflies/01KYM2NR91RZ9M6NQ7HPTZVS2Q/continuedevelopingandtestingtheroleinsig",
+      "project_name": "Tribebot",
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Further develop and refine the Candidate Finder dashboard's filters and categorization for better usability and accuracy.",
+      "project": "rec-dash",
+      "source": "fireflies/01KY7DJPVWRT13WTP39VHVXRPB",
+      "source_type": "fireflies",
+      "date": "2026-07-23",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Data Dashboards Overview and Q&A - Optional"
+      },
+      "id": "fireflies/01KY7DJPVWRT13WTP39VHVXRPB/furtherdevelopandrefinethecandidatefinde",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Discuss role category and subcategory taxonomy improvements with Mikhail and consider retroactively updating data to improve dashboard role-matching accuracy.",
+      "project": "rec-dash",
+      "source": "fireflies/01KY4YK9Q002B8HFNGEGHJ3XB9",
+      "source_type": "fireflies",
+      "date": "2026-07-22",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KY4YK9Q002B8HFNGEGHJ3XB9/discussrolecategoryandsubcategorytaxonom",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Reply to Yujing Han (Bove Montero) with the requested July closing information for Tribe.",
+      "project": "inbox",
+      "source": "gmail/19fa85b5a106dcf2",
+      "source_type": "gmail",
+      "date": "2026-07-28",
+      "confidence": "medium",
+      "extras": {
+        "subject": "TRIBE - CLOSING 07.26",
+        "from": "yhan@bovemontero.com"
+      },
+      "id": "gmail/19fa85b5a106dcf2",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Add the additional representative's name to the Pliant contract and confirm signer vs. representation with Iram if unclear.",
+      "project": "legal",
+      "source": "slack/D06DGN9JW59/1785158137.478029",
+      "source_type": "slack",
+      "date": "2026-07-27",
+      "confidence": "medium",
+      "extras": {
+        "channel": "Lattice 1:1 (Martin Bernard)",
+        "from": "Lattice AI Agent"
+      },
+      "id": "slack/D06DGN9JW59/1785158137.478029",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Fix the failing 'Check Personal Email Bot' n8n workflow - 'service was not able to process your request' at the Get Unread Emails node, failed 28 Jul 11:00.",
+      "project": "infra",
+      "source": "slack/D0AKAPA0X3J/1785229206.111539",
+      "source_type": "slack",
+      "date": "2026-07-28",
+      "confidence": "medium",
+      "extras": {
+        "channel": "Blake Updates Bot DM",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1785229206.111539",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Connect the local Documents\\Claude\\Projects\\Job-Research-Project folder to the job-search-daily Cowork session so dashboard outputs mirror locally instead of only pushing to GitHub.",
+      "project": "inbox",
+      "source": "cowork/local_a50f5f67-7c08-4cd2-8931-aa5b8d08004e",
+      "source_type": "cowork",
+      "date": "2026-07-28",
+      "confidence": "medium",
+      "extras": {
+        "session": "Job search daily"
+      },
+      "id": "cowork/local_a50f5f67-7c08-4cd2-8931-aa5b8d08004e/connectthelocaldocumentsclaudeprojectsjo",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-07-28",
       "last_seen": "2026-07-28",
       "status": "open"
     }
