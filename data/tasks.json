@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-27",
+  "generated_at": "2026-07-28",
   "schema_version": 3,
-  "total": 238,
-  "active_count": 238,
-  "archived_count": 339,
+  "total": 236,
+  "active_count": 236,
+  "archived_count": 357,
   "projects": [
     {
       "id": "fin-dash",
@@ -6042,7 +6042,8 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-28"
     },
     {
       "text": "Set up a rotating schedule for team members to present work or improvements in future Claude sessions",
@@ -6058,7 +6059,8 @@
       "project_name": "AI First Working Group",
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-28"
     },
     {
       "text": "Verify the signature status and confirm the validity of the India statement of work documents",
@@ -6074,7 +6076,8 @@
       "project_name": "Legal & Contracts",
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-28"
     },
     {
       "text": "Engage the legal team to review the contract and prepare to address client pushback on the $4,500 conversion fee invoice for Caitlin",
@@ -6090,7 +6093,8 @@
       "project_name": "Legal & Contracts",
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-28"
     },
     {
       "text": "Double-check data discrepancies between the monthly and WBR/VBR sheets, specifically Aviva figures and missing individuals like Irina",
@@ -6106,7 +6110,8 @@
       "project_name": "WBR / MBR",
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-28"
     },
     {
       "text": "Explore the feasibility of adding music at the start of Friday meetings to enhance engagement as suggested in surveys",
@@ -6122,7 +6127,8 @@
       "project_name": "Team cohesion",
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-28"
     },
     {
       "text": "Review/edit the Wolt consulting agreement and Statement of Work template Kristjana shared (Tribe _ Wolt consulting agreement inc. Per Marketeer .docx) along with the related MSA/NDA templates",
@@ -6139,7 +6145,8 @@
       "project_name": "Legal & Contracts",
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-28"
     },
     {
       "text": "Prepare for the upcoming call with Boris Gnoth on team-trip tax deductibility alternatives and a potential Tribe Czech company relocation (e.g. Estonia 0% retained-profit tax) - Boris will send a call invite next week",
@@ -6174,7 +6181,8 @@
       "project_name": "Roundup & Intake (AI recruiting tools)",
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-28"
     },
     {
       "text": "Resolve the Wolt/Deliveroo (Kathleen) invoicing question: Kristjana wants to invoice the full 55k USD contract fee - raise it with Martin in the 1:1 and get the lawyers to check whether the MSA/SOW covers her (hired via Deliveroo, only India-team SOW attached) before invoicing",
@@ -6191,7 +6199,8 @@
       "project_name": "Legal & Contracts",
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-28"
     },
     {
       "text": "Review and action Rodrigo Gomes's request to install the 'Sourcing Lab' Slack app on the TRIBE.XYZ workspace (approve or deny as workspace admin)",
@@ -6225,7 +6234,8 @@
       "project_name": "WBR / MBR",
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-28"
     },
     {
       "text": "After relabeling the TS Weekly Note block to 2026W27, trigger the Keboola refresh now so week-27 roster populates and week-26 duplicates clear before the WBR meeting (verify afterward); also check the TA Weekly Note tab for the same off-by-one Wnn mislabel",
@@ -6241,7 +6251,8 @@
       "project_name": "WBR / MBR",
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-28"
     },
     {
       "text": "Update the monthly Sourcer Client Assignment runbook: the Keboola sourcer_activity table was decommissioned (fix the query template to rebuild from out.c-reporting-v2 base tables) and correct the runbook's target repo name (tribe-dashboard-project doesn't exist; use bark8922/tribe-dashboard)",
@@ -6257,7 +6268,8 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-28"
     },
     {
       "text": "Send the team the Q2 OKR performance summary and communicate the Q3 goals early this week (per Fri Jul 3 OKR meeting); ensure all Q2 OKRs are scored/closed in Lattice",
@@ -6273,7 +6285,8 @@
       "project_name": "OKRs",
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-28"
     },
     {
       "text": "Fix the failing 'pages build and deployment' GitHub Actions run on bark8922/daily-pulse (main, commit f383ab3)",
@@ -6290,7 +6303,8 @@
       "project_name": "Project Hub",
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-07",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-28"
     },
     {
       "text": "Reach out to a senior Deliveroo contact (Head of TA or similar) to build the relationship and handle the Kathleen/Deliveroo conversion-fee situation instead of just invoicing - Martin wants to send them an email; find the right higher-up with Kristjana",
@@ -6307,7 +6321,8 @@
       "project_name": "Legal & Contracts",
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-07",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-28"
     },
     {
       "text": "Review and analyze the current data collection system and hiring stage types to prepare for pipeline enhancement discussions with Mikael",
@@ -6553,7 +6568,8 @@
       "project_name": "OKRs",
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-07",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-28"
     },
     {
       "text": "Clear Marina Nikolic's (Emp #114) 'Move to Bench Date' (2026-07-01) cell in the Actual Spend sheet Revenue Forecast tab so Taxfix July stops showing 10k/0/100%, then trigger the manual n8n spend refresh to push the corrected ~75% margin live; optionally harden the pipeline to ignore a passed bench date when BambooHR still shows the person on a live client",
@@ -6617,7 +6633,8 @@
       "project_name": "Legal & Contracts",
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-07",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-28"
     },
     {
       "text": "Process/pay the June 2026 Tribe.xyz CZ payroll using the payment orders Vera Kolihova sent (Prehled mezd, Prikaz k uhrade, domestic payment orders and payslips for Martin, Miloslav and Damla Kocek attached)",
@@ -6872,7 +6889,8 @@
       "project_name": "Leadership comms",
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-09",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-28"
     },
     {
       "text": "Provide input and finalize stage type naming conventions to ensure dashboard tracking and data reporting correctness",
@@ -9949,6 +9967,270 @@
       "project_name": "Needs sorting",
       "first_seen": "2026-07-27",
       "last_seen": "2026-07-27",
+      "status": "open"
+    },
+    {
+      "text": "Provide email and operational support to Martin during his Wednesday-Friday out-of-office absence",
+      "project": "leadership",
+      "source": "fireflies/01KYHY0CYBXXE2NV569DRZDB9R",
+      "source_type": "fireflies",
+      "date": "2026-07-27",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KYHY0CYBXXE2NV569DRZDB9R/provideemailandoperationalsupporttomarti",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Brainstorm Tribetalk session questions and structure with Nenad based on Marcel's drafted topics ahead of the coffee chat",
+      "project": "tribe-talks-marcel",
+      "source": "fireflies/01KY71K4H8M2RTNWSF8SZJXCVW",
+      "source_type": "fireflies",
+      "date": "2026-07-23",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Tribetalks"
+      },
+      "id": "fireflies/01KY71K4H8M2RTNWSF8SZJXCVW/brainstormtribetalksessionquestionsandst",
+      "project_name": "Tribe Talks - MArcel",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Host or co-host the Marcel Tribetalk session, managing conversation flow and timing",
+      "project": "tribe-talks-marcel",
+      "source": "fireflies/01KY71K4H8M2RTNWSF8SZJXCVW",
+      "source_type": "fireflies",
+      "date": "2026-07-23",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Tribetalks"
+      },
+      "id": "fireflies/01KY71K4H8M2RTNWSF8SZJXCVW/hostorcohostthemarceltribetalksessionman",
+      "project_name": "Tribe Talks - MArcel",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Build dashboard functionality to flag intake-form-eligible roles and track intake form completion, verifying stale versus new roles against historical data",
+      "project": "rec-dash",
+      "source": "fireflies/01KY4YK9Q002B8HFNGEGHJ3XB9",
+      "source_type": "fireflies",
+      "date": "2026-07-22",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KY4YK9Q002B8HFNGEGHJ3XB9/builddashboardfunctionalitytoflagintakef",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Demo the weekly roundup Slack integration and Tribe Bot to Martin and other interested parties to drive adoption",
+      "project": "tribebot",
+      "source": "fireflies/01KY4KFPRKSCVEW80F5G9E0GEA",
+      "source_type": "fireflies",
+      "date": "2026-07-22",
+      "confidence": "high",
+      "extras": {
+        "meeting": "OKR Check-in - Stand-up: Delivery, People, BD"
+      },
+      "id": "fireflies/01KY4KFPRKSCVEW80F5G9E0GEA/demotheweeklyroundupslackintegrationandt",
+      "project_name": "Tribebot",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Track and report ATS dashboard usage data and review candidate flow metrics with Jacopo and Martin to identify pipeline bottlenecks",
+      "project": "rec-dash",
+      "source": "fireflies/01KY4KFPRKSCVEW80F5G9E0GEA",
+      "source_type": "fireflies",
+      "date": "2026-07-22",
+      "confidence": "high",
+      "extras": {
+        "meeting": "OKR Check-in - Stand-up: Delivery, People, BD"
+      },
+      "id": "fireflies/01KY4KFPRKSCVEW80F5G9E0GEA/trackandreportatsdashboardusagedataandre",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Check with the law firm (CEE Attorneys) for an Estonia office/contact for tax/legal advice on the potential Tribe relocation, and follow up with Martin once they respond - action item from the Jul 27 1:1",
+      "project": "legal",
+      "source": "gmail/19fa44febac2bb6a",
+      "source_type": "gmail",
+      "date": "2026-07-27",
+      "confidence": "high",
+      "extras": {
+        "subject": "Your recent 1:1 with Martin",
+        "from": "notifications@mg.latticehq.com"
+      },
+      "id": "gmail/19fa44febac2bb6a",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Complete the Lattice July 2026 engagement survey (90% participation target)",
+      "project": "people-ops",
+      "source": "gmail/19fa2d24d74c72f3",
+      "source_type": "gmail",
+      "date": "2026-07-27",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Lattice Survey - July 2026",
+        "from": "notifications@mg.latticehq.com"
+      },
+      "id": "gmail/19fa2d24d74c72f3",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Fix the failing 'Deploy to Cloudflare Pages' GitHub Actions workflow in bark8922/tribe-sourcing (all jobs cancelled on main, commit 3f6ef0a)",
+      "project": "infra",
+      "source": "gmail/19fa374d4463b582",
+      "source_type": "gmail",
+      "date": "2026-07-27",
+      "confidence": "medium",
+      "extras": {
+        "subject": "[bark8922/tribe-sourcing] Run failed: Deploy to Cloudflare Pages - main (3f6ef0a)",
+        "from": "notifications@github.com"
+      },
+      "id": "gmail/19fa374d4463b582",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Decide as TRIBE.XYZ Slack Primary Owner whether Tribe requires FedRAMP-boundary storage for Slack support data - if yes, submit the declaration to Slack before August 19, 2026",
+      "project": "legal",
+      "source": "gmail/19f90e4a704fa2fe",
+      "source_type": "gmail",
+      "date": "2026-07-23",
+      "confidence": "medium",
+      "extras": {
+        "subject": "[REMINDER] Your Slack Support Data and FedRAMP",
+        "from": "no-reply@slack.com"
+      },
+      "id": "gmail/19f90e4a704fa2fe",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Fix why Ejla Suljcic isn't receiving the 'Your Roles Weekly' roundup bot DMs - she can't even find the bot in Slack after returning from vacation; check whether she needs to do anything on her side and get her enrolled",
+      "project": "tribebot",
+      "source": "slack/D08BHN1KH4K/1785222008.536539",
+      "source_type": "slack",
+      "date": "2026-07-28",
+      "confidence": "high",
+      "extras": {
+        "from": "Ejla Suljcic",
+        "channel": "DM"
+      },
+      "id": "slack/D08BHN1KH4K/1785222008.536539",
+      "project_name": "Tribebot",
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Add a last activity / date added column to the 'Candidate Finder' on the recruiting dashboard so recruiters can immediately see whether candidates are recent - requested by Samantha Nel",
+      "project": "rec-dash",
+      "source": "slack/D08FNNZ04QH/1785169226.093819",
+      "source_type": "slack",
+      "date": "2026-07-27",
+      "confidence": "high",
+      "extras": {
+        "from": "Samantha Nel",
+        "channel": "DM"
+      },
+      "id": "slack/D08FNNZ04QH/1785169226.093819",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Answer Jacopo Lupo Ferrari: whose turn is it to demonstrate skills at the next AI session - his DM from Jul 27 is still unanswered",
+      "project": "ai-first-working-group",
+      "source": "slack/D056EG3QPLP/1785146311.963999",
+      "source_type": "slack",
+      "date": "2026-07-27",
+      "confidence": "medium",
+      "extras": {
+        "from": "Jacopo Lupo Ferrari",
+        "channel": "DM"
+      },
+      "id": "slack/D056EG3QPLP/1785146311.963999",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Fix LinkedIn view attribution on the dashboard - Andrea Akovic's views are being tied to the role owner (Simon Siew) instead of the person who actually did them, so she can't see her views broken out by role. Blake committed 'Yup - that's what Im going to fix'",
+      "project": "rec-dash",
+      "source": "slack/D05AQFRMF08/1784818913.079459",
+      "source_type": "slack",
+      "date": "2026-07-23",
+      "confidence": "high",
+      "extras": {
+        "from": "Andrea Akovic",
+        "channel": "DM"
+      },
+      "id": "slack/D05AQFRMF08/1784818913.079459",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Reply to Rodrigo in the Sourcing Power at Tribe channel confirming the Roles Roundup daily ping now fires Sat/Sun too (16:45 CET, 7 days), and set expectations that weekend numbers only move if the upstream data export refreshes",
+      "project": "rec-dash",
+      "source": "cowork/local_85ee5042-fa3a-40b3-85fc-a0eb24c81fd7",
+      "source_type": "cowork",
+      "date": "2026-07-27",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Roles weekly update status"
+      },
+      "id": "cowork/local_85ee5042-fa3a-40b3-85fc-a0eb24c81fd7/replytorodrigointhesourcingpowerattribec",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Close out SalesPad (SALESPAD PTE. LTD.) vendor due diligence before any engagement: pull the paid ACRA BizFile profile for named directors/shareholders, and get answers on who the other five staff are, the real data source behind the '12+ sources' claim, and whether they will sign a DPA with a named Singapore director",
+      "project": "legal",
+      "source": "cowork/local_a7ddf6a0-05e6-4cac-821b-bcf4a3f3fe46",
+      "source_type": "cowork",
+      "date": "2026-07-27",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Salespad PTE. LTD. research"
+      },
+      "id": "cowork/local_a7ddf6a0-05e6-4cac-821b-bcf4a3f3fe46/closeoutsalespadsalespadpteltdvendordued",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-28",
       "status": "open"
     }
   ]
