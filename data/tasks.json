@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-07-29",
   "schema_version": 3,
-  "total": 243,
-  "active_count": 243,
+  "total": 268,
+  "active_count": 268,
   "archived_count": 377,
   "projects": [
     {
@@ -10700,6 +10700,410 @@
       "id": "cowork/local_287a5a78-67ce-4dc0-8540-9f59e0d03ef4/orderthetristarve5885floorfanfromalzascz",
       "project_name": "Needs sorting",
       "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Continue re-categorizing job postings in the recruiting dashboard for better organization",
+      "project": "rec-dash",
+      "source": "fireflies/01KYQ1ZJ96G73HY1VT2QJ7T359",
+      "source_type": "fireflies",
+      "date": "2026-07-29",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Stand-up BD,PO,Prod,Rec"
+      },
+      "id": "fireflies/01KYQ1ZJ96G73HY1VT2QJ7T359/continuerecategorizingjobpostingsinthere",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Attend scheduled meeting with Marcel next week and share updates",
+      "project": "tribe-talks-marcel",
+      "source": "fireflies/01KYQ1ZJ96G73HY1VT2QJ7T359",
+      "source_type": "fireflies",
+      "date": "2026-07-29",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Stand-up BD,PO,Prod,Rec"
+      },
+      "id": "fireflies/01KYQ1ZJ96G73HY1VT2QJ7T359/attendscheduledmeetingwithmarcelnextweek",
+      "project_name": "Tribe Talks - MArcel",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Continue building and testing voice-to-text role info feature using Gemini API in Slack",
+      "project": "ai-first-working-group",
+      "source": "fireflies/01KYPYG0S5JVTBCFTBFPBGBSGV",
+      "source_type": "fireflies",
+      "date": "2026-07-29",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KYPYG0S5JVTBCFTBFPBGBSGV/continuebuildingandtestingvoicetotextrol",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Request access to internal recruiting Slack channels to test the knowledge base",
+      "project": "ai-first-working-group",
+      "source": "fireflies/01KYPYG0S5JVTBCFTBFPBGBSGV",
+      "source_type": "fireflies",
+      "date": "2026-07-29",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KYPYG0S5JVTBCFTBFPBGBSGV/requestaccesstointernalrecruitingslackch",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with Sonja and Ella on internal recruiting data integration and system overlap",
+      "project": "ai-first-working-group",
+      "source": "fireflies/01KYPYG0S5JVTBCFTBFPBGBSGV",
+      "source_type": "fireflies",
+      "date": "2026-07-29",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KYPYG0S5JVTBCFTBFPBGBSGV/followupwithsonjaandellaoninternalrecrui",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Encourage team to adopt intake data collection and gather feedback on process improvements",
+      "project": "ai-first-working-group",
+      "source": "fireflies/01KYPYG0S5JVTBCFTBFPBGBSGV",
+      "source_type": "fireflies",
+      "date": "2026-07-29",
+      "confidence": "low",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KYPYG0S5JVTBCFTBFPBGBSGV/encourageteamtoadoptintakedatacollection",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Investigate accuracy issues with the LinkedIn profiles viewed metric due to extension limitations",
+      "project": "rec-dash",
+      "source": "fireflies/01KY7DJPVWRT13WTP39VHVXRPB",
+      "source_type": "fireflies",
+      "date": "2026-07-23",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Data Dashboards Overview and Q&A - Optional"
+      },
+      "id": "fireflies/01KY7DJPVWRT13WTP39VHVXRPB/investigateaccuracyissueswiththelinkedin",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Confirm 3pm EET meeting time tomorrow with Erik Salur (NJORD Law Firm, Estonia) for relocation legal/tax consultation",
+      "project": "legal",
+      "source": "gmail/19fadd9e311c7a3f",
+      "source_type": "gmail",
+      "date": "2026-07-29",
+      "confidence": "high",
+      "extras": {
+        "subject": "RE: Introduction - Tribe.xyz and NJORD Law Firm",
+        "from": "erik.salur@njordlaw.ee"
+      },
+      "id": "gmail/19fadd9e311c7a3f",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Pay Martin Bernard's overdue T-Mobile CZ bill (2691.85 Kc, forwarded UPOMINKA) and set up a recurring reminder so it stops being missed monthly",
+      "project": "expense-ops",
+      "source": "gmail/19fad82fffb413ae",
+      "source_type": "gmail",
+      "date": "2026-07-29",
+      "confidence": "high",
+      "extras": {
+        "subject": "Fwd: UPOM\u00cdNKA",
+        "from": "m.bernard@apixconsultants.com"
+      },
+      "id": "gmail/19fad82fffb413ae",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Process the client lunch receipt Martin sent (photo attached) as a company expense",
+      "project": "expense-ops",
+      "source": "gmail/19fa96a2fa262fb2",
+      "source_type": "gmail",
+      "date": "2026-07-28",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Lunch client",
+        "from": "martin@tribe.xyz"
+      },
+      "id": "gmail/19fa96a2fa262fb2",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Confirm with Rodrigo Gomes whether the new payment routing (Standard Chartered intermediary, Top\u00e1zio beneficiary) works, since sending direct to the intermediary as beneficiary is an unconfirmed workaround after the JP Morgan intermediary broke",
+      "project": "people-ops",
+      "source": "slack/D059PSVF62G/1785228908.498939",
+      "source_type": "slack",
+      "date": "2026-07-28",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM - Rodrigo Gomes",
+        "from": "Rodrigo Gomes"
+      },
+      "id": "slack/D059PSVF62G/1785228908.498939",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Pull OSM region IDs for Prague-East/West okresy so Bezrealitky rental search covers suburbs (currently Prague-only)",
+      "project": "inbox",
+      "source": "cowork/local_cf7dade1-2b5a-4a4e-8b48-a21be8dad2d5",
+      "source_type": "cowork",
+      "date": "2026-07-29",
+      "confidence": "low",
+      "extras": {
+        "session": "Prague rental alert system"
+      },
+      "id": "cowork/local_cf7dade1-2b5a-4a4e-8b48-a21be8dad2d5/pullosmregionidsforpragueeastwestokresys",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Chase the 14 of 19 blank intake eligibility-call rows in the tracker - needed to start calculating OKRs",
+      "project": "okrs",
+      "source": "cowork/local_2a4f97c4-5c33-4de8-9109-fd87405a6a1a",
+      "source_type": "cowork",
+      "date": "2026-07-29",
+      "confidence": "high",
+      "extras": {
+        "session": "Today's meeting prep"
+      },
+      "id": "cowork/local_2a4f97c4-5c33-4de8-9109-fd87405a6a1a/chasethe14of19blankintakeeligibilitycall",
+      "project_name": "OKRs",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Ask Andrea and Chantelle for a status update on the sourcer weekly-roundup voice-log feature",
+      "project": "tribebot",
+      "source": "cowork/local_2a4f97c4-5c33-4de8-9109-fd87405a6a1a",
+      "source_type": "cowork",
+      "date": "2026-07-29",
+      "confidence": "medium",
+      "extras": {
+        "session": "Today's meeting prep"
+      },
+      "id": "cowork/local_2a4f97c4-5c33-4de8-9109-fd87405a6a1a/askandreaandchantelleforastatusupdateont",
+      "project_name": "Tribebot",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Fix claude-backups-daily STEP 1 to clone into $HOME/bk instead of /tmp (stale nobody:nogroup dir breaks rm -rf) and redirect clone stderr to a file",
+      "project": "infra",
+      "source": "cowork/local_b56e1e67-ae92-4dcb-ac8d-b3a5aca17fcb",
+      "source_type": "cowork",
+      "date": "2026-07-29",
+      "confidence": "high",
+      "extras": {
+        "session": "Claude backups daily"
+      },
+      "id": "cowork/local_b56e1e67-ae92-4dcb-ac8d-b3a5aca17fcb/fixclaudebackupsdailystep1tocloneintohom",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Move the daily-pulse GitHub PAT out of cleartext in the scheduled-task file (it's echoed to logs every run) and rotate it",
+      "project": "infra",
+      "source": "cowork/local_13b11f54-ed49-442a-9107-987e202d15ce",
+      "source_type": "cowork",
+      "date": "2026-07-28",
+      "confidence": "high",
+      "extras": {
+        "session": "Daily pulse eod"
+      },
+      "id": "cowork/local_13b11f54-ed49-442a-9107-987e202d15ce/movethedailypulsegithubpatoutofcleartext",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Verify Tijana Lazovic's BambooHR offboarding (termination Jul 31) is actually complete - it was auto-skipped as already-closed on daily-pulse",
+      "project": "people-ops",
+      "source": "cowork/local_13b11f54-ed49-442a-9107-987e202d15ce",
+      "source_type": "cowork",
+      "date": "2026-07-28",
+      "confidence": "medium",
+      "extras": {
+        "session": "Daily pulse eod"
+      },
+      "id": "cowork/local_13b11f54-ed49-442a-9107-987e202d15ce/verifytijanalazovicsbamboohroffboardingt",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Investigate more frequent roles-bot data refresh for Dolores (add ~noon sync, keep 4:45pm, maybe 3x/day)",
+      "project": "tribebot",
+      "source": "cowork/local_eea14a13-9e5d-4d7b-9845-776a0a8edb46",
+      "source_type": "cowork",
+      "date": "2026-07-29",
+      "confidence": "high",
+      "extras": {
+        "session": "Meeting transcript analysis (Dolores/Jovana Roles Weekly Update)"
+      },
+      "id": "cowork/local_eea14a13-9e5d-4d7b-9845-776a0a8edb46/investigatemorefrequentrolesbotdatarefre",
+      "project_name": "Tribebot",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Grant Rodrigo and Jovana Supabase access so the sourcing Knowledge Hub dashboard prototype can use real job data",
+      "project": "tribebot",
+      "source": "cowork/local_eea14a13-9e5d-4d7b-9845-776a0a8edb46",
+      "source_type": "cowork",
+      "date": "2026-07-29",
+      "confidence": "high",
+      "extras": {
+        "session": "Meeting transcript analysis (Dolores/Jovana Roles Weekly Update)"
+      },
+      "id": "cowork/local_eea14a13-9e5d-4d7b-9845-776a0a8edb46/grantrodrigoandjovanasupabaseaccesssothe",
+      "project_name": "Tribebot",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Roll out the new-role insights bot live to sourcers/TAs once enough data has built up (currently test mode, only to Blake)",
+      "project": "tribebot",
+      "source": "cowork/local_eea14a13-9e5d-4d7b-9845-776a0a8edb46",
+      "source_type": "cowork",
+      "date": "2026-07-29",
+      "confidence": "medium",
+      "extras": {
+        "session": "Meeting transcript analysis (Dolores/Jovana Roles Weekly Update)"
+      },
+      "id": "cowork/local_eea14a13-9e5d-4d7b-9845-776a0a8edb46/rolloutthenewroleinsightsbotlivetosource",
+      "project_name": "Tribebot",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Implement weekly-roundup question changes once Rodrigo/Chantal's sourcing lab group sends back their proposal",
+      "project": "tribebot",
+      "source": "cowork/local_eea14a13-9e5d-4d7b-9845-776a0a8edb46",
+      "source_type": "cowork",
+      "date": "2026-07-29",
+      "confidence": "medium",
+      "extras": {
+        "session": "Meeting transcript analysis (Dolores/Jovana Roles Weekly Update)"
+      },
+      "id": "cowork/local_eea14a13-9e5d-4d7b-9845-776a0a8edb46/implementweeklyroundupquestionchangesonc",
+      "project_name": "Tribebot",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Fix Step 2c dashboard refresh reconciliation for new client divisions - Mateja Jokovic misassigned Bench vs Pliant since Jul 23, ~EUR725 misallocated",
+      "project": "fin-dash",
+      "source": "cowork/local_38b88d28-81a4-4810-a197-c8391e79ff8f",
+      "source_type": "cowork",
+      "date": "2026-07-28",
+      "confidence": "high",
+      "extras": {
+        "session": "Tribe dashboard watchdog"
+      },
+      "id": "cowork/local_38b88d28-81a4-4810-a197-c8391e79ff8f/fixstep2cdashboardrefreshreconciliationf",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Decide whether to add a daily check on .claude-backup.log that Slack-pings Blake if the archive backup doesn't complete (after a 5-day silent failure)",
+      "project": "infra",
+      "source": "cowork/local_552540b8-c3c6-4400-84fb-f7a311cfaa15",
+      "source_type": "cowork",
+      "date": "2026-07-28",
+      "confidence": "medium",
+      "extras": {
+        "session": "Backup recruiting dashboard folder"
+      },
+      "id": "cowork/local_552540b8-c3c6-4400-84fb-f7a311cfaa15/decidewhethertoaddadailycheckonclaudebac",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Decide whether to drop Fireflies or Slack as a daily-pulse source for meeting-derived tasks - both surface the same items (e.g. Martin's 1:1/WBR)",
+      "project": "infra",
+      "source": "cowork/local_3b47ab8e-7e3c-438e-a9d2-d4141a404613",
+      "source_type": "cowork",
+      "date": "2026-07-27",
+      "confidence": "medium",
+      "extras": {
+        "session": "Daily pulse eod"
+      },
+      "id": "cowork/local_3b47ab8e-7e3c-438e-a9d2-d4141a404613/decidewhethertodropfirefliesorslackasada",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Reauthorize disconnected MCP connectors (Notion, Linear, ClickUp, Monday, Atlassian, DocuSign, Egnyte, legal Slack) in claude.ai connector settings",
+      "project": "infra",
+      "source": "cowork/local_07d8ae04-0558-4071-8dbd-c2eb30a3c8e8",
+      "source_type": "cowork",
+      "date": "2026-07-28",
+      "confidence": "medium",
+      "extras": {
+        "session": "Claude backups daily"
+      },
+      "id": "cowork/local_07d8ae04-0558-4071-8dbd-c2eb30a3c8e8/reauthorizedisconnectedmcpconnectorsnoti",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-07-28",
       "last_seen": "2026-07-29",
       "status": "open"
     }
