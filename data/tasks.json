@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-28",
+  "generated_at": "2026-07-29",
   "schema_version": 3,
-  "total": 245,
-  "active_count": 245,
-  "archived_count": 357,
+  "total": 243,
+  "active_count": 243,
+  "archived_count": 377,
   "projects": [
     {
       "id": "fin-dash",
@@ -6338,7 +6338,8 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-07",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-29"
     },
     {
       "text": "Ensure analytic processes (Claude AI) can handle new or adjusted stages in the hiring funnel",
@@ -6354,7 +6355,8 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-07",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-29"
     },
     {
       "text": "Attend Thursday 4:00-4:45 PM meeting with Mikael and Jacopo to define technical implementation and pipeline stage standardization",
@@ -6370,7 +6372,8 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-07",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-29"
     },
     {
       "text": "Ensure finance review materials are updated and ready for tomorrow's meeting",
@@ -6386,7 +6389,8 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-07",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-29"
     },
     {
       "text": "Work with team and legal counsel to analyze the Vault master service agreement details and define next steps on the $55k fee dispute",
@@ -6402,7 +6406,8 @@
       "project_name": "Legal & Contracts",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-07",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-29"
     },
     {
       "text": "Reassign the LinkedIn recruiter seat for Alexandra's sourcing project",
@@ -6418,7 +6423,8 @@
       "project_name": "LinkedIn license management",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-07",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-29"
     },
     {
       "text": "Approve and facilitate Salem's access to a LinkedIn Sales Navigator license",
@@ -6434,7 +6440,8 @@
       "project_name": "LinkedIn license management",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-07",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-29"
     },
     {
       "text": "Work with accounting to remove or correct the mischarged restaurant expense on the business card",
@@ -6450,7 +6457,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-07",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-29"
     },
     {
       "text": "Receive and forward Salem's submitted receipts and non-receipt charge list to the accountants for processing",
@@ -6466,7 +6474,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-07",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-29"
     },
     {
       "text": "Review the engagement data folder from Ella and determine the best hosting solution (evaluate GitHub for automatic monthly updates and integration)",
@@ -6482,7 +6491,8 @@
       "project_name": "Team cohesion",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-07",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-29"
     },
     {
       "text": "Review the employee engagement survey file/folder from Ella and decide the best hosting approach (likely GitHub), then set it up",
@@ -6499,7 +6509,8 @@
       "project_name": "Team cohesion",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-07",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-29"
     },
     {
       "text": "Reply to Eva Huclova on the settlement of mutual receivables/payables between the Tribe entities and Martin (loans+interest, dividends, advances) - confirm her proposed bi-weekly meeting cadence starting July 16 and await the figures CEE Attorneys will use to prepare Martin's signing documents",
@@ -6516,7 +6527,8 @@
       "project_name": "Legal & Contracts",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-07",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-29"
     },
     {
       "text": "Respond to Caroline Murphy's comment in the 'OKR Prep Q3 2026' Notion page re KR1 (5+ qualified conversations per director from marketing-sourced pipeline)",
@@ -6551,7 +6563,8 @@
       "project_name": "Team cohesion",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-07",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-29"
     },
     {
       "text": "Add the finalized Q3 OKR wording into Lattice once departments tidy it up - Blake set the deadline as the next day (by Jul 7)",
@@ -6585,7 +6598,8 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-07",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-29"
     },
     {
       "text": "Finish the engagement-survey dashboard cutover: hand Ella the updated publish block (StatiCrypt/password step removed, dashboard now Tribe login-gated with GitHub auto-deploy) to append to her monthly scheduled task, and get Michelle to embed the dashboard iframe on overview.tribe.xyz (the last remaining item); also regenerate the GitHub PAT that was pasted in plaintext",
@@ -6601,7 +6615,8 @@
       "project_name": "Team cohesion",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-07",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-29"
     },
     {
       "text": "Decide with Yoko how to add interview-round granularity to the recruiting funnel (new controlled values in the single stagesType funnel vs a separate 'interview round type' dimension), then clean up the stagesType enum (dedupe names, fix point_of_process ordering) and expand it so rounds between 'Moved to ATS' and Offer (HM, Technical/Case, Panel, Final) stop collapsing into one bucket; update the reporting SQL's hardcoded stage lists accordingly",
@@ -6617,7 +6632,8 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-07",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-29"
     },
     {
       "text": "Sign the Tribe Czech + Tribe Spain year-end documents at WeWork with Martin (keeps slipping; Blake to go Jul 7 and confirm done)",
@@ -6652,7 +6668,8 @@
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-08",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-29"
     },
     {
       "text": "Reply to Simon Siew on the intake-tool onboarding: he reports there were no intake calls and he had to teach the TA teams/HMs the basics over 3 calls, and asks whether he can use the meeting transcripts to fill out the intake info - give him a decision/guidance.",
@@ -7005,7 +7022,8 @@
       "project_name": "OKRs",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-09",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-29"
     },
     {
       "text": "Send the 'board picture' referenced for the Q2 recap so it can be folded into the summary (not yet provided; none of the OKR check-ins reference it)",
@@ -7021,7 +7039,8 @@
       "project_name": "OKRs",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-09",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-29"
     },
     {
       "text": "Add an R2 bucket to Cloudflare billing to store audio transcripts from the extensions, as Mikhail requested",
@@ -7163,7 +7182,7 @@
       "project": "expense-ops",
       "source": "gmail/19f5650fbbaa2baa",
       "source_type": "gmail",
-      "date": "2026-07-12",
+      "date": "2026-07-28",
       "confidence": "medium",
       "extras": {
         "subject": "Benzin",
@@ -7172,7 +7191,7 @@
       "id": "gmail/19f5650fbbaa2baa",
       "project_name": "Expense Ops",
       "first_seen": "2026-07-12",
-      "last_seen": "2026-07-13",
+      "last_seen": "2026-07-29",
       "status": "open"
     },
     {
@@ -7410,7 +7429,8 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-07-07",
       "last_seen": "2026-07-13",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-29"
     },
     {
       "text": "Manually handle the 2 unmatched invoices from the 09 Jul Revolut draft-payments run - Marina Lazarevic 2000 EUR (no counterparty match in HoldCo) and Wladyslaw Gadomski 5000 EUR (no counterparty match in Tribe CZ); they were not drafted",
@@ -10378,6 +10398,309 @@
       "project_name": "Needs sorting",
       "first_seen": "2026-07-28",
       "last_seen": "2026-07-28",
+      "status": "open"
+    },
+    {
+      "text": "Provide technical assistance on data extraction, access control, and dashboard hosting to support the performance review dashboard deployment",
+      "project": "people-ops",
+      "source": "fireflies/01KYHRW5N2WWWF4163TER3Z6PK",
+      "source_type": "fireflies",
+      "date": "2026-07-27",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Claude: Master Sessions"
+      },
+      "id": "fireflies/01KYHRW5N2WWWF4163TER3Z6PK/providetechnicalassistanceondataextracti",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Reconnect the hiring@tribe.xyz Google Workspace account in Ashby (Settings > GSuite > Connect With Google) so candidate emails stop failing, and check whether the affected candidate needs follow-up communication",
+      "project": "infra",
+      "source": "gmail/19fa9fe2dc294e16",
+      "source_type": "gmail",
+      "date": "2026-07-28",
+      "confidence": "high",
+      "extras": {
+        "subject": "[Attention Required] Email Send Failure",
+        "from": "support@ashbyhq.com"
+      },
+      "id": "gmail/19fa9fe2dc294e16",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Pay Tijana Lazovic's final July invoice on the normal schedule following her resignation (last day Jul 31, 2026) - Blake confirmed to her there is no change to invoicing",
+      "project": "people-ops",
+      "source": "gmail/19f897ef3bc34f04",
+      "source_type": "gmail",
+      "date": "2026-07-22",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Re: Resignation Letter",
+        "from": "andreadarabasic@tribe.xyz"
+      },
+      "id": "gmail/19f897ef3bc34f04",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Send Nenad Skoko a list of all roles Tribe has ever had open (he asked for it to finish his role-categorization feedback, due early/mid this week)",
+      "project": "rec-dash",
+      "source": "slack/D05UGUJPZ97/1784899535.039929",
+      "source_type": "slack",
+      "date": "2026-07-24",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Nenad Skoko",
+        "from": "Nenad Skoko"
+      },
+      "id": "slack/D05UGUJPZ97/1784899535.039929",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Add the QA #1-#10 tags to Tribe's LinkedIn Recruiter for Rodrigo Gomes so he can organize the Aviv data, and get back to him on the Revolut response",
+      "project": "linkedin",
+      "source": "slack/D059PSVF62G/1784896207.916549",
+      "source_type": "slack",
+      "date": "2026-07-24",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Rodrigo Gomes",
+        "from": "Rodrigo Gomes"
+      },
+      "id": "slack/D059PSVF62G/1784896207.916549",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Confirm to Caroline Murphy how Ivan (external designer) gets paid now that the Upwork contract expired - decide bank transfer vs Wise and whether he just invoices Tribe, so he can start the website design next week",
+      "project": "inbox",
+      "source": "slack/D0A90RPGE92/1784887368.410969",
+      "source_type": "slack",
+      "date": "2026-07-24",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Caroline Murphy",
+        "from": "Caroline Murphy"
+      },
+      "id": "slack/D0A90RPGE92/1784887368.410969",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Send Tijana Lazovic's final invoice to the Spanish entity (not the Czech one) as she requested for her last invoice with Tribe",
+      "project": "inbox",
+      "source": "slack/D0562L90R36/1784879644.810229",
+      "source_type": "slack",
+      "date": "2026-07-24",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Tijana Lazovic",
+        "from": "Tijana Lazovic"
+      },
+      "id": "slack/D0562L90R36/1784879644.810229",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Find a spare LinkedIn Recruiter seat for Chene Elliot - Salem Mansuri asked whether one is up for grabs",
+      "project": "linkedin",
+      "source": "slack/D057XNFLHTR/1784879268.976629",
+      "source_type": "slack",
+      "date": "2026-07-24",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Salem Mansuri",
+        "from": "Salem Mansuri"
+      },
+      "id": "slack/D057XNFLHTR/1784879268.976629",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Confirm to Kristjana Thorarinsdottir whether Djordy is fully confirmed for Vista",
+      "project": "inbox",
+      "source": "slack/D059MAFUJR0/1784896343.450429",
+      "source_type": "slack",
+      "date": "2026-07-24",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Kristjana Thorarinsdottir",
+        "from": "Kristjana Thorarinsdottir"
+      },
+      "id": "slack/D059MAFUJR0/1784896343.450429",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Move Martin Bernard's LinkedIn Recruiter Pro license to Jacopo Lupo Ferrari - Martin asked directly; he will keep using Jacopo's profile to scrape jobs until Jacopo has a paid license",
+      "project": "linkedin",
+      "source": "slack/C057YFVFWE6/1784809566.617799",
+      "source_type": "slack",
+      "date": "2026-07-23",
+      "confidence": "high",
+      "extras": {
+        "channel": "Group DM: Martin Bernard / Jacopo Lupo Ferrari / Blake",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/C057YFVFWE6/1784809566.617799",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Draft a one-page off-cycle bonus framework (off-cycle promotion, sustained exceptional performance, role scope expansion) and circulate it to Ella, Jacopo and Martin before the next calibration; also send a recap closing the two open items from the OKR stand-up (Nikki bonus/team lead, Marina bonus)",
+      "project": "okrs",
+      "source": "slack/D0AKAPA0X3J/1784716817.298859",
+      "source_type": "slack",
+      "date": "2026-07-22",
+      "confidence": "high",
+      "extras": {
+        "channel": "Blake Updates Bot DM (OKR Stand-up post-meeting brief)",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1784716817.298859",
+      "project_name": "OKRs",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Move the AI role-briefing tool from demo to a live pilot: document Nenad's feedback (location context gap, salary bias by region, no comparative baseline), name the pilot group and a send date, and update the stale AI-First Project Hub follow-up date",
+      "project": "ai-first-working-group",
+      "source": "slack/D0AKAPA0X3J/1784728558.485689",
+      "source_type": "slack",
+      "date": "2026-07-22",
+      "confidence": "high",
+      "extras": {
+        "channel": "Blake Updates Bot DM (AI First Working Group post-meeting brief)",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1784728558.485689",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Lock the Marcel Tribetalks session date with Eduardo (22 or 29 October), watch the previous Tribetalks recording with Vanessa as prep, and update the Tribetalks Project Hub entry with the date and Blake/Nenad as co-hosts",
+      "project": "tribe-talks-marcel",
+      "source": "slack/D0AKAPA0X3J/1784796894.227809",
+      "source_type": "slack",
+      "date": "2026-07-23",
+      "confidence": "high",
+      "extras": {
+        "channel": "Blake Updates Bot DM (Tribetalks prep post-meeting brief)",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1784796894.227809",
+      "project_name": "Tribe Talks - MArcel",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Investigate the profiles-viewed data gap Naledi Lesego and Andrea Akovic raised in the dashboards Q&A (LinkedIn extension behaviour in some regions zeroes out views), report back to both within 24h, and warn Simon Siew before he presents that number to Reaktor",
+      "project": "rec-dash",
+      "source": "slack/D0AKAPA0X3J/1784810099.818779",
+      "source_type": "slack",
+      "date": "2026-07-23",
+      "confidence": "high",
+      "extras": {
+        "channel": "Blake Updates Bot DM (Data Dashboards Overview & Q&A post-meeting brief)",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1784810099.818779",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with Dolores Palotas and Jovana Drakula to book a concrete working session with them and Rodrigo to redesign the weekly roundup bot questions for sourcing knowledge capture, and update the overdue Sourcing Lab Project Hub entry",
+      "project": "tribebot",
+      "source": "slack/D0AKAPA0X3J/1785234652.869899",
+      "source_type": "slack",
+      "date": "2026-07-28",
+      "confidence": "high",
+      "extras": {
+        "channel": "Blake Updates Bot DM (Blake/Dolores/Jovana post-meeting brief)",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1785234652.869899",
+      "project_name": "Tribebot",
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Brief Martin on the Vlad/Simon situation (Vlad misrepresenting Simon's behaviour to Chris) before he hears it elsewhere, and document Tijana's exit conduct factually for any future reference request",
+      "project": "people-ops",
+      "source": "slack/D0AKAPA0X3J/1785248468.078599",
+      "source_type": "slack",
+      "date": "2026-07-28",
+      "confidence": "high",
+      "extras": {
+        "channel": "Blake Updates Bot DM (People Operations post-meeting brief)",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1785248468.078599",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Finish the SalesPad take-home assessment before the Fri 31 Jul deadline: lock the rewritten Task 2 write-up (evidence picks + Karim next round / Mohamad junior seat / Emad reject) and build the Task 1 thin-slice n8n pipeline end to end so there is a working demo for the Loom, not just a diagram",
+      "project": "inbox",
+      "source": "cowork/local_d4f4a6cb-31bf-4a9d-9859-684268c17555",
+      "source_type": "cowork",
+      "date": "2026-07-28",
+      "confidence": "medium",
+      "extras": {
+        "session": "File assessment and build plan"
+      },
+      "id": "cowork/local_d4f4a6cb-31bf-4a9d-9859-684268c17555/finishthesalespadtakehomeassessmentbefor",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Order the Tristar VE-5885 floor fan from Alza's Czech listing (the English pages show stale stock) and hand over the Domo DO8134 return at the same AlzaBox pickup",
+      "project": "inbox",
+      "source": "cowork/local_287a5a78-67ce-4dc0-8540-9f59e0d03ef4",
+      "source_type": "cowork",
+      "date": "2026-07-29",
+      "confidence": "medium",
+      "extras": {
+        "session": "DOMO DO8134 fan issue"
+      },
+      "id": "cowork/local_287a5a78-67ce-4dc0-8540-9f59e0d03ef4/orderthetristarve5885floorfanfromalzascz",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-29",
       "status": "open"
     }
   ]
