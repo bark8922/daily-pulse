@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-07-30",
   "schema_version": 3,
-  "total": 265,
-  "active_count": 265,
+  "total": 287,
+  "active_count": 287,
   "archived_count": 390,
   "projects": [
     {
@@ -11282,6 +11282,370 @@
       "id": "cowork/local_85ee5042-fa3a-40b3-85fc-a0eb24c81fd7/sendthedraftedteamupdateannouncingtherol",
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-07-29",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Report the Estonia entity setup outcomes to Martin and confirm the approach (new Tribe Estonia subsidiary, transfer ~12 client contracts)",
+      "project": "legal",
+      "source": "fireflies/01KYSE9R1NACGP07XS6S1ZZ4BC",
+      "source_type": "fireflies",
+      "date": "2026-07-30",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Intro - Estonia Company"
+      },
+      "id": "fireflies/01KYSE9R1NACGP07XS6S1ZZ4BC/reporttheestoniaentitysetupoutcomestomar",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Consult Czech lawyers and accountants on the Estonia restructuring: Czech company wind-down vs dormant, and cross-border dividend/tax implications",
+      "project": "legal",
+      "source": "fireflies/01KYSE9R1NACGP07XS6S1ZZ4BC",
+      "source_type": "fireflies",
+      "date": "2026-07-30",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Intro - Estonia Company"
+      },
+      "id": "fireflies/01KYSE9R1NACGP07XS6S1ZZ4BC/consultczechlawyersandaccountantsonthees",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Formally engage Estonian legal counsel (Erik Salur, Njord) on the EUR 2,500 + EUR 500 fixed-fee formation once internal planning is agreed",
+      "project": "legal",
+      "source": "fireflies/01KYSE9R1NACGP07XS6S1ZZ4BC",
+      "source_type": "fireflies",
+      "date": "2026-07-30",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Intro - Estonia Company"
+      },
+      "id": "fireflies/01KYSE9R1NACGP07XS6S1ZZ4BC/formallyengageestonianlegalcounseleriksa",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Ask Martin Bernard to change the billing entity on the Moonshot AI (moonshotai) account to Tribe CZ and confirm back to Lucie Horakova at Boris Gnoth Tax",
+      "project": "expense-ops",
+      "source": "gmail/19fb20be61f59f7f",
+      "source_type": "gmail",
+      "date": "2026-07-30",
+      "confidence": "high",
+      "extras": {
+        "subject": "RE: Company Name",
+        "from": "Lucie Horakova <lhorakova@borisgnoth.cz>"
+      },
+      "id": "gmail/19fb20be61f59f7f",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Work through the invoice list Lucie Horakova sent after today's call (attachment 'Discussed invoices Tribe 30th of July 2026.xlsx') and resolve the flagged items with Boris Gnoth Tax",
+      "project": "expense-ops",
+      "source": "gmail/19fb34464ecab93a",
+      "source_type": "gmail",
+      "date": "2026-07-30",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Discussed invoices Tribe",
+        "from": "Lucie Horakova <lhorakova@borisgnoth.cz>"
+      },
+      "id": "gmail/19fb34464ecab93a",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Update the 4 overdue Lattice goals (incl. the TA-Sourcer goal) with current progress",
+      "project": "okrs",
+      "source": "gmail/19fb21792f7093a6",
+      "source_type": "gmail",
+      "date": "2026-07-30",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Blake, you have 4 goals that need updating",
+        "from": "Lattice <notifications@mg.latticehq.com>"
+      },
+      "id": "gmail/19fb21792f7093a6",
+      "project_name": "OKRs",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Add the missing receipts/details to the outstanding Revolut expenses across all three entities (Tribe.xyz Czech s.r.o., TRIBE.XYZ SPAIN SL, Tribe.xyz Holding a.s.)",
+      "project": "expense-ops",
+      "source": "gmail/19f9325af432e25d",
+      "source_type": "gmail",
+      "date": "2026-07-24",
+      "confidence": "low",
+      "extras": {
+        "subject": "Your expenses are missing some info",
+        "from": "Revolut Business <no-reply@revolut.com>"
+      },
+      "id": "gmail/19f9325af432e25d",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-24",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Brief Martin on the Estonia entity conversation with Erik Salur (Njord Law): the three options (new subsidiary, cross-border merger, relocation), Erik's recommendation for Option 1, the bank-account substance bottleneck, and get a clear go/no-go decision on whether and how fast to proceed",
+      "project": "legal",
+      "source": "slack/D0AKAPA0X3J/1785414702.479249",
+      "source_type": "slack",
+      "date": "2026-07-30",
+      "confidence": "high",
+      "extras": {
+        "channel": "Blake Updates Bot DM",
+        "from": "Blake Updates Bot (post-meeting brief)"
+      },
+      "id": "slack/D0AKAPA0X3J/1785414702.479249",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with Ella and Andrea on the Jordy contract status (signed or not) and proactively flag the state of play to Martin before he escalates himself; propose a cut-off date after which Tribe moves to backup candidates",
+      "project": "inbox",
+      "source": "slack/D0AKAPA0X3J/1785334926.612949",
+      "source_type": "slack",
+      "date": "2026-07-29",
+      "confidence": "high",
+      "extras": {
+        "channel": "Blake Updates Bot DM",
+        "from": "Blake Updates Bot (post-meeting brief)"
+      },
+      "id": "slack/D0AKAPA0X3J/1785334926.612949",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Scope Andrea's suggestion to pilot the knowledge base and Tribe Bot on internal recruitment first - define a specific test with Sanja and Ella and bring a concrete proposal to the next AI-First session",
+      "project": "tribebot",
+      "source": "slack/D0AKAPA0X3J/1785330317.446979",
+      "source_type": "slack",
+      "date": "2026-07-29",
+      "confidence": "high",
+      "extras": {
+        "channel": "Blake Updates Bot DM",
+        "from": "Blake Updates Bot (post-meeting brief)"
+      },
+      "id": "slack/D0AKAPA0X3J/1785330317.446979",
+      "project_name": "Tribebot",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Fix the failing 'PDF Parser - Vendor Mapping' n8n workflow - rate limit error ('service is receiving too many requests') at the 'Update Invoice Verification Status' node, failed 30 Jul 14:00; add throttling or retry",
+      "project": "expense-ops",
+      "source": "slack/D0AKAPA0X3J/1785412849.799299",
+      "source_type": "slack",
+      "date": "2026-07-30",
+      "confidence": "high",
+      "extras": {
+        "channel": "Blake Updates Bot DM",
+        "from": "Blake Updates Bot (n8n alert)"
+      },
+      "id": "slack/D0AKAPA0X3J/1785412849.799299",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Fix the 'Check Personal Email Bot' n8n workflow, which failed three runs in a row on 30 Jul (08:00, 09:00, 10:00) at the Basic LLM Chain node - it is now persistently broken rather than a one-off",
+      "project": "infra",
+      "source": "slack/D0AKAPA0X3J/1785391214.830179",
+      "source_type": "slack",
+      "date": "2026-07-30",
+      "confidence": "medium",
+      "extras": {
+        "channel": "Blake Updates Bot DM",
+        "from": "Blake Updates Bot (n8n alert)"
+      },
+      "id": "slack/D0AKAPA0X3J/1785391214.830179",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Share the finalized calibrated performance reviews with your team members in Lattice and set up the handover catch-up with each upcoming lead plus the joint feedback call with the team member",
+      "project": "people-ops",
+      "source": "slack/C01RLBNHRKP/1785421688.548049",
+      "source_type": "slack",
+      "date": "2026-07-30",
+      "confidence": "high",
+      "extras": {
+        "channel": "#leadership",
+        "from": "Andrea Darabasic"
+      },
+      "id": "slack/C01RLBNHRKP/1785421688.548049",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Reflect the new Taxfix contract for Chene Elliot in invoicing: starts 1.8.2026 on a 4-month contract, 2 months at $10k then 2 months at $11k, and $11k per month thereafter",
+      "project": "expense-ops",
+      "source": "slack/C04FPRVF5L5/1785302584.452069",
+      "source_type": "slack",
+      "date": "2026-07-29",
+      "confidence": "medium",
+      "extras": {
+        "channel": "#accounting-and-invoicing",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/C04FPRVF5L5/1785302584.452069",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Find another route to the archived IR sprint channels - Ella added you to the live ones but cannot reopen the archived channels, so decide the workaround (ops/admin export) rather than leaving it open",
+      "project": "inbox",
+      "source": "slack/D05Q6UWSV8E/1785332679.042789",
+      "source_type": "slack",
+      "date": "2026-07-29",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Ella Darie",
+        "from": "Ella Darie"
+      },
+      "id": "slack/D05Q6UWSV8E/1785332679.042789",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Delete the duplicate row 22 in the Invoices tab (literal dupe of row 20 - same Revolut invoice INV-883, 15 USD, 27 July, identical Row ID) so the PDF parser workflow stops harmlessly re-emitting it every run",
+      "project": "expense-ops",
+      "source": "cowork/local_fda173a0-ad3a-4d0d-875c-abd8cc0e67f3",
+      "source_type": "cowork",
+      "date": "2026-07-30",
+      "confidence": "high",
+      "extras": {
+        "session_title": "PDF Parser vendor mapping error"
+      },
+      "id": "cowork/local_fda173a0-ad3a-4d0d-875c-abd8cc0e67f3/deletetheduplicaterow22intheinvoicestabl",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Clean the invoice intake folder: delete row 19 (VOP_RR_25062026.pdf is Alza.cz terms and conditions, not an invoice), move the PDF out of the Drive intake folder, and check whether row 7's blank NA__ entry has a junk source file too",
+      "project": "expense-ops",
+      "source": "cowork/local_fda173a0-ad3a-4d0d-875c-abd8cc0e67f3",
+      "source_type": "cowork",
+      "date": "2026-07-30",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "PDF Parser vendor mapping error"
+      },
+      "id": "cowork/local_fda173a0-ad3a-4d0d-875c-abd8cc0e67f3/cleantheinvoiceintakefolderdeleterow19vo",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Send the finalized reply to Adela Majikova declining the event-furniture invoice and VAT reclaim (reprezentace is not deductible, VAT not recoverable, and no active cost centre while on parental leave) - the shortened draft was approved but never placed in Gmail drafts or sent",
+      "project": "people-ops",
+      "source": "cowork/local_5b29f3f3-8e3a-4098-bef0-24afab7c01d9",
+      "source_type": "cowork",
+      "date": "2026-07-30",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Maternity leave business expense VAT"
+      },
+      "id": "cowork/local_5b29f3f3-8e3a-4098-bef0-24afab7c01d9/sendthefinalizedreplytoadelamajikovadecl",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Send Eva Huclova the outstanding list of incoming payments for 1-6/2026 Tribe Holding plus the unclear payments on the account, and confirm her required format and deadline (open since her 24 Jul email)",
+      "project": "expense-ops",
+      "source": "cowork/local_25ae15fe-c753-413e-a3c4-d9e0b3f9a32b",
+      "source_type": "cowork",
+      "date": "2026-07-30",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Accountant meeting prep"
+      },
+      "id": "cowork/local_25ae15fe-c753-413e-a3c4-d9e0b3f9a32b/sendevahuclovatheoutstandinglistofincomi",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Chase CEE Attorneys (via Boris Gnoth) for the intercompany loan and dividend documents Martin still needs to sign - handed off 7 Jul with no response in three weeks; get a firm date, the full document list, and whether anything needs wet ink or notarization given Martin is in Asia time",
+      "project": "legal",
+      "source": "cowork/local_25ae15fe-c753-413e-a3c4-d9e0b3f9a32b",
+      "source_type": "cowork",
+      "date": "2026-07-30",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Accountant meeting prep"
+      },
+      "id": "cowork/local_25ae15fe-c753-413e-a3c4-d9e0b3f9a32b/chaseceeattorneysviaborisgnothfortheinte",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "After the Erik Salur (NJORD Law Firm, Tallinn) call, take the Czech-side Estonia questions back to Boris Gnoth: CFC risk with Tribe Holding a.s. as parent, place of effective management / tax residency, exit tax on the new-entity approach, and dividends to Martin as a non-resident",
+      "project": "legal",
+      "source": "cowork/local_25ae15fe-c753-413e-a3c4-d9e0b3f9a32b",
+      "source_type": "cowork",
+      "date": "2026-07-30",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Accountant meeting prep"
+      },
+      "id": "cowork/local_25ae15fe-c753-413e-a3c4-d9e0b3f9a32b/aftertheeriksalurnjordlawfirmtallinncall",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Post the shortened reply to Jennifer Hood's comment on the published 'Ops person, not a data person' LinkedIn post (conceding the foundation work, pushing back that defining what a metric means sits with whoever uses the number)",
+      "project": "linkedin",
+      "source": "cowork/local_3a926153-b23d-4aaf-b13f-ac1428004b70",
+      "source_type": "cowork",
+      "date": "2026-07-30",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Linkedin idea generator morning"
+      },
+      "id": "cowork/local_3a926153-b23d-4aaf-b13f-ac1428004b70/posttheshortenedreplytojenniferhoodscomm",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-07-30",
       "last_seen": "2026-07-30",
       "status": "open"
     }
