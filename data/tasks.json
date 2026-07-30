@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-29",
+  "generated_at": "2026-07-30",
   "schema_version": 3,
-  "total": 268,
-  "active_count": 268,
-  "archived_count": 377,
+  "total": 265,
+  "active_count": 265,
+  "archived_count": 390,
   "projects": [
     {
       "id": "fin-dash",
@@ -6686,7 +6686,8 @@
       "project_name": "Roundup & Intake (AI recruiting tools)",
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-08",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-30"
     },
     {
       "text": "Assist Chris in resolving the Vault invoicing disputes and client negotiation",
@@ -6702,7 +6703,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-08",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-30"
     },
     {
       "text": "Coordinate legal counsel advice on withholding payment and contract breach implications for Kathleen's case",
@@ -6718,7 +6720,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-08",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-30"
     },
     {
       "text": "Complete the BambooHR offboarding task for Elena Petrovska (Sourcer L1, B2B, Wolt division, termination date Jul 31, 2026) assigned by Andrea Darabasic",
@@ -6735,7 +6738,8 @@
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-08",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-30"
     },
     {
       "text": "Respond to Martin Bernard's comment in the 'OKR Prep Q3 2026' Notion page re KR2 (Quarterly Business Review / structured check-in call completed with 100% of...)",
@@ -6770,7 +6774,8 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-08",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-30"
     },
     {
       "text": "Re-send the final invoice request to Kathleen Dongo at her personal email (kathleen.dongo@hotmail.com) - the message to kathleen@tribe.xyz bounced; ask her to send the invoice to accounting@tribe.xyz in PDF",
@@ -6787,7 +6792,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-17",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-30"
     },
     {
       "text": "Add the 4,500 EUR Kathleen conversion fee to Wolt's next invoice - Kristjana confirmed in #accounting-and-invoicing that everything is solved and gave the go-ahead ('you can add 4500 EUR for Kathleen conversion fee to next invoice')",
@@ -6804,7 +6810,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-08",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-30"
     },
     {
       "text": "Reschedule the AI First project meeting - Blake cancelled today's session due to a family emergency and committed to reschedule later in the week ('I'll reschedule if I can find a time for all of us')",
@@ -6821,7 +6828,8 @@
       "project_name": "AI First Working Group",
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-08",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-30"
     },
     {
       "text": "Finish and submit the monthly expense report - Blake told Salem he needs to get everything submitted; still missing Bolt (79 EUR) and Malaga parking (79.80 EUR), and Easyjet invoice may take up to 28 days (add later if it doesn't arrive)",
@@ -6838,7 +6846,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-08",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-30"
     },
     {
       "text": "Fix the 'Your Roles Weekly' tool for Andrea Akovic - she now gets the ping but still can't open or write notes for her roles (clicking 'add notes' shows a spinner then nothing); Blake committed 'will keep working on it'",
@@ -6855,7 +6864,8 @@
       "project_name": "Needs sorting",
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-08",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-30"
     },
     {
       "text": "Help Jovana build an AI-assisted sourcing playbook for AVIV (she asked for your AI guidance)",
@@ -6872,7 +6882,8 @@
       "project_name": "Roundup & Intake (AI recruiting tools)",
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-09",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-30"
     },
     {
       "text": "Write manager performance reviews for your direct reports (Manager Review open until July 20)",
@@ -6889,7 +6900,8 @@
       "project_name": "Leadership comms",
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-09",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-30"
     },
     {
       "text": "Review June engagement survey comments with your team and prepare input for the July 15 Leadership meeting",
@@ -7614,7 +7626,8 @@
       "project_name": "Roundup & Intake (AI recruiting tools)",
       "first_seen": "2026-07-08",
       "last_seen": "2026-07-14",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-30"
     },
     {
       "text": "AVIV: Wladyslaw Gadomski and Alex Richiteanu last day is 17.07 (not yet communicated to them) - handle the offboarding/invoicing side",
@@ -11105,6 +11118,171 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-07-28",
       "last_seen": "2026-07-29",
+      "status": "open"
+    },
+    {
+      "text": "Reply to Francesco Zoffoli (Revolut) on the FX overallowance (Kc ~1,008,657 over the Kc 2M allowance, Kc ~6,052 charged) - clarify whether these are Tribe's total FX volumes, give expected upcoming volumes, and decide whether to set up a custom FX plan or book the call",
+      "project": "expense-ops",
+      "source": "gmail/19faf33d8bcde61e",
+      "source_type": "gmail",
+      "date": "2026-07-29",
+      "confidence": "high",
+      "extras": {
+        "subject": "Tribe x Revolut - FX Strategy",
+        "from": "francesco.zoffoli@revolut.com"
+      },
+      "id": "gmail/19faf33d8bcde61e",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Answer Adela Marikova's question (referred by Martin) on whether the attached invoice for rental of bar tables, bean bags and sun loungers can be booked as a business expense with VAT reclaimed",
+      "project": "expense-ops",
+      "source": "gmail/19fae583d01fb32b",
+      "source_type": "gmail",
+      "date": "2026-07-29",
+      "confidence": "high",
+      "extras": {
+        "subject": "Question Regarding Invoice Tax Deductibility",
+        "from": "adela.marikova@seznam.cz"
+      },
+      "id": "gmail/19fae583d01fb32b",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Fix the failing 'Tribe Dashboard Refresh (cloud)' GitHub Actions workflow in bark8922/tribe-dashboard (all jobs failed on main, commit a773450)",
+      "project": "fin-dash",
+      "source": "gmail/19fb1d42731b3722",
+      "source_type": "gmail",
+      "date": "2026-07-30",
+      "confidence": "medium",
+      "extras": {
+        "subject": "[bark8922/tribe-dashboard] Run failed: Tribe Dashboard Refresh (cloud) - main (a773450)",
+        "from": "notifications@github.com"
+      },
+      "id": "gmail/19fb1d42731b3722",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Draft the client contract for Augustus: 1x TA at 9k/month for sourcing and coordination, rising to 11k if it moves to full cycle (Kristjana asked; Blake said he would tackle it after his accountants meeting)",
+      "project": "legal",
+      "source": "slack/D059MAFUJR0/1785340970.397719",
+      "source_type": "slack",
+      "date": "2026-07-29",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Kristjana Thorarinsdottir",
+        "from": "Kristjana Thorarinsdottir"
+      },
+      "id": "slack/D059MAFUJR0/1785340970.397719",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Chase Reaktor for the July invoice payment if it is still unpaid after 1 August - Blake told Kristjana it is not overdue yet but would be late on the 1st, and confirm Riku forwarded the billing email",
+      "project": "expense-ops",
+      "source": "slack/D059MAFUJR0/1785328347.724279",
+      "source_type": "slack",
+      "date": "2026-07-29",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Kristjana Thorarinsdottir",
+        "from": "Blake Barkley"
+      },
+      "id": "slack/D059MAFUJR0/1785328347.724279",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Push the one-line fin-dash pipeline/refresh.py fix (line 337 references undefined `appended` after the reconcile_division_rows rewrite) and re-dispatch refresh.yml so the dashboard stops serving stale 07-01 data",
+      "project": "fin-dash",
+      "source": "cowork/local_533f7236-a978-4d72-9a0b-422cdd6dd129",
+      "source_type": "cowork",
+      "date": "2026-07-30",
+      "confidence": "high",
+      "extras": {
+        "session": "Tribe Dashboard Refresh failure - NameError crash traced to leftover log line from the report-228 reconciliation commit; kept read-only pending Blake's go-ahead"
+      },
+      "id": "cowork/local_533f7236-a978-4d72-9a0b-422cdd6dd129/pushtheonelinefindashpipelinerefreshpyfi",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Send Jacopo the drafted update on first real usage of the new Interview 1/2/3 stages (3 candidates since 22 Jul, 10 jobs configured, funnel build starting)",
+      "project": "rec-dash",
+      "source": "cowork/local_681f351f-a036-4fc7-a1c6-5770e11548d2",
+      "source_type": "cowork",
+      "date": "2026-07-29",
+      "confidence": "medium",
+      "extras": {
+        "session": "Recruiting new stages usage check - draft written, Blake asked if he wanted a shorter version, not sent"
+      },
+      "id": "cowork/local_681f351f-a036-4fc7-a1c6-5770e11548d2/sendjacopothedraftedupdateonfirstrealusa",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Record the Task 4 Loom walkthrough and assemble the SalesPad submission Google Doc (strip em dashes from the Task 1-3 docs, embed videos and workflow links, verify the share link is publicly viewable) before the Fri 31 Jul deadline",
+      "project": "inbox",
+      "source": "cowork/local_d4f4a6cb-31bf-4a9d-9859-684268c17555",
+      "source_type": "cowork",
+      "date": "2026-07-29",
+      "confidence": "high",
+      "extras": {
+        "session": "File assessment and build plan - Task 1 thin slice built and Loom script drafted; recording and submission doc are the last two items"
+      },
+      "id": "cowork/local_d4f4a6cb-31bf-4a9d-9859-684268c17555/recordthetask4loomwalkthroughandassemble",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Finalize the role categorization taxonomy once the last of the seven feedback responses lands, then re-apply it to existing roles (likely using bench people) so the role briefing bot can be switched on",
+      "project": "tribebot",
+      "source": "cowork/local_2a4f97c4-5c33-4de8-9109-fd87405a6a1a",
+      "source_type": "cowork",
+      "date": "2026-07-29",
+      "confidence": "medium",
+      "extras": {
+        "session": "Today's meeting prep - Blake said the briefing bot is still test-only because categorization errors persist; taxonomy needs finalizing plus a backfill of old roles"
+      },
+      "id": "cowork/local_2a4f97c4-5c33-4de8-9109-fd87405a6a1a/finalizetherolecategorizationtaxonomyonc",
+      "project_name": "Tribebot",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Send the drafted team update announcing the roles roundup bot now runs 7 days a week and the DM has two sections (active roles with activity, plus recently opened roles with no activity yet)",
+      "project": "rec-dash",
+      "source": "cowork/local_85ee5042-fa3a-40b3-85fc-a0eb24c81fd7",
+      "source_type": "cowork",
+      "date": "2026-07-29",
+      "confidence": "medium",
+      "extras": {
+        "session": "Roles weekly update status - awaiting-first-update section deployed live; announcement drafted and left with 'good to send?'"
+      },
+      "id": "cowork/local_85ee5042-fa3a-40b3-85fc-a0eb24c81fd7/sendthedraftedteamupdateannouncingtherol",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-30",
       "status": "open"
     }
   ]
