@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-30",
+  "generated_at": "2026-07-31",
   "schema_version": 3,
-  "total": 287,
-  "active_count": 287,
-  "archived_count": 390,
+  "total": 279,
+  "active_count": 279,
+  "archived_count": 403,
   "projects": [
     {
       "id": "fin-dash",
@@ -6935,7 +6935,8 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-07-09",
       "last_seen": "2026-07-09",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-31"
     },
     {
       "text": "Research implications of company bankruptcy in Spain affecting employees on maternity leave and report findings",
@@ -6951,7 +6952,8 @@
       "project_name": "Legal & Contracts",
       "first_seen": "2026-07-09",
       "last_seen": "2026-07-09",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-31"
     },
     {
       "text": "Provide detailed cost breakdowns for Spanish employees including taxes and severance to assist layoff decision-making",
@@ -6967,7 +6969,8 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-07-09",
       "last_seen": "2026-07-09",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-31"
     },
     {
       "text": "Assist Ella in legal consultations with Federico (accountant) on severance and employment law as required",
@@ -6983,7 +6986,8 @@
       "project_name": "Legal & Contracts",
       "first_seen": "2026-07-09",
       "last_seen": "2026-07-09",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-31"
     },
     {
       "text": "Align with Martin on Sales Navigator access for directors, then get back to Tijana Lazovic - she asked for access; Blake said Tribe has no Sales Navigator licenses so she must buy it herself (company card + invoice) but committed to align with Martin since Martin directed her to Blake and 'all directors will need it'",
@@ -7000,7 +7004,8 @@
       "project_name": "LinkedIn license management",
       "first_seen": "2026-07-09",
       "last_seen": "2026-07-09",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-31"
     },
     {
       "text": "Fix the failing 'Intercompany Invoice Generator' n8n workflow - alert on 03 Jul reports 'No source file found to copy from - only the current month sheet exists in the folder' (line 7)",
@@ -7069,7 +7074,8 @@
       "project_name": "Tribebot",
       "first_seen": "2026-07-09",
       "last_seen": "2026-07-10",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-31"
     },
     {
       "text": "Fix the failing 'Revolut Draft Payments' n8n workflow - error \"(inv.json.Invoice Number || \\\"\\\").trim is not a function\" at line 106 (failed 09 Jul)",
@@ -7086,7 +7092,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-09",
       "last_seen": "2026-07-10",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-31"
     },
     {
       "text": "Investigate the failing 'Tribe Dashboard - Revenue Per Tribster Export' n8n workflow - 'Service unavailable' at the 'Read Revenue Per Tribster Sheet' node (failed 09 Jul); add retry if transient",
@@ -7103,7 +7110,8 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-07-09",
       "last_seen": "2026-07-10",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-31"
     },
     {
       "text": "Set up the ground rules for rolling out the new generic pipeline stage taxonomy (Recruiter Screen -> Move to ATS -> Interview 1/2/3 -> Offer -> Hired) that Blake and Jacopo aligned on with Mikhail - define when candidates move between stages and ensure WBR/MBR data and OKRs stay intact",
@@ -7120,7 +7128,8 @@
       "project_name": "WBR / MBR",
       "first_seen": "2026-07-09",
       "last_seen": "2026-07-10",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-31"
     },
     {
       "text": "Assign a LinkedIn Recruiter (LIR) license to Eduardo Moral for IR sourcing - Sanja confirmed Edu is sourcing for one of the sprints alongside Mariam, Chantal and her",
@@ -7137,7 +7146,8 @@
       "project_name": "LinkedIn license management",
       "first_seen": "2026-07-09",
       "last_seen": "2026-07-10",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-31"
     },
     {
       "text": "Follow up on LinkedIn's response to the account-sharing flags on Sanja's account (flagged twice in 6 days, risk of 30-day suspension) - Blake replied to LinkedIn disputing the flags; monitor and ensure the IR team stops sharing accounts",
@@ -7154,7 +7164,8 @@
       "project_name": "LinkedIn license management",
       "first_seen": "2026-07-09",
       "last_seen": "2026-07-10",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-31"
     },
     {
       "text": "Promote attendance and active participation in the AI Live sessions next Wednesday (encourage camera use and engagement)",
@@ -7272,7 +7283,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-09",
       "last_seen": "2026-07-13",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-31"
     },
     {
       "text": "Follow up with Kathleen for a PDF version of her invoice (she sent it in Word) and release her payment once received - it is being held only for the format, not the Deliveroo/buyout issue",
@@ -7459,7 +7471,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-09",
       "last_seen": "2026-07-13",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-07-31"
     },
     {
       "text": "Decide the submission timing/workflow for the 'Your Roles Weekly' sourcer updates before rolling it out to all sourcers - Valeria and Andrea did not submit; Valeria says the update structure isn't useful when covering for another sourcer and blockers get raised with TAs directly",
@@ -9394,16 +9407,16 @@
       "project": "people-ops",
       "source": "gmail/19f943180894606d",
       "source_type": "gmail",
-      "date": "2026-07-24",
+      "date": "2026-07-27",
       "confidence": "medium",
       "extras": {
-        "subject": "Tribe_Job_Taxonomy_v1 (Google Sheet comments)",
-        "from": "Jovana Drakula (comments-noreply@docs.google.com)"
+        "subject": "Tribe_Job_Taxonomy_v1",
+        "from": "comments-noreply@docs.google.com (Wladyslaw Gadomski)"
       },
       "id": "gmail/19f943180894606d",
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-07-24",
-      "last_seen": "2026-07-24",
+      "last_seen": "2026-07-31",
       "status": "open"
     },
     {
@@ -11647,6 +11660,88 @@
       "project_name": "LinkedIn license management",
       "first_seen": "2026-07-30",
       "last_seen": "2026-07-30",
+      "status": "open"
+    },
+    {
+      "text": "Finalize and send the Voize contract draft (Mariam Chkhikvadze, 9k/mo, Aug 5 start) first thing tomorrow morning",
+      "project": "legal",
+      "source": "slack/D059MAFUJR0/1785427050.352989",
+      "source_type": "slack",
+      "date": "2026-07-30",
+      "confidence": "high",
+      "extras": {
+        "channel": "D059MAFUJR0",
+        "from": "Kristjana Thorarinsdottir"
+      },
+      "id": "slack/D059MAFUJR0/1785427050.352989",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-31",
+      "status": "open"
+    },
+    {
+      "text": "Reach out directly to the Estonian lawyer to move the Estonia entity setup forward now that Martin gave the go-ahead",
+      "project": "inbox",
+      "source": "slack/D055NJ27YRY/1785329184.942519",
+      "source_type": "slack",
+      "date": "2026-07-29",
+      "confidence": "medium",
+      "extras": {
+        "channel": "D055NJ27YRY",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/D055NJ27YRY/1785329184.942519",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-31",
+      "status": "open"
+    },
+    {
+      "text": "Investigate and fix the failing 'Check Personal Email Bot' n8n workflow (three consecutive failures)",
+      "project": "infra",
+      "source": "cowork/local_cbf637a2-032b-44d5-9122-37b1f357dac2",
+      "source_type": "cowork",
+      "date": "2026-07-30",
+      "confidence": "high",
+      "extras": {
+        "session": "Daily pulse eod"
+      },
+      "id": "cowork/local_cbf637a2-032b-44d5-9122-37b1f357dac2/investigateandfixthefailingcheckpersonal",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-31",
+      "status": "open"
+    },
+    {
+      "text": "Raise the daily-pulse Cowork session-list scan limit past 30 so the morning scan covers the full 24h window",
+      "project": "infra",
+      "source": "cowork/local_cdc4712f-b981-41b0-b383-bcffceec08b4",
+      "source_type": "cowork",
+      "date": "2026-07-29",
+      "confidence": "medium",
+      "extras": {
+        "session": "Daily pulse morning"
+      },
+      "id": "cowork/local_cdc4712f-b981-41b0-b383-bcffceec08b4/raisethedailypulsecoworksessionlistscanl",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-31",
+      "status": "open"
+    },
+    {
+      "text": "Apply the $HOME-clone /tmp permission fix to daily-pulse eod/morning scheduled task scripts (same bug found in claude-backups-daily)",
+      "project": "infra",
+      "source": "cowork/local_22ffa77b-6390-44e2-b1c8-7284b7834055",
+      "source_type": "cowork",
+      "date": "2026-07-30",
+      "confidence": "medium",
+      "extras": {
+        "session": "Daily pulse eod"
+      },
+      "id": "cowork/local_22ffa77b-6390-44e2-b1c8-7284b7834055/applythehomeclonetmppermissionfixtodaily",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-31",
       "status": "open"
     }
   ]
