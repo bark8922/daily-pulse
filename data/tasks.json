@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-07-31",
   "schema_version": 3,
-  "total": 279,
-  "active_count": 279,
+  "total": 296,
+  "active_count": 296,
   "archived_count": 403,
   "projects": [
     {
@@ -11741,6 +11741,290 @@
       "id": "cowork/local_22ffa77b-6390-44e2-b1c8-7284b7834055/applythehomeclonetmppermissionfixtodaily",
       "project_name": "Infra & Automation",
       "first_seen": "2026-07-30",
+      "last_seen": "2026-07-31",
+      "status": "open"
+    },
+    {
+      "text": "Process the card expense Andrea Darabasic sent for Ella (Receipt-2799-3124-7443.pdf + Invoice-DAD0F6DB-0010.pdf, cc accounting@) - book/reconcile it against the company card",
+      "project": "expense-ops",
+      "source": "gmail/19fb74f40cafd704",
+      "source_type": "gmail",
+      "date": "2026-07-31",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Card Ella",
+        "from": "andreadarabasic@tribe.xyz"
+      },
+      "id": "gmail/19fb74f40cafd704",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "status": "open"
+    },
+    {
+      "text": "Investigate the Google Workspace suspicious login alert for henry@tribe.xyz (attempted login IP 193.32.248.197 on Jul 30) in the Admin Alert Center and remediate if needed",
+      "project": "infra",
+      "source": "gmail/19fb457daea05afd",
+      "source_type": "gmail",
+      "date": "2026-07-30",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Alert: Suspicious login",
+        "from": "google-workspace-alerts-noreply@google.com"
+      },
+      "id": "gmail/19fb457daea05afd",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-07-31",
+      "status": "open"
+    },
+    {
+      "text": "Work through Heidi Nygjelten's open comments on the 'No Isolation_Tribe' agreement with Salem (fee per hire 5 vs 10, replacement/notice window 72h vs 48h, aggregate liability cap wording) and get the contract to a final version",
+      "project": "legal",
+      "source": "gmail/19fb82a993c17a5a",
+      "source_type": "gmail",
+      "date": "2026-07-31",
+      "confidence": "medium",
+      "extras": {
+        "subject": "No Isolation_Tribe",
+        "from": "comments-noreply@docs.google.com (Heidi Nygjelten)"
+      },
+      "id": "gmail/19fb82a993c17a5a",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "status": "open"
+    },
+    {
+      "text": "Clean up offboarded users from Tribe mailing lists/groups - emails are bouncing for meho@, gino@, marko@ and alexandraotilia@tribe.xyz, and resend anything they still need to personal addresses",
+      "project": "people-ops",
+      "source": "gmail/19fadaa64aa7a4c7",
+      "source_type": "gmail",
+      "date": "2026-07-29",
+      "confidence": "low",
+      "extras": {
+        "subject": "Delivery Status Notification (Failure)",
+        "from": "mailer-daemon@googlemail.com"
+      },
+      "id": "gmail/19fadaa64aa7a4c7",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-31",
+      "status": "open"
+    },
+    {
+      "text": "Find a temporary LinkedIn Recruiter seat for Wladyslaw Gadomski so he can source for the Mexican sprint - he asked whether there is a spare one to share (his own LIR seat was returned/removed after the 17.07 AVIV offboarding)",
+      "project": "linkedin",
+      "source": "slack/D05UN5JQWGH/1785324304.754269",
+      "source_type": "slack",
+      "date": "2026-07-29",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Wladyslaw Gadomski",
+        "from": "Wladyslaw Gadomski"
+      },
+      "id": "slack/D05UN5JQWGH/1785324304.754269",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-07-31",
+      "status": "open"
+    },
+    {
+      "text": "Give Rodrigo Gomes access to the sourcing data so he can pipe it into the all-in-one sourcing system the Sourcing Lab working group is building - Jovana Drakula and Dolores Palotas pointed him to Blake; decide what export or API access to grant",
+      "project": "ai-first-working-group",
+      "source": "slack/D059PSVF62G/1785498024.551549",
+      "source_type": "slack",
+      "date": "2026-07-31",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Rodrigo Gomes",
+        "from": "Rodrigo Gomes"
+      },
+      "id": "slack/D059PSVF62G/1785498024.551549",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "status": "open"
+    },
+    {
+      "text": "Add historical median base salary by role + country to the New Role Briefings - Eduardo Moral requested it in the #important_updates feedback thread since ~31% of candidates drop off due to salary in the example briefing",
+      "project": "ai-recruiting",
+      "source": "slack/CKWLY0TJ8/1785488739.073599",
+      "source_type": "slack",
+      "date": "2026-07-31",
+      "confidence": "high",
+      "extras": {
+        "channel": "#important_updates",
+        "from": "Eduardo Moral"
+      },
+      "id": "slack/CKWLY0TJ8/1785488739.073599",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "status": "open"
+    },
+    {
+      "text": "Send the No Isolation client contract for digital signature (Dropbox Sign, both parties) once Salem Mansuri gives the go-ahead - Blake accepted their redlines and added the start date; still pending Heidi's confirmation of the Monday start date and the physical billing address",
+      "project": "legal",
+      "source": "slack/D057XNFLHTR/1785508020.204379",
+      "source_type": "slack",
+      "date": "2026-07-31",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Salem Mansuri",
+        "from": "Salem Mansuri"
+      },
+      "id": "slack/D057XNFLHTR/1785508020.204379",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "status": "open"
+    },
+    {
+      "text": "Approve or deny Jacopo Lupo Ferrari's request to install the 'Tavi' Slack app on the TRIBE.XYZ workspace (Blake is workspace admin) - the app is already in use in #tavi-recruiting but cannot be invited into new role channels until it is installed workspace-wide",
+      "project": "infra",
+      "source": "slack/D0B94H3QU3G/1785498534.859039",
+      "source_type": "slack",
+      "date": "2026-07-31",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Slack (app approval)",
+        "from": "Jacopo Lupo Ferrari via Slack admin bot"
+      },
+      "id": "slack/D0B94H3QU3G/1785498534.859039",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "status": "open"
+    },
+    {
+      "text": "Decide the migration approach for the new job Category/Subcategory taxonomy with Mikhail Kuzmin - he cannot match new categories to old ones and proposes adding the new set and hiding the old one (history persists, new jobs get new categories). Confirm before he implements Tribe_Job_Taxonomy_v2 in Bubble",
+      "project": "rec-dash",
+      "source": "slack/D0577RU8WQ1/1785508415.958129",
+      "source_type": "slack",
+      "date": "2026-07-31",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Mikhail Kuzmin",
+        "from": "Mikhail Kuzmin"
+      },
+      "id": "slack/D0577RU8WQ1/1785508415.958129",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "status": "open"
+    },
+    {
+      "text": "Reflect the Parloa extensions in invoicing/accounting - Martin posted in #accounting-and-invoicing that Chantal Bozkurt, Filip and Gustavo Loureiro Castro are all extended until the end of September",
+      "project": "expense-ops",
+      "source": "slack/C04FPRVF5L5/1785227085.275179",
+      "source_type": "slack",
+      "date": "2026-07-28",
+      "confidence": "medium",
+      "extras": {
+        "channel": "#accounting-and-invoicing",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/C04FPRVF5L5/1785227085.275179",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-31",
+      "status": "open"
+    },
+    {
+      "text": "Make sure the performance-review bonuses for Aleksandra Vistac and Nikki get invoiced in September - Andrea Darabasic confirmed both are approved and already added in BambooHR",
+      "project": "expense-ops",
+      "source": "slack/D071AKJ9YG2/1785488507.930839",
+      "source_type": "slack",
+      "date": "2026-07-31",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Andrea Darabasic",
+        "from": "Andrea Darabasic"
+      },
+      "id": "slack/D071AKJ9YG2/1785488507.930839",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "status": "open"
+    },
+    {
+      "text": "Give Claude the real Q2 story (a time Blake helped someone understand or troubleshoot an AI tool or automation) and send the finished four written answers back to Isabel Herrera at Mayerfeld Consulting - the reply is due within five days and only Q1 is currently locked",
+      "project": "inbox",
+      "source": "cowork/local_266d0853-e155-4a12-97d6-e8b5d8b15731",
+      "source_type": "cowork",
+      "date": "2026-07-31",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Mayerfield Consulting recruitment questions"
+      },
+      "id": "cowork/local_266d0853-e155-4a12-97d6-e8b5d8b15731/giveclaudetherealq2storyatimeblakehelped",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "status": "open"
+    },
+    {
+      "text": "Act on the two best live job-search matches that dedupe keeps holding back: Usercentrics Chief of Staff to the CTPO (84, Prague hybrid) and thetalo.co Chief Operations Manager (79, EEA-remote) - for thetalo also confirm the real employer behind the agency requisition code and whether 'share in the value' means equity on top of salary",
+      "project": "inbox",
+      "source": "cowork/local_35414809-cc4a-4d4b-a008-1f48bf0ce06c",
+      "source_type": "cowork",
+      "date": "2026-07-31",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Job search daily"
+      },
+      "id": "cowork/local_35414809-cc4a-4d4b-a008-1f48bf0ce06c/actonthetwobestlivejobsearchmatchesthatd",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "status": "open"
+    },
+    {
+      "text": "Sign back in to Cloudflare Access for job-research.tribe-bamboohr.workers.dev - the expired session blocks the daily job-search run's live-URL layout verification, so only build-side checks are running",
+      "project": "infra",
+      "source": "cowork/local_35414809-cc4a-4d4b-a008-1f48bf0ce06c",
+      "source_type": "cowork",
+      "date": "2026-07-31",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Job search daily"
+      },
+      "id": "cowork/local_35414809-cc4a-4d4b-a008-1f48bf0ce06c/signbackintocloudflareaccessforjobresear",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "status": "open"
+    },
+    {
+      "text": "Bake the recruiting-dashboard backup task's clone workarounds into its task file: run the git clone backgrounded with nohup plus polling (the shell caps timeout_ms at 45s) and replace the pgrep -f \"git clone\" liveness check with pgrep -x git or a sentinel file, since it false-positives on its own polling command",
+      "project": "infra",
+      "source": "cowork/local_8bff497c-48bc-4243-8834-8d077eacd004",
+      "source_type": "cowork",
+      "date": "2026-07-31",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Backup recruiting dashboard folder"
+      },
+      "id": "cowork/local_8bff497c-48bc-4243-8834-8d077eacd004/baketherecruitingdashboardbackuptasksclo",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-07-31",
+      "status": "open"
+    },
+    {
+      "text": "Decide what to do about July 2026 being the first negative month in the fin-dash series (-4.8% margin, -EUR 11,837; revenue 341K to 307K to 249K while headcount fell 66 to 55): confirm it is incomplete month-end invoicing plus the real headcount decline, and add a profit-sign or margin-trend assertion to watchdog_check.py, which today has no check that would ever fire on this",
+      "project": "fin-dash",
+      "source": "cowork/local_207057ed-55ac-4e30-997d-afc4338cc03b",
+      "source_type": "cowork",
+      "date": "2026-07-31",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Tribe dashboard watchdog"
+      },
+      "id": "cowork/local_207057ed-55ac-4e30-997d-afc4338cc03b/decidewhattodoaboutjuly2026beingthefirst",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-07-31",
       "last_seen": "2026-07-31",
       "status": "open"
     }
