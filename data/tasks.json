@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-31",
+  "generated_at": "2026-08-03",
   "schema_version": 3,
-  "total": 296,
-  "active_count": 296,
-  "archived_count": 403,
+  "total": 292,
+  "active_count": 292,
+  "archived_count": 414,
   "projects": [
     {
       "id": "fin-dash",
@@ -7181,7 +7181,8 @@
       "project_name": "AI First Working Group",
       "first_seen": "2026-07-10",
       "last_seen": "2026-07-13",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-03"
     },
     {
       "text": "Resolve Eva Huclova's objection on the Salem Mansuri travel expense recharge (she says a Spanish-payroll employee's travel can't be reimbursed by Tribe CZ) and get Natalie to renumber the Abra invoice so it can be sent to the Spanish accountants",
@@ -7198,7 +7199,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-10",
       "last_seen": "2026-07-13",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-03"
     },
     {
       "text": "Process the fuel/benzin receipt Martin sent (photo attached, cc'd to Boris Gnoth's office) - book it as a company expense",
@@ -7215,7 +7217,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-12",
       "last_seen": "2026-07-29",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-03"
     },
     {
       "text": "Investigate why Glovo appears in Valeria Yurykova's client list on the sourcing dashboard (she does not source for Glovo and the expand button shows no positions) - Blake said 'I'll have a look'",
@@ -7232,7 +7235,8 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-07-10",
       "last_seen": "2026-07-13",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-03"
     },
     {
       "text": "Fix the failing 'WBR Google Sheet Sync' n8n workflow - 'Bad gateway' error at the 'Push TA Weekly Note' node (failed 13 Jul 09:00)",
@@ -7266,7 +7270,8 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-07-12",
       "last_seen": "2026-07-13",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-03"
     },
     {
       "text": "Resolve the Payment Reconciliation Check exceptions from 09 Jul: 5 missing payments (Martin Bernard, Anastasija Dugalic, Tijana Lazovic, Damla Kocek, Nemanja Erdevicki - all Tribe CZ) and 8 people not found in Revolut (Kristina Colovic, Erzana Maliqi, Dora Vrbanic, Maria Gerbore, Salem Mansuri, Eduardo Moral Casimiro, Rossella Petrillo, Alexandra Richiteanu)",
@@ -7301,7 +7306,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-10",
       "last_seen": "2026-07-13",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-03"
     },
     {
       "text": "Fix the fin-dash refresh so it re-commits active_employees.json from BambooHR each run - the committed file is ~7 weeks stale (69 names, last real update 2026-05-22) vs 60 active in the live BambooHR directory; deployed bundle is currently unaffected but the refresh step (Step 5) is not writing the file back",
@@ -7436,7 +7442,8 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-07-10",
       "last_seen": "2026-07-13",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-03"
     },
     {
       "text": "Fix the stale revenue actuals source flagged by the watchdog: data/revenue/revenue_per_tribster.csv only has actuals through 12/2025 (~7 months stale, 07/2026 missing) - the revenue-CSV refresh step appears not to be running; also update the stale 'Talent Coordinators on Bench' marker string in pipeline/watchdog_check.py",
@@ -7754,7 +7761,8 @@
       "project_name": "LinkedIn license management",
       "first_seen": "2026-07-10",
       "last_seen": "2026-07-14",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-03"
     },
     {
       "text": "Fix the 'Refresh Circle data' GitHub Actions workflow in bark8922/tribe-circle - all jobs failed again on main (commit aed8f5b) on Jul 13",
@@ -7788,7 +7796,8 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-07-10",
       "last_seen": "2026-07-14",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-03"
     },
     {
       "text": "Fix the Onyx employee directory sync n8n workflow - the 13 Jul success message reports 'undefined employees uploaded as \"undefined\"', so the employee count/name variables are not resolving even though the run is reported as successful (silent data-quality failure).",
@@ -8175,7 +8184,8 @@
       "project_name": "Tribebot",
       "first_seen": "2026-07-10",
       "last_seen": "2026-07-16",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-03"
     },
     {
       "text": "Click 'Run now' once on the new interview-funnel usage-check scheduled task (Mon/Wed/Fri 9am) to pre-approve the Keboola connector permission before its first automated run",
@@ -8372,7 +8382,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-10",
       "last_seen": "2026-07-17",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-03"
     },
     {
       "text": "Approve Bove Montero's Spain 2Q 2026 VAT filings (Form 303 to be offset in future periods + informative Form 349) - Yujing Han awaiting Blake's approval for submission",
@@ -12026,6 +12037,124 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-07-31",
       "last_seen": "2026-07-31",
+      "status": "open"
+    },
+    {
+      "text": "Resolve Kristjana's open comments on the Filics_Tribe.xyz agreement - staff transfer/buy-out fee (EUR 60,000 vs 100% of salary during contract +24 months), whether the late-payment contractual interest clause should be mutual or removed (marked TBC), and the term/notice wording (no end date, scale up/down with 30 days notice) - then finalize the contract",
+      "project": "legal",
+      "source": "gmail/19fb90ea9e3d41a4",
+      "source_type": "gmail",
+      "date": "2026-07-31",
+      "confidence": "high",
+      "extras": {
+        "subject": "Filics_Tribe.xyz",
+        "from": "comments-noreply@docs.google.com (Kristjana Thorarinsdottir)"
+      },
+      "id": "gmail/19fb90ea9e3d41a4",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-08-03",
+      "status": "open"
+    },
+    {
+      "text": "Review the Google Workspace 'potential employee spoofing' alert for messages sent as Vladimir Stankovic <ext-vladimir.stankovic@aiven.io> and decide whether to block or quarantine the sender in the Admin Alert Center",
+      "project": "infra",
+      "source": "gmail/19fb2acfa24df718",
+      "source_type": "gmail",
+      "date": "2026-07-30",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Alert: Gmail potential employee spoofing from Vladimir Stankovic <ext-vladimir.stankovic@aiven.io>",
+        "from": "google-workspace-alerts-noreply@google.com"
+      },
+      "id": "gmail/19fb2acfa24df718",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-08-03",
+      "status": "open"
+    },
+    {
+      "text": "Set up invoicing for the new Filics placement: Wladyslaw Gadomski starts 24/08 at 7k + 2k per hire with no cap (contract has no end date, 30-day notice) - Kristjana posted it in #accounting-and-invoicing",
+      "project": "expense-ops",
+      "source": "slack/C04FPRVF5L5/1785517187.875109",
+      "source_type": "slack",
+      "date": "2026-07-31",
+      "confidence": "high",
+      "extras": {
+        "channel": "accounting-and-invoicing",
+        "from": "Kristjana Thorarinsdottir"
+      },
+      "id": "slack/C04FPRVF5L5/1785517187.875109",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-08-03",
+      "status": "open"
+    },
+    {
+      "text": "Set up invoicing for the No Isolation placement: Jelena Lacmanovic starts 03/08 at 7K + 2K per sourced hire capped at 9K - Salem posted it in #accounting-and-invoicing (Martin has since questioned the 9k cap in-thread)",
+      "project": "expense-ops",
+      "source": "slack/C04FPRVF5L5/1785515513.521299",
+      "source_type": "slack",
+      "date": "2026-07-31",
+      "confidence": "medium",
+      "extras": {
+        "channel": "accounting-and-invoicing",
+        "from": "Salem Mansuri"
+      },
+      "id": "slack/C04FPRVF5L5/1785515513.521299",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-08-03",
+      "status": "open"
+    },
+    {
+      "text": "Reflect Ejla Suljcic's Wolt end date (last day 30.09) in invoicing and offboarding planning - Kristjana posted it in #accounting-and-invoicing",
+      "project": "expense-ops",
+      "source": "slack/C04FPRVF5L5/1785410779.531549",
+      "source_type": "slack",
+      "date": "2026-07-30",
+      "confidence": "low",
+      "extras": {
+        "channel": "accounting-and-invoicing",
+        "from": "Kristjana Thorarinsdottir"
+      },
+      "id": "slack/C04FPRVF5L5/1785410779.531549",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-08-03",
+      "status": "open"
+    },
+    {
+      "text": "Add a profit-sign / margin-trend assertion to pipeline/watchdog_check.py - the 31 Jul watchdog run passed all 31 checks but flagged that July 2026 is the first negative-profit month (-EUR 11,837, margin -4.8%, down from +8.8% in June) and no existing check would ever alert on it",
+      "project": "fin-dash",
+      "source": "slack/test-n8n/1785503315.394749",
+      "source_type": "slack",
+      "date": "2026-07-31",
+      "confidence": "medium",
+      "extras": {
+        "channel": "test-n8n",
+        "from": "Blake Barkley (dashboard watchdog run)"
+      },
+      "id": "slack/test-n8n/1785503315.394749",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-08-03",
+      "status": "open"
+    },
+    {
+      "text": "Harden the job-search dedupe so a role reposted under a new LinkedIn job id stops slipping through - the GovAI pick reappeared as id 4446717926 at the same score 73 and the id-based ledger missed it (manually routed to Closest that run)",
+      "project": "infra",
+      "source": "cowork/local_4cdac049-9953-485f-999d-60522b7ba13f",
+      "source_type": "cowork",
+      "date": "2026-07-30",
+      "confidence": "medium",
+      "extras": {
+        "session": "Job search daily"
+      },
+      "id": "cowork/local_4cdac049-9953-485f-999d-60522b7ba13f/hardenthejobsearchdedupesoarolerepostedu",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-08-03",
       "status": "open"
     }
   ]
