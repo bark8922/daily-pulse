@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-08-03",
   "schema_version": 3,
-  "total": 292,
-  "active_count": 292,
+  "total": 296,
+  "active_count": 296,
   "archived_count": 414,
   "projects": [
     {
@@ -12040,7 +12040,7 @@
       "status": "open"
     },
     {
-      "text": "Resolve Kristjana's open comments on the Filics_Tribe.xyz agreement - staff transfer/buy-out fee (EUR 60,000 vs 100% of salary during contract +24 months), whether the late-payment contractual interest clause should be mutual or removed (marked TBC), and the term/notice wording (no end date, scale up/down with 30 days notice) - then finalize the contract",
+      "text": "Work through Kristjana Thorarinsdottir's open comments on the 'Filics_Tribe.xyz' client agreement and finalize the terms - staff transfer fee (EUR 60,000 / 6 months vs her proposed 100k = 100% of salary during contract +24 months), late-payment contractual interest (make it both ways or remove - marked TBC), and contract term (no end date, scale up/down with 30 days notice)",
       "project": "legal",
       "source": "gmail/19fb90ea9e3d41a4",
       "source_type": "gmail",
@@ -12152,6 +12152,72 @@
         "session": "Job search daily"
       },
       "id": "cowork/local_4cdac049-9953-485f-999d-60522b7ba13f/hardenthejobsearchdedupesoarolerepostedu",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-08-03",
+      "status": "open"
+    },
+    {
+      "text": "Fix the still-failing 'BambooHR - Monthly Employer True Cost' n8n workflow - 'Service unavailable' at the 'Fetch Full Employee Details' node, failed again 02 Aug 2026 08:00 (execution 44503). It was already flagged on 11/12 Jul, so the retry/backoff fix was never applied and it is now a persistent monthly-cost data gap.",
+      "project": "infra",
+      "source": "slack/D0AKAPA0X3J/1785650408.779779",
+      "source_type": "slack",
+      "date": "2026-08-02",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM - Blake Updates Bot",
+        "from": "Blake Updates Bot (n8n alert)"
+      },
+      "id": "slack/D0AKAPA0X3J/1785650408.779779",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-02",
+      "last_seen": "2026-08-03",
+      "status": "open"
+    },
+    {
+      "text": "Follow through on the new client contract Jacopo Lupo Ferrari requested (HubSpot record 440707530989) priced at 11k for a Senior TA and 10k for a Junior TA - Blake drafted and shared it on 30 Jul; confirm the pricing/roles are right and drive it to signature.",
+      "project": "legal",
+      "source": "slack/D056EG3QPLP/1785404640.000000",
+      "source_type": "slack",
+      "date": "2026-07-30",
+      "confidence": "low",
+      "extras": {
+        "channel": "DM - Jacopo Lupo Ferrari",
+        "from": "Jacopo Lupo Ferrari"
+      },
+      "id": "slack/D056EG3QPLP/1785404640.000000",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-08-03",
+      "status": "open"
+    },
+    {
+      "text": "Fix the daily-pulse Slack scanner dedupe rule that skips sub-items when the parent message ts is already tracked - it is dropping real actions nested inside the Post-Meeting Intelligence Briefs (Estonia exit tax, Erik scoping email, Revolut entity question)",
+      "project": "infra",
+      "source": "cowork/local_c7477894-8c1c-4b57-929b-5982beef7743",
+      "source_type": "cowork",
+      "date": "2026-07-31",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Daily pulse eod"
+      },
+      "id": "cowork/local_c7477894-8c1c-4b57-929b-5982beef7743/fixthedailypulseslackscannerdeduperuleth",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-08-03",
+      "status": "open"
+    },
+    {
+      "text": "Harden the job-search dashboard dedupe beyond LinkedIn job id - the GovAI role reposted under a new id (4446717926) slipped the id-based ledger and resurfaced as a fresh match; match on title + company as well",
+      "project": "infra",
+      "source": "cowork/local_4cdac049-9953-485f-999d-60522b7ba13f",
+      "source_type": "cowork",
+      "date": "2026-07-30",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Job search daily"
+      },
+      "id": "cowork/local_4cdac049-9953-485f-999d-60522b7ba13f/hardenthejobsearchdashboarddedupebeyondl",
       "project_name": "Infra & Automation",
       "first_seen": "2026-07-30",
       "last_seen": "2026-08-03",
