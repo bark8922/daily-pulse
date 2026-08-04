@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-08-04",
   "schema_version": 3,
-  "total": 307,
-  "active_count": 307,
+  "total": 332,
+  "active_count": 332,
   "archived_count": 440,
   "projects": [
     {
@@ -12858,6 +12858,417 @@
       "id": "cowork/local_0f61314b-1448-40cd-950b-08927c707b61/fixdailypulsemergepysosemanticdeduprunso",
       "project_name": "Infra & Automation",
       "first_seen": "2026-08-03",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Diagnose why the finance dashboard numbers Martin flagged are off and correct the underlying data",
+      "project": "fin-dash",
+      "source": "fireflies/01KZ6FGYXX45VVR51D2N2FM6JP",
+      "source_type": "fireflies",
+      "date": "2026-08-04",
+      "confidence": "high",
+      "extras": {
+        "meeting": "People Operations - Tribe Team"
+      },
+      "id": "fireflies/01KZ6FGYXX45VVR51D2N2FM6JP/diagnosewhythefinancedashboardnumbersmar",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Chase Bove Montero (Miguel Chavez / dortera@ / aparsa@) to get the Spain July 2026 payroll processed - Federico Fernandez is out of office until Aug 10 and Blake has asked twice for it to be reassigned",
+      "project": "people-ops",
+      "source": "gmail/19f26e688d63efd7",
+      "source_type": "gmail",
+      "date": "2026-08-04",
+      "confidence": "high",
+      "extras": {
+        "subject": "Re: Payroll - July 2026",
+        "from": "fcfernandez@bovemontero.com / mchavez@bovemontero.com"
+      },
+      "id": "gmail/19f26e688d63efd7",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Review the engagement file Ella is sending (password-protected folder) and decide the best hosting approach for it, likely GitHub - action item from the Aug 4 1:1 with Ella",
+      "project": "people-ops",
+      "source": "gmail/19fcc6f600254860",
+      "source_type": "gmail",
+      "date": "2026-08-04",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Your recent 1:1 with Ella",
+        "from": "notifications@mg.latticehq.com"
+      },
+      "id": "gmail/19fcc6f600254860",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Download and process the finalized WeWork DRN invoice and apply the accompanying WeWork credit note against outstanding balances",
+      "project": "expense-ops",
+      "source": "gmail/19fba5195f376d59",
+      "source_type": "gmail",
+      "date": "2026-07-31",
+      "confidence": "low",
+      "extras": {
+        "subject": "Your WeWork invoice is available - DRN",
+        "from": "noreply@wework.com"
+      },
+      "id": "gmail/19fba5195f376d59",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Double-check the cashflow numbers for Martin Bernard - he thinks Tribe is carrying too much overhead (even with the whole bench placed, October is only ~2k profitable) and wants it discussed in the next 1:1",
+      "project": "fin-dash",
+      "source": "slack/D055NJ27YRY/1785848467.229389",
+      "source_type": "slack",
+      "date": "2026-08-04",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Martin Bernard",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/D055NJ27YRY/1785848467.229389",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Switch Calendly off at the end of this week - Lejla Silva agreed to wind down by Friday (she is on holiday after) and Salem Mansuri and Aleksandra Vistac are already moved to Google Calendar booking; confirm no other active users remain before cancelling",
+      "project": "expense-ops",
+      "source": "slack/D055Y2ELF9T/1785842865.922349",
+      "source_type": "slack",
+      "date": "2026-08-04",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Lejla Silva",
+        "from": "Lejla Silva"
+      },
+      "id": "slack/D055Y2ELF9T/1785842865.922349",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Update the Voize placement start date for Mariam Chkhikvadze from 05.08 to Thursday 06.08 in the contract and invoicing - Kristjana Thorarinsdottir tagged Blake and Andrea Darabasic in #accounting-and-invoicing",
+      "project": "expense-ops",
+      "source": "slack/C04FPRVF5L5/1785844334.682899",
+      "source_type": "slack",
+      "date": "2026-08-04",
+      "confidence": "high",
+      "extras": {
+        "channel": "#accounting-and-invoicing",
+        "from": "Kristjana Thorarinsdottir"
+      },
+      "id": "slack/C04FPRVF5L5/1785844334.682899",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Work through Nenad Skoko's Retail & Store Operations taxonomy feedback: move Store Team Lead under Store Management, rename 'Inventory / Stock' to 'Supply Chain / Inventory', resolve where Merchant / Menu Operations belongs, replace Head/Director/VP of Retail with Country Manager / Wolt Market GM, and answer his question on adding an 'Operations Management' category",
+      "project": "rec-dash",
+      "source": "slack/D05UGUJPZ97/1785844032.735939",
+      "source_type": "slack",
+      "date": "2026-08-04",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Nenad Skoko",
+        "from": "Nenad Skoko"
+      },
+      "id": "slack/D05UGUJPZ97/1785844032.735939",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Fix the failing 'Receipts Workflow' n8n workflow - task execution timed out after 60 seconds on 03 Aug 2026 18:01 (execution 44952); raise the timeout or split the batch",
+      "project": "expense-ops",
+      "source": "slack/D0AKAPA0X3J/1785772907.882519",
+      "source_type": "slack",
+      "date": "2026-08-03",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Blake Updates Bot",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1785772907.882519",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Brief Martin Bernard today on Tijana's exit feedback: she cited feeling unsupported by Jacopo Lupo Ferrari and senior leadership, and Martin's reluctance to tell Jacopo rests on a false premise since the Jacopo-Tijana friendship is already broken (Ella Darie says Jacopo is 'super pissed')",
+      "project": "people-ops",
+      "source": "slack/D0AKAPA0X3J/1785836008.492369",
+      "source_type": "slack",
+      "date": "2026-08-04",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Blake Updates Bot",
+        "from": "Blake Updates Bot (Blake / Ella 1:1 brief)"
+      },
+      "id": "slack/D0AKAPA0X3J/1785836008.492369",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Check in on Andrea Darabasic after her doctor's appointment (three days of muscle pain and headache after wisdom tooth complications) and, if she will be out, flag to Manuela Roza Darie and assess cover for her Culture of Belonging and L&D working groups",
+      "project": "people-ops",
+      "source": "slack/D0AKAPA0X3J/1785852212.571629",
+      "source_type": "slack",
+      "date": "2026-08-04",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Blake Updates Bot",
+        "from": "Blake Updates Bot (People Operations sync brief)"
+      },
+      "id": "slack/D0AKAPA0X3J/1785852212.571629",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Get visibility on the new sourcing tool Jacopo Lupo Ferrari said is being tested - confirm whether it runs through the Sourcing Lab working group, whether it is in Project Hub, and whether a spend decision is heading to Martin",
+      "project": "project-hub",
+      "source": "slack/D0AKAPA0X3J/1785750104.715389",
+      "source_type": "slack",
+      "date": "2026-08-03",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Blake Updates Bot",
+        "from": "Blake Updates Bot (MBR brief)"
+      },
+      "id": "slack/D0AKAPA0X3J/1785750104.715389",
+      "project_name": "Project Hub",
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Ship the hire-month guard in rebuild_v5.py (gate the return-from-leave branch on len(prior_recs) > 0) and redeploy - it kills all 70 false-positive 'On Leave' first-month rows while preserving the 8 genuine returns including Mladzic 2026-04",
+      "project": "fin-dash",
+      "source": "cowork/local_d82544d6-5b9b-49dc-95a8-774abc385301",
+      "source_type": "cowork",
+      "date": "2026-08-04",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Andrea and Caroline expenses"
+      },
+      "id": "cowork/local_d82544d6-5b9b-49dc-95a8-774abc385301/shipthehiremonthguardinrebuild_v5pygatet",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Close the fin-dash vs cashflow-sheet overhead gap: add the MB investment agreement (EUR 9,700/mo, EUR 116K/yr, currently invisible to the dashboard) and TravelPerk bookings into Actual Spend, and explain the residual constant 4,882 in Jan/Feb and the 6,500 one-off in May",
+      "project": "fin-dash",
+      "source": "cowork/local_6992f626-2e3d-49e3-8e29-232a0962a7ef",
+      "source_type": "cowork",
+      "date": "2026-08-04",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Cashflow overhead analysis"
+      },
+      "id": "cowork/local_6992f626-2e3d-49e3-8e29-232a0962a7ef/closethefindashvscashflowsheetoverheadga",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Resolve the team-trip double basis between the two finance systems - the cashflow sheet accrues Team Trip Budget at a flat EUR 10,000/mo while TravelPerk lands it as a EUR 33K February spike, so travel cannot be reconciled or added across them",
+      "project": "fin-dash",
+      "source": "cowork/local_6992f626-2e3d-49e3-8e29-232a0962a7ef",
+      "source_type": "cowork",
+      "date": "2026-08-04",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Cashflow overhead analysis"
+      },
+      "id": "cowork/local_6992f626-2e3d-49e3-8e29-232a0962a7ef/resolvetheteamtripdoublebasisbetweenthet",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Write the overhead memo for Martin off the unpacked 'Other' row: ~EUR 485K/yr of non-payroll, non-IT cost (Team Trip 120K, MB investment agreement 116K, consulting 67K, Other Services 60K), flagging which lines are decisions rather than obligations and what each is worth to October profit",
+      "project": "leadership",
+      "source": "cowork/local_6992f626-2e3d-49e3-8e29-232a0962a7ef",
+      "source_type": "cowork",
+      "date": "2026-08-04",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Cashflow overhead analysis"
+      },
+      "id": "cowork/local_6992f626-2e3d-49e3-8e29-232a0962a7ef/writetheoverheadmemoformartinofftheunpac",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Ask Martin for a separate slot before he travels on 13 Aug for the operations-role conversation, and bring a one-page proposal: scope covering the internal automation and data stack, what admin comes off Blake's plate, which decisions are his to make without checking, and when comp gets revisited",
+      "project": "leadership",
+      "source": "cowork/local_cfa7c23f-c5c6-4697-9198-20e6d6abad59",
+      "source_type": "cowork",
+      "date": "2026-08-04",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Martin meeting prep"
+      },
+      "id": "cowork/local_cfa7c23f-c5c6-4697-9198-20e6d6abad59/askmartinforaseparateslotbeforehetravels",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Replace the task-based delegation log with a decisions log (what came up, the position taken, what was pushed back on, what changed) - the task log is the evidence Martin used to conclude Blake makes no real calls, and most of Blake's pushback happens with lawyers and accountants where Martin has no visibility",
+      "project": "leadership",
+      "source": "cowork/local_cfa7c23f-c5c6-4697-9198-20e6d6abad59",
+      "source_type": "cowork",
+      "date": "2026-08-04",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Martin meeting prep"
+      },
+      "id": "cowork/local_cfa7c23f-c5c6-4697-9198-20e6d6abad59/replacethetaskbaseddelegationlogwithadec",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Check whether the Vista row saved in the Tribe Fin Overview cashflow model - it shows as an empty row despite being added low-balled at two people on 17 Jul, which makes the September forecast look worse than it should",
+      "project": "fin-dash",
+      "source": "cowork/local_cfa7c23f-c5c6-4697-9198-20e6d6abad59",
+      "source_type": "cowork",
+      "date": "2026-08-04",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Martin meeting prep"
+      },
+      "id": "cowork/local_cfa7c23f-c5c6-4697-9198-20e6d6abad59/checkwhetherthevistarowsavedinthetribefi",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Chase Bove Montero on the unprocessed July Spain payroll - Federico is OOO until 10 Aug and Miguel was pinged this morning with no resolution yet",
+      "project": "people-ops",
+      "source": "cowork/local_cfa7c23f-c5c6-4697-9198-20e6d6abad59",
+      "source_type": "cowork",
+      "date": "2026-08-04",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Martin meeting prep"
+      },
+      "id": "cowork/local_cfa7c23f-c5c6-4697-9198-20e6d6abad59/chasebovemonteroontheunprocessedjulyspai",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Verify Martin Bernard's CSSZ registration is correct (activity type 'S' as statutory officer from 1.1.2026, not standard employment) against BambooHR, and pass the two new identifiers - osobni ID 1443914296 and zamestnani ID 4003154302051 - to whoever runs payroll for future JMH filings",
+      "project": "people-ops",
+      "source": "cowork/local_470e3203-8703-44e7-beda-2066af2dccf9",
+      "source_type": "cowork",
+      "date": "2026-08-04",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Document review and actions"
+      },
+      "id": "cowork/local_470e3203-8703-44e7-beda-2066af2dccf9/verifymartinbernardscsszregistrationisco",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Push Revolut (Francesco) to pool the CZK 4M cross-currency allowance across Tribe CZ and Holding - the 14 Jun-13 Jul cycle used 3.6M combined against 4M paid for on two Scale plans and was billed anyway purely because the entities cannot share; note one CZK 1,210,000 transfer on 16 Jun (2 days after reset) caused the whole charge",
+      "project": "expense-ops",
+      "source": "cowork/local_53a173e3-a067-4b63-a054-3d3fc46a0c21",
+      "source_type": "cowork",
+      "date": "2026-08-04",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Revolut FX transaction analysis"
+      },
+      "id": "cowork/local_53a173e3-a067-4b63-a054-3d3fc46a0c21/pushrevolutfrancescotopooltheczk4mcrossc",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Move the Revolut production OAuth refresh tokens and JWT assertions out of plaintext node parameters in the six n8n Revolut workflows and into n8n credentials - anyone with read access to the instance can currently mint live banking tokens",
+      "project": "infra",
+      "source": "cowork/local_53a173e3-a067-4b63-a054-3d3fc46a0c21",
+      "source_type": "cowork",
+      "date": "2026-08-04",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Revolut FX transaction analysis"
+      },
+      "id": "cowork/local_53a173e3-a067-4b63-a054-3d3fc46a0c21/movetherevolutproductionoauthrefreshtoke",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Build the n8n workflow that tracks cumulative cross-currency volume per Revolut entity per billing cycle and alerts at 80% of allowance, so a badly timed transfer never triggers a fee again (API already wired up)",
+      "project": "infra",
+      "source": "cowork/local_53a173e3-a067-4b63-a054-3d3fc46a0c21",
+      "source_type": "cowork",
+      "date": "2026-08-04",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Revolut FX transaction analysis"
+      },
+      "id": "cowork/local_53a173e3-a067-4b63-a054-3d3fc46a0c21/buildthen8nworkflowthattrackscumulativec",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Point the fin-dash watchdog at the live data-next tree instead of the abandoned legacy data/ tree - revenue_per_tribster.csv (frozen 06-01), Bonus_Tribe.csv (05-19), Salary_History (05-22) and root leave_data.json are all passing checks on stale copies - and give the bundle-level current-month revenue guard the same early-month grace period the sibling CSV check already has",
+      "project": "fin-dash",
+      "source": "cowork/local_1b828e58-0ae3-45bb-89c1-56a70de7d77d",
+      "source_type": "cowork",
+      "date": "2026-08-04",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Tribe dashboard watchdog"
+      },
+      "id": "cowork/local_1b828e58-0ae3-45bb-89c1-56a70de7d77d/pointthefindashwatchdogatthelivedatanext",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-04",
       "last_seen": "2026-08-04",
       "status": "open"
     }
