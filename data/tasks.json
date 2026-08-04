@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-08-04",
   "schema_version": 3,
-  "total": 332,
-  "active_count": 332,
+  "total": 331,
+  "active_count": 331,
   "archived_count": 440,
   "projects": [
     {
@@ -13172,22 +13172,6 @@
       },
       "id": "cowork/local_cfa7c23f-c5c6-4697-9198-20e6d6abad59/checkwhetherthevistarowsavedinthetribefi",
       "project_name": "Tribe Financial Dashboard",
-      "first_seen": "2026-08-04",
-      "last_seen": "2026-08-04",
-      "status": "open"
-    },
-    {
-      "text": "Chase Bove Montero on the unprocessed July Spain payroll - Federico is OOO until 10 Aug and Miguel was pinged this morning with no resolution yet",
-      "project": "people-ops",
-      "source": "cowork/local_cfa7c23f-c5c6-4697-9198-20e6d6abad59",
-      "source_type": "cowork",
-      "date": "2026-08-04",
-      "confidence": "medium",
-      "extras": {
-        "session_title": "Martin meeting prep"
-      },
-      "id": "cowork/local_cfa7c23f-c5c6-4697-9198-20e6d6abad59/chasebovemonteroontheunprocessedjulyspai",
-      "project_name": "People Ops / BambooHR",
       "first_seen": "2026-08-04",
       "last_seen": "2026-08-04",
       "status": "open"
