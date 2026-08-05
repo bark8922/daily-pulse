@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-04",
+  "generated_at": "2026-08-05",
   "schema_version": 3,
-  "total": 331,
-  "active_count": 331,
-  "archived_count": 440,
+  "total": 341,
+  "active_count": 341,
+  "archived_count": 445,
   "projects": [
     {
       "id": "fin-dash",
@@ -7732,7 +7732,8 @@
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-07-14",
       "last_seen": "2026-07-14",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-05"
     },
     {
       "text": "Send quarterly payment information to Martin when it becomes available to keep him informed about pending payments",
@@ -7854,7 +7855,8 @@
       "project_name": "Project Hub",
       "first_seen": "2026-07-14",
       "last_seen": "2026-07-14",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-05"
     },
     {
       "text": "Open the 'Dance Yourself Fit' role (score 93 gold standard) directly to confirm whether it closed or just aged out of the 7-day LinkedIn search window - it no longer surfaces in the daily job-search run",
@@ -7870,7 +7872,8 @@
       "project_name": "Needs sorting",
       "first_seen": "2026-07-14",
       "last_seen": "2026-07-14",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-05"
     },
     {
       "text": "Manually 'Run now' the job-search-daily scheduled task while watching and approve the tool-permission prompts, so tomorrow's 10:06 Prague run does not silently stall on a permission dialog (prompt was rewritten today; approvals are stored per-task)",
@@ -7886,7 +7889,8 @@
       "project_name": "LinkedIn license management",
       "first_seen": "2026-07-14",
       "last_seen": "2026-07-15",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-05"
     },
     {
       "text": "Reach out to team leads and identify suitable Slack channels for Tribot knowledge base testing to pilot integration as a data source",
@@ -8580,7 +8584,8 @@
       "project_name": "Roundup & Intake (AI recruiting tools)",
       "first_seen": "2026-07-14",
       "last_seen": "2026-07-17",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-05"
     },
     {
       "text": "Build the new-role briefing bot for Roles Roundup: auto-ping the TA when a new role opens with relevant data and a strong starting brief (publicly announced at the Jul 17 Friday meeting as coming in the next few weeks - step two after the weekly updates go-live)",
@@ -13254,6 +13259,256 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-08-04",
       "last_seen": "2026-08-04",
+      "status": "open"
+    },
+    {
+      "text": "Investigate Moonshot AI billing and confirm subscription status, then tell the accountant the charges are minimal/one-off so records are accurate",
+      "project": "expense-ops",
+      "source": "fireflies/01KZ6JZ37V0DTXPGBQ3TZKBW5R",
+      "source_type": "fireflies",
+      "date": "2026-08-04",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KZ6JZ37V0DTXPGBQ3TZKBW5R/investigatemoonshotaibillingandconfirmsu",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-05",
+      "status": "open"
+    },
+    {
+      "text": "Build a hires tracking dashboard integrated with finance data so contract-tied revenue recognition is accurate and replaces manual spreadsheets",
+      "project": "fin-dash",
+      "source": "fireflies/01KZ6JZ37V0DTXPGBQ3TZKBW5R",
+      "source_type": "fireflies",
+      "date": "2026-08-04",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KZ6JZ37V0DTXPGBQ3TZKBW5R/buildahirestrackingdashboardintegratedwi",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-05",
+      "status": "open"
+    },
+    {
+      "text": "Be more assertive in leadership meetings by pushing back on directors and stakeholders, and get ongoing feedback from Ella on leadership presence",
+      "project": "leadership",
+      "source": "fireflies/01KZ6JZ37V0DTXPGBQ3TZKBW5R",
+      "source_type": "fireflies",
+      "date": "2026-08-04",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KZ6JZ37V0DTXPGBQ3TZKBW5R/bemoreassertiveinleadershipmeetingsbypus",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-05",
+      "status": "open"
+    },
+    {
+      "text": "Invoice outstanding payments to improve short-term cash flow ahead of upcoming tax payments",
+      "project": "expense-ops",
+      "source": "fireflies/01KZ6JZ37V0DTXPGBQ3TZKBW5R",
+      "source_type": "fireflies",
+      "date": "2026-08-04",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KZ6JZ37V0DTXPGBQ3TZKBW5R/invoiceoutstandingpaymentstoimproveshort",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-05",
+      "status": "open"
+    },
+    {
+      "text": "Clarify with accountant Boris and the lawyers whether Estonia-to-Tribe Holding dividend distributions can be structured to minimize the 22% distribution tax, and report back to Martin",
+      "project": "legal",
+      "source": "fireflies/01KZ6JZ37V0DTXPGBQ3TZKBW5R",
+      "source_type": "fireflies",
+      "date": "2026-08-04",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KZ6JZ37V0DTXPGBQ3TZKBW5R/clarifywithaccountantborisandthelawyersw",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-05",
+      "status": "open"
+    },
+    {
+      "text": "Confirm who still uses Calendly and shut it down / drop the cost (Martin asked; Lejla is the only real wind-down case, agreed end of week)",
+      "project": "infra",
+      "source": "slack/D055NJ27YRY/1785840571.424199",
+      "source_type": "slack",
+      "date": "2026-08-04",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Martin Bernard",
+        "from": "Martin Bernard",
+        "permalink": "https://tribexyz.slack.com/archives/D055NJ27YRY/p1785840571424199"
+      },
+      "id": "slack/D055NJ27YRY/1785840571.424199",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-05",
+      "status": "open"
+    },
+    {
+      "text": "Amend the Filics contract per Kristjana: 4.5 late-payment interest, 6.1 no end date with 30 days notice, 8.2 mutual non-solicit at 100% of hire salary during contract + 24 months after",
+      "project": "legal",
+      "source": "slack/D059MAFUJR0/1785831571.964829",
+      "source_type": "slack",
+      "date": "2026-08-04",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Kristjana Thorarinsdottir",
+        "from": "Kristjana Thorarinsdottir",
+        "permalink": "https://tribexyz.slack.com/archives/D059MAFUJR0/p1785831571964829"
+      },
+      "id": "slack/D059MAFUJR0/1785831571.964829",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-05",
+      "status": "open"
+    },
+    {
+      "text": "Revoke the GitHub personal access token shared in chat and rework the engagement-dashboard publish flow (Tribe org repo, token out of chat, verify the login gate) before removing StatiCrypt",
+      "project": "infra",
+      "source": "slack/D05Q6UWSV8E/1785830412.766219",
+      "source_type": "slack",
+      "date": "2026-08-04",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Ella Darie",
+        "from": "Ella Darie",
+        "permalink": "https://tribexyz.slack.com/archives/D05Q6UWSV8E/p1785830412766219"
+      },
+      "id": "slack/D05Q6UWSV8E/1785830412.766219",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-05",
+      "status": "open"
+    },
+    {
+      "text": "Decide on Nenad's proposal to have every TA spend ~30 minutes re-categorising their own roles against the new job taxonomy and feed back gaps",
+      "project": "rec-dash",
+      "source": "slack/D05UGUJPZ97/1785855418.246329",
+      "source_type": "slack",
+      "date": "2026-08-04",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Nenad Skoko",
+        "from": "Nenad Skoko",
+        "permalink": "https://tribexyz.slack.com/archives/D05UGUJPZ97/p1785855418246329"
+      },
+      "id": "slack/D05UGUJPZ97/1785855418.246329",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-05",
+      "status": "open"
+    },
+    {
+      "text": "Review/approve the LinkedIn post draft dated Thu 6 Aug (automations built for others going unused)",
+      "project": "linkedin",
+      "source": "slack/D0557S3HSDD/1785759862.241869",
+      "source_type": "slack",
+      "date": "2026-08-03",
+      "confidence": "medium",
+      "extras": {
+        "channel": "Self-DM (Claude ghostwriter)",
+        "from": "Claude / Blake Barkley",
+        "permalink": "https://tribexyz.slack.com/archives/D0557S3HSDD/p1785759862241869"
+      },
+      "id": "slack/D0557S3HSDD/1785759862.241869",
+      "project_name": "LinkedIn license management",
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-05",
+      "status": "open"
+    },
+    {
+      "text": "Get ahead of leadership on the July engagement numbers now that Ella's dashboard push is live - eNPS 53 to 40, Clients 86 to 67, Wellbeing 86 to 71, NPS RecOps 100 to 0, Wolt eNPS 0 to -25, with critics citing job insecurity, downsizing and Wolt leaving. Better to frame it than let them find it in the iframe.",
+      "project": "team-cohesion",
+      "source": "cowork/local_a8fe085b-43fe-4b56-a882-4800d1d6417b",
+      "source_type": "cowork",
+      "date": "2026-08-04",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Tribe engagement dashboard deployment"
+      },
+      "id": "cowork/local_a8fe085b-43fe-4b56-a882-4800d1d6417b/getaheadofleadershiponthejulyengagementn",
+      "project_name": "Team cohesion",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-05",
+      "status": "open"
+    },
+    {
+      "text": "Set up a staleness check on the engagement dashboard that pings Blake only when the live page is out of date - the first unattended run is the first Monday of September and nothing currently detects a silent failure. Sits on Blake's side, no change to Ella's setup.",
+      "project": "team-cohesion",
+      "source": "cowork/local_a8fe085b-43fe-4b56-a882-4800d1d6417b",
+      "source_type": "cowork",
+      "date": "2026-08-04",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Tribe engagement dashboard deployment"
+      },
+      "id": "cowork/local_a8fe085b-43fe-4b56-a882-4800d1d6417b/setupastalenesscheckontheengagementdashb",
+      "project_name": "Team cohesion",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-05",
+      "status": "open"
+    },
+    {
+      "text": "Fix Vladimir Stankovic's screen-logging behaviour - all 114 of his screens are dated Fridays across 9 consecutive weeks because he batch-enters from memory, which is the real cause of the 46-vs-64 gap (roughly 29% loss rate). Get him logging same-day like every other recruiter and using the transcriber properly, which currently covers only 6 of his 46 screens.",
+      "project": "rec-dash",
+      "source": "cowork/local_317f3a9c-254c-4f77-9e96-baac1111795e",
+      "source_type": "cowork",
+      "date": "2026-08-03",
+      "confidence": "high",
+      "extras": {
+        "session_title": "R. Dashboard discrepancy investigation"
+      },
+      "id": "cowork/local_317f3a9c-254c-4f77-9e96-baac1111795e/fixvladimirstankovicsscreenloggingbehavi",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-05",
+      "status": "open"
+    },
+    {
+      "text": "Decide whether to kick off the interview-funnel dashboard and aggregation phase now or wait a week or two - candidate_stage_rungs is refreshing reliably (1,211 candidates, 28 jobs) and real movement has started at Interview 1: 9, Interview 2: 6, Interview 3: 4, but counts are still single digits and too small to trust as conversion rates.",
+      "project": "rec-dash",
+      "source": "cowork/local_89e12d9a-7afe-463f-bd7e-dc5d343a365b",
+      "source_type": "cowork",
+      "date": "2026-08-04",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Funnel stages data structure"
+      },
+      "id": "cowork/local_89e12d9a-7afe-463f-bd7e-dc5d343a365b/decidewhethertokickofftheinterviewfunnel",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-05",
+      "status": "open"
+    },
+    {
+      "text": "Force the Estonia entity decision with Martin - get a yes or a defined condition for yes. The EUR 3,000 is one-off and trivial against the 399K Aug-Dec gap, and the strongest argument is contract timing: Voize, No Isolation, Filics, Reaktor and Pliant all just signed into Tribe CZ and will have to be novated later. Two items still open with Boris (CFC and Czech residency).",
+      "project": "legal",
+      "source": "cowork/local_cfa7c23f-c5c6-4697-9198-20e6d6abad59",
+      "source_type": "cowork",
+      "date": "2026-08-04",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Martin meeting prep"
+      },
+      "id": "cowork/local_cfa7c23f-c5c6-4697-9198-20e6d6abad59/forcetheestoniaentitydecisionwithmarting",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-05",
       "status": "open"
     }
   ]
