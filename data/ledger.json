@@ -22,12 +22,10 @@
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
       "status": "Active",
-      "tier": "Core",
       "live_tasks": 54,
       "last_touched": "2026-08-04",
       "current_state": "Job taxonomy rollout is the live front. Nenad and Mikhail both raised category conflicts on Aug 3-4 (Operations split across 3 categories, Workplace & Admin missing from mapping). Interview-funnel dashboard phase not kicked off yet.",
-      "waiting_on": "Decision on whether every TA re-categorises their own roles, plus resolution of the Operations / Other category overlap",
-      "waiting_on_who": "Nenad Skoko, Mikhail",
+      "waiting_on": "Nenad Skoko and Mikhail: a decision on whether every TA re-categorises their own roles, plus the Operations / Other category overlap",
       "next_action": "Reply to Nenad on how easily job categories can be changed and how TA feedback on bad fits gets collected",
       "aliases": [
         "circle",
@@ -39,20 +37,16 @@
         "recruiting",
         "clients"
       ],
-      "links": "https://bark8922.github.io/daily-pulse/",
-      "notion_page_id": "3b33de19-8f5e-812c-b803-f2ddc97ccc95",
-      "recent_sessions": []
+      "notion_page_id": "3b33de19-8f5e-812c-b803-f2ddc97ccc95"
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "status": "Active",
-      "tier": "Core",
       "live_tasks": 38,
       "last_touched": "2026-08-04",
       "current_state": "Two live security items from Aug 4: Revolut production OAuth tokens and JWT assertions sitting in plaintext n8n node parameters across six workflows, and a GitHub personal access token that was shared in chat and is still unrevoked.",
       "waiting_on": "Nothing external. This is Blake's own execution queue.",
-      "waiting_on_who": "",
       "next_action": "Revoke the exposed GitHub PAT and rework the engagement-dashboard publish flow to keep tokens out of chat",
       "aliases": [
         "n8n",
@@ -67,20 +61,16 @@
         "it-security",
         "security"
       ],
-      "links": "https://github.com/bark8922/daily-pulse",
-      "notion_page_id": "3b33de19-8f5e-8144-92aa-d250c7a2111f",
-      "recent_sessions": []
+      "notion_page_id": "3b33de19-8f5e-8144-92aa-d250c7a2111f"
     },
     {
       "id": "expense-ops",
       "name": "Expense Ops",
       "status": "Active",
-      "tier": "Core",
       "live_tasks": 39,
       "last_touched": "2026-08-04",
       "current_state": "Revolut cross-currency allowance is the pressure point: 3.6M of the CZK 4M cycle allowance used between 14 Jun and 13 Jul. Calendly wind-down agreed for Friday. August invoices renumbered and confirmed by Natalie.",
       "waiting_on": "Francesco at Revolut to pool the CZK 4M allowance across Tribe CZ and Tribe Holding",
-      "waiting_on_who": "Francesco (Revolut)",
       "next_action": "Issue the renumbered August invoices, then switch Calendly off Friday",
       "aliases": [
         "invoicing",
@@ -91,40 +81,32 @@
         "sales-hubspot",
         "hubspot"
       ],
-      "links": "",
-      "notion_page_id": "3b33de19-8f5e-81ec-8e6c-e549e4bc6cf7",
-      "recent_sessions": []
+      "notion_page_id": "3b33de19-8f5e-81ec-8e6c-e549e4bc6cf7"
     },
     {
       "id": "people-ops",
       "name": "People Ops / BambooHR",
       "status": "Blocked",
-      "tier": "Core",
       "live_tasks": 35,
       "last_touched": "2026-08-04",
       "current_state": "Spain July 2026 payroll is stuck at Bove Montero with Federico Fernandez out of office. Separately, Tijana's exit feedback (feeling unsupported by Jacopo and senior leadership) still needs briefing to Martin.",
-      "waiting_on": "Bove Montero to process Spain July 2026 payroll",
-      "waiting_on_who": "Miguel Chavez / Bove Montero",
+      "waiting_on": "Miguel Chavez at Bove Montero, to process Spain July 2026 payroll",
       "next_action": "Chase Bove Montero on Spain payroll, then brief Martin today on Tijana's exit feedback",
       "aliases": [
         "hr",
         "spain-payroll",
         "payroll"
       ],
-      "links": "",
-      "notion_page_id": "3b33de19-8f5e-81d3-bfe5-d5a3428bbc4b",
-      "recent_sessions": []
+      "notion_page_id": "3b33de19-8f5e-81d3-bfe5-d5a3428bbc4b"
     },
     {
       "id": "legal",
       "name": "Legal & Contracts",
       "status": "Active",
-      "tier": "Core",
       "live_tasks": 33,
       "last_touched": "2026-08-04",
       "current_state": "Three contracts moving at once: Voize redlines, Filics amendments (4.5 late-payment interest, 6.1 notice, 8.2 mutual non-solicit), and Jordy. Estonia entity has Martin's go-ahead but no lawyer contacted yet.",
       "waiting_on": "Martin to give a yes or a defined condition on the Estonia entity. Matthew Murdoch's open suggestions on the Voize agreement.",
-      "waiting_on_who": "Martin Bernard, Matthew Murdoch",
       "next_action": "Reply to Kristjana with red flags on the Voize redlines, then contact the Estonian lawyer directly",
       "aliases": [
         "contracts",
@@ -132,20 +114,16 @@
         "ndas",
         "estonia"
       ],
-      "links": "",
-      "notion_page_id": "3b33de19-8f5e-8198-a89b-fc4150a825be",
-      "recent_sessions": []
+      "notion_page_id": "3b33de19-8f5e-8198-a89b-fc4150a825be"
     },
     {
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
       "status": "Watching",
-      "tier": "Core",
       "live_tasks": 23,
       "last_touched": "2026-07-31",
       "current_state": "Quietest of the eight core projects, no new signal since 31 Jul. Open thread is voice capture and transcription for sourcer and TA weekly roundups.",
       "waiting_on": "Rodrigo on microphone and caption integration for transcription. Andrea on coverage of remaining transcript and extension bugs.",
-      "waiting_on_who": "Rodrigo Gomes, Andrea Darabasic",
       "next_action": "Check in with Andrea on the remaining transcript and extension bugs",
       "aliases": [
         "intake-tool",
@@ -154,20 +132,16 @@
         "roles-round-up",
         "rolls-roundup"
       ],
-      "links": "",
-      "notion_page_id": "3b33de19-8f5e-8178-90e7-ca36da5147c0",
-      "recent_sessions": []
+      "notion_page_id": "3b33de19-8f5e-8178-90e7-ca36da5147c0"
     },
     {
       "id": "tribebot",
       "name": "Tribebot",
       "status": "Active",
-      "tier": "Core",
       "live_tasks": 20,
       "last_touched": "2026-08-03",
       "current_state": "Week-31 Roles Roundup needs a re-run for 9 unswept roles, and the Monday noon backstop is being killed by a 5 second timeout. Dolores wants a more frequent data refresh.",
       "waiting_on": "Andrea and Chantelle on the sourcer weekly-roundup voice-log feature",
-      "waiting_on_who": "Andrea Darabasic, Chantelle",
       "next_action": "Re-run week-31 finalize for the 9 unswept roles and fix the 5s timeout",
       "aliases": [
         "tribot-kb",
@@ -175,20 +149,16 @@
         "tribebot-kb",
         "roles-bot"
       ],
-      "links": "",
-      "notion_page_id": "3b33de19-8f5e-8178-b511-c054613de472",
-      "recent_sessions": []
+      "notion_page_id": "3b33de19-8f5e-8178-b511-c054613de472"
     },
     {
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "status": "Blocked",
-      "tier": "Core",
       "live_tasks": 20,
       "last_touched": "2026-08-04",
       "current_state": "Martin flagged the numbers are off and believes Tribe carries too much overhead. Cause partly identified: the MB investment agreement (EUR 9,700/mo, EUR 116K/yr) is invisible to the dashboard, and Team Trip is double-based against the cashflow sheet.",
       "waiting_on": "Nothing external, but an answer is owed to Martin",
-      "waiting_on_who": "Martin Bernard",
       "next_action": "Ship the hire-month guard in rebuild_v5.py and redeploy (kills all 70 failures), then close the overhead gap",
       "aliases": [
         "finance",
@@ -197,20 +167,16 @@
         "budget",
         "cashflow"
       ],
-      "links": "",
-      "notion_page_id": "3b33de19-8f5e-8192-b003-e25ad2338ba8",
-      "recent_sessions": []
+      "notion_page_id": "3b33de19-8f5e-8192-b003-e25ad2338ba8"
     },
     {
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
       "status": "Active",
-      "tier": "Supporting",
       "live_tasks": 16,
       "last_touched": "2026-08-03",
       "current_state": "Overlap between the Sourcing Lab work and Sonja and Ella's internal recruiting data is still unresolved. Jacopo's Claude automation stack is a candidate internal case study for Martin.",
       "waiting_on": "Sonja and Ella on internal recruiting data integration and where the systems overlap",
-      "waiting_on_who": "Sonja, Ella Darie",
       "next_action": "Give Rodrigo Gomes access to the sourcing data for the all-in-one sourcing system",
       "aliases": [
         "ai-first",
@@ -218,20 +184,16 @@
         "ai-first-wg",
         "sourcing-lab"
       ],
-      "links": "",
-      "notion_page_id": "3b33de19-8f5e-8126-9426-e51e93ae6db3",
-      "recent_sessions": []
+      "notion_page_id": "3b33de19-8f5e-8126-9426-e51e93ae6db3"
     },
     {
       "id": "linkedin",
       "name": "LinkedIn (licenses + posting)",
       "status": "Active",
-      "tier": "Supporting",
       "live_tasks": 13,
       "last_touched": "2026-08-03",
       "current_state": "Post pipeline is running but all three 30 Jul drafts were rejected without feedback going back to the writer. A Thu 6 Aug draft is awaiting approval. Separately, Wladyslaw needs a temporary Recruiter seat for the Mexican sprint.",
-      "waiting_on": "Blake's own decision on the 6 Aug draft",
-      "waiting_on_who": "",
+      "waiting_on": "Nothing. Your call on the 6 Aug draft",
       "next_action": "Approve or kill the 6 Aug draft, and tell the post writer why the three 30 Jul postures were rejected",
       "aliases": [
         "linkedin-licenses",
@@ -239,99 +201,79 @@
         "licenses",
         "linkedin-posts"
       ],
-      "links": "",
-      "notion_page_id": "3b33de19-8f5e-81bc-bb54-c3713d53c1fc",
-      "recent_sessions": []
+      "notion_page_id": "3b33de19-8f5e-81bc-bb54-c3713d53c1fc"
     },
     {
       "id": "leadership",
       "name": "Leadership comms",
       "status": "Active",
-      "tier": "Supporting",
       "live_tasks": 11,
       "last_touched": "2026-08-04",
       "current_state": "Overhead memo for Martin is the near-term deliverable: roughly EUR 485K/yr of non-payroll, non-IT cost sitting in the Other row. The operations-role conversation needs a slot before Martin travels on 13 Aug.",
       "waiting_on": "A calendar slot from Martin before he travels on 13 Aug",
-      "waiting_on_who": "Martin Bernard",
       "next_action": "Ask Martin for the pre-13-Aug slot and bring the one-page scope proposal",
       "aliases": [
         "cos-weekly-log",
         "cos",
         "cos-log"
       ],
-      "links": "https://docs.google.com/spreadsheets/d/1zod9z4Hlk8ywzeeWrFp9EnKg6tEh2KzcY4X0RGOjkgw/edit?gid=154236267",
-      "notion_page_id": "3b33de19-8f5e-81a4-b4e5-c441366cf630",
-      "recent_sessions": []
+      "notion_page_id": "3b33de19-8f5e-81a4-b4e5-c441366cf630"
     },
     {
       "id": "tribe-talks",
       "name": "Tribe Talks",
       "status": "Active",
-      "tier": "Supporting",
       "live_tasks": 8,
       "last_touched": "2026-07-29",
       "current_state": "Tribetalks 04 on AI & Automation, with Blake representing Tribe alongside Marcel (Klikwork) and Nenad. Notion is now source of truth for prep, but the redundant prep page still needs deleting.",
       "waiting_on": "Alignment on discussion points with Marcel and Nenad",
-      "waiting_on_who": "Marcel van der Meer, Nenad Skoko",
       "next_action": "Click Run now once on the marcel-linkeding-research scheduled task to pre-approve Chrome and Notion permissions",
       "aliases": [
         "tribe-talks-marcel",
         "marcel",
         "tribetalks"
       ],
-      "links": "",
-      "notion_page_id": "3b33de19-8f5e-81ae-87a0-d201ff00c518",
-      "recent_sessions": []
+      "notion_page_id": "3b33de19-8f5e-81ae-87a0-d201ff00c518"
     },
     {
       "id": "project-hub",
       "name": "Project Hub",
       "status": "Watching",
-      "tier": "Supporting",
       "live_tasks": 3,
       "last_touched": "2026-08-03",
       "current_state": "Thin. The IR Interview Process entry (Simon Siew, Ella Darie) has a stale follow-up date from March, and Alexandra's Notion access request is still undecided.",
       "waiting_on": "Jacopo on whether the new sourcing tool being tested runs through the Sourcing Lab working group",
-      "waiting_on_who": "Jacopo Lupo Ferrari",
       "next_action": "Decide on Alexandra Richiteanu's Notion access request for the PPR page",
       "aliases": [
         "projecthub",
         "projecthub-comms"
       ],
-      "links": "",
-      "notion_page_id": "3b33de19-8f5e-81a2-bca3-c5cf9f2d606d",
-      "recent_sessions": []
+      "notion_page_id": "3b33de19-8f5e-81a2-bca3-c5cf9f2d606d"
     },
     {
       "id": "okrs",
       "name": "OKRs",
       "status": "Blocked",
-      "tier": "Supporting",
       "live_tasks": 3,
       "last_touched": "2026-07-30",
       "current_state": "Four Lattice goals are overdue including the TA-Sourcer goal. OKR calculation cannot start because 14 of 19 intake eligibility-call rows in the tracker are blank.",
-      "waiting_on": "The 14 blank intake eligibility-call rows in the tracker",
-      "waiting_on_who": "Intake call owners",
+      "waiting_on": "Intake call owners, to fill the 14 blank eligibility-call rows in the tracker",
       "next_action": "Chase the 14 blank rows, then update the 4 overdue Lattice goals with current progress",
       "aliases": [
         "okr",
         "okr-comms",
         "lattice"
       ],
-      "links": "",
-      "notion_page_id": "3b33de19-8f5e-8169-a2b4-da422ec5742f",
-      "recent_sessions": []
+      "notion_page_id": "3b33de19-8f5e-8169-a2b4-da422ec5742f"
     },
     {
       "id": "team-cohesion",
       "name": "Team cohesion",
       "status": "Active",
-      "tier": "Supporting",
       "live_tasks": 3,
       "last_touched": "2026-08-04",
       "current_state": "July engagement dropped sharply: eNPS 53 to 40, Clients 86 to 67. Ella's dashboard push is live, and Blake wants to reach leadership with context before they find the numbers themselves.",
       "waiting_on": "July comments export from Ella",
-      "waiting_on_who": "Ella Darie",
       "next_action": "Get the July comments export at the next meeting, then build and push the July engagement dashboard",
       "aliases": [
         "engagement",
@@ -339,40 +281,32 @@
         "standup-improvement",
         "pokedex"
       ],
-      "links": "",
-      "notion_page_id": "3b33de19-8f5e-81f0-ae7d-fe83686eb13c",
-      "recent_sessions": []
+      "notion_page_id": "3b33de19-8f5e-81f0-ae7d-fe83686eb13c"
     },
     {
       "id": "keboola-sunset",
       "name": "Keboola migration / sunset",
       "status": "Watching",
-      "tier": "Supporting",
       "live_tasks": 1,
       "last_touched": "2026-07-27",
       "current_state": "Nearly finished. One open item: a brand-new snowflake-transformation config appeared with 11 runs and 6.7 minutes against zero the prior week, and needs confirming as intentional.",
       "waiting_on": "Nothing",
-      "waiting_on_who": "",
       "next_action": "Confirm Keboola config 01ky9xkbr9fzswz7meddr73agn is intentional and not a spend regression",
       "aliases": [
         "keboola",
         "snowflake",
         "keboola-spend"
       ],
-      "links": "",
-      "notion_page_id": "3b33de19-8f5e-81ad-a83e-e7ce83875b0a",
-      "recent_sessions": []
+      "notion_page_id": "3b33de19-8f5e-81ad-a83e-e7ce83875b0a"
     },
     {
       "id": "personal",
       "name": "Personal",
       "status": "Active",
-      "tier": "Personal",
       "live_tasks": 10,
       "last_touched": "2026-08-01",
       "current_state": "PRIVATE. Job search decisions pending on four scored matches (Usercentrics 84, POSEIDON 74, GovAI 73). SalesPad take-home deadline was Fri 31 Jul. Household items outstanding: Domo fan return, Prague-East/West rental region IDs.",
       "waiting_on": "Nothing external",
-      "waiting_on_who": "",
       "next_action": "Decide on the Usercentrics Chief of Staff and POSEIDON picks that dedupe keeps holding back",
       "aliases": [
         "job-search",
@@ -382,9 +316,7 @@
         "kosik",
         "household"
       ],
-      "links": "https://job-research.tribe-bamboohr.workers.dev",
-      "notion_page_id": "3b33de19-8f5e-8193-9cc4-c0c217401f8a",
-      "recent_sessions": []
+      "notion_page_id": "3b33de19-8f5e-8193-9cc4-c0c217401f8a"
     }
   ]
 }

@@ -21,7 +21,6 @@ def main():
     scan = json.load(open(DATA / "scan_config.json"))
 
     live = [p for p in ledger["projects"] if p.get("status") != "Retired"]
-    tiermap = {"Core": "big", "Supporting": "medium", "Personal": "medium"}
 
     # Pass 1: collect every live project id first, so alias validation below is
     # order-independent. (An earlier version only checked ids seen so far, which
@@ -41,7 +40,7 @@ def main():
         projects.append({
             "id": pid,
             "name": p["name"],
-            "tier": tiermap.get(p.get("tier"), "medium"),
+            "tier": "big" if (p.get("live_tasks") or 0) >= 20 else "medium",
             "notes": p.get("current_state", "")[:280],
         })
         for a in p.get("aliases", []):
