@@ -23,12 +23,21 @@ def main():
     live = [p for p in ledger["projects"] if p.get("status") != "Retired"]
     tiermap = {"Core": "big", "Supporting": "medium", "Personal": "medium"}
 
-    projects, aliases, seen = [], {}, set()
+    # Pass 1: collect every live project id first, so alias validation below is
+    # order-independent. (An earlier version only checked ids seen so far, which
+    # let an alias silently shadow a project defined later in the list.)
+    all_ids, dupes = set(), set()
+    for p in live:
+        if p["id"] in all_ids:
+            dupes.add(p["id"])
+        all_ids.add(p["id"])
+    if dupes:
+        sys.exit(f"ERROR: duplicate project id(s) in ledger: {', '.join(sorted(dupes))}")
+
+    # Pass 2: build the taxonomy and validate aliases against the full id set.
+    projects, aliases = [], {}
     for p in live:
         pid = p["id"]
-        if pid in seen:
-            sys.exit(f"ERROR: duplicate project id in ledger: {pid}")
-        seen.add(pid)
         projects.append({
             "id": pid,
             "name": p["name"],
@@ -39,15 +48,16 @@ def main():
             a = a.strip().lower()
             if not a or a == pid:
                 continue
-            if a in seen:
-                sys.exit(f"ERROR: alias '{a}' on {pid} collides with a live project id")
+            if a in all_ids:
+                sys.exit(f"ERROR: '{pid}' lists alias '{a}', but '{a}' is itself a "
+                         f"live project. Retire one or drop the alias.")
             if a in aliases and aliases[a] != pid:
                 sys.exit(f"ERROR: alias '{a}' claimed by both {aliases[a]} and {pid}")
             aliases[a] = pid
 
     # retired ids must resolve somewhere or the scan will orphan their tasks
     for r in ledger.get("retired", []):
-        if r["id"] not in aliases and r["id"] not in seen:
+        if r["id"] not in aliases and r["id"] not in all_ids:
             print(f"WARNING: retired project '{r['id']}' has no alias route. "
                   f"Its tasks will fall to inbox.", file=sys.stderr)
 
