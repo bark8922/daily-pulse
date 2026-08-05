@@ -51,6 +51,22 @@ h2 .count { font-size:12px; color:var(--muted); font-weight:400; }
 .modal label { display:block; font-size:12px; color:var(--muted); margin-top:10px; margin-bottom:4px; }
 .modal input, .modal select { width:100%; padding:6px 10px; font-size:13px; border:1px solid var(--bord2); border-radius:6px; background:var(--surface); font-family:inherit; }
 .modal-actions { margin-top:16px; display:flex; gap:8px; justify-content:flex-end; }
+.ledger { display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:10px; }
+.pcard { border:1px solid var(--border); border-radius:8px; padding:11px 13px; background:var(--surface); }
+.pcard.st-Blocked { border-left:3px solid #dc2626; }
+.pcard.st-Active { border-left:3px solid #16a34a; }
+.pcard.st-Watching { border-left:3px solid #2563eb; }
+.pcard.st-Dormant { border-left:3px solid #ca8a04; }
+.pcard.stale { background:#fffbeb; }
+.pcard h3 { margin:0 0 2px; font-size:14px; font-weight:600; display:flex; align-items:center; gap:6px; justify-content:space-between; }
+.pcard h3 a { color:inherit; text-decoration:none; }
+.pcard h3 a:hover { color:var(--accent); }
+.pstate { font-size:12.5px; color:var(--text); margin:6px 0 0; }
+.pline { font-size:12px; color:var(--muted); margin-top:5px; }
+.pline b { color:var(--text); font-weight:500; }
+.pline.next { color:var(--accent); }
+.pmeta { font-size:11px; color:var(--faint); margin-top:7px; display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+.ledger-legend { font-size:11px; color:var(--faint); margin-bottom:10px; }
 .sync-badge { display:inline-block; padding:1px 6px; border-radius:999px; font-size:10px; background:#f3f4f6; color:#525252; margin-left:6px; }
 .sync-badge.on { background:var(--ok-bg); color:var(--ok-fg); }
 .sync-badge.off { background:var(--warn-bg); color:var(--warn-fg); }
@@ -72,6 +88,7 @@ footer { margin-top:32px; font-size:11px; color:var(--faint); text-align:center;
 <button class="btn primary" id="refresh" title="Re-fetch + hide checked items">Refresh</button>
 </div>
 </header>
+<section class="card"><h2>Projects <span class="count" id="lc"></span><a id="ledgerLink" href="https://app.notion.com/p/02932048d7bf455b96b3b2fc534fd405" target="_blank" style="font-size:11px;font-weight:400;margin-left:auto;color:var(--accent);text-decoration:none;">Edit in Notion &rarr;</a></h2><div class="ledger-legend">Read-only mirror. The Notion database is the source of truth: add, rename, merge or retire a project there and it applies on the next run.</div><div class="ledger" id="ll"></div></section>
 <section class="card"><h2>Today &amp; this week <span class="count" id="tc"></span></h2><div id="tl"></div></section>
 <section class="card"><h2>By project <span class="count" id="pc"></span></h2><div id="pl"></div></section>
 <section class="card"><h2>Maybe / low-confidence <span class="count" id="mc"></span></h2><div id="ml" style="display:none;"></div><button class="btn" id="mt" style="font-size:12px;">Show</button></section>
@@ -331,6 +348,48 @@ function rf(fleet){
   document.getElementById("fc").textContent=ta+" active · "+ts+" stale · refreshed "+fleet.generated_at;
 }
 
+function esc(s){ var d=document.createElement("div"); d.textContent=s==null?"":s; return d.innerHTML; }
+
+function rl(led){
+  var box=document.getElementById("ll"); box.innerHTML="";
+  var rank={Blocked:0,Active:1,Watching:2,Dormant:3,Retired:9};
+  var ps=(led.projects||[]).filter(function(p){ return p.status!=="Retired"; });
+  ps.sort(function(a,b){
+    var d=(rank[a.status]==null?8:rank[a.status])-(rank[b.status]==null?8:rank[b.status]);
+    if(d) return d;
+    return (b.live_tasks||0)-(a.live_tasks||0);
+  });
+  var blocked=0, stale=0;
+  ps.forEach(function(p){
+    var age=p.last_touched?Math.floor((Date.now()-new Date(p.last_touched).getTime())/86400000):null;
+    var isStale=age!==null&&age>10;
+    if(p.status==="Blocked") blocked++;
+    if(isStale) stale++;
+    var d=document.createElement("div");
+    d.className="pcard st-"+(p.status||"")+(isStale?" stale":"");
+    var h="<h3><span>"+esc(p.name)+"</span><span class='pill "+(p.status==="Blocked"?"low":p.status==="Active"?"high":"")+"'>"+esc(p.status)+"</span></h3>";
+    if(p.current_state) h+="<p class='pstate'>"+esc(p.current_state)+"</p>";
+    if(p.waiting_on && p.waiting_on.toLowerCase().indexOf("nothing")!==0)
+      h+="<div class='pline'><b>Waiting on:</b> "+esc(p.waiting_on)+(p.waiting_on_who?" <i>("+esc(p.waiting_on_who)+")</i>":"")+"</div>";
+    if(p.next_action) h+="<div class='pline next'><b>Next:</b> "+esc(p.next_action)+"</div>";
+    var meta="<span>"+(p.live_tasks||0)+" live</span><span class='dot'>&middot;</span><span>"+(age===null?"never":age+"d since activity")+"</span>";
+    if(p.notion_page_id) meta+="<span class='dot'>&middot;</span><a href='https://app.notion.com/p/"+p.notion_page_id.replace(/-/g,"")+"' target='_blank' style='color:var(--faint);'>open</a>";
+    if(p.links) meta+="<span class='dot'>&middot;</span><a href='"+esc(p.links)+"' target='_blank' style='color:var(--faint);'>link</a>";
+    h+="<div class='pmeta'>"+meta+"</div>";
+    d.innerHTML=h;
+    box.appendChild(d);
+  });
+  document.getElementById("lc").textContent=ps.length+" active"+(blocked?" \u00b7 "+blocked+" blocked":"")+(stale?" \u00b7 "+stale+" stale":"")+" \u00b7 synced "+(led.generated_at||"?");
+}
+
+async function loadLedger(){
+  try{
+    var r=await fetch("./data/ledger.json?t="+Date.now());
+    if(!r.ok){ document.getElementById("ll").innerHTML='<div class="empty">No project ledger yet.</div>'; return; }
+    rl(await r.json());
+  }catch(e){ console.error("ledger",e); document.getElementById("ll").innerHTML='<div class="empty">Ledger failed to load.</div>'; }
+}
+
 async function lf(){
   try{
     var r=await fetch("./data/n8n_fleet.json?t="+Date.now());
@@ -365,6 +424,7 @@ async function load(){
     });
     render();
     lf();
+    loadLedger();
   }catch(e){
     document.getElementById("sub").textContent="Load failed: "+e.message;
     console.error(e);

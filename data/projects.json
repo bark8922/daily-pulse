@@ -1,182 +1,8 @@
 {
   "version": 2,
   "owner": "blake@tribe.xyz",
-  "updated": "2026-07-27",
   "aging_days": 21,
   "dedup_threshold": 0.7,
-  "projects": [
-    {
-      "id": "fin-dash",
-      "name": "Tribe Financial Dashboard",
-      "tier": "big",
-      "notes": "Main finance dashboard."
-    },
-    {
-      "id": "rec-dash",
-      "name": "Tribe Recruiting Dashboard",
-      "tier": "big",
-      "notes": "Recruiting/staffing dashboard."
-    },
-    {
-      "id": "expense-ops",
-      "name": "Expense Ops",
-      "tier": "big",
-      "notes": "Receipts, Revolut, categorization, invoicing."
-    },
-    {
-      "id": "tribebot",
-      "name": "Tribebot",
-      "tier": "big",
-      "notes": "Internal bot, Onyx sync, improvements."
-    },
-    {
-      "id": "people-ops",
-      "name": "People Ops / BambooHR",
-      "tier": "big",
-      "notes": "Supports, doesn't own. Dashboards + termination invoicing."
-    },
-    {
-      "id": "legal",
-      "name": "Legal & Contracts",
-      "tier": "big",
-      "notes": "All Blake. NDAs, vendor contracts, signatures."
-    },
-    {
-      "id": "ai-recruiting",
-      "name": "Roundup & Intake (AI recruiting tools)",
-      "tier": "big",
-      "notes": "AI First, Rolls Roundup, intake tool."
-    },
-    {
-      "id": "infra",
-      "name": "Infra & Automation",
-      "tier": "medium",
-      "notes": "n8n, Cloudflare, backups, browser extension, IT security."
-    },
-    {
-      "id": "wbr-mbr",
-      "name": "WBR / MBR",
-      "tier": "medium",
-      "notes": "Weekly + monthly business review."
-    },
-    {
-      "id": "project-hub",
-      "name": "Project Hub",
-      "tier": "medium",
-      "notes": "#projecthub_comms."
-    },
-    {
-      "id": "team-cohesion",
-      "name": "Team cohesion",
-      "tier": "medium",
-      "notes": "Pokedex + standup improvement."
-    },
-    {
-      "id": "okrs",
-      "name": "OKRs",
-      "tier": "medium",
-      "notes": "#okr-comms."
-    },
-    {
-      "id": "leadership",
-      "name": "Leadership comms",
-      "tier": "medium",
-      "notes": "#leadership, CoS weekly log."
-    },
-    {
-      "id": "keboola-sunset",
-      "name": "Keboola migration / sunset",
-      "tier": "medium",
-      "notes": "Migrating off Keboola."
-    },
-    {
-      "id": "sales-hubspot",
-      "name": "Sales dashboard + HubSpot",
-      "tier": "medium",
-      "notes": "Sales dashboard, HubSpot convos."
-    },
-    {
-      "id": "linkedin",
-      "name": "LinkedIn license management",
-      "tier": "medium",
-      "notes": "License requests + actual spend."
-    },
-    {
-      "id": "circle",
-      "name": "Project Circle",
-      "tier": "medium",
-      "notes": "Cross-tags with rec-dash."
-    },
-    {
-      "id": "us-expansion",
-      "name": "US expansion",
-      "tier": "medium",
-      "notes": "New as of May 26."
-    },
-    {
-      "id": "ai-first-working-group",
-      "name": "AI First Working Group",
-      "tier": "medium",
-      "notes": ""
-    },
-    {
-      "id": "tribe-talks-marcel",
-      "name": "Tribe Talks - MArcel",
-      "tier": "medium",
-      "notes": ""
-    },
-    {
-      "id": "tribe-talks",
-      "name": "Tribe Talks",
-      "tier": "medium",
-      "notes": ""
-    }
-  ],
-  "project_aliases": {
-    "intake-tool": "ai-recruiting",
-    "intake": "ai-recruiting",
-    "roles-roundup": "ai-recruiting",
-    "roles-round-up": "ai-recruiting",
-    "rolls-roundup": "ai-recruiting",
-    "ai-first": "ai-first-working-group",
-    "ai-training": "ai-first-working-group",
-    "ai-first-wg": "ai-first-working-group",
-    "recruiting-dashboard": "rec-dash",
-    "recruiting-pipeline": "rec-dash",
-    "recruiting": "rec-dash",
-    "clients": "rec-dash",
-    "circle-project": "circle",
-    "project-circle": "circle",
-    "finance": "fin-dash",
-    "finance-ops": "fin-dash",
-    "cz-tax": "fin-dash",
-    "budget": "fin-dash",
-    "invoicing": "expense-ops",
-    "invoices": "expense-ops",
-    "invoice": "expense-ops",
-    "expenses": "expense-ops",
-    "client-disputes": "expense-ops",
-    "okr": "okrs",
-    "tribot-kb": "tribebot",
-    "tribot": "tribebot",
-    "tribebot-kb": "tribebot",
-    "hr": "people-ops",
-    "spain-payroll": "people-ops",
-    "payroll": "people-ops",
-    "cos-weekly-log": "leadership",
-    "cos": "leadership",
-    "n8n": "infra",
-    "n8n-workflows": "infra",
-    "slack-automation": "infra",
-    "automation": "infra",
-    "cloudflare": "infra",
-    "claude-backups": "infra",
-    "backups": "infra",
-    "extension": "infra",
-    "extension-dashboard": "infra",
-    "it-security": "infra",
-    "security": "infra"
-  },
   "dismissed_patterns": [
     "google security alert",
     "security alert for team@tribe",
@@ -192,6 +18,7 @@
     "no action needed",
     "routine run"
   ],
+  "dismissed_patterns_note": "Recurring automation pings that should never become tasks.",
   "cross_tags_allowed": true,
   "private_channels_in_scope": [
     "tribebot",
@@ -217,6 +44,192 @@
     "test-n8n",
     "workforce-planning-changes"
   ],
-  "dismissed_patterns_note": "Recurring automation pings that should never become tasks.",
-  "lookback_days": 60
+  "lookback_days": 60,
+  "updated": "2026-08-05",
+  "generated_from": "data/ledger.json (Notion). Do not hand-edit.",
+  "projects": [
+    {
+      "id": "rec-dash",
+      "name": "Tribe Recruiting Dashboard",
+      "tier": "big",
+      "notes": "Job taxonomy rollout is the live front. Nenad and Mikhail both raised category conflicts on Aug 3-4 (Operations split across 3 categories, Workplace & Admin missing from mapping). Interview-funnel dashboard phase not kicked off yet."
+    },
+    {
+      "id": "infra",
+      "name": "Infra & Automation",
+      "tier": "big",
+      "notes": "Two live security items from Aug 4: Revolut production OAuth tokens and JWT assertions sitting in plaintext n8n node parameters across six workflows, and a GitHub personal access token that was shared in chat and is still unrevoked."
+    },
+    {
+      "id": "expense-ops",
+      "name": "Expense Ops",
+      "tier": "big",
+      "notes": "Revolut cross-currency allowance is the pressure point: 3.6M of the CZK 4M cycle allowance used between 14 Jun and 13 Jul. Calendly wind-down agreed for Friday. August invoices renumbered and confirmed by Natalie."
+    },
+    {
+      "id": "people-ops",
+      "name": "People Ops / BambooHR",
+      "tier": "big",
+      "notes": "Spain July 2026 payroll is stuck at Bove Montero with Federico Fernandez out of office. Separately, Tijana's exit feedback (feeling unsupported by Jacopo and senior leadership) still needs briefing to Martin."
+    },
+    {
+      "id": "legal",
+      "name": "Legal & Contracts",
+      "tier": "big",
+      "notes": "Three contracts moving at once: Voize redlines, Filics amendments (4.5 late-payment interest, 6.1 notice, 8.2 mutual non-solicit), and Jordy. Estonia entity has Martin's go-ahead but no lawyer contacted yet."
+    },
+    {
+      "id": "ai-recruiting",
+      "name": "Roundup & Intake (AI recruiting tools)",
+      "tier": "big",
+      "notes": "Quietest of the eight core projects, no new signal since 31 Jul. Open thread is voice capture and transcription for sourcer and TA weekly roundups."
+    },
+    {
+      "id": "tribebot",
+      "name": "Tribebot",
+      "tier": "big",
+      "notes": "Week-31 Roles Roundup needs a re-run for 9 unswept roles, and the Monday noon backstop is being killed by a 5 second timeout. Dolores wants a more frequent data refresh."
+    },
+    {
+      "id": "fin-dash",
+      "name": "Tribe Financial Dashboard",
+      "tier": "big",
+      "notes": "Martin flagged the numbers are off and believes Tribe carries too much overhead. Cause partly identified: the MB investment agreement (EUR 9,700/mo, EUR 116K/yr) is invisible to the dashboard, and Team Trip is double-based against the cashflow sheet."
+    },
+    {
+      "id": "ai-first-working-group",
+      "name": "AI First Working Group",
+      "tier": "medium",
+      "notes": "Overlap between the Sourcing Lab work and Sonja and Ella's internal recruiting data is still unresolved. Jacopo's Claude automation stack is a candidate internal case study for Martin."
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn (licenses + posting)",
+      "tier": "medium",
+      "notes": "Post pipeline is running but all three 30 Jul drafts were rejected without feedback going back to the writer. A Thu 6 Aug draft is awaiting approval. Separately, Wladyslaw needs a temporary Recruiter seat for the Mexican sprint."
+    },
+    {
+      "id": "leadership",
+      "name": "Leadership comms",
+      "tier": "medium",
+      "notes": "Overhead memo for Martin is the near-term deliverable: roughly EUR 485K/yr of non-payroll, non-IT cost sitting in the Other row. The operations-role conversation needs a slot before Martin travels on 13 Aug."
+    },
+    {
+      "id": "tribe-talks",
+      "name": "Tribe Talks",
+      "tier": "medium",
+      "notes": "Tribetalks 04 on AI & Automation, with Blake representing Tribe alongside Marcel (Klikwork) and Nenad. Notion is now source of truth for prep, but the redundant prep page still needs deleting."
+    },
+    {
+      "id": "project-hub",
+      "name": "Project Hub",
+      "tier": "medium",
+      "notes": "Thin. The IR Interview Process entry (Simon Siew, Ella Darie) has a stale follow-up date from March, and Alexandra's Notion access request is still undecided."
+    },
+    {
+      "id": "okrs",
+      "name": "OKRs",
+      "tier": "medium",
+      "notes": "Four Lattice goals are overdue including the TA-Sourcer goal. OKR calculation cannot start because 14 of 19 intake eligibility-call rows in the tracker are blank."
+    },
+    {
+      "id": "team-cohesion",
+      "name": "Team cohesion",
+      "tier": "medium",
+      "notes": "July engagement dropped sharply: eNPS 53 to 40, Clients 86 to 67. Ella's dashboard push is live, and Blake wants to reach leadership with context before they find the numbers themselves."
+    },
+    {
+      "id": "keboola-sunset",
+      "name": "Keboola migration / sunset",
+      "tier": "medium",
+      "notes": "Nearly finished. One open item: a brand-new snowflake-transformation config appeared with 11 runs and 6.7 minutes against zero the prior week, and needs confirming as intentional."
+    },
+    {
+      "id": "personal",
+      "name": "Personal",
+      "tier": "medium",
+      "notes": "PRIVATE. Job search decisions pending on four scored matches (Usercentrics 84, POSEIDON 74, GovAI 73). SalesPad take-home deadline was Fri 31 Jul. Household items outstanding: Domo fan return, Prague-East/West rental region IDs."
+    }
+  ],
+  "project_aliases": {
+    "ai-first": "ai-first-working-group",
+    "ai-first-wg": "ai-first-working-group",
+    "ai-training": "ai-first-working-group",
+    "automation": "infra",
+    "backups": "infra",
+    "bezrealitky": "personal",
+    "budget": "fin-dash",
+    "cashflow": "fin-dash",
+    "circle": "rec-dash",
+    "circle-project": "rec-dash",
+    "claude-backups": "infra",
+    "client-disputes": "expense-ops",
+    "clients": "rec-dash",
+    "cloudflare": "infra",
+    "contracts": "legal",
+    "cos": "leadership",
+    "cos-log": "leadership",
+    "cos-weekly-log": "leadership",
+    "cz-tax": "fin-dash",
+    "engagement": "team-cohesion",
+    "enps": "team-cohesion",
+    "estonia": "legal",
+    "expenses": "expense-ops",
+    "extension": "infra",
+    "extension-dashboard": "infra",
+    "finance": "fin-dash",
+    "finance-ops": "fin-dash",
+    "household": "personal",
+    "hr": "people-ops",
+    "hubspot": "expense-ops",
+    "intake": "ai-recruiting",
+    "intake-tool": "ai-recruiting",
+    "invoice": "expense-ops",
+    "invoices": "expense-ops",
+    "invoicing": "expense-ops",
+    "it-security": "infra",
+    "job-research": "personal",
+    "job-search": "personal",
+    "keboola": "keboola-sunset",
+    "keboola-spend": "keboola-sunset",
+    "kosik": "personal",
+    "lattice": "okrs",
+    "license": "linkedin",
+    "licenses": "linkedin",
+    "linkedin-licenses": "linkedin",
+    "linkedin-posts": "linkedin",
+    "marcel": "tribe-talks",
+    "n8n": "infra",
+    "n8n-workflows": "infra",
+    "nda": "legal",
+    "ndas": "legal",
+    "okr": "okrs",
+    "okr-comms": "okrs",
+    "payroll": "people-ops",
+    "pokedex": "team-cohesion",
+    "project-circle": "rec-dash",
+    "projecthub": "project-hub",
+    "projecthub-comms": "project-hub",
+    "recruiting": "rec-dash",
+    "recruiting-dashboard": "rec-dash",
+    "recruiting-pipeline": "rec-dash",
+    "rental": "personal",
+    "roles-bot": "tribebot",
+    "roles-round-up": "ai-recruiting",
+    "roles-roundup": "ai-recruiting",
+    "rolls-roundup": "ai-recruiting",
+    "sales-hubspot": "expense-ops",
+    "security": "infra",
+    "slack-automation": "infra",
+    "snowflake": "keboola-sunset",
+    "sourcing-lab": "ai-first-working-group",
+    "spain-payroll": "people-ops",
+    "standup-improvement": "team-cohesion",
+    "tribe-talks-marcel": "tribe-talks",
+    "tribebot-kb": "tribebot",
+    "tribetalks": "tribe-talks",
+    "tribot": "tribebot",
+    "tribot-kb": "tribebot",
+    "wbr-mbr": "rec-dash"
+  }
 }

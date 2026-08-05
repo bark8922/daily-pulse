@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "owner": "blake@tribe.xyz",
+  "aging_days": 21,
+  "dedup_threshold": 0.7,
+  "dismissed_patterns": [
+    "google security alert",
+    "security alert for team@tribe",
+    "new sign-in on team@tribe",
+    "sign-in on team@tribe.xyz",
+    "linkedin recruiter 'unusual activity'",
+    "unusual activity' case",
+    "cos weekly log",
+    "cos-weekly-log",
+    "expense ops daily digest",
+    "dashboard watchdog",
+    "all systems healthy",
+    "no action needed",
+    "routine run"
+  ],
+  "dismissed_patterns_note": "Recurring automation pings that should never become tasks.",
+  "cross_tags_allowed": true,
+  "private_channels_in_scope": [
+    "tribebot",
+    "okr-comms",
+    "us-expansion",
+    "lir-sharing",
+    "project_circle",
+    "projecthub_comms",
+    "people-ops",
+    "leadership",
+    "standup-improvement",
+    "friday-team-meeting",
+    "data-plugins-roadmap",
+    "data_working_group",
+    "project-data-hygiene"
+  ],
+  "channels_excluded": [
+    "teamtrip-2026",
+    "tribe-teamaway",
+    "prague-trip",
+    "scorecard-videos",
+    "test-fireflies",
+    "test-n8n",
+    "workforce-planning-changes"
+  ],
+  "lookback_days": 60
+}
