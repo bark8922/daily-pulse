@@ -52,19 +52,19 @@
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
       "tier": "medium",
-      "notes": "Voice-only weekly-update pilot is still undecided after Gustavo and Jovana hit 8 of 8. Rodrigo pulled the intake extension, so Q3 KR1 needs replanning and the sourcer knowledge base is unlogged."
+      "notes": "Voice-only weekly pilot still undecided after Gustavo and Jovana hit 8 of 8. Rodrigo pulled the intake extension, so Q3 KR1 needs replanning and the sourcer knowledge base is unlogged."
     },
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
       "tier": "medium",
-      "notes": "Stage-funnel build can start: 24 stage-move events across 21 candidates since 22 Jul. Rodrigo is waiting on funnel metrics, and Nenad's taxonomy feedback and W29 intake question are unanswered."
+      "notes": "Stage-funnel trigger fired: 24 stage-move events across 21 candidates. Rodrigo Gomes waits on his role funnel metrics, and Nenad Skoko's taxonomy feedback and W29 intake question are unanswered."
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "tier": "big",
-      "notes": "Thirty open items. 2FA on team@tribe.xyz off since 31 Jul, Rodrigo's plaintext Gemini and AssemblyAI keys unrotated, n8n Error Handler caught 0 of 10 failures, Pro-2 can drop to Pro-1."
+      "notes": "32 open items. The Claude session-archive backup never launched today and two days are missing, the regenerated GitHub token is unverified, and 2FA on team@tribe.xyz is off since 31 Jul."
     },
     {
       "id": "okrs",
@@ -88,19 +88,19 @@
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "medium",
-      "notes": "step6_employer_true_cost still costs off a hardcoded 8-person list. The EUR 9,700/mo MB agreement is invisible to the dashboard and watchdog.yml's '|| true' hides CI failures."
+      "notes": "Andrea Akovic's BambooHR division now reads 'Maternity leave', so EUR 2,339 of her August cost sits in a fake client division. step6_employer_true_cost still runs off a hardcoded 8-person list."
     },
     {
       "id": "personal",
       "name": "Personal",
       "tier": "medium",
-      "notes": "Eight open personal items. The 5 Aug job picks (Trivium Director of Operations & Growth at 80, Glimmer Head of Business Ops) are undecided, plus the Kosik planner automation call."
+      "notes": "Nine open personal items. The 6 Aug pick (shuckerOPS Chief of Staff, 81) and the 5 Aug picks (Trivium at 80, Glimmer Head of Business Ops) are all undecided, plus the Kosik planner automation call."
     },
     {
       "id": "legal",
       "name": "Legal & Contracts",
-      "tier": "medium",
-      "notes": "Voize is one Matt read away from Linda Schuster's signature. Filics has open redlines from both Kristjana and Seyed Behbahani, and Boris Gnoth plus CEE Attorneys owe written Estonia answers."
+      "tier": "big",
+      "notes": "Filics moved today: agreed redlines to implement, Seyed Behbahani's Art. 8.2/8.3 redraft to answer, clauses 3.1.d and 3.3 to rework. Voize needs Matt's address details and Linda Schuster's signature block."
     },
     {
       "id": "project-hub",
@@ -118,19 +118,19 @@
       "id": "keboola-sunset",
       "name": "Keboola migration / sunset",
       "tier": "medium",
-      "notes": "Reopened 5 Aug: Tereza Dolezalova is chasing an unpaid Keboola Czech invoice Martin redirected to you, and Anna Duskova owes renewal options scaled to actual credit usage."
+      "notes": "Two items open since 5 Aug: Tereza Dolezalova is chasing an unpaid Keboola Czech invoice Martin redirected to you, and Anna Duskova owes renewal options scaled to actual credit usage."
     },
     {
       "id": "tribe-talks",
       "name": "Tribe Talks",
       "tier": "medium",
-      "notes": "The Marcel van der Meer session is 22 October, 45 minutes. The agenda is unconfirmed in writing, Eduardo Moral has not signed off, and the demo shortlist is unbuilt."
+      "notes": "The Marcel van der Meer session is 22 October, 45 minutes. The agenda is unconfirmed in writing, Eduardo Moral has not signed off, and the 3-minute demo shortlist is unbuilt."
     },
     {
       "id": "linkedin",
       "name": "LinkedIn (licenses + posting)",
       "tier": "medium",
-      "notes": "Five 5 Aug subjects sit unpicked, the writer is still owed a reason the 30 Jul postures failed, and the Job Dashboard Manager license Agnieszka flagged is still unassigned."
+      "notes": "Ella needs a Premium seat or a spare Recruiter license for partnership outreach. Two 6 Aug drafts both land on Tue 11 Aug, and the five 5 Aug subjects are still unpicked."
     },
     {
       "id": "people-ops",
@@ -142,7 +142,7 @@
       "id": "expense-ops",
       "name": "Expense Ops",
       "tier": "big",
-      "notes": "35 open items. Lucie Horakova's second invoice batch is unassigned, Adelya Khakimova's July invoice unpaid, the Deel Q-39879 dispute at EUR 5,200/yr unescalated, Revolut pooling unresolved."
+      "notes": "41 open items. Lucie Horakova needs the missing Tribe Holding invoices for 1-6/2026, Rodrigo's salary bounces until his Brazilian account replaces the EUR intermediary, and Friday's run gates Monday payday."
     },
     {
       "id": "team-cohesion",

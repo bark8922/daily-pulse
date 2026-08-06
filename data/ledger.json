@@ -1,339 +1,339 @@
 {
-  "generated_at": "2026-08-06",
-  "source": "notion",
-  "notion_database_url": "https://app.notion.com/p/02932048d7bf455b96b3b2fc534fd405",
-  "notion_data_source_id": "298cd4c0-c428-4df7-97e0-10c35f839216",
-  "retired": [
-    {
-      "id": "us-expansion",
-      "name": "US expansion",
-      "retired_on": "2026-08-05",
-      "reason": "0 live tasks, dead since 2026-05-31"
-    },
-    {
-      "id": "sales-hubspot",
-      "name": "Sales dashboard + HubSpot",
-      "retired_on": "2026-08-05",
-      "reason": "1 live task (Nexi PO), rerouted to expense-ops"
-    }
-  ],
-  "projects": [
-    {
-      "id": "ai-first-working-group",
-      "name": "AI First Working Group",
-      "status": "Blocked",
-      "live_tasks": 13,
-      "last_touched": "2026-08-05",
-      "current_state": "Voice-only weekly-update pilot is still undecided after Gustavo and Jovana hit 8 of 8. Rodrigo pulled the intake extension, so Q3 KR1 needs replanning and the sourcer knowledge base is unlogged.",
-      "waiting_on": "Rodrigo Gomes on the merged Tribe extension landing 18-20 Aug before the Q3 KR1 intake window can be replanned.",
-      "next_action": "Decide today whether to extend or expand the voice-only weekly-update pilot",
-      "aliases": [
-        "ai-first",
-        "ai-training",
-        "ai-first-wg",
-        "sourcing-lab"
-      ],
-      "notion_page_id": "3b33de19-8f5e-8126-9426-e51e93ae6db3",
-      "pin_state": false
-    },
-    {
-      "id": "rec-dash",
-      "name": "Tribe Recruiting Dashboard",
-      "status": "Active",
-      "live_tasks": 15,
-      "last_touched": "2026-08-05",
-      "current_state": "Stage-funnel build can start: 24 stage-move events across 21 candidates since 22 Jul. Rodrigo is waiting on funnel metrics, and Nenad's taxonomy feedback and W29 intake question are unanswered.",
-      "waiting_on": "Nothing. Rodrigo Gomes and Nenad Skoko are waiting on you.",
-      "next_action": "Start the stage-funnel transform and dashboard build per STAGE_FUNNEL_BUILD_PLAN.md",
-      "aliases": [
-        "circle",
-        "project-circle",
-        "circle-project",
-        "wbr-mbr",
-        "recruiting-dashboard",
-        "recruiting-pipeline",
-        "recruiting",
-        "clients"
-      ],
-      "notion_page_id": "3b33de19-8f5e-812c-b803-f2ddc97ccc95",
-      "pin_state": false
-    },
-    {
-      "id": "infra",
-      "name": "Infra & Automation",
-      "status": "Active",
-      "live_tasks": 30,
-      "last_touched": "2026-08-05",
-      "current_state": "Thirty open items. 2FA on team@tribe.xyz off since 31 Jul, Rodrigo's plaintext Gemini and AssemblyAI keys unrotated, n8n Error Handler caught 0 of 10 failures, Pro-2 can drop to Pro-1.",
-      "waiting_on": "Nothing external. All of it is your own queue.",
-      "next_action": "Re-enable 2-Step Verification on team@tribe.xyz",
-      "aliases": [
-        "n8n",
-        "n8n-workflows",
-        "slack-automation",
-        "automation",
-        "cloudflare",
-        "claude-backups",
-        "backups",
-        "extension",
-        "extension-dashboard",
-        "it-security",
-        "security"
-      ],
-      "notion_page_id": "3b33de19-8f5e-8144-92aa-d250c7a2111f",
-      "pin_state": false
-    },
-    {
-      "id": "okrs",
-      "name": "OKRs",
-      "status": "Blocked",
-      "live_tasks": 3,
-      "last_touched": "2026-07-30",
-      "current_state": "The four Lattice goals are still at zero and untouched since 8 July. 14 of 19 intake eligibility-call rows are blank, so OKR calculation cannot start.",
-      "waiting_on": "The 14 blank intake eligibility-call rows, which depend on Rodrigo Gomes' extension merge around 20 Aug.",
-      "next_action": "Update the four overdue Lattice goals with current progress",
-      "aliases": [
-        "okr",
-        "okr-comms",
-        "lattice"
-      ],
-      "notion_page_id": "3b33de19-8f5e-8169-a2b4-da422ec5742f",
-      "pin_state": false
-    },
-    {
-      "id": "ai-recruiting",
-      "name": "Roundup & Intake (AI recruiting tools)",
-      "status": "Blocked",
-      "live_tasks": 10,
-      "last_touched": "2026-08-05",
-      "current_state": "Jacopo needs the intake usage tracker before the September grace-period deadline. Rodrigo's read-only Supabase SQL is unrun and the revised roundup questions from Jovana and Dolores have not landed.",
-      "waiting_on": "Jovana Drakula and Dolores Palotas on the revised roundup questions before the voice version goes wide.",
-      "next_action": "Finish wiring the intake usage tracker and share it with Jacopo, Salem and Chris",
-      "aliases": [
-        "intake-tool",
-        "intake",
-        "roles-roundup",
-        "roles-round-up",
-        "rolls-roundup"
-      ],
-      "notion_page_id": "3b33de19-8f5e-8178-90e7-ca36da5147c0",
-      "pin_state": false
-    },
-    {
-      "id": "tribebot",
-      "name": "Tribebot",
-      "status": "Blocked",
-      "live_tasks": 9,
-      "last_touched": "2026-08-05",
-      "current_state": "Week-31 Roles Roundup still has 9 unswept roles and the Monday noon backstop dies on a 5s timeout. Rodrigo and Jovana still lack Supabase access for the Knowledge Hub prototype.",
-      "waiting_on": "Jovana Drakula and Dolores Palotas on the revised roundup questions before the voice version rolls out to everyone.",
-      "next_action": "Re-run the week-31 Roles Roundup finalize and fix the 5s timeout",
-      "aliases": [
-        "tribot-kb",
-        "tribot",
-        "tribebot-kb",
-        "roles-bot"
-      ],
-      "notion_page_id": "3b33de19-8f5e-8178-b511-c054613de472",
-      "pin_state": false
-    },
-    {
-      "id": "fin-dash",
-      "name": "Tribe Financial Dashboard",
-      "status": "Active",
-      "live_tasks": 14,
-      "last_touched": "2026-08-05",
-      "current_state": "step6_employer_true_cost still costs off a hardcoded 8-person list. The EUR 9,700/mo MB agreement is invisible to the dashboard and watchdog.yml's '|| true' hides CI failures.",
-      "waiting_on": "Nothing external. The EUR 485K overhead memo and the Vista row check are both yours.",
-      "next_action": "Derive EMPLOYER_TRUE_COST_TARGETS from BambooHR report 149 instead of the hardcoded list",
-      "aliases": [
-        "finance",
-        "finance-ops",
-        "cz-tax",
-        "budget",
-        "cashflow"
-      ],
-      "notion_page_id": "3b33de19-8f5e-8192-b003-e25ad2338ba8",
-      "pin_state": false
-    },
-    {
-      "id": "personal",
-      "name": "Personal",
-      "status": "Active",
-      "live_tasks": 8,
-      "last_touched": "2026-08-05",
-      "current_state": "Eight open personal items. The 5 Aug job picks (Trivium Director of Operations & Growth at 80, Glimmer Head of Business Ops) are undecided, plus the Kosik planner automation call.",
-      "waiting_on": "Nothing.",
-      "next_action": "Decide on the Trivium (80) and Glimmer job-search picks",
-      "aliases": [
-        "job-search",
-        "job-research",
-        "rental",
-        "bezrealitky",
-        "kosik",
-        "household"
-      ],
-      "notion_page_id": "3b33de19-8f5e-8193-9cc4-c0c217401f8a",
-      "pin_state": false
-    },
-    {
-      "id": "legal",
-      "name": "Legal & Contracts",
-      "status": "Blocked",
-      "live_tasks": 17,
-      "last_touched": "2026-08-05",
-      "current_state": "Voize is one Matt read away from Linda Schuster's signature. Filics has open redlines from both Kristjana and Seyed Behbahani, and Boris Gnoth plus CEE Attorneys owe written Estonia answers.",
-      "waiting_on": "Matthew Murdoch on the final Voize read, and Boris Gnoth plus CEE Attorneys on the Estonia questions.",
-      "next_action": "Finalize the Voize contract and send it to Linda Schuster for signature",
-      "aliases": [
-        "contracts",
-        "nda",
-        "ndas",
-        "estonia"
-      ],
-      "notion_page_id": "3b33de19-8f5e-8198-a89b-fc4150a825be",
-      "pin_state": false
-    },
-    {
-      "id": "project-hub",
-      "name": "Project Hub",
-      "status": "Blocked",
-      "live_tasks": 4,
-      "last_touched": "2026-08-05",
-      "current_state": "Jacopo was promised the interview-stage adoption tracker 'latest tomorrow' and it is still static. The IR Interview Process entry has not been edited since March.",
-      "waiting_on": "Jacopo Lupo Ferrari on whether the new sourcing tool runs through the Sourcing Lab.",
-      "next_action": "Wire up Jacopo's interview-stage adoption tracker and give Salem and Chris access",
-      "aliases": [
-        "projecthub",
-        "projecthub-comms"
-      ],
-      "notion_page_id": "3b33de19-8f5e-81a2-bca3-c5cf9f2d606d",
-      "pin_state": false
-    },
-    {
-      "id": "leadership",
-      "name": "Leadership comms",
-      "status": "Active",
-      "live_tasks": 8,
-      "last_touched": "2026-08-04",
-      "current_state": "Nothing has moved on the three 4 Aug commitments. Martin travels 13 Aug, so the ops-role slot is seven days out and the EUR 485K overhead memo is still unwritten.",
-      "waiting_on": "Nothing. Martin Bernard has not been asked for the slot yet.",
-      "next_action": "Ask Martin for a pre-13-Aug slot and bring the one-page ops-role scope proposal",
-      "aliases": [
-        "cos-weekly-log",
-        "cos",
-        "cos-log"
-      ],
-      "notion_page_id": "3b33de19-8f5e-81a4-b4e5-c441366cf630",
-      "pin_state": false
-    },
-    {
-      "id": "keboola-sunset",
-      "name": "Keboola migration / sunset",
-      "status": "Blocked",
-      "live_tasks": 2,
-      "last_touched": "2026-08-05",
-      "current_state": "Reopened 5 Aug: Tereza Dolezalova is chasing an unpaid Keboola Czech invoice Martin redirected to you, and Anna Duskova owes renewal options scaled to actual credit usage.",
-      "waiting_on": "Anna Duskova at Keboola on scale-down options for the renewal commitment.",
-      "next_action": "Pay the Keboola Czech s.r.o. invoice Tereza Dolezalova is chasing",
-      "aliases": [
-        "keboola",
-        "snowflake",
-        "keboola-spend"
-      ],
-      "notion_page_id": "3b33de19-8f5e-81ad-a83e-e7ce83875b0a",
-      "pin_state": false
-    },
-    {
-      "id": "tribe-talks",
-      "name": "Tribe Talks",
-      "status": "Active",
-      "live_tasks": 15,
-      "last_touched": "2026-08-05",
-      "current_state": "The Marcel van der Meer session is 22 October, 45 minutes. The agenda is unconfirmed in writing, Eduardo Moral has not signed off, and the demo shortlist is unbuilt.",
-      "waiting_on": "Nothing. Marcel van der Meer and Eduardo Moral are waiting on your written agenda.",
-      "next_action": "Confirm the 22 Oct agenda with Marcel in writing and get Eduardo's sign-off",
-      "aliases": [
-        "tribe-talks-marcel",
-        "marcel",
-        "tribetalks"
-      ],
-      "notion_page_id": "3b33de19-8f5e-81ae-87a0-d201ff00c518",
-      "pin_state": false
-    },
-    {
-      "id": "linkedin",
-      "name": "LinkedIn (licenses + posting)",
-      "status": "Active",
-      "live_tasks": 5,
-      "last_touched": "2026-08-05",
-      "current_state": "Five 5 Aug subjects sit unpicked, the writer is still owed a reason the 30 Jul postures failed, and the Job Dashboard Manager license Agnieszka flagged is still unassigned.",
-      "waiting_on": "Nothing.",
-      "next_action": "Pick one of the five 5 Aug subjects and tell the writer why the 30 Jul postures failed",
-      "aliases": [
-        "linkedin-licenses",
-        "license",
-        "licenses",
-        "linkedin-posts"
-      ],
-      "notion_page_id": "3b33de19-8f5e-81bc-bb54-c3713d53c1fc",
-      "pin_state": false
-    },
-    {
-      "id": "people-ops",
-      "name": "People Ops / BambooHR",
-      "status": "Active",
-      "live_tasks": 21,
-      "last_touched": "2026-08-05",
-      "current_state": "The Tijana exit brief for Martin is outstanding since 4 Aug. The unlimited time-off plan needs presenting with Ella and Martin's CSSZ statutory-officer registration is unverified.",
-      "waiting_on": "Nothing. Martin Bernard is expecting two briefings from you.",
-      "next_action": "Brief Martin on Tijana's exit feedback",
-      "aliases": [
-        "hr",
-        "spain-payroll",
-        "payroll"
-      ],
-      "notion_page_id": "3b33de19-8f5e-81d3-bfe5-d5a3428bbc4b",
-      "pin_state": false
-    },
-    {
-      "id": "expense-ops",
-      "name": "Expense Ops",
-      "status": "Blocked",
-      "live_tasks": 35,
-      "last_touched": "2026-08-05",
-      "current_state": "35 open items. Lucie Horakova's second invoice batch is unassigned, Adelya Khakimova's July invoice unpaid, the Deel Q-39879 dispute at EUR 5,200/yr unescalated, Revolut pooling unresolved.",
-      "waiting_on": "Francesco Zoffoli at Revolut on pooling the CZK 4M allowance. Account review call booked Tue 11 Aug.",
-      "next_action": "Assign Lucie Horakova's second invoice batch to the right Tribe entities",
-      "aliases": [
-        "invoicing",
-        "invoices",
-        "invoice",
-        "expenses",
-        "client-disputes",
-        "sales-hubspot",
-        "hubspot"
-      ],
-      "notion_page_id": "3b33de19-8f5e-81ec-8e6c-e549e4bc6cf7",
-      "pin_state": false
-    },
-    {
-      "id": "team-cohesion",
-      "name": "Team cohesion",
-      "status": "Active",
-      "live_tasks": 2,
-      "last_touched": "2026-08-04",
-      "current_state": "July numbers are live and leadership still has no context: eNPS 53 to 40, Clients 86 to 67, Wellbeing 86 to 71, RecOps NPS 100 to 0. The dashboard staleness check is unbuilt.",
-      "waiting_on": "Nothing.",
-      "next_action": "Frame the July engagement drop for leadership before they find the numbers",
-      "aliases": [
-        "engagement",
-        "enps",
-        "standup-improvement",
-        "pokedex"
-      ],
-      "notion_page_id": "3b33de19-8f5e-81f0-ae7d-fe83686eb13c",
-      "pin_state": false
-    }
-  ]
+ "generated_at": "2026-08-06",
+ "source": "notion",
+ "notion_database_url": "https://app.notion.com/p/02932048d7bf455b96b3b2fc534fd405",
+ "notion_data_source_id": "298cd4c0-c428-4df7-97e0-10c35f839216",
+ "retired": [
+  {
+   "id": "us-expansion",
+   "name": "US expansion",
+   "retired_on": "2026-08-05",
+   "reason": "0 live tasks, dead since 2026-05-31"
+  },
+  {
+   "id": "sales-hubspot",
+   "name": "Sales dashboard + HubSpot",
+   "retired_on": "2026-08-05",
+   "reason": "1 live task (Nexi PO), rerouted to expense-ops"
+  }
+ ],
+ "projects": [
+  {
+   "id": "ai-first-working-group",
+   "name": "AI First Working Group",
+   "status": "Blocked",
+   "live_tasks": 13,
+   "last_touched": "2026-08-05",
+   "current_state": "Voice-only weekly pilot still undecided after Gustavo and Jovana hit 8 of 8. Rodrigo pulled the intake extension, so Q3 KR1 needs replanning and the sourcer knowledge base is unlogged.",
+   "waiting_on": "Rodrigo Gomes on the merged Tribe extension landing 18-20 Aug before the Q3 KR1 intake window can be replanned.",
+   "next_action": "Decide whether to extend or expand the voice-only weekly-update pilot",
+   "aliases": [
+    "ai-first",
+    "ai-training",
+    "ai-first-wg",
+    "sourcing-lab"
+   ],
+   "notion_page_id": "3b33de19-8f5e-8126-9426-e51e93ae6db3",
+   "pin_state": false
+  },
+  {
+   "id": "rec-dash",
+   "name": "Tribe Recruiting Dashboard",
+   "status": "Active",
+   "live_tasks": 15,
+   "last_touched": "2026-08-05",
+   "current_state": "Stage-funnel trigger fired: 24 stage-move events across 21 candidates. Rodrigo Gomes waits on his role funnel metrics, and Nenad Skoko's taxonomy feedback and W29 intake question are unanswered.",
+   "waiting_on": "Nothing. Rodrigo Gomes and Nenad Skoko are waiting on you.",
+   "next_action": "Start the stage-funnel transform and dashboard build per STAGE_FUNNEL_BUILD_PLAN.md",
+   "aliases": [
+    "circle",
+    "project-circle",
+    "circle-project",
+    "wbr-mbr",
+    "recruiting-dashboard",
+    "recruiting-pipeline",
+    "recruiting",
+    "clients"
+   ],
+   "notion_page_id": "3b33de19-8f5e-812c-b803-f2ddc97ccc95",
+   "pin_state": false
+  },
+  {
+   "id": "infra",
+   "name": "Infra & Automation",
+   "status": "Active",
+   "live_tasks": 32,
+   "last_touched": "2026-08-06",
+   "current_state": "32 open items. The Claude session-archive backup never launched today and two days are missing, the regenerated GitHub token is unverified, and 2FA on team@tribe.xyz is off since 31 Jul.",
+   "waiting_on": "Nothing external. All of it is your own queue.",
+   "next_action": "Fix the Windows Task Scheduler entry for the session-archive backup and backfill the two missing days",
+   "aliases": [
+    "n8n",
+    "n8n-workflows",
+    "slack-automation",
+    "automation",
+    "cloudflare",
+    "claude-backups",
+    "backups",
+    "extension",
+    "extension-dashboard",
+    "it-security",
+    "security"
+   ],
+   "notion_page_id": "3b33de19-8f5e-8144-92aa-d250c7a2111f",
+   "pin_state": false
+  },
+  {
+   "id": "okrs",
+   "name": "OKRs",
+   "status": "Blocked",
+   "live_tasks": 3,
+   "last_touched": "2026-07-30",
+   "current_state": "The four Lattice goals are still at zero and untouched since 8 July. 14 of 19 intake eligibility-call rows are blank, so OKR calculation cannot start.",
+   "waiting_on": "The 14 blank intake eligibility-call rows, which depend on Rodrigo Gomes' extension merge around 20 Aug.",
+   "next_action": "Update the four overdue Lattice goals with current progress",
+   "aliases": [
+    "okr",
+    "okr-comms",
+    "lattice"
+   ],
+   "notion_page_id": "3b33de19-8f5e-8169-a2b4-da422ec5742f",
+   "pin_state": false
+  },
+  {
+   "id": "ai-recruiting",
+   "name": "Roundup & Intake (AI recruiting tools)",
+   "status": "Blocked",
+   "live_tasks": 10,
+   "last_touched": "2026-08-05",
+   "current_state": "Jacopo needs the intake usage tracker before the September grace-period deadline. Rodrigo's read-only Supabase SQL is unrun and the revised roundup questions from Jovana and Dolores have not landed.",
+   "waiting_on": "Jovana Drakula and Dolores Palotas on the revised roundup questions before the voice version goes wide.",
+   "next_action": "Finish wiring the intake usage tracker and share it with Jacopo, Salem and Chris",
+   "aliases": [
+    "intake-tool",
+    "intake",
+    "roles-roundup",
+    "roles-round-up",
+    "rolls-roundup"
+   ],
+   "notion_page_id": "3b33de19-8f5e-8178-90e7-ca36da5147c0",
+   "pin_state": false
+  },
+  {
+   "id": "tribebot",
+   "name": "Tribebot",
+   "status": "Blocked",
+   "live_tasks": 9,
+   "last_touched": "2026-08-05",
+   "current_state": "Week-31 Roles Roundup still has 9 unswept roles and the Monday noon backstop dies on a 5s timeout. Rodrigo and Jovana still lack Supabase access for the Knowledge Hub prototype.",
+   "waiting_on": "Jovana Drakula and Dolores Palotas on the revised roundup questions before the voice version rolls out to everyone.",
+   "next_action": "Re-run the week-31 Roles Roundup finalize and fix the 5s timeout",
+   "aliases": [
+    "tribot-kb",
+    "tribot",
+    "tribebot-kb",
+    "roles-bot"
+   ],
+   "notion_page_id": "3b33de19-8f5e-8178-b511-c054613de472",
+   "pin_state": false
+  },
+  {
+   "id": "fin-dash",
+   "name": "Tribe Financial Dashboard",
+   "status": "Active",
+   "live_tasks": 15,
+   "last_touched": "2026-08-06",
+   "current_state": "Andrea Akovic's BambooHR division now reads 'Maternity leave', so EUR 2,339 of her August cost sits in a fake client division. step6_employer_true_cost still runs off a hardcoded 8-person list.",
+   "waiting_on": "Nothing external. The BambooHR division leak and the EUR 485K overhead memo are both yours.",
+   "next_action": "Stop BambooHR leave statuses leaking into fin-dash divisions and add a watchdog check on division names",
+   "aliases": [
+    "finance",
+    "finance-ops",
+    "cz-tax",
+    "budget",
+    "cashflow"
+   ],
+   "notion_page_id": "3b33de19-8f5e-8192-b003-e25ad2338ba8",
+   "pin_state": false
+  },
+  {
+   "id": "personal",
+   "name": "Personal",
+   "status": "Active",
+   "live_tasks": 9,
+   "last_touched": "2026-08-06",
+   "current_state": "Nine open personal items. The 6 Aug pick (shuckerOPS Chief of Staff, 81) and the 5 Aug picks (Trivium at 80, Glimmer Head of Business Ops) are all undecided, plus the Kosik planner automation call.",
+   "waiting_on": "Nothing.",
+   "next_action": "Decide on the shuckerOPS Chief of Staff pick (81) and whether to overrule the Stretch cap on Neurons Lab COO",
+   "aliases": [
+    "job-search",
+    "job-research",
+    "rental",
+    "bezrealitky",
+    "kosik",
+    "household"
+   ],
+   "notion_page_id": "3b33de19-8f5e-8193-9cc4-c0c217401f8a",
+   "pin_state": false
+  },
+  {
+   "id": "legal",
+   "name": "Legal & Contracts",
+   "status": "Blocked",
+   "live_tasks": 24,
+   "last_touched": "2026-08-06",
+   "current_state": "Filics moved today: agreed redlines to implement, Seyed Behbahani's Art. 8.2/8.3 redraft to answer, clauses 3.1.d and 3.3 to rework. Voize needs Matt's address details and Linda Schuster's signature block.",
+   "waiting_on": "Seyed Behbahani and Kristjana Kola on the Filics email thread, plus Boris Gnoth and CEE Attorneys on written Estonia answers.",
+   "next_action": "Implement the agreed Filics contract changes and share the revised version for same-day signing",
+   "aliases": [
+    "contracts",
+    "nda",
+    "ndas",
+    "estonia"
+   ],
+   "notion_page_id": "3b33de19-8f5e-8198-a89b-fc4150a825be",
+   "pin_state": false
+  },
+  {
+   "id": "project-hub",
+   "name": "Project Hub",
+   "status": "Blocked",
+   "live_tasks": 4,
+   "last_touched": "2026-08-05",
+   "current_state": "Jacopo was promised the interview-stage adoption tracker 'latest tomorrow' and it is still static. The IR Interview Process entry has not been edited since March.",
+   "waiting_on": "Jacopo Lupo Ferrari on whether the new sourcing tool runs through the Sourcing Lab.",
+   "next_action": "Wire up Jacopo's interview-stage adoption tracker and give Salem and Chris access",
+   "aliases": [
+    "projecthub",
+    "projecthub-comms"
+   ],
+   "notion_page_id": "3b33de19-8f5e-81a2-bca3-c5cf9f2d606d",
+   "pin_state": false
+  },
+  {
+   "id": "leadership",
+   "name": "Leadership comms",
+   "status": "Active",
+   "live_tasks": 8,
+   "last_touched": "2026-08-04",
+   "current_state": "Nothing has moved on the three 4 Aug commitments. Martin travels 13 Aug, so the ops-role slot is seven days out and the EUR 485K overhead memo is still unwritten.",
+   "waiting_on": "Nothing. Martin Bernard has not been asked for the slot yet.",
+   "next_action": "Ask Martin for a pre-13-Aug slot and bring the one-page ops-role scope proposal",
+   "aliases": [
+    "cos-weekly-log",
+    "cos",
+    "cos-log"
+   ],
+   "notion_page_id": "3b33de19-8f5e-81a4-b4e5-c441366cf630",
+   "pin_state": false
+  },
+  {
+   "id": "keboola-sunset",
+   "name": "Keboola migration / sunset",
+   "status": "Blocked",
+   "live_tasks": 2,
+   "last_touched": "2026-08-05",
+   "current_state": "Two items open since 5 Aug: Tereza Dolezalova is chasing an unpaid Keboola Czech invoice Martin redirected to you, and Anna Duskova owes renewal options scaled to actual credit usage.",
+   "waiting_on": "Anna Duskova at Keboola on scale-down options for the renewal commitment.",
+   "next_action": "Pay the Keboola Czech s.r.o. invoice Tereza Dolezalova is chasing",
+   "aliases": [
+    "keboola",
+    "snowflake",
+    "keboola-spend"
+   ],
+   "notion_page_id": "3b33de19-8f5e-81ad-a83e-e7ce83875b0a",
+   "pin_state": false
+  },
+  {
+   "id": "tribe-talks",
+   "name": "Tribe Talks",
+   "status": "Active",
+   "live_tasks": 15,
+   "last_touched": "2026-08-05",
+   "current_state": "The Marcel van der Meer session is 22 October, 45 minutes. The agenda is unconfirmed in writing, Eduardo Moral has not signed off, and the 3-minute demo shortlist is unbuilt.",
+   "waiting_on": "Nothing. Marcel van der Meer and Eduardo Moral are waiting on your written agenda.",
+   "next_action": "Confirm the 22 Oct agenda with Marcel in writing and get Eduardo's sign-off",
+   "aliases": [
+    "tribe-talks-marcel",
+    "marcel",
+    "tribetalks"
+   ],
+   "notion_page_id": "3b33de19-8f5e-81ae-87a0-d201ff00c518",
+   "pin_state": false
+  },
+  {
+   "id": "linkedin",
+   "name": "LinkedIn (licenses + posting)",
+   "status": "Active",
+   "live_tasks": 7,
+   "last_touched": "2026-08-06",
+   "current_state": "Ella needs a Premium seat or a spare Recruiter license for partnership outreach. Two 6 Aug drafts both land on Tue 11 Aug, and the five 5 Aug subjects are still unpicked.",
+   "waiting_on": "Nothing.",
+   "next_action": "Move one of the clashing 11 Aug drafts and pick between the two new subjects",
+   "aliases": [
+    "linkedin-licenses",
+    "license",
+    "licenses",
+    "linkedin-posts"
+   ],
+   "notion_page_id": "3b33de19-8f5e-81bc-bb54-c3713d53c1fc",
+   "pin_state": false
+  },
+  {
+   "id": "people-ops",
+   "name": "People Ops / BambooHR",
+   "status": "Active",
+   "live_tasks": 21,
+   "last_touched": "2026-08-05",
+   "current_state": "The Tijana exit brief for Martin is outstanding since 4 Aug. The unlimited time-off plan needs presenting with Ella and Martin's CSSZ statutory-officer registration is unverified.",
+   "waiting_on": "Nothing. Martin Bernard is expecting two briefings from you.",
+   "next_action": "Brief Martin on Tijana's exit feedback",
+   "aliases": [
+    "hr",
+    "spain-payroll",
+    "payroll"
+   ],
+   "notion_page_id": "3b33de19-8f5e-81d3-bfe5-d5a3428bbc4b",
+   "pin_state": false
+  },
+  {
+   "id": "expense-ops",
+   "name": "Expense Ops",
+   "status": "Blocked",
+   "live_tasks": 41,
+   "last_touched": "2026-08-06",
+   "current_state": "41 open items. Lucie Horakova needs the missing Tribe Holding invoices for 1-6/2026, Rodrigo's salary bounces until his Brazilian account replaces the EUR intermediary, and Friday's run gates Monday payday.",
+   "waiting_on": "Francesco Zoffoli at Revolut on pooling the CZK 4M allowance. Account review call booked Tue 11 Aug.",
+   "next_action": "Send Lucie Horakova the missing Tribe.xyz Holding invoices for 1-6/2026",
+   "aliases": [
+    "invoicing",
+    "invoices",
+    "invoice",
+    "expenses",
+    "client-disputes",
+    "sales-hubspot",
+    "hubspot"
+   ],
+   "notion_page_id": "3b33de19-8f5e-81ec-8e6c-e549e4bc6cf7",
+   "pin_state": false
+  },
+  {
+   "id": "team-cohesion",
+   "name": "Team cohesion",
+   "status": "Active",
+   "live_tasks": 2,
+   "last_touched": "2026-08-04",
+   "current_state": "July numbers are live and leadership still has no context: eNPS 53 to 40, Clients 86 to 67, Wellbeing 86 to 71, RecOps NPS 100 to 0. The dashboard staleness check is unbuilt.",
+   "waiting_on": "Nothing.",
+   "next_action": "Frame the July engagement drop for leadership before they find the numbers",
+   "aliases": [
+    "engagement",
+    "enps",
+    "standup-improvement",
+    "pokedex"
+   ],
+   "notion_page_id": "3b33de19-8f5e-81f0-ae7d-fe83686eb13c",
+   "pin_state": false
+  }
+ ]
 }

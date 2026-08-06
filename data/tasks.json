@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-08-06",
   "schema_version": 3,
-  "total": 217,
-  "active_count": 217,
+  "total": 236,
+  "active_count": 236,
   "archived_count": 452,
   "projects": [
     {
@@ -11551,6 +11551,321 @@
       "id": "cowork/local_105b305e-6223-40ea-bff6-8fcaa7c7dcf5/decidewhethertodropthetruefromwatchdogym",
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Implement the agreed Filics contract changes (protected-persons/contractor exclusion, reference remuneration definition, fixed + per-hire fee, referral fee on hire only, GDPR data deletion, pause clause) and share the revised version for same-day signing",
+      "project": "legal",
+      "source": "fireflies/01KZBN3C16C4Z8TG6SSANDJDVF",
+      "source_type": "fireflies",
+      "date": "2026-08-06",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Filics Contract"
+      },
+      "id": "fireflies/01KZBN3C16C4Z8TG6SSANDJDVF/implementtheagreedfilicscontractchangesp",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Add the awareness clause and reworded Felix logo/name usage clause as comments in the Filics contract for Seyed and Kristjana to review post-call",
+      "project": "legal",
+      "source": "fireflies/01KZBN3C16C4Z8TG6SSANDJDVF",
+      "source_type": "fireflies",
+      "date": "2026-08-06",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Filics Contract"
+      },
+      "id": "fireflies/01KZBN3C16C4Z8TG6SSANDJDVF/addtheawarenessclauseandrewordedfelixlog",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Send Lucie Horakova (Boris Gnoth Tax) the missing Tribe.xyz Holding invoices for period 1-6/2026 listed in her 'Missing invoices Tribe Holding 6.8.2026.xlsx'",
+      "project": "expense-ops",
+      "source": "gmail/19fd760878b98de8",
+      "source_type": "gmail",
+      "date": "2026-08-06",
+      "confidence": "high",
+      "extras": {
+        "subject": "Missing invoices Tribe.xyz Holding 1-6/2026",
+        "from": "lhorakova@borisgnoth.cz"
+      },
+      "id": "gmail/19fd760878b98de8",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Reply to Seyed Behbahani on his post-call redraft of Filics Art. 8.2/8.3 (24-month referral fee, 'Protected Person' and 'Reference Remuneration' definitions, inadvertent-acts carve-out) - he asked 'lmk if that works for you'",
+      "project": "legal",
+      "source": "gmail/19fd77ed0660491d",
+      "source_type": "gmail",
+      "date": "2026-08-06",
+      "confidence": "high",
+      "extras": {
+        "subject": "Re: [EXT] Updated invitation: Filics Contract @ Thu Aug 6, 2026",
+        "from": "behbahani@filics.eu"
+      },
+      "id": "gmail/19fd77ed0660491d",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Update the Voize_Tribe.xyz agreement per Matt Murdoch's reply: use Voize's own address details, send invoices to matt@voize.de, and address the signature block to COO Linda Schuster",
+      "project": "legal",
+      "source": "gmail/19fd305139d6b970",
+      "source_type": "gmail",
+      "date": "2026-08-05",
+      "confidence": "high",
+      "extras": {
+        "subject": "Voize_Tribe.xyz - @matt@voize.de - could you please pro...",
+        "from": "comments-noreply@docs.google.com (Matthew Murdoch)"
+      },
+      "id": "gmail/19fd305139d6b970",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Decide whether to keep, downgrade or cancel the TRIBE.XYZ SPAIN SL annual Revolut Business plan before it auto-renews",
+      "project": "expense-ops",
+      "source": "gmail/19fc510ebfcbad48",
+      "source_type": "gmail",
+      "date": "2026-08-03",
+      "confidence": "low",
+      "extras": {
+        "subject": "Your Business plan is renewing",
+        "from": "no-reply@revolut.com"
+      },
+      "id": "gmail/19fc510ebfcbad48",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Reply to Seyed's (Filics) contract comments and join the email thread Kristjana is starting - introduce yourself and offer a call to have an open conversation about the cooperation",
+      "project": "legal",
+      "source": "slack/D059MAFUJR0/1786002629.263709",
+      "source_type": "slack",
+      "date": "2026-08-06",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Kristjana Thorarinsdottir",
+        "from": "Blake Barkley (commitment)"
+      },
+      "id": "slack/D059MAFUJR0/1786002629.263709",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Filics contract 3.1.d: delete your existing reply on Seyed's per-hire guarantee comment and re-reply with the no-guarantee position (he would pay far more for an agency hire)",
+      "project": "legal",
+      "source": "slack/D059MAFUJR0/1786012035.919769",
+      "source_type": "slack",
+      "date": "2026-08-06",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Kristjana Thorarinsdottir",
+        "from": "Kristjana Thorarinsdottir"
+      },
+      "id": "slack/D059MAFUJR0/1786012035.919769",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Amend clause 3.3 of the Filics contract to state explicitly that they will take the LinkedIn Recruiter license and that it carries the agreed extra fee",
+      "project": "legal",
+      "source": "slack/D059MAFUJR0/1786025686.863209",
+      "source_type": "slack",
+      "date": "2026-08-06",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Kristjana Thorarinsdottir",
+        "from": "Kristjana Thorarinsdottir"
+      },
+      "id": "slack/D059MAFUJR0/1786025686.863209",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Confirm Revolut can pay out in BRL, then replace Rodrigo Gomes's old EUR/intermediary bank details with his Brazilian bank account so salary transfers stop bouncing via JP Morgan",
+      "project": "expense-ops",
+      "source": "slack/D059PSVF62G/1786010101.235009",
+      "source_type": "slack",
+      "date": "2026-08-06",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Rodrigo Gomes",
+        "from": "Blake Barkley (commitment) / Rodrigo Gomes"
+      },
+      "id": "slack/D059PSVF62G/1786010101.235009",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Process all invoices on Friday 7 Aug so payments can go out Monday morning (payday)",
+      "project": "expense-ops",
+      "source": "slack/CKWLY0TJ8/1786020179.383779",
+      "source_type": "slack",
+      "date": "2026-08-06",
+      "confidence": "high",
+      "extras": {
+        "channel": "#important_updates",
+        "from": "Blake Barkley (commitment)"
+      },
+      "id": "slack/CKWLY0TJ8/1786020179.383779",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "On 15 Aug, forward Salem's out-of-pocket Portugal trip car rental details to the Spanish accountants (too late for this month's invoice run)",
+      "project": "expense-ops",
+      "source": "slack/D057XNFLHTR/1786020632.676429",
+      "source_type": "slack",
+      "date": "2026-08-06",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Salem Mansuri",
+        "from": "Blake Barkley (commitment)"
+      },
+      "id": "slack/D057XNFLHTR/1786020632.676429",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Sort Ella's LinkedIn Premium for partnership outreach - either give her an existing Recruiter license seat or approve the ~EUR 350/yr Premium on the company card, so we don't double-pay",
+      "project": "linkedin",
+      "source": "slack/D05Q6UWSV8E/1786001125.426739",
+      "source_type": "slack",
+      "date": "2026-08-06",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Ella Darie",
+        "from": "Ella Darie"
+      },
+      "id": "slack/D05Q6UWSV8E/1786001125.426739",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Switch Rodrigo's contractor payments from USD to BRL over Pix - Revolut gives no field for the intermediary BIC, so USD to his account is structurally fragile (Revolut->JPM->Standard Chartered stalls). Collect his CPF plus Brazilian bank agencia/conta or Pix key, confirm he accepts Revolut's FX rate, and update the n8n vendor mapping; keep Wise as the fallback rail.",
+      "project": "expense-ops",
+      "source": "cowork/local_cd5bf5b3-1da4-442b-ac21-4376d69bb50e",
+      "source_type": "cowork",
+      "date": "2026-08-06",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Brazil transfer intermediary bank"
+      },
+      "id": "cowork/local_cd5bf5b3-1da4-442b-ac21-4376d69bb50e/switchrodrigoscontractorpaymentsfromusdt",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Stop BambooHR leave statuses leaking into fin-dash client divisions - Andrea Akovic's Division is now 'Maternity leave' and EUR 2,339 of her August cost sits under ct='Client', d='Maternity leave'. Contained for now (never reaches cr/bu/bu_monthly), but no watchdog check validates client division names, so add one.",
+      "project": "fin-dash",
+      "source": "cowork/local_6e1155d5-f97c-4531-ab49-b3a66a9efc57",
+      "source_type": "cowork",
+      "date": "2026-08-06",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Tribe dashboard watchdog"
+      },
+      "id": "cowork/local_6e1155d5-f97c-4531-ab49-b3a66a9efc57/stopbamboohrleavestatusesleakingintofind",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Act on the 6 Aug job-search run: the single pick is Support Partner / Chief of Staff at shuckerOPS-shuckerVC (81, US remote, 1-3 yrs, explicit agent-building mandate, ~65% qualify with the GTM half as the gap), and decide whether to overrule the Stretch cap on Neurons Lab COO (75, Czechia-remote) which the v9 seniority rule capped purely for being a #2 seat.",
+      "project": "personal",
+      "source": "cowork/local_6fbb8598-cc7c-43bb-9914-b33c36acfa7a",
+      "source_type": "cowork",
+      "date": "2026-08-06",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Job search daily"
+      },
+      "id": "cowork/local_6fbb8598-cc7c-43bb-9914-b33c36acfa7a/actonthe6augjobsearchrunthesinglepickiss",
+      "project_name": "Personal",
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Resolve the LinkedIn draft calendar clash from the 6 Aug idea run - two drafts now both sit on Tue 11 Aug, so move one; then pick between 'The click I still make' (13 Aug, the stronger of the pair) and 'It always breaks in the boring part' (18 Aug), and decide whether to overrule the never-post flag on the inferred time-in-stage subject parked in the Idea bank.",
+      "project": "linkedin",
+      "source": "cowork/local_17f2372d-4e3d-46d7-abf1-449d42147938",
+      "source_type": "cowork",
+      "date": "2026-08-06",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Linkedin idea generator morning"
+      },
+      "id": "cowork/local_17f2372d-4e3d-46d7-abf1-449d42147938/resolvethelinkedindraftcalendarclashfrom",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Settle the regenerated GitHub fine-grained token: open it on GitHub and read Last used + Repository access. If it never ran, delete it; if it lists tribe-dashboard-leaders and tribe-recruiting it is CROSS_REPO_PAT, so update that Actions secret on bark8922/tribe-dashboard (Contents read/write, those two repos only) or the next deploy-main silently half-deploys - main updates while the leaders and recruiting pushes fail.",
+      "project": "infra",
+      "source": "cowork/local_ce819692-e64a-4ef5-b5ab-f5c2c267cf96",
+      "source_type": "cowork",
+      "date": "2026-08-06",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Claude backups daily"
+      },
+      "id": "cowork/local_ce819692-e64a-4ef5-b5ab-f5c2c267cf96/settletheregeneratedgithubfinegrainedtok",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Fix the Windows Task Scheduler entry for the Claude session-archive backup - the log has no '--- backup starting ---' line for today at all, so it never launched (machine likely asleep at the ~09:00 fire time and StartWhenAvailable is probably False). Flip that setting and run the script by hand to backfill the two missing days of claude-sessions-archive pushes.",
+      "project": "infra",
+      "source": "cowork/local_ce819692-e64a-4ef5-b5ab-f5c2c267cf96",
+      "source_type": "cowork",
+      "date": "2026-08-06",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Claude backups daily"
+      },
+      "id": "cowork/local_ce819692-e64a-4ef5-b5ab-f5c2c267cf96/fixthewindowstaskschedulerentryforthecla",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-06",
       "last_seen": "2026-08-06",
       "status": "open"
     }
