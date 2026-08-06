@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-05",
+  "generated_at": "2026-08-06",
   "schema_version": 3,
-  "total": 198,
-  "active_count": 198,
-  "archived_count": 445,
+  "total": 217,
+  "active_count": 217,
+  "archived_count": 452,
   "projects": [
     {
       "id": "ai-first-working-group",
@@ -7806,7 +7806,8 @@
       "project_name": "Roundup & Intake (AI recruiting tools)",
       "first_seen": "2026-07-15",
       "last_seen": "2026-07-15",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-06"
     },
     {
       "text": "Pause aggressive Tribot promotion temporarily to allow rebranding and repurposing efforts",
@@ -7822,7 +7823,8 @@
       "project_name": "Tribebot",
       "first_seen": "2026-07-15",
       "last_seen": "2026-07-15",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-06"
     },
     {
       "text": "Add the new mentoring program to the project hub for visibility and tracking",
@@ -7838,7 +7840,8 @@
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-07-15",
       "last_seen": "2026-07-15",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-06"
     },
     {
       "text": "Track receipt of the Tribe SRO 06/2026 VAT refund (CZK 148,487) expected by August 25, 2026 per Eva Huclova (Boris Gnoth) - VAT reports submitted",
@@ -7855,7 +7858,8 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-07-15",
       "last_seen": "2026-07-15",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-06"
     },
     {
       "text": "Fix the failing 'Receipts Workflow' n8n workflow - 'The service is receiving too many requests from you' (rate limit) at the 'Update Main Sheet' node, failed 13 Jul 18:00; add throttling/retry or batch the sheet updates.",
@@ -7892,7 +7896,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-07-15",
       "last_seen": "2026-07-15",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-06"
     },
     {
       "text": "Review Maria Gerbore's sick-leave questions (FREMAP appointment only covered Baja por enfermedad comun, not Riesgo durante el embarazo) and reply with next steps per Andrea's request",
@@ -7909,7 +7914,8 @@
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-07-15",
       "last_seen": "2026-07-16",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-06"
     },
     {
       "text": "Investigate the 13 Jul 'Tribe Dashboard - Actual Spend Export Github node' n8n failure - 'Bad gateway' at the Write CSV to GitHub node (new failure mode, distinct from the June refreshToken issue); add retry if transient",
@@ -8303,7 +8309,8 @@
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-07-15",
       "last_seen": "2026-07-22",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-06"
     },
     {
       "text": "Send meeting summary and follow-up notes to the team and absentees to ensure alignment",
@@ -11118,6 +11125,433 @@
       "project_name": "Personal",
       "first_seen": "2026-08-04",
       "last_seen": "2026-08-05",
+      "status": "open"
+    },
+    {
+      "text": "Provide examples and insights from current automation projects (especially the sourcer knowledge base) to enrich the Marcel session presentation content",
+      "project": "tribe-talks",
+      "source": "fireflies/01KZ94TB3TM8Z5T29BJWC41J41",
+      "source_type": "fireflies",
+      "date": "2026-08-05",
+      "confidence": "high",
+      "extras": {
+        "meeting": "mok-quba-yeh"
+      },
+      "id": "fireflies/01KZ94TB3TM8Z5T29BJWC41J41/provideexamplesandinsightsfromcurrentaut",
+      "project_name": "Tribe Talks",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Collaborate with Marcel and Nenad on the outline and agenda topics for the next presentation planning meeting (Sept 18)",
+      "project": "tribe-talks",
+      "source": "fireflies/01KZ94TB3TM8Z5T29BJWC41J41",
+      "source_type": "fireflies",
+      "date": "2026-08-05",
+      "confidence": "high",
+      "extras": {
+        "meeting": "mok-quba-yeh"
+      },
+      "id": "fireflies/01KZ94TB3TM8Z5T29BJWC41J41/collaboratewithmarcelandnenadontheoutlin",
+      "project_name": "Tribe Talks",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Coordinate with Marcel inside the AI and automation in recruitment working group to align on messaging and training efficacy",
+      "project": "ai-first-working-group",
+      "source": "fireflies/01KZ93K0GM74Y10EQC8YV7ENHS",
+      "source_type": "fireflies",
+      "date": "2026-08-05",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "mok-quba-yeh"
+      },
+      "id": "fireflies/01KZ93K0GM74Y10EQC8YV7ENHS/coordinatewithmarcelinsidetheaiandautoma",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Lead the introduction on the Marcel live session call and facilitate an even, open conversation so Marcel can share insights",
+      "project": "tribe-talks",
+      "source": "fireflies/01KZ91WDG2CVJ9GANS498PZMYV",
+      "source_type": "fireflies",
+      "date": "2026-08-05",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Nenad"
+      },
+      "id": "fireflies/01KZ91WDG2CVJ9GANS498PZMYV/leadtheintroductiononthemarcellivesessio",
+      "project_name": "Tribe Talks",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Report the Estonia entity meeting outcomes to Martin and confirm the agreed approach before proceeding",
+      "project": "legal",
+      "source": "fireflies/01KYSE9R1NACGP07XS6S1ZZ4BC",
+      "source_type": "fireflies",
+      "date": "2026-07-30",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Intro - Estonia Company"
+      },
+      "id": "fireflies/01KYSE9R1NACGP07XS6S1ZZ4BC/reporttheestoniaentitymeetingoutcomestom",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Get the LinkedIn Job Dashboard Manager license assigned and activated so you and Sanja can post jobs again (Agnieszka confirmed the extra license Brian provided was never assigned; Brian is now your CSM)",
+      "project": "linkedin",
+      "source": "gmail/19fd1b7624d1fbed",
+      "source_type": "gmail",
+      "date": "2026-08-05",
+      "confidence": "high",
+      "extras": {
+        "subject": "Re: Posting Jobs",
+        "from": "abronczyk@linkedin.com"
+      },
+      "id": "gmail/19fd1b7624d1fbed",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Pay the unpaid Keboola Czech s.r.o. invoice Tereza Dolezalova is chasing - Martin redirected Keboola billing to you and asked you to pay it",
+      "project": "keboola-sunset",
+      "source": "gmail/19fd33728612173e",
+      "source_type": "gmail",
+      "date": "2026-08-05",
+      "confidence": "high",
+      "extras": {
+        "subject": "Re: Faktura vydana Keboola Czech s.r.o.",
+        "from": "martin@tribe.xyz"
+      },
+      "id": "gmail/19fd33728612173e",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with Anna Duskova (Keboola) on the contract renewal - you asked for options to scale the commitment down based on actual credit usage",
+      "project": "keboola-sunset",
+      "source": "gmail/19fd1a9ade81aec1",
+      "source_type": "gmail",
+      "date": "2026-08-05",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Renewal",
+        "from": "blake@tribe.xyz (sent to anna.duskova@keboola.com)"
+      },
+      "id": "gmail/19fd1a9ade81aec1",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Chase Boris Gnoth for written answers on the Estonia questions (CFC carve-out, place of effective management, Martin's distribution position, participation exemption, exit tax on new contracts, what to do with Tribe CZ) before instructing NJORD",
+      "project": "legal",
+      "source": "gmail/19fd0cbfc1931b72",
+      "source_type": "gmail",
+      "date": "2026-08-05",
+      "confidence": "high",
+      "extras": {
+        "subject": "Estonia: a few questions before we move forward",
+        "from": "blake@tribe.xyz (sent to boris@borisgnoth.cz, ehuclova@borisgnoth.cz)"
+      },
+      "id": "gmail/19fd0cbfc1931b72",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with CEE Attorneys (Martin Dohnal / Alexandra Kabrtova) on the Estonia legal questions and obtain the Tribe.xyz Holding a.s. registry extract plus notarised power of attorney from Martin that NJORD needs (sworn-translated into Estonian)",
+      "project": "legal",
+      "source": "gmail/19fd0fd2251e2b47",
+      "source_type": "gmail",
+      "date": "2026-08-05",
+      "confidence": "high",
+      "extras": {
+        "subject": "Estonia",
+        "from": "blake@tribe.xyz (sent to alexandra.kabrtova@ceeatt.com, martin.dohnal@ceeatt.com)"
+      },
+      "id": "gmail/19fd0fd2251e2b47",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Respond to Filics's own redlines on the Filics_Tribe.xyz agreement from Seyed M. Behbahani (5.4 use of the Client's name, 6.6 scaling of services, 9.4 confidential information, the 24-month mutual non-solicit and the signature block)",
+      "project": "legal",
+      "source": "gmail/19fd3cdc8d165039",
+      "source_type": "gmail",
+      "date": "2026-08-05",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Filics_Tribe.xyz - 5.4 Use of the Client's name",
+        "from": "comments-noreply@docs.google.com (Seyed M. Behbahani)"
+      },
+      "id": "gmail/19fd3cdc8d165039",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Answer Salem Mansuri on the contract signing process - what happens once terms are agreed, and whether Tribe uses digital or wet signatures",
+      "project": "legal",
+      "source": "slack/D057XNFLHTR/1785494028.620049",
+      "source_type": "slack",
+      "date": "2026-07-31",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Salem Mansuri",
+        "from": "Salem Mansuri"
+      },
+      "id": "slack/D057XNFLHTR/1785494028.620049",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-07-31",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Send Rodrigo Gomes his role funnel metrics (contacted, positive responses, recruiter screens, moved to ATS, onsite, offers, hires), his intake call data and weekly bot response history - plus the exact field/naming conventions and whether an API exists for him to pull it directly",
+      "project": "rec-dash",
+      "source": "slack/D059PSVF62G/1785934321.009789",
+      "source_type": "slack",
+      "date": "2026-08-05",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Rodrigo Gomes",
+        "from": "Rodrigo Gomes"
+      },
+      "id": "slack/D059PSVF62G/1785934321.009789",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Log the sourcer knowledge base project formally in the AI-First @ Tribe working group notes / Project Hub now that it has been described externally, and prepare a 2-3 minute story about it to use as the concrete example in the Marcel Tribe Talks session",
+      "project": "ai-first-working-group",
+      "source": "slack/D0AKAPA0X3J/1785941019.238279",
+      "source_type": "slack",
+      "date": "2026-08-05",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Blake Updates Bot",
+        "from": "Blake Updates Bot (post-meeting brief)"
+      },
+      "id": "slack/D0AKAPA0X3J/1785941019.238279",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Write up the Marcel call into a doc, add it to the Notion page and draft the session outline from Nenad's four candidate topics (starting your automation journey, what to automate first, AI concerns / future of TAs, his open-source sourcing tool) - Blake committed to this",
+      "project": "tribe-talks",
+      "source": "slack/D05UGUJPZ97/1785941369.779349",
+      "source_type": "slack",
+      "date": "2026-08-05",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Nenad Skoko",
+        "from": "Blake Barkley (own commitment to Nenad Skoko)"
+      },
+      "id": "slack/D05UGUJPZ97/1785941369.779349",
+      "project_name": "Tribe Talks",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Roll the voice version of the weekly sourcer roundup out to everyone once the questions are updated from Jovana and Dolores' feedback - and keep Jovana's voice version switched on in the meantime",
+      "project": "tribebot",
+      "source": "slack/D05A02096RX/1785935364.696169",
+      "source_type": "slack",
+      "date": "2026-08-05",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Jovana Drakula",
+        "from": "Blake Barkley (own commitment to Jovana Drakula)"
+      },
+      "id": "slack/D05A02096RX/1785935364.696169",
+      "project_name": "Tribebot",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Downgrade n8n Pro-2 to Pro-1 monthly (EUR 60) now the Pokedex and email-bot fixes cut executions to ~4,670/mo against a 10,000 cap and peak concurrency is 4 of 20 - run two months on monthly before committing to the non-refundable annual EUR 50 rate",
+      "project": "infra",
+      "source": "cowork/local_b6b72257-6f8f-45f7-b871-4eef1d07920d",
+      "source_type": "cowork",
+      "date": "2026-08-05",
+      "confidence": "high",
+      "extras": {
+        "session": "API cost reduction analysis"
+      },
+      "id": "cowork/local_b6b72257-6f8f-45f7-b871-4eef1d07920d/downgraden8npro2topro1monthlyeur60nowthe",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Re-measure Claude Max usage at claude.ai/settings/usage next Tuesday just before the 1:59 PM weekly reset, on a normal week without a giant audit session, then revisit the 20x to 5x downgrade (22% one day into the cycle killed it this time)",
+      "project": "infra",
+      "source": "cowork/local_b6b72257-6f8f-45f7-b871-4eef1d07920d",
+      "source_type": "cowork",
+      "date": "2026-08-05",
+      "confidence": "medium",
+      "extras": {
+        "session": "API cost reduction analysis"
+      },
+      "id": "cowork/local_b6b72257-6f8f-45f7-b871-4eef1d07920d/remeasureclaudemaxusageatclaudeaisetting",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Escalate the Deel dispute Q-39879 that Andrea already opened for 'no active EOR activity' - EUR 5,200/yr and the single biggest addressable line in the SaaS spend review",
+      "project": "expense-ops",
+      "source": "cowork/local_b6b72257-6f8f-45f7-b871-4eef1d07920d",
+      "source_type": "cowork",
+      "date": "2026-08-05",
+      "confidence": "high",
+      "extras": {
+        "session": "API cost reduction analysis"
+      },
+      "id": "cowork/local_b6b72257-6f8f-45f7-b871-4eef1d07920d/escalatethedeeldisputeq39879thatandreaal",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Cancel the Figma subscription (EUR 720/yr, a website design archive Martin flagged on 16 Jul) and confirm AssemblyAI (EUR 331/yr) is not duplicating Fireflies",
+      "project": "expense-ops",
+      "source": "cowork/local_b6b72257-6f8f-45f7-b871-4eef1d07920d",
+      "source_type": "cowork",
+      "date": "2026-08-05",
+      "confidence": "medium",
+      "extras": {
+        "session": "API cost reduction analysis"
+      },
+      "id": "cowork/local_b6b72257-6f8f-45f7-b871-4eef1d07920d/cancelthefigmasubscriptioneur720yrawebsi",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Open the LinkedIn Recruiter invoice PDFs in the inbox to price the licences - the only line in the AI/SaaS spend review still unquantified, and probably a large one",
+      "project": "linkedin",
+      "source": "cowork/local_b6b72257-6f8f-45f7-b871-4eef1d07920d",
+      "source_type": "cowork",
+      "date": "2026-08-05",
+      "confidence": "medium",
+      "extras": {
+        "session": "API cost reduction analysis"
+      },
+      "id": "cowork/local_b6b72257-6f8f-45f7-b871-4eef1d07920d/openthelinkedinrecruiterinvoicepdfsinthe",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Rotate the Gemini API key, the AssemblyAI key and the TribeIntake password Rodrigo DM'd in plaintext on 28 May - five-minute security task, unrelated to cost",
+      "project": "infra",
+      "source": "cowork/local_b6b72257-6f8f-45f7-b871-4eef1d07920d",
+      "source_type": "cowork",
+      "date": "2026-08-05",
+      "confidence": "high",
+      "extras": {
+        "session": "API cost reduction analysis"
+      },
+      "id": "cowork/local_b6b72257-6f8f-45f7-b871-4eef1d07920d/rotatethegeminiapikeytheassemblyaikeyand",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Fix the n8n Error Handler - it caught zero of the 10 workflow failures last week, so failures are running silent",
+      "project": "infra",
+      "source": "cowork/local_b6b72257-6f8f-45f7-b871-4eef1d07920d",
+      "source_type": "cowork",
+      "date": "2026-08-05",
+      "confidence": "high",
+      "extras": {
+        "session": "API cost reduction analysis"
+      },
+      "id": "cowork/local_b6b72257-6f8f-45f7-b871-4eef1d07920d/fixthen8nerrorhandleritcaughtzeroofthe10",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Repoint the Revolut approve button at the v2 rate-limited path - every approval click still runs the old un-rate-limited v1 while v2 sits as dead code",
+      "project": "expense-ops",
+      "source": "cowork/local_b6b72257-6f8f-45f7-b871-4eef1d07920d",
+      "source_type": "cowork",
+      "date": "2026-08-05",
+      "confidence": "high",
+      "extras": {
+        "session": "API cost reduction analysis"
+      },
+      "id": "cowork/local_b6b72257-6f8f-45f7-b871-4eef1d07920d/repointtherevolutapprovebuttonatthev2rat",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Migrate onyx-server off DigitalOcean to a Hetzner CX43 (EUR 15.99/mo vs USD 84/mo, ~EUR 1,000/yr) - a real migration, not a billing click",
+      "project": "infra",
+      "source": "cowork/local_b6b72257-6f8f-45f7-b871-4eef1d07920d",
+      "source_type": "cowork",
+      "date": "2026-08-05",
+      "confidence": "medium",
+      "extras": {
+        "session": "API cost reduction analysis"
+      },
+      "id": "cowork/local_b6b72257-6f8f-45f7-b871-4eef1d07920d/migrateonyxserveroffdigitaloceantoahetzn",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
+      "status": "open"
+    },
+    {
+      "text": "Decide whether to drop the '|| true' from watchdog.yml so fin-dash watchdog failures actually fail the CI job - right now alerting depends entirely on the Cowork scheduled task reading the output",
+      "project": "fin-dash",
+      "source": "cowork/local_105b305e-6223-40ea-bff6-8fcaa7c7dcf5",
+      "source_type": "cowork",
+      "date": "2026-08-05",
+      "confidence": "medium",
+      "extras": {
+        "session": "Tribe dashboard watchdog"
+      },
+      "id": "cowork/local_105b305e-6223-40ea-bff6-8fcaa7c7dcf5/decidewhethertodropthetruefromwatchdogym",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-06",
       "status": "open"
     }
   ]

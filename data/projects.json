@@ -45,26 +45,26 @@
     "workforce-planning-changes"
   ],
   "lookback_days": 60,
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "generated_from": "data/ledger.json (Notion). Do not hand-edit.",
   "projects": [
     {
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
       "tier": "medium",
-      "notes": "Voice-only weekly-update pilot auto-ended Monday after Gustavo and Jovana hit 8 of 8. Rodrigo pulled the intake extension, so the merge slips to 18-20 Aug and Q3 KR1 needs replanning."
+      "notes": "Voice-only weekly-update pilot is still undecided after Gustavo and Jovana hit 8 of 8. Rodrigo pulled the intake extension, so Q3 KR1 needs replanning and the sourcer knowledge base is unlogged."
     },
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
       "tier": "medium",
-      "notes": "The stage-funnel trigger fired: 24 stage-move events across 21 candidates since 22 Jul, so the build can start. Nenad still has three unanswered asks and 245 of 555 transcriber calls are unlinked."
+      "notes": "Stage-funnel build can start: 24 stage-move events across 21 candidates since 22 Jul. Rodrigo is waiting on funnel metrics, and Nenad's taxonomy feedback and W29 intake question are unanswered."
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "tier": "big",
-      "notes": "Three live security holes: 2FA on team@tribe.xyz off since 31 Jul, Revolut OAuth tokens in plaintext across six n8n workflows, and a GitHub PAT shared in chat still unrevoked."
+      "notes": "Thirty open items. 2FA on team@tribe.xyz off since 31 Jul, Rodrigo's plaintext Gemini and AssemblyAI keys unrotated, n8n Error Handler caught 0 of 10 failures, Pro-2 can drop to Pro-1."
     },
     {
       "id": "okrs",
@@ -76,79 +76,79 @@
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
       "tier": "medium",
-      "notes": "Jacopo needs the intake usage tracker live before the September grace-period deadline. Rodrigo's read-only Supabase access and the wide voice-roundup release are both still unshipped."
+      "notes": "Jacopo needs the intake usage tracker before the September grace-period deadline. Rodrigo's read-only Supabase SQL is unrun and the revised roundup questions from Jovana and Dolores have not landed."
     },
     {
       "id": "tribebot",
       "name": "Tribebot",
       "tier": "medium",
-      "notes": "Week-31 Roles Roundup still has 9 unswept roles and the Monday noon backstop dies on a 5s timeout. Rodrigo and Jovana are still without Supabase access for the Knowledge Hub prototype."
+      "notes": "Week-31 Roles Roundup still has 9 unswept roles and the Monday noon backstop dies on a 5s timeout. Rodrigo and Jovana still lack Supabase access for the Knowledge Hub prototype."
     },
     {
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "medium",
-      "notes": "step6_employer_true_cost still costs off a hardcoded 8-person list, so new Spain SL and EOR hires are understated ~31%. The MB agreement at EUR 9,700/mo is invisible to the dashboard."
+      "notes": "step6_employer_true_cost still costs off a hardcoded 8-person list. The EUR 9,700/mo MB agreement is invisible to the dashboard and watchdog.yml's '|| true' hides CI failures."
     },
     {
       "id": "personal",
       "name": "Personal",
       "tier": "medium",
-      "notes": "Six scored job matches sit undecided, strongest Usercentrics Chief of Staff (84) and thetalo Chief Operations Manager (79). The Alza fan order and Bezrealitky suburb search are still open."
+      "notes": "Eight open personal items. The 5 Aug job picks (Trivium Director of Operations & Growth at 80, Glimmer Head of Business Ops) are undecided, plus the Kosik planner automation call."
     },
     {
       "id": "legal",
       "name": "Legal & Contracts",
       "tier": "medium",
-      "notes": "Voize is one Matt read away from going to Linda Schuster for signature. Filics is stuck on the EUR 60,000 staff transfer fee against Kristjana's 100k. CEE Attorneys cold since 7 Jul."
+      "notes": "Voize is one Matt read away from Linda Schuster's signature. Filics has open redlines from both Kristjana and Seyed Behbahani, and Boris Gnoth plus CEE Attorneys owe written Estonia answers."
     },
     {
       "id": "project-hub",
       "name": "Project Hub",
       "tier": "medium",
-      "notes": "Blake promised Jacopo the interview-stage adoption tracker 'latest tomorrow' and it is still static. The IR Interview Process entry has not been edited since March."
+      "notes": "Jacopo was promised the interview-stage adoption tracker 'latest tomorrow' and it is still static. The IR Interview Process entry has not been edited since March."
     },
     {
       "id": "leadership",
       "name": "Leadership comms",
       "tier": "medium",
-      "notes": "Nothing has moved on the three 4 Aug commitments. The window to catch Martin before he travels on 13 Aug is eight days out and the EUR 485K overhead memo is still unwritten."
+      "notes": "Nothing has moved on the three 4 Aug commitments. Martin travels 13 Aug, so the ops-role slot is seven days out and the EUR 485K overhead memo is still unwritten."
     },
     {
       "id": "keboola-sunset",
       "name": "Keboola migration / sunset",
       "tier": "medium",
-      "notes": "Closed out. The 3 Aug spend check confirmed the new config was ramp-up, not a regression. No open tasks."
+      "notes": "Reopened 5 Aug: Tereza Dolezalova is chasing an unpaid Keboola Czech invoice Martin redirected to you, and Anna Duskova owes renewal options scaled to actual credit usage."
     },
     {
       "id": "tribe-talks",
       "name": "Tribe Talks",
       "tier": "medium",
-      "notes": "The Marcel van der Meer session is now dated 22 October, 45 minutes. The agenda is unconfirmed in writing, Eduardo Moral has not signed off, and the demo shortlist is unbuilt."
+      "notes": "The Marcel van der Meer session is 22 October, 45 minutes. The agenda is unconfirmed in writing, Eduardo Moral has not signed off, and the demo shortlist is unbuilt."
     },
     {
       "id": "linkedin",
       "name": "LinkedIn (licenses + posting)",
       "tier": "medium",
-      "notes": "Five new subjects landed 5 Aug and none is picked. The post writer is still blocked on why all three 30 Jul postures were rejected."
+      "notes": "Five 5 Aug subjects sit unpicked, the writer is still owed a reason the 30 Jul postures failed, and the Job Dashboard Manager license Agnieszka flagged is still unassigned."
     },
     {
       "id": "people-ops",
       "name": "People Ops / BambooHR",
       "tier": "big",
-      "notes": "The Tijana exit brief for Martin is still outstanding from 4 Aug. The unlimited time-off plan needs presenting with Ella, and Martin's CSSZ statutory-officer registration is unverified."
+      "notes": "The Tijana exit brief for Martin is outstanding since 4 Aug. The unlimited time-off plan needs presenting with Ella and Martin's CSSZ statutory-officer registration is unverified."
     },
     {
       "id": "expense-ops",
       "name": "Expense Ops",
       "tier": "big",
-      "notes": "Two new invoice items landed 5 Aug: Lucie Horakova's second unidentified batch and Adelya Khakimova's July invoice. Revolut pooling of the CZK 4M allowance is still unresolved."
+      "notes": "35 open items. Lucie Horakova's second invoice batch is unassigned, Adelya Khakimova's July invoice unpaid, the Deel Q-39879 dispute at EUR 5,200/yr unescalated, Revolut pooling unresolved."
     },
     {
       "id": "team-cohesion",
       "name": "Team cohesion",
       "tier": "medium",
-      "notes": "July numbers are live and leadership still has no context: eNPS 53 to 40, Clients 86 to 67, Wellbeing 86 to 71, RecOps NPS 100 to 0."
+      "notes": "July numbers are live and leadership still has no context: eNPS 53 to 40, Clients 86 to 67, Wellbeing 86 to 71, RecOps NPS 100 to 0. The dashboard staleness check is unbuilt."
     }
   ],
   "project_aliases": {
