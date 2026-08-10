@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-08-10",
   "schema_version": 3,
-  "total": 239,
-  "active_count": 239,
+  "total": 253,
+  "active_count": 253,
   "archived_count": 461,
   "projects": [
     {
@@ -11613,20 +11613,20 @@
       "status": "open"
     },
     {
-      "text": "Reply to Seyed Behbahani on his post-call redraft of Filics Art. 8.2/8.3 (24-month referral fee, 'Protected Person' and 'Reference Remuneration' definitions, inadvertent-acts carve-out) - he asked 'lmk if that works for you'",
+      "text": "Send Seyed Behbahani the final version of the Filics_Tribe.xyz agreement (Blake committed to send it 'first thing in the morning'), incorporating the agreed contractor carve-out from 'Protected Person' and Filics's billing details (invoice@filics.eu, Filics GmbH / Gregor Kolls, Managing Director)",
       "project": "legal",
       "source": "gmail/19fd77ed0660491d",
       "source_type": "gmail",
       "date": "2026-08-06",
       "confidence": "high",
       "extras": {
-        "subject": "Re: [EXT] Updated invitation: Filics Contract @ Thu Aug 6, 2026",
+        "subject": "Re: [EXT] Updated invitation: Filics Contract @ Thu Aug 6, 2026 3:45pm - 4:15pm (CEST)",
         "from": "behbahani@filics.eu"
       },
       "id": "gmail/19fd77ed0660491d",
       "project_name": "Legal & Contracts",
       "first_seen": "2026-08-06",
-      "last_seen": "2026-08-06",
+      "last_seen": "2026-08-10",
       "status": "open"
     },
     {
@@ -11879,7 +11879,7 @@
       "status": "open"
     },
     {
-      "text": "Send Lucie Horakova (Boris Gnoth Tax) the missing Tribe.xyz Czech invoices for period 1-6/2026 listed in the file she attached",
+      "text": "Send Lucie Horakova (Boris Gnoth Tax) the missing Tribe.xyz Czech invoices for period 1-6/2026 listed in her 'Missing invoices Tribe.xyz Czech 6.8.2026.xlsx'",
       "project": "expense-ops",
       "source": "gmail/19fd80eda8ae43dc",
       "source_type": "gmail",
@@ -11897,17 +11897,17 @@
     },
     {
       "text": "Decide on Mikhail Kuzmin's Google Drive access request for the 'transcriber_screen_logging' spreadsheet",
-      "project": "infra",
+      "project": "inbox",
       "source": "gmail/19fdbb3cd583e645",
       "source_type": "gmail",
       "date": "2026-08-07",
-      "confidence": "medium",
+      "confidence": "high",
       "extras": {
-        "subject": "Share request for 'transcriber_screen_logging'",
-        "from": "drive-shares-dm-noreply@google.com (Mikhail Kuzmin)"
+        "subject": "Share request for \"transcriber_screen_logging\"",
+        "from": "drive-shares-dm-noreply@google.com"
       },
       "id": "gmail/19fdbb3cd583e645",
-      "project_name": "Infra & Automation",
+      "project_name": "Needs sorting",
       "first_seen": "2026-08-07",
       "last_seen": "2026-08-10",
       "status": "open"
@@ -11986,7 +11986,7 @@
       "source": "slack/D06CHF6CCN5/1786101350.596459",
       "source_type": "slack",
       "date": "2026-08-07",
-      "confidence": "medium",
+      "confidence": "high",
       "extras": {
         "channel": "DM with Sanja Pavlovikj",
         "from": "Sanja Pavlovikj"
@@ -11999,7 +11999,7 @@
     },
     {
       "text": "Get Caroline Murphy into the Upwork account (or make the change yourself) so Mihajlo's hour limit can be raised temporarily for the website work",
-      "project": "inbox",
+      "project": "expense-ops",
       "source": "slack/D0A90RPGE92/1786098506.759859",
       "source_type": "slack",
       "date": "2026-08-07",
@@ -12009,13 +12009,13 @@
         "from": "Caroline Murphy"
       },
       "id": "slack/D0A90RPGE92/1786098506.759859",
-      "project_name": "Needs sorting",
+      "project_name": "Expense Ops",
       "first_seen": "2026-08-07",
       "last_seen": "2026-08-10",
       "status": "open"
     },
     {
-      "text": "Decide on Rodrigo Gomes's Supabase REST request: enable Row Level Security with SELECT-only policies on jobs, pipeline_weekly_cache, intake_records, weekly_updates and people, then issue the REST base URL and a scoped read-only key for his Chrome extension - the request was pasted from an AI assistant, so review the security implications before granting any key",
+      "text": "Decide on Rodrigo Gomes's request for read-only Supabase REST access for his Chrome extension: enable RLS with SELECT-only policies on jobs, pipeline_weekly_cache, intake_records, weekly_updates and people, then decide whether to issue a scoped read-only key. Request was pasted from an AI assistant - review the security implications yourself before granting any API key",
       "project": "infra",
       "source": "slack/D059PSVF62G/1786101061.899389",
       "source_type": "slack",
@@ -12079,6 +12079,239 @@
       "id": "cowork/local_b8d38ce0-3c10-429c-8eb6-ab229971d543/actonthe7augjobsearchrunthesinglepickisf",
       "project_name": "Personal",
       "first_seen": "2026-08-07",
+      "last_seen": "2026-08-10",
+      "status": "open"
+    },
+    {
+      "text": "Follow up on scaling Jacopo's LinkedIn-scraper + HubSpot sales automation to other team members, and support Jacopo and Martin in preparing their automation walkthrough presentations for the next session",
+      "project": "ai-first-working-group",
+      "source": "fireflies/01KZ3SNJ80774Y5NZ4DA73WM59",
+      "source_type": "fireflies",
+      "date": "2026-08-03",
+      "confidence": "low",
+      "extras": {
+        "meeting": "Claude: Master Sessions"
+      },
+      "id": "fireflies/01KZ3SNJ80774Y5NZ4DA73WM59/followuponscalingjacoposlinkedinscraperh",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-10",
+      "status": "open"
+    },
+    {
+      "text": "Update Rodrigo Gomes's payment destination: he no longer needs EUR converted to BRL, he wants payments sent to a new beneficiary (SOLUTIONS CONSULTANT LTDA, IBAN BR6100416968000010550312684C1, SWIFT ITEMBRSP). Verify the new details with Rodrigo out of band before changing anything in Revolut - this supersedes the earlier BRL/Standard Chartered plan",
+      "project": "expense-ops",
+      "source": "slack/D059PSVF62G/1786112947.244379",
+      "source_type": "slack",
+      "date": "2026-08-07",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Rodrigo Gomes",
+        "from": "Rodrigo Gomes"
+      },
+      "id": "slack/D059PSVF62G/1786112947.244379",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-10",
+      "status": "open"
+    },
+    {
+      "text": "Review and approve Dolores Palotas and Jovana Drakula's rewritten sourcing tracker questions (Part 1 one-time role sourcing strategy; Part 2 weekly what did you try / friction / risk and recommended change) - they asked whether the new questions can go live next week",
+      "project": "rec-dash",
+      "source": "slack/C0BNUPSRC4U/1786100726.653219",
+      "source_type": "slack",
+      "date": "2026-08-07",
+      "confidence": "high",
+      "extras": {
+        "channel": "Group DM with Jovana Drakula and Dolores Palotas",
+        "from": "Dolores Palotas"
+      },
+      "id": "slack/C0BNUPSRC4U/1786100726.653219",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-10",
+      "status": "open"
+    },
+    {
+      "text": "Give Mikhail Kuzmin access to the Google Sheet he requested (docs.google.com/spreadsheets/d/15C6OVEO9tL8pGhrt2IAIobWq_cMtgYyYCA8YO_eoCgQ)",
+      "project": "infra",
+      "source": "slack/D0577RU8WQ1/1786097573.082179",
+      "source_type": "slack",
+      "date": "2026-08-07",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Mikhail Kuzmin",
+        "from": "Mikhail Kuzmin"
+      },
+      "id": "slack/D0577RU8WQ1/1786097573.082179",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-10",
+      "status": "open"
+    },
+    {
+      "text": "Send Martin Bernard the Filics email exchanges and tell him who negotiated the no-poaching terms and which director owns it - he wants to speak to them directly",
+      "project": "legal",
+      "source": "slack/D055NJ27YRY/1786088227.226399",
+      "source_type": "slack",
+      "date": "2026-08-07",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Martin Bernard",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/D055NJ27YRY/1786088227.226399",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-10",
+      "status": "open"
+    },
+    {
+      "text": "Resolve the 07 Aug Payment Reconciliation Check exceptions: 7 missing payments (Martin Bernard, Lejla Dizdarevic, Anastasija Dugalic, Jacopo Lupo Ferrari, Rodrigo Gomes, Damla Kocek, Nemanja Erdevicki - all Tribe CZ) and 8 people not found in Revolut (Kristina Colovic, Erzana Maliqi, Dora Vrbanic, Maria Gerbore, Salem Mansuri, Eduardo Moral Casimiro, Rossella Petrillo, Alexandra Richiteanu)",
+      "project": "expense-ops",
+      "source": "slack/D0AKAPA0X3J/1786092923.595079",
+      "source_type": "slack",
+      "date": "2026-08-07",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Blake Updates Bot",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1786092923.595079",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-10",
+      "status": "open"
+    },
+    {
+      "text": "Chase Salem Mansuri on 15 August for the Portugal trip car rental receipt he paid out of pocket, then forward it to the Spanish accountants - Blake told him it was too late for this run and to send the details on the 15th",
+      "project": "expense-ops",
+      "source": "slack/D057XNFLHTR/1786020471.954979",
+      "source_type": "slack",
+      "date": "2026-08-06",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Salem Mansuri",
+        "from": "Salem Mansuri"
+      },
+      "id": "slack/D057XNFLHTR/1786020471.954979",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-10",
+      "status": "open"
+    },
+    {
+      "text": "Soften the Filics no-poaching penalty clause per Kristjana Thorarinsdottir - use Seyed's own wording that approaches which do not end in a hire are excluded and there is no penalty on unsuccessful reachouts",
+      "project": "legal",
+      "source": "slack/D059MAFUJR0/1786029185.458639",
+      "source_type": "slack",
+      "date": "2026-08-06",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Kristjana Thorarinsdottir",
+        "from": "Kristjana Thorarinsdottir"
+      },
+      "id": "slack/D059MAFUJR0/1786029185.458639",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-10",
+      "status": "open"
+    },
+    {
+      "text": "Find a replacement lead for Wednesday's TL meeting - Katarina Matic Marinkovic was auto-assigned but is OOO, and Chene Elliot can only join the first 15 minutes",
+      "project": "leadership",
+      "source": "slack/C01RLBNHRKP/1785921508.491569",
+      "source_type": "slack",
+      "date": "2026-08-05",
+      "confidence": "medium",
+      "extras": {
+        "channel": "#leadership",
+        "from": "Chene Elliot"
+      },
+      "id": "slack/C01RLBNHRKP/1785921508.491569",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-10",
+      "status": "open"
+    },
+    {
+      "text": "Add an updated status, data and any blockers to your Key Results ahead of the OKR check-in",
+      "project": "okrs",
+      "source": "slack/C06RERFCAF6/1785834028.094939",
+      "source_type": "slack",
+      "date": "2026-08-04",
+      "confidence": "low",
+      "extras": {
+        "channel": "#okr-comms",
+        "from": "Notion (bot)"
+      },
+      "id": "slack/C06RERFCAF6/1785834028.094939",
+      "project_name": "OKRs",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-10",
+      "status": "open"
+    },
+    {
+      "text": "Start the interview-stage transform + dashboard build per STAGE_FUNNEL_BUILD_PLAN.md - the watcher tripped: candidates are now moving through the new stages (Interview 1: 13 events/12 candidates, Interview 2: 9/8, Interview 3: 7/6, first on 2026-07-22, latest 2026-08-06), 7 candidates sitting in them right now and 13 jobs with the pipeline set up",
+      "project": "rec-dash",
+      "source": "cowork/local_e1660290-cf2d-42a2-8a2f-a40f05a184ab",
+      "source_type": "cowork",
+      "date": "2026-08-07",
+      "confidence": "high",
+      "extras": {
+        "session": "Recruiting new stages usage check"
+      },
+      "id": "cowork/local_e1660290-cf2d-42a2-8a2f-a40f05a184ab/starttheinterviewstagetransformdashboard",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-08-10",
+      "status": "open"
+    },
+    {
+      "text": "Send Rodrigo the finalized data-access message plus the job-intel workbook in Slack (the rodrigo_readonly login is provisioned and end-to-end tested), and pass the database password over 1Password rather than Slack",
+      "project": "ai-recruiting",
+      "source": "cowork/local_a385855c-d264-41e2-b2ea-0a04a2887f50",
+      "source_type": "cowork",
+      "date": "2026-08-06",
+      "confidence": "high",
+      "extras": {
+        "session": "Rodrigo data access request"
+      },
+      "id": "cowork/local_a385855c-d264-41e2-b2ea-0a04a2887f50/sendrodrigothefinalizeddataaccessmessage",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-10",
+      "status": "open"
+    },
+    {
+      "text": "Fix the sourcer rebuild emitting a phantom termination row for Zelimir every month since June",
+      "project": "fin-dash",
+      "source": "cowork/local_88bb29f8-541b-4a2b-bcd5-c7a75479715a",
+      "source_type": "cowork",
+      "date": "2026-08-05",
+      "confidence": "medium",
+      "extras": {
+        "session": "Project organization system"
+      },
+      "id": "cowork/local_88bb29f8-541b-4a2b-bcd5-c7a75479715a/fixthesourcerrebuildemittingaphantomterm",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-10",
+      "status": "open"
+    },
+    {
+      "text": "Revive the dead intake eligibility tracker before it gets quoted back at you: only 5 of 34 roles ever had the yellow columns filled (all W29), W30/W31/W32 are blank, and the 29 Jul action items with Andrea and Chantal went nowhere - also correct the summary tab's misleading 100% (it is 2 of 2 roles)",
+      "project": "ai-first-working-group",
+      "source": "cowork/local_377f0e6a-e6b6-468e-ba7d-23f1476d4a90",
+      "source_type": "cowork",
+      "date": "2026-08-05",
+      "confidence": "high",
+      "extras": {
+        "session": "AI first working group prep"
+      },
+      "id": "cowork/local_377f0e6a-e6b6-468e-ba7d-23f1476d4a90/revivethedeadintakeeligibilitytrackerbef",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-05",
       "last_seen": "2026-08-10",
       "status": "open"
     }
