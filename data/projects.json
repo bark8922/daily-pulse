@@ -52,103 +52,103 @@
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
       "tier": "medium",
-      "notes": "Voice-only pilot still undecided: Gustavo and Jovana hit 8 of 8, but W31 is 19 of 19 from only 5 of 9 sourcers (56% vs the 80% KR). Rodrigo pulled the intake extension, so Q3 KR1 needs replanning."
+      "notes": "Martin Bernard needs help with GitHub/Claude Code branches on Server Medalist, and his AI matching system is still not logged in Project Hub. The 5 Aug call was cancelled and the async update never went out."
     },
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
       "tier": "medium",
-      "notes": "Stage-funnel watcher tripped again: 13/9/7 events into Interview 1/2/3, 7 candidates sitting there now, 13 jobs configured. Dolores and Jovana want their rewritten questions live next week."
+      "notes": "Two data bugs are pinned down and unfixed: 125 blank-attribution Evaluation events in W28-32, and 368 unlinked calls keyed on linkedinUrl. Yelena's profile is still broken and the stage-funnel build has not started."
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "tier": "big",
-      "notes": "33 open items. Rodrigo wants read-only Supabase REST access for his extension (request pasted from an AI assistant), the regenerated GitHub token is unverified, and 2FA on team@tribe.xyz is off since 31 Jul."
+      "notes": "38 open items. Caroline Murphy is owed n8n + HubSpot round-robin findings this week to kill the EUR 20/month Calendly fee. The Friday-recap workflow is stuck on stale Notion bodies and BambooHR True Cost keeps failing."
     },
     {
       "id": "okrs",
       "name": "OKRs",
       "tier": "medium",
-      "notes": "Key Results still need status, data and blockers ahead of the check-in. The four Lattice goals sit at zero, and 14 of 19 intake eligibility-call rows are blank so OKR calculation cannot start."
+      "notes": "Nothing has moved since 4 Aug. Key Results still need status, data and blockers, the four Lattice goals sit at zero, and 14 of 19 intake eligibility rows are blank so OKRs cannot be calculated."
     },
     {
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
       "tier": "medium",
-      "notes": "The rodrigo_readonly login is provisioned and tested, so only the send remains, password via 1Password. Jacopo still needs the intake usage tracker before the September grace-period deadline."
+      "notes": "The transcriber is linking candidates to the wrong jobs and dropping call recordings; Mikaela and Rodrigo are on it. Rodrigo's read-only login is provisioned but the data-access message and job-intel workbook are unsent."
     },
     {
       "id": "tribebot",
       "name": "Tribebot",
       "tier": "medium",
-      "notes": "Week-31 Roles Roundup still has 9 unswept roles and the Monday noon backstop dies on a 5s timeout. Rodrigo and Jovana still lack Supabase access for the Knowledge Hub prototype."
+      "notes": "Blake approved Dolores Palotas and Jovana Drakula's rewritten two-part tracker questions on 10 Aug and committed to shipping them today. Week-31 Roles Roundup still needs a re-run for 9 unswept roles."
     },
     {
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "medium",
-      "notes": "Andrea Akovic's BambooHR division reads 'Maternity leave', parking EUR 2,339 of August cost in a fake client division with no watchdog check. The Zelimir phantom termination row has recurred monthly since June."
+      "notes": "Maria Gigacova sent the July TRIBE.XYZ SPAIN close for review. The BambooHR division leak still parks EUR 2,339 of Andrea Akovic's August cost in a fake client division, and Zelimir's phantom row recurs."
     },
     {
       "id": "personal",
       "name": "Personal",
       "tier": "medium",
-      "notes": "Ten open items, mostly decisions: the 6 Aug shuckerOPS Chief of Staff pick (81), the 5 Aug picks Trivium (80) and Glimmer Head of Business Ops (76), plus the Kosik planner automation call."
+      "notes": "Thirteen open items, mostly job-search decisions: Similarweb AI Operations Manager (77) from 10 Aug, cloro Founder's Associate (78) from 7 Aug and shuckerOPS Chief of Staff (81) from 6 Aug are all undecided."
     },
     {
       "id": "legal",
       "name": "Legal & Contracts",
       "tier": "big",
-      "notes": "Filics is live: agreed redlines to implement, the final version promised to Seyed Behbahani and still unsent, and Martin Bernard wants the email exchanges plus who owns the no-poaching terms."
+      "notes": "Wladyslaw Gadomski resigned on 7 Aug before his 24/08 Filics start, so the 7k+2k placement has to come out of invoicing and the deal may die. Martin wants the no-poaching terms reopened with Seyed."
     },
     {
       "id": "project-hub",
       "name": "Project Hub",
       "tier": "medium",
-      "notes": "Jacopo Lupo Ferrari was promised the interview-stage adoption tracker 'latest tomorrow' and it is still static. The IR Interview Process entry has not been edited since March."
+      "notes": "Unchanged since 5 Aug. Jacopo Lupo Ferrari's interview-stage adoption tracker is still static despite the 'latest tomorrow' promise, and the IR Interview Process entry has not been edited since March."
     },
     {
       "id": "leadership",
       "name": "Leadership comms",
       "tier": "medium",
-      "notes": "Nothing has moved on the 4 Aug commitments and Martin travels 13 Aug, so the ops-role slot is three days out. The EUR 485K overhead memo is unwritten and Wednesday's TL meeting has no lead."
+      "notes": "Martin travels 13 Aug and still has not been asked for the ops-role slot; the EUR 485K overhead memo is unwritten. Caroline Murphy's EU Pay Transparency flag needs an owner and Wednesday's TL meeting has no lead."
     },
     {
       "id": "keboola-sunset",
       "name": "Keboola migration / sunset",
       "tier": "medium",
-      "notes": "Two items open since 5 Aug: Tereza Dolezalova is chasing an unpaid Keboola Czech invoice Martin redirected to you, and Anna Duskova owes renewal options scaled to actual credit usage."
+      "notes": "Tereza Dolezalova's unpaid Keboola Czech invoice is still outstanding and Anna Duskova owes scale-down options. Two unrecognised configs that first ran 5 Aug now run 12x per week."
     },
     {
       "id": "tribe-talks",
       "name": "Tribe Talks",
       "tier": "medium",
-      "notes": "Nenad Skoko found Marcel listed as Editor on the prep doc without the file actually being shared with him. The 22 Oct agenda is unconfirmed in writing and the 3-minute demo shortlist is unbuilt."
+      "notes": "Nenad Skoko left assigned comments on the Marcel Run of Show doc and wants a Tuesday 11 Aug slot before it goes to Marcel. The session is locked for 22 October and the promo push targets 22 September."
     },
     {
       "id": "linkedin",
       "name": "LinkedIn (licenses + posting)",
       "tier": "medium",
-      "notes": "Sanja Pavlovikj needs a spare Recruiter license to cover four IR sourcers and says InMail credits look low. Ella still needs a Premium seat, and two 6 Aug drafts both land on Tue 11 Aug."
+      "notes": "Three drafts on rebuilding a company's reporting are waiting on Blake to pick one, and two posts are live but unused. Sanja Pavlovikj still needs a spare Recruiter license and an InMail credit answer."
     },
     {
       "id": "people-ops",
       "name": "People Ops / BambooHR",
-      "tier": "big",
-      "notes": "Damla Kocek needed her insurance details on Sunday for an ER visit and her card is locked in the office. The Tijana exit brief for Martin has been outstanding since 4 Aug."
+      "tier": "medium",
+      "notes": "The eNPS analysis with Ella still needs preparing and secure sharing after the sentiment dip. Damla Kocek needed her insurance number for the ER on 9 Aug, and reviews are undone so BambooHR is not updated."
     },
     {
       "id": "expense-ops",
       "name": "Expense Ops",
       "tier": "big",
-      "notes": "45 open items. Rodrigo Gomes asked over chat to redirect salary to a new beneficiary, SOLUTIONS CONSULTANT LTDA - verify out of band. The 7 Aug reconciliation shows 7 missing payments and 8 people not in Revolut."
+      "notes": "48 open items. Rodrigo Gomes asked over chat to redirect salary to a new beneficiary, SOLUTIONS CONSULTANT LTDA - verify out of band. The Calendly wind-down and the dormant WordPress account are unresolved."
     },
     {
       "id": "team-cohesion",
       "name": "Team cohesion",
       "tier": "medium",
-      "notes": "July numbers are live and leadership still has no context: eNPS 53 to 40, Clients 86 to 67, Wellbeing 86 to 71, RecOps NPS 100 to 0. The dashboard staleness check is unbuilt."
+      "notes": "Unchanged since 4 Aug. July numbers are live with no context for leadership: eNPS 53 to 40, Clients 86 to 67, Wellbeing 86 to 71, RecOps NPS 100 to 0. The dashboard staleness check is still unbuilt."
     }
   ],
   "project_aliases": {
