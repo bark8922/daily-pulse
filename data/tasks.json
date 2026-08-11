@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-08-11",
   "schema_version": 3,
-  "total": 271,
-  "active_count": 271,
+  "total": 282,
+  "active_count": 282,
   "archived_count": 462,
   "projects": [
     {
@@ -38,7 +38,7 @@
     {
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
-      "tier": "medium"
+      "tier": "big"
     },
     {
       "id": "personal",
@@ -12634,6 +12634,185 @@
       "id": "cowork/local_3ad27192-8e81-4866-b594-fdc1df3f7858/finishthewhatsappdesktoprepairafterthere",
       "project_name": "Personal",
       "first_seen": "2026-08-10",
+      "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Add the vendor Deal contract review to the calendar and analyse the payment-obligation and service-fee terms",
+      "project": "legal",
+      "source": "fireflies/01KZRG93NC580GPY9R7ZY473YX",
+      "source_type": "fireflies",
+      "date": "2026-08-11",
+      "confidence": "high",
+      "extras": {
+        "meeting": "People Operations - Tribe Team"
+      },
+      "id": "fireflies/01KZRG93NC580GPY9R7ZY473YX/addthevendordealcontractreviewtothecalen",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Review FX usage and billing cycles in the Revolut admin platform to track the FX allowance and time exchanges before overage fees hit",
+      "project": "expense-ops",
+      "source": "fireflies/01KZR47QTX8S5XFGYCYFWPYC08",
+      "source_type": "fireflies",
+      "date": "2026-08-11",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Account review - Revolut Business (Tribe)"
+      },
+      "id": "fireflies/01KZR47QTX8S5XFGYCYFWPYC08/reviewfxusageandbillingcyclesintherevolu",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Evaluate Revolut's proposals on pooling FX allowances across entities / larger exchange plans and give Francesco feedback on feasibility against actual FX needs",
+      "project": "expense-ops",
+      "source": "fireflies/01KZR47QTX8S5XFGYCYFWPYC08",
+      "source_type": "fireflies",
+      "date": "2026-08-11",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Account review - Revolut Business (Tribe)"
+      },
+      "id": "fireflies/01KZR47QTX8S5XFGYCYFWPYC08/evaluaterevolutsproposalsonpoolingfxallo",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Finalise the Marcel interview guide draft with Nenad, folding in the agreed edits before it goes to Marcel",
+      "project": "tribe-talks",
+      "source": "fireflies/01KZR0W63XHMKPS2KWJ790CJHQ",
+      "source_type": "fireflies",
+      "date": "2026-08-11",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Nenad / Blake"
+      },
+      "id": "fireflies/01KZR0W63XHMKPS2KWJ790CJHQ/finalisethemarcelinterviewguidedraftwith",
+      "project_name": "Tribe Talks",
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Build a short slide-based demo of the automation projects (benefits and tools, anonymised data) for the Marcel session",
+      "project": "tribe-talks",
+      "source": "fireflies/01KZR0W63XHMKPS2KWJ790CJHQ",
+      "source_type": "fireflies",
+      "date": "2026-08-11",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Nenad / Blake"
+      },
+      "id": "fireflies/01KZR0W63XHMKPS2KWJ790CJHQ/buildashortslidebaseddemooftheautomation",
+      "project_name": "Tribe Talks",
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Keep building and testing the in-house calendar/scheduling system, and revert to the paid tool if it proves unreliable",
+      "project": "infra",
+      "source": "fireflies/01KZP19QZ51BP2FD826FHX01PG",
+      "source_type": "fireflies",
+      "date": "2026-08-10",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KZP19QZ51BP2FD826FHX01PG/keepbuildingandtestingtheinhousecalendar",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with the Estonian lawyer and other legal contacts to get detailed written answers on the outstanding company questions",
+      "project": "legal",
+      "source": "fireflies/01KZP19QZ51BP2FD826FHX01PG",
+      "source_type": "fireflies",
+      "date": "2026-08-10",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KZP19QZ51BP2FD826FHX01PG/followupwiththeestonianlawyerandotherleg",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Pay the new Keboola Czech s.r.o. August invoice 0055/2026 from Tereza Dolezalova (forwarded to accounting@ on 11 Aug, payment still outstanding)",
+      "project": "keboola-sunset",
+      "source": "gmail/19ff0258c89862b6",
+      "source_type": "gmail",
+      "date": "2026-08-11",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Invoice Keboola Czech s.r.o. 0055/2026",
+        "from": "tereza@keboola.com"
+      },
+      "id": "gmail/19ff0258c89862b6",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Rotate the Upwork credentials shared in plain text in Slack - Blake posted the martin@tribe.xyz login, the password and the security-question answer in DM to Caroline Murphy on 11 Aug. Change the password and security answer now that she is in, and add her as her own user instead of sharing Martin's account.",
+      "project": "infra",
+      "source": "slack/D0A90RPGE92/1786448669.535749",
+      "source_type": "slack",
+      "date": "2026-08-11",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Caroline Murphy (D0A90RPGE92)",
+        "from": "Blake Barkley (self-exposed credential)"
+      },
+      "id": "slack/D0A90RPGE92/1786448669.535749",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Scope and deliver the data payload Rodrigo Gomes asked for for the Sourcing Lab tool: full pipeline numbers for every stage (not weekly per sourcer), the full intake-tool data payload and the weekly bot updates, each carrying Job IDs and TA/Sourcer User IDs so he can join them. Serve it through the Cloudflare Worker rather than handing over the anon key.",
+      "project": "ai-recruiting",
+      "source": "slack/D059PSVF62G/1786357513.324749",
+      "source_type": "slack",
+      "date": "2026-08-10",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Rodrigo Gomes (D059PSVF62G)",
+        "from": "Rodrigo Gomes"
+      },
+      "id": "slack/D059PSVF62G/1786357513.324749",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Act on the 11 Aug job-search run: the two US picks are Chief of Staff (eCommerce) via Zazu Digital Talent (79, US remote with Eastern overlap, $140-200K published, reports to the founder/CEO of a self-funded consumer-products group, no years bar so the v9 seniority cap does not fire) and Chief of Staff via LHH (74, PE-backed, North Atlanta hybrid); Europe returned 0 picks from 303 surfaced and the cloro Founder's Associate (78) was held as a third repost of the same requisition",
+      "project": "personal",
+      "source": "cowork/local_094356b7-3fd8-402c-be00-50e34755afa5",
+      "source_type": "cowork",
+      "date": "2026-08-11",
+      "confidence": "high",
+      "extras": {
+        "session": "Job search daily (11 Aug run)"
+      },
+      "id": "cowork/local_094356b7-3fd8-402c-be00-50e34755afa5/actonthe11augjobsearchrunthetwouspicksar",
+      "project_name": "Personal",
+      "first_seen": "2026-08-11",
       "last_seen": "2026-08-11",
       "status": "open"
     }
