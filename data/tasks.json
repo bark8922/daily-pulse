@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-10",
+  "generated_at": "2026-08-11",
   "schema_version": 3,
-  "total": 258,
-  "active_count": 258,
-  "archived_count": 461,
+  "total": 271,
+  "active_count": 271,
+  "archived_count": 462,
   "projects": [
     {
       "id": "ai-first-working-group",
@@ -8134,7 +8134,8 @@
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-07-20",
       "last_seen": "2026-07-21",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-11"
     },
     {
       "text": "Review and update the team forecast to reflect Yan's onboarding and Meho's offboarding",
@@ -10839,20 +10840,20 @@
       "status": "open"
     },
     {
-      "text": "Chase Boris Gnoth for written answers on the Estonia questions (CFC carve-out, place of effective management, Martin's distribution position, participation exemption, exit tax on new contracts, what to do with Tribe CZ) before instructing NJORD",
+      "text": "Answer Boris Gnoth's follow-up questions on the Estonia structure before instructing NJORD - the real reasons for the Estonian company (tax vs svarc-system risk vs deductibility), how the new company would be organised and managed (board members / CEO), how long Martin stays involved, group growth plans, and how much real substance (Estonian office, 20h/week employee) you are willing to put in Estonia; he is back from holiday after 17 Aug",
       "project": "legal",
       "source": "gmail/19fd0cbfc1931b72",
       "source_type": "gmail",
-      "date": "2026-08-05",
+      "date": "2026-08-10",
       "confidence": "high",
       "extras": {
-        "subject": "Estonia: a few questions before we move forward",
-        "from": "blake@tribe.xyz (sent to boris@borisgnoth.cz, ehuclova@borisgnoth.cz)"
+        "subject": "RE: Estonia: a few questions before we move forward",
+        "from": "Boris Gnoth <boris@borisgnoth.cz>"
       },
       "id": "gmail/19fd0cbfc1931b72",
       "project_name": "Legal & Contracts",
       "first_seen": "2026-08-05",
-      "last_seen": "2026-08-06",
+      "last_seen": "2026-08-11",
       "status": "open"
     },
     {
@@ -12398,6 +12399,242 @@
       "project_name": "Personal",
       "first_seen": "2026-08-10",
       "last_seen": "2026-08-10",
+      "status": "open"
+    },
+    {
+      "text": "Integrate and automate Tribe Fin and Revolut cash flow data into the finance dashboard so cash-flow forecasting is live rather than manual",
+      "project": "fin-dash",
+      "source": "fireflies/01KZP19QZ51BP2FD826FHX01PG",
+      "source_type": "fireflies",
+      "date": "2026-08-10",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Blake & Martin: 1:1",
+        "attendees": "blake@tribe.xyz, martin@tribe.xyz"
+      },
+      "id": "fireflies/01KZP19QZ51BP2FD826FHX01PG/integrateandautomatetribefinandrevolutca",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Continue the software subscription cleanup - downgrade the Keboola and N8N plans to cut recurring monthly spend",
+      "project": "expense-ops",
+      "source": "fireflies/01KZP19QZ51BP2FD826FHX01PG",
+      "source_type": "fireflies",
+      "date": "2026-08-10",
+      "confidence": "medium",
+      "extras": {
+        "meeting_title": "Blake & Martin: 1:1",
+        "attendees": "blake@tribe.xyz, martin@tribe.xyz"
+      },
+      "id": "fireflies/01KZP19QZ51BP2FD826FHX01PG/continuethesoftwaresubscriptioncleanupdo",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Plan travel and scheduling coordination with Martin around the Estonian entity legal document signing",
+      "project": "legal",
+      "source": "fireflies/01KZP19QZ51BP2FD826FHX01PG",
+      "source_type": "fireflies",
+      "date": "2026-08-10",
+      "confidence": "medium",
+      "extras": {
+        "meeting_title": "Blake & Martin: 1:1",
+        "attendees": "blake@tribe.xyz, martin@tribe.xyz"
+      },
+      "id": "fireflies/01KZP19QZ51BP2FD826FHX01PG/plantravelandschedulingcoordinationwithm",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Work through the action items from your Aug 10 1:1 with Martin: meet Andrea to set up support and follow-through on development plans, build a hires-tracking dashboard for fee-for-hire contracts integrated with the finance dashboard, and tell the accountant that Moonshot was a one-time February charge on Tribe Check",
+      "project": "leadership",
+      "source": "gmail/19fec83baf260f0f",
+      "source_type": "gmail",
+      "date": "2026-08-10",
+      "confidence": "high",
+      "extras": {
+        "subject": "Your recent 1:1 with Martin",
+        "from": "Lattice <notifications@mg.latticehq.com>"
+      },
+      "id": "gmail/19fec83baf260f0f",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Resolve Matthew Murdoch's substantive redlines on the Voize_Tribe.xyz agreement - move the effective date to on or before 7 Aug 2026, handle the client's demand for prior consent where Staff access sensitive candidate data, and settle the insurance / procure-and-maintain wording",
+      "project": "legal",
+      "source": "gmail/19fc81ea61730934",
+      "source_type": "gmail",
+      "date": "2026-08-04",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Voize_Tribe.xyz",
+        "from": "Matthew Murdoch via Google Docs <comments-noreply@docs.google.com>"
+      },
+      "id": "gmail/19fc81ea61730934",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Fix the failing 'pages build and deployment' GitHub Actions run on bark8922/daily-pulse (main, commit 3d119ed) so the site deploys again",
+      "project": "infra",
+      "source": "gmail/19fd794594397048",
+      "source_type": "gmail",
+      "date": "2026-08-06",
+      "confidence": "low",
+      "extras": {
+        "subject": "[bark8922/daily-pulse] Run failed: pages build and deployment - main (3d119ed)",
+        "from": "GitHub <notifications@github.com>"
+      },
+      "id": "gmail/19fd794594397048",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Set a hard deadline on the calendar-automation build (no more than one focused sprint, end of this week) and make a binary call: ship it or drop it and pay the EUR 20-30/month tool - Martin flagged the reliability risk of missing a call that could be an EUR 11k deal",
+      "project": "infra",
+      "source": "slack/D0AKAPA0X3J/1786373392.591449",
+      "source_type": "slack",
+      "date": "2026-08-10",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM - Blake Updates Bot (post-meeting brief: Blake & Martin 1:1, 10 Aug)",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1786373392.591449/setaharddeadlineonthecalendarautomationb",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Define and document the cash flow dashboard architecture - which fields stay manual (forecast/pipeline) and which get auto-pulled via the Revolut API (actual bank balance) - and share the spec with Martin Bernard as an FYI before building",
+      "project": "fin-dash",
+      "source": "slack/D0AKAPA0X3J/1786373392.591449",
+      "source_type": "slack",
+      "date": "2026-08-10",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM - Blake Updates Bot (post-meeting brief: Blake & Martin 1:1, 10 Aug)",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1786373392.591449/defineanddocumentthecashflowdashboardarc",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with Boris after his holiday to lock in a proper call - prepare a structured list of the questions where his holiday reply conflicts with what the Estonian lawyer said, resolve the discrepancies yourself, and surface them to Martin with a recommendation before the call",
+      "project": "legal",
+      "source": "slack/D0AKAPA0X3J/1786373392.591449",
+      "source_type": "slack",
+      "date": "2026-08-10",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM - Blake Updates Bot (post-meeting brief: Blake & Martin 1:1, 10 Aug)",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1786373392.591449/followupwithborisafterhisholidaytolockin",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Send Martin Bernard a short written update (a Slack message with a screenshot is enough) once the Revolut API integration is working, so he stops second-guessing which cash figure is accurate",
+      "project": "fin-dash",
+      "source": "slack/D0AKAPA0X3J/1786373392.591449",
+      "source_type": "slack",
+      "date": "2026-08-10",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM - Blake Updates Bot (post-meeting brief: Blake & Martin 1:1, 10 Aug)",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1786373392.591449/sendmartinbernardashortwrittenupdateasla",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Fix the Friday meeting automation so the linked slide deck matches the meeting - Aleksandra Vistac flagged in #important_updates that the last 3 Friday meetings all link the same deck from 24.07; Blake replied 'Will have a look'",
+      "project": "infra",
+      "source": "slack/CKWLY0TJ8/1786352592.173499",
+      "source_type": "slack",
+      "date": "2026-08-10",
+      "confidence": "high",
+      "extras": {
+        "channel": "#important_updates",
+        "from": "Aleksandra Vistac"
+      },
+      "id": "slack/CKWLY0TJ8/1786352592.173499",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Build the Cloudflare Worker proxy in front of the Supabase database for Rodrigo Gomes's Chrome extension - credentials held server-side, a few read-only JSON endpoints, and a rotatable token issued to Rodrigo - instead of handing over the project anon key, which would expose every job with comp ranges and client names, all 79 people records with work emails, and the intake transcripts",
+      "project": "infra",
+      "source": "slack/D059PSVF62G/1786348451.837359",
+      "source_type": "slack",
+      "date": "2026-08-10",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM - Rodrigo Gomes",
+        "from": "Blake Barkley (own commitment)"
+      },
+      "id": "slack/D059PSVF62G/1786348451.837359",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Unblock the n8n side of the Calendly-replacement booking page: generate a random N8N_WEBHOOK_SECRET, save it in 1Password, and decide whether to weight the round-robin - Salem gets 39 of the 61 slots to Kristjana's 22 and there is not a single slot where both are free, so the alternation almost never fires and the split lands ~64/36 by calendar luck",
+      "project": "infra",
+      "source": "cowork/local_9efe2ee4-4e23-4941-8966-2c6f1316df0f",
+      "source_type": "cowork",
+      "date": "2026-08-11",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Calendly booking system alternative"
+      },
+      "id": "cowork/local_9efe2ee4-4e23-4941-8966-2c6f1316df0f/unblockthen8nsideofthecalendlyreplacemen",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Finish the WhatsApp desktop repair after the reboot: the half-deregistered package was stuck at 'Almost done' waiting on a file lock, so if it is still broken run Get-AppxPackage -Name \"*WhatsApp*\" | Remove-AppxPackage before Store or Windows Update wakes up, then reinstall fresh from the Store",
+      "project": "personal",
+      "source": "cowork/local_3ad27192-8e81-4866-b594-fdc1df3f7858",
+      "source_type": "cowork",
+      "date": "2026-08-10",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "WhatsApp PC app not opening"
+      },
+      "id": "cowork/local_3ad27192-8e81-4866-b594-fdc1df3f7858/finishthewhatsappdesktoprepairafterthere",
+      "project_name": "Personal",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-11",
       "status": "open"
     }
   ]
