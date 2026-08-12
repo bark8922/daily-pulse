@@ -52,103 +52,103 @@
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
       "tier": "medium",
-      "notes": "Martin Bernard still needs GitHub/Claude Code help on Server Medalist. The voice-only weekly-update pilot decision is unmade and Q3 KR1 replanning waits on Rodrigo's merged intake extension."
+      "notes": "Nineteen open. The job recategorization needs an owner and a deadline announced on Friday; Nenad Skoko agreed to lead. The Claude Pro seats message to Martin (10 seats, $20/month) is drafted and unsent."
     },
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
       "tier": "medium",
-      "notes": "A remediation list is owed for 35 unlinked screening calls, matched on meetTitle. Yelena's profile is still broken and the two-bug workbook (125 blank-attribution events, 368 unlinked calls) unhanded."
+      "notes": "The 35 unlinked screening calls are all stuck at assignment_status pending with no linkedinUrl, so the remediation list is still owed. Yelena's profile is broken and the two-bug workbook is unhanded."
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "tier": "big",
-      "notes": "47 open items. Two credential exposures need rotating: the Upwork login pasted in Slack on 11 Aug and the plaintext Supabase rodrigo_readonly. The booking page still needs an N8N_WEBHOOK_SECRET."
+      "notes": "48 open. A 12 Aug automated send bounced 550 5.1.1 on four deactivated addresses at once. The Upwork login pasted in Slack and the plaintext Supabase rodrigo_readonly still need rotating."
     },
     {
       "id": "okrs",
       "name": "OKRs",
       "tier": "medium",
-      "notes": "Nothing has moved since 4 Aug. Key Results still lack status, data and blockers, four Lattice goals are overdue, and 14 of 19 intake eligibility rows are blank so OKRs cannot be calculated."
+      "notes": "The Roles Roundup KR denominator is contested: 86% person-level against 67% role coverage, 37 of 55 roles. Four Lattice goals stay overdue and 14 of 19 intake eligibility rows are blank."
     },
     {
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
       "tier": "medium",
-      "notes": "The transcriber still mislinks candidates and drops recordings, with Mikaela and Rodrigo on it. Sanja's recos-v4 Sonnet-to-Haiku cost switch waits on her quality comparison, and Rodrigo's pipeline payload is unscoped."
+      "notes": "Nothing has moved since 10 Aug. The transcriber still mislinks candidates and drops recordings with Mikaela and Rodrigo on it, and Rodrigo's Sourcing Lab data payload is still unscoped."
     },
     {
       "id": "tribebot",
       "name": "Tribebot",
       "tier": "medium",
-      "notes": "Blake approved the rewritten two-part tracker questions on 10 Aug and promised same-day shipping; still unshipped. Nenad Skoko flagged that TribeBot indexes only top-level messages in IR sprint channels."
+      "notes": "Fourteen IR sprint channels were indexed on 6 Aug and the feedback request got zero replies, so nobody has tested it. The two-part tracker questions Blake approved on 10 Aug are still unshipped."
     },
     {
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "big",
-      "notes": "The Tribe Fin payroll model understates cost by about 30k a month (row 29 flat at 180,723 Sep-Dec). A stale root-level active_employees.json lists 57 names including two leavers. Martin still wants the cash-flow spec."
+      "notes": "Martin Bernard flagged two dashboard problems on 12 Aug: Voize showing -100% from mixing cashflow with profitability, and Aiven staff cost at 52k against 47k actual. Payroll still understates ~30k/month."
     },
     {
       "id": "personal",
       "name": "Personal",
       "tier": "medium",
-      "notes": "Fifteen open items. Four job-search picks are undecided: Zazu Chief of Staff (79) and LHH Chief of Staff (74) from 11 Aug, Similarweb (77) and Client Accelerators (76) from 10 Aug."
+      "notes": "Sixteen open. New angle on 12 Aug: pitch the old employer a fixed-price EUR 4-6K four-week dashboard build via Upwork. Four job-search picks from 10-11 Aug are still undecided."
     },
     {
       "id": "legal",
       "name": "Legal & Contracts",
       "tier": "big",
-      "notes": "Boris Gnoth is away until 17 Aug with five open questions on the Estonian structure. Revolut's Francesco wants Tribe's Estonia footprint, which needs Martin's sign-off on sharing entity details first."
+      "notes": "Filics needs an Article 9 carve-out so the 5-year staff-identity restriction does not block Tribe recruiting elsewhere, and Seyed is unchased on the marketing clause. Boris's five Estonia questions stay open."
     },
     {
       "id": "project-hub",
       "name": "Project Hub",
       "tier": "medium",
-      "notes": "Down to three items, unchanged since 5 Aug. Jacopo Lupo Ferrari's interview-stage adoption tracker is still static and the IR Interview Process entry has not been edited since March."
+      "notes": "Three items, unchanged since 5 Aug. Jacopo Lupo Ferrari's interview-stage adoption tracker is still static and the IR Interview Process entry has not been edited since March."
     },
     {
       "id": "leadership",
       "name": "Leadership comms",
       "tier": "medium",
-      "notes": "The CoS weekly log to Martin was drafted but never sent. The 10 Aug 1:1 left Andrea's development plan, a hires dashboard and the Moonshot note open, and Caroline's Pay Transparency flag needs routing."
+      "notes": "Martin Bernard is out and Blake is covering his inbox. Three items from the 10 Aug 1:1 stay open: Andrea's development plan, the hires dashboard and the Moonshot note."
     },
     {
       "id": "keboola-sunset",
       "name": "Keboola migration / sunset",
       "tier": "medium",
-      "notes": "Two Keboola Czech invoices are unpaid, including 0055/2026 which landed 11 Aug. Anna Duskova still owes scale-down options and two unrecognised configs run 12x weekly."
+      "notes": "Anna Duskova came back on 12 Aug: lowest tier is $12k/year, annual payment only, 300 PPUs, $3/PPU overage, 0.2 TB. She needs a yes/no. Invoice 0055/2026 is still unpaid."
     },
     {
       "id": "tribe-talks",
       "name": "Tribe Talks",
       "tier": "medium",
-      "notes": "The Marcel interview guide needs finalising with Nenad Skoko, who left assigned comments on the Run of Show doc. A slide demo of the automation projects is owed. Promo push targets 22 Sep, session 22 Oct."
+      "notes": "The Marcel interview guide needs finalising with Nenad Skoko, who left assigned comments on the Run of Show. A slide demo of the automation projects is owed. Promo starts 22 Sep, session 22 Oct."
     },
     {
       "id": "linkedin",
       "name": "LinkedIn (licenses + posting)",
       "tier": "medium",
-      "notes": "Three drafts on rebuilding a company's reporting await Blake's pick and two live posts sit unused. Caroline Murphy needs asking whether the leadership LinkedIn program now covers leads."
+      "notes": "Three drafts on rebuilding a company's reporting await Blake's pick and two live posts sit unused. Caroline Murphy still needs asking whether the leadership LinkedIn program covers leads."
     },
     {
       "id": "people-ops",
       "name": "People Ops / BambooHR",
       "tier": "medium",
-      "notes": "Damla Kocek has waited on her insurance number since her 9 Aug ER trip. Vlad's notice-period position needs settling with Andrea before he returns on the 24th, and the eNPS analysis with Ella is unprepared."
+      "notes": "Andrea's maternity leave was typed into BambooHR's free-text Division field on 3 Aug and invented a fake EUR 2,339 client, so it needs re-recording as time off. Damla Kocek still has no insurance number."
     },
     {
       "id": "expense-ops",
       "name": "Expense Ops",
       "tier": "big",
-      "notes": "50 open items. Revolut FX is the live thread: usage and billing cycles to review, weekend exchanges to stop, and Francesco's pooling proposal to answer. Calendly wind-down and the WordPress account are unresolved."
+      "notes": "50 open items. Revolut FX is the live thread: usage and billing cycles to review, weekend exchanges to stop, and Francesco's pooling proposal to answer. The dormant WordPress account is unresolved."
     },
     {
       "id": "team-cohesion",
       "name": "Team cohesion",
       "tier": "medium",
-      "notes": "Unchanged since 4 Aug. July numbers are live with no context for leadership: eNPS 53 to 40, Clients 86 to 67, Wellbeing 86 to 71, RecOps NPS 100 to 0. The dashboard staleness check is still unbuilt."
+      "notes": "Unchanged since 4 Aug. July numbers are live with no context for leadership: eNPS 53 to 40, Clients 86 to 67, Wellbeing 86 to 71, RecOps NPS 100 to 0. The staleness check is still unbuilt."
     }
   ],
   "project_aliases": {

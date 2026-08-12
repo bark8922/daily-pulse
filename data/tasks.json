@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-08-12",
   "schema_version": 3,
-  "total": 283,
-  "active_count": 283,
+  "total": 299,
+  "active_count": 299,
   "archived_count": 472,
   "projects": [
     {
@@ -10833,20 +10833,20 @@
       "status": "open"
     },
     {
-      "text": "Follow up with Anna Duskova (Keboola) on the contract renewal - you asked for options to scale the commitment down based on actual credit usage",
+      "text": "Decide on Anna Duskova's Keboola downgrade offer and reply: the lowest tier is now $12k/year annual-payment-only (monthly billing discontinued) with 300 PPUs, extra credits at $3/PPU, 0.2 TB, 1 project, 3 users - weigh it against the Keboola sunset plan before she prepares the order",
       "project": "keboola-sunset",
       "source": "gmail/19fd1a9ade81aec1",
       "source_type": "gmail",
-      "date": "2026-08-05",
-      "confidence": "medium",
+      "date": "2026-08-12",
+      "confidence": "high",
       "extras": {
-        "subject": "Renewal",
-        "from": "blake@tribe.xyz (sent to anna.duskova@keboola.com)"
+        "subject": "Re: Renewal",
+        "from": "anna.duskova@keboola.com"
       },
       "id": "gmail/19fd1a9ade81aec1",
       "project_name": "Keboola migration / sunset",
       "first_seen": "2026-08-05",
-      "last_seen": "2026-08-06",
+      "last_seen": "2026-08-12",
       "status": "open"
     },
     {
@@ -13004,6 +13004,268 @@
       },
       "id": "cowork/local_81dcb1d2-774b-4ecc-9b2a-97092f58861f/buildthethesecallsneedattachingremediati",
       "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Announce the AI-generated job category recategorization review and its deadline at Friday's meeting and in Important Updates, with instructions for reviewers - about 80% of jobs need no change, so flag that only misclassifications need human intervention",
+      "project": "ai-first-working-group",
+      "source": "fireflies/01KZV03DCDMMX1MAGJRJ3A7DVN",
+      "source_type": "fireflies",
+      "date": "2026-08-12",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KZV03DCDMMX1MAGJRJ3A7DVN/announcetheaigeneratedjobcategoryrecateg",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Discuss paid AI tool licenses with Martin Bernard and agree an approval rule - only grant paid Claude licenses to team members with a clear written business case",
+      "project": "ai-first-working-group",
+      "source": "fireflies/01KZV03DCDMMX1MAGJRJ3A7DVN",
+      "source_type": "fireflies",
+      "date": "2026-08-12",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KZV03DCDMMX1MAGJRJ3A7DVN/discusspaidaitoollicenseswithmartinberna",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Cover Martin Bernard's inbox during his out-of-office day - monitor incoming mail and handle anything urgent so responses do not stall",
+      "project": "leadership",
+      "source": "fireflies/01KZTNT2PEJ594SNFHNR92NBE8",
+      "source_type": "fireflies",
+      "date": "2026-08-12",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Stand-up BD,PO,Prod,Rec"
+      },
+      "id": "fireflies/01KZTNT2PEJ594SNFHNR92NBE8/covermartinbernardsinboxduringhisoutofof",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Clean the stale recipients out of whatever automated send fired at 09:05 on 12 Aug - it bounced 550 5.1.1 on four deactivated Tribe addresses at once (alexandraotilia@, meho@, marko@, gino@tribe.xyz)",
+      "project": "infra",
+      "source": "gmail/19ff5385390b87b4",
+      "source_type": "gmail",
+      "date": "2026-08-12",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Delivery Status Notification (Failure)",
+        "from": "mailer-daemon@googlemail.com"
+      },
+      "id": "gmail/19ff5385390b87b4",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Fix how the finance dashboard treats cashflow vs project profitability - Martin Bernard flagged Voize showing -100% (cost booked but no billing this month, so next month it will look artificially great) and the same distortion on No Isolation; separate cashflow from per-project analysis",
+      "project": "fin-dash",
+      "source": "slack/D055NJ27YRY/1786532768.175469",
+      "source_type": "slack",
+      "date": "2026-08-12",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Martin Bernard",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/D055NJ27YRY/1786532768.175469",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Reconcile the Aiven staff cost on the dashboard for Martin Bernard - the dashboard shows 52k while Vlad (29k) plus Fuad (18k) sums to 47k and their salaries alone total 43k; explain the calculation or fix the ~5k gap",
+      "project": "fin-dash",
+      "source": "slack/D055NJ27YRY/1786534454.865349",
+      "source_type": "slack",
+      "date": "2026-08-12",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Martin Bernard",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/D055NJ27YRY/1786534454.865349",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Lock down the job category/subcategory recategorization with Nenad Skoko: name the owner (Nenad agreed to lead), set a deadline, define the minimum viable standard ('consistent, not perfect' - prioritise blanks and obvious misfits, do not rebuild the taxonomy), then document it and communicate it to the AI-First group and update the AI-First @ Tribe Project Hub entry (stale since April 2026)",
+      "project": "ai-first-working-group",
+      "source": "slack/D0AKAPA0X3J/1786542059.831539",
+      "source_type": "slack",
+      "date": "2026-08-12",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Blake Updates Bot (Post-Meeting Brief: AI First Working Group)",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1786542059.831539",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Get a decision timeline and budget/licence ask from Jacopo Lupo Ferrari on the Juicebox sourcing tool re-evaluation (he ran an agent himself and wants Chene Elliot and Jan testing it), then flag it to Martin Bernard before he hears it elsewhere and log it as an active thread in the AI-First @ Tribe Project Hub",
+      "project": "inbox",
+      "source": "slack/D0AKAPA0X3J/1786529102.046419",
+      "source_type": "slack",
+      "date": "2026-08-12",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Blake Updates Bot (Post-Meeting Brief: Stand-up BD, PO, Prod, Rec)",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1786529102.046419",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Close the two remaining Filics contract items: add a line to Article 9 making clear the 5-year staff-identity confidentiality/non-use restriction does not block Tribe recruiting for other clients (it currently re-imposes what was removed from Article 8), and get Seyed Behbahani to respond on the still-open marketing clause comment (no 25k EUR penalty, no restriction on a Tribester using Filics branding to reach candidates)",
+      "project": "legal",
+      "source": "slack/D059MAFUJR0/1786452385.838279",
+      "source_type": "slack",
+      "date": "2026-08-11",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Kristjana Thorarinsdottir",
+        "from": "Kristjana Thorarinsdottir"
+      },
+      "id": "slack/D059MAFUJR0/1786452385.838279",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Send Martin the drafted (still unsent) Slack message proposing Claude Pro seats at $20/month for people who write a short business case on what they would automate - roughly 10 people, about $200/month, with Gemini staying the default for summarising and writing",
+      "project": "ai-first-working-group",
+      "source": "cowork/local_d050004a-5d5a-44f7-a4fe-2ffe0007c9ac",
+      "source_type": "cowork",
+      "date": "2026-08-12",
+      "confidence": "high",
+      "extras": {
+        "session": "Claude paid accounts proposal"
+      },
+      "id": "cowork/local_d050004a-5d5a-44f7-a4fe-2ffe0007c9ac/sendmartinthedraftedstillunsentslackmess",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Find out privately why Valeriia logged 0 of 8 roles and Ejla 3 of 7 in the last two weeks (12 of the 18 missed roles are those two) before raising it in the AI First meeting - the other 5 sourcers are at 67% or better",
+      "project": "ai-first-working-group",
+      "source": "cowork/local_836883c1-dc25-4a13-a9bf-b7b2c401c39a",
+      "source_type": "cowork",
+      "date": "2026-08-12",
+      "confidence": "high",
+      "extras": {
+        "session": "AI first meeting prep"
+      },
+      "id": "cowork/local_836883c1-dc25-4a13-a9bf-b7b2c401c39a/findoutprivatelywhyvaleriialogged0of8rol",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Decide which Roles Roundup coverage number is reported and rewrite the KR wording - '80% of active sourcers' reads 86% person-level but only 67% by role coverage (37 of 55 roles), and the flattering version only holds until someone recomputes it",
+      "project": "okrs",
+      "source": "cowork/local_836883c1-dc25-4a13-a9bf-b7b2c401c39a",
+      "source_type": "cowork",
+      "date": "2026-08-12",
+      "confidence": "high",
+      "extras": {
+        "session": "AI first meeting prep"
+      },
+      "id": "cowork/local_836883c1-dc25-4a13-a9bf-b7b2c401c39a/decidewhichrolesroundupcoveragenumberisr",
+      "project_name": "OKRs",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Chase TribeBot testing - 14 IR sprint channels were indexed on 6 Aug and the feedback request got zero replies, so nobody has actually tested it",
+      "project": "tribebot",
+      "source": "cowork/local_836883c1-dc25-4a13-a9bf-b7b2c401c39a",
+      "source_type": "cowork",
+      "date": "2026-08-12",
+      "confidence": "high",
+      "extras": {
+        "session": "AI first meeting prep"
+      },
+      "id": "cowork/local_836883c1-dc25-4a13-a9bf-b7b2c401c39a/chasetribebottesting14irsprintchannelswe",
+      "project_name": "Tribebot",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Decide whether an eligibility rule ships with the merged Tribe intake extension when it returns around 20 Aug, and chase Andrea and Chantal on the 29 Jul action items - the eligibility tracker was still empty as of 28 Jul",
+      "project": "ai-first-working-group",
+      "source": "cowork/local_836883c1-dc25-4a13-a9bf-b7b2c401c39a",
+      "source_type": "cowork",
+      "date": "2026-08-12",
+      "confidence": "medium",
+      "extras": {
+        "session": "AI first meeting prep"
+      },
+      "id": "cowork/local_836883c1-dc25-4a13-a9bf-b7b2c401c39a/decidewhetheraneligibilityruleshipswitht",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Get Andrea's maternity leave recorded properly in BambooHR as a time-off request instead of free text typed into the Division field on 3 Aug - that entry invented a fake 'Maternity leave' client holding EUR 2,339 of her salary, and the Division field has no validation to stop it happening again",
+      "project": "people-ops",
+      "source": "cowork/local_a65ae364-e0e3-4bef-9656-436f829f5218",
+      "source_type": "cowork",
+      "date": "2026-08-12",
+      "confidence": "medium",
+      "extras": {
+        "session": "Finance meeting dashboard review"
+      },
+      "id": "cowork/local_a65ae364-e0e3-4bef-9656-436f829f5218/getandreasmaternityleaverecordedproperly",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Pitch the old employer a fixed-price EUR 4-6K, 4-week dashboard build (using the EUR 96K/year Power BI + Keboola + analyst replacement as the proof) and route the contract through Upwork so it produces a first review, then fill the 20-minute n8n expert partner form at experts.n8n.io",
+      "project": "personal",
+      "source": "cowork/local_ca45948d-9714-4570-88fd-e7e46ede3841",
+      "source_type": "cowork",
+      "date": "2026-08-12",
+      "confidence": "medium",
+      "extras": {
+        "session": "Income opportunities at Tribe"
+      },
+      "id": "cowork/local_ca45948d-9714-4570-88fd-e7e46ede3841/pitchtheoldemployerafixedpriceeur46k4wee",
+      "project_name": "Personal",
       "first_seen": "2026-08-12",
       "last_seen": "2026-08-12",
       "status": "open"
