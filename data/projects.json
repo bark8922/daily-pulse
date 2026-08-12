@@ -45,26 +45,26 @@
     "workforce-planning-changes"
   ],
   "lookback_days": 60,
-  "updated": "2026-08-11",
+  "updated": "2026-08-12",
   "generated_from": "data/ledger.json (Notion). Do not hand-edit.",
   "projects": [
     {
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
       "tier": "medium",
-      "notes": "Martin Bernard still needs GitHub/Claude Code help on Server Medalist. The voice-only weekly-update pilot decision is unmade and Q3 KR1 replanning waits on Rodrigo's merged extension landing 18-20 Aug."
+      "notes": "Martin Bernard still needs GitHub/Claude Code help on Server Medalist. The voice-only weekly-update pilot decision is unmade and Q3 KR1 replanning waits on Rodrigo's merged intake extension."
     },
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
       "tier": "medium",
-      "notes": "Yelena's profile is still broken and the two-bug workbook unhanded: 125 blank-attribution Evaluation events in W28-32, 368 unlinked screening calls. The stage-funnel build has not started."
+      "notes": "A remediation list is owed for 35 unlinked screening calls, matched on meetTitle. Yelena's profile is still broken and the two-bug workbook (125 blank-attribution events, 368 unlinked calls) unhanded."
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "tier": "big",
-      "notes": "45 open items. The Calendly-replacement booking page needs an N8N_WEBHOOK_SECRET and a round-robin weighting call (Salem 39 of 61 slots, Kristjana 22). Upwork credentials were pasted in plain text on 11 Aug."
+      "notes": "47 open items. Two credential exposures need rotating: the Upwork login pasted in Slack on 11 Aug and the plaintext Supabase rodrigo_readonly. The booking page still needs an N8N_WEBHOOK_SECRET."
     },
     {
       "id": "okrs",
@@ -76,73 +76,73 @@
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
       "tier": "medium",
-      "notes": "The transcriber still links candidates to the wrong jobs and drops recordings; Mikaela and Rodrigo are on it. Rodrigo also asked for full per-stage pipeline numbers plus the intake payload with Job and User IDs."
+      "notes": "The transcriber still mislinks candidates and drops recordings, with Mikaela and Rodrigo on it. Sanja's recos-v4 Sonnet-to-Haiku cost switch waits on her quality comparison, and Rodrigo's pipeline payload is unscoped."
     },
     {
       "id": "tribebot",
       "name": "Tribebot",
       "tier": "medium",
-      "notes": "Blake approved Dolores Palotas and Jovana Drakula's rewritten two-part tracker questions on 10 Aug and committed to shipping same day; still unshipped. Week-31 Roles Roundup needs a re-run for 9 unswept roles."
+      "notes": "Blake approved the rewritten two-part tracker questions on 10 Aug and promised same-day shipping; still unshipped. Nenad Skoko flagged that TribeBot indexes only top-level messages in IR sprint channels."
     },
     {
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "big",
-      "notes": "Martin wants the cash-flow architecture spec (manual forecast vs Revolut API balance) before any build. Maria Gigacova's July TRIBE.XYZ SPAIN close awaits sign-off and the BambooHR division leak persists."
+      "notes": "The Tribe Fin payroll model understates cost by about 30k a month (row 29 flat at 180,723 Sep-Dec). A stale root-level active_employees.json lists 57 names including two leavers. Martin still wants the cash-flow spec."
     },
     {
       "id": "personal",
       "name": "Personal",
       "tier": "medium",
-      "notes": "Nine open items. Four job-search picks are undecided: Zazu Chief of Staff (79) and LHH Chief of Staff (74) from 11 Aug, Similarweb (77) and Client Accelerators (76) from 10 Aug."
+      "notes": "Fifteen open items. Four job-search picks are undecided: Zazu Chief of Staff (79) and LHH Chief of Staff (74) from 11 Aug, Similarweb (77) and Client Accelerators (76) from 10 Aug."
     },
     {
       "id": "legal",
       "name": "Legal & Contracts",
       "tier": "big",
-      "notes": "Boris Gnoth is away until 17 Aug with five open questions on why the Estonian company exists and how it would be managed. A vendor Deal contract review landed 11 Aug and needs calendaring."
+      "notes": "Boris Gnoth is away until 17 Aug with five open questions on the Estonian structure. Revolut's Francesco wants Tribe's Estonia footprint, which needs Martin's sign-off on sharing entity details first."
     },
     {
       "id": "project-hub",
       "name": "Project Hub",
       "tier": "medium",
-      "notes": "Unchanged since 5 Aug. Jacopo Lupo Ferrari's interview-stage adoption tracker is still static despite the 'latest tomorrow' promise, and the IR Interview Process entry has not been edited since March."
+      "notes": "Down to three items, unchanged since 5 Aug. Jacopo Lupo Ferrari's interview-stage adoption tracker is still static and the IR Interview Process entry has not been edited since March."
     },
     {
       "id": "leadership",
       "name": "Leadership comms",
       "tier": "medium",
-      "notes": "The 10 Aug Martin 1:1 left three items open: Andrea's development plan, a fee-for-hire hires dashboard and the Moonshot note. Caroline's EU Pay Transparency flag needs routing and Wednesday's TL meeting has no lead."
+      "notes": "The CoS weekly log to Martin was drafted but never sent. The 10 Aug 1:1 left Andrea's development plan, a hires dashboard and the Moonshot note open, and Caroline's Pay Transparency flag needs routing."
     },
     {
       "id": "keboola-sunset",
       "name": "Keboola migration / sunset",
       "tier": "medium",
-      "notes": "A second Keboola Czech invoice, 0055/2026, landed 11 Aug and is unpaid alongside the one Tereza Dolezalova is chasing. Anna Duskova still owes scale-down options; two unrecognised configs run 12x weekly."
+      "notes": "Two Keboola Czech invoices are unpaid, including 0055/2026 which landed 11 Aug. Anna Duskova still owes scale-down options and two unrecognised configs run 12x weekly."
     },
     {
       "id": "tribe-talks",
       "name": "Tribe Talks",
       "tier": "medium",
-      "notes": "The Marcel interview guide needs finalising with Nenad Skoko, who left assigned comments on the Run of Show doc. A slide demo of the automation projects is now owed. Promo push targets 22 Sep, session 22 Oct."
+      "notes": "The Marcel interview guide needs finalising with Nenad Skoko, who left assigned comments on the Run of Show doc. A slide demo of the automation projects is owed. Promo push targets 22 Sep, session 22 Oct."
     },
     {
       "id": "linkedin",
       "name": "LinkedIn (licenses + posting)",
       "tier": "medium",
-      "notes": "Three drafts on rebuilding a company's reporting await Blake's pick, and two live posts sit unused. Sanja Pavlovikj still needs a spare Recruiter license and an answer on the InMail credit balance."
+      "notes": "Three drafts on rebuilding a company's reporting await Blake's pick and two live posts sit unused. Caroline Murphy needs asking whether the leadership LinkedIn program now covers leads."
     },
     {
       "id": "people-ops",
       "name": "People Ops / BambooHR",
       "tier": "medium",
-      "notes": "Damla Kocek has waited on her insurance number since her 9 Aug ER trip. The eNPS analysis with Ella is still unprepared after the dip, and Tijana's exit feedback brief to Martin is outstanding."
+      "notes": "Damla Kocek has waited on her insurance number since her 9 Aug ER trip. Vlad's notice-period position needs settling with Andrea before he returns on the 24th, and the eNPS analysis with Ella is unprepared."
     },
     {
       "id": "expense-ops",
       "name": "Expense Ops",
       "tier": "big",
-      "notes": "50 open items. The 11 Aug Revolut review added FX usage tracking and a pooling proposal to feed back to Francesco. Calendly wind-down, the dormant WordPress account and Martin's Moonshot item are unresolved."
+      "notes": "50 open items. Revolut FX is the live thread: usage and billing cycles to review, weekend exchanges to stop, and Francesco's pooling proposal to answer. Calendly wind-down and the WordPress account are unresolved."
     },
     {
       "id": "team-cohesion",

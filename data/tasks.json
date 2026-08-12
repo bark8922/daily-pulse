@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-11",
+  "generated_at": "2026-08-12",
   "schema_version": 3,
-  "total": 282,
-  "active_count": 282,
-  "archived_count": 462,
+  "total": 283,
+  "active_count": 283,
+  "archived_count": 472,
   "projects": [
     {
       "id": "ai-first-working-group",
@@ -8151,7 +8151,8 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-12"
     },
     {
       "text": "Complete the BambooHR offboarding task for Meho Saracevic (Team Lead, B2B, Leadership/Bench, termination date Aug 21, 2026) assigned by Andrea Darabasic",
@@ -8168,7 +8169,8 @@
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-24",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-12"
     },
     {
       "text": "Follow up with Nexi (Dalia Dal Corso) to obtain and provide the new PO number for the new RPO recruiter's invoices - Jacopo assigned Blake to handle the PO once Nexi issues it",
@@ -8185,7 +8187,8 @@
       "project_name": "Sales dashboard + HubSpot",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-24",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-12"
     },
     {
       "text": "Decide on Alexandra Richiteanu's Notion access request for the 'PPR Alexandra Richiteanu' page (TL Home/TL Docs)",
@@ -8202,7 +8205,8 @@
       "project_name": "Project Hub",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-12"
     },
     {
       "text": "Review and resolve the security gaps flagged in the Google Workspace Admin Console ('Possible unresolved security risks') for the tribe.xyz organization",
@@ -8219,7 +8223,8 @@
       "project_name": "Needs sorting",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-12"
     },
     {
       "text": "Send the finalized Mercedes Vito sale invoice (renumbered PSI/01/2607092, buyer Harmonisi s.r.o., payment to KB CZK HLAVNI 51-14500217/0100) to the waiting buyer, incorporating the car's WIN and registration number Natalie added",
@@ -8236,7 +8241,8 @@
       "project_name": "Legal & Contracts",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-24",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-12"
     },
     {
       "text": "Resolve the security vulnerabilities Supabase flagged in your projects (Jul 21 'Action required' notice)",
@@ -8253,7 +8259,8 @@
       "project_name": "Needs sorting",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-22",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-12"
     },
     {
       "text": "Pay Meho Saracevic's final invoices per the agreed schedule - July invoice in full plus the prorated August invoice (3,214.29 EUR), to be sent by Aug 5 for payment by Aug 10 (contract ends Aug 21)",
@@ -8270,7 +8277,8 @@
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-22",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-12"
     },
     {
       "text": "Add a 1:1 topic (10-15 min) to the agenda for Ella since Notion wasn't loading for her.",
@@ -8369,7 +8377,8 @@
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-24",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-12"
     },
     {
       "text": "Pay Elena Petrovska's final invoice when she sends it (around July 31, her last day; she may send it from her personal email)",
@@ -8386,7 +8395,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-24",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-12"
     },
     {
       "text": "Set up Dispatch to automate sequential background downloading of individual Lattice performance review comment packages for Ella, replacing the one-by-one manual export",
@@ -12814,6 +12824,188 @@
       "project_name": "Personal",
       "first_seen": "2026-08-11",
       "last_seen": "2026-08-11",
+      "status": "open"
+    },
+    {
+      "text": "Stop running Revolut FX exchanges during weekend/off-market hours to avoid the off-hours fee Francesco flagged",
+      "project": "expense-ops",
+      "source": "fireflies/01KZR47QTX8S5XFGYCYFWPYC08",
+      "source_type": "fireflies",
+      "date": "2026-08-11",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Account review - Revolut Business (Tribe)"
+      },
+      "id": "fireflies/01KZR47QTX8S5XFGYCYFWPYC08/stoprunningrevolutfxexchangesduringweeke",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Maintain and expand the N8N + Claude AI automated workflows Martin praised in the 1:1, extending them to further manual operational tasks",
+      "project": "infra",
+      "source": "fireflies/01KZP19QZ51BP2FD826FHX01PG",
+      "source_type": "fireflies",
+      "date": "2026-08-10",
+      "confidence": "low",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01KZP19QZ51BP2FD826FHX01PG/maintainandexpandthen8nclaudeaiautomated",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Confirm with Andrea Darabasic what Tribe's position is on Vlad's notice-period payment (paid through the 31st or the 7th) before he returns on the 24th, so she has a clear mandate for that conversation",
+      "project": "people-ops",
+      "source": "slack/D0AKAPA0X3J/1786457130.520079",
+      "source_type": "slack",
+      "date": "2026-08-11",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Blake Updates Bot",
+        "from": "Blake Updates Bot (People Operations post-meeting brief, 11 Aug 2026)"
+      },
+      "id": "slack/D0AKAPA0X3J/1786457130.520079",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Calculate the actual annual cost of Revolut FX overages (6,000 CZK + 3,400 CZK in fees last cycle) versus upgrading the plan, decide whether to change the plan or the transfer behaviour, and agree a no-weekend-FX rule with Jacopo (1% weekend surcharge)",
+      "project": "legal",
+      "source": "slack/D0AKAPA0X3J/1786443808.966369",
+      "source_type": "slack",
+      "date": "2026-08-11",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Blake Updates Bot",
+        "from": "Blake Updates Bot (Revolut Business account review brief, 11 Aug 2026)"
+      },
+      "id": "slack/D0AKAPA0X3J/1786443808.966369",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Check with Caroline Murphy whether the leadership LinkedIn program has been formally extended to leads, and decide whether Blake joins its tracking/accountability structure or keeps running his own independent content track",
+      "project": "linkedin",
+      "source": "slack/D0AKAPA0X3J/1786441731.118309",
+      "source_type": "slack",
+      "date": "2026-08-11",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Blake Updates Bot",
+        "from": "Blake Updates Bot (Blake / Nenad informal 1:1 brief, 11 Aug 2026)"
+      },
+      "id": "slack/D0AKAPA0X3J/1786441731.118309",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Rotate the read-only Supabase/Postgres credentials for the job-intel database (user rodrigo_readonly.garopkilxgpcmlkiqvbg) - the host, user and password were posted in plain text in the Slack DM to Rodrigo Gomes",
+      "project": "infra",
+      "source": "slack/D059PSVF62G/1786007484.748789",
+      "source_type": "slack",
+      "date": "2026-08-06",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Rodrigo Gomes",
+        "from": "Blake Barkley"
+      },
+      "id": "slack/D059PSVF62G/1786007484.748789",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Close the TribeBot indexing gap on the IR sprint channels - it currently reads only top-level messages, not thread replies, and Nenad Skoko flagged that a lot of the real discussion lives in threads; also collect the test feedback Blake asked the group for",
+      "project": "tribebot",
+      "source": "slack/ai-first-tribe/1786019055.936359",
+      "source_type": "slack",
+      "date": "2026-08-06",
+      "confidence": "medium",
+      "extras": {
+        "channel": "ai-first-tribe",
+        "from": "Blake Barkley / Nenad Skoko"
+      },
+      "id": "slack/ai-first-tribe/1786019055.936359",
+      "project_name": "Tribebot",
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with Sanja Pavlovikj on moving the recos-v4 brief-llm and scorecard-fill steps from Sonnet to Haiku (Sonnet is 61% of spend on 12% of calls) - she is running side-by-side quality comparisons before switching the scorecard fill",
+      "project": "ai-recruiting",
+      "source": "slack/D06CHF6CCN5/1785922819.890509",
+      "source_type": "slack",
+      "date": "2026-08-05",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Sanja Pavlovikj",
+        "from": "Blake Barkley"
+      },
+      "id": "slack/D06CHF6CCN5/1785922819.890509",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Fix the Tribe Fin payroll model that understates cost ~30k/month (row 29 flat at 180,723 Sep-Dec against a modelled Dec closing cash of 52,429): keep a leaver's row alive one month past their termination date since contractors are paid in arrears, add the five-name payee map (Ubloom=Chene Elliot, Tyson Consult=Simon Siew, SOLUTIONS CONSULTANT LTDA=Rodrigo Gomes, Calibi=Hana Mutka, OPTISOURCE=Zelimir Stajcic), drive the row list off BambooHR active-in-month, add missing Rossella Petrillo (Spain, rate in col X not W), move Martin/Miloslav Bernard out of the Salaries block, and de-duplicate Erzana Malikji/Maliqi and Lejla Dizdarevic",
+      "project": "fin-dash",
+      "source": "cowork/local_38cad4e8-22e7-4056-95d0-ea7e408fed09",
+      "source_type": "cowork",
+      "date": "2026-08-12",
+      "confidence": "high",
+      "extras": {
+        "session": "IT expenses discrepancy"
+      },
+      "id": "cowork/local_38cad4e8-22e7-4056-95d0-ea7e408fed09/fixthetribefinpayrollmodelthatunderstate",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Delete or refresh the stale root-level active_employees.json in the fin-dash repo (57 names including Elena Petrovska and Tijana Lazovic, both terminated 2026-07-31, vs 55 in data-next/) and add a watchdog check comparing the two copies - rebuild_v5.py line 922 would silently pick up the root file if a manual rebuild pointed BASE at the repo root",
+      "project": "fin-dash",
+      "source": "cowork/local_046f8293-b4a6-4513-af06-fe060f5404fe",
+      "source_type": "cowork",
+      "date": "2026-08-12",
+      "confidence": "medium",
+      "extras": {
+        "session": "Tribe dashboard watchdog"
+      },
+      "id": "cowork/local_046f8293-b4a6-4513-af06-fe060f5404fe/deleteorrefreshthestalerootlevelactive_e",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Build the 'these calls need attaching' remediation list for the 35 unlinked screening calls - all 35 are stuck at assignment_status pending with no linkedinUrl, tribe_url or temp_candidate_id, but every one has a Google Meet title carrying the candidate name, so meetTitle can serve as the fallback match key",
+      "project": "rec-dash",
+      "source": "cowork/local_81dcb1d2-774b-4ecc-9b2a-97092f58861f",
+      "source_type": "cowork",
+      "date": "2026-08-12",
+      "confidence": "medium",
+      "extras": {
+        "session": "Recruiting dashboard issues"
+      },
+      "id": "cowork/local_81dcb1d2-774b-4ecc-9b2a-97092f58861f/buildthethesecallsneedattachingremediati",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
       "status": "open"
     }
   ]
