@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-12",
+  "generated_at": "2026-08-13",
   "schema_version": 3,
-  "total": 299,
-  "active_count": 299,
-  "archived_count": 472,
+  "total": 313,
+  "active_count": 313,
+  "archived_count": 475,
   "projects": [
     {
       "id": "ai-first-working-group",
@@ -8312,7 +8312,8 @@
       "project_name": "AI First Working Group",
       "first_seen": "2026-07-22",
       "last_seen": "2026-07-23",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-13"
     },
     {
       "text": "Add a user-personalized TA Summary page showing tailored KPIs with improved visuals, per Nenad's feedback",
@@ -8630,7 +8631,8 @@
       "project_name": "Tribebot",
       "first_seen": "2026-07-22",
       "last_seen": "2026-07-28",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-13"
     },
     {
       "text": "Complete the Lattice July 2026 engagement survey (90% participation target)",
@@ -8729,7 +8731,8 @@
       "project_name": "OKRs",
       "first_seen": "2026-07-22",
       "last_seen": "2026-07-29",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-13"
     },
     {
       "text": "Brief Martin on the Vlad/Simon situation (Vlad misrepresenting Simon's behaviour to Chris) before he hears it elsewhere, and document Tijana's exit conduct factually for any future reference request",
@@ -13268,6 +13271,285 @@
       "project_name": "Personal",
       "first_seen": "2026-08-12",
       "last_seen": "2026-08-12",
+      "status": "open"
+    },
+    {
+      "text": "Coordinate with Mikael and Rodrigo to clear the intake tool's data conflicts (recruiter screens and candidate info not attaching to jobs) and relaunch the paused intake tool, which is currently missing its OKR because of the downtime",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KZV03DCDMMX1MAGJRJ3A7DVN",
+      "source_type": "fireflies",
+      "date": "2026-08-12",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KZV03DCDMMX1MAGJRJ3A7DVN/coordinatewithmikaelandrodrigotoclearthe",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-13",
+      "status": "open"
+    },
+    {
+      "text": "Extend the voice-input weekly reporting pilot (running with Dolores, Giovanna and Gustavo in the sourcing group) to the TA team so weekly updates cover all roles",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KZV03DCDMMX1MAGJRJ3A7DVN",
+      "source_type": "fireflies",
+      "date": "2026-08-12",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KZV03DCDMMX1MAGJRJ3A7DVN/extendthevoiceinputweeklyreportingpilotr",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-13",
+      "status": "open"
+    },
+    {
+      "text": "Move the Estonian company setup forward on NJORD's answers: get the certified/apostilled Tribe.xyz Holding a.s. registry extract (max 1-2 months old, showing Martin's representation right) and Martin's notarised + apostilled PoA to Erik Salur, and decide on the TMF Group accountant intro plus the MTR economic-activity notice for employment mediation",
+      "project": "legal",
+      "source": "gmail/19ff0c629d2bb1b7",
+      "source_type": "gmail",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "extras": {
+        "subject": "RE: Estonian Co - Follow-up",
+        "from": "Erik Salur <erik.salur@njordlaw.ee>",
+        "notes": "Erik confirmed CIT is 22/78 (24% is VAT), MTR notice required before providing services, substance advisable for PE/FE and VAT registration; ~2 weeks to register after originals received. PoA notarisation/apostille is the critical path given Martin's travel."
+      },
+      "id": "gmail/19ff0c629d2bb1b7",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-13",
+      "last_seen": "2026-08-13",
+      "status": "open"
+    },
+    {
+      "text": "Switch the Google AI Studio / Gemini API billing for Tribe from Postpay to Prepay and load credits (with auto-reload) before the Oct 12, 2026 cutoff to avoid service interruption",
+      "project": "infra",
+      "source": "gmail/19ff8093a03e8230",
+      "source_type": "gmail",
+      "date": "2026-08-12",
+      "confidence": "medium",
+      "extras": {
+        "subject": "[Action Required] Update your Gemini API billing in Google AI Studio by Oct 12, 2026",
+        "from": "googleaistudio-noreply@google.com"
+      },
+      "id": "gmail/19ff8093a03e8230",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-13",
+      "status": "open"
+    },
+    {
+      "text": "Resolve the security vulnerabilities Supabase flagged in your projects (new Aug 11 'Action required' alert)",
+      "project": "infra",
+      "source": "gmail/19ff2522926891d8",
+      "source_type": "gmail",
+      "date": "2026-08-11",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Action required: security vulnerabilities detected in your projects",
+        "from": "noreply@supabase.com"
+      },
+      "id": "gmail/19ff2522926891d8",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-08-13",
+      "status": "open"
+    },
+    {
+      "text": "Check Martin's email inbox today (Martin asked Blake to review/triage his emails)",
+      "project": "inbox",
+      "source": "slack/D055NJ27YRY/1786601900.992689",
+      "source_type": "slack",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Martin Bernard (D055NJ27YRY)",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/D055NJ27YRY/1786601900.992689",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-08-13",
+      "last_seen": "2026-08-13",
+      "status": "open"
+    },
+    {
+      "text": "Roll out Claude Pro seats ($20/month, ~10 people, ~$200/month) from the AI First working group - Martin approved but requires each requester to submit a short business case first, don't just give it away",
+      "project": "ai-first-working-group",
+      "source": "slack/D055NJ27YRY/1786601888.708539",
+      "source_type": "slack",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Martin Bernard (D055NJ27YRY)",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/D055NJ27YRY/1786601888.708539",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-13",
+      "last_seen": "2026-08-13",
+      "status": "open"
+    },
+    {
+      "text": "Resolve LinkedIn InMail shortage - Jelena (and IR/sourcing team) are out of InMails with no top-up until Aug 28; decide whether to purchase additional credits or hold",
+      "project": "linkedin",
+      "source": "slack/D059EP8CPM4/1786550987.405149",
+      "source_type": "slack",
+      "date": "2026-08-12",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Jelena Lacmanovic (D059EP8CPM4)",
+        "from": "Jelena Lacmanovic"
+      },
+      "id": "slack/D059EP8CPM4/1786550987.405149",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-13",
+      "status": "open"
+    },
+    {
+      "text": "Add the three missing Tribe Fin payroll rows - Rossella Petrillo (3,504, Spain, her rate is in column X not W which is why she was skipped), Elena Petrovska (June and July, terminated 31 Jul) and Andrea Vrancianu (1,680, currently sitting in the IT line and not in BambooHR at all, move her to Tribsters External) - a 6,884/month structural understatement that repeats through the Sep-Dec forecast",
+      "project": "fin-dash",
+      "source": "cowork/local_38cad4e8-22e7-4056-95d0-ea7e408fed09",
+      "source_type": "cowork",
+      "date": "2026-08-12",
+      "confidence": "high",
+      "extras": {
+        "session_title": "IT expenses discrepancy"
+      },
+      "id": "cowork/local_38cad4e8-22e7-4056-95d0-ea7e408fed09/addthethreemissingtribefinpayrollrowsros",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-13",
+      "status": "open"
+    },
+    {
+      "text": "Track down the two unexplained July payroll items: Jonaed Iqbal's final EOR month (terminated 30 Jun, Revolut GlobalHire paid 8,508 against his 11,225 plus Natalie Tal Prowse's 3,700, so 6,417 short) and the extra ~25k paid to Martin in July (36,690 against a typical 11,690)",
+      "project": "fin-dash",
+      "source": "cowork/local_38cad4e8-22e7-4056-95d0-ea7e408fed09",
+      "source_type": "cowork",
+      "date": "2026-08-12",
+      "confidence": "high",
+      "extras": {
+        "session_title": "IT expenses discrepancy"
+      },
+      "id": "cowork/local_38cad4e8-22e7-4056-95d0-ea7e408fed09/trackdownthetwounexplainedjulypayrollite",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-13",
+      "status": "open"
+    },
+    {
+      "text": "Confirm whether Maria Gerbore is leaving - she is active in BambooHR with no termination date but her Tribe Fin row goes blank from August, worth 6,000/month either way",
+      "project": "fin-dash",
+      "source": "cowork/local_38cad4e8-22e7-4056-95d0-ea7e408fed09",
+      "source_type": "cowork",
+      "date": "2026-08-12",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "IT expenses discrepancy"
+      },
+      "id": "cowork/local_38cad4e8-22e7-4056-95d0-ea7e408fed09/confirmwhethermariagerboreisleavingsheis",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-13",
+      "status": "open"
+    },
+    {
+      "text": "Fill in the n8n expert partner directory application at experts.n8n.io - a 20-minute form, but the expert partner program is in closed pilot so onboarding is not immediate (30% affiliate share running in the meantime)",
+      "project": "personal",
+      "source": "cowork/local_ca45948d-9714-4570-88fd-e7e46ede3841",
+      "source_type": "cowork",
+      "date": "2026-08-12",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Income opportunities at Tribe"
+      },
+      "id": "cowork/local_ca45948d-9714-4570-88fd-e7e46ede3841/fillinthen8nexpertpartnerdirectoryapplic",
+      "project_name": "Personal",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-13",
+      "status": "open"
+    },
+    {
+      "text": "Start the stage-funnel transform and dashboard build per STAGE_FUNNEL_BUILD_PLAN.md - the new interview stages are now in real use (26 events into Interview 1, 13 into Interview 2, 9 into Interview 3, 13 jobs configured, 18 candidates currently sitting in them)",
+      "project": "rec-dash",
+      "source": "cowork/local_54c76064-f6c5-4dc2-af0b-bc8ef775a1b6",
+      "source_type": "cowork",
+      "date": "2026-08-11",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Recruiting new stages usage check"
+      },
+      "id": "cowork/local_54c76064-f6c5-4dc2-af0b-bc8ef775a1b6/startthestagefunneltransformanddashboard",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-08-13",
+      "status": "open"
+    },
+    {
+      "text": "Send Salem and Kristjana the drafted booking-page review message (Blake said he would send it manually) and get their answer on the three open HubSpot questions: Qualified Lead as the stage for a booked intro call, Sales Pipeline as the pipeline, and whether meeting time and Meet link should be their own properties",
+      "project": "infra",
+      "source": "cowork/local_9efe2ee4-4e23-4941-8966-2c6f1316df0f",
+      "source_type": "cowork",
+      "date": "2026-08-11",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Calendly booking system alternative"
+      },
+      "id": "cowork/local_9efe2ee4-4e23-4941-8966-2c6f1316df0f/sendsalemandkristjanathedraftedbookingpa",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-08-13",
+      "status": "open"
+    },
+    {
+      "text": "Finish the Calendly-replacement booking page cutover: fix the raw UTC timestamp in the meeting description, move the round-robin fairness count to reading the calendars directly so cancellations are handled, run a real stage-3 test booking, then publish the n8n workflow, point N8N_WEBHOOK_URL at it and swap the Webflow links",
+      "project": "infra",
+      "source": "cowork/local_9efe2ee4-4e23-4941-8966-2c6f1316df0f",
+      "source_type": "cowork",
+      "date": "2026-08-11",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Calendly booking system alternative"
+      },
+      "id": "cowork/local_9efe2ee4-4e23-4941-8966-2c6f1316df0f/finishthecalendlyreplacementbookingpagec",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-08-13",
+      "status": "open"
+    },
+    {
+      "text": "Manually run the new FX branch inside the AI Shadow Categorizer before its 08:00 auto-run and check the Tribe CZ 'Previous cycle' figure against the 3,053,321 CZK offline calc for 14 Jun-13 Jul, to confirm the cross-currency detection is sound",
+      "project": "expense-ops",
+      "source": "cowork/local_53a173e3-a067-4b63-a054-3d3fc46a0c21",
+      "source_type": "cowork",
+      "date": "2026-08-11",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Revolut FX transaction analysis"
+      },
+      "id": "cowork/local_53a173e3-a067-4b63-a054-3d3fc46a0c21/manuallyrunthenewfxbranchinsidetheaishad",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-08-13",
+      "status": "open"
+    },
+    {
+      "text": "Delete the now-redundant standalone Revolut FX Allowance Monitor n8n workflow - the archive action was blocked as destructive, so it has to be removed by hand to avoid confusion with the branch now living in the categorizer",
+      "project": "expense-ops",
+      "source": "cowork/local_53a173e3-a067-4b63-a054-3d3fc46a0c21",
+      "source_type": "cowork",
+      "date": "2026-08-11",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Revolut FX transaction analysis"
+      },
+      "id": "cowork/local_53a173e3-a067-4b63-a054-3d3fc46a0c21/deletethenowredundantstandalonerevolutfx",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-08-13",
       "status": "open"
     }
   ]

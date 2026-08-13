@@ -45,62 +45,62 @@
     "workforce-planning-changes"
   ],
   "lookback_days": 60,
-  "updated": "2026-08-12",
+  "updated": "2026-08-13",
   "generated_from": "data/ledger.json (Notion). Do not hand-edit.",
   "projects": [
     {
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
       "tier": "medium",
-      "notes": "Nineteen open. The job recategorization needs an owner and a deadline announced on Friday; Nenad Skoko agreed to lead. The Claude Pro seats message to Martin (10 seats, $20/month) is drafted and unsent."
+      "notes": "Nineteen open. Martin approved Claude Pro seats at $20/month for ~10 people but wants a written business case per requester. Nenad Skoko agreed to lead the job recategorization; owner and deadline unannounced."
     },
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
       "tier": "medium",
-      "notes": "The 35 unlinked screening calls are all stuck at assignment_status pending with no linkedinUrl, so the remediation list is still owed. Yelena's profile is broken and the two-bug workbook is unhanded."
+      "notes": "The 35 unlinked screening calls are all pending with no linkedinUrl, so the remediation list is still owed. The stage-funnel build is unstarted and the two-bug workbook is unhanded."
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "tier": "big",
-      "notes": "48 open. A 12 Aug automated send bounced 550 5.1.1 on four deactivated addresses at once. The Upwork login pasted in Slack and the plaintext Supabase rodrigo_readonly still need rotating."
+      "notes": "52 open. The 12 Aug 09:05 send bounced 550 5.1.1 on four deactivated addresses. Upwork and Supabase rodrigo_readonly credentials still need rotating, and Gemini billing must move to Prepay before 12 Oct."
     },
     {
       "id": "okrs",
       "name": "OKRs",
       "tier": "medium",
-      "notes": "The Roles Roundup KR denominator is contested: 86% person-level against 67% role coverage, 37 of 55 roles. Four Lattice goals stay overdue and 14 of 19 intake eligibility rows are blank."
+      "notes": "Four open. The Roles Roundup KR denominator is contested: 86% person-level against 67% role coverage, 37 of 55 roles. Four Lattice goals stay overdue and 14 of 19 intake eligibility rows are blank."
     },
     {
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
       "tier": "medium",
-      "notes": "Nothing has moved since 10 Aug. The transcriber still mislinks candidates and drops recordings with Mikaela and Rodrigo on it, and Rodrigo's Sourcing Lab data payload is still unscoped."
+      "notes": "Ten open. The intake tool is paused on data conflicts with Mikael and Rodrigo, missing recruiter screens and candidate links. The voice-input weekly pilot needs extending from sourcing to the TA team."
     },
     {
       "id": "tribebot",
       "name": "Tribebot",
       "tier": "medium",
-      "notes": "Fourteen IR sprint channels were indexed on 6 Aug and the feedback request got zero replies, so nobody has tested it. The two-part tracker questions Blake approved on 10 Aug are still unshipped."
+      "notes": "Eight open. Fourteen IR sprint channels were indexed on 6 Aug and the feedback request drew zero replies, so nobody has tested it. The two-part tracker questions Blake approved on 10 Aug are still unshipped."
     },
     {
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "big",
-      "notes": "Martin Bernard flagged two dashboard problems on 12 Aug: Voize showing -100% from mixing cashflow with profitability, and Aiven staff cost at 52k against 47k actual. Payroll still understates ~30k/month."
+      "notes": "27 open. Martin Bernard flagged Voize at -100% from mixing cashflow with profitability and Aiven at 52k against 47k. Three payroll rows are missing and two July items (Jonaed 6,417, Martin ~25k) are unexplained."
     },
     {
       "id": "personal",
       "name": "Personal",
       "tier": "medium",
-      "notes": "Sixteen open. New angle on 12 Aug: pitch the old employer a fixed-price EUR 4-6K four-week dashboard build via Upwork. Four job-search picks from 10-11 Aug are still undecided."
+      "notes": "Seventeen open. New on 12 Aug: pitch the old employer a fixed-price EUR 4-6K four-week dashboard build via Upwork, plus the n8n expert partner form. Four job-search picks from 10-11 Aug stay undecided."
     },
     {
       "id": "legal",
       "name": "Legal & Contracts",
       "tier": "big",
-      "notes": "Filics needs an Article 9 carve-out so the 5-year staff-identity restriction does not block Tribe recruiting elsewhere, and Seyed is unchased on the marketing clause. Boris's five Estonia questions stay open."
+      "notes": "30 open. NJORD answered on 13 Aug: Estonia now needs the apostilled Holding a.s. registry extract and Martin's notarised PoA for Erik Salur. Filics still needs the Article 9 carve-out and Seyed is unchased."
     },
     {
       "id": "project-hub",
@@ -112,37 +112,37 @@
       "id": "leadership",
       "name": "Leadership comms",
       "tier": "medium",
-      "notes": "Martin Bernard is out and Blake is covering his inbox. Three items from the 10 Aug 1:1 stay open: Andrea's development plan, the hires dashboard and the Moonshot note."
+      "notes": "Thirteen open. Martin Bernard is out and Blake is covering his inbox. Three items from the 10 Aug 1:1 stay open: Andrea's development plan, the hires dashboard and the Moonshot note."
     },
     {
       "id": "keboola-sunset",
       "name": "Keboola migration / sunset",
       "tier": "medium",
-      "notes": "Anna Duskova came back on 12 Aug: lowest tier is $12k/year, annual payment only, 300 PPUs, $3/PPU overage, 0.2 TB. She needs a yes/no. Invoice 0055/2026 is still unpaid."
+      "notes": "Four open. Anna Duskova's 12 Aug offer needs a yes/no: $12k/year annual-only, 300 PPUs, $3/PPU overage, 0.2 TB. Invoice 0055/2026 is unpaid and two unrecognised configs run 12x weekly."
     },
     {
       "id": "tribe-talks",
       "name": "Tribe Talks",
       "tier": "medium",
-      "notes": "The Marcel interview guide needs finalising with Nenad Skoko, who left assigned comments on the Run of Show. A slide demo of the automation projects is owed. Promo starts 22 Sep, session 22 Oct."
+      "notes": "Seventeen open, nothing moved since 11 Aug. The Marcel interview guide needs finalising with Nenad Skoko, who left assigned comments on the Run of Show. A slide demo of the automation projects is owed."
     },
     {
       "id": "linkedin",
       "name": "LinkedIn (licenses + posting)",
       "tier": "medium",
-      "notes": "Three drafts on rebuilding a company's reporting await Blake's pick and two live posts sit unused. Caroline Murphy still needs asking whether the leadership LinkedIn program covers leads."
+      "notes": "Fourteen open. New on 12 Aug: Jelena and the IR sourcing team are out of InMails with no top-up until 28 Aug, so a buy-or-hold call is needed. Three post drafts still await Blake's pick."
     },
     {
       "id": "people-ops",
       "name": "People Ops / BambooHR",
       "tier": "medium",
-      "notes": "Andrea's maternity leave was typed into BambooHR's free-text Division field on 3 Aug and invented a fake EUR 2,339 client, so it needs re-recording as time off. Damla Kocek still has no insurance number."
+      "notes": "Seventeen open. Andrea's maternity leave was typed into BambooHR's free-text Division field on 3 Aug and invented a fake EUR 2,339 client, so it needs re-recording as time off. Damla Kocek has no insurance number."
     },
     {
       "id": "expense-ops",
       "name": "Expense Ops",
       "tier": "big",
-      "notes": "50 open items. Revolut FX is the live thread: usage and billing cycles to review, weekend exchanges to stop, and Francesco's pooling proposal to answer. The dormant WordPress account is unresolved."
+      "notes": "52 open. Revolut FX is the live thread: usage and billing cycles to review, weekend exchanges to stop, Francesco's pooling proposal to answer, and the FX branch to verify against 3,053,321 CZK."
     },
     {
       "id": "team-cohesion",
