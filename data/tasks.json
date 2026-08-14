@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-08-14",
   "schema_version": 3,
-  "total": 288,
-  "active_count": 288,
+  "total": 299,
+  "active_count": 299,
   "archived_count": 480,
   "projects": [
     {
@@ -12947,7 +12947,7 @@
       "status": "open"
     },
     {
-      "text": "Pay the next Deel invoice of $471.45 due from Aug 16, 2026 (Deel Fees & Services) - or push the Q-39879 cancellation dispute with Justin Fregona before it auto-charges again",
+      "text": "Pay or formally dispute the new Deel invoice of $471.45 due from Aug 16, 2026 (Deel reminder, separate from the July invoice already tracked; Q-39879 commitment dispute still open with Justin Fregona)",
       "project": "expense-ops",
       "source": "gmail/19ffda890e52a3fc",
       "source_type": "gmail",
@@ -12999,17 +12999,17 @@
     },
     {
       "text": "Close out the Deel contract: push Justin below the $3,889 settlement offer (vs $5,657 contractual for year 3, auto-renewed 1 June 2026 because no 90-day notice was given) and check whether it can be offset against the reimbursement Deel owes us - Ella Darie asked for this in #people-ops",
-      "project": "legal",
+      "project": "expense-ops",
       "source": "slack/C05R5DS9S2J/1786609808.618559",
       "source_type": "slack",
       "date": "2026-08-13",
       "confidence": "high",
       "extras": {
-        "channel": "people-ops",
+        "channel": "#people-ops",
         "from": "Ella Darie"
       },
       "id": "slack/C05R5DS9S2J/1786609808.618559",
-      "project_name": "Legal & Contracts",
+      "project_name": "Expense Ops",
       "first_seen": "2026-08-13",
       "last_seen": "2026-08-14",
       "status": "open"
@@ -13090,7 +13090,7 @@
       "date": "2026-08-13",
       "confidence": "medium",
       "extras": {
-        "channel": "ai-first-tribe",
+        "channel": "#ai-first-tribe",
         "from": "Nenad Skoko"
       },
       "id": "slack/C09154E6QNS/1786607842.677239",
@@ -13225,6 +13225,186 @@
       "id": "cowork/local_a65ae364-e0e3-4bef-9656-436f829f5218/raisethelongbenchfindingthefindashstalen",
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-08-13",
+      "last_seen": "2026-08-14",
+      "status": "open"
+    },
+    {
+      "text": "Fix the n8n Invoice PDF Parser so it stops failing on Andreea Vrancianu's invoice format - it broke again on 13 Aug and her invoice had to be paid manually",
+      "project": "expense-ops",
+      "source": "slack/D0AC2QAA35X/1786616589.379589",
+      "source_type": "slack",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Andreea Vrancianu",
+        "from": "Andreea Vrancianu"
+      },
+      "id": "slack/D0AC2QAA35X/1786616589.379589",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-13",
+      "last_seen": "2026-08-14",
+      "status": "open"
+    },
+    {
+      "text": "Set Deal Source to Website on deal creation in the n8n booking workflow so Caroline Murphy's repointed HubSpot/Calendly workflow has a trigger, and confirm the Opportunity vs Marketing Qualified Lead lifecycle stage with her",
+      "project": "infra",
+      "source": "slack/D0A90RPGE92/1786609799.316729",
+      "source_type": "slack",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Caroline Murphy",
+        "from": "Caroline Murphy"
+      },
+      "id": "slack/D0A90RPGE92/1786609799.316729",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-13",
+      "last_seen": "2026-08-14",
+      "status": "open"
+    },
+    {
+      "text": "Shut down the Calendly subscription now that Lejla Silva confirmed she no longer needs it and the replacement booking page is running",
+      "project": "expense-ops",
+      "source": "slack/D055Y2ELF9T/1786607702.225229",
+      "source_type": "slack",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Lejla Silva",
+        "from": "Lejla Silva"
+      },
+      "id": "slack/D055Y2ELF9T/1786607702.225229",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-13",
+      "last_seen": "2026-08-14",
+      "status": "open"
+    },
+    {
+      "text": "Update the stale headcount threshold in dashboard-memory/feedback_validate_before_deploy.md - it still says latest-month headcount >= 70 (currently ~85) while actual headcount is 55 and falling",
+      "project": "fin-dash",
+      "source": "slack/C08TYHVKDQT/1786612479.059919",
+      "source_type": "slack",
+      "date": "2026-08-13",
+      "confidence": "medium",
+      "extras": {
+        "channel": "#test-n8n",
+        "from": "Dashboard watchdog run"
+      },
+      "id": "slack/C08TYHVKDQT/1786612479.059919",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-13",
+      "last_seen": "2026-08-14",
+      "status": "open"
+    },
+    {
+      "text": "Publish the Invoice PDF Parser n8n draft abd568bc (poll retimed to 13:07 Prague, 5x retry on the sheet write) - live is still 3d915117",
+      "project": "expense-ops",
+      "source": "cowork/local_51f0f685-3e96-4e67-902c-13e5927e4993",
+      "source_type": "cowork",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "extras": {
+        "session": "Andreea Vrancianu invoice parsing issue"
+      },
+      "id": "cowork/local_51f0f685-3e96-4e67-902c-13e5927e4993/publishtheinvoicepdfparsern8ndraftabd568",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-13",
+      "last_seen": "2026-08-14",
+      "status": "open"
+    },
+    {
+      "text": "Fix the Vendor Map entry for Andreea Vrancianu (misspelled 'Vracianu', fixed at 600 EUR against a 2160 EUR variable-hours invoice) so her row stops flagging as an amount mismatch",
+      "project": "expense-ops",
+      "source": "cowork/local_51f0f685-3e96-4e67-902c-13e5927e4993",
+      "source_type": "cowork",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "extras": {
+        "session": "Andreea Vrancianu invoice parsing issue"
+      },
+      "id": "cowork/local_51f0f685-3e96-4e67-902c-13e5927e4993/fixthevendormapentryforandreeavrancianum",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-13",
+      "last_seen": "2026-08-14",
+      "status": "open"
+    },
+    {
+      "text": "Drop a junk PDF into the invoice folder to force a parse failure and confirm the unverified Blake Updates Bot Slack DM credential on the parser's own alert node",
+      "project": "expense-ops",
+      "source": "cowork/local_51f0f685-3e96-4e67-902c-13e5927e4993",
+      "source_type": "cowork",
+      "date": "2026-08-13",
+      "confidence": "medium",
+      "extras": {
+        "session": "Andreea Vrancianu invoice parsing issue"
+      },
+      "id": "cowork/local_51f0f685-3e96-4e67-902c-13e5927e4993/dropajunkpdfintotheinvoicefoldertoforcea",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-13",
+      "last_seen": "2026-08-14",
+      "status": "open"
+    },
+    {
+      "text": "Decide the two Birthday Bot leftovers: delete or keep the now-orphaned Tribe Birthdays sheet, and whether to add a Mar 1 fallback for Feb 29 birthdays",
+      "project": "people-ops",
+      "source": "cowork/local_022a95f6-f1a7-4127-bbb5-3644ab9476ac",
+      "source_type": "cowork",
+      "date": "2026-08-13",
+      "confidence": "medium",
+      "extras": {
+        "session": "Birthday Bot Slack notifications"
+      },
+      "id": "cowork/local_022a95f6-f1a7-4127-bbb5-3644ab9476ac/decidethetwobirthdaybotleftoversdeleteor",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-13",
+      "last_seen": "2026-08-14",
+      "status": "open"
+    },
+    {
+      "text": "Send the internal comms on the job taxonomy recategorization review and run a call for ideas to fill the AI First group seat left open by Chantal",
+      "project": "ai-first-working-group",
+      "source": "cowork/local_485d2e2f-6431-4161-be25-83abe97020d7",
+      "source_type": "cowork",
+      "date": "2026-08-12",
+      "confidence": "medium",
+      "extras": {
+        "session": "AI first weekly Notion update"
+      },
+      "id": "cowork/local_485d2e2f-6431-4161-be25-83abe97020d7/sendtheinternalcommsonthejobtaxonomyreca",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-14",
+      "status": "open"
+    },
+    {
+      "text": "Save the finalized 'master the AI stack' LinkedIn post to Notion as a draft for Tue 18 Aug, log the dead moving-numbers topic and today's harvest, and check the 'a year ago' n8n claim against the May 2025 first build",
+      "project": "linkedin",
+      "source": "cowork/local_043aa1ba-0bd6-45ed-9be7-617ec3c66510",
+      "source_type": "cowork",
+      "date": "2026-08-14",
+      "confidence": "high",
+      "extras": {
+        "session": "LinkedIn idea generator morning"
+      },
+      "id": "cowork/local_043aa1ba-0bd6-45ed-9be7-617ec3c66510/savethefinalizedmastertheaistacklinkedin",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-14",
+      "status": "open"
+    },
+    {
+      "text": "Check whether the two AVIV 'Engineering Manager Belgium' jobs created 2026-08-07 and 2026-08-10 under different job IDs are a duplicate in the recruiting data",
+      "project": "rec-dash",
+      "source": "cowork/local_fd335de2-34b5-41f7-8f82-c36167b1496a",
+      "source_type": "cowork",
+      "date": "2026-08-14",
+      "confidence": "low",
+      "extras": {
+        "session": "Friday new jobs recap"
+      },
+      "id": "cowork/local_fd335de2-34b5-41f7-8f82-c36167b1496a/checkwhetherthetwoavivengineeringmanager",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-14",
       "last_seen": "2026-08-14",
       "status": "open"
     }
