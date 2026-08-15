@@ -57,14 +57,14 @@
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
-      "tier": "medium",
-      "notes": "19 open. The split-identity name bug was fixed only in the team-lead filter, so other WBR/MBR aggregates may still halve Simon's and Jelena's numbers. 35 screening calls remain unlinked."
+      "tier": "big",
+      "notes": "20 open. New on 14 Aug: Rodrigo Gomes says Iryna Dyda is on Ashby recording manually, which explains 35 screening calls missing from WBR/MBR (Iryna 0 of 13, Aleksandra Vistac 10 of 32)."
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "tier": "big",
-      "notes": "52 open. book.tribe.xyz is built and tested live (invite, rep email and HubSpot deal all fired) but not yet linked from the website. Invoice PDF Parser draft abd568bc is still unpublished."
+      "notes": "53 open. New on 14 Aug: the team@tribe.xyz forwarding workflow fails when an email has no attachment_0 (exec 47065). book.tribe.xyz is built and tested live but still not linked from the website."
     },
     {
       "id": "okrs",
@@ -76,7 +76,7 @@
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
       "tier": "medium",
-      "notes": "Nine open, unchanged since 12 Aug. The intake tool is still paused on recruiter-screen and candidate-link conflicts, and Rodrigo Gomes' Sourcing Lab data payload is unscoped."
+      "notes": "10 open. New on 14 Aug: Jacopo Lupo Ferrari's two Juicebox licences for Dusan and Fuad need buying on the JUICE20 discount. The intake tool is still paused on data conflicts."
     },
     {
       "id": "tribebot",
@@ -88,13 +88,13 @@
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "big",
-      "notes": "25 open. New on 14 Aug: watchdog_228_parity.py compares names byte-exact, so Andrea Darabasic never matches and the script silently skips her. The headcount gate still says 70 against 55 actual."
+      "notes": "26 open. watchdog_228_parity.py compares names byte-exact, so 'Darabasic, Andrea' never matches and she reads as terminated. The deploy gate still says headcount >= 70 against an actual 55."
     },
     {
       "id": "personal",
       "name": "Personal",
       "tier": "medium",
-      "notes": "13 open. New on 14 Aug: Chief of Staff at Pearl scored 82, the only pick that matches stated requirements. GigSafe (84) and the 12 Aug picks are still undecided."
+      "notes": "19 open. New on 14 Aug: Chief of Staff at Pearl scored 82, the only pick whose stated requirements he meets. GigSafe (84), the 12 Aug picks and the Upwork pitch are all still undecided."
     },
     {
       "id": "legal",

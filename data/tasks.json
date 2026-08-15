@@ -1,14 +1,14 @@
 {
   "generated_at": "2026-08-15",
   "schema_version": 3,
-  "total": 312,
-  "active_count": 312,
+  "total": 316,
+  "active_count": 316,
   "archived_count": 482,
   "projects": [
     {
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
-      "tier": "medium"
+      "tier": "big"
     },
     {
       "id": "rec-dash",
@@ -13475,7 +13475,7 @@
       "status": "open"
     },
     {
-      "text": "Walk Martin Bernard through GitHub and Claude Code branches and answer his technical questions on the silver-medalist matching system",
+      "text": "Walk Martin Bernard through GitHub and Claude Code branches and stay available for his technical questions on the Silver Medalist matching system",
       "project": "ai-first-working-group",
       "source": "fireflies/01KZNTEZ897A84PK6S64HMB0T0",
       "source_type": "fireflies",
@@ -13491,7 +13491,7 @@
       "status": "open"
     },
     {
-      "text": "Confirm the status and recurring cost of the dormant WordPress account and cancel or reassign it",
+      "text": "Confirm the status and recurring cost of the dormant WordPress account Caroline Murphy flagged, and cancel it if nothing depends on it",
       "project": "expense-ops",
       "source": "fireflies/01KZNQ06Y2Z2EC3ZMB3XRF7H7G",
       "source_type": "fireflies",
@@ -13557,7 +13557,7 @@
       "status": "open"
     },
     {
-      "text": "Bring Rodrigo Gomes into the AI First working group - he messaged Blake saying he would be interested and has always had the interest",
+      "text": "Add Rodrigo Gomes to the AI-First @ Tribe working group - he volunteered in DM after the call for members following Chantal Bozkurt stepping away",
       "project": "ai-first-working-group",
       "source": "slack/D059PSVF62G/1786716673.119599",
       "source_type": "slack",
@@ -13581,7 +13581,7 @@
       "date": "2026-08-14",
       "confidence": "medium",
       "extras": {
-        "channel": "Group DM with Mikhail Kuzmin and Rodrigo Gomes",
+        "channel": "Group DM with Rodrigo Gomes and Mikhail Kuzmin",
         "from": "Rodrigo Gomes"
       },
       "id": "slack/C0ASLKVG07N/1786720620.686669",
@@ -13598,7 +13598,7 @@
       "date": "2026-08-14",
       "confidence": "medium",
       "extras": {
-        "session_title": "Leadership dashboard issue"
+        "session": "Leadership dashboard issue - added a 5th deploy gate that renders the built dashboard and fails on a white screen (verified on run #176), plus the same gate on the finance dashboard"
       },
       "id": "cowork/local_ddd5dd10-472b-4497-8b16-7454032495af/decidewhethertoextendtheexistingcloudvsl",
       "project_name": "Infra & Automation",
@@ -13614,7 +13614,7 @@
       "date": "2026-08-14",
       "confidence": "high",
       "extras": {
-        "session_title": "WBR page team lead filter"
+        "session": "WBR page team lead filter - shipped 38f6f7a to bark8922/tribe-recruiting, logged the stale-local-App.jsx trap and the name double-spelling gotcha"
       },
       "id": "cowork/local_05eadb14-dd1f-4a5a-91aa-b1a64a4ffa55/sweepeveryotherwbrmbraggregatekeyedonara",
       "project_name": "Tribe Recruiting Dashboard",
@@ -13650,6 +13650,73 @@
       },
       "id": "cowork/local_7252d66e-615a-470a-97e3-c88c351a74e3/actonthe14augjobsearchrunchiefofstaffatp",
       "project_name": "Personal",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Get Yelena's profile showing correctly in the recruiting database and push the matching dashboard updates, raised in the 10 Aug delivery WBR",
+      "project": "rec-dash",
+      "source": "fireflies/01KZNEDA9HYGCNRMR3MFC551EX",
+      "source_type": "fireflies",
+      "date": "2026-08-10",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "WBR - Delivery Only"
+      },
+      "id": "fireflies/01KZNEDA9HYGCNRMR3MFC551EX/getyelenasprofileshowingcorrectlyinthere",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Buy the two Juicebox licences Jacopo Lupo Ferrari asked for (Dusan and Fuad, using the JUICE20 20% discount) and reach out to both to get them set up - Blake committed to contacting them",
+      "project": "ai-recruiting",
+      "source": "slack/C085WSR8HT6/1786694469.984689",
+      "source_type": "slack",
+      "date": "2026-08-14",
+      "confidence": "high",
+      "extras": {
+        "channel": "#operations",
+        "from": "Jacopo Lupo Ferrari"
+      },
+      "id": "slack/C085WSR8HT6/1786694469.984689",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Add a _norm() diacritics normalisation to both sides of the by_person lookup in watchdog_228_parity.py - it matches names exactly, so 'Darabasic, Andrea' in BambooHR report 228 misses the accented spelling in the bundle and the script silently skips her as terminated",
+      "project": "fin-dash",
+      "source": "slack/C08TYHVKDQT/1786698684.919299",
+      "source_type": "slack",
+      "date": "2026-08-14",
+      "confidence": "medium",
+      "extras": {
+        "channel": "#test-n8n",
+        "from": "Blake Barkley"
+      },
+      "id": "slack/C08TYHVKDQT/1786698684.919299",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Fix the 'Forward from team@tribe.xyz email' n8n workflow failing on the Send a message node when an email has no binary 'attachment_0' (execution 47065, 14 Aug)",
+      "project": "infra",
+      "source": "slack/D0AKAPA0X3J/1786702531.621949",
+      "source_type": "slack",
+      "date": "2026-08-14",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM from Blake Updates Bot",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1786702531.621949",
+      "project_name": "Infra & Automation",
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-15",
       "status": "open"
