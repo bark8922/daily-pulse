@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-08-15",
   "schema_version": 3,
-  "total": 316,
-  "active_count": 316,
+  "total": 322,
+  "active_count": 322,
   "archived_count": 482,
   "projects": [
     {
@@ -13,7 +13,7 @@
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
-      "tier": "medium"
+      "tier": "big"
     },
     {
       "id": "infra",
@@ -13718,6 +13718,105 @@
       "id": "slack/D0AKAPA0X3J/1786702531.621949",
       "project_name": "Infra & Automation",
       "first_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Confirm with Jacopo Lupo Ferrari whether the LinkedIn sequence-tool rollout has an adoption tracking mechanism (who has set up their first sequence and by when) and offer to own that accountability layer",
+      "project": "ai-recruiting",
+      "source": "slack/D0AKAPA0X3J/1786716810.554899",
+      "source_type": "slack",
+      "date": "2026-08-14",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Blake Updates Bot",
+        "from": "Blake Updates Bot (Friday all-hands brief)"
+      },
+      "id": "slack/D0AKAPA0X3J/1786716810.554899",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Ask Jacopo Lupo Ferrari to pull the Claude/Slack delivery-channel analysis of Eduardo Moral's client introduction history and failed matches by Thursday, so Martin has it before the Parloa decision",
+      "project": "tribe-talks",
+      "source": "slack/D0AKAPA0X3J/1786605207.603569",
+      "source_type": "slack",
+      "date": "2026-08-13",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Blake Updates Bot",
+        "from": "Blake Updates Bot (Finance Review brief)"
+      },
+      "id": "slack/D0AKAPA0X3J/1786605207.603569",
+      "project_name": "Tribe Talks",
+      "first_seen": "2026-08-13",
+      "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Pick one of the three drafted LinkedIn posts on rebuilding reporting at a company you have never worked at (or say what is wrong with the preferred option) so the writer can finalize it",
+      "project": "linkedin",
+      "source": "slack/D0557S3HSDD/1786352163.628049",
+      "source_type": "slack",
+      "date": "2026-08-10",
+      "confidence": "medium",
+      "extras": {
+        "channel": "self-DM (LinkedIn post writer)",
+        "from": "LinkedIn post writer bot"
+      },
+      "id": "slack/D0557S3HSDD/1786352163.628049",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Validate the HIRES_TECH year mix in Keboola config 01kpr0tr0dt5ryf96a5zk85bx7 block b0.c6 (ts_summary_per_sourcer) - after the tech-role label fix Tech Roles Hired reads 2024 0/9, 2025 3/175 (1.7%) and 2026 20/37 (54%), while an independent count over project_dashboard_hires puts sourcer-attributed tech hires near 9-13%, so the roster scoping may be wrong even though the label matching is now right",
+      "project": "rec-dash",
+      "source": "cowork/local_95619e5a-cfd4-41de-8802-2005fc3bcb68",
+      "source_type": "cowork",
+      "date": "2026-08-14",
+      "confidence": "high",
+      "extras": {
+        "session": "Tech roles filter issue - fixed dead tech-role category lists (Tech Roles Hired went 1/221 to 23) and made all 8 Time to Hire filters multi-select"
+      },
+      "id": "cowork/local_95619e5a-cfd4-41de-8802-2005fc3bcb68/validatethehires_techyearmixinkeboolacon",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Re-sync the recruiting repo's refresh_staging/ts_summary.sql with what Keboola config 01kpr0tr0dt5ryf96a5zk85bx7 actually runs - the repo copy has drifted and carries no tech logic at all, so grepping the repo finds nothing and only a config search inside Keboola surfaces the live SQL",
+      "project": "rec-dash",
+      "source": "cowork/local_95619e5a-cfd4-41de-8802-2005fc3bcb68",
+      "source_type": "cowork",
+      "date": "2026-08-14",
+      "confidence": "medium",
+      "extras": {
+        "session": "Tech roles filter issue - third hidden copy of TECH_ROLE_CATEGORIES found only inside Keboola, not in the repo"
+      },
+      "id": "cowork/local_95619e5a-cfd4-41de-8802-2005fc3bcb68/resynctherecruitingreposrefresh_stagingt",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Update the stale headcount deploy gate in dashboard-memory/feedback_validate_before_deploy.md - it still documents 'headcount >= 70 (currently ~85)' while BambooHR now returns 55 active employees (real attrition, confirmed via get_employee_directory); nothing enforces it in code so it never fires, but it will mislead the next reader",
+      "project": "fin-dash",
+      "source": "cowork/local_cb912692-a34a-4d7a-b079-607b82f25bbb",
+      "source_type": "cowork",
+      "date": "2026-08-13",
+      "confidence": "medium",
+      "extras": {
+        "session": "Tribe dashboard watchdog - all 40 checks passed, flagged the stale headcount gate rather than escalating"
+      },
+      "id": "cowork/local_cb912692-a34a-4d7a-b079-607b82f25bbb/updatethestaleheadcountdeploygateindashb",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-13",
       "last_seen": "2026-08-15",
       "status": "open"
     }

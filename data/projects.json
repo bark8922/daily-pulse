@@ -52,19 +52,19 @@
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
       "tier": "big",
-      "notes": "22 open. New on 14 Aug: Rodrigo Gomes asked to join and the questionnaire to replace Chantal is unsent. Martin's Claude Pro approval still needs a business case per requester."
+      "notes": "22 open. The questionnaire to replace Chantal Bozkurt is still unsent, Rodrigo Gomes is waiting to be added, and Martin's ~10-seat Claude Pro rollout needs a business case per requester."
     },
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
       "tier": "big",
-      "notes": "20 open. New on 14 Aug: Rodrigo Gomes says Iryna Dyda is on Ashby recording manually, which explains 35 screening calls missing from WBR/MBR (Iryna 0 of 13, Aleksandra Vistac 10 of 32)."
+      "notes": "22 open. After the tech-label fix Tech Roles Hired reads 2025 3/175 against 2026 20/37, the repo's ts_summary.sql has drifted from Keboola, and 35 screening calls are still missing from WBR/MBR."
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "tier": "big",
-      "notes": "53 open. New on 14 Aug: the team@tribe.xyz forwarding workflow fails when an email has no attachment_0 (exec 47065). book.tribe.xyz is built and tested live but still not linked from the website."
+      "notes": "53 open. book.tribe.xyz is built and live-tested but still not linked from tribe.xyz, the team@ forwarder breaks when an email has no attachment_0 (exec 47065), and parser draft abd568bc is unpublished."
     },
     {
       "id": "okrs",
@@ -76,31 +76,31 @@
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
       "tier": "medium",
-      "notes": "10 open. New on 14 Aug: Jacopo Lupo Ferrari's two Juicebox licences for Dusan and Fuad need buying on the JUICE20 discount. The intake tool is still paused on data conflicts."
+      "notes": "11 open. New on 14 Aug: Jacopo Lupo Ferrari's two Juicebox licences for Dusan and Fuad need buying on JUICE20, and the LinkedIn sequence rollout has no adoption tracking. Intake tool still paused."
     },
     {
       "id": "tribebot",
       "name": "Tribebot",
       "tier": "medium",
-      "notes": "Six open, nothing new since 6 Aug. TribeBot still indexes only top-level messages in the 14 IR sprint channels, not the thread replies where Nenad Skoko says the discussion sits."
+      "notes": "Six open, nothing new since 6 Aug. TribeBot still indexes only top-level messages on the 14 IR sprint channels, not the thread replies where Nenad Skoko says the discussion sits."
     },
     {
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "big",
-      "notes": "26 open. watchdog_228_parity.py compares names byte-exact, so 'Darabasic, Andrea' never matches and she reads as terminated. The deploy gate still says headcount >= 70 against an actual 55."
+      "notes": "27 open. watchdog_228_parity.py matches names byte-exact, so 'Darabasic, Andrea' never matches and she reads as terminated. The deploy gate still says headcount >= 70 against an actual 55."
     },
     {
       "id": "personal",
       "name": "Personal",
       "tier": "medium",
-      "notes": "19 open. New on 14 Aug: Chief of Staff at Pearl scored 82, the only pick whose stated requirements he meets. GigSafe (84), the 12 Aug picks and the Upwork pitch are all still undecided."
+      "notes": "19 open. Chief of Staff at Pearl scored 82 on 14 Aug, the only pick whose stated requirements he part-meets. GigSafe (84), the 12 Aug picks and the Upwork pitch are all still undecided."
     },
     {
       "id": "legal",
       "name": "Legal & Contracts",
       "tier": "big",
-      "notes": "29 open, unchanged since 13 Aug. Estonia needs the apostilled Holding a.s. registry extract and Martin's notarised PoA for Erik Salur. Filics still needs the Article 9 carve-out."
+      "notes": "29 open, unchanged since 13 Aug. Estonia needs the apostilled Holding a.s. registry extract and Martin's notarised PoA. Filics still needs the Article 9 carve-out and Seyed's marketing clause."
     },
     {
       "id": "project-hub",
@@ -124,13 +124,13 @@
       "id": "tribe-talks",
       "name": "Tribe Talks",
       "tier": "medium",
-      "notes": "14 open, nothing moved since 11 Aug. The Marcel interview guide needs finalising with Nenad Skoko, the working draft was never shared with Marcel, and the slide demo is owed."
+      "notes": "15 open. New on 13 Aug: Jacopo Lupo Ferrari owes the Eduardo Moral delivery-channel analysis by Thursday for Martin's Parloa decision. The Marcel interview guide still needs Nenad's sign-off."
     },
     {
       "id": "linkedin",
       "name": "LinkedIn (licenses + posting)",
       "tier": "medium",
-      "notes": "16 open. The 'master the AI stack' post is finished and needs saving to Notion as a Tue 18 Aug draft. Tribe is out of InMails until 28 Aug and Salem Mansuri wants per-InMail pricing."
+      "notes": "17 open. The 'master the AI stack' post is finished and needs saving to Notion as a Tue 18 Aug draft. Tribe is out of InMails until 28 Aug and Salem Mansuri wants per-InMail pricing."
     },
     {
       "id": "people-ops",
@@ -142,7 +142,7 @@
       "id": "expense-ops",
       "name": "Expense Ops",
       "tier": "big",
-      "notes": "58 open. New on 14 Aug: a $471.45 Deel invoice due 16 Aug on top of the $3,889 settlement, plus Francesco Zoffoli's Revolut FX pooling proposal to evaluate. Niki Vokalkova starts 20 Aug and needs invoicing."
+      "notes": "58 open. The $471.45 Deel invoice is due 16 Aug on top of the $3,889 settlement, Niki Vokalkova starts 20 Aug and needs invoicing, and the parser still drops Andreea Vrancianu's invoices."
     },
     {
       "id": "team-cohesion",
