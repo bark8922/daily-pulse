@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-14",
+  "generated_at": "2026-08-15",
   "schema_version": 3,
-  "total": 299,
-  "active_count": 299,
-  "archived_count": 480,
+  "total": 312,
+  "active_count": 312,
+  "archived_count": 482,
   "projects": [
     {
       "id": "ai-first-working-group",
@@ -8586,7 +8586,8 @@
       "project_name": "Leadership comms",
       "first_seen": "2026-07-24",
       "last_seen": "2026-07-27",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-15"
     },
     {
       "text": "Decide whether to also tighten the daily-pulse scan prompts themselves - the new merge layer (taxonomy lock, rephrasing collapse, 21-day auto-archive) now guarantees correctness, but the scanners still emit a lot that gets dropped",
@@ -9097,7 +9098,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-24",
       "last_seen": "2026-07-30",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-15"
     },
     {
       "text": "Follow up with Ella and Andrea on the Jordy contract status (signed or not) and proactively flag the state of play to Martin before he escalates himself; propose a cut-off date after which Tribe moves to backup candidates",
@@ -13406,6 +13408,250 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-14",
+      "status": "open"
+    },
+    {
+      "text": "Send out the questionnaire to team members to select the new AI First Working Group member replacing Chantal",
+      "project": "ai-first-working-group",
+      "source": "fireflies/01M008A9NQJYAYSJFW8G4B7X54",
+      "source_type": "fireflies",
+      "date": "2026-08-14",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Friday Team Meeting"
+      },
+      "id": "fireflies/01M008A9NQJYAYSJFW8G4B7X54/sendoutthequestionnairetoteammemberstose",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Gather business cases for paid Claude Pro accounts and run the approval decision with Martin, granting licenses only where the use case is clear",
+      "project": "ai-first-working-group",
+      "source": "fireflies/01M008A9NQJYAYSJFW8G4B7X54",
+      "source_type": "fireflies",
+      "date": "2026-08-14",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Friday Team Meeting"
+      },
+      "id": "fireflies/01M008A9NQJYAYSJFW8G4B7X54/gatherbusinesscasesforpaidclaudeproaccou",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Monitor Martin Bernard's inbox during his out-of-office day and handle urgent communications",
+      "project": "leadership",
+      "source": "fireflies/01KZTNT2PEJ594SNFHNR92NBE8",
+      "source_type": "fireflies",
+      "date": "2026-08-12",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Stand-up BD,PO,Prod,Rec"
+      },
+      "id": "fireflies/01KZTNT2PEJ594SNFHNR92NBE8/monitormartinbernardsinboxduringhisoutof",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Evaluate Francesco Zoffoli's Revolut proposals on FX allowance pooling across entities and larger exchange plans (raising the Czech SRO allowance from 2M to 4M CZK), and send feedback based on Tribe's actual FX volume",
+      "project": "expense-ops",
+      "source": "fireflies/01KZR47QTX8S5XFGYCYFWPYC08",
+      "source_type": "fireflies",
+      "date": "2026-08-11",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Account review - Revolut Business (Tribe)"
+      },
+      "id": "fireflies/01KZR47QTX8S5XFGYCYFWPYC08/evaluatefrancescozoffolisrevolutproposal",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Walk Martin Bernard through GitHub and Claude Code branches and answer his technical questions on the silver-medalist matching system",
+      "project": "ai-first-working-group",
+      "source": "fireflies/01KZNTEZ897A84PK6S64HMB0T0",
+      "source_type": "fireflies",
+      "date": "2026-08-10",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Claude: Master Sessions"
+      },
+      "id": "fireflies/01KZNTEZ897A84PK6S64HMB0T0/walkmartinbernardthroughgithubandclaudec",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Confirm the status and recurring cost of the dormant WordPress account and cancel or reassign it",
+      "project": "expense-ops",
+      "source": "fireflies/01KZNQ06Y2Z2EC3ZMB3XRF7H7G",
+      "source_type": "fireflies",
+      "date": "2026-08-10",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Caroline / Blake"
+      },
+      "id": "fireflies/01KZNQ06Y2Z2EC3ZMB3XRF7H7G/confirmthestatusandrecurringcostofthedor",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Verify Yelena's profile appears correctly in the database and push the corresponding recruiting dashboard updates",
+      "project": "rec-dash",
+      "source": "fireflies/01KZNEDA9HYGCNRMR3MFC551EX",
+      "source_type": "fireflies",
+      "date": "2026-08-10",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "WBR - Delivery Only"
+      },
+      "id": "fireflies/01KZNEDA9HYGCNRMR3MFC551EX/verifyyelenasprofileappearscorrectlyinth",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with Eva Huclova (Boris Gnoth Tax) - your Aug 13 'Call Today' email got no reply, so confirm or reschedule the standing call while Boris is on holiday until Aug 17",
+      "project": "inbox",
+      "source": "gmail/19ff9f63541dacc2",
+      "source_type": "gmail",
+      "date": "2026-08-13",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Call Today",
+        "from": "blake@tribe.xyz (to ehuclova@borisgnoth.cz)"
+      },
+      "id": "gmail/19ff9f63541dacc2",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-08-13",
+      "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Get the book.tribe.xyz link onto the tribe.xyz website - the Calendly replacement is built, tested live (invite, rep email and HubSpot deal all fired) and Blake told Caroline Murphy and Martin Bernard that putting the link on the website is the only thing left",
+      "project": "infra",
+      "source": "slack/D0A90RPGE92/1786708149.980589",
+      "source_type": "slack",
+      "date": "2026-08-14",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Caroline Murphy",
+        "from": "Blake Barkley"
+      },
+      "id": "slack/D0A90RPGE92/1786708149.980589",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Bring Rodrigo Gomes into the AI First working group - he messaged Blake saying he would be interested and has always had the interest",
+      "project": "ai-first-working-group",
+      "source": "slack/D059PSVF62G/1786716673.119599",
+      "source_type": "slack",
+      "date": "2026-08-14",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Rodrigo Gomes",
+        "from": "Rodrigo Gomes"
+      },
+      "id": "slack/D059PSVF62G/1786716673.119599",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Close out the 35 screening calls missing from WBR/MBR (Iryna Dyda 0 of 13, Aleksandra Vistac 10 of 32) - Rodrigo Gomes explained Iryna is on Ashby and recording manually and will return to the Tribe Extension next week; confirm she switches back, decide whether Ashby-transcribed screens need a capture path, and backfill the missed weeks 28-31",
+      "project": "rec-dash",
+      "source": "slack/C0ASLKVG07N/1786720620.686669",
+      "source_type": "slack",
+      "date": "2026-08-14",
+      "confidence": "medium",
+      "extras": {
+        "channel": "Group DM with Mikhail Kuzmin and Rodrigo Gomes",
+        "from": "Rodrigo Gomes"
+      },
+      "id": "slack/C0ASLKVG07N/1786720620.686669",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Decide whether to extend the existing 'cloud vs live parity' watchdog to run the new blank-page render check against the live fin-dash and leader dashboard URLs on a schedule (~10 min work), and whether to add the render-gate changelog entry to tribe-dashboard/docs/CHANGELOG.md",
+      "project": "infra",
+      "source": "cowork/local_ddd5dd10-472b-4497-8b16-7454032495af",
+      "source_type": "cowork",
+      "date": "2026-08-14",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Leadership dashboard issue"
+      },
+      "id": "cowork/local_ddd5dd10-472b-4497-8b16-7454032495af/decidewhethertoextendtheexistingcloudvsl",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Sweep every other WBR/MBR aggregate keyed on a raw recruiter name for the split-identity double-spelling bug - it was only fixed in the new team-lead filter, so Simon's and Jelena's numbers may still be halved elsewhere",
+      "project": "rec-dash",
+      "source": "cowork/local_05eadb14-dd1f-4a5a-91aa-b1a64a4ffa55",
+      "source_type": "cowork",
+      "date": "2026-08-14",
+      "confidence": "high",
+      "extras": {
+        "session_title": "WBR page team lead filter"
+      },
+      "id": "cowork/local_05eadb14-dd1f-4a5a-91aa-b1a64a4ffa55/sweepeveryotherwbrmbraggregatekeyedonara",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Add diacritic normalisation to watchdog_228_parity.py - it compares names byte-exact, so report 228's 'Darabasic, Andrea' never matches the bundle's accented spelling and the script silently treats her as terminated; watchdog_check.py already normalises, and this is the same silent-skip failure shape as the Sashka incident",
+      "project": "fin-dash",
+      "source": "cowork/local_fc3c6d85-544f-4b95-9c9c-8cfcfc6f4328",
+      "source_type": "cowork",
+      "date": "2026-08-14",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Tribe dashboard watchdog"
+      },
+      "id": "cowork/local_fc3c6d85-544f-4b95-9c9c-8cfcfc6f4328/adddiacriticnormalisationtowatchdog_228_",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Act on the 14 Aug job-search run: Chief of Staff at Pearl (82, bootstrapped founder-led talent-solutions business of ~50 people, the only pick today whose stated requirements you genuinely part-satisfy via services-agency ops/delivery), Chief of Staff at Finni Health (79, YC W23, purest CoS mandate on the board but all four named backgrounds are gaps) and Senior Strategy & Operations Manager at plancraft (71, Series C AI-first, low 80s on mandate alone but gated by Germany residency plus mandatory Hamburg attendance)",
+      "project": "personal",
+      "source": "cowork/local_7252d66e-615a-470a-97e3-c88c351a74e3",
+      "source_type": "cowork",
+      "date": "2026-08-14",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Job search daily"
+      },
+      "id": "cowork/local_7252d66e-615a-470a-97e3-c88c351a74e3/actonthe14augjobsearchrunchiefofstaffatp",
+      "project_name": "Personal",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-15",
       "status": "open"
     }
   ]

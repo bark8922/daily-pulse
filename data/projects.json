@@ -45,104 +45,104 @@
     "workforce-planning-changes"
   ],
   "lookback_days": 60,
-  "updated": "2026-08-14",
+  "updated": "2026-08-15",
   "generated_from": "data/ledger.json (Notion). Do not hand-edit.",
   "projects": [
     {
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
-      "tier": "medium",
-      "notes": "18 open. Martin approved Claude Pro seats at $20/month for ~10 people against a written business case. Eduardo Moral declined a dedicated group, so Nenad Skoko wants the AI topic folded elsewhere."
+      "tier": "big",
+      "notes": "22 open. New on 14 Aug: Rodrigo Gomes asked to join and the questionnaire to replace Chantal is unsent. Martin's Claude Pro approval still needs a business case per requester."
     },
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
       "tier": "medium",
-      "notes": "16 open. New on 14 Aug: two AVIV 'Engineering Manager Belgium' jobs may be duplicates. The 35 unlinked screening calls still need the meetTitle remediation list and the stage-funnel build is unstarted."
+      "notes": "19 open. The split-identity name bug was fixed only in the team-lead filter, so other WBR/MBR aggregates may still halve Simon's and Jelena's numbers. 35 screening calls remain unlinked."
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "tier": "big",
-      "notes": "50 open. The Invoice PDF Parser is rate-limiting on the DB insert and fixed draft abd568bc is unpublished. Caroline Murphy needs Deal Source set to Website. Upwork credentials are still unrotated."
+      "notes": "52 open. book.tribe.xyz is built and tested live (invite, rep email and HubSpot deal all fired) but not yet linked from the website. Invoice PDF Parser draft abd568bc is still unpublished."
     },
     {
       "id": "okrs",
       "name": "OKRs",
       "tier": "medium",
-      "notes": "Three open and no new signal since 4 Aug. The Roles Roundup KR denominator is still contested at 86% person-level against 67% role coverage. Four Lattice goals are overdue."
+      "notes": "Three open, no new signal since 4 Aug. Key Results still need a status update before the check-in, four Lattice goals are overdue and 14 of 19 intake eligibility-call rows are blank."
     },
     {
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
       "tier": "medium",
-      "notes": "Nine open. The intake tool is paused on data conflicts with Mikael and Rodrigo, missing recruiter screens and candidate links, and is missing its OKR from the downtime."
+      "notes": "Nine open, unchanged since 12 Aug. The intake tool is still paused on recruiter-screen and candidate-link conflicts, and Rodrigo Gomes' Sourcing Lab data payload is unscoped."
     },
     {
       "id": "tribebot",
       "name": "Tribebot",
       "tier": "medium",
-      "notes": "Six open, nothing new since 6 Aug. TribeBot indexes only top-level messages in the 14 IR sprint channels, not thread replies, which Nenad Skoko flagged as where the discussion sits."
+      "notes": "Six open, nothing new since 6 Aug. TribeBot still indexes only top-level messages in the 14 IR sprint channels, not the thread replies where Nenad Skoko says the discussion sits."
     },
     {
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "big",
-      "notes": "24 open. The deploy check still gates on headcount >= 70 when actual is 55, and the staleness flags exposed a long bench: Dolores Palotas and Eduardo Moral have been off client since March."
+      "notes": "25 open. New on 14 Aug: watchdog_228_parity.py compares names byte-exact, so Andrea Darabasic never matches and the script silently skips her. The headcount gate still says 70 against 55 actual."
     },
     {
       "id": "personal",
       "name": "Personal",
       "tier": "medium",
-      "notes": "Eighteen open. New on 13 Aug: Strategy & Operations Manager at GigSafe scored 84, the best of the run. The 12 Aug picks and the Upwork pitch to the old employer are still undecided."
+      "notes": "13 open. New on 14 Aug: Chief of Staff at Pearl scored 82, the only pick that matches stated requirements. GigSafe (84) and the 12 Aug picks are still undecided."
     },
     {
       "id": "legal",
       "name": "Legal & Contracts",
       "tier": "big",
-      "notes": "29 open. NJORD answered on 13 Aug: Estonia needs the apostilled Holding a.s. registry extract and Martin's notarised PoA for Erik Salur. Filics still needs the Article 9 carve-out."
+      "notes": "29 open, unchanged since 13 Aug. Estonia needs the apostilled Holding a.s. registry extract and Martin's notarised PoA for Erik Salur. Filics still needs the Article 9 carve-out."
     },
     {
       "id": "project-hub",
       "name": "Project Hub",
       "tier": "medium",
-      "notes": "Three items, unchanged since 5 Aug. Jacopo Lupo Ferrari's interview-stage adoption tracker is still static and the IR Interview Process entry has not been edited since March."
+      "notes": "Three open, unchanged since 5 Aug. Jacopo Lupo Ferrari's interview-stage adoption tracker is still static and the IR Interview Process entry has not been edited since March."
     },
     {
       "id": "leadership",
       "name": "Leadership comms",
       "tier": "medium",
-      "notes": "Nine open, nothing new since 5 Aug. Wednesday's TL meeting has no lead after Katarina Matic Marinkovic went OOO. The EUR 485K overhead memo and the operations-role proposal are unwritten."
+      "notes": "Nine open. Blake covered Martin Bernard's inbox on 12 Aug. Wednesday's TL meeting still has no lead after Katarina Matic Marinkovic went OOO, and the EUR 485K overhead memo is unwritten."
     },
     {
       "id": "keboola-sunset",
       "name": "Keboola migration / sunset",
       "tier": "medium",
-      "notes": "Four open. Anna Duskova's 12 Aug offer needs a yes or no: $12k/year annual-only, 300 PPUs, $3/PPU overage, 0.2 TB. Invoice 0055/2026 is unpaid and two unrecognised configs run 12x weekly."
+      "notes": "Four open. Anna Duskova's 12 Aug offer still needs a yes or no: $12k/year annual-only, 300 PPUs, $3/PPU overage, 0.2 TB. Invoice 0055/2026 is unpaid and two unrecognised configs run 12x weekly."
     },
     {
       "id": "tribe-talks",
       "name": "Tribe Talks",
       "tier": "medium",
-      "notes": "Fourteen open, nothing moved since 11 Aug. The Marcel interview guide needs finalising with Nenad Skoko, the working draft was never shared with Marcel, and the slide demo is owed."
+      "notes": "14 open, nothing moved since 11 Aug. The Marcel interview guide needs finalising with Nenad Skoko, the working draft was never shared with Marcel, and the slide demo is owed."
     },
     {
       "id": "linkedin",
       "name": "LinkedIn (licenses + posting)",
       "tier": "medium",
-      "notes": "Sixteen open. The 'master the AI stack' post is finished and needs saving to Notion as a Tue 18 Aug draft. Salem Mansuri wants per-InMail pricing; Tribe is out of InMails until 28 Aug."
+      "notes": "16 open. The 'master the AI stack' post is finished and needs saving to Notion as a Tue 18 Aug draft. Tribe is out of InMails until 28 Aug and Salem Mansuri wants per-InMail pricing."
     },
     {
       "id": "people-ops",
       "name": "People Ops / BambooHR",
       "tier": "medium",
-      "notes": "Seventeen open. Andrea's maternity leave is still free text in BambooHR's Division field, inventing a fake EUR 2,339 client. New on 13 Aug: the two Birthday Bot leftovers need a decision."
+      "notes": "17 open. Andrea's maternity leave is still free text in BambooHR's Division field, inventing a fake EUR 2,339 client. The two Birthday Bot leftovers from 13 Aug still need a decision."
     },
     {
       "id": "expense-ops",
       "name": "Expense Ops",
       "tier": "big",
-      "notes": "57 open. New on 14 Aug: a $471.45 Deel invoice due 16 Aug on top of the $3,889 settlement to push back on. Andreea Vrancianu's invoices failed again on 13 Aug and Niki Vokalkova needs invoicing."
+      "notes": "58 open. New on 14 Aug: a $471.45 Deel invoice due 16 Aug on top of the $3,889 settlement, plus Francesco Zoffoli's Revolut FX pooling proposal to evaluate. Niki Vokalkova starts 20 Aug and needs invoicing."
     },
     {
       "id": "team-cohesion",
