@@ -45,26 +45,26 @@
     "workforce-planning-changes"
   ],
   "lookback_days": 60,
-  "updated": "2026-08-15",
+  "updated": "2026-08-17",
   "generated_from": "data/ledger.json (Notion). Do not hand-edit.",
   "projects": [
     {
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
       "tier": "big",
-      "notes": "22 open. The questionnaire to replace Chantal Bozkurt is still unsent, Rodrigo Gomes is waiting to be added, and Martin's ~10-seat Claude Pro rollout needs a business case per requester."
+      "notes": "23 open. The questionnaire to replace Chantal Bozkurt is still unsent, Rodrigo Gomes still is not added, and the #important_updates call for Claude Pro business cases is live with none reviewed yet."
     },
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
       "tier": "big",
-      "notes": "22 open. After the tech-label fix Tech Roles Hired reads 2025 3/175 against 2026 20/37, the repo's ts_summary.sql has drifted from Keboola, and 35 screening calls are still missing from WBR/MBR."
+      "notes": "24 open. HIRES_TECH still reads 2025 3/175 against 2026 20/37, ts_summary.sql has drifted from Keboola, 35 screening calls are out of WBR/MBR, and Enam, No Isolation and Pliant have unverified BU mapping."
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "tier": "big",
-      "notes": "53 open. book.tribe.xyz is built and live-tested but still not linked from tribe.xyz, the team@ forwarder breaks when an email has no attachment_0 (exec 47065), and parser draft abd568bc is unpublished."
+      "notes": "56 open. A GitHub PAT is sitting in plaintext in a local clone's remote URL, book.tribe.xyz is live but the Webflow pricing link and nav button still point at Calendly, and app.tribe.xyz is being 301'd."
     },
     {
       "id": "okrs",
@@ -76,7 +76,7 @@
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
       "tier": "medium",
-      "notes": "11 open. New on 14 Aug: Jacopo Lupo Ferrari's two Juicebox licences for Dusan and Fuad need buying on JUICE20, and the LinkedIn sequence rollout has no adoption tracking. Intake tool still paused."
+      "notes": "11 open, nothing new since 14 Aug. Jacopo Lupo Ferrari's two Juicebox licences for Dusan and Fuad are unbought on JUICE20, the LinkedIn sequence rollout has no adoption tracking, and intake stays paused."
     },
     {
       "id": "tribebot",
@@ -88,7 +88,7 @@
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "big",
-      "notes": "27 open. watchdog_228_parity.py matches names byte-exact, so 'Darabasic, Andrea' never matches and she reads as terminated. The deploy gate still says headcount >= 70 against an actual 55."
+      "notes": "28 open. New on 15 Aug: no bucket exists for Consulting or Salaries & Contributions (Martin s.r.o./a.s., Milos s.r.o.), overstating profit ~EUR 7,306/month. watchdog_228_parity.py still matches byte-exact."
     },
     {
       "id": "personal",
@@ -118,13 +118,13 @@
       "id": "keboola-sunset",
       "name": "Keboola migration / sunset",
       "tier": "medium",
-      "notes": "Four open. Anna Duskova's 12 Aug offer still needs a yes or no: $12k/year annual-only, 300 PPUs, $3/PPU overage, 0.2 TB. Invoice 0055/2026 is unpaid and two unrecognised configs run 12x weekly."
+      "notes": "Four open. Anna Duskova's offer still needs a yes or no: $12k/year annual-only, 300 PPUs, $3/PPU overage, 0.2 TB, and her 14 Aug reply confirms rollover credits are forfeited on a downgrade."
     },
     {
       "id": "tribe-talks",
       "name": "Tribe Talks",
       "tier": "medium",
-      "notes": "15 open. New on 13 Aug: Jacopo Lupo Ferrari owes the Eduardo Moral delivery-channel analysis by Thursday for Martin's Parloa decision. The Marcel interview guide still needs Nenad's sign-off."
+      "notes": "15 open. Nenad Skoko left six comments on the Marcel run-of-show doc, two assigned to Blake, and Jacopo Lupo Ferrari still owes the Eduardo Moral delivery-channel analysis for Martin's Parloa decision."
     },
     {
       "id": "linkedin",
@@ -136,13 +136,13 @@
       "id": "people-ops",
       "name": "People Ops / BambooHR",
       "tier": "medium",
-      "notes": "17 open. Andrea's maternity leave is still free text in BambooHR's Division field, inventing a fake EUR 2,339 client. The two Birthday Bot leftovers from 13 Aug still need a decision."
+      "notes": "18 open. Andrea's maternity leave is still free text in BambooHR's Division field, inventing a fake EUR 2,339 client. Damla Kocek's new insurance card is still sitting at the office."
     },
     {
       "id": "expense-ops",
       "name": "Expense Ops",
       "tier": "big",
-      "notes": "58 open. The $471.45 Deel invoice is due 16 Aug on top of the $3,889 settlement, Niki Vokalkova starts 20 Aug and needs invoicing, and the parser still drops Andreea Vrancianu's invoices."
+      "notes": "57 open. The $471.45 Deel invoice went past due on 16 Aug on top of the $3,889 settlement, Niki Vokalkova starts 20 Aug and needs invoicing, and the parser still drops Andreea Vrancianu's invoices."
     },
     {
       "id": "team-cohesion",

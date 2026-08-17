@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-15",
+  "generated_at": "2026-08-17",
   "schema_version": 3,
-  "total": 322,
-  "active_count": 322,
-  "archived_count": 482,
+  "total": 329,
+  "active_count": 329,
+  "archived_count": 483,
   "projects": [
     {
       "id": "ai-first-working-group",
@@ -8467,7 +8467,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-26",
       "last_seen": "2026-07-27",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-17"
     },
     {
       "text": "Attend the 'Feedback and how to provide negative feedback' leadership training on Wednesday afternoon - Andrea Darabasic flagged that nobody showed up to the Monday-morning session and asked all leads to make the Wednesday one",
@@ -13818,6 +13819,136 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-08-13",
       "last_seen": "2026-08-15",
+      "status": "open"
+    },
+    {
+      "text": "Collect and review the Claude Pro business cases now that the #important_updates call for them is live - run them through the AI First group, decide who gets a licence, and schedule the 90-day check-in on what people actually built",
+      "project": "ai-first-working-group",
+      "source": "slack/CKWLY0TJ8/1786716811.849639",
+      "source_type": "slack",
+      "date": "2026-08-14",
+      "confidence": "medium",
+      "extras": {
+        "channel": "important_updates",
+        "from": "Blake Barkley (own commitment)"
+      },
+      "id": "slack/CKWLY0TJ8/1786716811.849639",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-17",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with Damla Kocek on her new insurance card - it is still at the office and she used her old card at the ER; she said she would try to stop by later in the week once recovered, and there was no online way to get her insurance number",
+      "project": "people-ops",
+      "source": "slack/D08J6F23EHL/1786347341.836649",
+      "source_type": "slack",
+      "date": "2026-08-10",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Damla Kocek",
+        "from": "Damla Kocek"
+      },
+      "id": "slack/D08J6F23EHL/1786347341.836649",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-17",
+      "status": "open"
+    },
+    {
+      "text": "Add the two cost categories the finance dashboard is missing entirely - Consulting, and Salaries & Contributions for Martin s.r.o., Martin a.s. and Milos s.r.o. - then pick one house number for profit. The June reconciliation put the dashboard at 22,684 and Tribe Fin at 11,477, and the whole 11,207 gap is explained: the dashboard has no category at all for those two blocks, so it overstates profit by about 7,306 a month and has done all year. Reconciled June profit sits near 15,400.",
+      "project": "fin-dash",
+      "source": "cowork/local_38cad4e8-22e7-4056-95d0-ea7e408fed09",
+      "source_type": "cowork",
+      "date": "2026-08-15",
+      "confidence": "high",
+      "extras": {
+        "session": "Merging Cashflow and Finance DB"
+      },
+      "id": "cowork/local_38cad4e8-22e7-4056-95d0-ea7e408fed09/addthetwocostcategoriesthefinancedashboa",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-08-17",
+      "status": "open"
+    },
+    {
+      "text": "Rotate the GitHub personal access token found sitting in plaintext in the remote URL of a local git clone of the dashboard repo",
+      "project": "infra",
+      "source": "cowork/local_38cad4e8-22e7-4056-95d0-ea7e408fed09",
+      "source_type": "cowork",
+      "date": "2026-08-15",
+      "confidence": "high",
+      "extras": {
+        "session": "Merging Cashflow and Finance DB"
+      },
+      "id": "cowork/local_38cad4e8-22e7-4056-95d0-ea7e408fed09/rotatethegithubpersonalaccesstokenfounds",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-15",
+      "last_seen": "2026-08-17",
+      "status": "open"
+    },
+    {
+      "text": "Go live on the Calendly replacement: swap the pricing page link in Webflow to https://book.tribe.xyz (page is live, tested end to end, a real booking routed to Salem with invite, email and HubSpot deal), and fix the nav 'Schedule a Call' button that still points at Martin's personal Calendly with month=2025-12 on the homepage, pricing and embedded-recruiting pages - it bypasses round robin so every click has been going to Martin",
+      "project": "infra",
+      "source": "cowork/local_9efe2ee4-4e23-4941-8966-2c6f1316df0f",
+      "source_type": "cowork",
+      "date": "2026-08-14",
+      "confidence": "high",
+      "extras": {
+        "session": "Calendly booking system alternative"
+      },
+      "id": "cowork/local_9efe2ee4-4e23-4941-8966-2c6f1316df0f/goliveonthecalendlyreplacementswapthepri",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-17",
+      "status": "open"
+    },
+    {
+      "text": "Check whether anything is meant to be running on app.tribe.xyz - it is proxied but missing from the Cloudflare redirect allow-list, so it is being 301'd to the marketing site exactly the way book.tribe.xyz and finance.tribe.xyz were until they were added",
+      "project": "infra",
+      "source": "cowork/local_9efe2ee4-4e23-4941-8966-2c6f1316df0f",
+      "source_type": "cowork",
+      "date": "2026-08-14",
+      "confidence": "medium",
+      "extras": {
+        "session": "Calendly booking system alternative"
+      },
+      "id": "cowork/local_9efe2ee4-4e23-4941-8966-2c6f1316df0f/checkwhetheranythingismeanttoberunningon",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-17",
+      "status": "open"
+    },
+    {
+      "text": "The new-interview-stage watch has fired, so start the transform plus dashboard build per STAGE_FUNNEL_BUILD_PLAN.md: Interview 1 has 30 events / 26 candidates, Interview 2 has 15 / 14 and Interview 3 has 11 / 10, first movement 2026-07-22 and activity as recent as 2026-08-13, with 20 candidates currently sitting in the new stages and 14 jobs already configured",
+      "project": "rec-dash",
+      "source": "cowork/local_5a739c2c-1fad-4be5-ae8c-78f0ea4ec660",
+      "source_type": "cowork",
+      "date": "2026-08-13",
+      "confidence": "high",
+      "extras": {
+        "session": "Recruiting new stages usage check"
+      },
+      "id": "cowork/local_5a739c2c-1fad-4be5-ae8c-78f0ea4ec660/thenewinterviewstagewatchhasfiredsostart",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-13",
+      "last_seen": "2026-08-17",
+      "status": "open"
+    },
+    {
+      "text": "Verify the BU mapping for the newer WBR clients - Enam, No Isolation and Pliant all appear in recent weeks, and any client missing from the finance BU Client tab silently defaults to Ponies/Unicorns, so a BU split can be wrong with nothing flagging it",
+      "project": "rec-dash",
+      "source": "cowork/local_81dcb1d2-774b-4ecc-9b2a-97092f58861f",
+      "source_type": "cowork",
+      "date": "2026-08-14",
+      "confidence": "medium",
+      "extras": {
+        "session": "Recruiting dashboard issues"
+      },
+      "id": "cowork/local_81dcb1d2-774b-4ecc-9b2a-97092f58861f/verifythebumappingforthenewerwbrclientse",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-17",
       "status": "open"
     }
   ]
