@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-08-17",
   "schema_version": 3,
-  "total": 329,
-  "active_count": 329,
+  "total": 341,
+  "active_count": 341,
   "archived_count": 483,
   "projects": [
     {
@@ -180,8 +180,8 @@
     {
       "id": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ/helpmartinbuildsalesdashboardsinhubspotf",
       "text": "Help Martin build sales dashboards in HubSpot for monthly business reviews",
-      "project": "sales-hubspot",
-      "project_name": "Sales dashboard + HubSpot",
+      "project": "expense-ops",
+      "project_name": "Expense Ops",
       "source": "fireflies/01KT1SGASFCSZCK4HZD26B65XJ",
       "source_type": "fireflies",
       "date": "2026-06-01",
@@ -265,8 +265,8 @@
     {
       "id": "fireflies/01KT1F8F8E9D9J9H986BYJJSSE/createandmanagesubscriptionsinhubspotwit",
       "text": "Create and manage subscriptions in HubSpot with auto-invoice/email disabled",
-      "project": "sales-hubspot",
-      "project_name": "Sales dashboard + HubSpot",
+      "project": "expense-ops",
+      "project_name": "Expense Ops",
       "source": "fireflies/01KT1F8F8E9D9J9H986BYJJSSE",
       "source_type": "fireflies",
       "date": "2026-06-01",
@@ -282,8 +282,8 @@
     {
       "id": "fireflies/01KT1F8F8E9D9J9H986BYJJSSE/investigatehubspottoaccountingsoftwarein",
       "text": "Investigate HubSpot-to-accounting software integration for automated invoice/payment tracking",
-      "project": "sales-hubspot",
-      "project_name": "Sales dashboard + HubSpot",
+      "project": "expense-ops",
+      "project_name": "Expense Ops",
       "source": "fireflies/01KT1F8F8E9D9J9H986BYJJSSE",
       "source_type": "fireflies",
       "date": "2026-06-01",
@@ -588,8 +588,8 @@
     {
       "id": "fireflies/01KSHR55EFHY020T23RERRH8SE/presentsurveyresultsatmbrmeetingonjune1s",
       "text": "Present survey results at MBR meeting on June 1st",
-      "project": "wbr-mbr",
-      "project_name": "WBR / MBR",
+      "project": "rec-dash",
+      "project_name": "Tribe Recruiting Dashboard",
       "source": "fireflies/01KSHR55EFHY020T23RERRH8SE",
       "source_type": "fireflies",
       "date": "2026-05-26",
@@ -707,8 +707,8 @@
     {
       "id": "fireflies/01KS05Q4N4M8DPXAGG1YH493NS/integratetribepersonnelintohubspotasprod",
       "text": "Integrate Tribe personnel into HubSpot as product entries; investigate BambooHR automation",
-      "project": "sales-hubspot",
-      "project_name": "Sales dashboard + HubSpot",
+      "project": "expense-ops",
+      "project_name": "Expense Ops",
       "source": "fireflies/01KS05Q4N4M8DPXAGG1YH493NS",
       "source_type": "fireflies",
       "date": "2026-05-19",
@@ -724,8 +724,8 @@
     {
       "id": "fireflies/01KS05Q4N4M8DPXAGG1YH493NS/developpipelinetrackingand60dayrenewalno",
       "text": "Develop pipeline tracking and 60-day renewal notice features in HubSpot",
-      "project": "sales-hubspot",
-      "project_name": "Sales dashboard + HubSpot",
+      "project": "expense-ops",
+      "project_name": "Expense Ops",
       "source": "fireflies/01KS05Q4N4M8DPXAGG1YH493NS",
       "source_type": "fireflies",
       "date": "2026-05-19",
@@ -1115,8 +1115,8 @@
     {
       "id": "fireflies/01KPR3WEXBVG3TF94JJEZ3DAR0/developandfinalizembrandbbrdashboardsbye",
       "text": "Develop and finalize MBR and BBR dashboards by end of month",
-      "project": "wbr-mbr",
-      "project_name": "WBR / MBR",
+      "project": "rec-dash",
+      "project_name": "Tribe Recruiting Dashboard",
       "source": "fireflies/01KPR3WEXBVG3TF94JJEZ3DAR0",
       "source_type": "fireflies",
       "date": "2026-04-21",
@@ -1341,8 +1341,8 @@
     {
       "id": "gmail/19e638c819311e94",
       "text": "Add Annex 1 countries to xls file (not PDF) and return signed RFI to Dalia at Nexi",
-      "project": "sales-hubspot",
-      "project_name": "Sales dashboard + HubSpot",
+      "project": "expense-ops",
+      "project_name": "Expense Ops",
       "source": "gmail/19e638c819311e94",
       "source_type": "gmail",
       "date": "2026-05-29",
@@ -1413,8 +1413,8 @@
     {
       "id": "gmail/19dfdb88347a753e",
       "text": "Add PO-10002432 to Aviv invoices and resend for Cornelia/Finance approval",
-      "project": "sales-hubspot",
-      "project_name": "Sales dashboard + HubSpot",
+      "project": "expense-ops",
+      "project_name": "Expense Ops",
       "source": "gmail/19dfdb88347a753e",
       "source_type": "gmail",
       "date": "2026-05-06",
@@ -1467,8 +1467,8 @@
     {
       "id": "gmail/19e3a0edd1e47142",
       "text": "Acknowledge Delivery Hero new Purchase Order 4400250151 (Ariba)",
-      "project": "sales-hubspot",
-      "project_name": "Sales dashboard + HubSpot",
+      "project": "expense-ops",
+      "project_name": "Expense Ops",
       "source": "gmail/19e3a0edd1e47142",
       "source_type": "gmail",
       "date": "2026-05-18",
@@ -2015,8 +2015,8 @@
     {
       "id": "cowork/local_f2c8cf91-90a0-410c-9af3-cbebf5df775f/walkthrough3existingsalesdashboardtabswi",
       "text": "Walk through 3 existing sales dashboard tabs with Martin to determine what stays/drops/gets added before rebuild",
-      "project": "sales-hubspot",
-      "project_name": "Sales dashboard + HubSpot",
+      "project": "expense-ops",
+      "project_name": "Expense Ops",
       "source": "cowork/local_f2c8cf91-90a0-410c-9af3-cbebf5df775f",
       "source_type": "cowork",
       "date": "2026-06-01",
@@ -2032,8 +2032,8 @@
     {
       "id": "cowork/local_f2c8cf91-90a0-410c-9af3-cbebf5df775f/decidesalesdashboardrefreshcadenceandaud",
       "text": "Decide sales dashboard refresh cadence and audience (Salem, Caroline, Mikhail, Jacopo, Kristjana)",
-      "project": "sales-hubspot",
-      "project_name": "Sales dashboard + HubSpot",
+      "project": "expense-ops",
+      "project_name": "Expense Ops",
       "source": "cowork/local_f2c8cf91-90a0-410c-9af3-cbebf5df775f",
       "source_type": "cowork",
       "date": "2026-06-01",
@@ -2134,8 +2134,8 @@
     {
       "id": "cowork/local_6d9d598a-6777-4a4b-85ba-919803939bc9/addpricesfor3datarecruitmentspecialistsd",
       "text": "Add prices for 3 Data Recruitment Specialists (Damla, Erzana, Natalie) + Rachele (Performance Marketing) to HubSpot products",
-      "project": "sales-hubspot",
-      "project_name": "Sales dashboard + HubSpot",
+      "project": "expense-ops",
+      "project_name": "Expense Ops",
       "source": "cowork/local_6d9d598a-6777-4a4b-85ba-919803939bc9",
       "source_type": "cowork",
       "date": "2026-05-29",
@@ -2253,8 +2253,8 @@
     {
       "id": "cowork/local_1aec0472-6a4e-4099-8d7d-d13ec3f97a08/carolinetoexecutehubspotsmartpropertycle",
       "text": "Caroline to execute HubSpot smart-property cleanup for staff roles",
-      "project": "sales-hubspot",
-      "project_name": "Sales dashboard + HubSpot",
+      "project": "expense-ops",
+      "project_name": "Expense Ops",
       "source": "cowork/local_1aec0472-6a4e-4099-8d7d-d13ec3f97a08",
       "source_type": "cowork",
       "date": "2026-05-25",
@@ -2756,7 +2756,7 @@
     },
     {
       "text": "Fix failing 'Refresh Circle data' GitHub Actions workflow in bark8922/tribe-circle (run failed on main)",
-      "project": "circle",
+      "project": "rec-dash",
       "source": "gmail/19e96b06ac796a2c",
       "source_type": "gmail",
       "date": "2026-06-05",
@@ -2766,7 +2766,7 @@
         "subject": "[bark8922/tribe-circle] Run failed: Refresh Circle data - main (dc39f26)"
       },
       "id": "gmail/19e96b06ac796a2c",
-      "project_name": "Project Circle",
+      "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-06-05",
       "last_seen": "2026-06-12",
       "status": "archived",
@@ -3295,7 +3295,7 @@
     },
     {
       "text": "Follow up at end of day on whether Maria at Hostaway responded / whether Blake was CC'd, and report back to Salem",
-      "project": "sales-hubspot",
+      "project": "expense-ops",
       "source": "slack/D057XNFLHTR/1781602484.208479",
       "source_type": "slack",
       "date": "2026-06-16",
@@ -3305,7 +3305,7 @@
         "from": "Salem Mansuri"
       },
       "id": "slack/D057XNFLHTR/1781602484.208479",
-      "project_name": "Sales dashboard + HubSpot",
+      "project_name": "Expense Ops",
       "first_seen": "2026-06-16",
       "last_seen": "2026-06-16",
       "status": "archived",
@@ -3679,7 +3679,7 @@
     },
     {
       "text": "Close the WBR aggregation refresh-gap root cause: chain the WBR aggregation jobs to the candidate-data refresh so same-day activity isn't invisible for hours (the 10:42-14:42 gap), and after the next cycle verify wbr_weekly rebuilt cleanly with the new recruiter-screen attribution (v43) then send wrap-up notes to Lejla (screens now show correctly) and Mikhail (it was attribution, not a Bubble bug)",
-      "project": "wbr-mbr",
+      "project": "rec-dash",
       "source": "cowork/local_13355e7c-b936-424f-ae6b-19253607471e",
       "source_type": "cowork",
       "date": "2026-06-22",
@@ -3688,7 +3688,7 @@
         "session_title": "WBR page data accuracy"
       },
       "id": "cowork/local_13355e7c-b936-424f-ae6b-19253607471e/closethewbraggregationrefreshgaprootcaus",
-      "project_name": "WBR / MBR",
+      "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-06-22",
       "last_seen": "2026-06-22",
       "status": "archived",
@@ -3782,7 +3782,7 @@
     },
     {
       "text": "Fix the WBR/MBR screen-count data for Lejla - her screens are still showing incorrectly on the WBR tab; trace why evaluations/auto-notes from her completed screens aren't being logged/synced (likely a Bubble logging issue, involving Mikhail)",
-      "project": "wbr-mbr",
+      "project": "rec-dash",
       "source": "slack/D055Y2ELF9T/1781859092.527109",
       "source_type": "slack",
       "date": "2026-06-19",
@@ -3792,7 +3792,7 @@
         "channel": "DM with Lejla Silva"
       },
       "id": "slack/D055Y2ELF9T/1781859092.527109",
-      "project_name": "WBR / MBR",
+      "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-06-19",
       "last_seen": "2026-06-22",
       "status": "archived",
@@ -3800,7 +3800,7 @@
     },
     {
       "text": "Trigger a manual run of the Circle Push Keboola job in the UI to confirm the GitHub push and Circle dispatch succeed after fixing the Circle Push token to Contents: Read and write",
-      "project": "circle",
+      "project": "rec-dash",
       "source": "cowork/local_d8796374-d07e-452f-b1d5-5f2ebe2992f9",
       "source_type": "cowork",
       "date": "2026-06-22",
@@ -3809,7 +3809,7 @@
         "session_title": "GitHub token expiration"
       },
       "id": "cowork/local_d8796374-d07e-452f-b1d5-5f2ebe2992f9/triggeramanualrunofthecirclepushkeboolaj",
-      "project_name": "Project Circle",
+      "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-06-22",
       "last_seen": "2026-06-22",
       "status": "archived",
@@ -5192,7 +5192,7 @@
     },
     {
       "text": "Track if Mariam or Mattea are covering Melissa's assigned tasks; clarify responsibilities with Salam and Jacopo to ensure coverage continuity",
-      "project": "wbr-mbr",
+      "project": "rec-dash",
       "source": "fireflies/01KW99PVKWH29C93Y1GR53TPAP",
       "source_type": "fireflies",
       "date": "2026-06-29",
@@ -5201,7 +5201,7 @@
         "meeting": "WBR - Delivery Only"
       },
       "id": "fireflies/01KW99PVKWH29C93Y1GR53TPAP/trackifmariamormatteaarecoveringmelissas",
-      "project_name": "WBR / MBR",
+      "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-06-29",
       "last_seen": "2026-07-01",
       "status": "archived",
@@ -5966,7 +5966,7 @@
     },
     {
       "text": "Double-check data discrepancies between the monthly and WBR/VBR sheets, specifically Aviva figures and missing individuals like Irina",
-      "project": "wbr-mbr",
+      "project": "rec-dash",
       "source": "fireflies/01KWVAGBQ18BQ3ZM6C69YYXSMD",
       "source_type": "fireflies",
       "date": "2026-07-06",
@@ -5975,7 +5975,7 @@
         "meeting_title": "MBR"
       },
       "id": "fireflies/01KWVAGBQ18BQ3ZM6C69YYXSMD/doublecheckdatadiscrepanciesbetweenthemo",
-      "project_name": "WBR / MBR",
+      "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-06",
       "status": "archived",
@@ -6090,7 +6090,7 @@
     },
     {
       "text": "Decide whether to ship the MBR target-list rebuild (fixes 18 stale/drifted targets like Aiven Fuad Safarov 0->50, Enam Aleksandra Vistac 30->70, and newly surfaces Iryna Dyda on Aviv) - currently validated in a scratch script only, not pushed; separately still need the leave-aware activity gate so people on leave (e.g. Milica) show without the manual injection",
-      "project": "wbr-mbr",
+      "project": "rec-dash",
       "source": "cowork/local_7f166515-d216-4d2e-ba31-a52916e8bd51",
       "source_type": "cowork",
       "date": "2026-07-06",
@@ -6099,7 +6099,7 @@
         "session_title": "Milica Mladzic dashboard issue"
       },
       "id": "cowork/local_7f166515-d216-4d2e-ba31-a52916e8bd51/decidewhethertoshipthembrtargetlistrebui",
-      "project_name": "WBR / MBR",
+      "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-06",
       "status": "archived",
@@ -6107,7 +6107,7 @@
     },
     {
       "text": "After relabeling the TS Weekly Note block to 2026W27, trigger the Keboola refresh now so week-27 roster populates and week-26 duplicates clear before the WBR meeting (verify afterward); also check the TA Weekly Note tab for the same off-by-one Wnn mislabel",
-      "project": "wbr-mbr",
+      "project": "rec-dash",
       "source": "cowork/local_2d358f02-9dc9-4cce-b6c8-d0f08b494d58",
       "source_type": "cowork",
       "date": "2026-07-06",
@@ -6116,7 +6116,7 @@
         "session_title": "Sourcing team WBR absence"
       },
       "id": "cowork/local_2d358f02-9dc9-4cce-b6c8-d0f08b494d58/afterrelabelingthetsweeklynoteblockto202",
-      "project_name": "WBR / MBR",
+      "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-07-06",
       "last_seen": "2026-07-06",
       "status": "archived",
@@ -6983,7 +6983,7 @@
     },
     {
       "text": "Set up the ground rules for rolling out the new generic pipeline stage taxonomy (Recruiter Screen -> Move to ATS -> Interview 1/2/3 -> Offer -> Hired) that Blake and Jacopo aligned on with Mikhail - define when candidates move between stages and ensure WBR/MBR data and OKRs stay intact",
-      "project": "wbr-mbr",
+      "project": "rec-dash",
       "source": "slack/C0BG7AXTDP0/1783608505.015509",
       "source_type": "slack",
       "date": "2026-07-09",
@@ -6993,7 +6993,7 @@
         "from": "Jacopo Lupo Ferrari"
       },
       "id": "slack/C0BG7AXTDP0/1783608505.015509",
-      "project_name": "WBR / MBR",
+      "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-07-09",
       "last_seen": "2026-07-10",
       "status": "archived",
@@ -7108,7 +7108,7 @@
     },
     {
       "text": "Fix the failing 'WBR Google Sheet Sync' n8n workflow - 'Bad gateway' error at the 'Push TA Weekly Note' node (failed 13 Jul 09:00)",
-      "project": "wbr-mbr",
+      "project": "rec-dash",
       "source": "slack/D0AKAPA0X3J/1783926014.338509",
       "source_type": "slack",
       "date": "2026-07-13",
@@ -7118,7 +7118,7 @@
         "from": "Blake Updates Bot"
       },
       "id": "slack/D0AKAPA0X3J/1783926014.338509",
-      "project_name": "WBR / MBR",
+      "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-07-13",
       "last_seen": "2026-07-13",
       "status": "archived",
@@ -7233,7 +7233,7 @@
     },
     {
       "text": "Support outreach on the highlighted ICP targets from Caroline's scraped BD Tribe talk list",
-      "project": "sales-hubspot",
+      "project": "expense-ops",
       "source": "fireflies/01KXDKXSX05CTPD0QJH9DKQV5T",
       "source_type": "fireflies",
       "date": "2026-07-13",
@@ -7243,7 +7243,7 @@
         "attendees": "blake@tribe.xyz, carolinemurphy@tribe.xyz"
       },
       "id": "fireflies/01KXDKXSX05CTPD0QJH9DKQV5T/supportoutreachonthehighlightedicptarget",
-      "project_name": "Sales dashboard + HubSpot",
+      "project_name": "Expense Ops",
       "first_seen": "2026-07-13",
       "last_seen": "2026-07-13",
       "status": "archived",
@@ -7657,7 +7657,7 @@
     },
     {
       "text": "Fix the 'Refresh Circle data' GitHub Actions workflow in bark8922/tribe-circle - all jobs failed again on main (commit aed8f5b) on Jul 13",
-      "project": "circle",
+      "project": "rec-dash",
       "source": "gmail/19f5ba5b47b54fd6",
       "source_type": "gmail",
       "date": "2026-07-13",
@@ -7667,7 +7667,7 @@
         "from": "notifications@github.com"
       },
       "id": "gmail/19f5ba5b47b54fd6",
-      "project_name": "Project Circle",
+      "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-07-13",
       "last_seen": "2026-07-14",
       "status": "archived",
@@ -8174,7 +8174,7 @@
     },
     {
       "text": "Follow up with Nexi (Dalia Dal Corso) to obtain and provide the new PO number for the new RPO recruiter's invoices - Jacopo assigned Blake to handle the PO once Nexi issues it",
-      "project": "sales-hubspot",
+      "project": "expense-ops",
       "source": "gmail/19f83f5207f2492c",
       "source_type": "gmail",
       "date": "2026-07-21",
@@ -8184,7 +8184,7 @@
         "from": "dalia.dalcorso@nexigroup.com"
       },
       "id": "gmail/19f83f5207f2492c",
-      "project_name": "Sales dashboard + HubSpot",
+      "project_name": "Expense Ops",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-24",
       "status": "archived",
@@ -8506,7 +8506,7 @@
     },
     {
       "text": "Follow up with Salem to make sure Philip (or Chantal) is actually booked to speak about the Parloa unlock at the Friday all-hands - it was suggested in the WBR and left unassigned",
-      "project": "wbr-mbr",
+      "project": "rec-dash",
       "source": "slack/D0AKAPA0X3J/1785144684.408859",
       "source_type": "slack",
       "date": "2026-07-27",
@@ -8516,7 +8516,7 @@
         "from": "Blake Updates Bot (WBR - Delivery Only brief)"
       },
       "id": "slack/D0AKAPA0X3J/1785144684.408859",
-      "project_name": "WBR / MBR",
+      "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-07-27",
       "last_seen": "2026-07-27",
       "status": "open"
@@ -8608,7 +8608,7 @@
     },
     {
       "text": "Host or co-host the Marcel Tribetalk session, managing conversation flow and timing",
-      "project": "tribe-talks-marcel",
+      "project": "tribe-talks",
       "source": "fireflies/01KY71K4H8M2RTNWSF8SZJXCVW",
       "source_type": "fireflies",
       "date": "2026-07-23",
@@ -8617,7 +8617,7 @@
         "meeting": "Tribetalks"
       },
       "id": "fireflies/01KY71K4H8M2RTNWSF8SZJXCVW/hostorcohostthemarceltribetalksessionman",
-      "project_name": "Tribe Talks - MArcel",
+      "project_name": "Tribe Talks",
       "first_seen": "2026-07-23",
       "last_seen": "2026-07-28",
       "status": "archived",
@@ -13946,6 +13946,205 @@
         "session": "Recruiting dashboard issues"
       },
       "id": "cowork/local_81dcb1d2-774b-4ecc-9b2a-97092f58861f/verifythebumappingforthenewerwbrclientse",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-17",
+      "status": "open"
+    },
+    {
+      "text": "Work with Mikael and Rodrigo to resolve the transcriber tool linkage issues that are attaching candidate information to the wrong recruitment records",
+      "project": "ai-recruiting",
+      "source": "fireflies/01KZNEDA9HYGCNRMR3MFC551EX",
+      "source_type": "fireflies",
+      "date": "2026-08-10",
+      "confidence": "high",
+      "extras": {
+        "meeting": "WBR - Delivery Only"
+      },
+      "id": "fireflies/01KZNEDA9HYGCNRMR3MFC551EX/workwithmikaelandrodrigotoresolvethetran",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-17",
+      "status": "open"
+    },
+    {
+      "text": "Discuss paid AI tool licenses with Martin and approve them selectively for team members with a clear business use case",
+      "project": "ai-first-working-group",
+      "source": "fireflies/01KZV03DCDMMX1MAGJRJ3A7DVN",
+      "source_type": "fireflies",
+      "date": "2026-08-12",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01KZV03DCDMMX1MAGJRJ3A7DVN/discusspaidaitoollicenseswithmartinandap",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-17",
+      "status": "open"
+    },
+    {
+      "text": "Pay the Tribe.xyz Holding a.s. VAT (DPH) 07/2026 liability of CZK 230,794 by August 25, 2026 - Eva Huclova (Boris Gnoth Tax) confirmed the VAT documents were compiled and submitted",
+      "project": "fin-dash",
+      "source": "gmail/1a00aa5d6c4ed966",
+      "source_type": "gmail",
+      "date": "2026-08-16",
+      "confidence": "high",
+      "extras": {
+        "subject": "FW: Tribe Holding - DPH 07/26",
+        "from": "Eva Huclova <ehuclova@borisgnoth.cz>"
+      },
+      "id": "gmail/1a00aa5d6c4ed966",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-17",
+      "status": "open"
+    },
+    {
+      "text": "Decide on Nenad Skoko's proposal to drop the tool-by-tool comparison from the Marcel run of show and instead ask Marcel to walk through the 'tool categories' that make up a basic AI Recruiter Stack, then update the doc",
+      "project": "tribe-talks",
+      "source": "gmail/19feb40bb6ebc078",
+      "source_type": "gmail",
+      "date": "2026-08-10",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Tribe Talk with M... - Question: We know Marcel's quite tool...",
+        "from": "Nenad Skoko via Google Docs <comments-noreply@docs.google.com>"
+      },
+      "id": "gmail/19feb40bb6ebc078",
+      "project_name": "Tribe Talks",
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-17",
+      "status": "open"
+    },
+    {
+      "text": "Clear the test 'Intro Call with Tribe.xyz' bookings off your calendar (Mon Aug 17, Tue Aug 18 and Fri Aug 21) created while testing the tribexyz.com booking flow",
+      "project": "infra",
+      "source": "gmail/19fff8b9157a354d",
+      "source_type": "gmail",
+      "date": "2026-08-14",
+      "confidence": "low",
+      "extras": {
+        "subject": "Invitation: Intro Call with Tribe.xyz @ Mon Aug 17, 2026 12:30pm - 1pm (CEST)",
+        "from": "salem@tribe.xyz"
+      },
+      "id": "gmail/19fff8b9157a354d",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-17",
+      "status": "open"
+    },
+    {
+      "text": "Add Aleksandra Vistac to the Juicebox.ai license setup - Jacopo says Dolores is supporting her too, so she needs a licence alongside Fuad and Dusan",
+      "project": "ai-recruiting",
+      "source": "slack/D056EG3QPLP/1786951593.158549",
+      "source_type": "slack",
+      "date": "2026-08-17",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Jacopo Lupo Ferrari",
+        "from": "Jacopo Lupo Ferrari"
+      },
+      "id": "slack/D056EG3QPLP/1786951593.158549",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "status": "open"
+    },
+    {
+      "text": "Reclassify the ambiguous roles in the updated Job Taxonomy - Nenad shares the cleaned sheet Monday, roles from 1 July 2025 onward move to new categories and he'll leave the unclear ones for Blake",
+      "project": "ai-first-working-group",
+      "source": "slack/C09154E6QNS/1786691730.603649",
+      "source_type": "slack",
+      "date": "2026-08-14",
+      "confidence": "medium",
+      "extras": {
+        "channel": "#ai-first-tribe",
+        "from": "Nenad Skoko"
+      },
+      "id": "slack/C09154E6QNS/1786691730.603649",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-17",
+      "status": "open"
+    },
+    {
+      "text": "Process Salem's car rental invoice (sent 14 Aug because the 15th fell on a Saturday)",
+      "project": "expense-ops",
+      "source": "slack/D057XNFLHTR/1786697955.039739",
+      "source_type": "slack",
+      "date": "2026-08-14",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Salem Mansuri",
+        "from": "Salem Mansuri"
+      },
+      "id": "slack/D057XNFLHTR/1786697955.039739",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-08-17",
+      "status": "open"
+    },
+    {
+      "text": "Update invoicing for Eucalyptus - Dusan's engagement is extended until end of year",
+      "project": "expense-ops",
+      "source": "slack/C04FPRVF5L5/1786948590.105049",
+      "source_type": "slack",
+      "date": "2026-08-17",
+      "confidence": "low",
+      "extras": {
+        "channel": "#accounting-and-invoicing",
+        "from": "Salem Mansuri"
+      },
+      "id": "slack/C04FPRVF5L5/1786948590.105049",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "status": "open"
+    },
+    {
+      "text": "Start the stage-funnel transform and dashboard build per STAGE_FUNNEL_BUILD_PLAN.md - the watch trigger fired: 58 events across 52 candidates have moved through the new Interview 1/2/3 stages since 22 Jul (22 still sitting in them, 14 jobs configured)",
+      "project": "rec-dash",
+      "source": "cowork/local_b83c790c-ded5-49b3-aac8-fe6ad4ce7765",
+      "source_type": "cowork",
+      "date": "2026-08-17",
+      "confidence": "high",
+      "extras": {
+        "session": "Recruiting new stages usage check - scheduled Keboola query confirming first real candidate movement through Interview 1/2/3"
+      },
+      "id": "cowork/local_b83c790c-ded5-49b3-aac8-fe6ad4ce7765/startthestagefunneltransformanddashboard",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "status": "open"
+    },
+    {
+      "text": "Pick which of the three LinkedIn topics from the idea generator to develop into drafts (two systems disagreeing on headcount, 'AI isn't hard to learn, it just takes turning up', automations that mostly report nothing happened) - the run is waiting on your reply before writing angles",
+      "project": "linkedin",
+      "source": "cowork/local_27e5b7c7-170e-4af4-90b8-14cccca53b38",
+      "source_type": "cowork",
+      "date": "2026-08-17",
+      "confidence": "medium",
+      "extras": {
+        "session": "LinkedIn idea generator morning run - three topics proposed, none chosen; harvest is 7 days stale with no LinkedIn connector"
+      },
+      "id": "cowork/local_27e5b7c7-170e-4af4-90b8-14cccca53b38/pickwhichofthethreelinkedintopicsfromthe",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-17",
+      "status": "open"
+    },
+    {
+      "text": "Decide what to do with the v1-v4 recruiting workbooks in the folder - they all lead with the 35 unlinked-calls figure that turned out to be wrong, and Rodrigo is still working from that sheet",
+      "project": "rec-dash",
+      "source": "cowork/local_81dcb1d2-774b-4ecc-9b2a-97092f58861f",
+      "source_type": "cowork",
+      "date": "2026-08-14",
+      "confidence": "medium",
+      "extras": {
+        "session": "Recruiting dashboard issues - blank-attribution and unlinked screening-call bug investigation"
+      },
+      "id": "cowork/local_81dcb1d2-774b-4ecc-9b2a-97092f58861f/decidewhattodowiththev1v4recruitingworkb",
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-17",
