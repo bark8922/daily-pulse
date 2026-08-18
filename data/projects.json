@@ -45,110 +45,110 @@
     "workforce-planning-changes"
   ],
   "lookback_days": 60,
-  "updated": "2026-08-17",
+  "updated": "2026-08-18",
   "generated_from": "data/ledger.json (Notion). Do not hand-edit.",
   "projects": [
     {
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
       "tier": "big",
-      "notes": "25 open. The questionnaire to replace Chantal Bozkurt is still unsent, Rodrigo Gomes is not added, and Nenad Skoko's cleaned Job Taxonomy sheet lands Monday for the ambiguous-role reclassification."
+      "notes": "24 open. Salem Mansuri and Chris need full Claude licences approved, and Salem is asking EUR 18 Pro vs EUR 90 Max before he and Kristjana buy on the company card. Chantal's replacement questionnaire is still unsent."
     },
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
-      "tier": "big",
-      "notes": "26 open. The stage-funnel watcher fired 17 Aug: 58 events across 52 candidates, 22 sitting in Interview 1/2/3, nothing built yet. 35 screening calls stay out of WBR/MBR (Iryna 0/13, Aleksandra 10/32)."
+      "tier": "medium",
+      "notes": "17 open. Stage-funnel build still not started after the trigger fired twice (58 events, 52 candidates). The WBR Refresh comments button is merged but N8N_NOTES vars exist only on Preview, so it fails in production."
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "tier": "big",
-      "notes": "57 open. A GitHub PAT is still plaintext in a local clone's remote URL, book.tribe.xyz is live but the Webflow pricing link and nav button still point at Calendly, and the Friday deck automation links 24.07."
+      "notes": "50 open. Blake sent Rodrigo Gomes a Supabase publishable key with RLS off on jobs and pipeline, the Tribe Book page monitor failed 17 Aug (exec 47772), and the GitHub PAT is still plaintext in two SKILL.md files."
     },
     {
       "id": "okrs",
       "name": "OKRs",
       "tier": "medium",
-      "notes": "Three open, no new signal in 13 days. Key Results still need a status update before the check-in, four Lattice goals are overdue and 14 of 19 intake eligibility-call rows are blank."
+      "notes": "2 open and nothing since 30 Jul. All four Q3 Lattice goals still read currentAmount 0, and 14 of 19 intake eligibility rows are blank because the intake tool is paused."
     },
     {
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
       "tier": "medium",
-      "notes": "13 open. Jacopo Lupo Ferrari added Aleksandra Vistac on 17 Aug, so three Juicebox licences are now unbought on JUICE20 alongside Dusan and Fuad, and the intake tool stays paused."
+      "notes": "13 open. Juicebox is the live thread: Jacopo Lupo Ferrari wants licences for Dusan, Fuad and now Aleksandra Vistac, Starter is capped at 1 seat, and Rodrigo's Supabase revoke SQL is still unrun."
     },
     {
       "id": "tribebot",
       "name": "Tribebot",
       "tier": "medium",
-      "notes": "Six open, no new signal in 11 days. TribeBot still indexes only top-level messages on the 14 IR sprint channels, not the thread replies where Nenad Skoko says the discussion sits."
+      "notes": "5 open. New scope from 17 Aug: the Slack chatbot's Drive integration needs document metadata and labeling. Nenad Skoko's thread-reply indexing gap on the IR sprint channels is still open."
     },
     {
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "big",
-      "notes": "29 open. New on 16 Aug: Tribe.xyz Holding owes CZK 230,794 VAT for 07/2026 by 25 Aug. Consulting and Salaries & Contributions still have no cost bucket, overstating profit ~EUR 7,306/month."
+      "notes": "25 open. Martin Bernard wants the profitability dashboard in the Tribe sidebar with salary hidden, plus month-to-month and per-client views. CZK 230,794 Holding VAT is due 25 Aug and Reaktor still has not paid."
     },
     {
       "id": "personal",
       "name": "Personal",
       "tier": "medium",
-      "notes": "19 open. Chief of Staff at Pearl scored 82 on 14 Aug, the only pick whose stated requirements he part-meets. GigSafe (84), Kin Euphorics (80) and the Upwork pitch are all still undecided."
+      "notes": "19 open, all Blake's own backlog. Eight job-search runs since 5 Aug produced picks nobody actioned; newest are TAR Chief of Staff (77) and NetApp Enterprise Systems, plus the Storyblok filter-2 question."
     },
     {
       "id": "legal",
       "name": "Legal & Contracts",
-      "tier": "big",
-      "notes": "29 open, unchanged since 13 Aug. Estonia needs the apostilled Holding a.s. registry extract and Martin's notarised PoA. Filics still needs the Article 9 carve-out and Seyed's marketing clause."
+      "tier": "medium",
+      "notes": "17 open, and Estonia is the whole thread. CEE Attorneys cannot issue signing instructions until Martin Bernard names a notary country, and Boris Gnoth has not started the CFC analysis on retained profit."
     },
     {
       "id": "project-hub",
       "name": "Project Hub",
       "tier": "medium",
-      "notes": "Three open, no new signal in 12 days. Jacopo Lupo Ferrari's interview-stage adoption tracker is still static and the IR Interview Process entry has not been edited since March."
+      "notes": "0 open. The last item, the stale IR Interview Process entry, aged out without being resolved, and nothing has been logged here since 27 Jul."
     },
     {
       "id": "leadership",
       "name": "Leadership comms",
       "tier": "medium",
-      "notes": "Nine open. Blake covered Martin Bernard's inbox on 12 Aug. Wednesday's TL meeting still has no lead after Katarina Matic Marinkovic went OOO, and the EUR 485K overhead memo is unwritten."
+      "notes": "4 open. The EUR 485K overhead memo off the unpacked Other row is still unwritten, and the operations-role conversation never got its own slot before Martin Bernard travelled on 13 Aug."
     },
     {
       "id": "keboola-sunset",
       "name": "Keboola migration / sunset",
       "tier": "medium",
-      "notes": "Four open. Anna Duskova's offer still needs a yes or no: $12k/year annual-only, 300 PPUs, $3/PPU overage, 0.2 TB, rollover credits forfeited on downgrade. Invoice 0055/2026 is unpaid."
+      "notes": "2 open. Anna Duskova's lowest tier is now $12k/year, annual payment only, 300 PPUs, and August invoice 0055/2026 from Tereza Dolezalova is still unpaid."
     },
     {
       "id": "tribe-talks",
       "name": "Tribe Talks",
       "tier": "medium",
-      "notes": "16 open. Nenad Skoko has two Google Docs comments assigned to Blake on the Marcel run-of-show, plus a proposal to swap the tool-by-tool comparison for an 'AI Recruiter Stack' framing."
+      "notes": "8 open. The Marcel interview guide draft still has not gone to Marcel van der Meer, the automation demo slides are unbuilt, and Jacopo Lupo Ferrari owes the Eduardo Moral introduction analysis."
     },
     {
       "id": "linkedin",
       "name": "LinkedIn (licenses + posting)",
       "tier": "medium",
-      "notes": "18 open. The idea generator left three topics on 17 Aug with no pick made, the 'master the AI stack' post is finished and unsaved, and Tribe is out of InMails until 28 Aug."
+      "notes": "15 open. The IR team is out of InMails until 28 Aug and Salem Mansuri is waiting on top-up pricing. Three drafted posts are still unsaved to Notion, including one dated for Tue 18 Aug."
     },
     {
       "id": "people-ops",
       "name": "People Ops / BambooHR",
       "tier": "medium",
-      "notes": "18 open. Andrea's maternity leave is still free text in BambooHR's Division field, inventing a fake EUR 2,339 client. Damla Kocek's new insurance card is still sitting at the office."
+      "notes": "16 open. Vladimir Stankovic still cannot open the 14 Aug all-hands recording, Andrea Darabasic's maternity leave is free text in a Division field holding EUR 2,339, and Vlad's notice period is undecided."
     },
     {
       "id": "expense-ops",
       "name": "Expense Ops",
       "tier": "big",
-      "notes": "59 open. The $471.45 Deel invoice is past due since 16 Aug on top of the $3,889 settlement, Niki Vokalkova starts 20 Aug and needs invoicing, and Eucalyptus needs Dusan extended to year end."
+      "notes": "49 open and still the biggest pile. Lucie Horakova's two missing-invoice emails from 6 Aug are unread, Deel's $471.45 invoice is due, and Eucalyptus and Vista both need invoicing updates."
     },
     {
       "id": "team-cohesion",
       "name": "Team cohesion",
       "tier": "medium",
-      "notes": "Two open, no new signal in 13 days. July numbers are live with no context for leadership: eNPS 53 to 40, Clients 86 to 67, Wellbeing 86 to 71, RecOps NPS 100 to 0. The staleness check is unbuilt."
+      "notes": "2 open, untouched since 4 Aug. The July engagement drop (eNPS 53 to 40, Wolt eNPS 0 to -25) still has not been framed for leadership, and nothing detects a silent failure on the dashboard."
     }
   ],
   "project_aliases": {
