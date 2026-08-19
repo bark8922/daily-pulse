@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-18",
+  "generated_at": "2026-08-19",
   "schema_version": 3,
-  "total": 301,
-  "active_count": 301,
-  "archived_count": 495,
+  "total": 302,
+  "active_count": 302,
+  "archived_count": 503,
   "projects": [
     {
       "id": "ai-first-working-group",
@@ -43,12 +43,12 @@
     {
       "id": "personal",
       "name": "Personal",
-      "tier": "medium"
+      "tier": "big"
     },
     {
       "id": "legal",
       "name": "Legal & Contracts",
-      "tier": "medium"
+      "tier": "big"
     },
     {
       "id": "project-hub",
@@ -8699,7 +8699,8 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-07-28",
       "last_seen": "2026-07-28",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-19"
     },
     {
       "text": "Connect the local Documents\\Claude\\Projects\\Job-Research-Project folder to the job-search-daily Cowork session so dashboard outputs mirror locally instead of only pushing to GitHub.",
@@ -8715,7 +8716,8 @@
       "project_name": "Needs sorting",
       "first_seen": "2026-07-28",
       "last_seen": "2026-07-28",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-19"
     },
     {
       "text": "Draft a one-page off-cycle bonus framework (off-cycle promotion, sustained exceptional performance, role scope expansion) and circulate it to Ella, Jacopo and Martin before the next calibration; also send a recap closing the two open items from the OKR stand-up (Nikki bonus/team lead, Marina bonus)",
@@ -8799,7 +8801,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-28",
       "last_seen": "2026-07-29",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-19"
     },
     {
       "text": "Pull OSM region IDs for Prague-East/West okresy so Bezrealitky rental search covers suburbs (currently Prague-only)",
@@ -8863,7 +8866,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-07-28",
       "last_seen": "2026-07-29",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-19"
     },
     {
       "text": "Investigate more frequent roles-bot data refresh for Dolores (add ~noon sync, keep 4:45pm, maybe 3x/day)",
@@ -8911,7 +8915,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-07-28",
       "last_seen": "2026-07-29",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-19"
     },
     {
       "text": "Decide whether to drop Fireflies or Slack as a daily-pulse source for meeting-derived tasks - both surface the same items (e.g. Martin's 1:1/WBR)",
@@ -8944,7 +8949,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-07-28",
       "last_seen": "2026-07-29",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-19"
     },
     {
       "text": "Chase Reaktor for the July invoice payment if it is still unpaid after 1 August - Blake told Kristjana it is not overdue yet but would be late on the 1st, and confirm Riku forwarded the billing email",
@@ -9295,7 +9301,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-28",
       "last_seen": "2026-07-31",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-19"
     },
     {
       "text": "Make sure the performance-review bonuses for Aleksandra Vistac and Nikki get invoiced in September - Andrea Darabasic confirmed both are approved and already added in BambooHR",
@@ -9477,7 +9484,8 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-07-28",
       "last_seen": "2026-08-03",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-19"
     },
     {
       "text": "Give the LinkedIn post writer feedback on why all three 30 Jul postures were rejected, and decide on the contract-redline draft",
@@ -13699,6 +13707,151 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-08-18",
       "last_seen": "2026-08-18",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with Alexandra Kabrtova (CEE Attorneys) and her broker on the professional indemnity + cyber insurance quotes for Tribe.xyz Czech s.r.o. - the Voize contract requires EUR 50,000 PI cover in place by 5 October 2026 (Blake asked for PI at EUR 100k and a combined PI+cyber package at EUR 250-500k to compare)",
+      "project": "legal",
+      "source": "gmail/1a013eaabd0c7912",
+      "source_type": "gmail",
+      "date": "2026-08-18",
+      "confidence": "high",
+      "extras": {
+        "subject": "Company Insurance",
+        "from": "alexandra.kabrtova@ceeatt.com"
+      },
+      "id": "gmail/1a013eaabd0c7912",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-19",
+      "status": "open"
+    },
+    {
+      "text": "Start the stage-funnel transform and dashboard build per STAGE_FUNNEL_BUILD_PLAN.md - the watch job just tripped: 33 events/29 candidates into Interview 1, 15/14 into Interview 2, 11/10 into Interview 3, first event 2026-07-22 and still moving on 2026-08-18, with 23 candidates sitting in the new stages and 14 jobs configured",
+      "project": "rec-dash",
+      "source": "cowork/local_d8aecc04-b8c4-4c66-bb6d-affb108b88cc",
+      "source_type": "cowork",
+      "date": "2026-08-19",
+      "confidence": "high",
+      "extras": {
+        "session": "Recruiting new stages usage check"
+      },
+      "id": "cowork/local_d8aecc04-b8c4-4c66-bb6d-affb108b88cc/startthestagefunneltransformanddashboard",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-19",
+      "status": "open"
+    },
+    {
+      "text": "Agree the Tribe Talk promo plan with Marcel directly instead of assuming he will amplify - he has now gone two silent weeks on LinkedIn with no post since 30 July, and promo is meant to start 22 September; ask him on the 18 September call what he plans to publish in the run-up and whether he wants material from the run of show",
+      "project": "tribe-talks",
+      "source": "cowork/local_beeeb594-c73b-4b90-8946-6b8a3207a4c9",
+      "source_type": "cowork",
+      "date": "2026-08-17",
+      "confidence": "high",
+      "extras": {
+        "session": "Marcel linkeding research"
+      },
+      "id": "cowork/local_beeeb594-c73b-4b90-8946-6b8a3207a4c9/agreethetribetalkpromoplanwithmarceldire",
+      "project_name": "Tribe Talks",
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-19",
+      "status": "open"
+    },
+    {
+      "text": "Repoint the Marcel LinkedIn weekly task file at the Notion LinkedIn Activity Log subpage (3b43de198f5e8194bc86cdbfedc6e84c) and drop the 'What's landing on his LinkedIn lately' step - that Session Ideas section no longer exists in the restructured hub, so the task is writing against a heading that is gone",
+      "project": "tribe-talks",
+      "source": "cowork/local_beeeb594-c73b-4b90-8946-6b8a3207a4c9",
+      "source_type": "cowork",
+      "date": "2026-08-17",
+      "confidence": "medium",
+      "extras": {
+        "session": "Marcel linkeding research"
+      },
+      "id": "cowork/local_beeeb594-c73b-4b90-8946-6b8a3207a4c9/repointthemarcellinkedinweeklytaskfileat",
+      "project_name": "Tribe Talks",
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-19",
+      "status": "open"
+    },
+    {
+      "text": "Decide the amortization basis for the finance dashboard - it reads column D, so annual invoices land whole in one month (January 2026 IT shows 29,596 against 17,164 in the smoothed column F, August 2025 61,264 against 38,590, July 2024 33,056 against 9,091) and BU profitability swings with each annual bill; column F was built as the fix and never wired up, and it is only half-maintained, so the call is which basis you want rather than just flipping the column",
+      "project": "fin-dash",
+      "source": "cowork/local_38cad4e8-22e7-4056-95d0-ea7e408fed09",
+      "source_type": "cowork",
+      "date": "2026-08-18",
+      "confidence": "high",
+      "extras": {
+        "session": "Merging Cashflow and Finance DB"
+      },
+      "id": "cowork/local_38cad4e8-22e7-4056-95d0-ea7e408fed09/decidetheamortizationbasisforthefinanced",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-19",
+      "status": "open"
+    },
+    {
+      "text": "Do the manual Tribe Fin sheet edits Claude cannot write: delete the nine duplicate Job Slots rows (142, 148, 154, 160, 166, 172, 178, 184, 190) and add the missing Elena Petrovska rows for June and July at 1,700/month, since her July salary is still due",
+      "project": "fin-dash",
+      "source": "cowork/local_38cad4e8-22e7-4056-95d0-ea7e408fed09",
+      "source_type": "cowork",
+      "date": "2026-08-18",
+      "confidence": "high",
+      "extras": {
+        "session": "Merging Cashflow and Finance DB"
+      },
+      "id": "cowork/local_38cad4e8-22e7-4056-95d0-ea7e408fed09/dothemanualtribefinsheeteditsclaudecanno",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-19",
+      "status": "open"
+    },
+    {
+      "text": "Explain the two payment gaps only you can answer: Martin's July payment of 36,690 against a typical 11,690, so about 25K unaccounted for, and Jonaed Iqbal's final month where 6,417 of his June salary never shows up in July's EOR payment",
+      "project": "fin-dash",
+      "source": "cowork/local_38cad4e8-22e7-4056-95d0-ea7e408fed09",
+      "source_type": "cowork",
+      "date": "2026-08-18",
+      "confidence": "high",
+      "extras": {
+        "session": "Merging Cashflow and Finance DB"
+      },
+      "id": "cowork/local_38cad4e8-22e7-4056-95d0-ea7e408fed09/explainthetwopaymentgapsonlyyoucananswer",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-19",
+      "status": "open"
+    },
+    {
+      "text": "Send Rodrigo the drafted reply on the hanging call records - nothing has gone to him yet; it clears the delete from a reporting angle (WBR and MBR read the candidate record, not call records) but asks Aleksandra to archive rather than delete, because the Keboola extract loads incrementally so deleted Bubble rows stay in the data forever, and asks whether the extension actually exposes an archive control given about 200 calls already carry archived = true",
+      "project": "rec-dash",
+      "source": "cowork/local_81dcb1d2-774b-4ecc-9b2a-97092f58861f",
+      "source_type": "cowork",
+      "date": "2026-08-18",
+      "confidence": "high",
+      "extras": {
+        "session": "Recruiting dashboard issues"
+      },
+      "id": "cowork/local_81dcb1d2-774b-4ecc-9b2a-97092f58861f/sendrodrigothedraftedreplyonthehangingca",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-19",
+      "status": "open"
+    },
+    {
+      "text": "Prove the 'request another time' branch of the booking page end to end - it has still never run for real, Claude stopped short of hitting Send so nothing reached HubSpot; send one through with your own email, confirm the deal and Salem's inbox, then delete the test deal",
+      "project": "infra",
+      "source": "cowork/local_9efe2ee4-4e23-4941-8966-2c6f1316df0f",
+      "source_type": "cowork",
+      "date": "2026-08-16",
+      "confidence": "medium",
+      "extras": {
+        "session": "Calendly booking system alternative"
+      },
+      "id": "cowork/local_9efe2ee4-4e23-4941-8966-2c6f1316df0f/provetherequestanothertimebranchoftheboo",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-16",
+      "last_seen": "2026-08-19",
       "status": "open"
     }
   ]
