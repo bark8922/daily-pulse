@@ -52,55 +52,55 @@
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
       "tier": "big",
-      "notes": "30 open, up 1. Vladimir Stankovic and Jovana Drakula both volunteered for one seat, the rewritten recruitment ask is drafted but unposted, and Salem Mansuri still owes the Claude business case."
+      "notes": "30 open, flat. Vladimir Stankovic and Jovana Drakula both volunteered for one seat, the recruitment ask is drafted but unposted, Salem Mansuri still owes the Claude business case and Pro licences sit unused."
     },
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
       "tier": "big",
-      "notes": "22 open, up 1. The stage-funnel watch job tripped with 29 candidates in Interview 1 and the build unstarted, Mikhail Kuzmin is still waiting on the job-category CSV, and three role owners skip stages."
+      "notes": "25 open, up 3. The 20 Aug OKRs Dashboards call added an open-roles-vs-ATS report for Jacopo and Salem, the stage-funnel build is still unstarted at 29 candidates in Interview 1, and TA data holds departed recruiters."
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "tier": "big",
-      "notes": "52 open, down 1. The team@tribe.xyz suspicious login from 152.233.51.26 on 18 Aug is uninvestigated, the Cloudflare and R2 keys are still plaintext in the 15 Jul Mikhail DM, and the scanner misses private channels."
+      "notes": "53 open, up 1. A HIGH-severity phishing alert on claire.dooher@yourtalentninja.co.uk joins the uninvestigated team@tribe.xyz login from 152.233.51.26, and the Cloudflare and R2 keys are still plaintext."
     },
     {
       "id": "okrs",
       "name": "OKRs",
       "tier": "medium",
-      "notes": "2 open, down 1. Valeriia sits at 4/16 (25%) and Ejla at 4/10 (40%) on weekly role updates across weeks 31-33, and the four overdue Lattice goals still read zero progress."
+      "notes": "2 open, flat. Valeriia sits at 4/16 (25%) and Ejla at 4/10 (40%) on weekly role updates across weeks 31-33, and the four overdue Lattice goals still read zero progress."
     },
     {
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
       "tier": "big",
-      "notes": "20 open, up 2. The intake tool stays off until Andreea Vrancianu's transcriber fix ships, which Rodrigo Gomes expects on 20 Aug, and three taxonomy items are unowned before Nenad's 28 Aug deadline."
+      "notes": "20 open, flat. The intake tool stays off until Andreea Vrancianu's transcriber fix ships, which Rodrigo Gomes expected on 20 Aug, and three taxonomy items are unowned before Nenad's 28 Aug deadline."
     },
     {
       "id": "tribebot",
       "name": "Tribebot",
       "tier": "medium",
-      "notes": "12 open, flat. Andrea Darabasic's bench file and her cut-off feedback are both outstanding, her sheet is only part-indexed, the Drive Bot Slack integration is unbuilt and demos are unscheduled."
+      "notes": "13 open, up 1. Gustavo Loureiro Castro's dashboard questions failed on the 'Actual Screens' vocabulary gap, Andrea Darabasic's bench file is still outstanding, and the Drive Bot Slack link is unbuilt."
     },
     {
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "big",
-      "notes": "30 open, up 2. The amortization basis is still undecided (column D reads 29,596 against 17,164 for Jan 2026 IT), Martin's 25K July overage is unexplained, and Ella has no dashboard link."
+      "notes": "33 open, up 3. Ella Darie's 0.75% EBITDA bonus is contractually due to her in August and uncalculated, a CZK 653,173 VAT refund lands by 25 Sept, and the amortization basis is still undecided."
     },
     {
       "id": "personal",
       "name": "Personal",
       "tier": "medium",
-      "notes": "17 open, down 3. The 14-19 Aug job-search runs put Pearl at 82, Waylin Partners at 81 and Adaptive Teams at 80 with nothing applied to or dropped, and hard filter 2 still cut Storyblok."
+      "notes": "17 open, flat. The 14-19 Aug job-search runs put Pearl at 82, Waylin Partners at 81 and Adaptive Teams at 80 with nothing applied to or dropped, and hard filter 2 still cut Storyblok."
     },
     {
       "id": "legal",
       "name": "Legal & Contracts",
       "tier": "big",
-      "notes": "24 open, up 2. CEE Attorneys cannot issue signing instructions until Martin names a notary country and date, the Alexandra/Boris/Eva profit-distribution reply is drafted but unsent, and four insurance forms are blank."
+      "notes": "26 open, up 2. The insurance pack now needs the US/Canada exposure call, the IT_PI 2.24 vs 2.25 split and the D&O eligibility statement, and the Alexandra/Boris/Eva profit reply is still unsent."
     },
     {
       "id": "project-hub",
@@ -136,13 +136,13 @@
       "id": "people-ops",
       "name": "People Ops / BambooHR",
       "tier": "medium",
-      "notes": "17 open, flat. The survey-conversation checklist with Ella is unbuilt before it goes mandatory on 16 Sept, Dropbox Sign is still live alongside Google eSign, and Vladimir Stankovic cannot open the 14 Aug recording."
+      "notes": "18 open, up 1. Lisa Gargulinska's German-number email is drafted and unsent after the eSIM purchase, the Ella survey-conversation checklist is unbuilt before 16 Sept, and Dropbox Sign is still live."
     },
     {
       "id": "expense-ops",
       "name": "Expense Ops",
       "tier": "big",
-      "notes": "54 open, flat and still the biggest pile. Holding invoice VF1 0644/2526 is unpaid, Revolut failed to recall 2,175 EUR from Solutions Consultant Ltda, and the disputed $471.45 Deel invoice went past due 16 Aug."
+      "notes": "55 open, up 1 and still the biggest pile. Holding invoice VF1 0644/2526 is unpaid, Revolut failed to recall 2,175 EUR from Solutions Consultant Ltda, and Salem's Berlin hotel is unbooked."
     },
     {
       "id": "team-cohesion",

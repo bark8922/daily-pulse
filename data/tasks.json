@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-08-20",
   "schema_version": 3,
-  "total": 326,
-  "active_count": 326,
+  "total": 338,
+  "active_count": 338,
   "archived_count": 517,
   "projects": [
     {
@@ -28,7 +28,7 @@
     {
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
-      "tier": "medium"
+      "tier": "big"
     },
     {
       "id": "tribebot",
@@ -43,7 +43,7 @@
     {
       "id": "personal",
       "name": "Personal",
-      "tier": "big"
+      "tier": "medium"
     },
     {
       "id": "legal",
@@ -14489,6 +14489,204 @@
       "id": "cowork/local_38cad4e8-22e7-4056-95d0-ea7e408fed09/recategorisethefiveremainingcategorizerr",
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-08-18",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Produce a report of total open roles versus roles tracked in the new ATS pipeline, including role open dates, so Jacopo and Salem can identify evergreen roles and prioritize cleanup before the September grace-period deadline",
+      "project": "rec-dash",
+      "source": "fireflies/01M0FRCBTXH58E9F28H1PBCDFV",
+      "source_type": "fireflies",
+      "date": "2026-08-20",
+      "confidence": "high",
+      "extras": {
+        "meeting": "OKRs Dashboards"
+      },
+      "id": "fireflies/01M0FRCBTXH58E9F28H1PBCDFV/produceareportoftotalopenrolesversusrole",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Check with Andrea about re-enabling the BambooHR-triggered reminders for role archiving and cleanup so the OKRs dashboard stays accurate",
+      "project": "rec-dash",
+      "source": "fireflies/01M0FRCBTXH58E9F28H1PBCDFV",
+      "source_type": "fireflies",
+      "date": "2026-08-20",
+      "confidence": "high",
+      "extras": {
+        "meeting": "OKRs Dashboards"
+      },
+      "id": "fireflies/01M0FRCBTXH58E9F28H1PBCDFV/checkwithandreaaboutreenablingthebambooh",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Clean up outdated Talent Acquisition data in the dashboards by removing departed recruiters from active task lists (per Salem's request) while keeping their historical data accessible",
+      "project": "rec-dash",
+      "source": "fireflies/01M0FRCBTXH58E9F28H1PBCDFV",
+      "source_type": "fireflies",
+      "date": "2026-08-20",
+      "confidence": "high",
+      "extras": {
+        "meeting": "OKRs Dashboards"
+      },
+      "id": "fireflies/01M0FRCBTXH58E9F28H1PBCDFV/cleanupoutdatedtalentacquisitiondatainth",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Track receipt of the Tribe.xyz Czech s.r.o. (SRO) VAT 07/2026 refund of CZK 653,173 due from the tax office by 25 September 2026 - Eva Huclova (Boris Gnoth Tax) confirmed the VAT forms were compiled and submitted",
+      "project": "fin-dash",
+      "source": "gmail/1a01927dc315bc28",
+      "source_type": "gmail",
+      "date": "2026-08-19",
+      "confidence": "high",
+      "extras": {
+        "subject": "Tribe SRO - VAT 07/2026",
+        "from": "Eva Huclova <ehuclova@borisgnoth.cz>"
+      },
+      "id": "gmail/1a01927dc315bc28",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Review the HIGH-severity Google Workspace user-reported phishing alert for claire.dooher@yourtalentninja.co.uk (reported by Jacopo on Aug 18) in the Admin Alert Center and block or quarantine the sender",
+      "project": "infra",
+      "source": "gmail/1a014117449eb26a",
+      "source_type": "gmail",
+      "date": "2026-08-18",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Alert: User-reported phishing for claire.dooher@yourtalentninja.co.uk",
+        "from": "google-workspace-alerts-noreply@google.com"
+      },
+      "id": "gmail/1a014117449eb26a",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Calculate Ella Darie's 2026 EBITDA bonus (0.75% of EBITDA under her 2025 amendment), get the EBITDA figure from Boris, confirm she scored at least 4 out of 5 on performance, and tell her the amount in August so she can invoice it with her August remuneration",
+      "project": "fin-dash",
+      "source": "slack/D055NJ27YRY/1787211840.581209",
+      "source_type": "slack",
+      "date": "2026-08-20",
+      "confidence": "high",
+      "extras": {
+        "from": "Blake Barkley to Martin Bernard",
+        "channel": "DM with Martin Bernard"
+      },
+      "id": "slack/D055NJ27YRY/1787211840.581209",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Fix the TribeBot vocabulary gap so it recognises \"Actual Screens\" - Gustavo Loureiro Castro's dashboard questions kept failing and Blake said he is on it",
+      "project": "tribebot",
+      "source": "slack/D058MHYDUBA/1787217958.379039",
+      "source_type": "slack",
+      "date": "2026-08-20",
+      "confidence": "high",
+      "extras": {
+        "from": "Gustavo Loureiro Castro",
+        "channel": "DM with Gustavo Loureiro Castro"
+      },
+      "id": "slack/D058MHYDUBA/1787217958.379039",
+      "project_name": "Tribebot",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Book Salem Mansuri's Berlin hotel - he said either the Leonardo or the Ibis depending on the price at the moment of booking",
+      "project": "expense-ops",
+      "source": "slack/D057XNFLHTR/1787231320.737049",
+      "source_type": "slack",
+      "date": "2026-08-20",
+      "confidence": "medium",
+      "extras": {
+        "from": "Salem Mansuri",
+        "channel": "DM with Salem Mansuri"
+      },
+      "id": "slack/D057XNFLHTR/1787231320.737049",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Retune the TA and Sourcer pool floor thresholds in watchdog_check.py before they cry wolf - TA pool sits at exactly 25 against a >=25 floor and Sourcer pool at 8 against a >=8 floor, so the next departure trips a FAIL that is a threshold artifact rather than a data bug; also clear the stale duplicate active_employees.json copies in the repo root (57 names) and legacy data/ (68 names)",
+      "project": "fin-dash",
+      "source": "slack/C08TYHVKDQT/1786958080.491229",
+      "source_type": "slack",
+      "date": "2026-08-17",
+      "confidence": "medium",
+      "extras": {
+        "from": "Dashboard watchdog run posted by Blake Barkley",
+        "channel": "#test-n8n"
+      },
+      "id": "slack/C08TYHVKDQT/1786958080.491229",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Send Lisa Gargulinska the drafted German-number email (final version fixes the contradictory tariff instruction): she activates the ALDI TALK eSIM at alditalk.de via 'SIM aktivieren', uses the Otto-Braun-Str. 90, 10249 Berlin address, picks Kombi-Paket S with no payment needed since the EUR 10 starting credit covers the first 4 weeks, and does the passport VideoIdent in English - then confirm she received the forwarded activation email with the QR code",
+      "project": "people-ops",
+      "source": "cowork/local_4e1fff0a-432e-4d62-93f7-d42473d7be7f",
+      "source_type": "cowork",
+      "date": "2026-08-20",
+      "confidence": "high",
+      "extras": {
+        "session": "German phone number for Aircall"
+      },
+      "id": "cowork/local_4e1fff0a-432e-4d62-93f7-d42473d7be7f/sendlisagargulinskathedraftedgermannumbe",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Finish the Tribe insurance questionnaire pack Claude built as an 8-tab workbook: decide the US/Canada exposure answer once (it drives six questions across all four documents and one whole document exists only because of it), settle the IT_PI section 2 split between rows 2.24 (outsourcing own specialists) and 2.25 (recruitment services) since that table prices the professional indemnity, and supply the details left blank - registration number, address, founding date, financial figures, headcount, subsidiaries - so the three fillable PDFs can be completed",
+      "project": "legal",
+      "source": "cowork/local_1e0f6448-fe88-4b0f-9ded-d1544d3257c7",
+      "source_type": "cowork",
+      "date": "2026-08-20",
+      "confidence": "high",
+      "extras": {
+        "session": "Insurance questionnaire review"
+      },
+      "id": "cowork/local_1e0f6448-fe88-4b0f-9ded-d1544d3257c7/finishthetribeinsurancequestionnairepack",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Answer the three insurance items Claude deliberately left to you: confirm the D&O eligibility statement and Generali's 'no claims in three years' declaration yourself, ask the broker whether the UCETNI_PI tab (which asks whether Tribe is an accounting or audit firm - it is not) can be dropped from the submission, and quote the actual liability cap and consequential-loss exclusion from the standard client agreement at tab 2 row 5.6 since insurers price that down",
+      "project": "legal",
+      "source": "cowork/local_1e0f6448-fe88-4b0f-9ded-d1544d3257c7",
+      "source_type": "cowork",
+      "date": "2026-08-20",
+      "confidence": "medium",
+      "extras": {
+        "session": "Insurance questionnaire review"
+      },
+      "id": "cowork/local_1e0f6448-fe88-4b0f-9ded-d1544d3257c7/answerthethreeinsuranceitemsclaudedelibe",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-20",
       "last_seen": "2026-08-20",
       "status": "open"
     }
