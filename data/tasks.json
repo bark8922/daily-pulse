@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-19",
+  "generated_at": "2026-08-20",
   "schema_version": 3,
-  "total": 324,
-  "active_count": 324,
-  "archived_count": 503,
+  "total": 326,
+  "active_count": 326,
+  "archived_count": 517,
   "projects": [
     {
       "id": "ai-first-working-group",
@@ -13,7 +13,7 @@
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
-      "tier": "medium"
+      "tier": "big"
     },
     {
       "id": "infra",
@@ -43,7 +43,7 @@
     {
       "id": "personal",
       "name": "Personal",
-      "tier": "medium"
+      "tier": "big"
     },
     {
       "id": "legal",
@@ -8751,7 +8751,8 @@
       "project_name": "Needs sorting",
       "first_seen": "2026-07-29",
       "last_seen": "2026-07-29",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-20"
     },
     {
       "text": "Follow up with Sonja and Ella on internal recruiting data integration and system overlap",
@@ -8767,7 +8768,8 @@
       "project_name": "AI First Working Group",
       "first_seen": "2026-07-29",
       "last_seen": "2026-07-29",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-20"
     },
     {
       "text": "Pay Martin Bernard's overdue T-Mobile CZ bill (2691.85 Kc, forwarded UPOMINKA) and set up a recurring reminder so it stops being missed monthly",
@@ -8784,7 +8786,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-29",
       "last_seen": "2026-07-29",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-20"
     },
     {
       "text": "Process the client lunch receipt Martin sent (photo attached) as a company expense",
@@ -8818,7 +8821,8 @@
       "project_name": "Needs sorting",
       "first_seen": "2026-07-29",
       "last_seen": "2026-07-29",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-20"
     },
     {
       "text": "Chase the 14 of 19 blank intake eligibility-call rows in the tracker - needed to start calculating OKRs",
@@ -8834,7 +8838,8 @@
       "project_name": "OKRs",
       "first_seen": "2026-07-29",
       "last_seen": "2026-07-29",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-20"
     },
     {
       "text": "Fix claude-backups-daily STEP 1 to clone into $HOME/bk instead of /tmp (stale nobody:nogroup dir breaks rm -rf) and redirect clone stderr to a file",
@@ -8850,7 +8855,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-07-29",
       "last_seen": "2026-07-29",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-20"
     },
     {
       "text": "Move the daily-pulse GitHub PAT out of cleartext in the scheduled-task file (it's echoed to logs every run) and rotate it",
@@ -8883,7 +8889,8 @@
       "project_name": "Tribebot",
       "first_seen": "2026-07-29",
       "last_seen": "2026-07-29",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-20"
     },
     {
       "text": "Implement weekly-roundup question changes once Rodrigo/Chantal's sourcing lab group sends back their proposal",
@@ -8899,7 +8906,8 @@
       "project_name": "Tribebot",
       "first_seen": "2026-07-29",
       "last_seen": "2026-07-29",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-20"
     },
     {
       "text": "Decide whether to add a daily check on .claude-backup.log that Slack-pings Blake if the archive backup doesn't complete (after a 5-day silent failure)",
@@ -8967,7 +8975,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-29",
       "last_seen": "2026-07-30",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-20"
     },
     {
       "text": "Record the Task 4 Loom walkthrough and assemble the SalesPad submission Google Doc (strip em dashes from the Task 1-3 docs, embed videos and workflow links, verify the share link is publicly viewable) before the Fri 31 Jul deadline",
@@ -8983,7 +8992,8 @@
       "project_name": "Needs sorting",
       "first_seen": "2026-07-29",
       "last_seen": "2026-07-30",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-20"
     },
     {
       "text": "Formally engage Estonian legal counsel (Erik Salur, Njord) on the EUR 2,500 + EUR 500 fixed-fee formation once internal planning is agreed",
@@ -9069,7 +9079,8 @@
       "project_name": "Needs sorting",
       "first_seen": "2026-07-29",
       "last_seen": "2026-07-30",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-20"
     },
     {
       "text": "Share the finalized calibrated performance reviews with your team members in Lattice and set up the handover catch-up with each upcoming lead plus the joint feedback call with the team member",
@@ -9103,7 +9114,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-29",
       "last_seen": "2026-07-30",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-20"
     },
     {
       "text": "Delete the duplicate row 22 in the Invoices tab (literal dupe of row 20 - same Revolut invoice INV-883, 15 USD, 27 July, identical Row ID) so the PDF parser workflow stops harmlessly re-emitting it every run",
@@ -9183,7 +9195,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-07-29",
       "last_seen": "2026-07-31",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-20"
     },
     {
       "text": "Apply the $HOME-clone /tmp permission fix to daily-pulse eod/morning scheduled task scripts (same bug found in claude-backups-daily)",
@@ -9250,7 +9263,8 @@
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-07-29",
       "last_seen": "2026-07-31",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-20"
     },
     {
       "text": "Add historical median base salary by role + country to the New Role Briefings - Eduardo Moral requested it in the #important_updates feedback thread since ~31% of candidates drop off due to salary in the example briefing",
@@ -14211,6 +14225,271 @@
       "project_name": "OKRs",
       "first_seen": "2026-08-19",
       "last_seen": "2026-08-19",
+      "status": "open"
+    },
+    {
+      "text": "Turn the intake tool back on later this week with the UI improvements that visually distinguish a recruiter screen from an intake",
+      "project": "ai-recruiting",
+      "source": "fireflies/01M0CPMH5AVEW2C64WNY05FC6G",
+      "source_type": "fireflies",
+      "date": "2026-08-19",
+      "confidence": "high",
+      "extras": {
+        "meeting": "OKR Check-in - Stand-up: Delivery, People, BD"
+      },
+      "id": "fireflies/01M0CPMH5AVEW2C64WNY05FC6G/turntheintaketoolbackonlaterthisweekwith",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Move the TA roles update process fully onto the Voice version next week to make it easier to use and improve the data collected",
+      "project": "ai-recruiting",
+      "source": "fireflies/01M0CPMH5AVEW2C64WNY05FC6G",
+      "source_type": "fireflies",
+      "date": "2026-08-19",
+      "confidence": "high",
+      "extras": {
+        "meeting": "OKR Check-in - Stand-up: Delivery, People, BD"
+      },
+      "id": "fireflies/01M0CPMH5AVEW2C64WNY05FC6G/movethetarolesupdateprocessfullyontothev",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Keep working the accountants and lawyers on the payout and profit process, and give them the data needed to finalise payout timing once compliance checks clear",
+      "project": "fin-dash",
+      "source": "fireflies/01M0A1JM5RGNBZV9HKH3QGSEBM",
+      "source_type": "fireflies",
+      "date": "2026-08-18",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Blake / Ella 1:1"
+      },
+      "id": "fireflies/01M0A1JM5RGNBZV9HKH3QGSEBM/keepworkingtheaccountantsandlawyersonthe",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Send the password-protected SWIFT correspondence PDF (password draubBgSAF$u94) to Solutions Consultant Ltda and ask them to have their bank return the 2,175.00 EUR from the 2026-07-10 transfer - Revolut confirmed the recall failed because the funds already reached the beneficiary's account",
+      "project": "expense-ops",
+      "source": "gmail/1a01b1ba58fb3c7e",
+      "source_type": "gmail",
+      "date": "2026-08-19",
+      "confidence": "high",
+      "extras": {
+        "subject": "Missing outbound recall outcome - I260710JTRUWX7PM",
+        "from": "payments_noreply@revolut.com"
+      },
+      "id": "gmail/1a01b1ba58fb3c7e",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Approve or decline Vladimir Stankovic's Perk trip 43975133 - Helsinki flight Sept 7 plus Split return, EUR 369.23 total, billed to Apix Consultants on the Tribe.xyz Czech - Travel card",
+      "project": "expense-ops",
+      "source": "gmail/1a01b49b09ffd22a",
+      "source_type": "gmail",
+      "date": "2026-08-19",
+      "confidence": "high",
+      "extras": {
+        "subject": "Vladimir Stankovic has requested trip 43975133 - Flight to Helsinki",
+        "from": "agent@perk.com"
+      },
+      "id": "gmail/1a01b49b09ffd22a",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Decide how to handle the Deel overdue-payment notice: the disputed $471.45 Deel Fees & Services invoice (Order Form Q-39879) went past due on Aug 16 and Deel is warning about account disruption - either pay it or push Justin Fregona for the commitment-break answer he promised",
+      "project": "expense-ops",
+      "source": "gmail/1a01768099cdc8f3",
+      "source_type": "gmail",
+      "date": "2026-08-19",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Immediate Action Required: Overdue Payments",
+        "from": "no-reply@deel.support"
+      },
+      "id": "gmail/1a01768099cdc8f3",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Enable Row-Level Security on the publicly accessible table in the Supabase project tribe-job-intel (garopkilxgpcmlkiqvbg) - Supabase flagged it as a critical rls_disabled_in_public issue meaning anyone with the project URL can read, edit and delete the data",
+      "project": "infra",
+      "source": "gmail/1a0165b4dabdd70f",
+      "source_type": "gmail",
+      "date": "2026-08-18",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Action required: security vulnerabilities detected in your projects",
+        "from": "noreply@supabase.com"
+      },
+      "id": "gmail/1a0165b4dabdd70f",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Add rejection-reasons-per-stage to TribeBot (e.g. how many candidates were rejected at the 'Moved to ATS' stage) - Gustavo asked, Blake said he'd add another table to the bot query and look at it",
+      "project": "tribebot",
+      "source": "slack/D058MHYDUBA/1787151027.123609",
+      "source_type": "slack",
+      "date": "2026-08-19",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Gustavo Loureiro Castro",
+        "from": "Gustavo Loureiro Castro"
+      },
+      "id": "slack/D058MHYDUBA/1787151027.123609",
+      "project_name": "Tribebot",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Pick one person to join the AI First working group - Vladimir Stankovic and Jovana Drakula both volunteered in #help and there is only one spot",
+      "project": "ai-first-working-group",
+      "source": "slack/CSV8RQKB4/1787150939.864399",
+      "source_type": "slack",
+      "date": "2026-08-19",
+      "confidence": "high",
+      "extras": {
+        "channel": "#help",
+        "from": "Vladimir Stankovic / Jovana Drakula"
+      },
+      "id": "slack/CSV8RQKB4/1787150939.864399",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Finish indexing Andrea Darabasic's Google Sheet into TribeBot (the tab must stay named Sheet1 or the index breaks)",
+      "project": "tribebot",
+      "source": "slack/D071AKJ9YG2/1787145395.208939",
+      "source_type": "slack",
+      "date": "2026-08-19",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Andrea Darabasic",
+        "from": "Andrea Darabasic"
+      },
+      "id": "slack/D071AKJ9YG2/1787145395.208939",
+      "project_name": "Tribebot",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Shut down the Dropbox Sign subscription and move People Ops over to Google eSign",
+      "project": "people-ops",
+      "source": "slack/C05R5DS9S2J/1787140774.265549",
+      "source_type": "slack",
+      "date": "2026-08-19",
+      "confidence": "medium",
+      "extras": {
+        "channel": "#people-ops",
+        "from": "Blake Barkley (own commitment)"
+      },
+      "id": "slack/C05R5DS9S2J/1787140774.265549",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Get Martin a definitive answer on Estonian substance requirements - whether the entity needs a local hire or whether a freelancer in a WeWork is enough to avoid being refused an Estonian VAT number",
+      "project": "legal",
+      "source": "slack/D055NJ27YRY/1787050864.179139",
+      "source_type": "slack",
+      "date": "2026-08-18",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Martin Bernard",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/D055NJ27YRY/1787050864.179139",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Post the rewritten AI First working group recruitment ask in Slack - the final version is drafted in chat after several rewrites but nothing has been sent, and it still needs the Friday post link dropped in; the earlier post has produced zero applicants for the one open seat",
+      "project": "ai-first-working-group",
+      "source": "cowork/local_e64387be-91d2-4703-abb4-438d5f6b601d",
+      "source_type": "cowork",
+      "date": "2026-08-19",
+      "confidence": "high",
+      "extras": {
+        "session": "Working group agenda"
+      },
+      "id": "cowork/local_e64387be-91d2-4703-abb4-438d5f6b601d/posttherewrittenaifirstworkinggrouprecru",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Chase the role owners the new role-tracker Owners tab flags as not using the interview stages - Mateja Jokovic (3 roles, 3 gap roles), Fuad Safarov (2 gaps) and Elena Petrovska (1 gap), all with candidates past Move to ATS and nobody tracked into an interview stage - and answer the open build question of whether the Follow-up badge should fire at 1+ or 2+ gap roles (only 14 of 42 active roles, 33%, show any interview movement)",
+      "project": "rec-dash",
+      "source": "cowork/local_89e12d9a-7afe-463f-bd7e-dc5d343a365b",
+      "source_type": "cowork",
+      "date": "2026-08-19",
+      "confidence": "high",
+      "extras": {
+        "session": "Funnel stages data structure"
+      },
+      "id": "cowork/local_89e12d9a-7afe-463f-bd7e-dc5d343a365b/chasetheroleownersthenewroletrackerowner",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Send the drafted reply to Alexandra, Boris and Eva on the shareholder profit distributions - attach the signed Ella agreement and ask Alexandra what it actually grants her on profit share, and ask for the full history on Jacopo (what was prepared, what was signed, what was not, and whether anything is owed from 2025 given no profit was distributed). Alexandra has confirmed Jacopo's 5% holds from law and the Articles regardless of the unsigned call-option amendment, so that thread is closed, but the 2026 documentation is still stuck waiting on figures and instructions from Boris and Eva and needs a committed date from each side - the 13 August signing window was missed and Martin is now back in Thailand",
+      "project": "legal",
+      "source": "cowork/local_bc9b97eb-b72f-45ee-a5ef-15e76595b17c",
+      "source_type": "cowork",
+      "date": "2026-08-19",
+      "confidence": "high",
+      "extras": {
+        "session": "Tax residency updates"
+      },
+      "id": "cowork/local_bc9b97eb-b72f-45ee-a5ef-15e76595b17c/sendthedraftedreplytoalexandraborisandev",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Recategorise the five remaining Categorizer rows in the HoldCo/TribeCZ 2026 tab that Claude cannot write - row 1254 (Andreea, 1,680) to IT, and rows 632, 634, 825 and 1078 to BD Tools",
+      "project": "fin-dash",
+      "source": "cowork/local_38cad4e8-22e7-4056-95d0-ea7e408fed09",
+      "source_type": "cowork",
+      "date": "2026-08-18",
+      "confidence": "medium",
+      "extras": {
+        "session": "Merging Cashflow and Finance DB"
+      },
+      "id": "cowork/local_38cad4e8-22e7-4056-95d0-ea7e408fed09/recategorisethefiveremainingcategorizerr",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-20",
       "status": "open"
     }
   ]

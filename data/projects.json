@@ -45,110 +45,110 @@
     "workforce-planning-changes"
   ],
   "lookback_days": 60,
-  "updated": "2026-08-19",
+  "updated": "2026-08-20",
   "generated_from": "data/ledger.json (Notion). Do not hand-edit.",
   "projects": [
     {
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
       "tier": "big",
-      "notes": "26 open. Salem Mansuri and Chris still need full Claude licences approved, Salem is waiting on a EUR 18 Pro vs EUR 90 Max answer, and Jacopo Lupo Ferrari needs the closed-loop context fix for Nexi and Optim."
+      "notes": "30 open, up 1. Vladimir Stankovic and Jovana Drakula both volunteered for one seat, the rewritten recruitment ask is drafted but unposted, and Salem Mansuri still owes the Claude business case."
     },
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
-      "tier": "medium",
-      "notes": "19 open, up 1. The stage-funnel watch job tripped again on 19 Aug (33 events, 29 candidates into Interview 1) and the build is unstarted. Rodrigo's archive-vs-delete reply is drafted but unsent."
+      "tier": "big",
+      "notes": "22 open, up 1. The stage-funnel watch job tripped with 29 candidates in Interview 1 and the build unstarted, Mikhail Kuzmin is still waiting on the job-category CSV, and three role owners skip stages."
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "tier": "big",
-      "notes": "52 open, down 2. The Cloudflare API token and R2 keys are still plaintext in the 15 Jul Mikhail DM, the daily-pulse Slack scanner cannot resolve private channels, and Ella's engagement file needs a host."
+      "notes": "52 open, down 1. The team@tribe.xyz suspicious login from 152.233.51.26 on 18 Aug is uninvestigated, the Cloudflare and R2 keys are still plaintext in the 15 Jul Mikhail DM, and the scanner misses private channels."
     },
     {
       "id": "okrs",
       "name": "OKRs",
       "tier": "medium",
-      "notes": "2 open, nothing since 30 Jul. All four overdue Lattice goals still read zero progress and 14 of 19 intake eligibility rows are blank while the intake tool is paused."
+      "notes": "2 open, down 1. Valeriia sits at 4/16 (25%) and Ejla at 4/10 (40%) on weekly role updates across weeks 31-33, and the four overdue Lattice goals still read zero progress."
     },
     {
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
-      "tier": "medium",
-      "notes": "15 open. Tribe is on the Juicebox Growth plan but onboarding with Samuel is unbooked, seats for Dusan, Fuad and Aleksandra Vistac are unset, and Rodrigo's Supabase anon revoke is still unrun."
+      "tier": "big",
+      "notes": "20 open, up 2. The intake tool stays off until Andreea Vrancianu's transcriber fix ships, which Rodrigo Gomes expects on 20 Aug, and three taxonomy items are unowned before Nenad's 28 Aug deadline."
     },
     {
       "id": "tribebot",
       "name": "Tribebot",
       "tier": "medium",
-      "notes": "6 open. Blake owes Jovana Drakula the on/off mute toggle on the weekly sourcer roundup, and Nenad Skoko's thread-reply indexing gap on the IR sprint channels is still open."
+      "notes": "12 open, flat. Andrea Darabasic's bench file and her cut-off feedback are both outstanding, her sheet is only part-indexed, the Drive Bot Slack integration is unbuilt and demos are unscheduled."
     },
     {
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "big",
-      "notes": "28 open, up 2. The amortization basis is undecided (column D vs F, five-figure swings), Martin's 25K July overage and Jonaed Iqbal's missing 6,417 are unexplained, and billing timing shows Voize at -100%."
+      "notes": "30 open, up 2. The amortization basis is still undecided (column D reads 29,596 against 17,164 for Jan 2026 IT), Martin's 25K July overage is unexplained, and Ella has no dashboard link."
     },
     {
       "id": "personal",
       "name": "Personal",
       "tier": "medium",
-      "notes": "19 open, all Blake's own backlog. The 13-18 Aug job-search runs produced picks up to 84 (GigSafe) and 81 (Waylin Partners) with nothing actioned, and hard filter 2 still cut Storyblok."
+      "notes": "17 open, down 3. The 14-19 Aug job-search runs put Pearl at 82, Waylin Partners at 81 and Adaptive Teams at 80 with nothing applied to or dropped, and hard filter 2 still cut Storyblok."
     },
     {
       "id": "legal",
       "name": "Legal & Contracts",
       "tier": "big",
-      "notes": "21 open, up 1. CEE Attorneys cannot issue signing instructions until Martin names a notary country, Boris Gnoth has not started the CFC analysis, and Alexandra Kabrtova is chasing PI insurance quotes."
+      "notes": "24 open, up 2. CEE Attorneys cannot issue signing instructions until Martin names a notary country and date, the Alexandra/Boris/Eva profit-distribution reply is drafted but unsent, and four insurance forms are blank."
     },
     {
       "id": "project-hub",
       "name": "Project Hub",
       "tier": "medium",
-      "notes": "0 open. Nothing logged since 27 Jul; the last item, the stale IR Interview Process entry, aged out unresolved."
+      "notes": "0 open. Nothing logged since 27 Jul, 24 days. The last item, the stale IR Interview Process entry, aged out unresolved and nobody was ever actually asked about it."
     },
     {
       "id": "leadership",
       "name": "Leadership comms",
       "tier": "medium",
-      "notes": "10 open. The eSign default decision with Andrea Darabasic, Ella Darie's three partnership meetings and their deal terms, and Tijana's BU dashboard access are all still open."
+      "notes": "11 open, flat. Ella Darie's three partnership meetings ran without agreed deal terms, the eSign default is undecided with Andrea, and Sanja and Gustavo have no answer on the survey-checklist split."
     },
     {
       "id": "keboola-sunset",
       "name": "Keboola migration / sunset",
       "tier": "medium",
-      "notes": "2 open. Anna Duskova's lowest tier is $12k/year, annual payment only, 300 PPUs, and August invoice 0055/2026 from Tereza Dolezalova is still unpaid."
+      "notes": "2 open, nothing new since 12 Aug. Anna Duskova's lowest tier is $12k/year annual-only with 300 PPUs and she is holding the order, and August invoice 0055/2026 is still unpaid."
     },
     {
       "id": "tribe-talks",
       "name": "Tribe Talks",
       "tier": "medium",
-      "notes": "10 open, up 2. Marcel van der Meer has gone two silent LinkedIn weeks with no promo plan agreed, the interview guide still has not reached him, and Jacopo owes the Eduardo Moral analysis."
+      "notes": "10 open, flat. Marcel van der Meer has not posted on LinkedIn since 30 July with promo due to start 22 Sept, the interview guide is still unsigned by Nenad, and Jacopo owes the Eduardo Moral analysis."
     },
     {
       "id": "linkedin",
       "name": "LinkedIn (licenses + posting)",
       "tier": "medium",
-      "notes": "16 open. Lisa Gargulinska asked for a licence for the Nexi account, the IR team is out of InMails until 28 Aug, and three drafted posts are still unsaved to Notion."
+      "notes": "16 open, flat. Lisa Gargulinska still has no licence after moving onto Nexi, the IR team is out of InMails until 28 Aug with no top-up price from the rep, and three drafted posts are unsaved to Notion."
     },
     {
       "id": "people-ops",
       "name": "People Ops / BambooHR",
       "tier": "medium",
-      "notes": "16 open. Vlad's notice-period payment is undecided before he returns on the 24th, Vladimir Stankovic cannot open the 14 Aug all-hands recording, and Andrea's maternity leave is free text in BambooHR."
+      "notes": "17 open, flat. The survey-conversation checklist with Ella is unbuilt before it goes mandatory on 16 Sept, Dropbox Sign is still live alongside Google eSign, and Vladimir Stankovic cannot open the 14 Aug recording."
     },
     {
       "id": "expense-ops",
       "name": "Expense Ops",
       "tier": "big",
-      "notes": "52 open, down 2 and still the biggest pile. The Deel buyout is unsettled with Revolut as a fallback via Francesco, Helsinki flights for Fuad and Vlad need approval under EUR 300, and a $27 Upwork overage is unpaid."
+      "notes": "54 open, flat and still the biggest pile. Holding invoice VF1 0644/2526 is unpaid, Revolut failed to recall 2,175 EUR from Solutions Consultant Ltda, and the disputed $471.45 Deel invoice went past due 16 Aug."
     },
     {
       "id": "team-cohesion",
       "name": "Team cohesion",
       "tier": "medium",
-      "notes": "2 open, untouched since 4 Aug. The July engagement drop (eNPS 53 to 40, Wolt eNPS 0 to -25) still has not been framed for leadership, and nothing detects a silent dashboard failure."
+      "notes": "2 open, untouched since 4 Aug, 16 days. The July engagement drop (eNPS 53 to 40, Wolt eNPS 0 to -25) still has not been framed for leadership and nothing detects a silent dashboard failure."
     }
   ],
   "project_aliases": {
