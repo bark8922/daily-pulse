@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-08-21",
   "schema_version": 3,
-  "total": 338,
-  "active_count": 338,
+  "total": 354,
+  "active_count": 354,
   "archived_count": 530,
   "projects": [
     {
@@ -14910,6 +14910,271 @@
       "id": "cowork/local_3a6c4f97-4199-4165-b8ec-0dd5ac9f21d3/checkhowtheslackingestionbotiswiredagain",
       "project_name": "Tribebot",
       "first_seen": "2026-08-20",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Encourage the team to test the Tribe Bot and intake tool and collect their feedback",
+      "project": "tribebot",
+      "source": "fireflies/01M0J95236A1RDKBEJG3SNXPJQ",
+      "source_type": "fireflies",
+      "date": "2026-08-21",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Friday Team Meeting"
+      },
+      "id": "fireflies/01M0J95236A1RDKBEJG3SNXPJQ/encouragetheteamtotestthetribebotandinta",
+      "project_name": "Tribebot",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Monitor email for urgent business development communications on Martin's behalf",
+      "project": "leadership",
+      "source": "fireflies/01M0J95236A1RDKBEJG3SNXPJQ",
+      "source_type": "fireflies",
+      "date": "2026-08-21",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Friday Team Meeting"
+      },
+      "id": "fireflies/01M0J95236A1RDKBEJG3SNXPJQ/monitoremailforurgentbusinessdevelopment",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Approve or decline Fuad Safarov's Perk trip 44044140 (flight to Helsinki departing September 7)",
+      "project": "expense-ops",
+      "source": "gmail/1a0244189c117538",
+      "source_type": "gmail",
+      "date": "2026-08-21",
+      "confidence": "high",
+      "extras": {
+        "subject": "Fuad Safarov has requested trip 44044140 - Flight to Helsinki",
+        "from": "agent@perk.com"
+      },
+      "id": "gmail/1a0244189c117538",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Find out who turned 2-Step Verification off on the shared team@tribe.xyz Google account on Aug 20 and re-enable it",
+      "project": "infra",
+      "source": "gmail/1a0205c951f0a566",
+      "source_type": "gmail",
+      "date": "2026-08-20",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Security alert for team@tribe.xyz",
+        "from": "no-reply@accounts.google.com"
+      },
+      "id": "gmail/1a0205c951f0a566",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Build Sashka's silver-medalist introductions dashboard (intros per week, request-to-intro time, totals, funnel conversion, intro-to-hire time) once she confirms the intro definition and the interview/offer/hire update process",
+      "project": "rec-dash",
+      "source": "slack/C0BSMMLHMDE/1787311500.707089",
+      "source_type": "slack",
+      "date": "2026-08-21",
+      "confidence": "high",
+      "extras": {
+        "channel": "Group DM (Martin Bernard, Sashka Sarafinovska)",
+        "from": "Sashka Sarafinovska"
+      },
+      "id": "slack/C0BSMMLHMDE/1787311500.707089",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Fix the recruiting dashboard to group Moved-to-ATS by the ATS event date instead of date_interview, which gets overwritten when a candidate moves to Interview 1 and shifts the count into the wrong week",
+      "project": "rec-dash",
+      "source": "slack/D0577RU8WQ1/1787312976.933919",
+      "source_type": "slack",
+      "date": "2026-08-21",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM",
+        "from": "Mikhail Kuzmin"
+      },
+      "id": "slack/D0577RU8WQ1/1787312976.933919",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Redistribute the intake task force teams now that the intake tool is back on, with tracking restarting Monday",
+      "project": "project-hub",
+      "source": "slack/C0BD4MNA6SC/1787315935.140179",
+      "source_type": "slack",
+      "date": "2026-08-21",
+      "confidence": "medium",
+      "extras": {
+        "channel": "#intake-task-force",
+        "from": "Blake Barkley"
+      },
+      "id": "slack/C0BD4MNA6SC/1787315935.140179",
+      "project_name": "Project Hub",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Announce at the Friday meeting that the intake tool is live again and ask everyone to manually update the Tribe Chrome extension",
+      "project": "project-hub",
+      "source": "slack/C0ASLKVG07N/1787310640.987909",
+      "source_type": "slack",
+      "date": "2026-08-21",
+      "confidence": "medium",
+      "extras": {
+        "channel": "Group DM (Mikhail Kuzmin, Rodrigo Gomes)",
+        "from": "Rodrigo Gomes"
+      },
+      "id": "slack/C0ASLKVG07N/1787310640.987909",
+      "project_name": "Project Hub",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Answer the InMail budget question in the all-hands Q&A - cover the financial side (licences include 100 InMails, 250/cycle cap, extra purchases case-by-case via TL or Director) while Jacopo covers alternatives",
+      "project": "linkedin",
+      "source": "slack/C052MERDLNM/1787312435.739539",
+      "source_type": "slack",
+      "date": "2026-08-21",
+      "confidence": "medium",
+      "extras": {
+        "channel": "#directors",
+        "from": "Ella Darie"
+      },
+      "id": "slack/C052MERDLNM/1787312435.739539",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Clean up the BambooHR data hygiene issues surfaced by the watchdog: live test record #200, Andre Thaisz division date 1120-11-01, duplicate rows in report 228 for Eduardo Moral Casimiro and Aleksandra Vistac, and hire-date mismatches between reports 149 and 228",
+      "project": "fin-dash",
+      "source": "slack/C08TYHVKDQT/1787304020.541679",
+      "source_type": "slack",
+      "date": "2026-08-21",
+      "confidence": "medium",
+      "extras": {
+        "channel": "#test-n8n",
+        "from": "Dashboard watchdog (Blake Barkley)"
+      },
+      "id": "slack/C08TYHVKDQT/1787304020.541679",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Update dashboard-memory/feedback_validate_before_deploy.md - its deploy gate still says headcount >= 70 and staff cost >= EUR 250K, both false at 55 HC / EUR 200,951, and it now contradicts validate_data.py",
+      "project": "infra",
+      "source": "slack/C08TYHVKDQT/1787217217.549729",
+      "source_type": "slack",
+      "date": "2026-08-20",
+      "confidence": "medium",
+      "extras": {
+        "channel": "#test-n8n",
+        "from": "Dashboard watchdog (Blake Barkley)"
+      },
+      "id": "slack/C08TYHVKDQT/1787217217.549729",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Decide whether to deploy the moved-to-ATS date patch across all history (restating 2025 ATS upward, Jan-May most affected) or limit it to 2026 onward",
+      "project": "rec-dash",
+      "source": "cowork/local_d49da37b-949e-412c-8291-d4116041421d",
+      "source_type": "cowork",
+      "date": "2026-08-21",
+      "confidence": "high",
+      "extras": {
+        "session": "Moved to ATS data discrepancy"
+      },
+      "id": "cowork/local_d49da37b-949e-412c-8291-d4116041421d/decidewhethertodeploythemovedtoatsdatepa",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Send Mikhail the No Isolation ATS count confirmation, including the Jan-May 2025 date_interview gap that stopped in June 2025, once the restatement call is made",
+      "project": "rec-dash",
+      "source": "cowork/local_d49da37b-949e-412c-8291-d4116041421d",
+      "source_type": "cowork",
+      "date": "2026-08-21",
+      "confidence": "high",
+      "extras": {
+        "session": "Moved to ATS data discrepancy"
+      },
+      "id": "cowork/local_d49da37b-949e-412c-8291-d4116041421d/sendmikhailthenoisolationatscountconfirm",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Send Sashka the drafted message confirming what counts as an intro and how interview/offer/hired updates will reach us before building the silver-medalist tracker",
+      "project": "rec-dash",
+      "source": "cowork/local_a9499c40-8cb6-44ea-8ba8-641e4c756711",
+      "source_type": "cowork",
+      "date": "2026-08-21",
+      "confidence": "high",
+      "extras": {
+        "session": "Silver-medalist project dashboard"
+      },
+      "id": "cowork/local_a9499c40-8cb6-44ea-8ba8-641e4c756711/sendsashkathedraftedmessageconfirmingwha",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Start the recruiting stage-funnel transform and dashboard build per STAGE_FUNNEL_BUILD_PLAN.md now that candidates are moving through Interview 1/2/3",
+      "project": "rec-dash",
+      "source": "cowork/local_c12e125e-8168-4de7-bbea-a59d16fba94f",
+      "source_type": "cowork",
+      "date": "2026-08-21",
+      "confidence": "high",
+      "extras": {
+        "session": "Recruiting new stages usage check"
+      },
+      "id": "cowork/local_c12e125e-8168-4de7-bbea-a59d16fba94f/starttherecruitingstagefunneltransforman",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Set up OBS with separate mic and desktop audio tracks and run a test recording before the Tuesday Teams call",
+      "project": "inbox",
+      "source": "cowork/local_8766c5c1-fc6d-466b-8b8d-b45415603a3f",
+      "source_type": "cowork",
+      "date": "2026-08-21",
+      "confidence": "medium",
+      "extras": {
+        "session": "Teams transcription tools"
+      },
+      "id": "cowork/local_8766c5c1-fc6d-466b-8b8d-b45415603a3f/setupobswithseparatemicanddesktopaudiotr",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-08-21",
       "last_seen": "2026-08-21",
       "status": "open"
     }
