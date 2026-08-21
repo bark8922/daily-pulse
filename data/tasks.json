@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-20",
+  "generated_at": "2026-08-21",
   "schema_version": 3,
   "total": 338,
   "active_count": 338,
-  "archived_count": 517,
+  "archived_count": 530,
   "projects": [
     {
       "id": "ai-first-working-group",
@@ -9009,7 +9009,8 @@
       "project_name": "Legal & Contracts",
       "first_seen": "2026-07-30",
       "last_seen": "2026-07-30",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-21"
     },
     {
       "text": "Identify which Tribe entity each invoice in Lucie Horakova's second batch belongs to (Anthropic receipts, INV-04399, OD2026_0043270, PF00692026, RCHPF-036326/041226, Ivan Vuksanovic WK1) and send Boris Gnoth Tax your missing March invoice",
@@ -9027,7 +9028,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-30",
       "last_seen": "2026-08-05",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-21"
     },
     {
       "text": "Update the 4 overdue Lattice goals (incl. the TA-Sourcer goal) with current progress",
@@ -9044,7 +9046,8 @@
       "project_name": "OKRs",
       "first_seen": "2026-07-30",
       "last_seen": "2026-07-30",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-21"
     },
     {
       "text": "Add the missing receipts/details to the outstanding Revolut expenses across all three entities (Tribe.xyz Czech s.r.o., TRIBE.XYZ SPAIN SL, Tribe.xyz Holding a.s.)",
@@ -9097,7 +9100,8 @@
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-07-30",
       "last_seen": "2026-07-30",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-21"
     },
     {
       "text": "Reflect the new Taxfix contract for Chene Elliot in invoicing: starts 1.8.2026 on a 4-month contract, 2 months at $10k then 2 months at $11k, and $11k per month thereafter",
@@ -9131,7 +9135,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-30",
       "last_seen": "2026-07-30",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-21"
     },
     {
       "text": "Clean the invoice intake folder: delete row 19 (VOP_RR_25062026.pdf is Alza.cz terms and conditions, not an invoice), move the PDF out of the Drive intake folder, and check whether row 7's blank NA__ entry has a junk source file too",
@@ -9147,7 +9152,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-30",
       "last_seen": "2026-07-30",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-21"
     },
     {
       "text": "Chase CEE Attorneys (via Boris Gnoth) for the intercompany loan and dividend documents Martin still needs to sign - handed off 7 Jul with no response in three weeks; get a firm date, the full document list, and whether anything needs wet ink or notarization given Martin is in Asia time",
@@ -9163,7 +9169,8 @@
       "project_name": "Legal & Contracts",
       "first_seen": "2026-07-30",
       "last_seen": "2026-07-30",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-21"
     },
     {
       "text": "Post the shortened reply to Jennifer Hood's comment on the published 'Ops person, not a data person' LinkedIn post (conceding the foundation work, pushing back that defining what a metric means sits with whoever uses the number)",
@@ -9179,7 +9186,8 @@
       "project_name": "LinkedIn license management",
       "first_seen": "2026-07-30",
       "last_seen": "2026-07-30",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-21"
     },
     {
       "text": "Raise the daily-pulse Cowork session-list scan limit past 30 so the morning scan covers the full 24h window",
@@ -9212,7 +9220,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-07-30",
       "last_seen": "2026-07-31",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-21"
     },
     {
       "text": "Process the card expense Andrea Darabasic sent for Ella (Receipt-2799-3124-7443.pdf + Invoice-DAD0F6DB-0010.pdf, cc accounting@) - book/reconcile it against the company card",
@@ -9246,7 +9255,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-07-30",
       "last_seen": "2026-07-31",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-21"
     },
     {
       "text": "Clean up offboarded users from Tribe mailing lists/groups - emails are bouncing for meho@, gino@, marko@ and alexandraotilia@tribe.xyz, and resend anything they still need to personal addresses",
@@ -9398,7 +9408,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-07-30",
       "last_seen": "2026-08-03",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-21"
     },
     {
       "text": "Set up invoicing for the new Filics placement: Wladyslaw Gadomski starts 24/08 at 7k + 2k per hire with no cap (contract has no end date, 30-day notice) - Kristjana posted it in #accounting-and-invoicing",
@@ -9449,7 +9460,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-30",
       "last_seen": "2026-08-03",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-21"
     },
     {
       "text": "Follow through on the new client contract Jacopo Lupo Ferrari requested (HubSpot record 440707530989) priced at 11k for a Senior TA and 10k for a Junior TA - Blake drafted and shared it on 30 Jul; confirm the pricing/roles are right and drive it to signature.",
@@ -9466,7 +9478,8 @@
       "project_name": "Legal & Contracts",
       "first_seen": "2026-07-30",
       "last_seen": "2026-08-03",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-21"
     },
     {
       "text": "Fix the daily-pulse Slack scanner dedupe rule that skips sub-items when the parent message ts is already tracked - it is dropping real actions nested inside the Post-Meeting Intelligence Briefs (Estonia exit tax, Erik scoping email, Revolut entity question)",
@@ -14688,6 +14701,216 @@
       "project_name": "Legal & Contracts",
       "first_seen": "2026-08-20",
       "last_seen": "2026-08-20",
+      "status": "open"
+    },
+    {
+      "text": "Decide with Andrea Darabasic and Mikhail Kuzmin how to actually enforce archiving of leftover roles in the dashboard when someone leaves - the BambooHR offboarding task exists but sits with team leads who are not doing it; Andrea can reassign it to the leaver themselves or to one person (Blake or Mikhail, not both), and Mikhail says Bubble needs an entry point that signals the user is archived",
+      "project": "rec-dash",
+      "source": "slack/C0BR4567LBZ/1787237636.911689",
+      "source_type": "slack",
+      "date": "2026-08-20",
+      "confidence": "high",
+      "extras": {
+        "channel": "Group DM (Mikhail Kuzmin, Andrea Darabasic)",
+        "from": "Andrea Darabasic"
+      },
+      "id": "slack/C0BR4567LBZ/1787237636.911689",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Close the loop on Lisa Gargulinska's German phone number for the Nexi account - Blake bought her an ALDI TALK prepaid eSIM (EUR 9.99 setup incl. EUR 10 credit) and forwarded the activation email; confirm she completed the ALDI TALK registration and video ID check, and make sure the EUR 8.99 per 4-week top-ups get reimbursed through her invoice",
+      "project": "expense-ops",
+      "source": "slack/C0BR2UYLWR5/1787228400.092999",
+      "source_type": "slack",
+      "date": "2026-08-20",
+      "confidence": "medium",
+      "extras": {
+        "channel": "Group DM (Lisa Gargulinska, Jacopo Lupo Ferrari)",
+        "from": "Lisa Gargulinska"
+      },
+      "id": "slack/C0BR2UYLWR5/1787228400.092999",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Get the new role-tracker Coverage tab actually populated - the Keboola MCP token returns 401 Invalid access token from the job queue, so the transform was created and wired but never run; the tab is live and self-hiding until flow 118392817 runs at 08:15 Prague or someone hits Run in the Keboola UI. Reads and config writes work, so it is a job-run permission gap on the token, not a dead token, and it is worth fixing separately.",
+      "project": "rec-dash",
+      "source": "cowork/local_eb1abe4a-864a-433a-b919-9f2f8782c721",
+      "source_type": "cowork",
+      "date": "2026-08-21",
+      "confidence": "high",
+      "extras": {
+        "session": "OKRs dashboards meeting summary"
+      },
+      "id": "cowork/local_eb1abe4a-864a-433a-b919-9f2f8782c721/getthenewroletrackercoveragetabactuallyp",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Close the BambooHR leaver notification item left open from the OKRs/dashboards meeting - logged in PROJECT_LOG.md as still outstanding after the Coverage tab was built",
+      "project": "people-ops",
+      "source": "cowork/local_eb1abe4a-864a-433a-b919-9f2f8782c721",
+      "source_type": "cowork",
+      "date": "2026-08-21",
+      "confidence": "medium",
+      "extras": {
+        "session": "OKRs dashboards meeting summary"
+      },
+      "id": "cowork/local_eb1abe4a-864a-433a-b919-9f2f8782c721/closethebamboohrleavernotificationitemle",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Rename the \"Owners\" tab on the role tracker as agreed in the OKRs/dashboards meeting - still open alongside the leaver notification, now that the stale-TA and Coverage work is done",
+      "project": "rec-dash",
+      "source": "cowork/local_eb1abe4a-864a-433a-b919-9f2f8782c721",
+      "source_type": "cowork",
+      "date": "2026-08-21",
+      "confidence": "medium",
+      "extras": {
+        "session": "OKRs dashboards meeting summary"
+      },
+      "id": "cowork/local_eb1abe4a-864a-433a-b919-9f2f8782c721/renametheownerstabontheroletrackerasagre",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Close the still-open 2202 diagnosis on the recruiting dashboard: either get date_screen_actual corrected on Bubble candidate 1730981204199x508857751828430960 to 2024-11-26 so the row falls below the 2025 floor, or add an upper-year guard to Keboola transform 01kpqh9r7g2z66c8vvdr5d87xd so the next typo cannot invent a week - the guard was deliberately left alone because it is a production config change",
+      "project": "rec-dash",
+      "source": "cowork/local_41eedea9-4981-48f8-91ae-7dfbde1eda9e",
+      "source_type": "cowork",
+      "date": "2026-08-21",
+      "confidence": "high",
+      "extras": {
+        "session": "Project Overview TA cleanup"
+      },
+      "id": "cowork/local_41eedea9-4981-48f8-91ae-7dfbde1eda9e/closethestillopen2202diagnosisontherecru",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Act on the 20 Aug job-search run: Chief of Staff at Prava Therapy (78, US remote, VC-backed AI-enabled therapy infrastructure, reports to founder, the only US CoS posting with no years bar and no consulting/banking/MBA gate) and Business Operations Manager, Customer Success (75, US remote, $108,500-155,000, cleanest requirement match on either tab this month). Europe returned zero picks.",
+      "project": "personal",
+      "source": "cowork/local_54653c75-685f-4353-9c40-c765e5380da8",
+      "source_type": "cowork",
+      "date": "2026-08-20",
+      "confidence": "high",
+      "extras": {
+        "session": "Job search daily"
+      },
+      "id": "cowork/local_54653c75-685f-4353-9c40-c765e5380da8/actonthe20augjobsearchrunchiefofstaffatp",
+      "project_name": "Personal",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Decide how the job-search hard filter 1 should handle Czech-language postings - two days running the Czech lane produced perfect geography and lost it on language, this time killing Operations Manager Multinational Business CZ & SK at RENOMIA, a Prague hybrid seat that would have scored 70",
+      "project": "personal",
+      "source": "cowork/local_54653c75-685f-4353-9c40-c765e5380da8",
+      "source_type": "cowork",
+      "date": "2026-08-20",
+      "confidence": "medium",
+      "extras": {
+        "session": "Job search daily"
+      },
+      "id": "cowork/local_54653c75-685f-4353-9c40-c765e5380da8/decidehowthejobsearchhardfilter1shouldha",
+      "project_name": "Personal",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Pick which tail (1 the successor, 2 back at the engineers, 3 wider than him) finishes the \"engineers are right about people like me\" LinkedIn post so the Notion row for Tue 25 Aug can be set to a single final version - the run is stopped waiting on that answer, with all three variants sitting on the row",
+      "project": "linkedin",
+      "source": "cowork/local_2b28bbe0-712f-4cdd-8af9-a66b6fdac109",
+      "source_type": "cowork",
+      "date": "2026-08-20",
+      "confidence": "high",
+      "extras": {
+        "session": "Linkedin idea generator morning"
+      },
+      "id": "cowork/local_2b28bbe0-712f-4cdd-8af9-a66b6fdac109/pickwhichtail1thesuccessor2backattheengi",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Eyeball the AI First Working Group Meetings Notion page to confirm the 19/08/2026 recap actually landed - the verification grep hit a stale cached copy, so the only evidence it saved is the update call returning success",
+      "project": "ai-first-working-group",
+      "source": "cowork/local_0867b9a2-73d3-4b3d-a22a-4bb7c34df6a9",
+      "source_type": "cowork",
+      "date": "2026-08-20",
+      "confidence": "medium",
+      "extras": {
+        "session": "Ai first weekly notion update"
+      },
+      "id": "cowork/local_0867b9a2-73d3-4b3d-a22a-4bb7c34df6a9/eyeballtheaifirstworkinggroupmeetingsnot",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Lock down the Notion PPR Database before any guest conversion happens - it holds named individual performance reviews, manager verdicts, client termination reasons and a \"Terminated?\" property, and it sits under People HomeSpace alongside half the staff-facing People content, so sharing that root to make the handbook reachable exposes it. The Notion API returns no permission data at all, so someone has to check the current restriction by hand.",
+      "project": "people-ops",
+      "source": "cowork/local_3a6c4f97-4199-4165-b8ec-0dd5ac9f21d3",
+      "source_type": "cowork",
+      "date": "2026-08-20",
+      "confidence": "high",
+      "extras": {
+        "session": "Notion cost reduction options"
+      },
+      "id": "cowork/local_3a6c4f97-4199-4165-b8ec-0dd5ac9f21d3/lockdownthenotionpprdatabasebeforeanygue",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Strip Martin's residential address, Czech rodne cislo, passport number and date of birth out of the Notion Company Info page - that page gets shared out for VAT details, so it is a live GDPR exposure today and independent of the seat-cut project; also give the orphan top-level Director Profit & Revenue Participation Model root (commission formulas and payout tables) a real parent instead of leaving it safe by obscurity",
+      "project": "legal",
+      "source": "cowork/local_3a6c4f97-4199-4165-b8ec-0dd5ac9f21d3",
+      "source_type": "cowork",
+      "date": "2026-08-20",
+      "confidence": "high",
+      "extras": {
+        "session": "Notion cost reduction options"
+      },
+      "id": "cowork/local_3a6c4f97-4199-4165-b8ec-0dd5ac9f21d3/stripmartinsresidentialaddressczechrodne",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Check how the Slack ingestion bot is wired against Notion - if it holds a broad workspace token rather than respecting per-user permissions, it can already answer questions from the PPR Database and the financial pages for anyone who asks, which makes that a live issue now rather than a migration one",
+      "project": "tribebot",
+      "source": "cowork/local_3a6c4f97-4199-4165-b8ec-0dd5ac9f21d3",
+      "source_type": "cowork",
+      "date": "2026-08-20",
+      "confidence": "high",
+      "extras": {
+        "session": "Notion cost reduction options"
+      },
+      "id": "cowork/local_3a6c4f97-4199-4165-b8ec-0dd5ac9f21d3/checkhowtheslackingestionbotiswiredagain",
+      "project_name": "Tribebot",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-21",
       "status": "open"
     }
   ]

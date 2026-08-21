@@ -45,32 +45,32 @@
     "workforce-planning-changes"
   ],
   "lookback_days": 60,
-  "updated": "2026-08-20",
+  "updated": "2026-08-21",
   "generated_from": "data/ledger.json (Notion). Do not hand-edit.",
   "projects": [
     {
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
       "tier": "big",
-      "notes": "30 open, flat. Vladimir Stankovic and Jovana Drakula both volunteered for one seat, the recruitment ask is drafted but unposted, Salem Mansuri still owes the Claude business case and Pro licences sit unused."
+      "notes": "31 open, up 1. Vladimir Stankovic and Jovana Drakula both want the one seat, the recruitment ask is drafted but unposted, and the 19/08 Notion recap needs eyeballing after a stale-cache verify."
     },
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
       "tier": "big",
-      "notes": "25 open, up 3. The 20 Aug OKRs Dashboards call added an open-roles-vs-ATS report for Jacopo and Salem, the stage-funnel build is still unstarted at 29 candidates in Interview 1, and TA data holds departed recruiters."
+      "notes": "29 open, up 4. The Coverage tab is built but unpopulated because the Keboola token returns 401 on job runs, the 2202 date_screen typo is undiagnosed, and the Owners tab rename is still open."
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "tier": "big",
-      "notes": "53 open, up 1. A HIGH-severity phishing alert on claire.dooher@yourtalentninja.co.uk joins the uninvestigated team@tribe.xyz login from 152.233.51.26, and the Cloudflare and R2 keys are still plaintext."
+      "notes": "50 open, down 3. Supabase project tribe-job-intel still has RLS off on a public table, and the claire.dooher phishing report and the team@tribe.xyz login from 152.233.51.26 are uninvestigated."
     },
     {
       "id": "okrs",
       "name": "OKRs",
       "tier": "medium",
-      "notes": "2 open, flat. Valeriia sits at 4/16 (25%) and Ejla at 4/10 (40%) on weekly role updates across weeks 31-33, and the four overdue Lattice goals still read zero progress."
+      "notes": "1 open, down 1. Valeriia sits at 4/16 (25%) and Ejla at 4/10 (40%) on weekly role updates across weeks 31-33, against Gustavo 13/13 and Dolores 11/12."
     },
     {
       "id": "ai-recruiting",
@@ -82,43 +82,43 @@
       "id": "tribebot",
       "name": "Tribebot",
       "tier": "medium",
-      "notes": "13 open, up 1. Gustavo Loureiro Castro's dashboard questions failed on the 'Actual Screens' vocabulary gap, Andrea Darabasic's bench file is still outstanding, and the Drive Bot Slack link is unbuilt."
+      "notes": "14 open, up 1. Gustavo Loureiro Castro's questions fail on the 'Actual Screens' vocabulary gap, Andrea Darabasic's Sheet1 index is unfinished, and the Slack bot's Notion token scope is unchecked."
     },
     {
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "big",
-      "notes": "33 open, up 3. Ella Darie's 0.75% EBITDA bonus is contractually due to her in August and uncalculated, a CZK 653,173 VAT refund lands by 25 Sept, and the amortization basis is still undecided."
+      "notes": "33 open, flat. Ella Darie's 0.75% EBITDA bonus is due in August and uncalculated pending Boris's figure, a CZK 653,173 VAT refund lands by 25 Sept, and the amortization basis is still undecided."
     },
     {
       "id": "personal",
       "name": "Personal",
       "tier": "medium",
-      "notes": "17 open, flat. The 14-19 Aug job-search runs put Pearl at 82, Waylin Partners at 81 and Adaptive Teams at 80 with nothing applied to or dropped, and hard filter 2 still cut Storyblok."
+      "notes": "17 open, flat. The 20 Aug run put Prava Therapy at 78 and Business Operations Manager CS at 75 with Europe empty, nothing applied to or dropped, and Czech-language postings still fall to hard filter 1."
     },
     {
       "id": "legal",
       "name": "Legal & Contracts",
       "tier": "big",
-      "notes": "26 open, up 2. The insurance pack now needs the US/Canada exposure call, the IT_PI 2.24 vs 2.25 split and the D&O eligibility statement, and the Alexandra/Boris/Eva profit reply is still unsent."
+      "notes": "24 open, down 2. Martin's passport number and rodne cislo sit on a Notion page shared for VAT details, the insurance pack still needs the US/Canada exposure call, and the Alexandra/Boris/Eva reply is unsent."
     },
     {
       "id": "project-hub",
       "name": "Project Hub",
       "tier": "medium",
-      "notes": "0 open. Nothing logged since 27 Jul, 24 days. The last item, the stale IR Interview Process entry, aged out unresolved and nobody was ever actually asked about it."
+      "notes": "0 open. Nothing logged since 27 Jul, 25 days. The last item, the stale IR Interview Process entry, aged out unresolved and nobody was ever actually asked about it."
     },
     {
       "id": "leadership",
       "name": "Leadership comms",
       "tier": "medium",
-      "notes": "11 open, flat. Ella Darie's three partnership meetings ran without agreed deal terms, the eSign default is undecided with Andrea, and Sanja and Gustavo have no answer on the survey-checklist split."
+      "notes": "11 open, flat. Ella Darie's three partnership meetings ran without agreed deal terms, the Google eSign default is undecided with Andrea, and Sanja and Gustavo have no answer on the survey-checklist split."
     },
     {
       "id": "keboola-sunset",
       "name": "Keboola migration / sunset",
       "tier": "medium",
-      "notes": "2 open, nothing new since 12 Aug. Anna Duskova's lowest tier is $12k/year annual-only with 300 PPUs and she is holding the order, and August invoice 0055/2026 is still unpaid."
+      "notes": "2 open, nothing new since 12 Aug, 9 days. Anna Duskova's lowest tier is $12k/year annual-only with 300 PPUs and she is holding the order, and August invoice 0055/2026 is still unpaid."
     },
     {
       "id": "tribe-talks",
@@ -130,25 +130,25 @@
       "id": "linkedin",
       "name": "LinkedIn (licenses + posting)",
       "tier": "medium",
-      "notes": "16 open, flat. Lisa Gargulinska still has no licence after moving onto Nexi, the IR team is out of InMails until 28 Aug with no top-up price from the rep, and three drafted posts are unsaved to Notion."
+      "notes": "16 open, flat. Lisa Gargulinska still has no licence after moving onto Nexi, the IR team is out of InMails until 28 Aug with no top-up price from the rep, and the 25 Aug post tail is unpicked."
     },
     {
       "id": "people-ops",
       "name": "People Ops / BambooHR",
       "tier": "medium",
-      "notes": "18 open, up 1. Lisa Gargulinska's German-number email is drafted and unsent after the eSIM purchase, the Ella survey-conversation checklist is unbuilt before 16 Sept, and Dropbox Sign is still live."
+      "notes": "19 open, up 1. Lisa Gargulinska's German-number email is drafted and unsent, the Notion PPR Database holds named reviews under People HomeSpace unchecked, and Dropbox Sign is still live."
     },
     {
       "id": "expense-ops",
       "name": "Expense Ops",
       "tier": "big",
-      "notes": "55 open, up 1 and still the biggest pile. Holding invoice VF1 0644/2526 is unpaid, Revolut failed to recall 2,175 EUR from Solutions Consultant Ltda, and Salem's Berlin hotel is unbooked."
+      "notes": "52 open, down 3 and still the biggest pile. Revolut failed to recall 2,175 EUR from Solutions Consultant Ltda, Vladimir's EUR 369.23 Perk trip is unapproved, and the disputed $471.45 Deel invoice is past due."
     },
     {
       "id": "team-cohesion",
       "name": "Team cohesion",
       "tier": "medium",
-      "notes": "2 open, untouched since 4 Aug, 16 days. The July engagement drop (eNPS 53 to 40, Wolt eNPS 0 to -25) still has not been framed for leadership and nothing detects a silent dashboard failure."
+      "notes": "2 open, untouched since 4 Aug, 17 days. The July engagement drop (eNPS 53 to 40, Wolt eNPS 0 to -25) still has not been framed for leadership and nothing detects a silent dashboard failure."
     }
   ],
   "project_aliases": {
