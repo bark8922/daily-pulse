@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-21",
+  "generated_at": "2026-08-23",
   "schema_version": 3,
-  "total": 354,
-  "active_count": 354,
-  "archived_count": 530,
+  "total": 353,
+  "active_count": 353,
+  "archived_count": 542,
   "projects": [
     {
       "id": "ai-first-working-group",
@@ -9238,7 +9238,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-31",
       "last_seen": "2026-07-31",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-23"
     },
     {
       "text": "Investigate the Google Workspace suspicious login alert for henry@tribe.xyz (attempted login IP 193.32.248.197 on Jul 30) in the Admin Alert Center and remediate if needed",
@@ -9291,7 +9292,8 @@
       "project_name": "Roundup & Intake (AI recruiting tools)",
       "first_seen": "2026-07-31",
       "last_seen": "2026-07-31",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-23"
     },
     {
       "text": "Approve or deny Jacopo Lupo Ferrari's request to install the 'Tavi' Slack app on the TRIBE.XYZ workspace (Blake is workspace admin) - the app is already in use in #tavi-recruiting but cannot be invited into new role channels until it is installed workspace-wide",
@@ -9308,7 +9310,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-07-31",
       "last_seen": "2026-07-31",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-23"
     },
     {
       "text": "Reflect the Parloa extensions in invoicing/accounting - Martin posted in #accounting-and-invoicing that Chantal Bozkurt, Filip and Gustavo Loureiro Castro are all extended until the end of September",
@@ -9343,7 +9346,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-31",
       "last_seen": "2026-07-31",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-23"
     },
     {
       "text": "Give Claude the real Q2 story (a time Blake helped someone understand or troubleshoot an AI tool or automation) and send the finished four written answers back to Isabel Herrera at Mayerfeld Consulting - the reply is due within five days and only Q1 is currently locked",
@@ -9359,7 +9363,8 @@
       "project_name": "Needs sorting",
       "first_seen": "2026-07-31",
       "last_seen": "2026-07-31",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-23"
     },
     {
       "text": "Act on the two best live job-search matches that dedupe keeps holding back: Usercentrics Chief of Staff to the CTPO (84, Prague hybrid) and thetalo.co Chief Operations Manager (79, EEA-remote) - for thetalo also confirm the real employer behind the agency requisition code and whether 'share in the value' means equity on top of salary",
@@ -9375,7 +9380,8 @@
       "project_name": "Needs sorting",
       "first_seen": "2026-07-31",
       "last_seen": "2026-07-31",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-23"
     },
     {
       "text": "Decide what to do about July 2026 being the first negative month in the fin-dash series (-4.8% margin, -EUR 11,837; revenue 341K to 307K to 249K while headcount fell 66 to 55): confirm it is incomplete month-end invoicing plus the real headcount decline, and add a profit-sign or margin-trend assertion to watchdog_check.py, which today has no check that would ever fire on this",
@@ -9391,7 +9397,8 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-07-31",
       "last_seen": "2026-07-31",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-23"
     },
     {
       "text": "Review the Google Workspace 'potential employee spoofing' alert for messages sent as Vladimir Stankovic <ext-vladimir.stankovic@aiven.io> and decide whether to block or quarantine the sender in the Admin Alert Center",
@@ -9426,7 +9433,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-31",
       "last_seen": "2026-08-03",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-23"
     },
     {
       "text": "Set up invoicing for the No Isolation placement: Jelena Lacmanovic starts 03/08 at 7K + 2K per sourced hire capped at 9K - Salem posted it in #accounting-and-invoicing (Martin has since questioned the 9k cap in-thread)",
@@ -9443,7 +9451,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-31",
       "last_seen": "2026-08-03",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-23"
     },
     {
       "text": "Reflect Ejla Suljcic's Wolt end date (last day 30.09) in invoicing and offboarding planning - Kristjana posted it in #accounting-and-invoicing",
@@ -9495,7 +9504,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-07-31",
       "last_seen": "2026-08-03",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-23"
     },
     {
       "text": "Update the client ownership mapping so each client shows the correct owning director (Martin/Salem/Chris)",
@@ -9627,7 +9637,8 @@
       "project_name": "Needs sorting",
       "first_seen": "2026-08-01",
       "last_seen": "2026-08-03",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-23"
     },
     {
       "text": "Pay Dauss Abogados invoice F-2026-574 for TRIBE.XYZ SPAIN S.L. by bank transfer (professional services, PDF attached)",
@@ -9693,7 +9704,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-07-31",
       "last_seen": "2026-08-04",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-23"
     },
     {
       "text": "Switch Calendly off at the end of this week - Lejla Silva agreed to wind down by Friday (she is on holiday after) and Salem Mansuri and Aleksandra Vistac are already moved to Google Calendar booking; confirm no other active users remain before cancelling",
@@ -15176,6 +15188,188 @@
       "project_name": "Needs sorting",
       "first_seen": "2026-08-21",
       "last_seen": "2026-08-21",
+      "status": "open"
+    },
+    {
+      "text": "Write to David Rademaker (davidrademaker1992@gmail.com) from Martin Bernard's inbox once Lynsey replies - say either that Lynsey decided not to move ahead, or that she confirmed and Martin will follow up with details tomorrow morning; if her reply is inconclusive, send nothing",
+      "project": "inbox",
+      "source": "slack/D055NJ27YRY/1787323768.830539",
+      "source_type": "slack",
+      "date": "2026-08-21",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM: Martin Bernard",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/D055NJ27YRY/1787323768.830539",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Process the Keboola renewal when it reaches Martin Bernard (expected 21 Aug or Monday) - new deal is $12,000/year billed annually upfront for 300 credits/month, replacing $1,450/month for 600, plus a ~$1,200 top-up expected near the end of the Term (~$13,200 all in)",
+      "project": "keboola-sunset",
+      "source": "slack/D055NJ27YRY/1787317780.453749",
+      "source_type": "slack",
+      "date": "2026-08-21",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM: Martin Bernard",
+        "from": "Blake Barkley"
+      },
+      "id": "slack/D055NJ27YRY/1787317780.453749",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Walk Sashka Sarafinovska through how to set up a data request and how the data works while building her silver-medalist dashboard - Martin Bernard asked Blake to teach her rather than just deliver, and flagged she is missing a few pieces",
+      "project": "inbox",
+      "source": "slack/D055NJ27YRY/1787311579.049369",
+      "source_type": "slack",
+      "date": "2026-08-21",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM: Martin Bernard",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/D055NJ27YRY/1787311579.049369",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Trace the missing date_interview writes in Keboola rather than Bubble - Mikhail Kuzmin confirmed there is no date_interview field in Bubble's event_table, so the 592 Circula 'Moved to ATS' records from 27 Jan-20 May 2025 and Fuad Safarov's 7 Aiven cases that never got one are being lost in the Keboola transform",
+      "project": "rec-dash",
+      "source": "slack/D0577RU8WQ1/1787324450.402059",
+      "source_type": "slack",
+      "date": "2026-08-21",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM: Mikhail Kuzmin",
+        "from": "Mikhail Kuzmin"
+      },
+      "id": "slack/D0577RU8WQ1/1787324450.402059",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Work out the conversion fee for Wolt taking on Katarina Matic Marinkovic - Wolt has asked how much it would be; Kristjana Thorarinsdottir is speaking with Kat first, then the fee needs to be set",
+      "project": "inbox",
+      "source": "slack/C052MERDLNM/1787213782.818259",
+      "source_type": "slack",
+      "date": "2026-08-20",
+      "confidence": "medium",
+      "extras": {
+        "channel": "#directors",
+        "from": "Kristjana Thorarinsdottir"
+      },
+      "id": "slack/C052MERDLNM/1787213782.818259",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Debug TribeBot still returning the wrong number on Gustavo Loureiro Castro's screens question - after Blake built the transformed and joined data it is still 'getting a bit confused'; Gustavo sent screenshots of the full conversation on 21 Aug",
+      "project": "tribebot",
+      "source": "slack/D058MHYDUBA/1787309745.370129",
+      "source_type": "slack",
+      "date": "2026-08-21",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM: Gustavo Loureiro Castro",
+        "from": "Gustavo Loureiro Castro"
+      },
+      "id": "slack/D058MHYDUBA/1787309745.370129",
+      "project_name": "Tribebot",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Act on the 21 Aug job-search run: Business Operations Manager via Swooped (81, US-wide remote, GPU/AI-infrastructure employer, no years bar and no consulting/banking gate, but Swooped hides the employer and comp so Stage is capped at 10 - ask who the employer is in the first exchange) and Operations Manager at Conquer AI (73, EEA-wide remote, the only role with an empty 'not met' column, but a 1,226-character posting with no headcount, funding or comp, so email for the band first). cloro was deliberately held out as a repeat and will not resurface as new.",
+      "project": "personal",
+      "source": "cowork/local_5e6e3df0-57c2-400f-bd4b-cdf97e15230f",
+      "source_type": "cowork",
+      "date": "2026-08-21",
+      "confidence": "high",
+      "extras": {
+        "session": "Job search daily - 21 Aug run"
+      },
+      "id": "cowork/local_5e6e3df0-57c2-400f-bd4b-cdf97e15230f/actonthe21augjobsearchrunbusinessoperati",
+      "project_name": "Personal",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Clean up the BambooHR hygiene items the watchdog surfaced in reports 228 and 149 - a live 'test name, test' employee record, a 1120-11-01 date on Andre Thaisz, two duplicate division rows and four hire-date year mismatches; all benign today but no check covers them",
+      "project": "people-ops",
+      "source": "cowork/local_4ba13615-d125-4a98-b266-2f147c79f4c5",
+      "source_type": "cowork",
+      "date": "2026-08-21",
+      "confidence": "medium",
+      "extras": {
+        "session": "Tribe dashboard watchdog - 39 checks passed, BambooHR hygiene flagged"
+      },
+      "id": "cowork/local_4ba13615-d125-4a98-b266-2f147c79f4c5/cleanupthebamboohrhygieneitemsthewatchdo",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Exclude 'TEST CLIENT 123' from the Friday new-jobs recap query - 3 of the 16 jobs in the 14-21 Aug window were test rows created by Andreea Vrancianu on 20 Aug that passed the test <> 'true' flag filter, so it needs a client-name exclusion in the WHERE clause",
+      "project": "rec-dash",
+      "source": "cowork/local_003ada61-fed5-4d2c-b6ec-b3ec670fff23",
+      "source_type": "cowork",
+      "date": "2026-08-21",
+      "confidence": "medium",
+      "extras": {
+        "session": "Friday new jobs recap"
+      },
+      "id": "cowork/local_003ada61-fed5-4d2c-b6ec-b3ec670fff23/excludetestclient123fromthefridaynewjobs",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Get the GitHub PAT out of the places that echo it into transcripts - it is written verbatim in skills/github/SKILL.md and in scheduled-task definitions, so it lands in cleartext in the bark8922/claude-backups history (the exporter redacts the markdown copies, but the committed skill body still carries it); flagged on two consecutive backup runs",
+      "project": "infra",
+      "source": "cowork/local_3f7a7189-8008-460e-9d36-d79195dcc651",
+      "source_type": "cowork",
+      "date": "2026-08-21",
+      "confidence": "medium",
+      "extras": {
+        "session": "Claude backups daily - PAT found in transcripts and skill body"
+      },
+      "id": "cowork/local_3f7a7189-8008-460e-9d36-d79195dcc651/getthegithubpatoutoftheplacesthatechoiti",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Ask Martin or Mikhail who added the 'Silver Medalist' option to the Bubble source dropdown on 19 Aug - only 3 candidates carry the tag (a test row, AVIV Senior Backend, Enam Fullstack), and if it is maintained deliberately the whole silver-medalist funnel comes free off the existing pipeline instead of a new tracker; also settle which Bubble stage counts as the intro (probably Moved to ATS, needs a recruiter to confirm) and what Sashka means by 'request' in her Request-to-Intro metric",
+      "project": "rec-dash",
+      "source": "cowork/local_a9499c40-8cb6-44ea-8ba8-641e4c756711",
+      "source_type": "cowork",
+      "date": "2026-08-21",
+      "confidence": "medium",
+      "extras": {
+        "session": "Silver-medalist project dashboard"
+      },
+      "id": "cowork/local_a9499c40-8cb6-44ea-8ba8-641e4c756711/askmartinormikhailwhoaddedthesilvermedal",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-23",
       "status": "open"
     }
   ]
