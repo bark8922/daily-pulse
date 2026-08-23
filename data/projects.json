@@ -52,19 +52,19 @@
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
       "tier": "big",
-      "notes": "35 open, up 4. Three Friday all-hands items are queued (TribeBot slide, extension update, second Claude Pro ask) and Salem Mansuri's Claude business case still has not arrived."
+      "notes": "35 open, flat. Three Friday all-hands items are queued (TribeBot slide, extension update, second Claude Pro ask) and Salem Mansuri's Claude business case still has not arrived."
     },
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
       "tier": "big",
-      "notes": "47 open, up 9. The Keboola token still 401s so the Coverage tab is empty, 643 candidates have a real ATS move with blank date_interview, and Jacopo's role-tracker grace period ends 1 Sept."
+      "notes": "47 open, flat. The Keboola token still 401s so the Coverage tab is empty, 643 candidates have a real ATS move with blank date_interview, and Jacopo's role-tracker grace period ends 1 Sept."
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "tier": "big",
-      "notes": "54 open, up 3. The GitHub PAT sits verbatim in skills/github/SKILL.md and lands cleartext in claude-backups, 2SV is off on team@tribe.xyz since 20 Aug, and Notion Connections are unaudited."
+      "notes": "54 open, flat. The GitHub PAT sits verbatim in skills/github/SKILL.md and lands cleartext in claude-backups, 2SV is off on team@tribe.xyz since 20 Aug, and Notion Connections are unaudited."
     },
     {
       "id": "okrs",
@@ -82,25 +82,25 @@
       "id": "tribebot",
       "name": "Tribebot",
       "tier": "medium",
-      "notes": "17 open, up 1. TribeBot still returns the wrong number on Gustavo Loureiro Castro's screens question after the join fix, the 'Actual Screens' vocabulary gap is open, and Andrea's bench file has not arrived."
+      "notes": "17 open, flat. TribeBot still returns the wrong number on Gustavo Loureiro Castro's screens question after the join fix, the 'Actual Screens' vocabulary gap is open, and Andrea's bench file has not arrived."
     },
     {
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "big",
-      "notes": "34 open, up 1. Ella Darie's 0.75% EBITDA bonus is still uncalculated with August closing, and the watchdog surfaced a live BambooHR test record and a 1120-11-01 date on Andre Thaisz."
+      "notes": "34 open, flat. Ella Darie's 0.75% EBITDA bonus is still uncalculated with August closing, and the watchdog surfaced a live BambooHR test record and a 1120-11-01 date on Andre Thaisz."
     },
     {
       "id": "personal",
       "name": "Personal",
       "tier": "big",
-      "notes": "23 open, up 5. The 21 Aug run put Swooped Business Operations Manager at 81 and Conquer AI Operations Manager at 73, still neither applied to nor dropped, and the Kosik cart is unchecked out."
+      "notes": "24 open, up 1. The Kosik cart is unchecked out, Swooped (81) and Conquer AI (73) are neither applied to nor dropped, and two JS-rendered Cowboys digest sources need a keep-or-drop call."
     },
     {
       "id": "legal",
       "name": "Legal & Contracts",
       "tier": "big",
-      "notes": "25 open, up 1. Boris Gnoth has not answered the 19 Aug question on Czech CFC treatment of retained Estonian profit, with a call wanted before 27 Aug, and the insurance pack still needs the US/Canada call."
+      "notes": "25 open, flat. Boris Gnoth has not answered the 19 Aug question on Czech CFC treatment of retained Estonian profit, with a call wanted before 27 Aug, and the insurance pack still needs the US/Canada call."
     },
     {
       "id": "project-hub",
@@ -112,7 +112,7 @@
       "id": "leadership",
       "name": "Leadership comms",
       "tier": "medium",
-      "notes": "14 open, up 2. The Google eSign default is still undecided with Andrea Darabasic, Ella Darie's partner referral reward terms are unagreed, and Blake is covering Martin's BD email."
+      "notes": "14 open, flat. The Google eSign default is still undecided with Andrea Darabasic, Ella Darie's partner referral reward terms are unagreed, and Blake is covering Martin's BD email."
     },
     {
       "id": "keboola-sunset",
@@ -142,7 +142,7 @@
       "id": "expense-ops",
       "name": "Expense Ops",
       "tier": "big",
-      "notes": "48 open, flat and still the biggest pile. Fuad Safarov's Helsinki trip 44044140 is unapproved, Salem's Berlin hotel is unbooked, and Holding invoice VF1 0644/2526 is still unpaid."
+      "notes": "49 open, up 1 and still the biggest pile. Fuad Safarov's Helsinki trip 44044140 is unapproved, Salem's Berlin hotel is unbooked, and Revolut expenses across all three entities are missing receipts."
     },
     {
       "id": "team-cohesion",

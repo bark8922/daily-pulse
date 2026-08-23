@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-08-23",
   "schema_version": 3,
-  "total": 380,
-  "active_count": 380,
+  "total": 382,
+  "active_count": 382,
   "archived_count": 542,
   "projects": [
     {
@@ -15806,6 +15806,39 @@
         "session": "Job search daily"
       },
       "id": "cowork/local_5e6e3df0-57c2-400f-bd4b-cdf97e15230f/decidewhethertoapplydirectlytotheclororo",
+      "project_name": "Personal",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Add the missing receipts and details to your outstanding Revolut Business expenses - the Aug 21 reminder fired for all three entities (Tribe.xyz Czech s.r.o., TRIBE.XYZ SPAIN SL and Tribe.xyz Holding a.s.)",
+      "project": "expense-ops",
+      "source": "gmail/1a02357a9f6a36a6",
+      "source_type": "gmail",
+      "date": "2026-08-21",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Your expenses are missing some info",
+        "from": "no-reply@revolut.com"
+      },
+      "id": "gmail/1a02357a9f6a36a6",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Decide whether to add the two JavaScript-rendered Cowboys sources to the news digest workflow - the official injury report page returns empty tabs on a plain fetch and Blogging The Boys serves a stale February render, so both need the Claude in Chrome extension to be usable",
+      "project": "personal",
+      "source": "cowork/local_fe0ff685-b9b9-4885-ba2a-7426f9d1658d",
+      "source_type": "cowork",
+      "date": "2026-08-21",
+      "confidence": "low",
+      "extras": {
+        "session": "Cowboys training camp digest - fixed the dead source URL and added a staleness tripwire, left two JS-rendered sources unresolved"
+      },
+      "id": "cowork/local_fe0ff685-b9b9-4885-ba2a-7426f9d1658d/decidewhethertoaddthetwojavascriptrender",
       "project_name": "Personal",
       "first_seen": "2026-08-21",
       "last_seen": "2026-08-23",
