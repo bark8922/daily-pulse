@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-08-23",
   "schema_version": 3,
-  "total": 357,
-  "active_count": 357,
+  "total": 380,
+  "active_count": 380,
   "archived_count": 542,
   "projects": [
     {
@@ -43,7 +43,7 @@
     {
       "id": "personal",
       "name": "Personal",
-      "tier": "medium"
+      "tier": "big"
     },
     {
       "id": "legal",
@@ -15389,14 +15389,14 @@
       "status": "open"
     },
     {
-      "text": "Finish cleaning up the old roles in the Role Tracker dashboard (tribe-recruiting.pages.dev/role-tracker) before the 1 September grace period ends - Jacopo Lupo Ferrari announced to all TLs in #leadership that Blake is doing this now",
+      "text": "Clean up the old roles in the Role Tracker before the 1 September grace period ends - Jacopo Lupo Ferrari announced the tracker in #leadership and told all TLs that Blake is cleaning up the old ones now and that from 1 Sept it is the tool everyone looks at together (evergreen roles need re-opening as new jobs to start tracking)",
       "project": "rec-dash",
       "source": "slack/C01RLBNHRKP/1787303118.828539",
       "source_type": "slack",
       "date": "2026-08-21",
-      "confidence": "medium",
+      "confidence": "high",
       "extras": {
-        "channel": "#leadership",
+        "channel": "leadership",
         "from": "Jacopo Lupo Ferrari"
       },
       "id": "slack/C01RLBNHRKP/1787303118.828539",
@@ -15433,6 +15433,380 @@
       },
       "id": "cowork/local_003ada61-fed5-4d2c-b6ec-b3ec670fff23/addaclientnameexclusiontothefridaynewjob",
       "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Update the OKRs/roles dashboard to include an open-date field for better role tracking, and speak with Andrea about reinstating automated alerts for departing staff so job boards stay clean (action items assigned to Blake in the Aug 20 'OKRs Dashboards' meeting)",
+      "project": "rec-dash",
+      "source": "gmail/1a01f9c660a88fdb",
+      "source_type": "gmail",
+      "date": "2026-08-20",
+      "confidence": "high",
+      "extras": {
+        "subject": "Notes: \u201cOKRs Dashboards\u201d Aug 20, 2026",
+        "from": "gemini-notes@google.com"
+      },
+      "id": "gmail/1a01f9c660a88fdb",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Work with Ella Darie to create a monthly survey-conversation checklist for team leads, mirroring the existing OKR checklist format so feedback and performance-review tracking stays consistent (action item from the Aug 19 TL Meeting)",
+      "project": "leadership",
+      "source": "gmail/1a019df1c30368d6",
+      "source_type": "gmail",
+      "date": "2026-08-19",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Notes: \u201cTL Meeting\u201d Aug 19, 2026",
+        "from": "gemini-notes@google.com"
+      },
+      "id": "gmail/1a019df1c30368d6",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Work through the AI First action list: apply the finalized job-taxonomy category changes in Bubble (per Nenad Skoko's list), attach Andrea's bench/client assignment file to Tribot, announce the latest Tribot improvements to the team, demo Tribot use cases at the Friday team meeting, and remind the team that Claude Pro licenses are available",
+      "project": "ai-first-working-group",
+      "source": "gmail/1a01a40b3723fabe",
+      "source_type": "gmail",
+      "date": "2026-08-19",
+      "confidence": "high",
+      "extras": {
+        "subject": "Notes: \u201cAI First\u201d Aug 19, 2026",
+        "from": "gemini-notes@google.com"
+      },
+      "id": "gmail/1a01a40b3723fabe",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Turn on the intake tool this week, migrate all users to the voice version by next week, promote Trybot to the selected test users, and update the dashboard to show user flags and role progress percentage (Blake's action items from the Aug 19 OKR Check-in stand-up)",
+      "project": "tribebot",
+      "source": "gmail/1a01995301152371",
+      "source_type": "gmail",
+      "date": "2026-08-19",
+      "confidence": "high",
+      "extras": {
+        "subject": "Notes: \u201cOKR Check-in - Stand-up: Delivery, People, BD\u201d Aug 19, 2026",
+        "from": "gemini-notes@google.com"
+      },
+      "id": "gmail/1a01995301152371",
+      "project_name": "Tribebot",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Investigate downgrading the Notion subscription and migrating Tribe's documentation to a Google Drive-based chatbot, then report the findings back to the team (action item from the Aug 17 'Claude: Master Sessions')",
+      "project": "infra",
+      "source": "gmail/1a00fd6b44fd9cab",
+      "source_type": "gmail",
+      "date": "2026-08-17",
+      "confidence": "high",
+      "extras": {
+        "subject": "Notes: \u201cClaude: Master Sessions\u201d Aug 17, 2026",
+        "from": "gemini-notes@google.com"
+      },
+      "id": "gmail/1a00fd6b44fd9cab",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Build out the leadership dashboard to track project profit margins from the start of the year (add YTD tracking and a bar chart), and review/approve Salem Mansuri's business case for enterprise Anthropic Claude access (action items from the Aug 17 WBR - Delivery Only)",
+      "project": "fin-dash",
+      "source": "gmail/1a00f435ee179265",
+      "source_type": "gmail",
+      "date": "2026-08-17",
+      "confidence": "high",
+      "extras": {
+        "subject": "Notes: \u201cWBR - Delivery Only\u201d Aug 17, 2026",
+        "from": "gemini-notes@google.com"
+      },
+      "id": "gmail/1a00f435ee179265",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-17",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Review and check out the Kosik cart for this week's meal plan (3 dinners plus Amanda's meals, ~2,900 Kc) - lemons were out of stock so substitute bottled lemon juice, and confirm there is milk at home for the schnitzel mash.",
+      "project": "personal",
+      "source": "cowork/local_6dfc6667-8b54-4dc5-a7af-08ba462127cb",
+      "source_type": "cowork",
+      "date": "2026-08-23",
+      "confidence": "high",
+      "extras": {
+        "session": "Grocery delivery meal planner"
+      },
+      "id": "cowork/local_6dfc6667-8b54-4dc5-a7af-08ba462127cb/reviewandcheckoutthekosikcartforthisweek",
+      "project_name": "Personal",
+      "first_seen": "2026-08-23",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Decide how the silver-medalist dashboard should handle Sashka's new-client acquisition use case - that motion has no Tribe recruiter and no Bubble job, so the 'Silver Medalist' source tag will not capture it at all.",
+      "project": "rec-dash",
+      "source": "cowork/local_a9499c40-8cb6-44ea-8ba8-641e4c756711",
+      "source_type": "cowork",
+      "date": "2026-08-21",
+      "confidence": "high",
+      "extras": {
+        "session": "Silver-medalist project dashboard"
+      },
+      "id": "cowork/local_a9499c40-8cb6-44ea-8ba8-641e4c756711/decidehowthesilvermedalistdashboardshoul",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Get recruiters to consistently apply the 'Silver Medalist' source tag in Bubble - only 3 candidates are retro-tagged today, and inconsistent tagging is the same failure that killed the intake eligibility tracker.",
+      "project": "rec-dash",
+      "source": "cowork/local_a9499c40-8cb6-44ea-8ba8-641e4c756711",
+      "source_type": "cowork",
+      "date": "2026-08-21",
+      "confidence": "medium",
+      "extras": {
+        "session": "Silver-medalist project dashboard"
+      },
+      "id": "cowork/local_a9499c40-8cb6-44ea-8ba8-641e4c756711/getrecruiterstoconsistentlyapplythesilve",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Send Mikhail the trimmed follow-up question asking why the 'Moved to ATS' move sometimes never writes date_interview at all - 592 Circula candidates moved by Rodrigo Gomes Jan-May 2025 plus 7 ongoing Fuad Safarov/Aiven cases, with bulk-action and stage-config already ruled out.",
+      "project": "rec-dash",
+      "source": "cowork/local_d49da37b-949e-412c-8291-d4116041421d",
+      "source_type": "cowork",
+      "date": "2026-08-23",
+      "confidence": "high",
+      "extras": {
+        "session": "Moved to ATS data discrepancy"
+      },
+      "id": "cowork/local_d49da37b-949e-412c-8291-d4116041421d/sendmikhailthetrimmedfollowupquestionask",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-23",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Open a separate investigation into the 643 candidates (641 pre-dating the 15 July Interview 1/2/3 rollout) that have a real 'Moved to ATS' event but a blank date_interview and are excluded from the ATS column - decide whether they are genuinely undercounted or excluded on purpose before anyone changes totals.",
+      "project": "rec-dash",
+      "source": "cowork/local_89e12d9a-7afe-463f-bd7e-dc5d343a365b",
+      "source_type": "cowork",
+      "date": "2026-08-23",
+      "confidence": "high",
+      "extras": {
+        "session": "Funnel stages data structure"
+      },
+      "id": "cowork/local_89e12d9a-7afe-463f-bd7e-dc5d343a365b/openaseparateinvestigationintothe643cand",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-23",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Add the two drafted slides to the Friday all-hands deck: the TribeBot slide (where to find it in Slack, now connected to dashboard data, example questions) and the Intake tool slide (transcriber/intake extensions merged, update your extension, what it does).",
+      "project": "ai-first-working-group",
+      "source": "cowork/local_e64387be-91d2-4703-abb4-438d5f6b601d",
+      "source_type": "cowork",
+      "date": "2026-08-23",
+      "confidence": "high",
+      "extras": {
+        "session": "Working group agenda"
+      },
+      "id": "cowork/local_e64387be-91d2-4703-abb4-438d5f6b601d/addthetwodraftedslidestothefridayallhand",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-23",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Send everyone the intake tool browser extension update instructions right after the Friday meeting, as promised on the slide - anyone still on the old extension will hit the crossed-wires transcriber behaviour.",
+      "project": "ai-first-working-group",
+      "source": "cowork/local_e64387be-91d2-4703-abb4-438d5f6b601d",
+      "source_type": "cowork",
+      "date": "2026-08-23",
+      "confidence": "high",
+      "extras": {
+        "session": "Working group agenda"
+      },
+      "id": "cowork/local_e64387be-91d2-4703-abb4-438d5f6b601d/sendeveryonetheintaketoolbrowserextensio",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-23",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Make the second Claude Pro ask at the Friday meeting, as Blake said he would re-advertise it at the end of the week.",
+      "project": "ai-first-working-group",
+      "source": "cowork/local_e64387be-91d2-4703-abb4-438d5f6b601d",
+      "source_type": "cowork",
+      "date": "2026-08-23",
+      "confidence": "medium",
+      "extras": {
+        "session": "Working group agenda"
+      },
+      "id": "cowork/local_e64387be-91d2-4703-abb4-438d5f6b601d/makethesecondclaudeproaskatthefridaymeet",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-23",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Before Tuesday's Teams call, ask the meeting organiser to switch on Teams' built-in live transcription/recording (they have the business account), which removes the need for any local recording workaround.",
+      "project": "inbox",
+      "source": "cowork/local_8766c5c1-fc6d-466b-8b8d-b45415603a3f",
+      "source_type": "cowork",
+      "date": "2026-08-23",
+      "confidence": "high",
+      "extras": {
+        "session": "Teams transcription tools"
+      },
+      "id": "cowork/local_8766c5c1-fc6d-466b-8b8d-b45415603a3f/beforetuesdaysteamscallaskthemeetingorga",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-08-23",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "State at the top of Tuesday's Teams call that it is being recorded - local recording via OBS or Game Bar gives participants no notice, which is legally risky under Czech/EU rules.",
+      "project": "legal",
+      "source": "cowork/local_8766c5c1-fc6d-466b-8b8d-b45415603a3f",
+      "source_type": "cowork",
+      "date": "2026-08-23",
+      "confidence": "medium",
+      "extras": {
+        "session": "Teams transcription tools"
+      },
+      "id": "cowork/local_8766c5c1-fc6d-466b-8b8d-b45415603a3f/stateatthetopoftuesdaysteamscallthatitis",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-23",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Decide whether to audit the rest of the recruiting dashboard stack for other hardcoded name lists - the TEST CLIENT 123 bug came from matching user-generated Bubble names against a fixed list and the same pattern may exist elsewhere.",
+      "project": "rec-dash",
+      "source": "cowork/local_eb1abe4a-864a-433a-b919-9f2f8782c721",
+      "source_type": "cowork",
+      "date": "2026-08-23",
+      "confidence": "medium",
+      "extras": {
+        "session": "OKRs dashboards meeting summary"
+      },
+      "id": "cowork/local_eb1abe4a-864a-433a-b919-9f2f8782c721/decidewhethertoaudittherestoftherecruiti",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-23",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Give Salem a heads-up that the Project Overview TA list now follows the selected period, so he needs to widen the range back to 2025 to reach the older roster for case studies.",
+      "project": "rec-dash",
+      "source": "cowork/local_41eedea9-4981-48f8-91ae-7dfbde1eda9e",
+      "source_type": "cowork",
+      "date": "2026-08-23",
+      "confidence": "high",
+      "extras": {
+        "session": "Project Overview TA cleanup"
+      },
+      "id": "cowork/local_41eedea9-4981-48f8-91ae-7dfbde1eda9e/givesalemaheadsupthattheprojectoverviewt",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-23",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Spend five minutes in Notion Settings > Connections confirming which account authorizes each integration, especially the three n8n connections and the two Zapier ones - a broadly-scoped token would expose restricted pages regardless of the guest-conversion plan.",
+      "project": "infra",
+      "source": "cowork/local_3a6c4f97-4199-4165-b8ec-0dd5ac9f21d3",
+      "source_type": "cowork",
+      "date": "2026-08-23",
+      "confidence": "high",
+      "extras": {
+        "session": "Notion cost reduction options"
+      },
+      "id": "cowork/local_3a6c4f97-4199-4165-b8ec-0dd5ac9f21d3/spendfiveminutesinnotionsettingsconnecti",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-23",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Fix the Notion handbook's cross-root links (including Compensation Bands and one confirmed broken embed) that will become dead links for edit-guests, since guests only get the 4 roots: Tribe Notion Home, Quick Sequence Setup, and both Sourcing Team Meetings objects.",
+      "project": "infra",
+      "source": "cowork/local_3a6c4f97-4199-4165-b8ec-0dd5ac9f21d3",
+      "source_type": "cowork",
+      "date": "2026-08-23",
+      "confidence": "medium",
+      "extras": {
+        "session": "Notion cost reduction options"
+      },
+      "id": "cowork/local_3a6c4f97-4199-4165-b8ec-0dd5ac9f21d3/fixthenotionhandbookscrossrootlinksinclu",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-23",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Apply to the Business Operations Manager role via Swooped (score 81, GPU cloud / AI-infrastructure company, US-wide remote) and ask who the actual employer is in the first exchange, since Swooped never names the company or publishes comp.",
+      "project": "personal",
+      "source": "cowork/local_5e6e3df0-57c2-400f-bd4b-cdf97e15230f",
+      "source_type": "cowork",
+      "date": "2026-08-21",
+      "confidence": "high",
+      "extras": {
+        "session": "Job search daily"
+      },
+      "id": "cowork/local_5e6e3df0-57c2-400f-bd4b-cdf97e15230f/applytothebusinessoperationsmanagerrolev",
+      "project_name": "Personal",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Email Conquer AI about the Operations Manager role (score 73, EEA-wide remote) asking for the compensation band before investing real effort - the 1,226-character posting lists no headcount, funding or pay and is duplicated across eight regions.",
+      "project": "personal",
+      "source": "cowork/local_5e6e3df0-57c2-400f-bd4b-cdf97e15230f",
+      "source_type": "cowork",
+      "date": "2026-08-21",
+      "confidence": "high",
+      "extras": {
+        "session": "Job search daily"
+      },
+      "id": "cowork/local_5e6e3df0-57c2-400f-bd4b-cdf97e15230f/emailconqueraiabouttheoperationsmanagerr",
+      "project_name": "Personal",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Decide whether to apply directly to the cloro role (score 78, now Europe-wide) - it was deliberately held out of the job-search picks after ten re-listings and the dashboard will never surface it as new again.",
+      "project": "personal",
+      "source": "cowork/local_5e6e3df0-57c2-400f-bd4b-cdf97e15230f",
+      "source_type": "cowork",
+      "date": "2026-08-21",
+      "confidence": "medium",
+      "extras": {
+        "session": "Job search daily"
+      },
+      "id": "cowork/local_5e6e3df0-57c2-400f-bd4b-cdf97e15230f/decidewhethertoapplydirectlytotheclororo",
+      "project_name": "Personal",
       "first_seen": "2026-08-21",
       "last_seen": "2026-08-23",
       "status": "open"

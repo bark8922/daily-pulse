@@ -52,19 +52,19 @@
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
       "tier": "big",
-      "notes": "31 open, flat. Vladimir Stankovic and Jovana Drakula both want the one working-group seat, Salem Mansuri's Claude business case still has not arrived, and the 19/08 Notion recap needs a real eyeball."
+      "notes": "35 open, up 4. Three Friday all-hands items are queued (TribeBot slide, extension update, second Claude Pro ask) and Salem Mansuri's Claude business case still has not arrived."
     },
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
       "tier": "big",
-      "notes": "40 open, up 5. The Keboola token still 401s so the Coverage tab is empty, date_interview is never written for Moved-to-ATS so 592 Circula candidates are missing, and old Role Tracker roles need clearing before 1 Sept."
+      "notes": "47 open, up 9. The Keboola token still 401s so the Coverage tab is empty, 643 candidates have a real ATS move with blank date_interview, and Jacopo's role-tracker grace period ends 1 Sept."
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "tier": "big",
-      "notes": "51 open, down 1. The GitHub PAT sits verbatim in skills/github/SKILL.md and lands cleartext in claude-backups, 2SV is still off on team@tribe.xyz since 20 Aug, and the Cloudflare and R2 keys sit in Slack."
+      "notes": "54 open, up 3. The GitHub PAT sits verbatim in skills/github/SKILL.md and lands cleartext in claude-backups, 2SV is off on team@tribe.xyz since 20 Aug, and Notion Connections are unaudited."
     },
     {
       "id": "okrs",
@@ -76,31 +76,31 @@
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
       "tier": "medium",
-      "notes": "19 open, down 1. Andreea Vrancianu's transcriber fix that Rodrigo Gomes expected on 20 Aug is three days late, and three taxonomy items are still unowned before Nenad's 28 Aug deadline."
+      "notes": "19 open, flat, nothing new since 19 Aug. Andreea Vrancianu's transcriber fix that Rodrigo Gomes expected on 20 Aug is three days late, and three taxonomy items are unowned before Nenad's 28 Aug deadline."
     },
     {
       "id": "tribebot",
       "name": "Tribebot",
       "tier": "medium",
-      "notes": "16 open, up 1. TribeBot still returns the wrong number on Gustavo Loureiro Castro's screens question even after the join fix, and Andrea Darabasic's bench file has not arrived."
+      "notes": "17 open, up 1. TribeBot still returns the wrong number on Gustavo Loureiro Castro's screens question after the join fix, the 'Actual Screens' vocabulary gap is open, and Andrea's bench file has not arrived."
     },
     {
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "big",
-      "notes": "33 open, down 1. Ella Darie's 0.75% EBITDA bonus is still uncalculated with August closing, and the watchdog surfaced a live BambooHR test record and a 1120-11-01 date on Andre Thaisz."
+      "notes": "34 open, up 1. Ella Darie's 0.75% EBITDA bonus is still uncalculated with August closing, and the watchdog surfaced a live BambooHR test record and a 1120-11-01 date on Andre Thaisz."
     },
     {
       "id": "personal",
       "name": "Personal",
-      "tier": "medium",
-      "notes": "19 open, up 1. The 21 Aug run put Swooped Business Operations Manager at 81 and Conquer AI Operations Manager at 73, and four days of picks are still neither applied to nor dropped."
+      "tier": "big",
+      "notes": "23 open, up 5. The 21 Aug run put Swooped Business Operations Manager at 81 and Conquer AI Operations Manager at 73, still neither applied to nor dropped, and the Kosik cart is unchecked out."
     },
     {
       "id": "legal",
       "name": "Legal & Contracts",
       "tier": "big",
-      "notes": "24 open, flat. Boris Gnoth has not answered the 19 Aug question on Czech CFC treatment of retained Estonian profit, with a call wanted before 27 Aug, and the insurance pack still needs the US/Canada call."
+      "notes": "25 open, up 1. Boris Gnoth has not answered the 19 Aug question on Czech CFC treatment of retained Estonian profit, with a call wanted before 27 Aug, and the insurance pack still needs the US/Canada call."
     },
     {
       "id": "project-hub",
@@ -112,13 +112,13 @@
       "id": "leadership",
       "name": "Leadership comms",
       "tier": "medium",
-      "notes": "13 open, up 1. Martin handed over BD email cover with the David Rademaker mail queued behind Lynsey's reply, the Google eSign default is undecided with Andrea, and Ella's referral terms are unagreed."
+      "notes": "14 open, up 2. The Google eSign default is still undecided with Andrea Darabasic, Ella Darie's partner referral reward terms are unagreed, and Blake is covering Martin's BD email."
     },
     {
       "id": "keboola-sunset",
       "name": "Keboola migration / sunset",
       "tier": "medium",
-      "notes": "3 open, up 1. The renewal reaches Martin Bernard this week at $12,000/year annual-upfront for 300 credits plus a ~$1,200 top-up, and August invoice 0055/2026 is still unpaid."
+      "notes": "3 open, flat. The renewal reaches Martin Bernard this week at $12,000/year annual-upfront for 300 credits plus a ~$1,200 top-up, and August invoice 0055/2026 is still unpaid."
     },
     {
       "id": "tribe-talks",
@@ -136,13 +136,13 @@
       "id": "people-ops",
       "name": "People Ops / BambooHR",
       "tier": "big",
-      "notes": "20 open, flat. The watchdog found a live BambooHR test record and a 1120-11-01 date on Andre Thaisz, Lisa Gargulinska's German-number email is drafted and unsent, and the PPR Database is unrestricted."
+      "notes": "20 open, flat. Lisa Gargulinska's German-number email is drafted and unsent, the Notion PPR Database restriction still needs a hand-check, and the BambooHR leaver notification is unassigned."
     },
     {
       "id": "expense-ops",
       "name": "Expense Ops",
       "tier": "big",
-      "notes": "48 open, down 5 but still the biggest pile. Fuad Safarov's Helsinki trip 44044140 is unapproved, Salem's Berlin hotel is unbooked, and Holding invoice VF1 0644/2526 is still unpaid."
+      "notes": "48 open, flat and still the biggest pile. Fuad Safarov's Helsinki trip 44044140 is unapproved, Salem's Berlin hotel is unbooked, and Holding invoice VF1 0644/2526 is still unpaid."
     },
     {
       "id": "team-cohesion",
