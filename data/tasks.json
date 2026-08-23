@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-08-23",
   "schema_version": 3,
-  "total": 353,
-  "active_count": 353,
+  "total": 357,
+  "active_count": 357,
   "archived_count": 542,
   "projects": [
     {
@@ -28,7 +28,7 @@
     {
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
-      "tier": "big"
+      "tier": "medium"
     },
     {
       "id": "tribebot",
@@ -78,7 +78,7 @@
     {
       "id": "people-ops",
       "name": "People Ops / BambooHR",
-      "tier": "medium"
+      "tier": "big"
     },
     {
       "id": "expense-ops",
@@ -15191,32 +15191,32 @@
       "status": "open"
     },
     {
-      "text": "Write to David Rademaker (davidrademaker1992@gmail.com) from Martin Bernard's inbox once Lynsey replies - say either that Lynsey decided not to move ahead, or that she confirmed and Martin will follow up with details tomorrow morning; if her reply is inconclusive, send nothing",
-      "project": "inbox",
+      "text": "Email David Rademaker (davidrademaker1992@gmail.com) from Martin Bernard's inbox once Lynsey replies - say Blake is writing on Martin's behalf and either that Lynsey is not moving ahead or that she wants to work with him and Martin will follow up with details; write nothing if Lynsey's answer is inconclusive",
+      "project": "leadership",
       "source": "slack/D055NJ27YRY/1787323768.830539",
       "source_type": "slack",
       "date": "2026-08-21",
       "confidence": "high",
       "extras": {
-        "channel": "DM: Martin Bernard",
+        "channel": "DM with Martin Bernard",
         "from": "Martin Bernard"
       },
       "id": "slack/D055NJ27YRY/1787323768.830539",
-      "project_name": "Needs sorting",
+      "project_name": "Leadership comms",
       "first_seen": "2026-08-21",
       "last_seen": "2026-08-23",
       "status": "open"
     },
     {
-      "text": "Process the Keboola renewal when it reaches Martin Bernard (expected 21 Aug or Monday) - new deal is $12,000/year billed annually upfront for 300 credits/month, replacing $1,450/month for 600, plus a ~$1,200 top-up expected near the end of the Term (~$13,200 all in)",
+      "text": "Chase the Keboola renewal contract through to signature with Martin Bernard - new deal is $12,000/yr annual upfront for 300 credits/month (down from $1,450/month for 600), plus roughly $1,200 of top-up credits near the end of the term, and the paperwork was due to reach Martin Friday or Monday",
       "project": "keboola-sunset",
       "source": "slack/D055NJ27YRY/1787317780.453749",
       "source_type": "slack",
       "date": "2026-08-21",
       "confidence": "medium",
       "extras": {
-        "channel": "DM: Martin Bernard",
-        "from": "Blake Barkley"
+        "channel": "DM with Martin Bernard",
+        "from": "Blake Barkley (own commitment)"
       },
       "id": "slack/D055NJ27YRY/1787317780.453749",
       "project_name": "Keboola migration / sunset",
@@ -15242,14 +15242,14 @@
       "status": "open"
     },
     {
-      "text": "Trace the missing date_interview writes in Keboola rather than Bubble - Mikhail Kuzmin confirmed there is no date_interview field in Bubble's event_table, so the 592 Circula 'Moved to ATS' records from 27 Jan-20 May 2025 and Fuad Safarov's 7 Aiven cases that never got one are being lost in the Keboola transform",
+      "text": "Trace where date_interview gets written for 'Moved to ATS' events - Mikhail Kuzmin confirmed the field does not exist in Bubble's event_table so it is likely set in Keboola; 592 Circula candidates moved by Rodrigo Gomes between 27 Jan and 20 May 2025 never got one, plus 7 Fuad Safarov/Aiven cases this year, and those candidates never appear in ATS reporting",
       "project": "rec-dash",
       "source": "slack/D0577RU8WQ1/1787324450.402059",
       "source_type": "slack",
       "date": "2026-08-21",
       "confidence": "high",
       "extras": {
-        "channel": "DM: Mikhail Kuzmin",
+        "channel": "DM with Mikhail Kuzmin",
         "from": "Mikhail Kuzmin"
       },
       "id": "slack/D0577RU8WQ1/1787324450.402059",
@@ -15309,14 +15309,14 @@
       "status": "open"
     },
     {
-      "text": "Clean up the BambooHR hygiene items the watchdog surfaced in reports 228 and 149 - a live 'test name, test' employee record, a 1120-11-01 date on Andre Thaisz, two duplicate division rows and four hire-date year mismatches; all benign today but no check covers them",
+      "text": "Clean up the BambooHR hygiene items the watchdog surfaced in reports 228 and 149: a live 'test name, test' employee record, a 1120-11-01 date on Andre Thaisz, two duplicate division rows, and four hire-date year mismatches - all benign today but no watchdog check covers any of them",
       "project": "people-ops",
       "source": "cowork/local_4ba13615-d125-4a98-b266-2f147c79f4c5",
       "source_type": "cowork",
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "confidence": "medium",
       "extras": {
-        "session": "Tribe dashboard watchdog - 39 checks passed, BambooHR hygiene flagged"
+        "session": "Tribe dashboard watchdog"
       },
       "id": "cowork/local_4ba13615-d125-4a98-b266-2f147c79f4c5/cleanupthebamboohrhygieneitemsthewatchdo",
       "project_name": "People Ops / BambooHR",
@@ -15367,6 +15367,71 @@
         "session": "Silver-medalist project dashboard"
       },
       "id": "cowork/local_a9499c40-8cb6-44ea-8ba8-641e4c756711/askmartinormikhailwhoaddedthesilvermedal",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Monitor Lindsay's response on candidate David's offer approval and communicate next steps to Martin promptly, before the candidate is lost to a competitor",
+      "project": "inbox",
+      "source": "fireflies/01M0J95236A1RDKBEJG3SNXPJQ",
+      "source_type": "fireflies",
+      "date": "2026-08-21",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Friday Team Meeting"
+      },
+      "id": "fireflies/01M0J95236A1RDKBEJG3SNXPJQ/monitorlindsaysresponseoncandidatedavids",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Finish cleaning up the old roles in the Role Tracker dashboard (tribe-recruiting.pages.dev/role-tracker) before the 1 September grace period ends - Jacopo Lupo Ferrari announced to all TLs in #leadership that Blake is doing this now",
+      "project": "rec-dash",
+      "source": "slack/C01RLBNHRKP/1787303118.828539",
+      "source_type": "slack",
+      "date": "2026-08-21",
+      "confidence": "medium",
+      "extras": {
+        "channel": "#leadership",
+        "from": "Jacopo Lupo Ferrari"
+      },
+      "id": "slack/C01RLBNHRKP/1787303118.828539",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Act on the 21 Aug job-search run: US pick Business Operations Manager via Swooped (81, US-wide remote, GPU-cloud/AI-infrastructure, no years bar and no consulting/banking/degree gate, but Swooped never names the employer and publishes no comp so ask who it is in the first exchange) and Europe pick Operations Manager at Conquer AI (73, EEA-wide remote, the only role whose anti-inflation check returns an empty 'not met' column, but a 1,226-character posting with no headcount, funding or comp so email for the band first); also decide whether to apply directly to cloro, now deliberately held out of picks after being surfaced three times",
+      "project": "personal",
+      "source": "cowork/local_5e6e3df0-57c2-400f-bd4b-cdf97e15230f",
+      "source_type": "cowork",
+      "date": "2026-08-21",
+      "confidence": "high",
+      "extras": {
+        "session": "Job search daily"
+      },
+      "id": "cowork/local_5e6e3df0-57c2-400f-bd4b-cdf97e15230f/actonthe21augjobsearchrunuspickbusinesso",
+      "project_name": "Personal",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Add a client-name exclusion to the Friday new-jobs recap WHERE clause so 'TEST CLIENT 123' records stop shipping - 3 of the 16 jobs in the 14-21 Aug window (Untitled Job, front-end developer, software developer, all created by Andreea Vrancianu on 2026-08-20) passed the test <> 'true' flag filter but are genuine test records",
+      "project": "rec-dash",
+      "source": "cowork/local_003ada61-fed5-4d2c-b6ec-b3ec670fff23",
+      "source_type": "cowork",
+      "date": "2026-08-21",
+      "confidence": "medium",
+      "extras": {
+        "session": "Friday new jobs recap"
+      },
+      "id": "cowork/local_003ada61-fed5-4d2c-b6ec-b3ec670fff23/addaclientnameexclusiontothefridaynewjob",
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-08-21",
       "last_seen": "2026-08-23",

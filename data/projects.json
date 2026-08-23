@@ -58,7 +58,7 @@
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
       "tier": "big",
-      "notes": "38 open, up 3. The Keboola token still 401s so the Coverage tab is empty, Moved-to-ATS is grouped on the overwritten date_interview, and nobody owns the new Bubble Silver Medalist tag."
+      "notes": "40 open, up 5. The Keboola token still 401s so the Coverage tab is empty, date_interview is never written for Moved-to-ATS so 592 Circula candidates are missing, and old Role Tracker roles need clearing before 1 Sept."
     },
     {
       "id": "infra",
@@ -94,7 +94,7 @@
       "id": "personal",
       "name": "Personal",
       "tier": "medium",
-      "notes": "18 open, down 1. The 21 Aug run put Swooped Business Operations Manager at 81 and Conquer AI Operations Manager at 73, and four days of picks are still neither applied to nor dropped."
+      "notes": "19 open, up 1. The 21 Aug run put Swooped Business Operations Manager at 81 and Conquer AI Operations Manager at 73, and four days of picks are still neither applied to nor dropped."
     },
     {
       "id": "legal",
@@ -112,7 +112,7 @@
       "id": "leadership",
       "name": "Leadership comms",
       "tier": "medium",
-      "notes": "12 open, flat. The Google eSign default is still undecided with Andrea Darabasic, Ella Darie's partner referral reward terms are unagreed, and Martin has handed over BD email cover."
+      "notes": "13 open, up 1. Martin handed over BD email cover with the David Rademaker mail queued behind Lynsey's reply, the Google eSign default is undecided with Andrea, and Ella's referral terms are unagreed."
     },
     {
       "id": "keboola-sunset",
@@ -136,7 +136,7 @@
       "id": "people-ops",
       "name": "People Ops / BambooHR",
       "tier": "big",
-      "notes": "20 open, up 1. Lisa Gargulinska's German-number email is drafted and unsent, the Notion PPR Database restriction still needs a hand-check, and the BambooHR leaver notification is unassigned."
+      "notes": "20 open, flat. The watchdog found a live BambooHR test record and a 1120-11-01 date on Andre Thaisz, Lisa Gargulinska's German-number email is drafted and unsent, and the PPR Database is unrestricted."
     },
     {
       "id": "expense-ops",
