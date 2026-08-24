@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-23",
+  "generated_at": "2026-08-24",
   "schema_version": 3,
-  "total": 382,
-  "active_count": 382,
+  "total": 392,
+  "active_count": 392,
   "archived_count": 542,
   "projects": [
     {
@@ -10238,7 +10238,7 @@
       "project": "rec-dash",
       "source": "cowork/local_427618d3-5500-40ef-9ac1-13b1b9d3a20f",
       "source_type": "cowork",
-      "date": "2026-08-05",
+      "date": "2026-08-24",
       "confidence": "high",
       "extras": {
         "session": "Recruiting new stages usage check - scheduled watcher hit its green-light condition"
@@ -10246,7 +10246,7 @@
       "id": "cowork/local_427618d3-5500-40ef-9ac1-13b1b9d3a20f/startthestagefunneltransformanddashboard",
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-08-05",
-      "last_seen": "2026-08-05",
+      "last_seen": "2026-08-24",
       "status": "open"
     },
     {
@@ -15842,6 +15842,172 @@
       "project_name": "Personal",
       "first_seen": "2026-08-21",
       "last_seen": "2026-08-23",
+      "status": "open"
+    },
+    {
+      "text": "Coordinate with Mikael to integrate the finance dashboard into the Tribe Dashboard overview and verify the setup is correct after Claude's early message",
+      "project": "fin-dash",
+      "source": "fireflies/01M0A1JM5RGNBZV9HKH3QGSEBM",
+      "source_type": "fireflies",
+      "date": "2026-08-18",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Blake / Ella 1:1"
+      },
+      "id": "fireflies/01M0A1JM5RGNBZV9HKH3QGSEBM/coordinatewithmikaeltointegratethefinanc",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-24",
+      "status": "open"
+    },
+    {
+      "text": "Rewrite the opening question in the 'Tribe Talk with Marcel: Run of Show' doc per Nenad Skoko's suggestion Blake agreed to - replace 'What does the average recruiter in your room believe about AI on day one?' with a sharper version",
+      "project": "tribe-talks",
+      "source": "gmail/1a01ee7f49b305da",
+      "source_type": "gmail",
+      "date": "2026-08-20",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Tribe Talk with M... - Feels a bit... broad I'd have it eit...",
+        "from": "Nenad Skoko via Google Docs <comments-noreply@docs.google.com>"
+      },
+      "id": "gmail/1a01ee7f49b305da",
+      "project_name": "Tribe Talks",
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-24",
+      "status": "open"
+    },
+    {
+      "text": "Give Jacopo Lupo Ferrari a number for what unlimited LinkedIn InMails would cost, using your LinkedIn contact, so the directors can answer the Q&A question",
+      "project": "linkedin",
+      "source": "slack/C052MERDLNM/1787312366.449939",
+      "source_type": "slack",
+      "date": "2026-08-21",
+      "confidence": "high",
+      "extras": {
+        "channel": "directors",
+        "from": "Jacopo Lupo Ferrari"
+      },
+      "id": "slack/C052MERDLNM/1787312366.449939",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-24",
+      "status": "open"
+    },
+    {
+      "text": "Answer Martin Bernard in #directors on whether Tribe has actually burned through all its LinkedIn InMails",
+      "project": "linkedin",
+      "source": "slack/C052MERDLNM/1787312733.521819",
+      "source_type": "slack",
+      "date": "2026-08-21",
+      "confidence": "high",
+      "extras": {
+        "channel": "directors",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/C052MERDLNM/1787312733.521819",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-08-24",
+      "status": "open"
+    },
+    {
+      "text": "Take over Chene Elliot and Samantha Nel from Chantal Bozkurt on the intake tool onboarding list and get them checked in and running intakes",
+      "project": "ai-recruiting",
+      "source": "slack/C0BD4MNA6SC/1787556272.294809",
+      "source_type": "slack",
+      "date": "2026-08-24",
+      "confidence": "high",
+      "extras": {
+        "channel": "intake-task-force",
+        "from": "Blake Barkley"
+      },
+      "id": "slack/C0BD4MNA6SC/1787556272.294809",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "status": "open"
+    },
+    {
+      "text": "Buy the Juicebox test seats for Dusan Spica and Fuad Safarov on the new business account using Jacopo Lupo Ferrari's JUICE20 discount code",
+      "project": "ai-recruiting",
+      "source": "slack/D056EG3QPLP/1787056213.042469",
+      "source_type": "slack",
+      "date": "2026-08-18",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Jacopo Lupo Ferrari",
+        "from": "Jacopo Lupo Ferrari"
+      },
+      "id": "slack/D056EG3QPLP/1787056213.042469",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-08-24",
+      "status": "open"
+    },
+    {
+      "text": "Fix the constant 'LinkedIn Recruiter cookie expired' errors Martin Bernard is hitting on every page from his Recruiter Admin account",
+      "project": "linkedin",
+      "source": "slack/C013VRX2VFB/1787114867.528689",
+      "source_type": "slack",
+      "date": "2026-08-19",
+      "confidence": "low",
+      "extras": {
+        "channel": "tech_support",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/C013VRX2VFB/1787114867.528689",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-08-24",
+      "status": "open"
+    },
+    {
+      "text": "Check the run schedule on Keboola flow 01m0hqmdvtt98sseg7jnb1n547 (Candidate DQ by Stage) - it ran 24 times in 7 days against a documented once-daily cadence, and confirm whether that is backfill or a schedule misconfig",
+      "project": "keboola-sunset",
+      "source": "cowork/local_60f50c16-7b18-4ccc-a7b5-bfb46bd42609",
+      "source_type": "cowork",
+      "date": "2026-08-24",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Keboola spend check"
+      },
+      "id": "cowork/local_60f50c16-7b18-4ccc-a7b5-bfb46bd42609/checktherunscheduleonkeboolaflow01m0hqmd",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "status": "open"
+    },
+    {
+      "text": "Investigate the three n8n workflows that went stale this week in the fleet refresh - Daily Pulse Sync (last run 13 Aug, webhook), Revolut Draft Payment Approver v2 (10 Aug) and Tribe Book - Booking to HubSpot (14 Aug)",
+      "project": "infra",
+      "source": "cowork/local_d2b44103-4880-47e0-bfaa-ecd1849a3f31",
+      "source_type": "cowork",
+      "date": "2026-08-24",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Daily pulse n8n fleet weekly"
+      },
+      "id": "cowork/local_d2b44103-4880-47e0-bfaa-ecd1849a3f31/investigatethethreen8nworkflowsthatwents",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "status": "open"
+    },
+    {
+      "text": "Do not send Mikhail the drafted 'why does Moved to ATS never write date_interview' question - the cause was traced to our own reporting SQL (every affected candidate's current stage sits below the interview threshold, so date_interview never backfills); send him that correction instead",
+      "project": "rec-dash",
+      "source": "cowork/local_d49da37b-949e-412c-8291-d4116041421d",
+      "source_type": "cowork",
+      "date": "2026-08-24",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Moved to ATS data discrepancy"
+      },
+      "id": "cowork/local_d49da37b-949e-412c-8291-d4116041421d/donotsendmikhailthedraftedwhydoesmovedto",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
       "status": "open"
     }
   ]
