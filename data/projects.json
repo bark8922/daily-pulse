@@ -52,103 +52,103 @@
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
       "tier": "big",
-      "notes": "35 open, flat. The TribeBot slide, extension-update instructions and second Claude Pro ask are all queued for Friday's all-hands, and Salem Mansuri's enterprise Claude business case has not arrived."
+      "notes": "24 open, up 1. Three Friday all-hands items are drafted: TribeBot slide, intake extension update instructions, second Claude Pro ask. Salem's and Chris's non-guest Claude licence approvals are new."
     },
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
       "tier": "big",
-      "notes": "48 open, up 1. The date_interview gap traced back to our own reporting SQL, not Mikhail Kuzmin's ATS move, and the stage-funnel build triggered on 24 moves across 21 candidates since 22 July."
+      "notes": "48 open, up 5. The date_interview gap is closed - traced to our own reporting SQL, not Mikhail. New threads: his 24 Aug bulk move of 229 Jelena candidates into Contacted, plus the Yolanda and Mariam discrepancies."
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "tier": "big",
-      "notes": "55 open, up 1. Three n8n workflows went stale (Daily Pulse Sync 13 Aug, Revolut Draft Payment Approver v2 10 Aug, Tribe Book to HubSpot 14 Aug) and the GitHub PAT still sits verbatim in SKILL.md."
+      "notes": "43 open, up 3. HubSpot credentials are the live thread - Jacopo's LinkedIn logger token was pasted into Slack in plain text. Three n8n workflows went stale and the Supabase RLS gap is still open."
     },
     {
       "id": "okrs",
       "name": "OKRs",
       "tier": "medium",
-      "notes": "1 open, flat, nothing new since 19 Aug. Valeriia sits at 4/16 (25%) and Ejla at 4/10 (40%) on weekly role updates across weeks 31-33, against Gustavo 13/13 and Dolores 11/12."
+      "notes": "1 open. Valeriia at 4/16 (25%) and Ejla on weekly role-update coverage across weeks 31-33 still need handling."
     },
     {
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
-      "tier": "big",
-      "notes": "21 open, up 2. Chene Elliot and Samantha Nel need taking over from Chantal Bozkurt on intake onboarding, and Andreea Vrancianu's transcriber fix that Rodrigo Gomes expected 20 Aug is four days late."
+      "tier": "medium",
+      "notes": "13 open, flat. Intake tool is back on. Chene Elliot and Samantha Nel move to Blake from Chantal Bozkurt for onboarding, and Nenad's three unowned taxonomy items are due Fri 28 Aug."
     },
     {
       "id": "tribebot",
       "name": "Tribebot",
       "tier": "medium",
-      "notes": "17 open, flat. TribeBot still returns the wrong number on Gustavo Loureiro Castro's screens question after the join fix, the 'Actual Screens' vocabulary gap is open, and Andrea's bench file has not arrived."
+      "notes": "17 open, flat - nothing closed this sweep. Gustavo Loureiro Castro's screens question still returns the wrong number and the 'Actual Screens' vocabulary gap is unfixed."
     },
     {
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "big",
-      "notes": "35 open, up 1. Ella Darie's 0.75% EBITDA bonus is still uncalculated with August closing, and the BambooHR watchdog items (live test record #200, Andre Thaisz dated 1120-11-01) are uncleaned."
+      "notes": "32 open, up 4. CZK 230,794 Holding VAT is due 25 Aug. Eva Huclova needs an answer on the Wolt bank confirmation, and Ella Darie's 0.75% EBITDA bonus is still blocked on the figure from Boris."
     },
     {
       "id": "personal",
       "name": "Personal",
       "tier": "big",
-      "notes": "24 open, flat. The Kosik cart is still unchecked out at roughly 2,900 Kc, and Swooped (81), Conquer AI (73) and cloro (78) are each neither applied to nor explicitly dropped."
+      "notes": "23 open, flat. Still almost entirely job-search follow-through - scored roles from the 17 and 21 Aug runs with no applications sent - plus the Kosik cart checkout."
     },
     {
       "id": "legal",
       "name": "Legal & Contracts",
       "tier": "big",
-      "notes": "25 open, flat. Boris Gnoth still has not answered the 19 Aug question on Czech CFC treatment of retained Estonian profit, with a call wanted before 27 Aug, and the insurance pack needs the US/Canada call."
+      "notes": "23 open, up 4. Ella's 0.75% EBITDA bonus must be calculated and notified before August ends under Article 2.9.4. Nenad's coach NDA needs review and sending to Saima Zeb-Khan."
     },
     {
       "id": "project-hub",
       "name": "Project Hub",
       "tier": "medium",
-      "notes": "2 open, flat. The intake tool is live again, so the task-force teams need redistributing with tracking restarting Monday and the extension update announced at Friday's meeting."
+      "notes": "3 open, up 1. Two Friday-meeting announcements on the intake tool being live, plus three pending Drive access requests on the 21 Aug meeting recording."
     },
     {
       "id": "leadership",
       "name": "Leadership comms",
       "tier": "medium",
-      "notes": "14 open, flat. The Google eSign default is still undecided with Andrea Darabasic, Ella Darie's partner referral reward terms are unagreed, and Blake is covering Martin Bernard's BD email."
+      "notes": "14 open, flat - nothing closed this sweep. Martin's inbox cover, the overhead cost memo and Ella's monthly survey-conversation checklist are all still outstanding."
     },
     {
       "id": "keboola-sunset",
       "name": "Keboola migration / sunset",
       "tier": "medium",
-      "notes": "4 open, up 1. Flow 01m0hqmdvtt98sseg7jnb1n547 ran 24 times in 7 days against a documented daily cadence, the $12,000/year renewal is heading to Martin Bernard, and invoice 0055/2026 is unpaid."
+      "notes": "3 open, up 1. Renewal is agreed at $12,000/yr for 300 credits and needs Martin's signature. Flow 01m0hqmdvtt98sseg7jnb1n547 ran 24 times in 7 days against a once-daily cadence."
     },
     {
       "id": "tribe-talks",
       "name": "Tribe Talks",
       "tier": "medium",
-      "notes": "11 open, up 1. Nenad Skoko's agreed rewrite of the Run of Show opening question is unmade, Marcel van der Meer has not posted since 30 July with promo due 22 Sept, and the guide is unsigned."
+      "notes": "8 open, flat. The 18 Sept call with Marcel is booked but the run of show is still a draft he has not seen, and the opening question rewrite Nenad suggested is unmade."
     },
     {
       "id": "linkedin",
       "name": "LinkedIn (licenses + posting)",
-      "tier": "big",
-      "notes": "20 open, up 3. Jacopo Lupo Ferrari needs an unlimited-InMail cost number and Martin Bernard an answer on whether Tribe burned through its InMails, and Lisa Gargulinska still has no licence."
+      "tier": "medium",
+      "notes": "13 open, up 2. Jacopo Lupo Ferrari is waiting on a scoped HubSpot key for the LinkedIn logging connector, and the Thu 27 Aug Anthropic post needs the Dario Amodei naming call."
     },
     {
       "id": "people-ops",
       "name": "People Ops / BambooHR",
       "tier": "big",
-      "notes": "20 open, flat. Lisa Gargulinska's German-number email is drafted and unsent, the Notion PPR Database restriction still needs a hand-check, and the BambooHR leaver notification is unassigned."
+      "notes": "20 open, up 1. Andrea Darabasic wants a 30-45 min DevPlans call before Wed 26 Aug. BambooHR hygiene from reports 228 and 149 and the Notion PPR lockdown are the other threads."
     },
     {
       "id": "expense-ops",
       "name": "Expense Ops",
       "tier": "big",
-      "notes": "49 open, flat and still the biggest pile. Fuad Safarov's Helsinki trip 44044140 is unapproved, Salem Mansuri's Berlin hotel is unbooked, and Revolut receipts are missing across all three entities."
+      "notes": "37 open, up 3. Martin's personal Kaya2619.pdf invoice needs paying and booking off company expenses. Deel, the Czech missing-invoice list and Fuad's Perk trip 44044140 are the other live items."
     },
     {
       "id": "team-cohesion",
       "name": "Team cohesion",
       "tier": "medium",
-      "notes": "2 open, untouched since 4 Aug, 20 days. The July engagement drop (eNPS 53 to 40, Wolt eNPS 0 to -25) is still unframed for leadership and nothing detects a silent dashboard failure."
+      "notes": "1 open and no signal since 4 Aug. The engagement dashboard staleness check is still unbuilt and the first unattended run is the first Monday of September."
     }
   ],
   "project_aliases": {
