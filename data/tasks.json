@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-08-25",
   "schema_version": 3,
-  "total": 338,
-  "active_count": 338,
+  "total": 362,
+  "active_count": 362,
   "archived_count": 553,
   "projects": [
     {
@@ -78,7 +78,7 @@
     {
       "id": "people-ops",
       "name": "People Ops / BambooHR",
-      "tier": "big"
+      "tier": "medium"
     },
     {
       "id": "expense-ops",
@@ -15298,6 +15298,399 @@
       "id": "cowork/local_b5289baf-f653-4507-bf3c-24df60fcfdde/chasemartinforareplyonthetwoproposalsheh",
       "project_name": "Leadership comms",
       "first_seen": "2026-08-24",
+      "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Coordinate with Mikhail to create a hidden, protected Silver Medalists pipeline stage using the prospect stage type, with deletion disabled",
+      "project": "rec-dash",
+      "source": "fireflies/01M0WJQ2Y9YASWFBW410HZDE0J",
+      "source_type": "fireflies",
+      "date": "2026-08-25",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Silver Medalists"
+      },
+      "id": "fireflies/01M0WJQ2Y9YASWFBW410HZDE0J/coordinatewithmikhailtocreateahiddenprot",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Build a notification that pings Sashka on Slack or email when a new backend role opens, tuning the role filters after her review",
+      "project": "infra",
+      "source": "fireflies/01M0WJQ2Y9YASWFBW410HZDE0J",
+      "source_type": "fireflies",
+      "date": "2026-08-25",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Silver Medalists"
+      },
+      "id": "fireflies/01M0WJQ2Y9YASWFBW410HZDE0J/buildanotificationthatpingssashkaonslack",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Review recent backend job posting categories and titles and share them with Sashka to finalize the notification filter setup",
+      "project": "rec-dash",
+      "source": "fireflies/01M0WJQ2Y9YASWFBW410HZDE0J",
+      "source_type": "fireflies",
+      "date": "2026-08-25",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Silver Medalists"
+      },
+      "id": "fireflies/01M0WJQ2Y9YASWFBW410HZDE0J/reviewrecentbackendjobpostingcategoriesa",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Build the Silver Medalists dashboard once the pipeline stage exists and send Martin and Sashka an initial prototype by end of week",
+      "project": "rec-dash",
+      "source": "fireflies/01M0WJQ2Y9YASWFBW410HZDE0J",
+      "source_type": "fireflies",
+      "date": "2026-08-25",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Silver Medalists"
+      },
+      "id": "fireflies/01M0WJQ2Y9YASWFBW410HZDE0J/buildthesilvermedalistsdashboardoncethep",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Keep monitoring the Calendly-HubSpot integration for anomalies and fix issues Caroline or the team report after the new website link goes live",
+      "project": "infra",
+      "source": "fireflies/01M0WEJHSD3QB08QDV0AMSNV9X",
+      "source_type": "fireflies",
+      "date": "2026-08-25",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Caroline - Catch up"
+      },
+      "id": "fireflies/01M0WEJHSD3QB08QDV0AMSNV9X/keepmonitoringthecalendlyhubspotintegrat",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Report the Estonian VAT substance and permanent-establishment risk findings to Martin for a decision, and send follow-up questions to the tax associate where clarification is needed",
+      "project": "legal",
+      "source": "fireflies/01M0W5TC2SQQ673Y35JXHFW55C",
+      "source_type": "fireflies",
+      "date": "2026-08-25",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Estonian e-residency VAT / tax substance consultation (Teams)"
+      },
+      "id": "fireflies/01M0W5TC2SQQ673Y35JXHFW55C/reporttheestonianvatsubstanceandpermanen",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Build the new TribeFin system so cash flow and projections update automatically instead of by hand",
+      "project": "fin-dash",
+      "source": "fireflies/01M0SZHG5BZFDEYAC8WSA5VWVE",
+      "source_type": "fireflies",
+      "date": "2026-08-24",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01M0SZHG5BZFDEYAC8WSA5VWVE/buildthenewtribefinsystemsocashflowandpr",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Push the insurance paperwork through with the accountants and providers to secure worldwide coverage (~$1K/year) that clients are asking for",
+      "project": "legal",
+      "source": "fireflies/01M0SZHG5BZFDEYAC8WSA5VWVE",
+      "source_type": "fireflies",
+      "date": "2026-08-24",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01M0SZHG5BZFDEYAC8WSA5VWVE/pushtheinsurancepaperworkthroughwiththea",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Write your own development plan now rather than waiting on Andrea's promised follow-up",
+      "project": "personal",
+      "source": "fireflies/01M0SZHG5BZFDEYAC8WSA5VWVE",
+      "source_type": "fireflies",
+      "date": "2026-08-24",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01M0SZHG5BZFDEYAC8WSA5VWVE/writeyourowndevelopmentplannowratherthan",
+      "project_name": "Personal",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Complete the BambooHR 'Update Financials' offboarding task for Wladyslaw Gadomski (Talent Acquisition Partner L3, remote, termination date Sep 7 2026) assigned by Andrea Darabasic",
+      "project": "people-ops",
+      "source": "gmail/1a038b04433f2d7a",
+      "source_type": "gmail",
+      "date": "2026-08-25",
+      "confidence": "high",
+      "extras": {
+        "subject": "Please complete this offboarding task for Wladyslaw Gadomski",
+        "from": "notifications@app.bamboohr.com"
+      },
+      "id": "gmail/1a038b04433f2d7a",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Answer Eva Huclova's three open questions on the general-liability insurance questionnaire so she can finalise it: 6.8 any major investment projects planned in the coming policy year, 6.9 whether Tribe's activity involves software/IT consulting/data processing/hosting/web portals, and 10 the required duration of insurance",
+      "project": "legal",
+      "source": "gmail/1a038f9d1ccefb49",
+      "source_type": "gmail",
+      "date": "2026-08-25",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Company Insurance - Questionnaires",
+        "from": "Eva Huclova <ehuclova@borisgnoth.cz>"
+      },
+      "id": "gmail/1a038f9d1ccefb49",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Review the Google Workspace user-reported phishing alert for marcus.funk@flyacts.com in the Admin Alert Center and block or quarantine the sender if confirmed",
+      "project": "infra",
+      "source": "gmail/1a038c407d7c3a07",
+      "source_type": "gmail",
+      "date": "2026-08-25",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Alert: User-reported phishing for marcus.funk@flyacts.com",
+        "from": "google-workspace-alerts-noreply@google.com"
+      },
+      "id": "gmail/1a038c407d7c3a07",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Get a price from the LinkedIn rep for 50 extra InMails before Friday's reset - Jelena is 50 reach-outs short of the 250/week NoIsolation requires and reports to the client every Friday; Blake told Salem Mansuri the old quote of $2.50/InMail is two years stale and that he would ask the rep",
+      "project": "linkedin",
+      "source": "slack/D057XNFLHTR/1787655264.877829",
+      "source_type": "slack",
+      "date": "2026-08-25",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Salem Mansuri",
+        "from": "Salem Mansuri"
+      },
+      "id": "slack/D057XNFLHTR/1787655264.877829",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Reply to Alexandra Richiteanu on how to get started with AI automations - she asked in DM whether the automations Blake built (e.g. the Friday meeting link posted to Slack on Monday) need paid AI tool tiers, and wants a starting point beyond ChatGPT prompts",
+      "project": "ai-first-working-group",
+      "source": "slack/D06QF77C6TC/1787652024.524419",
+      "source_type": "slack",
+      "date": "2026-08-25",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Alexandra Richiteanu",
+        "from": "Alexandra Richiteanu"
+      },
+      "id": "slack/D06QF77C6TC/1787652024.524419",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Add Blake's topics to the TL Meeting Notion page before the leadership meeting on Wednesday 26 August - Kristina Colovic asked all of #leadership to fill it in",
+      "project": "leadership",
+      "source": "slack/C01RLBNHRKP/1787648769.432129",
+      "source_type": "slack",
+      "date": "2026-08-25",
+      "confidence": "medium",
+      "extras": {
+        "channel": "#leadership",
+        "from": "Kristina Colovic"
+      },
+      "id": "slack/C01RLBNHRKP/1787648769.432129",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Handle Wladyslaw Gadomski's offboarding on the tooling side before his last day on Friday 28 August - reclaim his LinkedIn Recruiter licence and other paid seats, revoke access, and archive or reassign his open roles in the dashboard/Role Tracker (Andrea Darabasic confirmed he is on full notice and is going to Surfshark)",
+      "project": "people-ops",
+      "source": "slack/C01RLBNHRKP/1787642755.987309",
+      "source_type": "slack",
+      "date": "2026-08-25",
+      "confidence": "medium",
+      "extras": {
+        "channel": "#leadership",
+        "from": "Kristina Colovic"
+      },
+      "id": "slack/C01RLBNHRKP/1787642755.987309",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Follow through with Mikhail Kuzmin on the hidden, locked 'Silver Medalists' Prospects stage in Bubble - confirm it auto-applies to every new job like Interview 1/2/3, that currently open jobs are backfilled, and that a job can hold two stages of the same type so the regular Prospect stage still works",
+      "project": "rec-dash",
+      "source": "slack/D0577RU8WQ1/1787668135.287619",
+      "source_type": "slack",
+      "date": "2026-08-25",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Mikhail Kuzmin",
+        "from": "Blake Barkley"
+      },
+      "id": "slack/D0577RU8WQ1/1787668135.287619",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Get Martin Bernard's go/no-go on the Estonian entity now that the substance answer and break-even calculator are with him - the VAT number is easy to lose without real substance (local employee, coworking desk, board meetings held in Estonia) and it only pays off if profit stays in the company rather than being paid up to Holding",
+      "project": "legal",
+      "source": "slack/D055NJ27YRY/1787665501.775999",
+      "source_type": "slack",
+      "date": "2026-08-25",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Martin Bernard",
+        "from": "Blake Barkley"
+      },
+      "id": "slack/D055NJ27YRY/1787665501.775999",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Land Keboola optimization items 2-4: either make the four small config edits directly in the Keboola UI, or get the ai.eu-central-1 auth fixed so the granular MCP write path works again (items are prepared and evidenced, just blocked)",
+      "project": "keboola-sunset",
+      "source": "cowork/local_ae52df59-842b-42b8-8849-083c335d58b2",
+      "source_type": "cowork",
+      "date": "2026-08-25",
+      "confidence": "high",
+      "extras": {
+        "title": "Keboola spend optimization"
+      },
+      "id": "cowork/local_ae52df59-842b-42b8-8849-083c335d58b2/landkeboolaoptimizationitems24eithermake",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Install the two Keboola artifacts still sitting undeployed in outputs: the waste-review scheduled task and the config registry (drafted, never installed)",
+      "project": "keboola-sunset",
+      "source": "cowork/local_ae52df59-842b-42b8-8849-083c335d58b2",
+      "source_type": "cowork",
+      "date": "2026-08-25",
+      "confidence": "high",
+      "extras": {
+        "title": "Keboola spend optimization"
+      },
+      "id": "cowork/local_ae52df59-842b-42b8-8849-083c335d58b2/installthetwokeboolaartifactsstillsittin",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Act on the 25 Aug job-search run: Chief of Staff to the CEO at Stord (75, Atlanta GA on-site - the only posting that names exec-support as a qualifying route in) and the Chief of Staff at the AI email-security startup via Swooped (74, US remote). Europe returned zero picks",
+      "project": "personal",
+      "source": "cowork/local_86d5b4e0-8007-4096-b22a-d778ce6878a1",
+      "source_type": "cowork",
+      "date": "2026-08-25",
+      "confidence": "high",
+      "extras": {
+        "title": "Job search daily"
+      },
+      "id": "cowork/local_86d5b4e0-8007-4096-b22a-d778ce6878a1/actonthe25augjobsearchrunchiefofstafftot",
+      "project_name": "Personal",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Give the TA team a heads-up that WBR week-34 '# Jobs' counts moved for everyone, not just the seven who read 0 - the column now counts roles a recruiter moved something on that week instead of a frozen constant",
+      "project": "rec-dash",
+      "source": "cowork/local_4959a941-aa7a-455b-871c-c717ccad63ce",
+      "source_type": "cowork",
+      "date": "2026-08-24",
+      "confidence": "low",
+      "extras": {
+        "title": "WBR zero jobs discrepancy"
+      },
+      "id": "cowork/local_4959a941-aa7a-455b-871c-c717ccad63ce/givethetateamaheadsupthatwbrweek34jobsco",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Decide whether the invoice-forwarding n8n workflow should put the attachment filename in the subject line (multi-document emails now reach accounting as separate messages with identical subjects), and clear the pre-existing missing-'operation' validation warning on the Gmail Send node",
+      "project": "expense-ops",
+      "source": "cowork/local_e372672f-2e30-4abd-a2bc-2c5bfd9b87c3",
+      "source_type": "cowork",
+      "date": "2026-08-25",
+      "confidence": "medium",
+      "extras": {
+        "title": "Workflow execution troubleshooting"
+      },
+      "id": "cowork/local_e372672f-2e30-4abd-a2bc-2c5bfd9b87c3/decidewhethertheinvoiceforwardingn8nwork",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Sort out kindergarten childcare for the shortened days - Sept 1-4 he comes home at 13:00 and the school recommends keeping the 13:00 pickup for two more weeks after that; also confirm with Andrea and Silvie what time he should actually arrive on Sept 1",
+      "project": "personal",
+      "source": "cowork/local_3334434f-fc8e-4320-b347-2092b4521926",
+      "source_type": "cowork",
+      "date": "2026-08-25",
+      "confidence": "medium",
+      "extras": {
+        "title": "Kindergarten first day September 1st"
+      },
+      "id": "cowork/local_3334434f-fc8e-4320-b347-2092b4521926/sortoutkindergartenchildcarefortheshorte",
+      "project_name": "Personal",
+      "first_seen": "2026-08-25",
       "last_seen": "2026-08-25",
       "status": "open"
     }
