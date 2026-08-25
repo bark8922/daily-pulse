@@ -45,38 +45,38 @@
     "workforce-planning-changes"
   ],
   "lookback_days": 60,
-  "updated": "2026-08-24",
+  "updated": "2026-08-25",
   "generated_from": "data/ledger.json (Notion). Do not hand-edit.",
   "projects": [
     {
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
       "tier": "big",
-      "notes": "24 open, up 1. Three Friday all-hands items are drafted: TribeBot slide, intake extension update instructions, second Claude Pro ask. Salem's and Chris's non-guest Claude licence approvals are new."
+      "notes": "23 open, down 1. Friday all-hands is the near-term load: TribeBot and intake slides, the extension update instructions, and the second Claude Pro ask. Michal still owes the taxonomy ownership call."
     },
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
       "tier": "big",
-      "notes": "48 open, up 5. The date_interview gap is closed - traced to our own reporting SQL, not Mikhail. New threads: his 24 Aug bulk move of 229 Jelena candidates into Contacted, plus the Yolanda and Mariam discrepancies."
+      "notes": "50 open, up 2. Stage-funnel trigger fired: 24 stage moves across 21 candidates since 22 Jul. The Mikhail date_interview question is dead, traced to our own SQL. Yolanda and Mariam discrepancies stay open."
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "tier": "big",
-      "notes": "43 open, up 3. HubSpot credentials are the live thread - Jacopo's LinkedIn logger token was pasted into Slack in plain text. Three n8n workflows went stale and the Supabase RLS gap is still open."
+      "notes": "45 open, up 2. HubSpot credentials dominate: rotate the LinkedIn logger token, issue Jacopo a scoped key out of band, refresh ClaudeAccess_silver_medalists after its 24 Aug expiry. Three n8n workflows are stale."
     },
     {
       "id": "okrs",
       "name": "OKRs",
       "tier": "medium",
-      "notes": "1 open. Valeriia at 4/16 (25%) and Ejla on weekly role-update coverage across weeks 31-33 still need handling."
+      "notes": "2 open, up 1. A Lattice growth action for Assertive Stakeholder Management is due 31 Aug, and Valeriia at 4/16 (25%) and Ejla still drag weekly role-update coverage across weeks 31-33."
     },
     {
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
       "tier": "medium",
-      "notes": "13 open, flat. Intake tool is back on. Chene Elliot and Samantha Nel move to Blake from Chantal Bozkurt for onboarding, and Nenad's three unowned taxonomy items are due Fri 28 Aug."
+      "notes": "14 open, up 1. Chene Elliot and Samantha Nel move to Blake from Chantal Bozkurt for onboarding, the quick guide needs its Microphone step dropped, and Nenad's three taxonomy items are due Fri 28 Aug."
     },
     {
       "id": "tribebot",
@@ -88,61 +88,61 @@
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "big",
-      "notes": "32 open, up 4. CZK 230,794 Holding VAT is due 25 Aug. Eva Huclova needs an answer on the Wolt bank confirmation, and Ella Darie's 0.75% EBITDA bonus is still blocked on the figure from Boris."
+      "notes": "32 open, flat. CZK 230,794 Holding VAT is due today. Eva Huclova needs instructions on the Wolt vendor 12800036 bank confirmation, and August rows are missing from the Sourcer Client Assignment tab."
     },
     {
       "id": "personal",
       "name": "Personal",
       "tier": "big",
-      "notes": "23 open, flat. Still almost entirely job-search follow-through - scored roles from the 17 and 21 Aug runs with no applications sent - plus the Kosik cart checkout."
+      "notes": "24 open, up 1. Mostly job-search follow-through - the Swooped Business Operations Manager role scored 81 with no application sent - plus the Kosik cart and a filter that over-fired on 16 roles."
     },
     {
       "id": "legal",
       "name": "Legal & Contracts",
       "tier": "big",
-      "notes": "23 open, up 4. Ella's 0.75% EBITDA bonus must be calculated and notified before August ends under Article 2.9.4. Nenad's coach NDA needs review and sending to Saima Zeb-Khan."
+      "notes": "24 open, up 1. Nenad's Coaching_NDA_Tribe_GDPR.docx needs review and sending to Saima Zeb-Khan and Martin for eSign. Ella's 0.75% EBITDA bonus must be calculated and notified before August ends."
     },
     {
       "id": "project-hub",
       "name": "Project Hub",
       "tier": "medium",
-      "notes": "3 open, up 1. Two Friday-meeting announcements on the intake tool being live, plus three pending Drive access requests on the 21 Aug meeting recording."
+      "notes": "3 open, flat. Three Drive access requests on the 21 Aug Friday meeting recording are pending, and the intake task force still needs redistributing now that the tool is live again."
     },
     {
       "id": "leadership",
       "name": "Leadership comms",
       "tier": "medium",
-      "notes": "14 open, flat - nothing closed this sweep. Martin's inbox cover, the overhead cost memo and Ella's monthly survey-conversation checklist are all still outstanding."
+      "notes": "15 open, up 1. Martin has seen and not answered the $12,000/yr Keboola renewal and the Claude Pro seats. David Rademaker's email waits on Lynsey, and Ella's survey checklist is unbuilt."
     },
     {
       "id": "keboola-sunset",
       "name": "Keboola migration / sunset",
       "tier": "medium",
-      "notes": "3 open, up 1. Renewal is agreed at $12,000/yr for 300 credits and needs Martin's signature. Flow 01m0hqmdvtt98sseg7jnb1n547 ran 24 times in 7 days against a once-daily cadence."
+      "notes": "4 open, up 1. Renewal is agreed at $12,000/yr for 300 credits and needs Martin's signature. Flow 01m0hqmdvtt98sseg7jnb1n547 ran 24 times in 7 days against a once-daily cadence."
     },
     {
       "id": "tribe-talks",
       "name": "Tribe Talks",
       "tier": "medium",
-      "notes": "8 open, flat. The 18 Sept call with Marcel is booked but the run of show is still a draft he has not seen, and the opening question rewrite Nenad suggested is unmade."
+      "notes": "10 open, up 2. Marcel is posting near-daily again after two silent weeks, so the 22 Sept amplification needs confirming. The run of show opening question rewrite Nenad suggested is still unmade."
     },
     {
       "id": "linkedin",
       "name": "LinkedIn (licenses + posting)",
       "tier": "medium",
-      "notes": "13 open, up 2. Jacopo Lupo Ferrari is waiting on a scoped HubSpot key for the LinkedIn logging connector, and the Thu 27 Aug Anthropic post needs the Dario Amodei naming call."
+      "notes": "14 open, up 1. Jacopo is waiting on a scoped HubSpot key for the LinkedIn logging connector. The Thu 27 Aug Anthropic post needs the Dario Amodei naming call, and 2,800 InMails burned in two weeks."
     },
     {
       "id": "people-ops",
       "name": "People Ops / BambooHR",
-      "tier": "big",
-      "notes": "20 open, up 1. Andrea Darabasic wants a 30-45 min DevPlans call before Wed 26 Aug. BambooHR hygiene from reports 228 and 149 and the Notion PPR lockdown are the other threads."
+      "tier": "medium",
+      "notes": "19 open, down 1. Wladyslaw Gadomski is expecting the notice-period invoicing calculation for August plus 1-7 Sept, and Andrea Darabasic wants a 30-45 min DevPlans call before Wed 26 Aug."
     },
     {
       "id": "expense-ops",
       "name": "Expense Ops",
       "tier": "big",
-      "notes": "37 open, up 3. Martin's personal Kaya2619.pdf invoice needs paying and booking off company expenses. Deel, the Czech missing-invoice list and Fuad's Perk trip 44044140 are the other live items."
+      "notes": "35 open, down 2. The T-Mobile CZ bill of 2,560.28 CZK is due 27 Aug, Martin's personal Kaya2619.pdf invoice still needs paying off company books, and Fuad's Perk trip 44044140 is unapproved."
     },
     {
       "id": "team-cohesion",
