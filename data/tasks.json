@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-25",
+  "generated_at": "2026-08-26",
   "schema_version": 3,
-  "total": 362,
-  "active_count": 362,
-  "archived_count": 553,
+  "total": 359,
+  "active_count": 359,
+  "archived_count": 570,
   "projects": [
     {
       "id": "ai-first-working-group",
@@ -78,7 +78,7 @@
     {
       "id": "people-ops",
       "name": "People Ops / BambooHR",
-      "tier": "medium"
+      "tier": "big"
     },
     {
       "id": "expense-ops",
@@ -9678,7 +9678,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-08-04",
       "last_seen": "2026-08-04",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-26"
     },
     {
       "text": "Work through Nenad Skoko's Retail & Store Operations taxonomy feedback: move Store Team Lead under Store Management, rename 'Inventory / Stock' to 'Supply Chain / Inventory', resolve where Merchant / Menu Operations belongs, replace Head/Director/VP of Retail with Country Manager / Wolt Market GM, and answer his question on adding an 'Operations Management' category",
@@ -9695,7 +9696,8 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-08-04",
       "last_seen": "2026-08-04",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-26"
     },
     {
       "text": "Fix the failing 'Receipts Workflow' n8n workflow - task execution timed out after 60 seconds on 03 Aug 2026 18:01 (execution 44952); raise the timeout or split the batch",
@@ -9730,7 +9732,8 @@
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-08-04",
       "last_seen": "2026-08-04",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-26"
     },
     {
       "text": "Check in on Andrea Darabasic after her doctor's appointment (three days of muscle pain and headache after wisdom tooth complications) and, if she will be out, flag to Manuela Roza Darie and assess cover for her Culture of Belonging and L&D working groups",
@@ -9747,7 +9750,8 @@
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-08-04",
       "last_seen": "2026-08-04",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-26"
     },
     {
       "text": "Close the fin-dash vs cashflow-sheet overhead gap: add the MB investment agreement (EUR 9,700/mo, EUR 116K/yr, currently invisible to the dashboard) and TravelPerk bookings into Actual Spend, and explain the residual constant 4,882 in Jan/Feb and the 6,500 one-off in May",
@@ -9763,7 +9767,8 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-08-04",
       "last_seen": "2026-08-04",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-26"
     },
     {
       "text": "Resolve the team-trip double basis between the two finance systems - the cashflow sheet accrues Team Trip Budget at a flat EUR 10,000/mo while TravelPerk lands it as a EUR 33K February spike, so travel cannot be reconciled or added across them",
@@ -9779,7 +9784,8 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-08-04",
       "last_seen": "2026-08-04",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-26"
     },
     {
       "text": "Write the overhead memo for Martin off the unpacked 'Other' row: ~EUR 485K/yr of non-payroll, non-IT cost (Team Trip 120K, MB investment agreement 116K, consulting 67K, Other Services 60K), flagging which lines are decisions rather than obligations and what each is worth to October profit",
@@ -9795,7 +9801,8 @@
       "project_name": "Leadership comms",
       "first_seen": "2026-08-04",
       "last_seen": "2026-08-04",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-26"
     },
     {
       "text": "Ask Martin for a separate slot before he travels on 13 Aug for the operations-role conversation, and bring a one-page proposal: scope covering the internal automation and data stack, what admin comes off Blake's plate, which decisions are his to make without checking, and when comp gets revisited",
@@ -9811,7 +9818,8 @@
       "project_name": "Leadership comms",
       "first_seen": "2026-08-04",
       "last_seen": "2026-08-04",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-26"
     },
     {
       "text": "Check whether the Vista row saved in the Tribe Fin Overview cashflow model - it shows as an empty row despite being added low-balled at two people on 17 Jul, which makes the September forecast look worse than it should",
@@ -9827,7 +9835,8 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-08-04",
       "last_seen": "2026-08-04",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-26"
     },
     {
       "text": "Verify Martin Bernard's CSSZ registration is correct (activity type 'S' as statutory officer from 1.1.2026, not standard employment) against BambooHR, and pass the two new identifiers - osobni ID 1443914296 and zamestnani ID 4003154302051 - to whoever runs payroll for future JMH filings",
@@ -9843,7 +9852,8 @@
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-08-04",
       "last_seen": "2026-08-04",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-26"
     },
     {
       "text": "Move the Revolut production OAuth refresh tokens and JWT assertions out of plaintext node parameters in the six n8n Revolut workflows and into n8n credentials - anyone with read access to the instance can currently mint live banking tokens",
@@ -9859,7 +9869,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-08-04",
       "last_seen": "2026-08-04",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-26"
     },
     {
       "text": "Build the n8n workflow that tracks cumulative cross-currency volume per Revolut entity per billing cycle and alerts at 80% of allowance, so a badly timed transfer never triggers a fee again (API already wired up)",
@@ -9875,7 +9886,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-08-04",
       "last_seen": "2026-08-04",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-26"
     },
     {
       "text": "Be more assertive in leadership meetings by pushing back on directors and stakeholders, and get ongoing feedback from Ella on leadership presence",
@@ -9891,7 +9903,8 @@
       "project_name": "Leadership comms",
       "first_seen": "2026-08-04",
       "last_seen": "2026-08-05",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-26"
     },
     {
       "text": "Invoice outstanding payments to improve short-term cash flow ahead of upcoming tax payments",
@@ -9907,7 +9920,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-08-04",
       "last_seen": "2026-08-05",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-26"
     },
     {
       "text": "Revoke the GitHub personal access token shared in chat and rework the engagement-dashboard publish flow (Tribe org repo, token out of chat, verify the login gate) before removing StatiCrypt",
@@ -9925,7 +9939,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-08-04",
       "last_seen": "2026-08-05",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-26"
     },
     {
       "text": "Set up a staleness check on the engagement dashboard that pings Blake only when the live page is out of date - the first unattended run is the first Monday of September and nothing currently detects a silent failure. Sits on Blake's side, no change to Ella's setup.",
@@ -9941,7 +9956,8 @@
       "project_name": "Team cohesion",
       "first_seen": "2026-08-04",
       "last_seen": "2026-08-05",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-26"
     },
     {
       "text": "Fix Vladimir Stankovic's screen-logging behaviour - all 114 of his screens are dated Fridays across 9 consecutive weeks because he batch-enters from memory, which is the real cause of the 46-vs-64 gap (roughly 29% loss rate). Get him logging same-day like every other recruiter and using the transcriber properly, which currently covers only 6 of his 46 screens.",
@@ -10123,7 +10139,8 @@
       "project_name": "Personal",
       "first_seen": "2026-08-04",
       "last_seen": "2026-08-05",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-26"
     },
     {
       "text": "Coordinate with Marcel inside the AI and automation in recruitment working group to align on messaging and training efficacy",
@@ -14966,12 +14983,12 @@
       "date": "2026-08-24",
       "confidence": "medium",
       "extras": {
-        "session_title": "Linkedin idea generator morning"
+        "session": "Linkedin idea generator morning"
       },
       "id": "cowork/local_0a8ce752-152e-4762-82ca-9dbfba93d269/decidewhethertonamedarioamodeiintheanthr",
       "project_name": "LinkedIn (licenses + posting)",
       "first_seen": "2026-08-24",
-      "last_seen": "2026-08-24",
+      "last_seen": "2026-08-26",
       "status": "open"
     },
     {
@@ -15692,6 +15709,236 @@
       "project_name": "Personal",
       "first_seen": "2026-08-25",
       "last_seen": "2026-08-25",
+      "status": "open"
+    },
+    {
+      "text": "Review and complete the Keboola \"Tribe Renewal Q3 2026\" DocuSign that Anna Duskova sent - decide the final renewal terms (lower credit tier means losing the ~4000 rollover credits) before signing",
+      "project": "keboola-sunset",
+      "source": "gmail/1a03ac133c9eee44",
+      "source_type": "gmail",
+      "date": "2026-08-25",
+      "confidence": "high",
+      "extras": {
+        "subject": "Complete with Docusign: Tribe Renewal Q3 2026",
+        "from": "Anna Duskova (anna.duskova@keboola.com) via DocuSign"
+      },
+      "id": "gmail/1a03ac133c9eee44",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Deliver your Silver Medalists action items: configure a hidden, undeletable \"silver medalist\" pipeline stage under prospects, set up direct Slack notifications to Sashka for new backend engineering roles, and pull 20-30 recent job openings for Sashka to finalise the notification filter criteria",
+      "project": "ai-recruiting",
+      "source": "gmail/1a039571f8cfd0c5",
+      "source_type": "gmail",
+      "date": "2026-08-25",
+      "confidence": "high",
+      "extras": {
+        "subject": "Notes: \u201cSilver Medalists\u201d Aug 25, 2026",
+        "from": "gemini-notes@google.com (meeting with Martin Bernard, Sashka Sarafinovska)"
+      },
+      "id": "gmail/1a039571f8cfd0c5",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Respond to Juicebox on Fuad Safarov's request to add more Juicebox Agents - decide whether to expand the plan and contact the Juicebox team",
+      "project": "ai-recruiting",
+      "source": "gmail/1a03bac7fa932e3c",
+      "source_type": "gmail",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Request to add more agents on Juicebox",
+        "from": "team@juicebox.work"
+      },
+      "id": "gmail/1a03bac7fa932e3c",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Review the Tribe Fin 4-month cash projections for Martin Bernard - confirm whether September taxes land at 47k (72k minus 25k), whether IT expenses come in around 10k or 17k if nothing more is spent, and fix the 10-day low figures (-559, -16,197, -67,025, -141,773, -179,893, -260,149) which look wrong",
+      "project": "fin-dash",
+      "source": "slack/D055NJ27YRY/1787669234.569519",
+      "source_type": "slack",
+      "date": "2026-08-25",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Martin Bernard",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/D055NJ27YRY/1787669234.569519",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Complete the Lattice growth area actions that are due on 31 August",
+      "project": "personal",
+      "source": "slack/D06DGN9JW59/1787583667.895499",
+      "source_type": "slack",
+      "date": "2026-08-24",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Lattice",
+        "from": "Lattice"
+      },
+      "id": "slack/D06DGN9JW59/1787583667.895499",
+      "project_name": "Personal",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Handle the one job left over from the bulk archive of 253 open roles - Mikhail Kuzmin archived everything except job 1593509608315x642830792168046600, which is not in the Bubble database and may have been deleted; verify and close it out manually",
+      "project": "rec-dash",
+      "source": "slack/D0577RU8WQ1/1787675537.224849",
+      "source_type": "slack",
+      "date": "2026-08-25",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Mikhail Kuzmin",
+        "from": "Mikhail Kuzmin"
+      },
+      "id": "slack/D0577RU8WQ1/1787675537.224849",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Deploy Keboola MCP Worker v1.2.0 to Cloudflare (git pull then npx wrangler deploy in C:\\Users\\blake\\Documents\\Claude\\keboola-mcp-worker) and open a fresh chat afterwards - already-open chats pin their tool list at start, so the six new read tools (kbc_search, kbc_list_buckets, kbc_list_tables, kbc_get_table, kbc_preview_table, kbc_get_component) will not appear otherwise",
+      "project": "infra",
+      "source": "cowork/local_c1448ef0-d9ce-4975-9034-5a6acd8ebd3a",
+      "source_type": "cowork",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "session": "Kabula MCP server 401 errors"
+      },
+      "id": "cowork/local_c1448ef0-d9ce-4975-9034-5a6acd8ebd3a/deploykeboolamcpworkerv120tocloudflaregi",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Repoint the keboola-spend-check scheduled task off the broken official-connector get_jobs onto the Worker's kbc_list_jobs - it still calls the 401-ing ai.eu-central-1 path and will fail again at Monday 9am",
+      "project": "infra",
+      "source": "cowork/local_c1448ef0-d9ce-4975-9034-5a6acd8ebd3a",
+      "source_type": "cowork",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "session": "Kabula MCP server 401 errors"
+      },
+      "id": "cowork/local_c1448ef0-d9ce-4975-9034-5a6acd8ebd3a/repointthekeboolaspendcheckscheduledtask",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Rotate MCP_SECRET on the Keboola MCP Worker - flagged as still outstanding at the end of the v1.2.0 push",
+      "project": "infra",
+      "source": "cowork/local_c1448ef0-d9ce-4975-9034-5a6acd8ebd3a",
+      "source_type": "cowork",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "session": "Kabula MCP server 401 errors"
+      },
+      "id": "cowork/local_c1448ef0-d9ce-4975-9034-5a6acd8ebd3a/rotatemcp_secretonthekeboolamcpworkerfla",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Send Sashka the 68-role xlsx (every tech role clients opened since April) and get column G marked Yes/No before building the daily backend-role Slack alert - the Bubble tags alone are unreliable (three Salesforce Developer roles tagged Full Stack/Android, two real platform engineering roles tagged 'Not apply')",
+      "project": "rec-dash",
+      "source": "cowork/local_9d90cc7a-4e2e-43e2-b1f1-10be87ab4c9b",
+      "source_type": "cowork",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "session": "Slack notification automation for Sashka"
+      },
+      "id": "cowork/local_9d90cc7a-4e2e-43e2-b1f1-10be87ab4c9b/sendsashkathe68rolexlsxeverytechroleclie",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Draft and send Mikhail the Bubble stage request - it is bigger than the Silver Medalists stage alone, since 15 of the 21 active clients have no Prospects stage at all",
+      "project": "rec-dash",
+      "source": "cowork/local_9d90cc7a-4e2e-43e2-b1f1-10be87ab4c9b",
+      "source_type": "cowork",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "session": "Slack notification automation for Sashka"
+      },
+      "id": "cowork/local_9d90cc7a-4e2e-43e2-b1f1-10be87ab4c9b/draftandsendmikhailthebubblestagerequest",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Send Eva the insurance questionnaire answers for 6.8, 6.9 and 10 - first check how much candidate data actually sits on Tribe's own systems (Bubble, Ashby, dashboards) versus the client's ATS before claiming it, disclose the GDPR processor role rather than answering 6.9 as a flat no, and ask her whether the cover is claims-made, what the retroactive date is, and what run-off looks like. Start date must clear Voize's EUR 50,000 PI requirement (in place within 60 days of effective date, held for the Term, no lapse between renewals)",
+      "project": "legal",
+      "source": "cowork/local_477ff1f4-b618-432a-b039-95c31014ae64",
+      "source_type": "cowork",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "session": "Tribe insurance questionnaire"
+      },
+      "id": "cowork/local_477ff1f4-b618-432a-b039-95c31014ae64/sendevatheinsurancequestionnaireanswersf",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Put to Martin, before Mikhail builds anything, who performs the manual intro stage move for silver medalists - checking 2,235 candidates messaged since June showed all 2,200 Contacted moves happened on average 56 hours BEFORE the message went out, so Contacted is just the default landing stage and nothing will ever auto-promote a candidate out of Silver Medalists. Either the recruiter moves them once the intro is sent or Sashka does it on confirmation; this changes who does what, not what gets built",
+      "project": "rec-dash",
+      "source": "cowork/local_a9499c40-8cb6-44ea-8ba8-641e4c756711",
+      "source_type": "cowork",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "session": "Silver-medalist project dashboard"
+      },
+      "id": "cowork/local_a9499c40-8cb6-44ea-8ba8-641e4c756711/puttomartinbeforemikhailbuildsanythingwh",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Change the daily-pulse task file to stop using /tmp in the sandbox - stale root-owned files from prior runs forced the last run to fall back to /sessions/.../dp and /sessions/.../pages",
+      "project": "infra",
+      "source": "cowork/local_f1c6d357-2f64-4554-816e-5964aba44399",
+      "source_type": "cowork",
+      "date": "2026-08-26",
+      "confidence": "low",
+      "extras": {
+        "session": "Daily pulse eod"
+      },
+      "id": "cowork/local_f1c6d357-2f64-4554-816e-5964aba44399/changethedailypulsetaskfiletostopusingtm",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
       "status": "open"
     }
   ]
