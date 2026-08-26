@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-08-26",
   "schema_version": 3,
-  "total": 359,
-  "active_count": 359,
+  "total": 385,
+  "active_count": 385,
   "archived_count": 570,
   "projects": [
     {
@@ -78,7 +78,7 @@
     {
       "id": "people-ops",
       "name": "People Ops / BambooHR",
-      "tier": "big"
+      "tier": "medium"
     },
     {
       "id": "expense-ops",
@@ -15937,6 +15937,433 @@
       },
       "id": "cowork/local_f1c6d357-2f64-4554-816e-5964aba44399/changethedailypulsetaskfiletostopusingtm",
       "project_name": "Infra & Automation",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Send the intake tool guides and reminder messages to the team, including the Drive link where intake forms are stored",
+      "project": "ai-recruiting",
+      "source": "fireflies/01M0Z1NJQ137N0ZNHEDWYE513Y",
+      "source_type": "fireflies",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "AI First"
+      },
+      "id": "fireflies/01M0Z1NJQ137N0ZNHEDWYE513Y/sendtheintaketoolguidesandremindermessag",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with Vlad and Yovana on their interest in joining the AI/Tribe Bot working group, and confirm Sonia's level of commitment with Nenad",
+      "project": "ai-first-working-group",
+      "source": "fireflies/01M0Z1NJQ137N0ZNHEDWYE513Y",
+      "source_type": "fireflies",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "AI First"
+      },
+      "id": "fireflies/01M0Z1NJQ137N0ZNHEDWYE513Y/followupwithvladandyovanaontheirinterest",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Organize coordinated Tribe Bot promotional posts across multiple Slack channels before next Wednesday and test the example queries beforehand",
+      "project": "tribebot",
+      "source": "fireflies/01M0Z1NJQ137N0ZNHEDWYE513Y",
+      "source_type": "fireflies",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "AI First"
+      },
+      "id": "fireflies/01M0Z1NJQ137N0ZNHEDWYE513Y/organizecoordinatedtribebotpromotionalpo",
+      "project_name": "Tribebot",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Hold the taxonomy reclassification meeting with Nenad to work through his prepared list of category and structure problems",
+      "project": "ai-recruiting",
+      "source": "fireflies/01M0Z1NJQ137N0ZNHEDWYE513Y",
+      "source_type": "fireflies",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "AI First"
+      },
+      "id": "fireflies/01M0Z1NJQ137N0ZNHEDWYE513Y/holdthetaxonomyreclassificationmeetingwi",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Review current market roles in automation and AI transformation to get insight on how the career path is evolving",
+      "project": "personal",
+      "source": "fireflies/01M0YZZQ004VCW1HF4H2QG8NNR",
+      "source_type": "fireflies",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Blake x Andrea - DevPlan"
+      },
+      "id": "fireflies/01M0YZZQ004VCW1HF4H2QG8NNR/reviewcurrentmarketrolesinautomationanda",
+      "project_name": "Personal",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Work on pushback and strategic influence in meetings with Martin by anticipating his questions and concerns in advance",
+      "project": "personal",
+      "source": "fireflies/01M0YZZQ004VCW1HF4H2QG8NNR",
+      "source_type": "fireflies",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Blake x Andrea - DevPlan"
+      },
+      "id": "fireflies/01M0YZZQ004VCW1HF4H2QG8NNR/workonpushbackandstrategicinfluenceinmee",
+      "project_name": "Personal",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Set up regular development check-ins with Martin and gather broader feedback from Ella and Jacopo to unstick the development plan",
+      "project": "personal",
+      "source": "fireflies/01M0YZZQ004VCW1HF4H2QG8NNR",
+      "source_type": "fireflies",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Blake x Andrea - DevPlan"
+      },
+      "id": "fireflies/01M0YZZQ004VCW1HF4H2QG8NNR/setupregulardevelopmentcheckinswithmarti",
+      "project_name": "Personal",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Engage more proactively as a business partner across teams, sharing insights and collaborating beyond contract management so the full scope of the role is recognized",
+      "project": "leadership",
+      "source": "fireflies/01M0YZZQ004VCW1HF4H2QG8NNR",
+      "source_type": "fireflies",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Blake x Andrea - DevPlan"
+      },
+      "id": "fireflies/01M0YZZQ004VCW1HF4H2QG8NNR/engagemoreproactivelyasabusinesspartnera",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Keep archiving the remaining inactive roles (300+ identified, ~150 done) and chase managers to close completed or inactive ones",
+      "project": "rec-dash",
+      "source": "fireflies/01M0YVKKXY961G948G79XEGPSK",
+      "source_type": "fireflies",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "TL Meeting"
+      },
+      "id": "fireflies/01M0YVKKXY961G948G79XEGPSK/keeparchivingtheremaininginactiveroles30",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Evaluate integrating client hiring documents into the intake tool data so the intake process is streamlined and redundant data entry is reduced",
+      "project": "ai-recruiting",
+      "source": "fireflies/01M0YVKKXY961G948G79XEGPSK",
+      "source_type": "fireflies",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "TL Meeting"
+      },
+      "id": "fireflies/01M0YVKKXY961G948G79XEGPSK/evaluateintegratingclienthiringdocuments",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Implement a 30-day inactivity rule that automatically archives recruitment roles",
+      "project": "rec-dash",
+      "source": "fireflies/01M0YQBFEXK39K14K70FEX9123",
+      "source_type": "fireflies",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Stand-up BD,PO,Prod,Rec"
+      },
+      "id": "fireflies/01M0YQBFEXK39K14K70FEX9123/implementa30dayinactivityrulethatautomat",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Deliver your AI First action items from the Aug 26 session: share the intake tool Drive link with the team, clarify participation interest with Vlad and confirm commitment with Sonia, meet Nenad to work through the taxonomy categories and cleanup steps, and arrange payment for Nenad's Claude Pro account",
+      "project": "ai-first-working-group",
+      "source": "gmail/1a03e4bb30e1d556",
+      "source_type": "gmail",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Notes: \"AI First\" Aug 26, 2026",
+        "from": "gemini-notes@google.com"
+      },
+      "id": "gmail/1a03e4bb30e1d556",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Follow up on your development plan with Andrea: research how comparable roles and market standards are evolving to inform your own career progression, then review Andrea's development summary with Martin to align on operational expectations",
+      "project": "personal",
+      "source": "gmail/1a03e1a24d690f21",
+      "source_type": "gmail",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Notes: \"Blake x Andrea - DevPlan\" Aug 26, 2026",
+        "from": "gemini-notes@google.com"
+      },
+      "id": "gmail/1a03e1a24d690f21",
+      "project_name": "Personal",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Set up Slack notifications that remind team leads to archive finished or stale roles, so role status stays consistent in the dashboard (your action item from the Aug 26 TL Meeting)",
+      "project": "rec-dash",
+      "source": "gmail/1a03df19126683e1",
+      "source_type": "gmail",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Notes: \"TL Meeting\" Aug 26, 2026",
+        "from": "gemini-notes@google.com"
+      },
+      "id": "gmail/1a03df19126683e1",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Implement the 30-day rule that automatically archives roles with no movement, then announce the new automated archival policy to the team and present the archiving/intake-tool reminders at the leadership meeting",
+      "project": "rec-dash",
+      "source": "gmail/1a03d8b992aaf48a",
+      "source_type": "gmail",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Notes: \"Stand-up BD,PO,Prod,Rec\" Aug 26, 2026",
+        "from": "gemini-notes@google.com"
+      },
+      "id": "gmail/1a03d8b992aaf48a",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Lock down the Tribe Google Sheet Martin Bernard found open to anyone with the link (docs.google.com/spreadsheets/d/1ffPSQ_1p5tuV9g8M3an65GDhs4I_M4TvrQ4H-91dPsE) - gate it to Martin and Blake only, then run the wider security assessment Blake committed to over the coming weeks on the apps he is building with sensitive data",
+      "project": "infra",
+      "source": "slack/D055NJ27YRY/1787736997.249639",
+      "source_type": "slack",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "from": "Martin Bernard",
+        "channel": "DM with Martin Bernard"
+      },
+      "id": "slack/D055NJ27YRY/1787736997.249639",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Update the AI-First Project Hub entry with the actual Tribe Bot usage numbers (Gustavo 21 uses, Alex/Ricky 1 use total), log the stage-rejection-reason data gap that was found and fixed, set a next-steps follow-up date, send a post-meeting summary to Maria Gerbore, Chantal Bozkurt, Andrea Darabasic, Nenad Skoko and Sanja Pavlovikj, and flag the adoption risk to Martin Bernard before Friday",
+      "project": "project-hub",
+      "source": "slack/D0AKAPA0X3J/1787751415.841729",
+      "source_type": "slack",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "from": "Blake Updates Bot (post-meeting brief: AI First - Tribe Bot Usage & Adoption Review)",
+        "channel": "DM with Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1787751415.841729",
+      "project_name": "Project Hub",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Propose a standing monthly 30-minute dev plan check-in with Martin Bernard that is explicitly off-limits for operational updates, and start writing down 2-3 questions or pushbacks Martin would raise before each WBR or Director meeting - Andrea Darabasic's coaching point was that Blake needs to proxy Martin's thinking, not just his own",
+      "project": "personal",
+      "source": "slack/D0AKAPA0X3J/1787748148.006589",
+      "source_type": "slack",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "from": "Blake Updates Bot (post-meeting brief: Blake x Andrea - DevPlan)",
+        "channel": "DM with Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1787748148.006589",
+      "project_name": "Personal",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Codify the 30-day inactivity auto-archive rule for roles: confirm with Mikhail Kuzmin whether it can be automated in the dashboard (yes/no plus timeline this week), draft it as a written process note to team leads rather than waiting for the CL meeting, and give leads a heads-up before contacting their team members about their own unarchived roles",
+      "project": "inbox",
+      "source": "slack/D0AKAPA0X3J/1787740002.363199",
+      "source_type": "slack",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "from": "Blake Updates Bot (post-meeting brief: Stand-up BD, PO, Prod, Rec)",
+        "channel": "DM with Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1787740002.363199",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Set a concrete follow-up with Niki Vokalkova and Gustavo Loureiro Castro in 2 weeks on the mentoring programme - zero mentees have signed up against a full mentor bench and leads were only asked verbally to drive visibility - and update the Mentoring Group Project Hub item with the status change and a follow-up date",
+      "project": "people-ops",
+      "source": "slack/D0AKAPA0X3J/1787743453.848109",
+      "source_type": "slack",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "from": "Blake Updates Bot (post-meeting brief: TL Meeting 26 Aug)",
+        "channel": "DM with Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1787743453.848109",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Run the Notion seat reduction: audit the ~10-15 genuinely active creators, map which pages have leadership-gated permissions, draft the guest-access migration plan (including how it gets communicated to the team) and take a recommendation to Martin Bernard - worth roughly $500-600/month",
+      "project": "expense-ops",
+      "source": "slack/D0AKAPA0X3J/1787661909.744699",
+      "source_type": "slack",
+      "date": "2026-08-25",
+      "confidence": "medium",
+      "extras": {
+        "from": "Blake Updates Bot (post-meeting brief: Blake / Caroline catch-up)",
+        "channel": "DM with Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1787661909.744699",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Fix the failing personal n8n workflows: reconnect the 'Gmail - blake personal' credential on Check Personal Email Bot (Get Unread Emails node, failing 26 Aug), and sort the Intake Eligibility - Daily Feed Read Sheet 'Service unavailable' failure plus the Tribe Book Page Monitor connection abort - set those nodes to retry automatically",
+      "project": "infra",
+      "source": "slack/D0AKAPA0X3J/1787752801.223999",
+      "source_type": "slack",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "from": "Blake Updates Bot",
+        "channel": "DM with Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1787752801.223999",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Act on the 26 Aug job-search run: Business Operations at Metaview (83, the highest score on either tab since Dance Yourself Fit and the first role to hit all three archetype legs at once - reports to the co-founder/CEO, the AI-build mandate is the job, GV-led Series B with $50m+ raised) and Chief of Staff at In Tandem (80, closest description on the board to your actual week, Claude and Zapier named, but three stated requirements unmet). Check Metaview's location before applying: LinkedIn says US-remote with a New York anchor while the posting text names no location at all. Also sign in to Cloudflare Access and confirm the dashboard page actually rendered - the push landed at 69ac15c but the render was never verified.",
+      "project": "personal",
+      "source": "cowork/local_370cfcd2-d7af-4998-a45a-2a103251bf7e",
+      "source_type": "cowork",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Job search daily"
+      },
+      "id": "cowork/local_370cfcd2-d7af-4998-a45a-2a103251bf7e/actonthe26augjobsearchrunbusinessoperati",
+      "project_name": "Personal",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Finish the role-archiving cleanup announced to the team leads and actually implement the 30-day no-movement auto-archive rule - the 90+ day roles are already archived, but the under-90-day pass still needs doing (first the roles owned by people who have left, then messaging the owners who are still here), and the auto-archive rule itself is only a verbal proposal with a standing invitation for TLs to object",
+      "project": "rec-dash",
+      "source": "cowork/local_17e25b83-d7dc-4708-9114-0004bb7a7170",
+      "source_type": "cowork",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Team leads archiving and intake updates"
+      },
+      "id": "cowork/local_17e25b83-d7dc-4708-9114-0004bb7a7170/finishtherolearchivingcleanupannouncedto",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Bring both Vlad and Jovana into the AI First working group rather than picking one - Vlad offered on 19 Aug 22:31 to step aside because the post advertised a single seat, both said yes within 90 minutes, and there are three people covering five workstreams. Re-approach them without the three-question DM (the 21 Aug questions are what killed the thread; neither has replied) and just invite them to next week's call.",
+      "project": "ai-first-working-group",
+      "source": "cowork/local_4de38085-dd4f-4f5f-863d-c84153e32520",
+      "source_type": "cowork",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Working group agenda and tribot demo"
+      },
+      "id": "cowork/local_4de38085-dd4f-4f5f-863d-c84153e32520/bringbothvladandjovanaintotheaifirstwork",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Run the Friday TribeBot demo and have Gustavo ask one of his own questions rather than demoing it yourself - usage since launch is five named users out of ~55 (Blake 37, Gustavo 21, Nenad 18, Andrea 8, Alexandra 1), Nenad and Andrea both stopped on 19 Aug after the live testing block, and weekly actives for 20-26 Aug are three against a KR of 15 despite the launch post drawing 16 reactions",
+      "project": "tribebot",
+      "source": "cowork/local_4de38085-dd4f-4f5f-863d-c84153e32520",
+      "source_type": "cowork",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Working group agenda and tribot demo"
+      },
+      "id": "cowork/local_4de38085-dd4f-4f5f-863d-c84153e32520/runthefridaytribebotdemoandhavegustavoas",
+      "project_name": "Tribebot",
       "first_seen": "2026-08-26",
       "last_seen": "2026-08-26",
       "status": "open"

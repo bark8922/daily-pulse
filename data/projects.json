@@ -52,73 +52,73 @@
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
       "tier": "big",
-      "notes": "24 open, flat. Alexandra Richiteanu is still waiting on Blake's DM reply about AI automations. The Friday all-hands deck still owes the TribeBot and Intake slides and the second Claude Pro ask."
+      "notes": "27 open, up 3. Both Vlad and Jovana said yes to the working group, so both go in. The intake tool Drive link is still unsent and Sonia's commitment still needs confirming with Nenad."
     },
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
       "tier": "big",
-      "notes": "58 open, up 3. Sashka needs the 68-role xlsx with column G marked before the backend-role Slack alert can be built, and 15 of 21 active clients still have no Prospects stage in Bubble."
+      "notes": "63 open, up 5. Sashka still needs the 68-role xlsx with column G marked, 15 of 21 active clients have no Prospects stage in Bubble, and only ~150 of 300+ inactive roles are archived."
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "tier": "big",
-      "notes": "49 open, up 1. Keboola MCP Worker v1.2.0 needs deploying, keboola-spend-check still calls the 401-ing get_jobs, and MCP_SECRET is unrotated. Jacopo still waits on the scoped HubSpot key."
+      "notes": "51 open, up 2. Keboola MCP Worker v1.2.0 is undeployed, keboola-spend-check still calls the 401-ing get_jobs, MCP_SECRET is unrotated, and Martin found a Tribe Sheet open to anyone with the link."
     },
     {
       "id": "okrs",
       "name": "OKRs",
       "tier": "medium",
-      "notes": "2 open, flat. The Lattice growth action for Assertive Stakeholder Management is due 31 Aug, and Valeriia at 4/16 and Ejla still hold weekly role-update coverage at 64% across weeks 31-33."
+      "notes": "2 open, flat. The Lattice growth action for Assertive Stakeholder Management is due 31 Aug, and Valeriia at 4/16 and Ejla at 4/10 hold weekly role-update coverage at 64% across weeks 31-33."
     },
     {
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
       "tier": "medium",
-      "notes": "16 open, up 2. Juicebox wants a decision on adding Agents for Fuad Safarov, Chene Elliot and Samantha Nel move to Blake from Chantal Bozkurt, and Nenad's three taxonomy items are due Fri 28 Aug."
+      "notes": "19 open, up 3. Juicebox wants a decision on more Agents for Fuad Safarov, the intake guides and Drive link are unsent, and Nenad's taxonomy reclassification meeting is still unbooked."
     },
     {
       "id": "tribebot",
       "name": "Tribebot",
       "tier": "medium",
-      "notes": "17 open, flat, no signal since 21 Aug. Gustavo Loureiro Castro's screens question still returns the wrong number and the 'Actual Screens' vocabulary gap is unfixed."
+      "notes": "19 open, up 2. Usage is five named users out of ~55 against a KR of 15 weekly actives. The Friday demo should have Gustavo ask his own question, and his screens number still comes back wrong."
     },
     {
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "big",
-      "notes": "31 open, down 2. Martin Bernard wants the Tribe Fin 4-month projections checked: September taxes at 47k and IT at 10k vs 17k. Eva Huclova still needs the Wolt bank-confirmation answer."
+      "notes": "31 open, flat. Martin Bernard's Tribe Fin 4-month projections still need checking: September taxes at 47k and IT at 10k vs 17k. Eva Huclova still needs the Wolt bank-confirmation answer."
     },
     {
       "id": "personal",
       "name": "Personal",
       "tier": "big",
-      "notes": "27 open, flat. Kindergarten pickup at 13:00 needs cover from 1 September, the Stord (75) and Swooped (74) job picks are unactioned, and the Lattice growth actions are due 31 Aug."
+      "notes": "33 open, up 6. Andrea's DevPlan added market research, a monthly Martin check-in and pushback prep. Metaview (83) and In Tandem (80) are unactioned and kindergarten cover starts 1 September."
     },
     {
       "id": "legal",
       "name": "Legal & Contracts",
       "tier": "big",
-      "notes": "29 open, up 1. Estonia is the live decision: Martin has the substance and permanent-establishment findings and owes a go/no-go. Eva needs insurance answers for 6.8, 6.9 and 10."
+      "notes": "29 open, flat. Estonia is still the live decision: Martin has the substance and permanent-establishment findings and owes a go/no-go. Eva needs insurance answers for 6.8, 6.9 and 10."
     },
     {
       "id": "project-hub",
       "name": "Project Hub",
       "tier": "medium",
-      "notes": "3 open, flat. Lisa Gargulinska, Filip Serafin and Eduardo Moral are still waiting on Drive access to the 21 Aug Friday recording, and the intake task force still needs redistributing."
+      "notes": "4 open, up 1. The AI-First Hub entry needs the real Tribe Bot numbers (Gustavo 21 uses, Alex and Ricky 1 between them). Lisa, Filip and Eduardo are still waiting on Drive access."
     },
     {
       "id": "leadership",
       "name": "Leadership comms",
       "tier": "medium",
-      "notes": "13 open, down 3. Kristina Colovic wants Blake's topics on the TL Meeting page before today's leadership meeting. Martin has still not answered the $12,000/yr Keboola renewal or the Claude Pro seats."
+      "notes": "14 open, up 1. The TL Meeting page still needs Blake's topics. Martin has not answered the $12,000/yr Keboola renewal or the Claude Pro seats, and the business-partner scope item is new."
     },
     {
       "id": "keboola-sunset",
       "name": "Keboola migration / sunset",
       "tier": "medium",
-      "notes": "7 open, up 1. Anna Duskova's Q3 2026 renewal DocuSign needs a tier decision, since a lower tier forfeits about 4,000 rollover credits, and optimization items 2-4 are still stuck on ai.eu-central-1 auth."
+      "notes": "7 open, flat. Anna Duskova's Q3 2026 renewal DocuSign still needs a tier decision, since a lower tier forfeits about 4,000 rollover credits, and items 2-4 are stuck on ai.eu-central-1 auth."
     },
     {
       "id": "tribe-talks",
@@ -136,19 +136,19 @@
       "id": "people-ops",
       "name": "People Ops / BambooHR",
       "tier": "medium",
-      "notes": "18 open, down 3. Wladyslaw Gadomski's exit drives everything: the notice-period invoicing calculation, the BambooHR Update Financials task, and licence reclaim before his last day Fri 28 Aug."
+      "notes": "19 open, up 1. Wladyslaw Gadomski's last day is Fri 28 Aug, with notice-period invoicing, BambooHR financials and licence reclaim all open. The mentoring programme has zero mentee sign-ups."
     },
     {
       "id": "expense-ops",
       "name": "Expense Ops",
       "tier": "big",
-      "notes": "34 open, down 2. The T-Mobile CZ bill of 2,560.28 CZK is due 27 Aug, Martin's personal Kaya2619.pdf still needs paying off company books, and Nenad needs the invoicing entity for the two coaches."
+      "notes": "35 open, up 1. The T-Mobile CZ bill of 2,560.28 CZK is due 27 Aug, Martin's personal Kaya2619.pdf still needs paying off company books, and the Notion seat audit is worth $500-600/month."
     },
     {
       "id": "team-cohesion",
       "name": "Team cohesion",
       "tier": "medium",
-      "notes": "0 open, down 1. No signal since 4 Aug, 22 days. The engagement dashboard staleness check has aged out of the task list and the first unattended run is the first Monday of September."
+      "notes": "0 open, flat. No signal since 4 Aug, 22 days. The engagement dashboard staleness check has aged out of the task list and the first unattended run is the first Monday of September."
     }
   ],
   "project_aliases": {
