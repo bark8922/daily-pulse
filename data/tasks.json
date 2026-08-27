@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-26",
+  "generated_at": "2026-08-27",
   "schema_version": 3,
-  "total": 385,
-  "active_count": 385,
-  "archived_count": 570,
+  "total": 382,
+  "active_count": 382,
+  "archived_count": 589,
   "projects": [
     {
       "id": "ai-first-working-group",
@@ -9990,7 +9990,8 @@
       "project_name": "Roundup & Intake (AI recruiting tools)",
       "first_seen": "2026-08-05",
       "last_seen": "2026-08-05",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-27"
     },
     {
       "text": "Work with Ella to present the unlimited responsible time-off plan to the team, framing positive impact and coverage expectations",
@@ -10006,7 +10007,8 @@
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-08-05",
       "last_seen": "2026-08-05",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-27"
     },
     {
       "text": "Process and pay Adelya Khakimova's July 2026 invoice (PDF attached, cc accounting@tribe.xyz)",
@@ -10023,7 +10025,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-08-05",
       "last_seen": "2026-08-05",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-27"
     },
     {
       "text": "Confirm the Tribe Talks webinar agenda with Marcel van der Meer in writing (topics, order, who leads which section) for the 22 October 45-minute session, and get Eduardo Moral's sign-off on his intro role before it is finalized",
@@ -10040,7 +10043,8 @@
       "project_name": "Tribe Talks",
       "first_seen": "2026-08-05",
       "last_seen": "2026-08-05",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-27"
     },
     {
       "text": "Run the DevPlan check-ins with each of your direct reports in the Lattice 1:1 agendas - Andrea Darabasic added the reminder to all leads' agendas in #leadership",
@@ -10075,7 +10079,8 @@
       "project_name": "Roundup & Intake (AI recruiting tools)",
       "first_seen": "2026-08-05",
       "last_seen": "2026-08-05",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-27"
     },
     {
       "text": "Decide today whether to extend or expand the voice-only weekly-update pilot - Gustavo and Jovana hit 8 of 8 submissions 30 Jul to 2 Aug with the regular ping off, the trial auto-ended Monday, and W31 overall is 19 of 19 from only 5 of 9 sourcers (56% vs the 80% KR)",
@@ -10091,7 +10096,8 @@
       "project_name": "AI First Working Group",
       "first_seen": "2026-08-05",
       "last_seen": "2026-08-05",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-27"
     },
     {
       "text": "Start the stage-funnel transform and dashboard build per STAGE_FUNNEL_BUILD_PLAN.md - the trigger fired: 24 stage-move events across 21 candidates into Interview 1/2/3 since 2026-07-22, 5 candidates sitting in them now, 12 jobs configured",
@@ -10107,7 +10113,8 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-08-05",
       "last_seen": "2026-08-24",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-27"
     },
     {
       "text": "Act on the two live job-search picks from the 5 Aug run: Trivium Group Director of Operations & Growth (80, US-remote 8am-5pm ET, reports to CEO) and Glimmer Head of Business Operations (76, seed-stage, $150-180K + equity, Austin)",
@@ -10123,7 +10130,8 @@
       "project_name": "Personal",
       "first_seen": "2026-08-05",
       "last_seen": "2026-08-05",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-27"
     },
     {
       "text": "Decide whether to set the Kosik meal planner to run automatically each week so the plan shows up without asking",
@@ -10156,7 +10164,8 @@
       "project_name": "AI First Working Group",
       "first_seen": "2026-08-05",
       "last_seen": "2026-08-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-27"
     },
     {
       "text": "Get the LinkedIn Job Dashboard Manager license assigned and activated so you and Sanja can post jobs again (Agnieszka confirmed the extra license Brian provided was never assigned; Brian is now your CSM)",
@@ -10173,7 +10182,8 @@
       "project_name": "LinkedIn (licenses + posting)",
       "first_seen": "2026-08-05",
       "last_seen": "2026-08-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-27"
     },
     {
       "text": "Log the sourcer knowledge base project formally in the AI-First @ Tribe working group notes / Project Hub now that it has been described externally, and prepare a 2-3 minute story about it to use as the concrete example in the Marcel Tribe Talks session",
@@ -10190,7 +10200,8 @@
       "project_name": "AI First Working Group",
       "first_seen": "2026-08-05",
       "last_seen": "2026-08-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-27"
     },
     {
       "text": "Roll the voice version of the weekly sourcer roundup out to everyone once the questions are updated from Jovana and Dolores' feedback - and keep Jovana's voice version switched on in the meantime",
@@ -10207,7 +10218,8 @@
       "project_name": "Tribebot",
       "first_seen": "2026-08-05",
       "last_seen": "2026-08-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-27"
     },
     {
       "text": "Re-measure Claude Max usage at claude.ai/settings/usage next Tuesday just before the 1:59 PM weekly reset, on a normal week without a giant audit session, then revisit the 20x to 5x downgrade (22% one day into the cycle killed it this time)",
@@ -10223,7 +10235,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-08-05",
       "last_seen": "2026-08-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-27"
     },
     {
       "text": "Cancel the Figma subscription (EUR 720/yr, a website design archive Martin flagged on 16 Jul) and confirm AssemblyAI (EUR 331/yr) is not duplicating Fireflies",
@@ -10239,7 +10252,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-08-05",
       "last_seen": "2026-08-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-27"
     },
     {
       "text": "Rotate the Gemini API key, the AssemblyAI key and the TribeIntake password Rodrigo DM'd in plaintext on 28 May - five-minute security task, unrelated to cost",
@@ -10255,7 +10269,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-08-05",
       "last_seen": "2026-08-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-27"
     },
     {
       "text": "Repoint the Revolut approve button at the v2 rate-limited path - every approval click still runs the old un-rate-limited v1 while v2 sits as dead code",
@@ -10271,7 +10286,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-08-05",
       "last_seen": "2026-08-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-27"
     },
     {
       "text": "Migrate onyx-server off DigitalOcean to a Hetzner CX43 (EUR 15.99/mo vs USD 84/mo, ~EUR 1,000/yr) - a real migration, not a billing click",
@@ -10287,7 +10303,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-08-05",
       "last_seen": "2026-08-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-27"
     },
     {
       "text": "Decide whether to keep, downgrade or cancel the TRIBE.XYZ SPAIN SL annual Revolut Business plan before it auto-renews",
@@ -10489,7 +10506,8 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-08-05",
       "last_seen": "2026-08-10",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-27"
     },
     {
       "text": "Cover Mihailo on website access and technical issues during Caroline's 10-day vacations in August and September",
@@ -10872,7 +10890,8 @@
       "project_name": "Roundup & Intake (AI recruiting tools)",
       "first_seen": "2026-08-05",
       "last_seen": "2026-08-12",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-27"
     },
     {
       "text": "Delete or refresh the stale root-level active_employees.json in the fin-dash repo (57 names including Elena Petrovska and Tijana Lazovic, both terminated 2026-07-31, vs 55 in data-next/) and add a watchdog check comparing the two copies - rebuild_v5.py line 922 would silently pick up the root file if a manual rebuild pointed BASE at the repo root",
@@ -16366,6 +16385,265 @@
       "project_name": "Tribebot",
       "first_seen": "2026-08-26",
       "last_seen": "2026-08-26",
+      "status": "open"
+    },
+    {
+      "text": "Run a live Tribe Bot demo during the Friday all-hands call and prepare concrete example use cases to drive adoption",
+      "project": "tribebot",
+      "source": "fireflies/01M0Z1NJQ137N0ZNHEDWYE513Y",
+      "source_type": "fireflies",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "meeting": "AI First"
+      },
+      "id": "fireflies/01M0Z1NJQ137N0ZNHEDWYE513Y/runalivetribebotdemoduringthefridayallha",
+      "project_name": "Tribebot",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Set up Slack reminders for the BambooHR offboarding tasks tied to role archiving, so the archiving step gets visibility and compliance improves",
+      "project": "infra",
+      "source": "fireflies/01M0YVKKXY961G948G79XEGPSK",
+      "source_type": "fireflies",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "TL Meeting"
+      },
+      "id": "fireflies/01M0YVKKXY961G948G79XEGPSK/setupslackremindersforthebamboohroffboar",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Make sure roles owned by people who have left the company get archived promptly",
+      "project": "rec-dash",
+      "source": "fireflies/01M0YQBFEXK39K14K70FEX9123",
+      "source_type": "fireflies",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Stand-up BD,PO,Prod,Rec"
+      },
+      "id": "fireflies/01M0YQBFEXK39K14K70FEX9123/makesurerolesownedbypeoplewhohaveleftthe",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Investigate the Move to ATS stage spike on Rodrigo Gomes' recruiting numbers - Rodrigo says he made no bulk edits but did create a new 'Sequence' stage after Contacted and suspects everyone he added there was counted as moved to ATS; everyone else's numbers look normal and Blake said he would look into it",
+      "project": "rec-dash",
+      "source": "slack/D059PSVF62G/1787756011.155179",
+      "source_type": "slack",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Rodrigo Gomes",
+        "from": "Rodrigo Gomes"
+      },
+      "id": "slack/D059PSVF62G/1787756011.155179",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Pick the new AI First working group member - Vladimir Stankovic declined (already on several projects), Jovana Drakula is back in the office on 27 Aug and still owes answers to the three screening questions, and Sanja Pavlovikj asked to join sessions so Blake needs her answer on whether she wants to join on behalf of the IR team or just attend generally",
+      "project": "ai-first-working-group",
+      "source": "slack/D05A02096RX/1787758652.916259",
+      "source_type": "slack",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Jovana Drakula",
+        "from": "Jovana Drakula"
+      },
+      "id": "slack/D05A02096RX/1787758652.916259",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Schedule the Silver Medalists role alert to check the database daily and DM Sashka Sarafinovska from Tribe Bot only when a new relevant role appears - the test DM landed correctly and Sashka has returned the marked-up Role_Alert_Filter_Check sheet defining which roles count",
+      "project": "rec-dash",
+      "source": "slack/D05828H7J93/1787745893.852489",
+      "source_type": "slack",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Sashka Sarafinovska",
+        "from": "Blake Barkley"
+      },
+      "id": "slack/D05828H7J93/1787745893.852489",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Fix the pre-existing hired_order bug in the Keboola candidate transformation - line 193 sets hired_order to NULL where date_hired is NULL, but Keboola stores empty cells as empty strings so the condition never fires and hired_order ends up populated for all 1.4M candidates instead of only those actually hired; while in there add a tie-breaker to row_number() over (partition by job_id order by date_hired), since 1,399,088 of 1,403,769 rows are tied and the column wobbles between runs",
+      "project": "keboola-sunset",
+      "source": "cowork/local_ae52df59-842b-42b8-8849-083c335d58b2",
+      "source_type": "cowork",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Keboola spend optimization"
+      },
+      "id": "cowork/local_ae52df59-842b-42b8-8849-083c335d58b2/fixthepreexistinghired_orderbuginthekebo",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Decide whether to ship the date-column merge once the corrected comparison run finishes - the earlier comparison was apples to oranges (test copy still had the old max contact rule while production had the new min rule), so there is still no proof the merge is clean on date_contacted and date_lnkdin_viewed; ship only if all six date columns come back at zero differences",
+      "project": "keboola-sunset",
+      "source": "cowork/local_ae52df59-842b-42b8-8849-083c335d58b2",
+      "source_type": "cowork",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Keboola spend optimization"
+      },
+      "id": "cowork/local_ae52df59-842b-42b8-8849-083c335d58b2/decidewhethertoshipthedatecolumnmergeonc",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Ask Mikhail whether TribeBot holds candidate-level personal data - the question was raised out loud on the 19 Aug call and never answered, and ~55 people have since been pointed at the bot; one question to close, not a workstream, but it should be answered before adoption grows",
+      "project": "tribebot",
+      "source": "cowork/local_4de38085-dd4f-4f5f-863d-c84153e32520",
+      "source_type": "cowork",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Working group agenda and tribot demo"
+      },
+      "id": "cowork/local_4de38085-dd4f-4f5f-863d-c84153e32520/askmikhailwhethertribebotholdscandidatel",
+      "project_name": "Tribebot",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Post the Claude Pro push to a channel - it was only re-advertised verbally in the Friday meeting, and the original 14 Aug post still has zero reactions and zero replies (Alexandra Richiteanu DM'd on 25 Aug to decline the business case and went to Google AI Studio instead); drop the five-question business case ask, since asking people for work before giving them something is what killed the first attempt",
+      "project": "ai-first-working-group",
+      "source": "cowork/local_4de38085-dd4f-4f5f-863d-c84153e32520",
+      "source_type": "cowork",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Working group agenda and tribot demo"
+      },
+      "id": "cowork/local_4de38085-dd4f-4f5f-863d-c84153e32520/posttheclaudepropushtoachannelitwasonlyr",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Start the transform and dashboard build for the new Interview 1/2/3 stages per STAGE_FUNNEL_BUILD_PLAN.md - the watch trigger fired, candidates have been moving through since 2026-07-22 (Interview 1: 168 events / 110 candidates, Interview 2: 77/60, Interview 3: 52/51, with 53/9/3 sitting in stage now) across 15 companies that have the pipeline defined",
+      "project": "rec-dash",
+      "source": "cowork/local_71a7a87f-061c-4dd1-8b6e-3c7ee188ed30",
+      "source_type": "cowork",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Recruiting new stages usage check"
+      },
+      "id": "cowork/local_71a7a87f-061c-4dd1-8b6e-3c7ee188ed30/startthetransformanddashboardbuildforthe",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Nudge Sashka with an explanation of the daily backend-role digest bot and ask whether the picks are actually relevant - she got the first message cold with no context, and her answer is the only signal on whether the 14-bucket filter is tuned right; also tell her a silent day is normal (roles fall out of the 7-day window) and does not mean the bot broke",
+      "project": "rec-dash",
+      "source": "cowork/local_9d90cc7a-4e2e-43e2-b1f1-10be87ab4c9b",
+      "source_type": "cowork",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Slack notification automation for Sashka"
+      },
+      "id": "cowork/local_9d90cc7a-4e2e-43e2-b1f1-10be87ab4c9b/nudgesashkawithanexplanationofthedailyba",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Have the intake task force work through the team leads one by one to confirm each has updated their browser extension and is using the intake tool for new roles, as announced in the TL meeting - the instructions only ever went to #intake-task-force on 24 Aug, never company-wide, and Rodrigo's extension-bot broadcast never went out",
+      "project": "ai-recruiting",
+      "source": "cowork/local_17e25b83-d7dc-4708-9114-0004bb7a7170",
+      "source_type": "cowork",
+      "date": "2026-08-25",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Team leads archiving and intake updates"
+      },
+      "id": "cowork/local_17e25b83-d7dc-4708-9114-0004bb7a7170/havetheintaketaskforceworkthroughtheteam",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Add retries to the Call Booking Page node in the Tribe Book - Page Monitor n8n workflow (two retries a few seconds apart) - the node has no retry today, so a single blip during a Cloudflare Worker deploy pages you for something harmless, as it did on 25 Aug 11:00; a genuine outage still fails all three attempts and alerts",
+      "project": "infra",
+      "source": "cowork/local_9efe2ee4-4e23-4941-8966-2c6f1316df0f",
+      "source_type": "cowork",
+      "date": "2026-08-25",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Calendly booking system alternative"
+      },
+      "id": "cowork/local_9efe2ee4-4e23-4941-8966-2c6f1316df0f/addretriestothecallbookingpagenodeinthet",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Fill in and return the kindergarten DOTAZNIK questionnaire before Sept 1 (name and nickname, DOB, favourite toy, temperament, physical skills, dressing and toilet independence, speech, previous nursery experience, what helps when he is sad) - email it to the teachers or hand it in at the class, and use it to flag the Czech language situation",
+      "project": "personal",
+      "source": "cowork/local_3334434f-fc8e-4320-b347-2092b4521926",
+      "source_type": "cowork",
+      "date": "2026-08-25",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Kindergarten first day September 1st"
+      },
+      "id": "cowork/local_3334434f-fc8e-4320-b347-2092b4521926/fillinandreturnthekindergartendotaznikqu",
+      "project_name": "Personal",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Check that September kindergarten fees are paid - skolne is 1,500 CZK/month to 27-6411030287/0100 due by the 15th of the preceding month (so September was technically due 15 Aug), stravne is 51 CZK/day (~1,122 CZK/month) to 51-2594500297/0100 due by the 25th; variable symbol is the child's registration number, full name in the note on a first payment",
+      "project": "personal",
+      "source": "cowork/local_3334434f-fc8e-4320-b347-2092b4521926",
+      "source_type": "cowork",
+      "date": "2026-08-25",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Kindergarten first day September 1st"
+      },
+      "id": "cowork/local_3334434f-fc8e-4320-b347-2092b4521926/checkthatseptemberkindergartenfeesarepai",
+      "project_name": "Personal",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-27",
       "status": "open"
     }
   ]
