@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-08-27",
   "schema_version": 3,
-  "total": 382,
-  "active_count": 382,
+  "total": 403,
+  "active_count": 403,
   "archived_count": 589,
   "projects": [
     {
@@ -33,7 +33,7 @@
     {
       "id": "tribebot",
       "name": "Tribebot",
-      "tier": "medium"
+      "tier": "big"
     },
     {
       "id": "fin-dash",
@@ -9017,17 +9017,16 @@
       "project": "expense-ops",
       "source": "gmail/19fb34464ecab93a",
       "source_type": "gmail",
-      "date": "2026-08-05",
+      "date": "2026-08-26",
       "confidence": "high",
       "extras": {
         "subject": "RE: Discussed invoices Tribe",
-        "from": "lhorakova@borisgnoth.cz",
-        "note": "New batch sent Aug 5 after Blake cleared the Jul 30 list; also flags the missing March invoice"
+        "from": "Eva Huclova <ehuclova@borisgnoth.cz>"
       },
       "id": "gmail/19fb34464ecab93a",
       "project_name": "Expense Ops",
       "first_seen": "2026-07-30",
-      "last_seen": "2026-08-05",
+      "last_seen": "2026-08-27",
       "status": "archived",
       "archived_on": "2026-08-21"
     },
@@ -16643,6 +16642,350 @@
       "id": "cowork/local_3334434f-fc8e-4320-b347-2092b4521926/checkthatseptemberkindergartenfeesarepai",
       "project_name": "Personal",
       "first_seen": "2026-08-25",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Finalise and hand over the company documents needing Martin's signature (Estonia/insurance paperwork) from the 27 Aug accounting call",
+      "project": "legal",
+      "source": "fireflies/01M119BCANXG1AAQH5BMN26FH9",
+      "source_type": "fireflies",
+      "date": "2026-08-27",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Tribe call _ Microsoft Teams 2026-08-27"
+      },
+      "id": "fireflies/01M119BCANXG1AAQH5BMN26FH9/finaliseandhandoverthecompanydocumentsne",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Send Lucia the list of invoices and subscriptions missing billing info and supply the billing descriptions so each defaults correctly to TribeCheck or Tribe Holding",
+      "project": "expense-ops",
+      "source": "fireflies/01M119BCANXG1AAQH5BMN26FH9",
+      "source_type": "fireflies",
+      "date": "2026-08-27",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Tribe call _ Microsoft Teams 2026-08-27"
+      },
+      "id": "fireflies/01M119BCANXG1AAQH5BMN26FH9/sendluciathelistofinvoicesandsubscriptio",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Investigate integrating Revolut with the Abraham accounting system to automate multi-currency (USD/EUR) transaction reconciliation instead of manual statement uploads",
+      "project": "fin-dash",
+      "source": "fireflies/01M119BCANXG1AAQH5BMN26FH9",
+      "source_type": "fireflies",
+      "date": "2026-08-27",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Tribe call _ Microsoft Teams 2026-08-27"
+      },
+      "id": "fireflies/01M119BCANXG1AAQH5BMN26FH9/investigateintegratingrevolutwiththeabra",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Set up a monthly fixed transfer into the Revolut USD account so USD payments come straight from it and stop creating FX reconciliation noise",
+      "project": "fin-dash",
+      "source": "fireflies/01M119BCANXG1AAQH5BMN26FH9",
+      "source_type": "fireflies",
+      "date": "2026-08-27",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Tribe call _ Microsoft Teams 2026-08-27"
+      },
+      "id": "fireflies/01M119BCANXG1AAQH5BMN26FH9/setupamonthlyfixedtransferintotherevolut",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Track Jacopo's equity allocation for a revisit at end of 2026, with no shares awarded for 2025 as agreed with Martin",
+      "project": "leadership",
+      "source": "fireflies/01M119BCANXG1AAQH5BMN26FH9",
+      "source_type": "fireflies",
+      "date": "2026-08-27",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Tribe call _ Microsoft Teams 2026-08-27"
+      },
+      "id": "fireflies/01M119BCANXG1AAQH5BMN26FH9/trackjacoposequityallocationforarevisita",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Send Lucie Horakova (Boris Gnoth Tax) the supplier login credentials listed in her 'Tribe.xyz Holding login credentials.xlsx' and track down the 3 invoices her team could not find",
+      "project": "expense-ops",
+      "source": "gmail/1a042a1c3b5bffec",
+      "source_type": "gmail",
+      "date": "2026-08-27",
+      "confidence": "high",
+      "extras": {
+        "subject": "Tribe.xyz Holding login credentials",
+        "from": "Lucie Horakova <lhorakova@borisgnoth.cz>"
+      },
+      "id": "gmail/1a042a1c3b5bffec",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Review and complete Nenad Skoko's 'Nenad Historical_Remap_Review_v3' spreadsheet he shared with you for editing (job taxonomy historical remap)",
+      "project": "ai-first-working-group",
+      "source": "gmail/1a0439e8f4e65853",
+      "source_type": "gmail",
+      "date": "2026-08-27",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Spreadsheet shared with you: \"Nenad Historical_Remap_Review_v3\"",
+        "from": "Nenad Skoko via Google Drive"
+      },
+      "id": "gmail/1a0439e8f4e65853",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Prepare and present three day-to-day Tribe Bot use cases with Nenad Skoko and Andrea Darabasic at the AI live session on Wednesday 2 September",
+      "project": "ai-first-working-group",
+      "source": "slack/ai-explorers/1787818500.531299",
+      "source_type": "slack",
+      "date": "2026-08-27",
+      "confidence": "high",
+      "extras": {
+        "channel": "ai-explorers",
+        "from": "Andrea Darabasic"
+      },
+      "id": "slack/ai-explorers/1787818500.531299",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Fix the failing 'Inactive Jobs Sync' n8n workflow - Read Inactive Jobs node returned 'Service unavailable' on 27 Aug 07:00 (execution 50264); set the node to retry automatically",
+      "project": "infra",
+      "source": "slack/D0AKAPA0X3J/1787806834.042079",
+      "source_type": "slack",
+      "date": "2026-08-27",
+      "confidence": "high",
+      "extras": {
+        "channel": "D0AKAPA0X3J",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1787806834.042079",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Pay Arrash Masoomi's EUR 450 coach invoice once he delivers his session - Nenad Skoko and Martin Bernard agreed a 14-day payment window and Nenad has forwarded the invoice to accounting",
+      "project": "expense-ops",
+      "source": "slack/D05UGUJPZ97/1787737052.769589",
+      "source_type": "slack",
+      "date": "2026-08-26",
+      "confidence": "high",
+      "extras": {
+        "channel": "D05UGUJPZ97",
+        "from": "Nenad Skoko"
+      },
+      "id": "slack/D05UGUJPZ97/1787737052.769589",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Act on Nenad Skoko's intake tool test feedback in #intake-task-force - choppy audio in the first seconds of the call and roughly a minute to generate an intake from a 2-minute call; check with Rodrigo Gomes what generation time looks like for a real 30-45 minute call",
+      "project": "ai-recruiting",
+      "source": "slack/intake-task-force/1787836303.226619",
+      "source_type": "slack",
+      "date": "2026-08-27",
+      "confidence": "high",
+      "extras": {
+        "channel": "intake-task-force",
+        "from": "Nenad Skoko"
+      },
+      "id": "slack/intake-task-force/1787836303.226619",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "After the Friday 4 September deadline Blake set in #important_updates, go through open roles one-by-one with each person until everything that should be archived is archived",
+      "project": "rec-dash",
+      "source": "slack/important_updates/1787823088.862999",
+      "source_type": "slack",
+      "date": "2026-08-27",
+      "confidence": "medium",
+      "extras": {
+        "channel": "important_updates",
+        "from": "Blake Barkley"
+      },
+      "id": "slack/important_updates/1787823088.862999",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Revisit the Reaktor extension with Kristjana Thorarinsdottir in about a month - the contract runs to 25 October and she says it is too early to raise it now but likely continues, possibly down to 2 TAs",
+      "project": "leadership",
+      "source": "slack/D059MAFUJR0/1787731106.108019",
+      "source_type": "slack",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "channel": "D059MAFUJR0",
+        "from": "Kristjana Thorarinsdottir"
+      },
+      "id": "slack/D059MAFUJR0/1787731106.108019",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Ask the accountants whether Revolut's original-amount, currency and FX-rate fields actually reach them today or only the converted EUR line - if only the EUR line, fixing the export format alone may solve the FX matching pain before paying for any connector",
+      "project": "expense-ops",
+      "source": "cowork/local_df46ee04-f9e1-4b58-bd9c-bdca1193fab5",
+      "source_type": "cowork",
+      "date": "2026-08-27",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Revolute and Abra integration"
+      },
+      "id": "cowork/local_df46ee04-f9e1-4b58-bd9c-bdca1193fab5/asktheaccountantswhetherrevolutsoriginal",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Choose the Revolut to ABRA Flexi sync route - Dativery at 270 Kc/month, the open-source VitexSoftware AbraFlexi-Revolut importer, or a custom n8n build - and set the Flexi matching rule to counterparty plus original-currency amount so cross-currency FX differences book automatically instead of dropping to manual",
+      "project": "expense-ops",
+      "source": "cowork/local_df46ee04-f9e1-4b58-bd9c-bdca1193fab5",
+      "source_type": "cowork",
+      "date": "2026-08-27",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Revolute and Abra integration"
+      },
+      "id": "cowork/local_df46ee04-f9e1-4b58-bd9c-bdca1193fab5/choosetherevoluttoabraflexisyncroutedati",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Batch the writes or add retry-with-backoff to the Receipts workflow's 'Update Main Sheet' node - it hit a Google Sheets 429 per-minute write quota at 16:00 on 26 Aug and self-healed, but it will recur",
+      "project": "expense-ops",
+      "source": "cowork/local_47fb878f-92cb-480e-9114-71f5041c3769",
+      "source_type": "cowork",
+      "date": "2026-08-27",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Expense ops daily digest"
+      },
+      "id": "cowork/local_47fb878f-92cb-480e-9114-71f5041c3769/batchthewritesoraddretrywithbackofftothe",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Sanity-check the EUR 180K savings figure before using it in job applications - it is the EUR 85K finance and EUR 96K recruiting numbers added together and both may include the same Power BI or Keboola licence",
+      "project": "personal",
+      "source": "cowork/local_c0349d7e-f39c-4549-a364-a1fddf5d683d",
+      "source_type": "cowork",
+      "date": "2026-08-27",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Job search daily"
+      },
+      "id": "cowork/local_c0349d7e-f39c-4549-a364-a1fddf5d683d/sanitychecktheeur180ksavingsfigurebefore",
+      "project_name": "Personal",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Confirm whether the retained data analyst covered recruiting reporting or only finance, and describe what the contractor payments and receipts automation does plus the monthly time saved, so it can be written up as a second interview example",
+      "project": "personal",
+      "source": "cowork/local_c0349d7e-f39c-4549-a364-a1fddf5d683d",
+      "source_type": "cowork",
+      "date": "2026-08-27",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Job search daily"
+      },
+      "id": "cowork/local_c0349d7e-f39c-4549-a364-a1fddf5d683d/confirmwhethertheretaineddataanalystcove",
+      "project_name": "Personal",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Pick one of the three angles for the grading-on-AI-use LinkedIn post, now moved to Thursday 3 Sep after today's post went out early",
+      "project": "linkedin",
+      "source": "cowork/local_90d08949-af90-4f49-ac1c-202bf0d0b309",
+      "source_type": "cowork",
+      "date": "2026-08-27",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Linkedin idea generator morning"
+      },
+      "id": "cowork/local_90d08949-af90-4f49-ac1c-202bf0d0b309/pickoneofthethreeanglesforthegradingonai",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Approve the Slack send tool for the prodv2 pipeline verification task so its run report posts to Slack automatically - today's clean v241 first-run report (job 1015699931, 756s vs 917s baseline, all 16 tables written) was blocked and had to be read in-session",
+      "project": "infra",
+      "source": "cowork/local_63ef4c7a-951a-482b-aff0-6ca13fd3376b",
+      "source_type": "cowork",
+      "date": "2026-08-27",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Verify prodv2 date merge firstrun"
+      },
+      "id": "cowork/local_63ef4c7a-951a-482b-aff0-6ca13fd3376b/approvetheslacksendtoolfortheprodv2pipel",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Send your brother the exact AA itinerary to price himself on aa.com - AA3147 DFW-PHL then AA284 PHL-PRG outbound, AA285/AA2356 back - favour the 18 Sep departure (7 cash seats vs 1 on the 19th) and avoid BA-operated segments that add carrier surcharges to the award",
+      "project": "personal",
+      "source": "cowork/local_aa3b76a8-6380-44c1-b926-af104a22bb94",
+      "source_type": "cowork",
+      "date": "2026-08-27",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Brother's Prague trip flights"
+      },
+      "id": "cowork/local_aa3b76a8-6380-44c1-b926-af104a22bb94/sendyourbrothertheexactaaitinerarytopric",
+      "project_name": "Personal",
+      "first_seen": "2026-08-27",
       "last_seen": "2026-08-27",
       "status": "open"
     }

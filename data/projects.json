@@ -52,19 +52,19 @@
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
       "tier": "big",
-      "notes": "26 open, down 1. Vlad Stankovic declined the seat, so Jovana Drakula is the open call and owes screening answers on her 27 Aug return. The intake tool Drive link is still unsent."
+      "notes": "28 open, up 2. Nenad Skoko's Historical_Remap_Review_v3 remap sheet needs Blake's pass, three Tribe Bot use cases are due at the 2 Sep AI live session, and Jovana Drakula's seat is unconfirmed."
     },
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
       "tier": "big",
-      "notes": "67 open, up 4. Rodrigo Gomes' Move to ATS spike needs investigating after he added a Sequence stage. Sashka still owes column G on the 68-role xlsx, and 15 of 21 clients have no Prospects stage."
+      "notes": "68 open, up 1. Rodrigo Gomes' Move to ATS spike traces to a new Sequence stage he added. Sashka Sarafinovska still owes column G, and the 4 Sep role-archive deadline needs a one-by-one sweep after."
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "tier": "big",
-      "notes": "50 open, down 1. Keboola MCP Worker v1.2.0 is undeployed, MCP_SECRET unrotated, keboola-spend-check still calls the 401-ing get_jobs, and Martin's link-open Google Sheet is still public."
+      "notes": "52 open, up 2. The Inactive Jobs Sync n8n workflow failed at 07:00 on 27 Aug and needs auto-retry. Keboola MCP Worker v1.2.0 is still undeployed and MCP_SECRET unrotated."
     },
     {
       "id": "okrs",
@@ -76,73 +76,73 @@
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
       "tier": "medium",
-      "notes": "17 open, down 2. Juicebox needs a decision on more Agents for Fuad Safarov, the intake guides and Drive link are unsent, and Nenad's taxonomy reclassification meeting is still unbooked."
+      "notes": "18 open, up 1. Nenad Skoko's intake test flagged choppy first-seconds audio and about a minute to generate from a 2-minute call. The intake guides and Drive link are still unsent."
     },
     {
       "id": "tribebot",
       "name": "Tribebot",
       "tier": "big",
-      "notes": "20 open, up 1. Usage is five named users out of ~55 against a KR of 15 weekly actives. Friday's demo should have Gustavo ask his own question, and his screens number still comes back wrong."
+      "notes": "20 open, flat. Usage is five named users out of ~55 against a KR of 15 weekly actives. Friday's demo should have Gustavo ask his own question, and his screens number still comes back wrong."
     },
     {
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "big",
-      "notes": "30 open, down 1. Martin Bernard's Tribe Fin 4-month projections still need checking: September taxes at 47k and IT at 10k vs 17k. Eva Huclova still needs the Wolt bank-confirmation answer."
+      "notes": "32 open, up 2. The 27 Aug accounting call added Revolut-to-Abraham reconciliation and a monthly fixed USD transfer. Martin Bernard's September tax 47k and IT 10k vs 17k figures are unchecked."
     },
     {
       "id": "personal",
       "name": "Personal",
       "tier": "big",
-      "notes": "34 open, up 1. Andrea's DevPlan work added market research and a monthly Martin check-in. Metaview (83) and In Tandem (80) are unactioned, and kindergarten cover starts 1 September."
+      "notes": "37 open, up 3. The EUR 180K savings figure double-counts Power BI or Keboola and needs checking before it goes into applications. The brother's AA itinerary favours the 18 Sep departure."
     },
     {
       "id": "legal",
       "name": "Legal & Contracts",
       "tier": "big",
-      "notes": "29 open, flat. Boris Gnoth raised Czech remuneration and CFC objections that land on today's call, and Martin still owes the Estonia go/no-go. Eva needs insurance answers for 6.8, 6.9 and 10."
+      "notes": "30 open, up 1. The 27 Aug accounting call left company documents needing Martin's signature. Boris Gnoth's Thursday call closes the Estonia questions, and Eva still needs 6.8, 6.9 and 10."
     },
     {
       "id": "project-hub",
       "name": "Project Hub",
       "tier": "medium",
-      "notes": "4 open, flat. The AI-First Hub entry needs the real Tribe Bot numbers (Gustavo 21 uses, Alex and Ricky 1 between them). Lisa, Filip and Eduardo are still waiting on Drive access."
+      "notes": "4 open, flat. The AI-First Hub entry still needs the real Tribe Bot numbers (Gustavo 21 uses, Alex and Ricky 1 between them). Lisa, Filip and Eduardo are still waiting on Drive access."
     },
     {
       "id": "leadership",
       "name": "Leadership comms",
       "tier": "medium",
-      "notes": "14 open, flat. Martin has still not answered the $12,000/yr Keboola renewal or the Claude Pro seats. The business-partner scope item from Andrea's DevPlan feedback is the newest thread."
+      "notes": "16 open, up 2. Jacopo's equity is parked for an end-2026 revisit with no 2025 shares. Martin still owes decisions on the $12,000/yr Keboola renewal and the Claude Pro seats."
     },
     {
       "id": "keboola-sunset",
       "name": "Keboola migration / sunset",
       "tier": "medium",
-      "notes": "9 open, up 2. A hired_order NULL bug surfaced in the candidate transformation, the date-column merge needs a ship decision after the corrected run, and Anna Duskova's Q3 renewal still needs a tier."
+      "notes": "9 open, flat. The hired_order NULL bug at line 193 is unfixed, the date-column merge needs a ship decision after the corrected run, and Anna Duskova's Q3 DocuSign still needs a tier."
     },
     {
       "id": "tribe-talks",
       "name": "Tribe Talks",
       "tier": "medium",
-      "notes": "9 open, down 1. Marcel van der Meer is posting near-daily again, so the 22 September amplification needs explicit confirmation. The run of show opening question rewrite Nenad suggested is unmade."
+      "notes": "9 open, flat. Marcel van der Meer is posting near-daily again, so the 22 September amplification needs explicit confirmation. The run of show opening question rewrite Nenad suggested is unmade."
     },
     {
       "id": "linkedin",
       "name": "LinkedIn (licenses + posting)",
       "tier": "medium",
-      "notes": "14 open, down 1. Jelena is 50 reach-outs short of the 250/week NoIsolation needs, so the rep quote for 50 extra InMails is due before Friday's reset. The Dario Amodei naming call is due today."
+      "notes": "15 open, up 1. Today's post went out early, so the grading-on-AI-use post moves to Thu 3 Sep and needs an angle picked. Jelena is still 50 reach-outs short of NoIsolation's 250/week."
     },
     {
       "id": "people-ops",
       "name": "People Ops / BambooHR",
       "tier": "medium",
-      "notes": "18 open, down 1. Wladyslaw Gadomski's last day is Fri 28 Aug, with notice-period invoicing, BambooHR financials and licence reclaim all open. The mentoring programme still has zero mentees."
+      "notes": "18 open, flat. Wladyslaw Gadomski's last day is Fri 28 Aug, with notice-period invoicing, BambooHR financials and licence reclaim all open. The mentoring programme still has zero mentees."
     },
     {
       "id": "expense-ops",
       "name": "Expense Ops",
       "tier": "big",
-      "notes": "32 open, down 3. The T-Mobile CZ bill of 2,560.28 CZK is due today, Martin's personal Kaya2619.pdf still needs paying off company books, and the Notion seat audit is worth $500-600/month."
+      "notes": "38 open, up 6. The 27 Aug accounting call added Lucia's billing-info list plus Lucie Horakova's supplier logins and 3 missing invoices. The Revolut to ABRA Flexi sync route is undecided."
     },
     {
       "id": "team-cohesion",
