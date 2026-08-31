@@ -58,13 +58,13 @@
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
       "tier": "big",
-      "notes": "73 open, up 2. Stuck sequences and wrong pipeline data need investigating before Monday's compliance grace deadline. Nenad's taxonomy approval moved here and role archiving closes Fri 4 Sep."
+      "notes": "75 open, up 2. Stuck sequences and wrong pipeline data need investigating before Monday's grace-period end. New: daily new-jobs checks with each TA, and archiving ex-employee roles with Jacopo."
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "tier": "big",
-      "notes": "49 open, down 3. Today's Friday new-jobs recap SQL returned two 2026-08-23 rows inside a 24-31 Aug window, an off-by-one. Inactive Jobs Sync still lacks auto-retry and Worker v1.2.0 is undeployed."
+      "notes": "50 open, up 1. Three n8n scheduled triggers (AI Shadow Categorizer, BambooHR Lists Tab Sync v2, Revenue Per Tribster) failed again on timed runs today. The Friday recap SQL still has an off-by-one."
     },
     {
       "id": "okrs",
@@ -88,7 +88,7 @@
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "big",
-      "notes": "34 open, up 1. Eva Huclova's Boris Gnoth Tax invoice for 43.5 extra consulting hours is unpaid. Martin Bernard's September tax 47k and IT 10k vs 17k figures are still unchecked."
+      "notes": "36 open, up 2. Today's watchdog graded yesterday's bundle mid-deploy and needs a deployed-bundle check. Eva Huclova's 43.5-hour Boris Gnoth invoice is unpaid and Martin's Sept tax and IT figures unverified."
     },
     {
       "id": "personal",
@@ -106,7 +106,7 @@
       "id": "project-hub",
       "name": "Project Hub",
       "tier": "medium",
-      "notes": "4 open, flat. The AI-First Hub entry still needs the real Tribe Bot numbers (Gustavo 21 uses, Alex and Ricky 1 between them). Lisa, Filip and Eduardo are still waiting on Drive access."
+      "notes": "5 open, up 1. Seven daily-pulse tasks sit in inbox and show on no Notion page at all. Lisa Gargulinska, Filip Serafin and Eduardo Moral are still waiting on Drive access."
     },
     {
       "id": "leadership",
@@ -148,7 +148,7 @@
       "id": "team-cohesion",
       "name": "Team cohesion",
       "tier": "medium",
-      "notes": "0 open, flat. No signal since 4 Aug, 27 days. The engagement dashboard staleness check has aged out of the task list and the first unattended run is the first Monday of September."
+      "notes": "1 open, up 1. First signal since 4 Aug. Dean Apicella has followed up twice on the Business Fives corporate charity football tournament in Prague on Thu 29 Oct, and spaces are filling."
     }
   ],
   "project_aliases": {

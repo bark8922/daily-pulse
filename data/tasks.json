@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-08-31",
   "schema_version": 3,
-  "total": 1010,
-  "active_count": 408,
+  "total": 415,
+  "active_count": 415,
   "archived_count": 602,
   "projects": [
     {
@@ -28,7 +28,7 @@
     {
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
-      "tier": "medium"
+      "tier": "big"
     },
     {
       "id": "tribebot",
@@ -1286,7 +1286,7 @@
     },
     {
       "id": "gmail/19e7a37a25812d18",
-      "text": "Respond to Alexandra/Boris re: zápočet (offset agreement) document signing for 2025 closing",
+      "text": "Respond to Alexandra/Boris re: z\u00e1po\u010det (offset agreement) document signing for 2025 closing",
       "project": "legal",
       "project_name": "Legal & Contracts",
       "source": "gmail/19e7a37a25812d18",
@@ -1358,7 +1358,7 @@
     },
     {
       "id": "gmail/19e1c758fd656fdb",
-      "text": "Respond to LinkedIn Recruiter suspension case 260409-034323 (2 accounts blocked 30 days) — coordinate with Martin",
+      "text": "Respond to LinkedIn Recruiter suspension case 260409-034323 (2 accounts blocked 30 days) \u2014 coordinate with Martin",
       "project": "linkedin",
       "project_name": "LinkedIn license management",
       "source": "gmail/19e1c758fd656fdb",
@@ -1430,7 +1430,7 @@
     },
     {
       "id": "gmail/19d2e5ec5b657be4",
-      "text": "Follow up with Frantisek (Data-Based) on Keboola alternative call — last ping ignored",
+      "text": "Follow up with Frantisek (Data-Based) on Keboola alternative call \u2014 last ping ignored",
       "project": "keboola-sunset",
       "project_name": "Keboola migration / sunset",
       "source": "gmail/19d2e5ec5b657be4",
@@ -1441,14 +1441,14 @@
       "confidence": "high",
       "extras": {
         "from": "frantisek@data-based.io",
-        "subject": "Re: Meeting Request – Keboola Setup & Data Stack Discussion"
+        "subject": "Re: Meeting Request \u2013 Keboola Setup & Data Stack Discussion"
       },
       "status": "archived",
       "archived_on": "2026-07-27"
     },
     {
       "id": "gmail/19e637ad0077935d",
-      "text": "Complete Lattice May 2026 engagement survey (reminder sent — 90% participation target)",
+      "text": "Complete Lattice May 2026 engagement survey (reminder sent \u2014 90% participation target)",
       "project": "team-cohesion",
       "project_name": "Team cohesion",
       "source": "gmail/19e637ad0077935d",
@@ -1502,7 +1502,7 @@
     },
     {
       "id": "gmail/19e5fc3ff571ccc5",
-      "text": "Reconfirm CZ VAT 04/2026 refund (CZK 313,894) expected by June 25 — track receipt",
+      "text": "Reconfirm CZ VAT 04/2026 refund (CZK 313,894) expected by June 25 \u2014 track receipt",
       "project": "legal",
       "project_name": "Legal & Contracts",
       "source": "gmail/19e5fc3ff571ccc5",
@@ -1895,7 +1895,7 @@
     },
     {
       "id": "cowork/local_a5b7d94e-9f05-4161-ba0b-ff24f36c59e5/resolveaifirstmeetingprepilotopsitemsper",
-      "text": "Resolve AI First meeting pre-pilot ops items per person (Chené, Sam, Andrea, Maria, Valeria, Jelena, Marina, Nenad, Andrea Akovic) - status tracking restructured",
+      "text": "Resolve AI First meeting pre-pilot ops items per person (Chen\u00e9, Sam, Andrea, Maria, Valeria, Jelena, Marina, Nenad, Andrea Akovic) - status tracking restructured",
       "project": "ai-recruiting",
       "project_name": "Roundup & Intake (AI recruiting tools)",
       "source": "cowork/local_a5b7d94e-9f05-4161-ba0b-ff24f36c59e5",
@@ -1997,7 +1997,7 @@
     },
     {
       "id": "cowork/local_c1aaaae8-1557-43b1-88b3-8c2ba8987835/sendparloaaremailaskingthemtopaymayeurin",
-      "text": "Send Parloa AR email asking them to pay May EUR invoice at reduced €14,050 (overpayment + credit settles balance)",
+      "text": "Send Parloa AR email asking them to pay May EUR invoice at reduced \u20ac14,050 (overpayment + credit settles balance)",
       "project": "expense-ops",
       "project_name": "Expense Ops",
       "source": "cowork/local_c1aaaae8-1557-43b1-88b3-8c2ba8987835",
@@ -2554,7 +2554,7 @@
       "date": "2026-06-10",
       "confidence": "high",
       "extras": {
-        "meeting": "Meet – Finance Review"
+        "meeting": "Meet \u2013 Finance Review"
       },
       "id": "fireflies/01KTRZ5HTBVY7Q3SH2FHDJXTZH/provideexactfinancialsavingsamountstoell",
       "project_name": "Leadership comms",
@@ -2615,7 +2615,7 @@
       "archived_on": "2026-07-27"
     },
     {
-      "text": "Arrange bank transfer of FY2025 corporate income tax liability (underpayment ~CZK 1.2M of CZK 4.4M total) per Boris Gnoth's instructions — due 1 July 2026",
+      "text": "Arrange bank transfer of FY2025 corporate income tax liability (underpayment ~CZK 1.2M of CZK 4.4M total) per Boris Gnoth's instructions \u2014 due 1 July 2026",
       "project": "expense-ops",
       "source": "gmail/19eb31c62ec49d95",
       "source_type": "gmail",
@@ -2982,7 +2982,7 @@
       "archived_on": "2026-07-27"
     },
     {
-      "text": "Apply final edits to Reaktor consulting agreement (9.2 arbitration language Finnish->English, new 7.3 liability cap, new §2.3 holidays clause) and send the edited contract + recap email to Riku Rahikainen",
+      "text": "Apply final edits to Reaktor consulting agreement (9.2 arbitration language Finnish->English, new 7.3 liability cap, new \u00a72.3 holidays clause) and send the edited contract + recap email to Riku Rahikainen",
       "project": "legal",
       "source": "cowork/local_36b5afc6-12bb-4d9c-897c-f81d64fc02dc",
       "source_type": "cowork",
@@ -5368,7 +5368,7 @@
       "archived_on": "2026-07-27"
     },
     {
-      "text": "Gather and send Pliant (Gillian Lane) the onboarding docs they requested for infosec/legal review — main service agreement, DPA, Art. 32 GDPR TOMs evidence, and ISO 27001/SOC2 certifications (Martin forwarded asking Blake to handle)",
+      "text": "Gather and send Pliant (Gillian Lane) the onboarding docs they requested for infosec/legal review \u2014 main service agreement, DPA, Art. 32 GDPR TOMs evidence, and ISO 27001/SOC2 certifications (Martin forwarded asking Blake to handle)",
       "project": "legal",
       "source": "gmail/19f1d50d7384a843",
       "source_type": "gmail",
@@ -5527,7 +5527,7 @@
       "archived_on": "2026-07-27"
     },
     {
-      "text": "Fix the two Aviv hires (Luca Iov, Iskander C.) whose salary is 12x inflated: switch salary type from Monthly to Annual in the Bubble candidate record (and correct the raw hired_salary / confirm EUR-vs-RON currency) so €1,293,600 and €990,000 stop flowing into reporting",
+      "text": "Fix the two Aviv hires (Luca Iov, Iskander C.) whose salary is 12x inflated: switch salary type from Monthly to Annual in the Bubble candidate record (and correct the raw hired_salary / confirm EUR-vs-RON currency) so \u20ac1,293,600 and \u20ac990,000 stop flowing into reporting",
       "project": "rec-dash",
       "source": "cowork/local_074f9358-6eb0-43b5-8a14-f914c8f290a2",
       "source_type": "cowork",
@@ -8779,7 +8779,7 @@
       "date": "2026-07-29",
       "confidence": "high",
       "extras": {
-        "subject": "Fwd: UPOMÍNKA",
+        "subject": "Fwd: UPOM\u00cdNKA",
         "from": "m.bernard@apixconsultants.com"
       },
       "id": "gmail/19fad82fffb413ae",
@@ -14097,7 +14097,7 @@
       "date": "2026-08-20",
       "confidence": "high",
       "extras": {
-        "subject": "Notes: “OKRs Dashboards” Aug 20, 2026",
+        "subject": "Notes: \u201cOKRs Dashboards\u201d Aug 20, 2026",
         "from": "gemini-notes@google.com"
       },
       "id": "gmail/1a01f9c660a88fdb",
@@ -14114,7 +14114,7 @@
       "date": "2026-08-19",
       "confidence": "medium",
       "extras": {
-        "subject": "Notes: “TL Meeting” Aug 19, 2026",
+        "subject": "Notes: \u201cTL Meeting\u201d Aug 19, 2026",
         "from": "gemini-notes@google.com"
       },
       "id": "gmail/1a019df1c30368d6",
@@ -14131,7 +14131,7 @@
       "date": "2026-08-19",
       "confidence": "high",
       "extras": {
-        "subject": "Notes: “AI First” Aug 19, 2026",
+        "subject": "Notes: \u201cAI First\u201d Aug 19, 2026",
         "from": "gemini-notes@google.com"
       },
       "id": "gmail/1a01a40b3723fabe",
@@ -14148,7 +14148,7 @@
       "date": "2026-08-19",
       "confidence": "high",
       "extras": {
-        "subject": "Notes: “OKR Check-in - Stand-up: Delivery, People, BD” Aug 19, 2026",
+        "subject": "Notes: \u201cOKR Check-in - Stand-up: Delivery, People, BD\u201d Aug 19, 2026",
         "from": "gemini-notes@google.com"
       },
       "id": "gmail/1a01995301152371",
@@ -15078,7 +15078,7 @@
       "date": "2026-08-25",
       "confidence": "high",
       "extras": {
-        "subject": "Fwd: PŘIPOMÍNKA PO SPLATNOSTI",
+        "subject": "Fwd: P\u0158IPOM\u00cdNKA PO SPLATNOSTI",
         "from": "m.bernard@apixconsultants.com"
       },
       "id": "gmail/1a0364ff624ccab6",
@@ -15767,7 +15767,7 @@
       "date": "2026-08-25",
       "confidence": "high",
       "extras": {
-        "subject": "Notes: “Silver Medalists” Aug 25, 2026",
+        "subject": "Notes: \u201cSilver Medalists\u201d Aug 25, 2026",
         "from": "gemini-notes@google.com (meeting with Martin Bernard, Sashka Sarafinovska)"
       },
       "id": "gmail/1a039571f8cfd0c5",
@@ -17224,7 +17224,7 @@
       "date": "2026-08-28",
       "confidence": "high",
       "extras": {
-        "meeting": "Meet – Friday Team Meeting"
+        "meeting": "Meet \u2013 Friday Team Meeting"
       },
       "id": "fireflies/01M149VB095GZ1NZYEDJ7W14TY/investigatethestucksequencesandincorrect",
       "project_name": "Tribe Recruiting Dashboard",
@@ -17240,7 +17240,7 @@
       "date": "2026-08-28",
       "confidence": "medium",
       "extras": {
-        "meeting": "Meet – Friday Team Meeting"
+        "meeting": "Meet \u2013 Friday Team Meeting"
       },
       "id": "fireflies/01M149VB095GZ1NZYEDJ7W14TY/presenttribebotusecasesinthewednesdayliv",
       "project_name": "Tribebot",
@@ -17294,6 +17294,122 @@
       },
       "id": "cowork/local_833d5fb6-b782-479e-b598-a2defbaa14f9/reconnectthen8nconnectortheweeklyfleetre",
       "project_name": "Infra & Automation",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Reply to Dean Apicella (Business Fives) on whether Tribe wants to enter the corporate charity football tournament in Prague on Thursday 29 October - he has followed up twice and spaces are filling",
+      "project": "team-cohesion",
+      "source": "gmail/1a047c35b106f3fb",
+      "source_type": "gmail",
+      "date": "2026-08-28",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Re: Business Fives Corporate Football Prague",
+        "from": "dean@businessfives.com"
+      },
+      "id": "gmail/1a047c35b106f3fb",
+      "project_name": "Team cohesion",
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Execute the software cost reductions agreed with Caroline: cut paid Notion seats down to 15 (about a 75% saving) and confirm the Envato subscription is cancelled once the current content sprint ends",
+      "project": "fin-dash",
+      "source": "gmail/1a0386d0d5e01e16",
+      "source_type": "gmail",
+      "date": "2026-08-25",
+      "confidence": "low",
+      "extras": {
+        "subject": "Notes: \"Blake / Caroline - Catch up\" Aug 25, 2026",
+        "from": "gemini-notes@google.com"
+      },
+      "id": "gmail/1a0386d0d5e01e16",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Check the new-jobs sheet daily and follow up with each TA to confirm whether a new role is genuinely new or a rehire (intake tool relaunch commitment)",
+      "project": "rec-dash",
+      "source": "slack/C0BSF1LRZF0/1787644891.986129",
+      "source_type": "slack",
+      "date": "2026-08-25",
+      "confidence": "high",
+      "extras": {
+        "channel": "Group DM C0BSF1LRZF0 (intake tool rollout)",
+        "from": "Blake Barkley (self-commitment)"
+      },
+      "id": "slack/C0BSF1LRZF0/1787644891.986129",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Decide with Jacopo whether to archive the old roles owned by ex-Tribe employees (sheet filtered by last movement) and finish the archiving pass",
+      "project": "rec-dash",
+      "source": "slack/D056EG3QPLP/1787736433.007929",
+      "source_type": "slack",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Jacopo Lupo Ferrari (D056EG3QPLP)",
+        "from": "Blake Barkley (self-commitment, awaiting Jacopo)"
+      },
+      "id": "slack/D056EG3QPLP/1787736433.007929",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Fix the three n8n scheduled triggers that error on their timed runs but succeed on a manual re-run minutes later - AI Shadow Categorizer (06:00), BambooHR Lists Tab Sync v2 (05:00) and Revenue Per Tribster Github node (07:00); all three failed again in today's fleet check, so the schedule itself is the fault, not the workflow logic",
+      "project": "infra",
+      "source": "cowork/local_833d5fb6-b782-479e-b598-a2defbaa14f9",
+      "source_type": "cowork",
+      "date": "2026-08-31",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Daily pulse n8n fleet weekly"
+      },
+      "id": "cowork/local_833d5fb6-b782-479e-b598-a2defbaa14f9/fixthethreen8nscheduledtriggersthaterror",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Add a watchdog check that confirms it is grading the bundle currently deployed - today's 07:03 UTC run graded yesterday's bundle while the refresh and deploy committed at 07:03/07:04 mid-run, the same failure mode as the 2026-07-30 false alert, and no existing check covers it",
+      "project": "fin-dash",
+      "source": "cowork/local_a6e2f3a8-a217-4920-83e6-6c84debfbae0",
+      "source_type": "cowork",
+      "date": "2026-08-31",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Tribe dashboard watchdog"
+      },
+      "id": "cowork/local_a6e2f3a8-a217-4920-83e6-6c84debfbae0/addawatchdogcheckthatconfirmsitisgrading",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Give the seven orphaned daily-pulse tasks a real ledger project so they stop appearing on no page at all - build_pages only loops the ledger, leaving the role auto-archive rule, OBS/Teams recording setup, Sashka's data-request walkthrough, the Lindsay/David offer, the Wolt-Katarina conversion fee and Martin's inbox triage invisible in Notion",
+      "project": "project-hub",
+      "source": "cowork/local_074199ff-2300-439d-beb2-ffa6569ee33b",
+      "source_type": "cowork",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Daily pulse morning"
+      },
+      "id": "cowork/local_074199ff-2300-439d-beb2-ffa6569ee33b/givethesevenorphaneddailypulsetasksareal",
+      "project_name": "Project Hub",
       "first_seen": "2026-08-31",
       "last_seen": "2026-08-31",
       "status": "open"
