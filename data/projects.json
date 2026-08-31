@@ -52,13 +52,13 @@
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
       "tier": "big",
-      "notes": "29 open, up 1. Nenad Skoko's Historical_Remap_Review_v3 sheet still needs Blake's pass, three Tribe Bot use cases are due at the 2 Sep AI live session, and Vlad and Sonia's seats are unconfirmed."
+      "notes": "28 open, down 1 after the taxonomy approval moved to rec-dash. Nenad Skoko's Historical_Remap_Review_v3 sheet needs Blake's pass and three Tribe Bot use cases are due at the 2 Sep AI live session."
     },
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
       "tier": "big",
-      "notes": "71 open, up 3. Taxonomy work added Mikal's bulk update of ~1,800 roles, the Technical Product Manager merge, and Mikhail's stage-events question. Role archiving closes Fri 4 Sep."
+      "notes": "73 open, up 2. Stuck sequences and wrong pipeline data need investigating before Monday's compliance grace deadline. Nenad's taxonomy approval moved here and role archiving closes Fri 4 Sep."
     },
     {
       "id": "infra",
@@ -75,20 +75,20 @@
     {
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
-      "tier": "medium",
-      "notes": "18 open, flat. Nenad Skoko's intake test flagged choppy first-seconds audio and about a minute to generate from a 2-minute call. The intake guides and Drive link are still unsent."
+      "tier": "big",
+      "notes": "20 open, up 2. Aleksandra Vistac needs an intake-doc naming convention and Filip's onboarding status is unconfirmed. Nenad's test flagged choppy audio and ~1 minute to generate from a 2-minute call."
     },
     {
       "id": "tribebot",
       "name": "Tribebot",
       "tier": "big",
-      "notes": "20 open, flat. Tribebot stopped answering Nenad Skoko on 28 Aug, the eyes reaction appearing then vanishing. Usage is five named users out of ~55 against a KR of 15 weekly actives."
+      "notes": "21 open, up 1. Tribe Bot stopped answering Nenad Skoko, the eyes reaction appears then vanishes, and he chases Monday. Use cases are due in the September Wednesday sessions with Andrea and Naledi."
     },
     {
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "big",
-      "notes": "33 open, up 1. The 27 Aug accounting call added Revolut-to-Abraham reconciliation, a monthly fixed USD transfer and the Ella EBIT thread. Martin's September tax 47k and IT 10k vs 17k are unchecked."
+      "notes": "34 open, up 1. Eva Huclova's Boris Gnoth Tax invoice for 43.5 extra consulting hours is unpaid. Martin Bernard's September tax 47k and IT 10k vs 17k figures are still unchecked."
     },
     {
       "id": "personal",
@@ -142,7 +142,7 @@
       "id": "expense-ops",
       "name": "Expense Ops",
       "tier": "big",
-      "notes": "38 open, flat. Eva Huclova's invoice for 43.5 extra tax hours and Martin's Thailand monitor receipt both need booking. Lucie Horakova still needs supplier logins and 3 invoices are unfound."
+      "notes": "37 open, down 1 after the Boris Gnoth invoice moved to fin-dash. Lucie Horakova is owed supplier logins and 3 missing invoices, and Martin Bernard's Thailand monitor receipt needs booking."
     },
     {
       "id": "team-cohesion",
