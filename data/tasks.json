@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-27",
+  "generated_at": "2026-08-31",
   "schema_version": 3,
-  "total": 403,
-  "active_count": 403,
-  "archived_count": 589,
+  "total": 404,
+  "active_count": 404,
+  "archived_count": 602,
   "projects": [
     {
       "id": "ai-first-working-group",
@@ -9021,12 +9021,12 @@
       "confidence": "high",
       "extras": {
         "subject": "RE: Discussed invoices Tribe",
-        "from": "Eva Huclova <ehuclova@borisgnoth.cz>"
+        "from": "ehuclova@borisgnoth.cz"
       },
       "id": "gmail/19fb34464ecab93a",
       "project_name": "Expense Ops",
       "first_seen": "2026-07-30",
-      "last_seen": "2026-08-27",
+      "last_seen": "2026-08-31",
       "status": "archived",
       "archived_on": "2026-08-21"
     },
@@ -10338,7 +10338,8 @@
       "project_name": "LinkedIn (licenses + posting)",
       "first_seen": "2026-08-06",
       "last_seen": "2026-08-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-31"
     },
     {
       "text": "Act on the 6 Aug job-search run: the single pick is Support Partner / Chief of Staff at shuckerOPS-shuckerVC (81, US remote, 1-3 yrs, explicit agent-building mandate, ~65% qualify with the GTM half as the gap), and decide whether to overrule the Stretch cap on Neurons Lab COO (75, Czechia-remote) which the v9 seniority rule capped purely for being a #2 seat.",
@@ -10354,7 +10355,8 @@
       "project_name": "Personal",
       "first_seen": "2026-08-06",
       "last_seen": "2026-08-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-31"
     },
     {
       "text": "Settle the regenerated GitHub fine-grained token: open it on GitHub and read Last used + Repository access. If it never ran, delete it; if it lists tribe-dashboard-leaders and tribe-recruiting it is CROSS_REPO_PAT, so update that Actions secret on bark8922/tribe-dashboard (Contents read/write, those two repos only) or the next deploy-main silently half-deploys - main updates while the leaders and recruiting pushes fail.",
@@ -10370,7 +10372,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-08-06",
       "last_seen": "2026-08-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-31"
     },
     {
       "text": "Fix the Windows Task Scheduler entry for the Claude session-archive backup - the log has no '--- backup starting ---' line for today at all, so it never launched (machine likely asleep at the ~09:00 fire time and StartWhenAvailable is probably False). Flip that setting and run the script by hand to backfill the two missing days of claude-sessions-archive pushes.",
@@ -10386,7 +10389,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-08-06",
       "last_seen": "2026-08-06",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-31"
     },
     {
       "text": "Send Lucie Horakova (Boris Gnoth Tax) the missing Tribe.xyz Czech invoices for period 1-6/2026 listed in her 'Missing invoices Tribe.xyz Czech 6.8.2026.xlsx'",
@@ -10403,7 +10407,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-08-06",
       "last_seen": "2026-08-10",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-31"
     },
     {
       "text": "Find a spare LinkedIn Recruiter license for the IR team - Sanja Pavlovikj needs cover for Milica, Mariam, Alex and Valeria plus Edu who is back from Monday; work out who is not using theirs and reassign",
@@ -10420,7 +10425,8 @@
       "project_name": "LinkedIn (licenses + posting)",
       "first_seen": "2026-08-07",
       "last_seen": "2026-08-10",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-31"
     },
     {
       "text": "Share the Marcel Tribe Talks working draft doc with Marcel van der Meer once Nenad Skoko has signed off - Nenad flagged that Marcel is listed as an Editor but the file was never actually shared with him",
@@ -10437,7 +10443,8 @@
       "project_name": "Tribe Talks",
       "first_seen": "2026-08-07",
       "last_seen": "2026-08-10",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-31"
     },
     {
       "text": "Sanity-check that Zelimir Stajcic and Nare Avetisyan genuinely came off AVIV in July - both dropped from ~1.00 AVIV allocation to zero activity and defaulted to Tribe.xyz at 1.00 in the Sourcer Client Assignment 2026-07 run, the one delta the run could not verify from data",
@@ -10472,7 +10479,8 @@
       "project_name": "Personal",
       "first_seen": "2026-08-07",
       "last_seen": "2026-08-10",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-31"
     },
     {
       "text": "Resolve the 07 Aug Payment Reconciliation Check exceptions: 7 missing payments (Martin Bernard, Lejla Dizdarevic, Anastasija Dugalic, Jacopo Lupo Ferrari, Rodrigo Gomes, Damla Kocek, Nemanja Erdevicki - all Tribe CZ) and 8 people not found in Revolut (Kristina Colovic, Erzana Maliqi, Dora Vrbanic, Maria Gerbore, Salem Mansuri, Eduardo Moral Casimiro, Rossella Petrillo, Alexandra Richiteanu)",
@@ -10489,7 +10497,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-08-07",
       "last_seen": "2026-08-10",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-31"
     },
     {
       "text": "Fix the sourcer rebuild emitting a phantom termination row for Zelimir every month since June",
@@ -10574,7 +10583,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-08-09",
       "last_seen": "2026-08-10",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-31"
     },
     {
       "text": "Delete the 'DELETE ME - old topic rows' Notion page under the LinkedIn page - the 7 stale topic rows were moved there because the Notion connector has no delete tool",
@@ -10606,7 +10616,8 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-08-07",
       "last_seen": "2026-08-10",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-31"
     },
     {
       "text": "Act on the 10 Aug job-search run: AI Operations Manager at Similarweb (77, Prague 8 hybrid, 3+ yrs bar, ~80% qualify - the highest honest number since Usercentrics) and Director of Operations at Client Accelerators (76, US remote, $120-140K, via Spyglass Ops); also decide whether Brno on-site is acceptable, which would move TRL Space Head of Operations (70) straight into Picks",
@@ -10855,7 +10866,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-08-06",
       "last_seen": "2026-08-12",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-31"
     },
     {
       "text": "Close the TribeBot indexing gap on the IR sprint channels - it currently reads only top-level messages, not thread replies, and Nenad Skoko flagged that a lot of the real discussion lives in threads; also collect the test feedback Blake asked the group for",
@@ -10872,7 +10884,8 @@
       "project_name": "Tribebot",
       "first_seen": "2026-08-06",
       "last_seen": "2026-08-12",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-08-31"
     },
     {
       "text": "Follow up with Sanja Pavlovikj on moving the recos-v4 brief-llm and scorecard-fill steps from Sonnet to Haiku (Sonnet is 61% of spend on 12% of calls) - she is running side-by-side quality comparisons before switching the scorecard fill",
@@ -16987,6 +17000,236 @@
       "project_name": "Personal",
       "first_seen": "2026-08-27",
       "last_seen": "2026-08-27",
+      "status": "open"
+    },
+    {
+      "text": "Review and approve Nenad Skoko's taxonomy notes and proposed category/subcategory changes once he sends the final list of role changes with job IDs",
+      "project": "ai-first-working-group",
+      "source": "fireflies/01M11RB2X5ZV7PA4WZ7QS11XJJ",
+      "source_type": "fireflies",
+      "date": "2026-08-27",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Nenad"
+      },
+      "id": "fireflies/01M11RB2X5ZV7PA4WZ7QS11XJJ/reviewandapprovenenadskokostaxonomynotes",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Coordinate with Mikal to bulk-update the ~1,800 remaining roles in the platform once Nenad's final taxonomy classification list is ready",
+      "project": "rec-dash",
+      "source": "fireflies/01M11RB2X5ZV7PA4WZ7QS11XJJ",
+      "source_type": "fireflies",
+      "date": "2026-08-27",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Nenad"
+      },
+      "id": "fireflies/01M11RB2X5ZV7PA4WZ7QS11XJJ/coordinatewithmikaltobulkupdatethe1800re",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Remove the \"Technical Product Manager\" subcategory and merge those roles into the Product Manager category",
+      "project": "rec-dash",
+      "source": "fireflies/01M11RB2X5ZV7PA4WZ7QS11XJJ",
+      "source_type": "fireflies",
+      "date": "2026-08-27",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake / Nenad"
+      },
+      "id": "fireflies/01M11RB2X5ZV7PA4WZ7QS11XJJ/removethetechnicalproductmanagersubcateg",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Stay in contact with Ella to finalise resolution of the EBIT issue raised on the 27 Aug accounting call",
+      "project": "fin-dash",
+      "source": "fireflies/01M119BCANXG1AAQH5BMN26FH9",
+      "source_type": "fireflies",
+      "date": "2026-08-27",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Tribe call _ Microsoft Teams 2026-08-27 09-36-02.mp4"
+      },
+      "id": "fireflies/01M119BCANXG1AAQH5BMN26FH9/stayincontactwithellatofinaliseresolutio",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Complete the BambooHR offboarding task Andrea Darabasic assigned for Marina Lazarevic (Sourcer L3, remote, B2B, Aviv division, termination date Sep 14 2026)",
+      "project": "people-ops",
+      "source": "gmail/1a0485677cece4fb",
+      "source_type": "gmail",
+      "date": "2026-08-28",
+      "confidence": "high",
+      "extras": {
+        "subject": "Please complete this offboarding task for Marina Lazarevic",
+        "from": "notifications@app.bamboohr.com"
+      },
+      "id": "gmail/1a0485677cece4fb",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Send Marina Lazarevic the financial details and invoicing schedule for her exit - Andrea Darabasic looped Blake in for accounting purposes after Marina's resignation (last working day 14 September 2026)",
+      "project": "people-ops",
+      "source": "gmail/1a04845861a5f030",
+      "source_type": "gmail",
+      "date": "2026-08-28",
+      "confidence": "high",
+      "extras": {
+        "subject": "Re: Resignation | Marina Lazarevic",
+        "from": "andreadarabasic@tribe.xyz"
+      },
+      "id": "gmail/1a04845861a5f030",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Pay the Boris Gnoth Tax invoice Eva Huclova sent for the 43.5 extra tax-consulting hours covering 03-07/2026, billed to Tribe.xyz Czech as Blake agreed",
+      "project": "expense-ops",
+      "source": "gmail/1a042b03fabe45fe",
+      "source_type": "gmail",
+      "date": "2026-08-28",
+      "confidence": "high",
+      "extras": {
+        "subject": "FW: Extra hours",
+        "from": "ehuclova@borisgnoth.cz"
+      },
+      "id": "gmail/1a042b03fabe45fe",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Process the monitor receipt Martin Bernard sent from Thailand (IMG_7115.jpeg, cc'd to apix@borisgnoth.cz) - book it as a company expense",
+      "project": "expense-ops",
+      "source": "gmail/1a04d4e1fec57efe",
+      "source_type": "gmail",
+      "date": "2026-08-29",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Monitor in Thailand",
+        "from": "martin@tribe.xyz"
+      },
+      "id": "gmail/1a04d4e1fec57efe",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-29",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Complete the Lattice August 2026 engagement survey (anonymous, 90% participation target)",
+      "project": "people-ops",
+      "source": "gmail/1a0569881c597faf",
+      "source_type": "gmail",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Lattice Survey - August 2026",
+        "from": "notifications@mg.latticehq.com"
+      },
+      "id": "gmail/1a0569881c597faf",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Investigate why Tribebot stopped answering Nenad Skoko's questions - the :eyes: reaction appears then disappears a moment later, and it now fails on simple questions and ones it previously answered correctly",
+      "project": "tribebot",
+      "source": "slack/C09154E6QNS/1787926676.880259",
+      "source_type": "slack",
+      "date": "2026-08-28",
+      "confidence": "high",
+      "extras": {
+        "channel": "#ai-first-tribe",
+        "from": "Nenad Skoko"
+      },
+      "id": "slack/C09154E6QNS/1787926676.880259",
+      "project_name": "Tribebot",
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Work the next tranche of Keboola optimization now that the method is proven and written down - the other fifteen statements in the same block, the twelve on the event table, and the talent dedup block (the biggest single item), none of which have been started - and check the Monday credit review for drift after two production changes landed in 24 hours",
+      "project": "keboola-sunset",
+      "source": "cowork/local_ae52df59-842b-42b8-8849-083c335d58b2",
+      "source_type": "cowork",
+      "date": "2026-08-28",
+      "confidence": "high",
+      "extras": {
+        "session": "Keboola spend optimization - v241 date-merge shipped (756s vs 917s, ~17.6% faster), July credits 328.7 vs a 300 ceiling now back to roughly 300"
+      },
+      "id": "cowork/local_ae52df59-842b-42b8-8849-083c335d58b2/workthenexttrancheofkeboolaoptimizationn",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Send Mikhail the rewritten Slack question about stage events written at the same millisecond - a run of Recruiter Screen, Moved to ATS, Onsite, Offer and Hired all stamped at once while the candidate is still in Sequence - phrased as an open 'what is the user actually doing when this happens' question, with example 1787796628310x620175981918488200 at 2026-08-27 02:10:31.632 and the stage_events_examples.csv of 25 more rows",
+      "project": "rec-dash",
+      "source": "cowork/local_d49da37b-949e-412c-8291-d4116041421d",
+      "source_type": "cowork",
+      "date": "2026-08-27",
+      "confidence": "high",
+      "extras": {
+        "session": "Moved to ATS data discrepancy - drafting the Bubble stage-event questions for Mikhail"
+      },
+      "id": "cowork/local_d49da37b-949e-412c-8291-d4116041421d/sendmikhailtherewrittenslackquestionabou",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Post the drafted role-archiving message to the group channel asking everyone to search their own name in the dashboard and archive anything they are not actively working, with the Friday 4 September deadline, then go through the stragglers one by one after that date",
+      "project": "rec-dash",
+      "source": "cowork/local_89e12d9a-7afe-463f-bd7e-dc5d343a365b",
+      "source_type": "cowork",
+      "date": "2026-08-27",
+      "confidence": "high",
+      "extras": {
+        "session": "Funnel stages data structure - stale-role backlog cleared from ~250 to a handful, then drafted the team-wide archiving ask"
+      },
+      "id": "cowork/local_89e12d9a-7afe-463f-bd7e-dc5d343a365b/postthedraftedrolearchivingmessagetotheg",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Fix the date-window off-by-one in the Friday new-jobs recap SQL - today's run returned two rows dated 2026-08-23 that fall outside the stated 2026-08-24 to 2026-08-31 header window, caused by DATEADD('day', -7, CURRENT_DATE()) versus how rows land after TRY_TO_DATE, and they were passed through rather than dropped",
+      "project": "infra",
+      "source": "cowork/local_0cf6715f-3395-4da1-b1a7-44f9eb878a55",
+      "source_type": "cowork",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "session": "Friday new jobs recap - scheduled Keboola/Snowflake query, 16 new jobs DM'd to Blake in Slack"
+      },
+      "id": "cowork/local_0cf6715f-3395-4da1-b1a7-44f9eb878a55/fixthedatewindowoffbyoneinthefridaynewjo",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
       "status": "open"
     }
   ]

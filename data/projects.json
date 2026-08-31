@@ -45,62 +45,62 @@
     "workforce-planning-changes"
   ],
   "lookback_days": 60,
-  "updated": "2026-08-27",
+  "updated": "2026-08-31",
   "generated_from": "data/ledger.json (Notion). Do not hand-edit.",
   "projects": [
     {
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
       "tier": "big",
-      "notes": "28 open, up 2. Nenad Skoko's Historical_Remap_Review_v3 remap sheet needs Blake's pass, three Tribe Bot use cases are due at the 2 Sep AI live session, and Jovana Drakula's seat is unconfirmed."
+      "notes": "29 open, up 1. Nenad Skoko's Historical_Remap_Review_v3 sheet still needs Blake's pass, three Tribe Bot use cases are due at the 2 Sep AI live session, and Vlad and Sonia's seats are unconfirmed."
     },
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
       "tier": "big",
-      "notes": "68 open, up 1. Rodrigo Gomes' Move to ATS spike traces to a new Sequence stage he added. Sashka Sarafinovska still owes column G, and the 4 Sep role-archive deadline needs a one-by-one sweep after."
+      "notes": "71 open, up 3. Taxonomy work added Mikal's bulk update of ~1,800 roles, the Technical Product Manager merge, and Mikhail's stage-events question. Role archiving closes Fri 4 Sep."
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "tier": "big",
-      "notes": "52 open, up 2. The Inactive Jobs Sync n8n workflow failed at 07:00 on 27 Aug and needs auto-retry. Keboola MCP Worker v1.2.0 is still undeployed and MCP_SECRET unrotated."
+      "notes": "49 open, down 3. Today's Friday new-jobs recap SQL returned two 2026-08-23 rows inside a 24-31 Aug window, an off-by-one. Inactive Jobs Sync still lacks auto-retry and Worker v1.2.0 is undeployed."
     },
     {
       "id": "okrs",
       "name": "OKRs",
       "tier": "medium",
-      "notes": "2 open, flat. The Lattice growth action for Assertive Stakeholder Management is due 31 Aug. Valeriia at 4/16 and Ejla at 4/10 hold weekly role-update coverage at 64% across weeks 31-33."
+      "notes": "2 open, flat. The Lattice growth action for Assertive Stakeholder Management is due today, 31 Aug. Sourcer role-update coverage sits at 64% over weeks 31-33, dragged by Valeriia 4/16 and Ejla 4/10."
     },
     {
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
       "tier": "medium",
-      "notes": "18 open, up 1. Nenad Skoko's intake test flagged choppy first-seconds audio and about a minute to generate from a 2-minute call. The intake guides and Drive link are still unsent."
+      "notes": "18 open, flat. Nenad Skoko's intake test flagged choppy first-seconds audio and about a minute to generate from a 2-minute call. The intake guides and Drive link are still unsent."
     },
     {
       "id": "tribebot",
       "name": "Tribebot",
       "tier": "big",
-      "notes": "20 open, flat. Usage is five named users out of ~55 against a KR of 15 weekly actives. Friday's demo should have Gustavo ask his own question, and his screens number still comes back wrong."
+      "notes": "20 open, flat. Tribebot stopped answering Nenad Skoko on 28 Aug, the eyes reaction appearing then vanishing. Usage is five named users out of ~55 against a KR of 15 weekly actives."
     },
     {
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "big",
-      "notes": "32 open, up 2. The 27 Aug accounting call added Revolut-to-Abraham reconciliation and a monthly fixed USD transfer. Martin Bernard's September tax 47k and IT 10k vs 17k figures are unchecked."
+      "notes": "33 open, up 1. The 27 Aug accounting call added Revolut-to-Abraham reconciliation, a monthly fixed USD transfer and the Ella EBIT thread. Martin's September tax 47k and IT 10k vs 17k are unchecked."
     },
     {
       "id": "personal",
       "name": "Personal",
       "tier": "big",
-      "notes": "37 open, up 3. The EUR 180K savings figure double-counts Power BI or Keboola and needs checking before it goes into applications. The brother's AA itinerary favours the 18 Sep departure."
+      "notes": "35 open, down 2. The EUR 180K savings figure double-counts Power BI or Keboola and needs checking before it goes into applications. The brother's AA itinerary favours the 18 Sep departure."
     },
     {
       "id": "legal",
       "name": "Legal & Contracts",
       "tier": "big",
-      "notes": "30 open, up 1. The 27 Aug accounting call left company documents needing Martin's signature. Boris Gnoth's Thursday call closes the Estonia questions, and Eva still needs 6.8, 6.9 and 10."
+      "notes": "30 open, flat. Company documents from the 27 Aug accounting call still need Martin's signature. Boris Gnoth's Thursday call closes the Estonia questions, and Eva still needs 6.8, 6.9 and 10."
     },
     {
       "id": "project-hub",
@@ -112,43 +112,43 @@
       "id": "leadership",
       "name": "Leadership comms",
       "tier": "medium",
-      "notes": "16 open, up 2. Jacopo's equity is parked for an end-2026 revisit with no 2025 shares. Martin still owes decisions on the $12,000/yr Keboola renewal and the Claude Pro seats."
+      "notes": "16 open, flat. Martin Bernard still owes decisions on the $12,000/yr Keboola renewal and the ~10 Claude Pro seats. Jacopo's equity is parked for an end-2026 revisit with no 2025 shares."
     },
     {
       "id": "keboola-sunset",
       "name": "Keboola migration / sunset",
       "tier": "medium",
-      "notes": "9 open, flat. The hired_order NULL bug at line 193 is unfixed, the date-column merge needs a ship decision after the corrected run, and Anna Duskova's Q3 DocuSign still needs a tier."
+      "notes": "10 open, up 1. The next optimization tranche is untouched: 15 statements in the same block, 12 on the event table and the talent dedup block. The hired_order NULL bug at line 193 is still unfixed."
     },
     {
       "id": "tribe-talks",
       "name": "Tribe Talks",
       "tier": "medium",
-      "notes": "9 open, flat. Marcel van der Meer is posting near-daily again, so the 22 September amplification needs explicit confirmation. The run of show opening question rewrite Nenad suggested is unmade."
+      "notes": "8 open, down 1. Marcel van der Meer is posting near-daily again, so the 22 September amplification needs explicit confirmation. The run of show opening question rewrite Nenad suggested is unmade."
     },
     {
       "id": "linkedin",
       "name": "LinkedIn (licenses + posting)",
       "tier": "medium",
-      "notes": "15 open, up 1. Today's post went out early, so the grading-on-AI-use post moves to Thu 3 Sep and needs an angle picked. Jelena is still 50 reach-outs short of NoIsolation's 250/week."
+      "notes": "13 open, down 2. The grading-on-AI-use post moved to Thu 3 Sep and needs one of three angles picked. Jelena is still 50 reach-outs short of NoIsolation's 250/week before Friday's reset."
     },
     {
       "id": "people-ops",
       "name": "People Ops / BambooHR",
-      "tier": "medium",
-      "notes": "18 open, flat. Wladyslaw Gadomski's last day is Fri 28 Aug, with notice-period invoicing, BambooHR financials and licence reclaim all open. The mentoring programme still has zero mentees."
+      "tier": "big",
+      "notes": "21 open, up 3. Marina Lazarevic resigned with a 14 Sep last day, adding BambooHR offboarding and her exit financials. The Lattice August survey is open and mentoring still has zero mentees."
     },
     {
       "id": "expense-ops",
       "name": "Expense Ops",
       "tier": "big",
-      "notes": "38 open, up 6. The 27 Aug accounting call added Lucia's billing-info list plus Lucie Horakova's supplier logins and 3 missing invoices. The Revolut to ABRA Flexi sync route is undecided."
+      "notes": "38 open, flat. Eva Huclova's invoice for 43.5 extra tax hours and Martin's Thailand monitor receipt both need booking. Lucie Horakova still needs supplier logins and 3 invoices are unfound."
     },
     {
       "id": "team-cohesion",
       "name": "Team cohesion",
       "tier": "medium",
-      "notes": "0 open, flat. No signal since 4 Aug, 23 days. The engagement dashboard staleness check has aged out of the task list and the first unattended run is the first Monday of September."
+      "notes": "0 open, flat. No signal since 4 Aug, 27 days. The engagement dashboard staleness check has aged out of the task list and the first unattended run is the first Monday of September."
     }
   ],
   "project_aliases": {
