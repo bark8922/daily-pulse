@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-08-31",
   "schema_version": 3,
-  "total": 415,
-  "active_count": 415,
+  "total": 319,
+  "active_count": 319,
   "archived_count": 602,
   "projects": [
     {
@@ -10653,23 +10653,6 @@
       "status": "open"
     },
     {
-      "text": "Plan travel and scheduling coordination with Martin around the Estonian entity legal document signing",
-      "project": "legal",
-      "source": "fireflies/01KZP19QZ51BP2FD826FHX01PG",
-      "source_type": "fireflies",
-      "date": "2026-08-10",
-      "confidence": "medium",
-      "extras": {
-        "meeting_title": "Blake & Martin: 1:1",
-        "attendees": "blake@tribe.xyz, martin@tribe.xyz"
-      },
-      "id": "fireflies/01KZP19QZ51BP2FD826FHX01PG/plantravelandschedulingcoordinationwithm",
-      "project_name": "Legal & Contracts",
-      "first_seen": "2026-08-10",
-      "last_seen": "2026-08-11",
-      "status": "open"
-    },
-    {
       "text": "Send Martin Bernard a short written update (a Slack message with a screenshot is enough) once the Revolut API integration is working, so he stops second-guessing which cash figure is accurate",
       "project": "fin-dash",
       "source": "slack/D0AKAPA0X3J/1786373392.591449",
@@ -10796,23 +10779,6 @@
       },
       "id": "fireflies/01KZR47QTX8S5XFGYCYFWPYC08/stoprunningrevolutfxexchangesduringweeke",
       "project_name": "Expense Ops",
-      "first_seen": "2026-08-11",
-      "last_seen": "2026-08-12",
-      "status": "open"
-    },
-    {
-      "text": "Confirm with Andrea Darabasic what Tribe's position is on Vlad's notice-period payment (paid through the 31st or the 7th) before he returns on the 24th, so she has a clear mandate for that conversation",
-      "project": "people-ops",
-      "source": "slack/D0AKAPA0X3J/1786457130.520079",
-      "source_type": "slack",
-      "date": "2026-08-11",
-      "confidence": "medium",
-      "extras": {
-        "channel": "DM with Blake Updates Bot",
-        "from": "Blake Updates Bot (People Operations post-meeting brief, 11 Aug 2026)"
-      },
-      "id": "slack/D0AKAPA0X3J/1786457130.520079",
-      "project_name": "People Ops / BambooHR",
       "first_seen": "2026-08-11",
       "last_seen": "2026-08-12",
       "status": "open"
@@ -11139,23 +11105,6 @@
       "status": "open"
     },
     {
-      "text": "Decide with Nenad Skoko and Andrea Darabasic how to run the AI topic now that Eduardo Moral has declined a dedicated working group - Nenad proposed pushing it into one of the public channels instead",
-      "project": "ai-first-working-group",
-      "source": "slack/C09154E6QNS/1786607842.677239",
-      "source_type": "slack",
-      "date": "2026-08-13",
-      "confidence": "medium",
-      "extras": {
-        "channel": "#ai-first-tribe",
-        "from": "Nenad Skoko"
-      },
-      "id": "slack/C09154E6QNS/1786607842.677239",
-      "project_name": "AI First Working Group",
-      "first_seen": "2026-08-13",
-      "last_seen": "2026-08-14",
-      "status": "open"
-    },
-    {
       "text": "Respond to Nenad Skoko's proposal to build a Candidate Information Pack for Tribe.xyz (per Andreea Lungulescu's post) and demo it to colleagues so TAs can build them for their own clients - decide yes/no and whether it belongs in the AI-First backlog",
       "project": "ai-first-working-group",
       "source": "slack/C09154E6QNS/1786542853.063429",
@@ -11298,38 +11247,6 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-14",
-      "status": "open"
-    },
-    {
-      "text": "Monitor Martin Bernard's inbox during his out-of-office day and handle urgent communications",
-      "project": "leadership",
-      "source": "fireflies/01KZTNT2PEJ594SNFHNR92NBE8",
-      "source_type": "fireflies",
-      "date": "2026-08-12",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Stand-up BD,PO,Prod,Rec"
-      },
-      "id": "fireflies/01KZTNT2PEJ594SNFHNR92NBE8/monitormartinbernardsinboxduringhisoutof",
-      "project_name": "Leadership comms",
-      "first_seen": "2026-08-12",
-      "last_seen": "2026-08-15",
-      "status": "open"
-    },
-    {
-      "text": "Walk Martin Bernard through GitHub and Claude Code branches and stay available for his technical questions on the Silver Medalist matching system",
-      "project": "ai-first-working-group",
-      "source": "fireflies/01KZNTEZ897A84PK6S64HMB0T0",
-      "source_type": "fireflies",
-      "date": "2026-08-10",
-      "confidence": "medium",
-      "extras": {
-        "meeting": "Claude: Master Sessions"
-      },
-      "id": "fireflies/01KZNTEZ897A84PK6S64HMB0T0/walkmartinbernardthroughgithubandclaudec",
-      "project_name": "AI First Working Group",
-      "first_seen": "2026-08-10",
-      "last_seen": "2026-08-15",
       "status": "open"
     },
     {
@@ -11529,23 +11446,6 @@
       "status": "open"
     },
     {
-      "text": "Collect and review the Claude Pro business cases now that the #important_updates call for them is live - run them through the AI First group, decide who gets a licence, and schedule the 90-day check-in on what people actually built",
-      "project": "ai-first-working-group",
-      "source": "slack/CKWLY0TJ8/1786716811.849639",
-      "source_type": "slack",
-      "date": "2026-08-14",
-      "confidence": "medium",
-      "extras": {
-        "channel": "important_updates",
-        "from": "Blake Barkley (own commitment)"
-      },
-      "id": "slack/CKWLY0TJ8/1786716811.849639",
-      "project_name": "AI First Working Group",
-      "first_seen": "2026-08-14",
-      "last_seen": "2026-08-17",
-      "status": "open"
-    },
-    {
       "text": "Follow up with Damla Kocek on her new insurance card - it is still at the office and she used her old card at the ER; she said she would try to stop by later in the week once recovered, and there was no online way to get her insurance number",
       "project": "people-ops",
       "source": "slack/D08J6F23EHL/1786347341.836649",
@@ -11591,22 +11491,6 @@
       "id": "cowork/local_38cad4e8-22e7-4056-95d0-ea7e408fed09/rotatethegithubpersonalaccesstokenfounds",
       "project_name": "Infra & Automation",
       "first_seen": "2026-08-15",
-      "last_seen": "2026-08-17",
-      "status": "open"
-    },
-    {
-      "text": "Go live on the Calendly replacement: swap the pricing page link in Webflow to https://book.tribe.xyz (page is live, tested end to end, a real booking routed to Salem with invite, email and HubSpot deal), and fix the nav 'Schedule a Call' button that still points at Martin's personal Calendly with month=2025-12 on the homepage, pricing and embedded-recruiting pages - it bypasses round robin so every click has been going to Martin",
-      "project": "infra",
-      "source": "cowork/local_9efe2ee4-4e23-4941-8966-2c6f1316df0f",
-      "source_type": "cowork",
-      "date": "2026-08-14",
-      "confidence": "high",
-      "extras": {
-        "session": "Calendly booking system alternative"
-      },
-      "id": "cowork/local_9efe2ee4-4e23-4941-8966-2c6f1316df0f/goliveonthecalendlyreplacementswapthepri",
-      "project_name": "Infra & Automation",
-      "first_seen": "2026-08-14",
       "last_seen": "2026-08-17",
       "status": "open"
     },
@@ -11707,71 +11591,6 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-17",
-      "status": "open"
-    },
-    {
-      "text": "Integrate the leadership revenue/profitability dashboard into Tribe's sidebar with visibility controls that hide salary data from the broader team, after Martin's feedback",
-      "project": "fin-dash",
-      "source": "fireflies/01M07ZF173NARGMQMVCJGJDB49",
-      "source_type": "fireflies",
-      "date": "2026-08-17",
-      "confidence": "high",
-      "extras": {
-        "meeting_title": "Blake & Martin: 1:1"
-      },
-      "id": "fireflies/01M07ZF173NARGMQMVCJGJDB49/integratetheleadershiprevenueprofitabili",
-      "project_name": "Tribe Financial Dashboard",
-      "first_seen": "2026-08-17",
-      "last_seen": "2026-08-18",
-      "status": "open"
-    },
-    {
-      "text": "Analyse whether Notion's user count and plan can be downgraded, and report back the token cost of replacing it with Drive-based AI queries",
-      "project": "infra",
-      "source": "fireflies/01M07V5PT3J59TD48D9Q2AGTNM",
-      "source_type": "fireflies",
-      "date": "2026-08-17",
-      "confidence": "high",
-      "extras": {
-        "meeting_title": "Claude: Master Sessions"
-      },
-      "id": "fireflies/01M07V5PT3J59TD48D9Q2AGTNM/analysewhethernotionsusercountandplancan",
-      "project_name": "Infra & Automation",
-      "first_seen": "2026-08-17",
-      "last_seen": "2026-08-18",
-      "status": "open"
-    },
-    {
-      "text": "Define next steps for internal workflow documentation and the Slack chatbot's Drive integration, including document metadata and labeling so queries return the right files",
-      "project": "tribebot",
-      "source": "fireflies/01M07V5PT3J59TD48D9Q2AGTNM",
-      "source_type": "fireflies",
-      "date": "2026-08-17",
-      "confidence": "medium",
-      "extras": {
-        "meeting_title": "Claude: Master Sessions"
-      },
-      "id": "fireflies/01M07V5PT3J59TD48D9Q2AGTNM/definenextstepsforinternalworkflowdocume",
-      "project_name": "Tribebot",
-      "first_seen": "2026-08-17",
-      "last_seen": "2026-08-18",
-      "status": "open"
-    },
-    {
-      "text": "Meet Andrea Darabasic to set up support and follow-through on development plans - action item captured from your Aug 17 1:1 with Martin Bernard (Lattice recap)",
-      "project": "people-ops",
-      "source": "gmail/1a01066ab035a20f",
-      "source_type": "gmail",
-      "date": "2026-08-17",
-      "confidence": "medium",
-      "extras": {
-        "subject": "Your recent 1:1 with Martin",
-        "from": "notifications@mg.latticehq.com"
-      },
-      "id": "gmail/1a01066ab035a20f",
-      "project_name": "People Ops / BambooHR",
-      "first_seen": "2026-08-17",
-      "last_seen": "2026-08-18",
       "status": "open"
     },
     {
@@ -11925,22 +11744,6 @@
       "status": "open"
     },
     {
-      "text": "Check the 7 n8n workflows that went stale this week (Abra PSIs, Intercompany Invoice Generator, LinkedIn License to Actual Spend, Revolut Draft Payments, Revolut Payment Reconciliation Check, Sourcer Client Assignment Append, Update Project hub reminder) - most are webhook or monthly triggered so likely idle rather than broken, and separately 5 active workflows have zero execution history so their health is unknown",
-      "project": "infra",
-      "source": "cowork/local_76d8939a-cee4-4379-a3c5-506ced5b5531",
-      "source_type": "cowork",
-      "date": "2026-08-16",
-      "confidence": "medium",
-      "extras": {
-        "session_title": "Daily pulse n8n fleet weekly"
-      },
-      "id": "cowork/local_76d8939a-cee4-4379-a3c5-506ced5b5531/checkthe7n8nworkflowsthatwentstalethiswe",
-      "project_name": "Infra & Automation",
-      "first_seen": "2026-08-16",
-      "last_seen": "2026-08-18",
-      "status": "open"
-    },
-    {
       "text": "Act on the 17 Aug job-search run's two new US picks: Chief of Staff at TAR (77, Austin on-site, founder-led off-grid power plants for AI data centres, equity plus up to $15K relocation) and Chief of Staff Enterprise Systems at NetApp (71, Morrisville NC hybrid, $129,200-192,500, lowest experience bar on either tab) - the top EU pick is the same cloro Founder's Associate role already flagged on 7 Aug",
       "project": "personal",
       "source": "cowork/local_c3d2126f-75a5-4af0-9556-1c6b13e45c9d",
@@ -11973,54 +11776,6 @@
       "status": "open"
     },
     {
-      "text": "Fix the daily-pulse schedule order so the weekly sweep runs before the morning scan - on 17 Aug the 9am scan fired first (07:24 and 07:40Z) and the sweep had to rebase onto it, so its 20 newly added tasks landed after the audit and the final open count went 322 to 239 to 259",
-      "project": "infra",
-      "source": "cowork/local_58453a64-8fc5-4f73-9818-6d0ecc91de47",
-      "source_type": "cowork",
-      "date": "2026-08-17",
-      "confidence": "medium",
-      "extras": {
-        "session_title": "Daily pulse weekly sweep"
-      },
-      "id": "cowork/local_58453a64-8fc5-4f73-9818-6d0ecc91de47/fixthedailypulsescheduleordersotheweekly",
-      "project_name": "Infra & Automation",
-      "first_seen": "2026-08-17",
-      "last_seen": "2026-08-18",
-      "status": "open"
-    },
-    {
-      "text": "Finalize the Deal contract buyout payment amount and process, pushing their rep for favorable terms or a contract-transfer option despite the slow replies",
-      "project": "expense-ops",
-      "source": "fireflies/01M0AH1T0CJ9M5QK2V340KR6YC",
-      "source_type": "fireflies",
-      "date": "2026-08-18",
-      "confidence": "high",
-      "extras": {
-        "meeting": "People Operations - Tribe Team"
-      },
-      "id": "fireflies/01M0AH1T0CJ9M5QK2V340KR6YC/finalizethedealcontractbuyoutpaymentamou",
-      "project_name": "Expense Ops",
-      "first_seen": "2026-08-18",
-      "last_seen": "2026-08-18",
-      "status": "open"
-    },
-    {
-      "text": "Contact Francesco at Revolut to explore transferring the Deal contract or leveraging a Revolut partnership instead",
-      "project": "expense-ops",
-      "source": "fireflies/01M0AH1T0CJ9M5QK2V340KR6YC",
-      "source_type": "fireflies",
-      "date": "2026-08-18",
-      "confidence": "high",
-      "extras": {
-        "meeting": "People Operations - Tribe Team"
-      },
-      "id": "fireflies/01M0AH1T0CJ9M5QK2V340KR6YC/contactfrancescoatrevoluttoexploretransf",
-      "project_name": "Expense Ops",
-      "first_seen": "2026-08-18",
-      "last_seen": "2026-08-18",
-      "status": "open"
-    },
-    {
       "text": "Work with Ella to clarify the partner referral reward terms so compensation is tied to generating paying clients",
       "project": "leadership",
       "source": "fireflies/01M0AH1T0CJ9M5QK2V340KR6YC",
@@ -12048,22 +11803,6 @@
       },
       "id": "fireflies/01M0A1JM5RGNBZV9HKH3QGSEBM/followupwithandreaoncontractbulkuploadsa",
       "project_name": "Expense Ops",
-      "first_seen": "2026-08-18",
-      "last_seen": "2026-08-18",
-      "status": "open"
-    },
-    {
-      "text": "Share the finance dashboard link with Ella and confirm she has access to the new dashboard views",
-      "project": "fin-dash",
-      "source": "fireflies/01M0A1JM5RGNBZV9HKH3QGSEBM",
-      "source_type": "fireflies",
-      "date": "2026-08-18",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Blake / Ella 1:1"
-      },
-      "id": "fireflies/01M0A1JM5RGNBZV9HKH3QGSEBM/sharethefinancedashboardlinkwithellaandc",
-      "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-08-18",
       "last_seen": "2026-08-18",
       "status": "open"
@@ -12129,23 +11868,6 @@
         "from": "martin@tribe.xyz"
       },
       "id": "gmail/1a01448496f392d9",
-      "project_name": "Legal & Contracts",
-      "first_seen": "2026-08-18",
-      "last_seen": "2026-08-18",
-      "status": "open"
-    },
-    {
-      "text": "Prepare the Tribe <> Aiven contract extension paperwork - the current contract ends early September and Kristjana has asked Katja Rantala to confirm an extension to November/December",
-      "project": "legal",
-      "source": "gmail/1a014ac3fac35f1c",
-      "source_type": "gmail",
-      "date": "2026-08-18",
-      "confidence": "medium",
-      "extras": {
-        "subject": "Tribe <> Aiven contract extension",
-        "from": "kristjana@tribe.xyz"
-      },
-      "id": "gmail/1a014ac3fac35f1c",
       "project_name": "Legal & Contracts",
       "first_seen": "2026-08-18",
       "last_seen": "2026-08-18",
@@ -12220,57 +11942,6 @@
       "status": "open"
     },
     {
-      "text": "Add the on/off toggle button to the weekly sourcer roundup so sourcers can mute the daily DM for the rest of the week - Blake committed to Jovana Drakula to ship it today, then re-test with Jovana, Gustavo Loureiro Castro and Dolores Palotas this week before the wider rollout",
-      "project": "tribebot",
-      "source": "slack/C0BRSNBB01W/1787056120.910419",
-      "source_type": "slack",
-      "date": "2026-08-18",
-      "confidence": "high",
-      "extras": {
-        "channel": "Group DM with Gustavo Loureiro Castro, Jovana Drakula and Dolores Palotas",
-        "from": "Blake Barkley"
-      },
-      "id": "slack/C0BRSNBB01W/1787056120.910419",
-      "project_name": "Tribebot",
-      "first_seen": "2026-08-18",
-      "last_seen": "2026-08-18",
-      "status": "open"
-    },
-    {
-      "text": "Close out the eSign decision with Andrea Darabasic: finish the Google eSign test, decide whether to make it the default and keep Dropbox Sign for one paid month a year for bulk contract amendments, then document it and tell Ella Darie and Andrea - Ella flagged she sends documents too and does not want to be caught out by the downgrade",
-      "project": "leadership",
-      "source": "slack/D0AKAPA0X3J/1787045764.080189",
-      "source_type": "slack",
-      "date": "2026-08-18",
-      "confidence": "medium",
-      "extras": {
-        "channel": "Blake Updates Bot DM - Blake/Ella 1:1 post-meeting brief",
-        "from": "Blake Updates Bot"
-      },
-      "id": "slack/D0AKAPA0X3J/1787045764.080189",
-      "project_name": "Leadership comms",
-      "first_seen": "2026-08-18",
-      "last_seen": "2026-08-18",
-      "status": "open"
-    },
-    {
-      "text": "Flag the Glovo pipeline risk to Martin Bernard proactively - Glovo was excluded from the Delivery Hero acquisition and has slashed headcount; get Salem Mansuri's read on whether Anya's confirmation changes the revenue forecast and whether Jacopo Lupo Ferrari needs visibility",
-      "project": "leadership",
-      "source": "slack/D0AKAPA0X3J/1786960231.172119",
-      "source_type": "slack",
-      "date": "2026-08-17",
-      "confidence": "medium",
-      "extras": {
-        "channel": "Blake Updates Bot DM - WBR Delivery Only post-meeting brief",
-        "from": "Blake Updates Bot"
-      },
-      "id": "slack/D0AKAPA0X3J/1786960231.172119",
-      "project_name": "Leadership comms",
-      "first_seen": "2026-08-17",
-      "last_seen": "2026-08-18",
-      "status": "open"
-    },
-    {
       "text": "Follow up with Ella Darie on the three partnership meetings she has booked this week (Germany and Sweden companies) - find out exactly what deal terms Martin Bernard already offered informally so she has a clear mandate going in, and agree what Blake should be tracking",
       "project": "leadership",
       "source": "slack/D0AKAPA0X3J/1787061188.157429",
@@ -12332,22 +12003,6 @@
       },
       "id": "cowork/local_02f47957-d50e-43ec-8cfa-ee500bc23113/closeoutthejuiceboxaitrialafterthemeetin",
       "project_name": "Roundup & Intake (AI recruiting tools)",
-      "first_seen": "2026-08-18",
-      "last_seen": "2026-08-18",
-      "status": "open"
-    },
-    {
-      "text": "Decide whether Tijana gets access to the leadership BU dashboard - she is a BU lead but is not on the worker allowlist, which now holds only blake, martin, jacopo, salem, kristjana and ella; it is a one-line change in bark8922/tribe-dashboard-leaders",
-      "project": "leadership",
-      "source": "cowork/local_601dc43e-be05-4dea-b5b5-9f05a713eb76",
-      "source_type": "cowork",
-      "date": "2026-08-18",
-      "confidence": "medium",
-      "extras": {
-        "session": "Leadership dashboard deployment"
-      },
-      "id": "cowork/local_601dc43e-be05-4dea-b5b5-9f05a713eb76/decidewhethertijanagetsaccesstotheleader",
-      "project_name": "Leadership comms",
       "first_seen": "2026-08-18",
       "last_seen": "2026-08-18",
       "status": "open"
@@ -12417,23 +12072,6 @@
       "status": "open"
     },
     {
-      "text": "Complete the 4 pre-filled CEE Attorneys insurance broker questionnaires (obecna odpovednost, DO 2026, USA/Canada liability, SMART_LIABILITY xlsx) with Eva Huclova/Boris and tell Alexandra Kabrtova whether territorial cover should be worldwide excluding or including USA and Canada - PI cover is due by 5 October 2026 under the Voize contract",
-      "project": "legal",
-      "source": "gmail/1a013eaabd0c7912",
-      "source_type": "gmail",
-      "date": "2026-08-19",
-      "confidence": "high",
-      "extras": {
-        "subject": "RE: Company Insurance",
-        "from": "alexandra.kabrtova@ceeatt.com"
-      },
-      "id": "gmail/1a013eaabd0c7912",
-      "project_name": "Legal & Contracts",
-      "first_seen": "2026-08-18",
-      "last_seen": "2026-08-19",
-      "status": "open"
-    },
-    {
       "text": "Start the stage-funnel transform and dashboard build per STAGE_FUNNEL_BUILD_PLAN.md - the watch job just tripped: 33 events/29 candidates into Interview 1, 15/14 into Interview 2, 11/10 into Interview 3, first event 2026-07-22 and still moving on 2026-08-18, with 23 candidates sitting in the new stages and 14 jobs configured",
       "project": "rec-dash",
       "source": "cowork/local_d8aecc04-b8c4-4c66-bb6d-affb108b88cc",
@@ -12446,38 +12084,6 @@
       "id": "cowork/local_d8aecc04-b8c4-4c66-bb6d-affb108b88cc/startthestagefunneltransformanddashboard",
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-08-19",
-      "last_seen": "2026-08-19",
-      "status": "open"
-    },
-    {
-      "text": "Agree the Tribe Talk promo plan with Marcel directly instead of assuming he will amplify - he has now gone two silent weeks on LinkedIn with no post since 30 July, and promo is meant to start 22 September; ask him on the 18 September call what he plans to publish in the run-up and whether he wants material from the run of show",
-      "project": "tribe-talks",
-      "source": "cowork/local_beeeb594-c73b-4b90-8946-6b8a3207a4c9",
-      "source_type": "cowork",
-      "date": "2026-08-17",
-      "confidence": "high",
-      "extras": {
-        "session": "Marcel linkeding research"
-      },
-      "id": "cowork/local_beeeb594-c73b-4b90-8946-6b8a3207a4c9/agreethetribetalkpromoplanwithmarceldire",
-      "project_name": "Tribe Talks",
-      "first_seen": "2026-08-17",
-      "last_seen": "2026-08-19",
-      "status": "open"
-    },
-    {
-      "text": "Repoint the Marcel LinkedIn weekly task file at the Notion LinkedIn Activity Log subpage (3b43de198f5e8194bc86cdbfedc6e84c) and drop the 'What's landing on his LinkedIn lately' step - that Session Ideas section no longer exists in the restructured hub, so the task is writing against a heading that is gone",
-      "project": "tribe-talks",
-      "source": "cowork/local_beeeb594-c73b-4b90-8946-6b8a3207a4c9",
-      "source_type": "cowork",
-      "date": "2026-08-17",
-      "confidence": "medium",
-      "extras": {
-        "session": "Marcel linkeding research"
-      },
-      "id": "cowork/local_beeeb594-c73b-4b90-8946-6b8a3207a4c9/repointthemarcellinkedinweeklytaskfileat",
-      "project_name": "Tribe Talks",
-      "first_seen": "2026-08-17",
       "last_seen": "2026-08-19",
       "status": "open"
     },
@@ -12562,86 +12168,6 @@
       "status": "open"
     },
     {
-      "text": "Decide with Michal who implements Nenad Skoko's taxonomy/job-category updates in the platform backend once his cleanup spreadsheet (80-85% done) is finalized",
-      "project": "ai-first-working-group",
-      "source": "fireflies/01M0D0V1CVDJZQ0DR5Q60PVV8Y",
-      "source_type": "fireflies",
-      "date": "2026-08-19",
-      "confidence": "high",
-      "extras": {
-        "meeting": "AI First"
-      },
-      "id": "fireflies/01M0D0V1CVDJZQ0DR5Q60PVV8Y/decidewithmichalwhoimplementsnenadskokos",
-      "project_name": "AI First Working Group",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-08-19",
-      "status": "open"
-    },
-    {
-      "text": "Announce the Tribe bot data-integration updates and push internal adoption, including at Friday's team meeting",
-      "project": "tribebot",
-      "source": "fireflies/01M0D0V1CVDJZQ0DR5Q60PVV8Y",
-      "source_type": "fireflies",
-      "date": "2026-08-19",
-      "confidence": "high",
-      "extras": {
-        "meeting": "AI First"
-      },
-      "id": "fireflies/01M0D0V1CVDJZQ0DR5Q60PVV8Y/announcethetribebotdataintegrationupdate",
-      "project_name": "Tribebot",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-08-19",
-      "status": "open"
-    },
-    {
-      "text": "Get Andrea Darabasic's bench file (client assignments, bench status, language skills) and load it into Tribe bot for client and availability queries",
-      "project": "tribebot",
-      "source": "fireflies/01M0D0V1CVDJZQ0DR5Q60PVV8Y",
-      "source_type": "fireflies",
-      "date": "2026-08-19",
-      "confidence": "high",
-      "extras": {
-        "meeting": "AI First"
-      },
-      "id": "fireflies/01M0D0V1CVDJZQ0DR5Q60PVV8Y/getandreadarabasicsbenchfileclientassign",
-      "project_name": "Tribebot",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-08-19",
-      "status": "open"
-    },
-    {
-      "text": "Re-advertise the available Claude Pro licenses to the team and collect the names of interested members, given low current adoption",
-      "project": "ai-first-working-group",
-      "source": "fireflies/01M0D0V1CVDJZQ0DR5Q60PVV8Y",
-      "source_type": "fireflies",
-      "date": "2026-08-19",
-      "confidence": "medium",
-      "extras": {
-        "meeting": "AI First"
-      },
-      "id": "fireflies/01M0D0V1CVDJZQ0DR5Q60PVV8Y/readvertisetheavailableclaudeprolicenses",
-      "project_name": "AI First Working Group",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-08-19",
-      "status": "open"
-    },
-    {
-      "text": "Schedule live Tribe bot demo sessions and showcase creative use cases in team meetings and working groups",
-      "project": "tribebot",
-      "source": "fireflies/01M0D0V1CVDJZQ0DR5Q60PVV8Y",
-      "source_type": "fireflies",
-      "date": "2026-08-19",
-      "confidence": "medium",
-      "extras": {
-        "meeting": "AI First"
-      },
-      "id": "fireflies/01M0D0V1CVDJZQ0DR5Q60PVV8Y/schedulelivetribebotdemosessionsandshowc",
-      "project_name": "Tribebot",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-08-19",
-      "status": "open"
-    },
-    {
       "text": "Build the monthly survey-conversation checklist with Ella Darie, mirroring the OKR checklist format, before survey conversations become mandatory on September 16",
       "project": "people-ops",
       "source": "fireflies/01M0CTV8E03TT0447A3S2KSZF8",
@@ -12653,38 +12179,6 @@
       },
       "id": "fireflies/01M0CTV8E03TT0447A3S2KSZF8/buildthemonthlysurveyconversationcheckli",
       "project_name": "People Ops / BambooHR",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-08-19",
-      "status": "open"
-    },
-    {
-      "text": "Connect the dashboards to the Drive Bot so teams can query data directly in Slack, then promote the commands to the teams",
-      "project": "tribebot",
-      "source": "fireflies/01M0CPMH5AVEW2C64WNY05FC6G",
-      "source_type": "fireflies",
-      "date": "2026-08-19",
-      "confidence": "high",
-      "extras": {
-        "meeting": "OKR Check-in - Stand-up: Delivery, People, BD"
-      },
-      "id": "fireflies/01M0CPMH5AVEW2C64WNY05FC6G/connectthedashboardstothedrivebotsoteams",
-      "project_name": "Tribebot",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-08-19",
-      "status": "open"
-    },
-    {
-      "text": "Add pipeline usage percentage metrics and a non-user flag to the dashboard so Jacopo, Chris and Salem can enforce ATS pipeline compliance from September 1",
-      "project": "rec-dash",
-      "source": "fireflies/01M0CPMH5AVEW2C64WNY05FC6G",
-      "source_type": "fireflies",
-      "date": "2026-08-19",
-      "confidence": "high",
-      "extras": {
-        "meeting": "OKR Check-in - Stand-up: Delivery, People, BD"
-      },
-      "id": "fireflies/01M0CPMH5AVEW2C64WNY05FC6G/addpipelineusagepercentagemetricsandanon",
-      "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-08-19",
       "last_seen": "2026-08-19",
       "status": "open"
@@ -12702,23 +12196,6 @@
       },
       "id": "gmail/1a0197b83a7d453c",
       "project_name": "Expense Ops",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-08-19",
-      "status": "open"
-    },
-    {
-      "text": "Close out the Jacopo and Ella payouts: go back to Martin and Ella since neither CEE Attorneys nor Boris Gnoth Tax holds any signed profit-share agreement for Ella (Manuela Darie), decide whether to execute the Jacopo share-purchase amendment (Annex 1 call-option pricing, needs verified signatures from Martin and Jacopo), and push Boris to release the 2026 documentation drafts Alexandra Kabrtova is waiting on",
-      "project": "legal",
-      "source": "gmail/1a013f464e148030",
-      "source_type": "gmail",
-      "date": "2026-08-19",
-      "confidence": "high",
-      "extras": {
-        "subject": "RE: Jacopo and Ella Payout",
-        "from": "alexandra.kabrtova@ceeatt.com"
-      },
-      "id": "gmail/1a013f464e148030",
-      "project_name": "Legal & Contracts",
       "first_seen": "2026-08-19",
       "last_seen": "2026-08-19",
       "status": "open"
@@ -12753,23 +12230,6 @@
       },
       "id": "slack/D0577RU8WQ1/1787146635.842539",
       "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-08-19",
-      "status": "open"
-    },
-    {
-      "text": "Turn the intake tool back on once Andreea Vrancianu's transcriber fix ships (Rodrigo Gomes expects release 20 Aug), make the recruiter-screen vs intake UI call yourself, and confirm to Martin Bernard, Jacopo Lupo Ferrari and Ella Darie that it is live - Martin asked directly in the OKR stand-up when it would be switched on",
-      "project": "ai-recruiting",
-      "source": "slack/C0ASLKVG07N/1787132698.832979",
-      "source_type": "slack",
-      "date": "2026-08-19",
-      "confidence": "high",
-      "extras": {
-        "channel": "Group DM with Mikhail Kuzmin and Rodrigo Gomes",
-        "from": "Blake Barkley / Rodrigo Gomes"
-      },
-      "id": "slack/C0ASLKVG07N/1787132698.832979",
-      "project_name": "Roundup & Intake (AI recruiting tools)",
       "first_seen": "2026-08-19",
       "last_seen": "2026-08-19",
       "status": "open"
@@ -12922,38 +12382,6 @@
       "status": "open"
     },
     {
-      "text": "Turn the intake tool back on later this week with the UI improvements that visually distinguish a recruiter screen from an intake",
-      "project": "ai-recruiting",
-      "source": "fireflies/01M0CPMH5AVEW2C64WNY05FC6G",
-      "source_type": "fireflies",
-      "date": "2026-08-19",
-      "confidence": "high",
-      "extras": {
-        "meeting": "OKR Check-in - Stand-up: Delivery, People, BD"
-      },
-      "id": "fireflies/01M0CPMH5AVEW2C64WNY05FC6G/turntheintaketoolbackonlaterthisweekwith",
-      "project_name": "Roundup & Intake (AI recruiting tools)",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-08-20",
-      "status": "open"
-    },
-    {
-      "text": "Move the TA roles update process fully onto the Voice version next week to make it easier to use and improve the data collected",
-      "project": "ai-recruiting",
-      "source": "fireflies/01M0CPMH5AVEW2C64WNY05FC6G",
-      "source_type": "fireflies",
-      "date": "2026-08-19",
-      "confidence": "high",
-      "extras": {
-        "meeting": "OKR Check-in - Stand-up: Delivery, People, BD"
-      },
-      "id": "fireflies/01M0CPMH5AVEW2C64WNY05FC6G/movethetarolesupdateprocessfullyontothev",
-      "project_name": "Roundup & Intake (AI recruiting tools)",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-08-20",
-      "status": "open"
-    },
-    {
       "text": "Keep working the accountants and lawyers on the payout and profit process, and give them the data needed to finalise payout timing once compliance checks clear",
       "project": "fin-dash",
       "source": "fireflies/01M0A1JM5RGNBZV9HKH3QGSEBM",
@@ -12982,74 +12410,6 @@
       },
       "id": "gmail/1a01b1ba58fb3c7e",
       "project_name": "Expense Ops",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-08-20",
-      "status": "open"
-    },
-    {
-      "text": "Approve or decline Vladimir Stankovic's Perk trip 43975133 - Helsinki flight Sept 7 plus Split return, EUR 369.23 total, billed to Apix Consultants on the Tribe.xyz Czech - Travel card",
-      "project": "expense-ops",
-      "source": "gmail/1a01b49b09ffd22a",
-      "source_type": "gmail",
-      "date": "2026-08-19",
-      "confidence": "high",
-      "extras": {
-        "subject": "Vladimir Stankovic has requested trip 43975133 - Flight to Helsinki",
-        "from": "agent@perk.com"
-      },
-      "id": "gmail/1a01b49b09ffd22a",
-      "project_name": "Expense Ops",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-08-20",
-      "status": "open"
-    },
-    {
-      "text": "Decide how to handle the Deel overdue-payment notice: the disputed $471.45 Deel Fees & Services invoice (Order Form Q-39879) went past due on Aug 16 and Deel is warning about account disruption - either pay it or push Justin Fregona for the commitment-break answer he promised",
-      "project": "expense-ops",
-      "source": "gmail/1a01768099cdc8f3",
-      "source_type": "gmail",
-      "date": "2026-08-19",
-      "confidence": "medium",
-      "extras": {
-        "subject": "Immediate Action Required: Overdue Payments",
-        "from": "no-reply@deel.support"
-      },
-      "id": "gmail/1a01768099cdc8f3",
-      "project_name": "Expense Ops",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-08-20",
-      "status": "open"
-    },
-    {
-      "text": "Enable Row-Level Security on the publicly accessible table in the Supabase project tribe-job-intel (garopkilxgpcmlkiqvbg) - Supabase flagged it as a critical rls_disabled_in_public issue meaning anyone with the project URL can read, edit and delete the data",
-      "project": "infra",
-      "source": "gmail/1a0165b4dabdd70f",
-      "source_type": "gmail",
-      "date": "2026-08-18",
-      "confidence": "medium",
-      "extras": {
-        "subject": "Action required: security vulnerabilities detected in your projects",
-        "from": "noreply@supabase.com"
-      },
-      "id": "gmail/1a0165b4dabdd70f",
-      "project_name": "Infra & Automation",
-      "first_seen": "2026-08-18",
-      "last_seen": "2026-08-20",
-      "status": "open"
-    },
-    {
-      "text": "Add rejection-reasons-per-stage to TribeBot (e.g. how many candidates were rejected at the 'Moved to ATS' stage) - Gustavo asked, Blake said he'd add another table to the bot query and look at it",
-      "project": "tribebot",
-      "source": "slack/D058MHYDUBA/1787151027.123609",
-      "source_type": "slack",
-      "date": "2026-08-19",
-      "confidence": "high",
-      "extras": {
-        "channel": "DM with Gustavo Loureiro Castro",
-        "from": "Gustavo Loureiro Castro"
-      },
-      "id": "slack/D058MHYDUBA/1787151027.123609",
-      "project_name": "Tribebot",
       "first_seen": "2026-08-19",
       "last_seen": "2026-08-20",
       "status": "open"
@@ -13089,56 +12449,6 @@
       "status": "open"
     },
     {
-      "text": "Shut down the Dropbox Sign subscription and move People Ops over to Google eSign",
-      "project": "people-ops",
-      "source": "slack/C05R5DS9S2J/1787140774.265549",
-      "source_type": "slack",
-      "date": "2026-08-19",
-      "confidence": "medium",
-      "extras": {
-        "channel": "#people-ops",
-        "from": "Blake Barkley (own commitment)"
-      },
-      "id": "slack/C05R5DS9S2J/1787140774.265549",
-      "project_name": "People Ops / BambooHR",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-08-20",
-      "status": "open"
-    },
-    {
-      "text": "Get Martin a definitive answer on Estonian substance requirements - whether the entity needs a local hire or whether a freelancer in a WeWork is enough to avoid being refused an Estonian VAT number",
-      "project": "legal",
-      "source": "slack/D055NJ27YRY/1787050864.179139",
-      "source_type": "slack",
-      "date": "2026-08-18",
-      "confidence": "high",
-      "extras": {
-        "channel": "DM with Martin Bernard",
-        "from": "Martin Bernard"
-      },
-      "id": "slack/D055NJ27YRY/1787050864.179139",
-      "project_name": "Legal & Contracts",
-      "first_seen": "2026-08-18",
-      "last_seen": "2026-08-20",
-      "status": "open"
-    },
-    {
-      "text": "Post the rewritten AI First working group recruitment ask in Slack - the final version is drafted in chat after several rewrites but nothing has been sent, and it still needs the Friday post link dropped in; the earlier post has produced zero applicants for the one open seat",
-      "project": "ai-first-working-group",
-      "source": "cowork/local_e64387be-91d2-4703-abb4-438d5f6b601d",
-      "source_type": "cowork",
-      "date": "2026-08-19",
-      "confidence": "high",
-      "extras": {
-        "session": "Working group agenda"
-      },
-      "id": "cowork/local_e64387be-91d2-4703-abb4-438d5f6b601d/posttherewrittenaifirstworkinggrouprecru",
-      "project_name": "AI First Working Group",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-08-20",
-      "status": "open"
-    },
-    {
       "text": "Chase the role owners the new role-tracker Owners tab flags as not using the interview stages - Mateja Jokovic (3 roles, 3 gap roles), Fuad Safarov (2 gaps) and Elena Petrovska (1 gap), all with candidates past Move to ATS and nobody tracked into an interview stage - and answer the open build question of whether the Follow-up badge should fire at 1+ or 2+ gap roles (only 14 of 42 active roles, 33%, show any interview movement)",
       "project": "rec-dash",
       "source": "cowork/local_89e12d9a-7afe-463f-bd7e-dc5d343a365b",
@@ -13150,22 +12460,6 @@
       },
       "id": "cowork/local_89e12d9a-7afe-463f-bd7e-dc5d343a365b/chasetheroleownersthenewroletrackerowner",
       "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-08-19",
-      "last_seen": "2026-08-20",
-      "status": "open"
-    },
-    {
-      "text": "Send the drafted reply to Alexandra, Boris and Eva on the shareholder profit distributions - attach the signed Ella agreement and ask Alexandra what it actually grants her on profit share, and ask for the full history on Jacopo (what was prepared, what was signed, what was not, and whether anything is owed from 2025 given no profit was distributed). Alexandra has confirmed Jacopo's 5% holds from law and the Articles regardless of the unsigned call-option amendment, so that thread is closed, but the 2026 documentation is still stuck waiting on figures and instructions from Boris and Eva and needs a committed date from each side - the 13 August signing window was missed and Martin is now back in Thailand",
-      "project": "legal",
-      "source": "cowork/local_bc9b97eb-b72f-45ee-a5ef-15e76595b17c",
-      "source_type": "cowork",
-      "date": "2026-08-19",
-      "confidence": "high",
-      "extras": {
-        "session": "Tax residency updates"
-      },
-      "id": "cowork/local_bc9b97eb-b72f-45ee-a5ef-15e76595b17c/sendthedraftedreplytoalexandraborisandev",
-      "project_name": "Legal & Contracts",
       "first_seen": "2026-08-19",
       "last_seen": "2026-08-20",
       "status": "open"
@@ -13183,22 +12477,6 @@
       "id": "cowork/local_38cad4e8-22e7-4056-95d0-ea7e408fed09/recategorisethefiveremainingcategorizerr",
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-08-18",
-      "last_seen": "2026-08-20",
-      "status": "open"
-    },
-    {
-      "text": "Produce a report of total open roles versus roles tracked in the new ATS pipeline, including role open dates, so Jacopo and Salem can identify evergreen roles and prioritize cleanup before the September grace-period deadline",
-      "project": "rec-dash",
-      "source": "fireflies/01M0FRCBTXH58E9F28H1PBCDFV",
-      "source_type": "fireflies",
-      "date": "2026-08-20",
-      "confidence": "high",
-      "extras": {
-        "meeting": "OKRs Dashboards"
-      },
-      "id": "fireflies/01M0FRCBTXH58E9F28H1PBCDFV/produceareportoftotalopenrolesversusrole",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-08-20",
       "last_seen": "2026-08-20",
       "status": "open"
     },
@@ -13336,38 +12614,6 @@
       "status": "open"
     },
     {
-      "text": "Finish the Tribe insurance questionnaire pack Claude built as an 8-tab workbook: decide the US/Canada exposure answer once (it drives six questions across all four documents and one whole document exists only because of it), settle the IT_PI section 2 split between rows 2.24 (outsourcing own specialists) and 2.25 (recruitment services) since that table prices the professional indemnity, and supply the details left blank - registration number, address, founding date, financial figures, headcount, subsidiaries - so the three fillable PDFs can be completed",
-      "project": "legal",
-      "source": "cowork/local_1e0f6448-fe88-4b0f-9ded-d1544d3257c7",
-      "source_type": "cowork",
-      "date": "2026-08-20",
-      "confidence": "high",
-      "extras": {
-        "session": "Insurance questionnaire review"
-      },
-      "id": "cowork/local_1e0f6448-fe88-4b0f-9ded-d1544d3257c7/finishthetribeinsurancequestionnairepack",
-      "project_name": "Legal & Contracts",
-      "first_seen": "2026-08-20",
-      "last_seen": "2026-08-20",
-      "status": "open"
-    },
-    {
-      "text": "Answer the three insurance items Claude deliberately left to you: confirm the D&O eligibility statement and Generali's 'no claims in three years' declaration yourself, ask the broker whether the UCETNI_PI tab (which asks whether Tribe is an accounting or audit firm - it is not) can be dropped from the submission, and quote the actual liability cap and consequential-loss exclusion from the standard client agreement at tab 2 row 5.6 since insurers price that down",
-      "project": "legal",
-      "source": "cowork/local_1e0f6448-fe88-4b0f-9ded-d1544d3257c7",
-      "source_type": "cowork",
-      "date": "2026-08-20",
-      "confidence": "medium",
-      "extras": {
-        "session": "Insurance questionnaire review"
-      },
-      "id": "cowork/local_1e0f6448-fe88-4b0f-9ded-d1544d3257c7/answerthethreeinsuranceitemsclaudedelibe",
-      "project_name": "Legal & Contracts",
-      "first_seen": "2026-08-20",
-      "last_seen": "2026-08-20",
-      "status": "open"
-    },
-    {
       "text": "Decide with Andrea Darabasic and Mikhail Kuzmin how to actually enforce archiving of leftover roles in the dashboard when someone leaves - the BambooHR offboarding task exists but sits with team leads who are not doing it; Andrea can reassign it to the leaver themselves or to one person (Blake or Mikhail, not both), and Mikhail says Bubble needs an entry point that signals the user is archived",
       "project": "rec-dash",
       "source": "slack/C0BR4567LBZ/1787237636.911689",
@@ -13398,22 +12644,6 @@
       "id": "slack/C0BR2UYLWR5/1787228400.092999",
       "project_name": "Expense Ops",
       "first_seen": "2026-08-20",
-      "last_seen": "2026-08-21",
-      "status": "open"
-    },
-    {
-      "text": "Get the new role-tracker Coverage tab actually populated - the Keboola MCP token returns 401 Invalid access token from the job queue, so the transform was created and wired but never run; the tab is live and self-hiding until flow 118392817 runs at 08:15 Prague or someone hits Run in the Keboola UI. Reads and config writes work, so it is a job-run permission gap on the token, not a dead token, and it is worth fixing separately.",
-      "project": "rec-dash",
-      "source": "cowork/local_eb1abe4a-864a-433a-b919-9f2f8782c721",
-      "source_type": "cowork",
-      "date": "2026-08-21",
-      "confidence": "high",
-      "extras": {
-        "session": "OKRs dashboards meeting summary"
-      },
-      "id": "cowork/local_eb1abe4a-864a-433a-b919-9f2f8782c721/getthenewroletrackercoveragetabactuallyp",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-08-21",
       "last_seen": "2026-08-21",
       "status": "open"
     },
@@ -13514,22 +12744,6 @@
       "status": "open"
     },
     {
-      "text": "Eyeball the AI First Working Group Meetings Notion page to confirm the 19/08/2026 recap actually landed - the verification grep hit a stale cached copy, so the only evidence it saved is the update call returning success",
-      "project": "ai-first-working-group",
-      "source": "cowork/local_0867b9a2-73d3-4b3d-a22a-4bb7c34df6a9",
-      "source_type": "cowork",
-      "date": "2026-08-20",
-      "confidence": "medium",
-      "extras": {
-        "session": "Ai first weekly notion update"
-      },
-      "id": "cowork/local_0867b9a2-73d3-4b3d-a22a-4bb7c34df6a9/eyeballtheaifirstworkinggroupmeetingsnot",
-      "project_name": "AI First Working Group",
-      "first_seen": "2026-08-20",
-      "last_seen": "2026-08-21",
-      "status": "open"
-    },
-    {
       "text": "Lock down the Notion PPR Database before any guest conversion happens - it holds named individual performance reviews, manager verdicts, client termination reasons and a \"Terminated?\" property, and it sits under People HomeSpace alongside half the staff-facing People content, so sharing that root to make the handbook reachable exposes it. The Notion API returns no permission data at all, so someone has to check the current restriction by hand.",
       "project": "people-ops",
       "source": "cowork/local_3a6c4f97-4199-4165-b8ec-0dd5ac9f21d3",
@@ -13562,71 +12776,6 @@
       "status": "open"
     },
     {
-      "text": "Check how the Slack ingestion bot is wired against Notion - if it holds a broad workspace token rather than respecting per-user permissions, it can already answer questions from the PPR Database and the financial pages for anyone who asks, which makes that a live issue now rather than a migration one",
-      "project": "tribebot",
-      "source": "cowork/local_3a6c4f97-4199-4165-b8ec-0dd5ac9f21d3",
-      "source_type": "cowork",
-      "date": "2026-08-20",
-      "confidence": "high",
-      "extras": {
-        "session": "Notion cost reduction options"
-      },
-      "id": "cowork/local_3a6c4f97-4199-4165-b8ec-0dd5ac9f21d3/checkhowtheslackingestionbotiswiredagain",
-      "project_name": "Tribebot",
-      "first_seen": "2026-08-20",
-      "last_seen": "2026-08-21",
-      "status": "open"
-    },
-    {
-      "text": "Encourage the team to test the Tribe Bot and intake tool and collect their feedback",
-      "project": "tribebot",
-      "source": "fireflies/01M0J95236A1RDKBEJG3SNXPJQ",
-      "source_type": "fireflies",
-      "date": "2026-08-21",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Friday Team Meeting"
-      },
-      "id": "fireflies/01M0J95236A1RDKBEJG3SNXPJQ/encouragetheteamtotestthetribebotandinta",
-      "project_name": "Tribebot",
-      "first_seen": "2026-08-21",
-      "last_seen": "2026-08-21",
-      "status": "open"
-    },
-    {
-      "text": "Monitor email for urgent business development communications on Martin's behalf",
-      "project": "leadership",
-      "source": "fireflies/01M0J95236A1RDKBEJG3SNXPJQ",
-      "source_type": "fireflies",
-      "date": "2026-08-21",
-      "confidence": "medium",
-      "extras": {
-        "meeting": "Friday Team Meeting"
-      },
-      "id": "fireflies/01M0J95236A1RDKBEJG3SNXPJQ/monitoremailforurgentbusinessdevelopment",
-      "project_name": "Leadership comms",
-      "first_seen": "2026-08-21",
-      "last_seen": "2026-08-21",
-      "status": "open"
-    },
-    {
-      "text": "Approve or decline Fuad Safarov's Perk trip 44044140 (flight to Helsinki departing September 7)",
-      "project": "expense-ops",
-      "source": "gmail/1a0244189c117538",
-      "source_type": "gmail",
-      "date": "2026-08-21",
-      "confidence": "high",
-      "extras": {
-        "subject": "Fuad Safarov has requested trip 44044140 - Flight to Helsinki",
-        "from": "agent@perk.com"
-      },
-      "id": "gmail/1a0244189c117538",
-      "project_name": "Expense Ops",
-      "first_seen": "2026-08-21",
-      "last_seen": "2026-08-21",
-      "status": "open"
-    },
-    {
       "text": "Find out who turned 2-Step Verification off on the shared team@tribe.xyz Google account on Aug 20 and re-enable it",
       "project": "infra",
       "source": "gmail/1a0205c951f0a566",
@@ -13644,57 +12793,6 @@
       "status": "open"
     },
     {
-      "text": "Build Sashka's silver-medalist introductions dashboard (intros per week, request-to-intro time, totals, funnel conversion, intro-to-hire time) once she confirms the intro definition and the interview/offer/hire update process",
-      "project": "rec-dash",
-      "source": "slack/C0BSMMLHMDE/1787311500.707089",
-      "source_type": "slack",
-      "date": "2026-08-21",
-      "confidence": "high",
-      "extras": {
-        "channel": "Group DM (Martin Bernard, Sashka Sarafinovska)",
-        "from": "Sashka Sarafinovska"
-      },
-      "id": "slack/C0BSMMLHMDE/1787311500.707089",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-08-21",
-      "last_seen": "2026-08-21",
-      "status": "open"
-    },
-    {
-      "text": "Fix the recruiting dashboard to group Moved-to-ATS by the ATS event date instead of date_interview, which gets overwritten when a candidate moves to Interview 1 and shifts the count into the wrong week",
-      "project": "rec-dash",
-      "source": "slack/D0577RU8WQ1/1787312976.933919",
-      "source_type": "slack",
-      "date": "2026-08-21",
-      "confidence": "high",
-      "extras": {
-        "channel": "DM",
-        "from": "Mikhail Kuzmin"
-      },
-      "id": "slack/D0577RU8WQ1/1787312976.933919",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-08-21",
-      "last_seen": "2026-08-21",
-      "status": "open"
-    },
-    {
-      "text": "Redistribute the intake task force teams now that the intake tool is back on, with tracking restarting Monday",
-      "project": "project-hub",
-      "source": "slack/C0BD4MNA6SC/1787315935.140179",
-      "source_type": "slack",
-      "date": "2026-08-21",
-      "confidence": "medium",
-      "extras": {
-        "channel": "#intake-task-force",
-        "from": "Blake Barkley"
-      },
-      "id": "slack/C0BD4MNA6SC/1787315935.140179",
-      "project_name": "Project Hub",
-      "first_seen": "2026-08-21",
-      "last_seen": "2026-08-21",
-      "status": "open"
-    },
-    {
       "text": "Announce at the Friday meeting that the intake tool is live again and ask everyone to manually update the Tribe Chrome extension",
       "project": "project-hub",
       "source": "slack/C0ASLKVG07N/1787310640.987909",
@@ -13707,23 +12805,6 @@
       },
       "id": "slack/C0ASLKVG07N/1787310640.987909",
       "project_name": "Project Hub",
-      "first_seen": "2026-08-21",
-      "last_seen": "2026-08-21",
-      "status": "open"
-    },
-    {
-      "text": "Answer the InMail budget question in the all-hands Q&A - cover the financial side (licences include 100 InMails, 250/cycle cap, extra purchases case-by-case via TL or Director) while Jacopo covers alternatives",
-      "project": "linkedin",
-      "source": "slack/C052MERDLNM/1787312435.739539",
-      "source_type": "slack",
-      "date": "2026-08-21",
-      "confidence": "medium",
-      "extras": {
-        "channel": "#directors",
-        "from": "Ella Darie"
-      },
-      "id": "slack/C052MERDLNM/1787312435.739539",
-      "project_name": "LinkedIn (licenses + posting)",
       "first_seen": "2026-08-21",
       "last_seen": "2026-08-21",
       "status": "open"
@@ -13795,22 +12876,6 @@
       "status": "open"
     },
     {
-      "text": "Send Sashka the drafted message confirming what counts as an intro and how interview/offer/hired updates will reach us before building the silver-medalist tracker",
-      "project": "rec-dash",
-      "source": "cowork/local_a9499c40-8cb6-44ea-8ba8-641e4c756711",
-      "source_type": "cowork",
-      "date": "2026-08-21",
-      "confidence": "high",
-      "extras": {
-        "session": "Silver-medalist project dashboard"
-      },
-      "id": "cowork/local_a9499c40-8cb6-44ea-8ba8-641e4c756711/sendsashkathedraftedmessageconfirmingwha",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-08-21",
-      "last_seen": "2026-08-21",
-      "status": "open"
-    },
-    {
       "text": "Start the recruiting stage-funnel transform and dashboard build per STAGE_FUNNEL_BUILD_PLAN.md now that candidates are moving through Interview 1/2/3",
       "project": "rec-dash",
       "source": "cowork/local_c12e125e-8168-4de7-bbea-a59d16fba94f",
@@ -13827,39 +12892,6 @@
       "status": "open"
     },
     {
-      "text": "Set up OBS with separate mic and desktop audio tracks and run a test recording before the Tuesday Teams call",
-      "project": "inbox",
-      "source": "cowork/local_8766c5c1-fc6d-466b-8b8d-b45415603a3f",
-      "source_type": "cowork",
-      "date": "2026-08-21",
-      "confidence": "medium",
-      "extras": {
-        "session": "Teams transcription tools"
-      },
-      "id": "cowork/local_8766c5c1-fc6d-466b-8b8d-b45415603a3f/setupobswithseparatemicanddesktopaudiotr",
-      "project_name": "Needs sorting",
-      "first_seen": "2026-08-21",
-      "last_seen": "2026-08-21",
-      "status": "open"
-    },
-    {
-      "text": "Email David Rademaker (davidrademaker1992@gmail.com) from Martin Bernard's inbox once Lynsey replies - say Blake is writing on Martin's behalf and either that Lynsey is not moving ahead or that she wants to work with him and Martin will follow up with details; write nothing if Lynsey's answer is inconclusive",
-      "project": "leadership",
-      "source": "slack/D055NJ27YRY/1787323768.830539",
-      "source_type": "slack",
-      "date": "2026-08-21",
-      "confidence": "high",
-      "extras": {
-        "channel": "DM with Martin Bernard",
-        "from": "Martin Bernard"
-      },
-      "id": "slack/D055NJ27YRY/1787323768.830539",
-      "project_name": "Leadership comms",
-      "first_seen": "2026-08-21",
-      "last_seen": "2026-08-23",
-      "status": "open"
-    },
-    {
       "text": "Chase the Keboola renewal contract through to signature with Martin Bernard - new deal is $12,000/yr annual upfront for 300 credits/month (down from $1,450/month for 600), plus roughly $1,200 of top-up credits near the end of the term, and the paperwork was due to reach Martin Friday or Monday",
       "project": "keboola-sunset",
       "source": "slack/D055NJ27YRY/1787317780.453749",
@@ -13872,40 +12904,6 @@
       },
       "id": "slack/D055NJ27YRY/1787317780.453749",
       "project_name": "Keboola migration / sunset",
-      "first_seen": "2026-08-21",
-      "last_seen": "2026-08-23",
-      "status": "open"
-    },
-    {
-      "text": "Walk Sashka Sarafinovska through how to set up a data request and how the data works while building her silver-medalist dashboard - Martin Bernard asked Blake to teach her rather than just deliver, and flagged she is missing a few pieces",
-      "project": "inbox",
-      "source": "slack/D055NJ27YRY/1787311579.049369",
-      "source_type": "slack",
-      "date": "2026-08-21",
-      "confidence": "medium",
-      "extras": {
-        "channel": "DM: Martin Bernard",
-        "from": "Martin Bernard"
-      },
-      "id": "slack/D055NJ27YRY/1787311579.049369",
-      "project_name": "Needs sorting",
-      "first_seen": "2026-08-21",
-      "last_seen": "2026-08-23",
-      "status": "open"
-    },
-    {
-      "text": "Trace where date_interview gets written for 'Moved to ATS' events - Mikhail Kuzmin confirmed the field does not exist in Bubble's event_table so it is likely set in Keboola; 592 Circula candidates moved by Rodrigo Gomes between 27 Jan and 20 May 2025 never got one, plus 7 Fuad Safarov/Aiven cases this year, and those candidates never appear in ATS reporting",
-      "project": "rec-dash",
-      "source": "slack/D0577RU8WQ1/1787324450.402059",
-      "source_type": "slack",
-      "date": "2026-08-21",
-      "confidence": "high",
-      "extras": {
-        "channel": "DM with Mikhail Kuzmin",
-        "from": "Mikhail Kuzmin"
-      },
-      "id": "slack/D0577RU8WQ1/1787324450.402059",
-      "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-08-21",
       "last_seen": "2026-08-23",
       "status": "open"
@@ -13977,22 +12975,6 @@
       "status": "open"
     },
     {
-      "text": "Exclude 'TEST CLIENT 123' from the Friday new-jobs recap query - 3 of the 16 jobs in the 14-21 Aug window were test rows created by Andreea Vrancianu on 20 Aug that passed the test <> 'true' flag filter, so it needs a client-name exclusion in the WHERE clause",
-      "project": "rec-dash",
-      "source": "cowork/local_003ada61-fed5-4d2c-b6ec-b3ec670fff23",
-      "source_type": "cowork",
-      "date": "2026-08-21",
-      "confidence": "medium",
-      "extras": {
-        "session": "Friday new jobs recap"
-      },
-      "id": "cowork/local_003ada61-fed5-4d2c-b6ec-b3ec670fff23/excludetestclient123fromthefridaynewjobs",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-08-21",
-      "last_seen": "2026-08-23",
-      "status": "open"
-    },
-    {
       "text": "Get the GitHub PAT out of the places that echo it into transcripts - it is written verbatim in skills/github/SKILL.md and in scheduled-task definitions, so it lands in cleartext in the bark8922/claude-backups history (the exporter redacts the markdown copies, but the committed skill body still carries it); flagged on two consecutive backup runs",
       "project": "infra",
       "source": "cowork/local_3f7a7189-8008-460e-9d36-d79195dcc651",
@@ -14058,22 +13040,6 @@
       "status": "open"
     },
     {
-      "text": "Act on the 21 Aug job-search run: US pick Business Operations Manager via Swooped (81, US-wide remote, GPU-cloud/AI-infrastructure, no years bar and no consulting/banking/degree gate, but Swooped never names the employer and publishes no comp so ask who it is in the first exchange) and Europe pick Operations Manager at Conquer AI (73, EEA-wide remote, the only role whose anti-inflation check returns an empty 'not met' column, but a 1,226-character posting with no headcount, funding or comp so email for the band first); also decide whether to apply directly to cloro, now deliberately held out of picks after being surfaced three times",
-      "project": "personal",
-      "source": "cowork/local_5e6e3df0-57c2-400f-bd4b-cdf97e15230f",
-      "source_type": "cowork",
-      "date": "2026-08-21",
-      "confidence": "high",
-      "extras": {
-        "session": "Job search daily"
-      },
-      "id": "cowork/local_5e6e3df0-57c2-400f-bd4b-cdf97e15230f/actonthe21augjobsearchrunuspickbusinesso",
-      "project_name": "Personal",
-      "first_seen": "2026-08-21",
-      "last_seen": "2026-08-23",
-      "status": "open"
-    },
-    {
       "text": "Add a client-name exclusion to the Friday new-jobs recap WHERE clause so 'TEST CLIENT 123' records stop shipping - 3 of the 16 jobs in the 14-21 Aug window (Untitled Job, front-end developer, software developer, all created by Andreea Vrancianu on 2026-08-20) passed the test <> 'true' flag filter but are genuine test records",
       "project": "rec-dash",
       "source": "cowork/local_003ada61-fed5-4d2c-b6ec-b3ec670fff23",
@@ -14086,23 +13052,6 @@
       "id": "cowork/local_003ada61-fed5-4d2c-b6ec-b3ec670fff23/addaclientnameexclusiontothefridaynewjob",
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-08-23",
-      "status": "open"
-    },
-    {
-      "text": "Update the OKRs/roles dashboard to include an open-date field for better role tracking, and speak with Andrea about reinstating automated alerts for departing staff so job boards stay clean (action items assigned to Blake in the Aug 20 'OKRs Dashboards' meeting)",
-      "project": "rec-dash",
-      "source": "gmail/1a01f9c660a88fdb",
-      "source_type": "gmail",
-      "date": "2026-08-20",
-      "confidence": "high",
-      "extras": {
-        "subject": "Notes: \u201cOKRs Dashboards\u201d Aug 20, 2026",
-        "from": "gemini-notes@google.com"
-      },
-      "id": "gmail/1a01f9c660a88fdb",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-08-20",
       "last_seen": "2026-08-23",
       "status": "open"
     },
@@ -14190,38 +13139,6 @@
       "status": "open"
     },
     {
-      "text": "Get recruiters to consistently apply the 'Silver Medalist' source tag in Bubble - only 3 candidates are retro-tagged today, and inconsistent tagging is the same failure that killed the intake eligibility tracker.",
-      "project": "rec-dash",
-      "source": "cowork/local_a9499c40-8cb6-44ea-8ba8-641e4c756711",
-      "source_type": "cowork",
-      "date": "2026-08-21",
-      "confidence": "medium",
-      "extras": {
-        "session": "Silver-medalist project dashboard"
-      },
-      "id": "cowork/local_a9499c40-8cb6-44ea-8ba8-641e4c756711/getrecruiterstoconsistentlyapplythesilve",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-08-21",
-      "last_seen": "2026-08-23",
-      "status": "open"
-    },
-    {
-      "text": "Send Mikhail the trimmed follow-up question asking why the 'Moved to ATS' move sometimes never writes date_interview at all - 592 Circula candidates moved by Rodrigo Gomes Jan-May 2025 plus 7 ongoing Fuad Safarov/Aiven cases, with bulk-action and stage-config already ruled out.",
-      "project": "rec-dash",
-      "source": "cowork/local_d49da37b-949e-412c-8291-d4116041421d",
-      "source_type": "cowork",
-      "date": "2026-08-23",
-      "confidence": "high",
-      "extras": {
-        "session": "Moved to ATS data discrepancy"
-      },
-      "id": "cowork/local_d49da37b-949e-412c-8291-d4116041421d/sendmikhailthetrimmedfollowupquestionask",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-08-23",
-      "last_seen": "2026-08-23",
-      "status": "open"
-    },
-    {
       "text": "Open a separate investigation into the 643 candidates (641 pre-dating the 15 July Interview 1/2/3 rollout) that have a real 'Moved to ATS' event but a blank date_interview and are excluded from the ATS column - decide whether they are genuinely undercounted or excluded on purpose before anyone changes totals.",
       "project": "rec-dash",
       "source": "cowork/local_89e12d9a-7afe-463f-bd7e-dc5d343a365b",
@@ -14233,38 +13150,6 @@
       },
       "id": "cowork/local_89e12d9a-7afe-463f-bd7e-dc5d343a365b/openaseparateinvestigationintothe643cand",
       "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-08-23",
-      "last_seen": "2026-08-23",
-      "status": "open"
-    },
-    {
-      "text": "Add the two drafted slides to the Friday all-hands deck: the TribeBot slide (where to find it in Slack, now connected to dashboard data, example questions) and the Intake tool slide (transcriber/intake extensions merged, update your extension, what it does).",
-      "project": "ai-first-working-group",
-      "source": "cowork/local_e64387be-91d2-4703-abb4-438d5f6b601d",
-      "source_type": "cowork",
-      "date": "2026-08-23",
-      "confidence": "high",
-      "extras": {
-        "session": "Working group agenda"
-      },
-      "id": "cowork/local_e64387be-91d2-4703-abb4-438d5f6b601d/addthetwodraftedslidestothefridayallhand",
-      "project_name": "AI First Working Group",
-      "first_seen": "2026-08-23",
-      "last_seen": "2026-08-23",
-      "status": "open"
-    },
-    {
-      "text": "Send everyone the intake tool browser extension update instructions right after the Friday meeting, as promised on the slide - anyone still on the old extension will hit the crossed-wires transcriber behaviour.",
-      "project": "ai-first-working-group",
-      "source": "cowork/local_e64387be-91d2-4703-abb4-438d5f6b601d",
-      "source_type": "cowork",
-      "date": "2026-08-23",
-      "confidence": "high",
-      "extras": {
-        "session": "Working group agenda"
-      },
-      "id": "cowork/local_e64387be-91d2-4703-abb4-438d5f6b601d/sendeveryonetheintaketoolbrowserextensio",
-      "project_name": "AI First Working Group",
       "first_seen": "2026-08-23",
       "last_seen": "2026-08-23",
       "status": "open"
@@ -14414,22 +13299,6 @@
       "status": "open"
     },
     {
-      "text": "Decide whether to apply directly to the cloro role (score 78, now Europe-wide) - it was deliberately held out of the job-search picks after ten re-listings and the dashboard will never surface it as new again.",
-      "project": "personal",
-      "source": "cowork/local_5e6e3df0-57c2-400f-bd4b-cdf97e15230f",
-      "source_type": "cowork",
-      "date": "2026-08-21",
-      "confidence": "medium",
-      "extras": {
-        "session": "Job search daily"
-      },
-      "id": "cowork/local_5e6e3df0-57c2-400f-bd4b-cdf97e15230f/decidewhethertoapplydirectlytotheclororo",
-      "project_name": "Personal",
-      "first_seen": "2026-08-21",
-      "last_seen": "2026-08-23",
-      "status": "open"
-    },
-    {
       "text": "Add the missing receipts and details to your outstanding Revolut Business expenses - the Aug 21 reminder fired for all three entities (Tribe.xyz Czech s.r.o., TRIBE.XYZ SPAIN SL and Tribe.xyz Holding a.s.)",
       "project": "expense-ops",
       "source": "gmail/1a02357a9f6a36a6",
@@ -14460,107 +13329,6 @@
       "project_name": "Personal",
       "first_seen": "2026-08-21",
       "last_seen": "2026-08-23",
-      "status": "open"
-    },
-    {
-      "text": "Coordinate with Mikael to integrate the finance dashboard into the Tribe Dashboard overview and verify the setup is correct after Claude's early message",
-      "project": "fin-dash",
-      "source": "fireflies/01M0A1JM5RGNBZV9HKH3QGSEBM",
-      "source_type": "fireflies",
-      "date": "2026-08-18",
-      "confidence": "medium",
-      "extras": {
-        "meeting": "Blake / Ella 1:1"
-      },
-      "id": "fireflies/01M0A1JM5RGNBZV9HKH3QGSEBM/coordinatewithmikaeltointegratethefinanc",
-      "project_name": "Tribe Financial Dashboard",
-      "first_seen": "2026-08-18",
-      "last_seen": "2026-08-24",
-      "status": "open"
-    },
-    {
-      "text": "Rewrite the opening question in the 'Tribe Talk with Marcel: Run of Show' doc per Nenad Skoko's suggestion Blake agreed to - replace 'What does the average recruiter in your room believe about AI on day one?' with a sharper version",
-      "project": "tribe-talks",
-      "source": "gmail/1a01ee7f49b305da",
-      "source_type": "gmail",
-      "date": "2026-08-20",
-      "confidence": "medium",
-      "extras": {
-        "subject": "Tribe Talk with M... - Feels a bit... broad I'd have it eit...",
-        "from": "Nenad Skoko via Google Docs <comments-noreply@docs.google.com>"
-      },
-      "id": "gmail/1a01ee7f49b305da",
-      "project_name": "Tribe Talks",
-      "first_seen": "2026-08-20",
-      "last_seen": "2026-08-24",
-      "status": "open"
-    },
-    {
-      "text": "Give Jacopo Lupo Ferrari a number for what unlimited LinkedIn InMails would cost, using your LinkedIn contact, so the directors can answer the Q&A question",
-      "project": "linkedin",
-      "source": "slack/C052MERDLNM/1787312366.449939",
-      "source_type": "slack",
-      "date": "2026-08-21",
-      "confidence": "high",
-      "extras": {
-        "channel": "directors",
-        "from": "Jacopo Lupo Ferrari"
-      },
-      "id": "slack/C052MERDLNM/1787312366.449939",
-      "project_name": "LinkedIn (licenses + posting)",
-      "first_seen": "2026-08-21",
-      "last_seen": "2026-08-24",
-      "status": "open"
-    },
-    {
-      "text": "Answer Martin Bernard in #directors on whether Tribe has actually burned through all its LinkedIn InMails",
-      "project": "linkedin",
-      "source": "slack/C052MERDLNM/1787312733.521819",
-      "source_type": "slack",
-      "date": "2026-08-21",
-      "confidence": "high",
-      "extras": {
-        "channel": "directors",
-        "from": "Martin Bernard"
-      },
-      "id": "slack/C052MERDLNM/1787312733.521819",
-      "project_name": "LinkedIn (licenses + posting)",
-      "first_seen": "2026-08-21",
-      "last_seen": "2026-08-24",
-      "status": "open"
-    },
-    {
-      "text": "Take over Chene Elliot and Samantha Nel from Chantal Bozkurt on the intake tool onboarding list and get them checked in and running intakes",
-      "project": "ai-recruiting",
-      "source": "slack/C0BD4MNA6SC/1787556272.294809",
-      "source_type": "slack",
-      "date": "2026-08-24",
-      "confidence": "high",
-      "extras": {
-        "channel": "intake-task-force",
-        "from": "Blake Barkley"
-      },
-      "id": "slack/C0BD4MNA6SC/1787556272.294809",
-      "project_name": "Roundup & Intake (AI recruiting tools)",
-      "first_seen": "2026-08-24",
-      "last_seen": "2026-08-24",
-      "status": "open"
-    },
-    {
-      "text": "Buy the Juicebox test seats for Dusan Spica and Fuad Safarov on the new business account using Jacopo Lupo Ferrari's JUICE20 discount code",
-      "project": "ai-recruiting",
-      "source": "slack/D056EG3QPLP/1787056213.042469",
-      "source_type": "slack",
-      "date": "2026-08-18",
-      "confidence": "medium",
-      "extras": {
-        "channel": "DM with Jacopo Lupo Ferrari",
-        "from": "Jacopo Lupo Ferrari"
-      },
-      "id": "slack/D056EG3QPLP/1787056213.042469",
-      "project_name": "Roundup & Intake (AI recruiting tools)",
-      "first_seen": "2026-08-18",
-      "last_seen": "2026-08-24",
       "status": "open"
     },
     {
@@ -14629,22 +13397,6 @@
       "status": "open"
     },
     {
-      "text": "Provide Jacopo with a HubSpot API key with the right message and deal permissions, and clarify exactly which API access he needs for the LinkedIn-to-HubSpot logging connector",
-      "project": "linkedin",
-      "source": "fireflies/01M0SVZMSBPBSAR1HVX0A3X20Q",
-      "source_type": "fireflies",
-      "date": "2026-08-24",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Claude: Master Sessions"
-      },
-      "id": "fireflies/01M0SVZMSBPBSAR1HVX0A3X20Q/providejacopowithahubspotapikeywiththeri",
-      "project_name": "LinkedIn (licenses + posting)",
-      "first_seen": "2026-08-24",
-      "last_seen": "2026-08-24",
-      "status": "open"
-    },
-    {
       "text": "Troubleshoot the backend dashboard issue behind the discrepancy in Yolanda's sourcing numbers that Salem flagged",
       "project": "rec-dash",
       "source": "fireflies/01M0SFZ745YPV1E90CZYFQRYB8",
@@ -14677,22 +13429,6 @@
       "status": "open"
     },
     {
-      "text": "Get detailed VAT and dividend tax clarifications from the Estonian lawyer and build a financial/tax mind map of the costs and impacts of relocating to Estonia",
-      "project": "legal",
-      "source": "fireflies/01M07ZF173NARGMQMVCJGJDB49",
-      "source_type": "fireflies",
-      "date": "2026-08-17",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Blake & Martin: 1:1"
-      },
-      "id": "fireflies/01M07ZF173NARGMQMVCJGJDB49/getdetailedvatanddividendtaxclarificatio",
-      "project_name": "Legal & Contracts",
-      "first_seen": "2026-08-17",
-      "last_seen": "2026-08-24",
-      "status": "open"
-    },
-    {
       "text": "Run the official approval process for Salem's and Chris's non-guest Claude AI license requests",
       "project": "ai-first-working-group",
       "source": "fireflies/01M07F57NBT9KEP9N230NF3SF5",
@@ -14705,90 +13441,6 @@
       "id": "fireflies/01M07F57NBT9KEP9N230NF3SF5/runtheofficialapprovalprocessforsalemsan",
       "project_name": "AI First Working Group",
       "first_seen": "2026-08-17",
-      "last_seen": "2026-08-24",
-      "status": "open"
-    },
-    {
-      "text": "Enhance the profitability dashboard with month-to-month updates and per-client/per-person views, excluding inactive personnel so margins reflect the current team",
-      "project": "fin-dash",
-      "source": "fireflies/01M07F57NBT9KEP9N230NF3SF5",
-      "source_type": "fireflies",
-      "date": "2026-08-17",
-      "confidence": "high",
-      "extras": {
-        "meeting": "WBR - Delivery Only"
-      },
-      "id": "fireflies/01M07F57NBT9KEP9N230NF3SF5/enhancetheprofitabilitydashboardwithmont",
-      "project_name": "Tribe Financial Dashboard",
-      "first_seen": "2026-08-17",
-      "last_seen": "2026-08-24",
-      "status": "open"
-    },
-    {
-      "text": "Pay the invoice Martin forwarded (Kaya2619.pdf) and book it outside the company expenses - he wants it kept separate as a personal cost so Jacopo/Ella are not hit by it",
-      "project": "expense-ops",
-      "source": "gmail/1a0339bd6faa916b",
-      "source_type": "gmail",
-      "date": "2026-08-24",
-      "confidence": "high",
-      "extras": {
-        "subject": "Invoice to pay",
-        "from": "martin@tribe.xyz"
-      },
-      "id": "gmail/1a0339bd6faa916b",
-      "project_name": "Expense Ops",
-      "first_seen": "2026-08-24",
-      "last_seen": "2026-08-24",
-      "status": "open"
-    },
-    {
-      "text": "Give Eva Huclova (Boris Gnoth Tax) instructions on whether she is authorized to send Wolt (Szilvia Hajas, Vendor Master Data) the bank confirmation for Tribe.xyz Czech s.r.o. vendor 12800036 - Wolt needs valid bank proof for an audit request",
-      "project": "fin-dash",
-      "source": "gmail/1a03381599f6ca0a",
-      "source_type": "gmail",
-      "date": "2026-08-24",
-      "confidence": "high",
-      "extras": {
-        "subject": "FW: missing bank documentation - 12800036 Tribe.xyz Czech s.r.o - Wolt Enterprises Deutschland GmbH",
-        "from": "ehuclova@borisgnoth.cz"
-      },
-      "id": "gmail/1a03381599f6ca0a",
-      "project_name": "Tribe Financial Dashboard",
-      "first_seen": "2026-08-24",
-      "last_seen": "2026-08-24",
-      "status": "open"
-    },
-    {
-      "text": "Investigate the Mariam data discrepancy on the internal delivery dashboard (action item assigned to Blake in the Aug 24 WBR - Delivery Only meeting; Kristjana is separately reviewing the data input process with Vlad)",
-      "project": "rec-dash",
-      "source": "gmail/1a0332889067203e",
-      "source_type": "gmail",
-      "date": "2026-08-24",
-      "confidence": "high",
-      "extras": {
-        "subject": "Notes: WBR - Delivery Only, Aug 24, 2026",
-        "from": "gemini-notes@google.com"
-      },
-      "id": "gmail/1a0332889067203e",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-08-24",
-      "last_seen": "2026-08-24",
-      "status": "open"
-    },
-    {
-      "text": "Send Jacopo the HubSpot API key via Slack so he can wire up the direct HubSpot integration that logs LinkedIn messages and connection requests into the sales dashboard (key to be stored in env variables, not hardcoded)",
-      "project": "infra",
-      "source": "gmail/1a033d854577c653",
-      "source_type": "gmail",
-      "date": "2026-08-24",
-      "confidence": "high",
-      "extras": {
-        "subject": "Notes: Claude: Master Sessions, Aug 24, 2026",
-        "from": "gemini-notes@google.com"
-      },
-      "id": "gmail/1a033d854577c653",
-      "project_name": "Infra & Automation",
-      "first_seen": "2026-08-24",
       "last_seen": "2026-08-24",
       "status": "open"
     },
@@ -14822,23 +13474,6 @@
       },
       "id": "gmail/1a033cd9ea307284",
       "project_name": "Project Hub",
-      "first_seen": "2026-08-24",
-      "last_seen": "2026-08-24",
-      "status": "open"
-    },
-    {
-      "text": "Send the coach NDA to Saima Zeb-Khan (SZKConsulting Ltd, szkconsultinguk@gmail.com) and Martin Bernard for signature via Google eSign - Nenad Skoko sent her details as the first of the two coaches and asked Blake to confirm when it goes out and once both parties have signed",
-      "project": "legal",
-      "source": "slack/D05UGUJPZ97/1787580588.700979",
-      "source_type": "slack",
-      "date": "2026-08-24",
-      "confidence": "high",
-      "extras": {
-        "channel": "DM with Nenad Skoko",
-        "from": "Nenad Skoko"
-      },
-      "id": "slack/D05UGUJPZ97/1787580588.700979",
-      "project_name": "Legal & Contracts",
       "first_seen": "2026-08-24",
       "last_seen": "2026-08-24",
       "status": "open"
@@ -14906,38 +13541,6 @@
       },
       "id": "cowork/local_b5289baf-f653-4507-bf3c-24df60fcfdde/closeoutellas0752026ebitdabonusbeforeaug",
       "project_name": "Legal & Contracts",
-      "first_seen": "2026-08-24",
-      "last_seen": "2026-08-24",
-      "status": "open"
-    },
-    {
-      "text": "Pay the CZK 230,794 VAT due for Holding by tomorrow 25 August, and diary the CZK 653,173 reclaim landing on the s.r.o. side on 25 September",
-      "project": "fin-dash",
-      "source": "cowork/local_b5289baf-f653-4507-bf3c-24df60fcfdde",
-      "source_type": "cowork",
-      "date": "2026-08-24",
-      "confidence": "high",
-      "extras": {
-        "session_title": "Martin meeting prep"
-      },
-      "id": "cowork/local_b5289baf-f653-4507-bf3c-24df60fcfdde/paytheczk230794vatdueforholdingbytomorro",
-      "project_name": "Tribe Financial Dashboard",
-      "first_seen": "2026-08-24",
-      "last_seen": "2026-08-24",
-      "status": "open"
-    },
-    {
-      "text": "Settle with Martin how his Kaya2619.pdf invoice gets booked - he sent it asking you to pay it and keep it off company expenses because it is personal and he does not want Jacopo and Ella losing out, so the treatment needs confirming rather than assuming",
-      "project": "expense-ops",
-      "source": "cowork/local_b5289baf-f653-4507-bf3c-24df60fcfdde",
-      "source_type": "cowork",
-      "date": "2026-08-24",
-      "confidence": "medium",
-      "extras": {
-        "session_title": "Martin meeting prep"
-      },
-      "id": "cowork/local_b5289baf-f653-4507-bf3c-24df60fcfdde/settlewithmartinhowhiskaya2619pdfinvoice",
-      "project_name": "Expense Ops",
       "first_seen": "2026-08-24",
       "last_seen": "2026-08-24",
       "status": "open"
@@ -15139,23 +13742,6 @@
       "status": "open"
     },
     {
-      "text": "Confirm to Nenad Skoko which entity the two coaches should invoice for the paid task - Martin Bernard suggested HoldCo and told Nenad to check with Blake",
-      "project": "expense-ops",
-      "source": "slack/D05UGUJPZ97/1787586440.564849",
-      "source_type": "slack",
-      "date": "2026-08-24",
-      "confidence": "high",
-      "extras": {
-        "channel": "DM with Nenad Skoko",
-        "from": "Nenad Skoko"
-      },
-      "id": "slack/D05UGUJPZ97/1787586440.564849",
-      "project_name": "Expense Ops",
-      "first_seen": "2026-08-24",
-      "last_seen": "2026-08-25",
-      "status": "open"
-    },
-    {
       "text": "Update the intake tool quick guide - Rodrigo Gomes confirmed it is otherwise accurate but the Microphone setup step is no longer needed after Andreea Vrancianu's merge",
       "project": "ai-recruiting",
       "source": "slack/C0BD4MNA6SC/1787560659.058629",
@@ -15173,39 +13759,6 @@
       "status": "open"
     },
     {
-      "text": "Catch up with Caroline Murphy now that she is back from travel and set up the rest of the Calendly link replacement",
-      "project": "infra",
-      "source": "slack/D0A90RPGE92/1787571002.388389",
-      "source_type": "slack",
-      "date": "2026-08-24",
-      "confidence": "medium",
-      "extras": {
-        "channel": "DM with Caroline Murphy",
-        "from": "Caroline Murphy"
-      },
-      "id": "slack/D0A90RPGE92/1787571002.388389",
-      "project_name": "Infra & Automation",
-      "first_seen": "2026-08-24",
-      "last_seen": "2026-08-25",
-      "status": "open"
-    },
-    {
-      "text": "Start the transform and dashboard build for the new Interview 1/2/3 stage funnel per STAGE_FUNNEL_BUILD_PLAN.md - the watch trigger has fired. Since 2026-07-22 the reporting layer logged 85 events / 68 candidates into Interview 1, 22/21 into Interview 2 and 13/12 into Interview 3, with 50, 9 and 3 sitting in them now across 15 jobs that have the new pipeline configured. Treat the 68/21/12 shape as directional, not a stable conversion baseline yet.",
-      "project": "rec-dash",
-      "source": "cowork/local_329f2829-2233-47c3-8f6a-253ccbe3d024",
-      "source_type": "cowork",
-      "date": "2026-08-22",
-      "confidence": "high",
-      "extras": {
-        "session_title": "Recruiting new stages usage check"
-      },
-      "id": "cowork/local_329f2829-2233-47c3-8f6a-253ccbe3d024/startthetransformanddashboardbuildforthe",
-      "project_name": "Tribe Recruiting Dashboard",
-      "first_seen": "2026-08-22",
-      "last_seen": "2026-08-25",
-      "status": "open"
-    },
-    {
       "text": "Fill the August rows in the Sourcer Client Assignment tab - it stops at July, so zero sourcer and TA cost is allocated to clients for August and every client direct margin on the BU dashboard is flattered by roughly 10 to 15 points (AVIV reads 59.0% against a likely 47.6%, Wolt 44.6% against 29.2%, Taxfix 58.2% against 46.6%, Reaktor 47.0% against 32.3%). Run the sourcer-client-assignment-monthly task, then re-export and refresh.",
       "project": "fin-dash",
       "source": "cowork/local_a65ae364-e0e3-4bef-9656-436f829f5218",
@@ -15218,22 +13771,6 @@
       "id": "cowork/local_a65ae364-e0e3-4bef-9656-436f829f5218/filltheaugustrowsinthesourcerclientassig",
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-08-22",
-      "last_seen": "2026-08-25",
-      "status": "open"
-    },
-    {
-      "text": "Click Run now once on the Keboola spend check scheduled task to pre-approve the Keboola MCP tools, otherwise next Monday's automated run may stall on a permission prompt now that the task was rewritten to lead with credits.",
-      "project": "keboola-sunset",
-      "source": "cowork/local_60f50c16-7b18-4ccc-a7b5-bfb46bd42609",
-      "source_type": "cowork",
-      "date": "2026-08-24",
-      "confidence": "medium",
-      "extras": {
-        "session_title": "Keboola spend check"
-      },
-      "id": "cowork/local_60f50c16-7b18-4ccc-a7b5-bfb46bd42609/clickrunnowonceonthekeboolaspendchecksch",
-      "project_name": "Keboola migration / sunset",
-      "first_seen": "2026-08-24",
       "last_seen": "2026-08-25",
       "status": "open"
     },
@@ -15270,22 +13807,6 @@
       "status": "open"
     },
     {
-      "text": "Fix the job-research hard-filter pass that over-fired on 16 roles where 'contractor' or 'part-time' appeared in posting boilerplate rather than in the engagement terms - it would have silently gated OuterSignal, the day's top US pick at 81, plus Undaunted, and only the audit caught it.",
-      "project": "personal",
-      "source": "cowork/local_a40f4df9-a304-456f-a24a-80630202576a",
-      "source_type": "cowork",
-      "date": "2026-08-24",
-      "confidence": "medium",
-      "extras": {
-        "session_title": "Job search daily"
-      },
-      "id": "cowork/local_a40f4df9-a304-456f-a24a-80630202576a/fixthejobresearchhardfilterpassthatoverf",
-      "project_name": "Personal",
-      "first_seen": "2026-08-24",
-      "last_seen": "2026-08-25",
-      "status": "open"
-    },
-    {
       "text": "Put the book.tribe.xyz link on the Tribe website - the booking page is live and tested and Calendly is already replaced, so this is the only step left on it.",
       "project": "infra",
       "source": "cowork/local_b5289baf-f653-4507-bf3c-24df60fcfdde",
@@ -15297,38 +13818,6 @@
       },
       "id": "cowork/local_b5289baf-f653-4507-bf3c-24df60fcfdde/putthebooktribexyzlinkonthetribewebsitet",
       "project_name": "Infra & Automation",
-      "first_seen": "2026-08-24",
-      "last_seen": "2026-08-25",
-      "status": "open"
-    },
-    {
-      "text": "Get Martin to either commit to a decision date on the Estonia move or park it - Erik and Boris both say real substance is required (Tallinn office, part-time person, local accounting, roughly EUR 10-35K a year) or we risk being refused a VAT number and treated as Czech anyway, and Linell at NJORD has still not come back on VAT without a footprint. Nobody has ever produced the tax treatment numbers: Alexandra deferred to Boris and Boris never answered.",
-      "project": "legal",
-      "source": "cowork/local_b5289baf-f653-4507-bf3c-24df60fcfdde",
-      "source_type": "cowork",
-      "date": "2026-08-24",
-      "confidence": "medium",
-      "extras": {
-        "session_title": "Martin meeting prep"
-      },
-      "id": "cowork/local_b5289baf-f653-4507-bf3c-24df60fcfdde/getmartintoeithercommittoadecisiondateon",
-      "project_name": "Legal & Contracts",
-      "first_seen": "2026-08-24",
-      "last_seen": "2026-08-25",
-      "status": "open"
-    },
-    {
-      "text": "Decide whether to buy more LinkedIn InMails or cap usage - 2,800 were burned between 26 July and 8 August, Martin raised it on Friday and it became a #directors thread with Jacopo about unlimited pricing. Last known price was $2.50 each about 18 months ago and LinkedIn raises 5-10% a year, so the current number needs checking before the call.",
-      "project": "linkedin",
-      "source": "cowork/local_b5289baf-f653-4507-bf3c-24df60fcfdde",
-      "source_type": "cowork",
-      "date": "2026-08-24",
-      "confidence": "medium",
-      "extras": {
-        "session_title": "Martin meeting prep"
-      },
-      "id": "cowork/local_b5289baf-f653-4507-bf3c-24df60fcfdde/decidewhethertobuymorelinkedininmailsorc",
-      "project_name": "LinkedIn (licenses + posting)",
       "first_seen": "2026-08-24",
       "last_seen": "2026-08-25",
       "status": "open"
@@ -15442,54 +13931,6 @@
       "id": "fireflies/01M0W5TC2SQQ673Y35JXHFW55C/reporttheestonianvatsubstanceandpermanen",
       "project_name": "Legal & Contracts",
       "first_seen": "2026-08-25",
-      "last_seen": "2026-08-25",
-      "status": "open"
-    },
-    {
-      "text": "Build the new TribeFin system so cash flow and projections update automatically instead of by hand",
-      "project": "fin-dash",
-      "source": "fireflies/01M0SZHG5BZFDEYAC8WSA5VWVE",
-      "source_type": "fireflies",
-      "date": "2026-08-24",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Blake & Martin: 1:1"
-      },
-      "id": "fireflies/01M0SZHG5BZFDEYAC8WSA5VWVE/buildthenewtribefinsystemsocashflowandpr",
-      "project_name": "Tribe Financial Dashboard",
-      "first_seen": "2026-08-24",
-      "last_seen": "2026-08-25",
-      "status": "open"
-    },
-    {
-      "text": "Push the insurance paperwork through with the accountants and providers to secure worldwide coverage (~$1K/year) that clients are asking for",
-      "project": "legal",
-      "source": "fireflies/01M0SZHG5BZFDEYAC8WSA5VWVE",
-      "source_type": "fireflies",
-      "date": "2026-08-24",
-      "confidence": "high",
-      "extras": {
-        "meeting": "Blake & Martin: 1:1"
-      },
-      "id": "fireflies/01M0SZHG5BZFDEYAC8WSA5VWVE/pushtheinsurancepaperworkthroughwiththea",
-      "project_name": "Legal & Contracts",
-      "first_seen": "2026-08-24",
-      "last_seen": "2026-08-25",
-      "status": "open"
-    },
-    {
-      "text": "Write your own development plan now rather than waiting on Andrea's promised follow-up",
-      "project": "personal",
-      "source": "fireflies/01M0SZHG5BZFDEYAC8WSA5VWVE",
-      "source_type": "fireflies",
-      "date": "2026-08-24",
-      "confidence": "medium",
-      "extras": {
-        "meeting": "Blake & Martin: 1:1"
-      },
-      "id": "fireflies/01M0SZHG5BZFDEYAC8WSA5VWVE/writeyourowndevelopmentplannowratherthan",
-      "project_name": "Personal",
-      "first_seen": "2026-08-24",
       "last_seen": "2026-08-25",
       "status": "open"
     },
@@ -15807,23 +14248,6 @@
       "id": "slack/D055NJ27YRY/1787669234.569519",
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-08-25",
-      "last_seen": "2026-08-26",
-      "status": "open"
-    },
-    {
-      "text": "Complete the Lattice growth area actions that are due on 31 August",
-      "project": "personal",
-      "source": "slack/D06DGN9JW59/1787583667.895499",
-      "source_type": "slack",
-      "date": "2026-08-24",
-      "confidence": "medium",
-      "extras": {
-        "channel": "DM with Lattice",
-        "from": "Lattice"
-      },
-      "id": "slack/D06DGN9JW59/1787583667.895499",
-      "project_name": "Personal",
-      "first_seen": "2026-08-24",
       "last_seen": "2026-08-26",
       "status": "open"
     },
