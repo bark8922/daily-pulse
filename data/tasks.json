@@ -1,14 +1,14 @@
 {
   "generated_at": "2026-08-31",
   "schema_version": 3,
-  "total": 319,
-  "active_count": 319,
+  "total": 352,
+  "active_count": 352,
   "archived_count": 602,
   "projects": [
     {
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
-      "tier": "big"
+      "tier": "medium"
     },
     {
       "id": "rec-dash",
@@ -28,12 +28,12 @@
     {
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
-      "tier": "big"
+      "tier": "medium"
     },
     {
       "id": "tribebot",
       "name": "Tribebot",
-      "tier": "big"
+      "tier": "medium"
     },
     {
       "id": "fin-dash",
@@ -48,7 +48,7 @@
     {
       "id": "legal",
       "name": "Legal & Contracts",
-      "tier": "big"
+      "tier": "medium"
     },
     {
       "id": "project-hub",
@@ -78,7 +78,7 @@
     {
       "id": "people-ops",
       "name": "People Ops / BambooHR",
-      "tier": "big"
+      "tier": "medium"
     },
     {
       "id": "expense-ops",
@@ -15835,6 +15835,544 @@
       "id": "cowork/local_074199ff-2300-439d-beb2-ffa6569ee33b/givethesevenorphaneddailypulsetasksareal",
       "project_name": "Project Hub",
       "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Build the enhanced performance review dashboard with Ella to support year-end calibration, merging compensation, time-off, spot bonus and promotion data into one source of truth",
+      "project": "people-ops",
+      "source": "fireflies/01M1BWR73R2K57S47SVFCQMFXN",
+      "source_type": "fireflies",
+      "date": "2026-08-31",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Claude: Master Sessions"
+      },
+      "id": "fireflies/01M1BWR73R2K57S47SVFCQMFXN/buildtheenhancedperformancereviewdashboa",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Experiment with Lattice admin-level API access and monthly CSV exports before the next session to work out how to pull calibration data into internal systems",
+      "project": "people-ops",
+      "source": "fireflies/01M1BWR73R2K57S47SVFCQMFXN",
+      "source_type": "fireflies",
+      "date": "2026-08-31",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Claude: Master Sessions"
+      },
+      "id": "fireflies/01M1BWR73R2K57S47SVFCQMFXN/experimentwithlatticeadminlevelapiaccess",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Pull and report detailed LinkedIn InMail usage and remaining capacity data for the team, and set up tracking of InMail metrics with Salem",
+      "project": "linkedin",
+      "source": "fireflies/01M1BGQVJMWX7WJQAJ3N8TTXDM",
+      "source_type": "fireflies",
+      "date": "2026-08-31",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "WBR - Delivery Only"
+      },
+      "id": "fireflies/01M1BGQVJMWX7WJQAJ3N8TTXDM/pullandreportdetailedlinkedininmailusage",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Cut Notion licence cost (~$500-600/month) by moving most users to guest access while preserving page permissions for leadership documents",
+      "project": "expense-ops",
+      "source": "fireflies/01M0WEJHSD3QB08QDV0AMSNV9X",
+      "source_type": "fireflies",
+      "date": "2026-08-25",
+      "confidence": "medium",
+      "extras": {
+        "meeting_title": "Blake / Caroline - Catch up"
+      },
+      "id": "fireflies/01M0WEJHSD3QB08QDV0AMSNV9X/cutnotionlicencecost500600monthbymovingm",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Push own development plan forward immediately rather than waiting on Andrea's follow-up",
+      "project": "personal",
+      "source": "fireflies/01M0SZHG5BZFDEYAC8WSA5VWVE",
+      "source_type": "fireflies",
+      "date": "2026-08-24",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01M0SZHG5BZFDEYAC8WSA5VWVE/pushowndevelopmentplanforwardimmediately",
+      "project_name": "Personal",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Progress the insurance paperwork with accountants and providers to secure worldwide coverage (~$1,000/year) required by clients",
+      "project": "legal",
+      "source": "fireflies/01M0SZHG5BZFDEYAC8WSA5VWVE",
+      "source_type": "fireflies",
+      "date": "2026-08-24",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01M0SZHG5BZFDEYAC8WSA5VWVE/progresstheinsurancepaperworkwithaccount",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Clarify the exact HubSpot API scopes Jacopo needs and provide him a key with message and deal management permissions for the LinkedIn logging connector",
+      "project": "infra",
+      "source": "fireflies/01M0SVZMSBPBSAR1HVX0A3X20Q",
+      "source_type": "fireflies",
+      "date": "2026-08-24",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Claude: Master Sessions"
+      },
+      "id": "fireflies/01M0SVZMSBPBSAR1HVX0A3X20Q/clarifytheexacthubspotapiscopesjacoponee",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Complete the second and final Colonnade insurance questionnaire Eva Huclova sent (Dotaznik SMART_LIABILITY_02_2026 Colonnade II.xlsx) - fill the yellow-highlighted items: the 5 largest IT suppliers Tribe uses, and the required limits/deductibles for the cyber cover sections (2.1 mandatory: unauthorized data handling, regulatory proceedings, GDPR notification costs, professional service costs; 2.2 optional Cyber Plus: multimedia, cyber extortion, network outage waiting period, cyber crime, legal advice, telecom charges, PCI DSS, card re-issuance, financial-flow/identity-theft monitoring)",
+      "project": "legal",
+      "source": "gmail/1a0574c5aca0b35a",
+      "source_type": "gmail",
+      "date": "2026-08-31",
+      "confidence": "high",
+      "extras": {
+        "subject": "Insurance Colonnade II.",
+        "from": "Eva Huclova <ehuclova@borisgnoth.cz>"
+      },
+      "id": "gmail/1a0574c5aca0b35a",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Apply Nexi PO 4900008179 (signed PO now received from Dalia Dal Corso, covering 17.08.2026-17.11.2026 for the new RPO recruiter) to the Nexi invoices and file the signed PO/addendum",
+      "project": "inbox",
+      "source": "gmail/1a057e208bbefcd7",
+      "source_type": "gmail",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "subject": "R: [External] Re: New RPO recruiter set up - TRIBE - PO 4900008179",
+        "from": "Dalia Dal Corso <dalia.dalcorso@nexigroup.com>"
+      },
+      "id": "gmail/1a057e208bbefcd7",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Close out Adela Geissler's exit: her name change from Marikova to Geissler still needs updating in Tribe's records/BambooHR, and confirm back to her that nothing further is required now that the signed termination agreement has gone to Eva Huclova for deregistration",
+      "project": "people-ops",
+      "source": "gmail/1a056d456eedfaa8",
+      "source_type": "gmail",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Ending my employment and change of personal details",
+        "from": "Adela Geissler <adelageissler@gmail.com>"
+      },
+      "id": "gmail/1a056d456eedfaa8",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Process the new Claude subscription charge on Ella's company card that Andrea Darabasic sent to accounting (Invoice-DAD0F6DB-0011.pdf + Receipt-2621-3474-3452.pdf) - book/reconcile it against the card",
+      "project": "expense-ops",
+      "source": "gmail/1a056b4f474681dc",
+      "source_type": "gmail",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Claude - Ella's card",
+        "from": "Andrea Darabasic <andreadarabasic@tribe.xyz>"
+      },
+      "id": "gmail/1a056b4f474681dc",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Cross-check Lisa Gargulinska's role archiving in the dashboard - she archived her old Wolt roles and asked Blake to confirm everything is complete from her side",
+      "project": "rec-dash",
+      "source": "slack/D08JM9Y9EUB/1788168502.777679",
+      "source_type": "slack",
+      "date": "2026-08-31",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Lisa Gargulinska",
+        "from": "Lisa Gargulinska"
+      },
+      "id": "slack/D08JM9Y9EUB/1788168502.777679",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Work out why Ejla Suljcic's 'Senior Sales Exec' role cannot be found in the dashboard at all - it is the only one she could not archive and Blake has not answered that part yet",
+      "project": "rec-dash",
+      "source": "slack/D08BHN1KH4K/1788164065.788789",
+      "source_type": "slack",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Ejla Suljcic",
+        "from": "Ejla Suljcic"
+      },
+      "id": "slack/D08BHN1KH4K/1788164065.788789",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Work through the dev-plan actions Andrea Darabasic wrote up: research 3-5 evolving role titles and market standards and bring them to the 1:1 with Martin, practice the 'proxy' approach in upcoming meetings and debrief with Martin, and set up short 1:1s with Ella Darie and Jacopo Lupo Ferrari on cross-team visibility then write 2-3 takeaways for Martin",
+      "project": "personal",
+      "source": "slack/D071AKJ9YG2/1788169501.109339",
+      "source_type": "slack",
+      "date": "2026-08-31",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Andrea Darabasic",
+        "from": "Andrea Darabasic"
+      },
+      "id": "slack/D071AKJ9YG2/1788169501.109339",
+      "project_name": "Personal",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Build the new pipeline structure visualisation into the WBR for Jacopo Lupo Ferrari, with warnings flagging who is missing the data point - grace period ends 1 Sep and coverage is sitting at 50%; blocked behind the stage-event data issues Blake and Mikhail are working through",
+      "project": "rec-dash",
+      "source": "slack/D056EG3QPLP/1788173827.906529",
+      "source_type": "slack",
+      "date": "2026-08-31",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Jacopo Lupo Ferrari",
+        "from": "Jacopo Lupo Ferrari"
+      },
+      "id": "slack/D056EG3QPLP/1788173827.906529",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Invoice Vista for Niki once she actually starts on Wednesday - Martin Bernard confirmed billing begins at her start date, not before",
+      "project": "inbox",
+      "source": "slack/D055NJ27YRY/1788173338.362169",
+      "source_type": "slack",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Martin Bernard",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/D055NJ27YRY/1788173338.362169",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Follow up on the booking.tribe.xyz button URL going live on the website (Caroline Murphy chased Mihajlo, it was delayed by the Safari changes) and shut down Calendly once it is in place",
+      "project": "infra",
+      "source": "slack/D0A90RPGE92/1788182584.452289",
+      "source_type": "slack",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Caroline Murphy",
+        "from": "Caroline Murphy"
+      },
+      "id": "slack/D0A90RPGE92/1788182584.452289",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Finish the cyber insurance questionnaire sub-processor answer - submit Keboola, Bubble, Supabase, Nylas and Snowflake (matching the DPA annex once Supabase is added), but still disclose the LinkedIn EUR 60,060 line so the underwriter cross-checking the P&L doesn't read the omission as concealment, and update the DPA annex so both documents say the same five names",
+      "project": "legal",
+      "source": "cowork/local_f48dd904-60cc-4e88-91bf-e81c0f404837",
+      "source_type": "cowork",
+      "date": "2026-08-31",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Cyber insurance questionnaire"
+      },
+      "id": "cowork/local_f48dd904-60cc-4e88-91bf-e81c0f404837/finishthecyberinsurancequestionnairesubp",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Deal with the 7 sets of stored LinkedIn Recruiter credentials sitting in recos-v4 (Supabase) - account takeover of a EUR 60k licence estate is a real claim shape, and InMail content, saved pipelines and project notes inside Recruiter are Tribe-generated rather than public data",
+      "project": "legal",
+      "source": "cowork/local_f48dd904-60cc-4e88-91bf-e81c0f404837",
+      "source_type": "cowork",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Cyber insurance questionnaire"
+      },
+      "id": "cowork/local_f48dd904-60cc-4e88-91bf-e81c0f404837/dealwiththe7setsofstoredlinkedinrecruite",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Post the travel-only WhatsApp poll for the grand final (OUT Friday afternoon / Saturday morning / own way, BACK Saturday evening / Sunday early / Sunday later / own way) asking people to flag if Saturday evening is a hard requirement, then book accommodation once the van numbers land - marian, Miki and James all want back Saturday evening",
+      "project": "personal",
+      "source": "cowork/local_890e442d-325a-411b-a1a8-848160b23040",
+      "source_type": "cowork",
+      "date": "2026-08-28",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Grand final trip logistics"
+      },
+      "id": "cowork/local_890e442d-325a-411b-a1a8-848160b23040/postthetravelonlywhatsapppollforthegrand",
+      "project_name": "Personal",
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Have the Tribe Fin 4-month projection answers ready for Martin - he asked on 25 Aug about September taxes at 47k (72k minus 25k), whether IT sits at 10k or 17k, and flagged the 10-day low figures as looking off (-559 / -16,197 / -67,025 / -141,773 / -179,893 / -260,149)",
+      "project": "fin-dash",
+      "source": "cowork/local_99f78a7b-c536-42b7-9b67-6701240a2778",
+      "source_type": "cowork",
+      "date": "2026-08-31",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Martin meeting prep"
+      },
+      "id": "cowork/local_99f78a7b-c536-42b7-9b67-6701240a2778/havethetribefin4monthprojectionanswersre",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Get Martin's signature on the Keboola contract - unsigned with the new period starting tomorrow, $12K/yr for 300 credits, ~$13.2K all-in and ~$4.2K cheaper than last year - and pin him down on Taxfix/Marina coverage (she leaves ~14 Sept, Dolores possibly stepping in, German coverage unresolved) plus whether the September EBITDA payouts are being paid or deferred",
+      "project": "leadership",
+      "source": "cowork/local_99f78a7b-c536-42b7-9b67-6701240a2778",
+      "source_type": "cowork",
+      "date": "2026-08-31",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Martin meeting prep"
+      },
+      "id": "cowork/local_99f78a7b-c536-42b7-9b67-6701240a2778/getmartinssignatureonthekeboolacontractu",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Split the Lattice API work with Martin (company-wide access still blocked, Blake testing options and Martin testing endpoints) and chase the Global Talent Strategy & Intelligence Conference contract he asked to have prepped for signature on 18 Aug",
+      "project": "leadership",
+      "source": "cowork/local_99f78a7b-c536-42b7-9b67-6701240a2778",
+      "source_type": "cowork",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Martin meeting prep"
+      },
+      "id": "cowork/local_99f78a7b-c536-42b7-9b67-6701240a2778/splitthelatticeapiworkwithmartincompanyw",
+      "project_name": "Leadership comms",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Send Ella the five-page Lattice API demo packet and get the People-team decision it sets up - the key can't be narrowed, so the choice is what to extract, and completion tracking plus rating distributions need none of the sensitive material; decide whether to keep the per-page confidentiality footer and whether she wants a Word version to comment inline",
+      "project": "people-ops",
+      "source": "cowork/local_6e79293b-f3a2-4585-841c-8934b0980ca4",
+      "source_type": "cowork",
+      "date": "2026-08-31",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Lattice API capabilities"
+      },
+      "id": "cowork/local_6e79293b-f3a2-4585-841c-8934b0980ca4/sendellathefivepagelatticeapidemopacketa",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Delete the orphaned out.c-prodv2-rewrite-test bucket - 1.35 GB across 16 tables left behind when producing config 01m0yfxnc5g1cnq62rq5jgva4b was deleted, a full duplicate of production reporting (which is only 1.33 GB) carried for nothing; biggest tables are event at 15.1M rows / 841 MB and talent_position at 6.9M rows / 192 MB",
+      "project": "keboola-sunset",
+      "source": "cowork/local_e438a813-492c-4ec9-9fe2-b79c8892d4bb",
+      "source_type": "cowork",
+      "date": "2026-08-31",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Keboola waste review"
+      },
+      "id": "cowork/local_e438a813-492c-4ec9-9fe2-b79c8892d4bb/deletetheorphanedoutcprodv2rewritetestbu",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Add v239, v240 and v241 to the Keboola changelog (v239/v240 are a rollback round trip with no net effect, v241 is the six-UPDATE date cascade collapsed into one) and get the config registry file into the outputs folder so the waste-review drift diff stops running partial",
+      "project": "keboola-sunset",
+      "source": "cowork/local_e438a813-492c-4ec9-9fe2-b79c8892d4bb",
+      "source_type": "cowork",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Keboola waste review"
+      },
+      "id": "cowork/local_e438a813-492c-4ec9-9fe2-b79c8892d4bb/addv239v240andv241tothekeboolachangelogv",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Start the stage-funnel transform and dashboard build per STAGE_FUNNEL_BUILD_PLAN.md - the usage trigger has been hit, with 192 events / 128 candidates into Interview 1, 81 / 64 into Interview 2 and 53 / 52 into Interview 3 since 2026-07-22 across 16 companies",
+      "project": "rec-dash",
+      "source": "cowork/local_44ec0aa7-5eb0-4fd7-83e7-ffab38e3303b",
+      "source_type": "cowork",
+      "date": "2026-08-31",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Recruiting new stages usage check"
+      },
+      "id": "cowork/local_44ec0aa7-5eb0-4fd7-83e7-ffab38e3303b/startthestagefunneltransformanddashboard",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Fix InMail quality rather than credit volume - response rate is 16.1% against a 22.5% staffing benchmark, Jelena Lacmanovic sent 71% of all volume (252 sends) at 14.3%, only 16 of 355 sends used a tracked template and that template hit 37.5%, and Bechtle plus BARMER burned 58 credits for 2 responses",
+      "project": "linkedin",
+      "source": "cowork/local_dd10797f-30b5-4808-b995-9ecb51e4e22f",
+      "source_type": "cowork",
+      "date": "2026-08-30",
+      "confidence": "high",
+      "extras": {
+        "session_title": "LinkedIn credits explanation"
+      },
+      "id": "cowork/local_dd10797f-30b5-4808-b995-9ecb51e4e22f/fixinmailqualityratherthancreditvolumere",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-08-30",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Raise with Marcel on 18 September whether his 22-23 September Amsterdam bootcamp (twelve seats) clashing with Tribe Talk promo week helps or splits his feed",
+      "project": "tribe-talks",
+      "source": "cowork/local_658f17e1-7407-4936-ab38-42892cda77a4",
+      "source_type": "cowork",
+      "date": "2026-08-31",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Marcel linkeding research"
+      },
+      "id": "cowork/local_658f17e1-7407-4936-ab38-42892cda77a4/raisewithmarcelon18septemberwhetherhis22",
+      "project_name": "Tribe Talks",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Add a dashboard guard for a sustained revenue slide - revenue has fallen five months running from EUR 402K in April to EUR 199K in August with margin at -26.9%, inputs are fresh and headcount is falling in step, but the existing 36 watchdog checks only fire on a collapse, not a slow decline",
+      "project": "fin-dash",
+      "source": "cowork/local_829643bc-10ff-4669-ad1b-e55cef14d81c",
+      "source_type": "cowork",
+      "date": "2026-08-31",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Tribe dashboard watchdog"
+      },
+      "id": "cowork/local_829643bc-10ff-4669-ad1b-e55cef14d81c/addadashboardguardforasustainedrevenuesl",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Glance at the GitHub Actions tab to confirm today's watchdog CI run actually went green - checks 4l and 4p are skipped as CI-automated, so the run only confirmed they are wired into watchdog.yml, not that they passed",
+      "project": "fin-dash",
+      "source": "cowork/local_829643bc-10ff-4669-ad1b-e55cef14d81c",
+      "source_type": "cowork",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Tribe dashboard watchdog"
+      },
+      "id": "cowork/local_829643bc-10ff-4669-ad1b-e55cef14d81c/glanceatthegithubactionstabtoconfirmtoda",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Contact Anna Duskova about a Keboola credit top-up - trailing rate of 78.8 credits/week empties the 3,243 remaining pool around mid-June 2027, roughly 7 weeks before Term end, projecting 4,116 against a 3,600 entitlement, so 516 credits over or 6 blocks at $300 ($1,800); entitlement is 300/month against an August actual of ~365",
+      "project": "keboola-sunset",
+      "source": "cowork/local_559762f0-f2ee-44ef-b7fa-b79e08ae4ee6",
+      "source_type": "cowork",
+      "date": "2026-08-30",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Keboola spend check"
+      },
+      "id": "cowork/local_559762f0-f2ee-44ef-b7fa-b79e08ae4ee6/contactannaduskovaaboutakeboolacredittop",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-08-30",
+      "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Work out why the v237 cuts barely moved PROD V2 - runtime only went 850s to 834s, a 2% improvement rather than the expected material drop, while PROD V2 375145203 is still the top burner at 43.3 credits this week; also check WBR/MBR 01kpr0tr drifting to 13.3 against its 11 baseline",
+      "project": "keboola-sunset",
+      "source": "cowork/local_559762f0-f2ee-44ef-b7fa-b79e08ae4ee6",
+      "source_type": "cowork",
+      "date": "2026-08-30",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Keboola spend check"
+      },
+      "id": "cowork/local_559762f0-f2ee-44ef-b7fa-b79e08ae4ee6/workoutwhythev237cutsbarelymovedprodv2ru",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-08-30",
       "last_seen": "2026-08-31",
       "status": "open"
     }
