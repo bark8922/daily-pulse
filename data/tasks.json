@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-31",
+  "generated_at": "2026-09-01",
   "schema_version": 3,
-  "total": 352,
-  "active_count": 352,
-  "archived_count": 602,
+  "total": 369,
+  "active_count": 369,
+  "archived_count": 612,
   "projects": [
     {
       "id": "ai-first-working-group",
@@ -48,7 +48,7 @@
     {
       "id": "legal",
       "name": "Legal & Contracts",
-      "tier": "medium"
+      "tier": "big"
     },
     {
       "id": "project-hub",
@@ -78,7 +78,7 @@
     {
       "id": "people-ops",
       "name": "People Ops / BambooHR",
-      "tier": "medium"
+      "tier": "big"
     },
     {
       "id": "expense-ops",
@@ -10532,7 +10532,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-08-10",
       "last_seen": "2026-08-10",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-01"
     },
     {
       "text": "Prepare the eNPS analysis with Ella and share it securely with senior leadership, given the sentiment dip tied to client-stability fears",
@@ -10549,7 +10550,8 @@
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-08-10",
       "last_seen": "2026-08-10",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-01"
     },
     {
       "text": "Review Maria Gigacova's (Bove Montero) '07.2026 TRIBE Report.XLSX' July 2026 close for TRIBE.XYZ SPAIN and come back with questions or sign-off",
@@ -10566,7 +10568,8 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-08-10",
       "last_seen": "2026-08-10",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-01"
     },
     {
       "text": "Fix the recurring 'BambooHR - Monthly Employer True Cost' n8n failure - the Fetch Full Employee Details node has thrown 'Service unavailable' on 11 Jul, 12 Jul, 02 Aug and 09 Aug (execution 46130); set the node to retry automatically",
@@ -10600,7 +10603,8 @@
       "project_name": "LinkedIn (licenses + posting)",
       "first_seen": "2026-08-10",
       "last_seen": "2026-08-10",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-01"
     },
     {
       "text": "Exclude plain 'Tribe.xyz' from the role-tracker summary query so internal roles stop showing (the Aug 5 Sales Coach slipped through a filter that only drops 'Tribe.xyz (IR)' and 'BD - Tribe'), and decide whether /role-tracker/ needs a director/leadership gate - today any authenticated Tribe user can open it",
@@ -10633,7 +10637,8 @@
       "project_name": "Personal",
       "first_seen": "2026-08-10",
       "last_seen": "2026-08-10",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-01"
     },
     {
       "text": "Integrate and automate Tribe Fin and Revolut cash flow data into the finance dashboard so cash-flow forecasting is live rather than manual",
@@ -10650,7 +10655,8 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-08-10",
       "last_seen": "2026-08-11",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-01"
     },
     {
       "text": "Send Martin Bernard a short written update (a Slack message with a screenshot is enough) once the Revolut API integration is working, so he stops second-guessing which cash figure is accurate",
@@ -10667,7 +10673,8 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-08-10",
       "last_seen": "2026-08-11",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-01"
     },
     {
       "text": "Finish the WhatsApp desktop repair after the reboot: the half-deregistered package was stuck at 'Almost done' waiting on a file lock, so if it is still broken run Get-AppxPackage -Name \"*WhatsApp*\" | Remove-AppxPackage before Store or Windows Update wakes up, then reinstall fresh from the Store",
@@ -10683,7 +10690,8 @@
       "project_name": "Personal",
       "first_seen": "2026-08-10",
       "last_seen": "2026-08-11",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-01"
     },
     {
       "text": "Add the vendor Deal contract review to the calendar and analyse the payment-obligation and service-fee terms",
@@ -11263,7 +11271,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-08-10",
       "last_seen": "2026-08-15",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-01"
     },
     {
       "text": "Add Rodrigo Gomes to the AI-First @ Tribe working group - he volunteered in DM after the call for members following Chantal Bozkurt stepping away",
@@ -11460,7 +11469,8 @@
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-08-10",
       "last_seen": "2026-08-17",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-01"
     },
     {
       "text": "Add the two cost categories the finance dashboard is missing entirely - Consulting, and Salaries & Contributions for Martin s.r.o., Martin a.s. and Milos s.r.o. - then pick one house number for profit. The June reconciliation put the dashboard at 22,684 and Tribe Fin at 11,477, and the whole 11,207 gap is explained: the dashboard has no category at all for those two blocks, so it overstates profit by about 7,306 a month and has done all year. Reconciled June profit sits near 15,400.",
@@ -16374,6 +16384,449 @@
       "project_name": "Keboola migration / sunset",
       "first_seen": "2026-08-30",
       "last_seen": "2026-08-31",
+      "status": "open"
+    },
+    {
+      "text": "Review Andrea Darabasic's updated development plan summary and prepare feedback for Martin",
+      "project": "personal",
+      "source": "fireflies/01M1C3QECR7RTA7JVE4E4PTYJE",
+      "source_type": "fireflies",
+      "date": "2026-08-31",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01M1C3QECR7RTA7JVE4E4PTYJE/reviewandreadarabasicsupdateddevelopment",
+      "project_name": "Personal",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Research market standards for Chief of Staff and senior operational roles to refine the development plan with Martin",
+      "project": "personal",
+      "source": "fireflies/01M1C3QECR7RTA7JVE4E4PTYJE",
+      "source_type": "fireflies",
+      "date": "2026-08-31",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01M1C3QECR7RTA7JVE4E4PTYJE/researchmarketstandardsforchiefofstaffan",
+      "project_name": "Personal",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Schedule a separate recurring monthly Friday development-plan review meeting with Martin",
+      "project": "personal",
+      "source": "fireflies/01M1C3QECR7RTA7JVE4E4PTYJE",
+      "source_type": "fireflies",
+      "date": "2026-08-31",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01M1C3QECR7RTA7JVE4E4PTYJE/scheduleaseparaterecurringmonthlyfridayd",
+      "project_name": "Personal",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Keep Keboola usage below 300 credits per month and set Martin's budget expectations for the upfront payment on the new contract",
+      "project": "keboola-sunset",
+      "source": "fireflies/01M1C3QECR7RTA7JVE4E4PTYJE",
+      "source_type": "fireflies",
+      "date": "2026-08-31",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01M1C3QECR7RTA7JVE4E4PTYJE/keepkeboolausagebelow300creditspermontha",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Update the Tribe financial setup with the latest projections from the Martin 1:1 - VAT reimbursements moving September from -72K to -40K, plus travel and the Tax Fix and Reactor extensions",
+      "project": "fin-dash",
+      "source": "fireflies/01M1C3QECR7RTA7JVE4E4PTYJE",
+      "source_type": "fireflies",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Blake & Martin: 1:1"
+      },
+      "id": "fireflies/01M1C3QECR7RTA7JVE4E4PTYJE/updatethetribefinancialsetupwiththelates",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Remind the team leads to use the intake tool for genuine new roles and to follow the role archiving procedure, to keep recruiting data clean",
+      "project": "ai-recruiting",
+      "source": "fireflies/01M0YVKKXY961G948G79XEGPSK",
+      "source_type": "fireflies",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "TL Meeting"
+      },
+      "id": "fireflies/01M0YVKKXY961G948G79XEGPSK/remindtheteamleadstousetheintaketoolforg",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Fix the failing GitHub Actions runs on bark8922/tribe-dashboard - both 'Deploy MAIN (manual)' and 'Cloud Build (staging, NON-DEPLOYING)' had all jobs fail on main (commit d0e1043) on Sep 1",
+      "project": "infra",
+      "source": "gmail/1a05bc6ffac968b1",
+      "source_type": "gmail",
+      "date": "2026-09-01",
+      "confidence": "high",
+      "extras": {
+        "subject": "[bark8922/tribe-dashboard] Run failed: Tribe Dashboard - Deploy MAIN (manual) - main (d0e1043)",
+        "from": "notifications@github.com"
+      },
+      "id": "gmail/1a05bc6ffac968b1",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Download and process the new finalized WeWork DRN invoice issued Aug 31 (available in WeWork Account Central, cc'd to accounting@ and Martin) and get it paid",
+      "project": "expense-ops",
+      "source": "gmail/1a05a225752684f3",
+      "source_type": "gmail",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Your WeWork invoice is available - DRN",
+        "from": "noreply@wework.com"
+      },
+      "id": "gmail/1a05a225752684f3",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Resolve the security vulnerabilities Supabase flagged across your projects in the Aug 25 'Action required' notice",
+      "project": "infra",
+      "source": "gmail/1a03a63365219f08",
+      "source_type": "gmail",
+      "date": "2026-08-25",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Action required: security vulnerabilities detected in your projects",
+        "from": "noreply@supabase.com"
+      },
+      "id": "gmail/1a03a63365219f08",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Answer Ejla Suljcic on whether TAs can see what they wrote for each role in previous weeks of the Roles Weekly Update, and build that history view if it does not exist",
+      "project": "rec-dash",
+      "source": "slack/D08BHN1KH4K/1788164165.444489",
+      "source_type": "slack",
+      "date": "2026-08-31",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Ejla Suljcic",
+        "from": "Ejla Suljcic"
+      },
+      "id": "slack/D08BHN1KH4K/1788164165.444489",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Give Mikhail Kuzmin a yes/no on archiving the stage events above each candidate's current stage, now that he has fixed the stage order he created by hand on Rodrigo Gomes' jobs",
+      "project": "rec-dash",
+      "source": "slack/D0577RU8WQ1/1788208935.896939",
+      "source_type": "slack",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Mikhail Kuzmin",
+        "from": "Mikhail Kuzmin"
+      },
+      "id": "slack/D0577RU8WQ1/1788208935.896939",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Ask Martin Bernard whether Marina N had coverage on Taxfix and on which dates - Salem Mansuri confirmed there was no coverage for Dusan or Jan and that Martin is the Taxfix POC",
+      "project": "fin-dash",
+      "source": "slack/D057XNFLHTR/1788174794.515239",
+      "source_type": "slack",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Salem Mansuri",
+        "from": "Salem Mansuri"
+      },
+      "id": "slack/D057XNFLHTR/1788174794.515239",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Send the Saima Zeb-Khan and Arrash Masoomi NDAs out for e-signature and tell Nenad Skoko when each one is signed - Saima has already asked him for next steps",
+      "project": "legal",
+      "source": "slack/D05UGUJPZ97/1787653495.880439",
+      "source_type": "slack",
+      "date": "2026-08-25",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Nenad Skoko",
+        "from": "Nenad Skoko"
+      },
+      "id": "slack/D05UGUJPZ97/1787653495.880439",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Update the rest-of-year revenue projections for Salem Mansuri's accounts to reflect Glovo ending this month (headcount collapsed, not included in Uber's DeliveryHero acquisition), with Hims & Hers still early doors",
+      "project": "fin-dash",
+      "source": "slack/D057XNFLHTR/1787732603.972929",
+      "source_type": "slack",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Salem Mansuri",
+        "from": "Salem Mansuri"
+      },
+      "id": "slack/D057XNFLHTR/1787732603.972929",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Post the still-missing recording and summary for the Friday 28 August team meeting in #important_updates - the automated recap lists both as missing and has pinged Blake",
+      "project": "team-cohesion",
+      "source": "slack/CKWLY0TJ8/1788163213.810619",
+      "source_type": "slack",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "channel": "#important_updates",
+        "from": "Friday meeting recap bot"
+      },
+      "id": "slack/CKWLY0TJ8/1788163213.810619",
+      "project_name": "Team cohesion",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Stop the Friday meeting recorder from running past the main call - Chene Elliot flagged that it also captured Martin Bernard's follow-on call with Nenad Skoko and Sashka Sarafinovska",
+      "project": "infra",
+      "source": "slack/D056G656T5M/1787662879.282649",
+      "source_type": "slack",
+      "date": "2026-08-25",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Chene Elliot",
+        "from": "Chene Elliot"
+      },
+      "id": "slack/D056G656T5M/1787662879.282649",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Reflect Marina Lazarevic's 14 September leaving date in offboarding, licence/tooling reclaim and invoicing - Andrea Darabasic posted it in #people-ops and has her exit interview next week",
+      "project": "people-ops",
+      "source": "slack/C05R5DS9S2J/1787919088.699429",
+      "source_type": "slack",
+      "date": "2026-08-28",
+      "confidence": "medium",
+      "extras": {
+        "channel": "#people-ops",
+        "from": "Andrea Darabasic"
+      },
+      "id": "slack/C05R5DS9S2J/1787919088.699429",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Answer the four blocking definition questions on the WBR screens metric before any SQL ships: whether Andy's DAX is still the standard, whether the Evaluation event must fall in the same week or just exist at all, whether targets get rebased or attainment history simply restates (Change A moves ~1,000 screens, about 9% of H1 2026), and whether wbr_weekly and ts_weekly should be reconciled at all given Andy built TA and TS on deliberately different measures",
+      "project": "rec-dash",
+      "source": "cowork/local_281e060c-e48d-4769-abfb-95f524648898",
+      "source_type": "cowork",
+      "date": "2026-09-01",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Simon's weekly numbers"
+      },
+      "id": "cowork/local_281e060c-e48d-4769-abfb-95f524648898/answerthefourblockingdefinitionquestions",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Fix the WBR Screens column mismatch in App.jsx before touching any transform - lines 416 and 552 render actual_screens || screened for Client Summary and TA Detail while the drill-down at line 270 uses raw screened, so two different metrics ship under one header today",
+      "project": "rec-dash",
+      "source": "cowork/local_281e060c-e48d-4769-abfb-95f524648898",
+      "source_type": "cowork",
+      "date": "2026-09-01",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Simon's weekly numbers"
+      },
+      "id": "cowork/local_281e060c-e48d-4769-abfb-95f524648898/fixthewbrscreenscolumnmismatchinappjsxbe",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Build the per-person per-week old-versus-new comparison table for all of 2026 covering changes A, B and C before shipping any wbr_weekly edit, so whose numbers move is visible first",
+      "project": "rec-dash",
+      "source": "cowork/local_281e060c-e48d-4769-abfb-95f524648898",
+      "source_type": "cowork",
+      "date": "2026-09-01",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Simon's weekly numbers"
+      },
+      "id": "cowork/local_281e060c-e48d-4769-abfb-95f524648898/buildtheperpersonperweekoldversusnewcomp",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Deduplicate Simon Siew in weekly_summary under the ts dimension - he appears twice, as 'Simon  Siew' with a double space carrying all the numbers and 'Simon Siew' carrying zeros",
+      "project": "rec-dash",
+      "source": "cowork/local_281e060c-e48d-4769-abfb-95f524648898",
+      "source_type": "cowork",
+      "date": "2026-09-01",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Simon's weekly numbers"
+      },
+      "id": "cowork/local_281e060c-e48d-4769-abfb-95f524648898/deduplicatesimonsiewinweekly_summaryunde",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Finish Wave 2 by rendering the Int 1/2/3 interview columns in the WBR and MBR tabs - the data already lands in wbr_actuals/ts_actuals and reconciles at 104/26/14, TS Summary and Weekly Summary are already live, so only the rendering on the two most target-heavy tables is left",
+      "project": "rec-dash",
+      "source": "cowork/local_89e12d9a-7afe-463f-bd7e-dc5d343a365b",
+      "source_type": "cowork",
+      "date": "2026-09-01",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Funnel stages data structure"
+      },
+      "id": "cowork/local_89e12d9a-7afe-463f-bd7e-dc5d343a365b/finishwave2byrenderingtheint123interview",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Add the per-job on_new_pipeline flag, which unblocks the two deferred polish items (the 'X of Y roles on new pipeline' context cell and new-pipeline-scoped conversion) plus the Project Dashboard asterisk",
+      "project": "rec-dash",
+      "source": "cowork/local_89e12d9a-7afe-463f-bd7e-dc5d343a365b",
+      "source_type": "cowork",
+      "date": "2026-09-01",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Funnel stages data structure"
+      },
+      "id": "cowork/local_89e12d9a-7afe-463f-bd7e-dc5d343a365b/addtheperjobon_new_pipelineflagwhichunbl",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Check the job-search-daily schedule config - the task fired twice on 31 Aug and only the shown-log stopped the second run from overwriting a complete board with an empty one; on a day where the log had not yet been written it would produce a redundant dashboard",
+      "project": "infra",
+      "source": "cowork/local_7b9e4e8a-03b7-45e8-b7e4-ea06b965c0b9",
+      "source_type": "cowork",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Job search daily"
+      },
+      "id": "cowork/local_7b9e4e8a-03b7-45e8-b7e4-ea06b965c0b9/checkthejobsearchdailyscheduleconfigthet",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Sign in to Cloudflare Access for job-research.tribe-bamboohr.workers.dev in Chrome so the rendered live page and its layout invariants can be checked - the Worker is up and the correct bytes are on main, but the page returns the Access sign-in gate",
+      "project": "personal",
+      "source": "cowork/local_7b9e4e8a-03b7-45e8-b7e4-ea06b965c0b9",
+      "source_type": "cowork",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Job search daily"
+      },
+      "id": "cowork/local_7b9e4e8a-03b7-45e8-b7e4-ea06b965c0b9/signintocloudflareaccessforjobresearchtr",
+      "project_name": "Personal",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Restore a LinkedIn harvest path for the linkedin-idea-generator-morning cron - there is still no connector on unattended runs, so the last live harvest is 18 Aug and every topic suggestion is now reasoned rather than observed",
+      "project": "linkedin",
+      "source": "cowork/local_4fd61e28-cf2d-400c-bd60-a606c55d2c50",
+      "source_type": "cowork",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Linkedin idea generator morning"
+      },
+      "id": "cowork/local_4fd61e28-cf2d-400c-bd60-a606c55d2c50/restorealinkedinharvestpathforthelinkedi",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Confirm with Martin that Vista billing can be raised when Niki starts on Wednesday - he said to invoice at that point but it has not been confirmed",
+      "project": "fin-dash",
+      "source": "cowork/local_99f78a7b-c536-42b7-9b67-6701240a2778",
+      "source_type": "cowork",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Martin meeting prep"
+      },
+      "id": "cowork/local_99f78a7b-c536-42b7-9b67-6701240a2778/confirmwithmartinthatvistabillingcanbera",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-09-01",
       "status": "open"
     }
   ]
