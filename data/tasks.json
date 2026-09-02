@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-01",
+  "generated_at": "2026-09-02",
   "schema_version": 3,
-  "total": 403,
-  "active_count": 403,
-  "archived_count": 612,
+  "total": 409,
+  "active_count": 409,
+  "archived_count": 621,
   "projects": [
     {
       "id": "ai-first-working-group",
@@ -10707,7 +10707,8 @@
       "project_name": "Legal & Contracts",
       "first_seen": "2026-08-11",
       "last_seen": "2026-08-11",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-02"
     },
     {
       "text": "Finalise the Marcel interview guide draft with Nenad, folding in the agreed edits before it goes to Marcel",
@@ -10723,7 +10724,8 @@
       "project_name": "Tribe Talks",
       "first_seen": "2026-08-11",
       "last_seen": "2026-08-11",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-02"
     },
     {
       "text": "Build a short slide-based demo of the automation projects (benefits and tools, anonymised data) for the Marcel session",
@@ -10739,7 +10741,8 @@
       "project_name": "Tribe Talks",
       "first_seen": "2026-08-11",
       "last_seen": "2026-08-11",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-02"
     },
     {
       "text": "Pay the new Keboola Czech s.r.o. August invoice 0055/2026 from Tereza Dolezalova (forwarded to accounting@ on 11 Aug, payment still outstanding)",
@@ -10756,7 +10759,8 @@
       "project_name": "Keboola migration / sunset",
       "first_seen": "2026-08-11",
       "last_seen": "2026-08-11",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-02"
     },
     {
       "text": "Rotate the Upwork credentials shared in plain text in Slack - Blake posted the martin@tribe.xyz login, the password and the security-question answer in DM to Caroline Murphy on 11 Aug. Change the password and security answer now that she is in, and add her as her own user instead of sharing Martin's account.",
@@ -10773,7 +10777,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-08-11",
       "last_seen": "2026-08-11",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-02"
     },
     {
       "text": "Stop running Revolut FX exchanges during weekend/off-market hours to avoid the off-hours fee Francesco flagged",
@@ -10789,7 +10794,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-08-11",
       "last_seen": "2026-08-12",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-02"
     },
     {
       "text": "Calculate the actual annual cost of Revolut FX overages (6,000 CZK + 3,400 CZK in fees last cycle) versus upgrading the plan, decide whether to change the plan or the transfer behaviour, and agree a no-weekend-FX rule with Jacopo (1% weekend surcharge)",
@@ -10806,7 +10812,8 @@
       "project_name": "Legal & Contracts",
       "first_seen": "2026-08-11",
       "last_seen": "2026-08-12",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-02"
     },
     {
       "text": "Check with Caroline Murphy whether the leadership LinkedIn program has been formally extended to leads, and decide whether Blake joins its tracking/accountability structure or keeps running his own independent content track",
@@ -10823,7 +10830,8 @@
       "project_name": "LinkedIn (licenses + posting)",
       "first_seen": "2026-08-11",
       "last_seen": "2026-08-12",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-02"
     },
     {
       "text": "Rotate the read-only Supabase/Postgres credentials for the job-intel database (user rodrigo_readonly.garopkilxgpcmlkiqvbg) - the host, user and password were posted in plain text in the Slack DM to Rodrigo Gomes",
@@ -10927,7 +10935,8 @@
       "project_name": "Legal & Contracts",
       "first_seen": "2026-08-11",
       "last_seen": "2026-08-12",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-02"
     },
     {
       "text": "Decide whether an eligibility rule ships with the merged Tribe intake extension when it returns around 20 Aug, and chase Andrea and Chantal on the 29 Jul action items - the eligibility tracker was still empty as of 28 Jul",
@@ -17392,6 +17401,251 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-08-31",
       "last_seen": "2026-09-01",
+      "status": "open"
+    },
+    {
+      "text": "Raise role archiving and intake tool usage reminders at the team-leads (CL) meeting and stress that team leads must enforce process adherence",
+      "project": "ai-recruiting",
+      "source": "fireflies/01M0YQBFEXK39K14K70FEX9123",
+      "source_type": "fireflies",
+      "date": "2026-08-26",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Stand-up BD,PO,Prod,Rec"
+      },
+      "id": "fireflies/01M0YQBFEXK39K14K70FEX9123/raiserolearchivingandintaketoolusageremi",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-08-26",
+      "last_seen": "2026-09-02",
+      "status": "open"
+    },
+    {
+      "text": "Review and comment on the 'Vista_Tribe_Embedded Recruiter Agreement' Google Doc that Martin Bernard shared with you for comment on Sep 2",
+      "project": "legal",
+      "source": "gmail/1a060b9e56793833",
+      "source_type": "gmail",
+      "date": "2026-09-02",
+      "confidence": "high",
+      "extras": {
+        "subject": "Document shared with you: \"Vista_Tribe_Embedded Recruiter Agreement\"",
+        "from": "Martin Bernard (via drive-shares-dm-noreply@google.com)"
+      },
+      "id": "gmail/1a060b9e56793833",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "status": "open"
+    },
+    {
+      "text": "Prepare the 'Tribe bot - advocating' Director's Stand-up talking point Ella Darie assigned to you in Notion on Sep 1",
+      "project": "tribebot",
+      "source": "gmail/1a05c522caac2c9c",
+      "source_type": "gmail",
+      "date": "2026-09-01",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Ella Darie mentioned you in Tribe bot - advocating",
+        "from": "Ella Darie (via notify@mail.notion.so)",
+        "context": "Director's Stand-up / Talking Points, Whose Topic: Ella Darie, Blake"
+      },
+      "id": "gmail/1a05c522caac2c9c",
+      "project_name": "Tribebot",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-02",
+      "status": "open"
+    },
+    {
+      "text": "Add updated status, data and blockers to Blake's OKR Key Results in Notion before the OKR check-in on Wednesday 2 September - the Notion reminder in #okr-comms asks for any Key Result off-track for two check-ins in a row to be ready for discussion",
+      "project": "okrs",
+      "source": "slack/C06RERFCAF6/1788253203.991169",
+      "source_type": "slack",
+      "date": "2026-09-01",
+      "confidence": "medium",
+      "extras": {
+        "channel": "okr-comms",
+        "from": "Notion (reminder bot)"
+      },
+      "id": "slack/C06RERFCAF6/1788253203.991169",
+      "project_name": "OKRs",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-02",
+      "status": "open"
+    },
+    {
+      "text": "Fix the failing 'Invoice to Gdrive - Forward to Boris - Mark as read' n8n workflow - the Save Invoice to Google Drive node returned 'Bad gateway' on 1 Sep 17:02 (execution 51657); set it to retry automatically",
+      "project": "infra",
+      "source": "slack/D0AKAPA0X3J/1788274940.672969",
+      "source_type": "slack",
+      "date": "2026-09-01",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Blake Updates Bot",
+        "from": "Blake Updates Bot"
+      },
+      "id": "slack/D0AKAPA0X3J/1788274940.672969",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-02",
+      "status": "open"
+    },
+    {
+      "text": "Decide whether to add the 25 Keboola sourcers who fall outside SOURCER_ROSTER to the monthly Sourcer Client Assignment sheet - the 2026-08 run left output at exactly 14 sourcers and excluded heavy hitters Jan Dokulil (1167 candidates), Jelena Lacmanovic (583), Mateja Jokovic (578) and Milica Mladzic (400); the out-of-roster count has run 34 to 30 to 25 over three months and the run flagged it as a judgment call it would not make",
+      "project": "rec-dash",
+      "source": "cowork/local_2fb89a07-934c-4fe3-bd8e-5a7afa622b57",
+      "source_type": "cowork",
+      "date": "2026-09-02",
+      "confidence": "medium",
+      "extras": {
+        "title": "Sourcer client assignment monthly"
+      },
+      "id": "cowork/local_2fb89a07-934c-4fe3-bd8e-5a7afa622b57/decidewhethertoaddthe25keboolasourcerswh",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "status": "open"
+    },
+    {
+      "text": "Delete the 11 duplicate invoice PDFs from the 15:01 batch in the Drive invoice folder left by the n8n retry (databased-2026-08-04, ILA63AC496, 5665902094, 159165137, August.pdf, Rachele Alvarado 09_2026, Faktura exportowa 08-UE-2026, N. Skoko Aug, MD-8-26SOLO, 1513534, DigitalOcean 63469-2304472) - the Drive trash tool was blocked by the permission classifier, so the newer 18:19/18:20 copies stay and the 15:01 twins have to be cleared by hand",
+      "project": "expense-ops",
+      "source": "cowork/local_0f9f7a9c-3a1c-42f7-accb-3035ddf78939",
+      "source_type": "cowork",
+      "date": "2026-09-02",
+      "confidence": "high",
+      "extras": {
+        "title": "Invoice workflow failure"
+      },
+      "id": "cowork/local_0f9f7a9c-3a1c-42f7-accb-3035ddf78939/deletethe11duplicateinvoicepdfsfromthe15",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "status": "open"
+    },
+    {
+      "text": "Apply the three n8n fixes that stop the invoice workflow failing the way execution 51657 did: move the mark-as-read node downstream of the Drive save, turn on retryOnFail for the Drive node, and set its error handling to continue on regular output",
+      "project": "expense-ops",
+      "source": "cowork/local_0f9f7a9c-3a1c-42f7-accb-3035ddf78939",
+      "source_type": "cowork",
+      "date": "2026-09-02",
+      "confidence": "high",
+      "extras": {
+        "title": "Invoice workflow failure"
+      },
+      "id": "cowork/local_0f9f7a9c-3a1c-42f7-accb-3035ddf78939/applythethreen8nfixesthatstoptheinvoicew",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "status": "open"
+    },
+    {
+      "text": "Get Andreea Vrancianu to send a smaller invoice scan - vdda-factura-2026-6.pdf is 8.1 MB, roughly 15x the next largest file in the batch, almost certainly what pushed Drive into the 502 that broke the invoice workflow, and the same oversized scan that has been breaking her OCR since May",
+      "project": "expense-ops",
+      "source": "cowork/local_0f9f7a9c-3a1c-42f7-accb-3035ddf78939",
+      "source_type": "cowork",
+      "date": "2026-09-02",
+      "confidence": "medium",
+      "extras": {
+        "title": "Invoice workflow failure"
+      },
+      "id": "cowork/local_0f9f7a9c-3a1c-42f7-accb-3035ddf78939/getandreeavrancianutosendasmallerinvoice",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "status": "open"
+    },
+    {
+      "text": "Fix ts_weekly's calendar-year week bucketing so it uses ISO weeks - 465 Contacted from 29-31 December 2025 (211 of them Nenad Skoko's), plus 68 ATS, 59 offers and 59 hires, land in a nonsense row instead of ISO week 1 of 2026; harmless today but it breaks on 1 January",
+      "project": "rec-dash",
+      "source": "cowork/local_d49da37b-949e-412c-8291-d4116041421d",
+      "source_type": "cowork",
+      "date": "2026-09-02",
+      "confidence": "high",
+      "extras": {
+        "title": "Moved to ATS data discrepancy"
+      },
+      "id": "cowork/local_d49da37b-949e-412c-8291-d4116041421d/fixts_weeklyscalendaryearweekbucketingso",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "status": "open"
+    },
+    {
+      "text": "Roll the Int 1/2/3 stage columns out to the four surfaces still missing them beyond MBR: IR (ir_funnel_jobweek, 89 rows, still on onsite/culture/call_w_client), Circle (METRIC_FIELDS in inject_jobs.py plus the by-job table in circle.html, by-job only per the earlier decision, no data work needed), Tribe Bot (change the candidate_dq_by_stage ladder to expose Int 1/2/3 and drop the collapsed Interview rung), and the Slack roles bot (tribe-job-intel Supabase dash_funnel, pipeline_weekly_cache, pipeline_weekly_cache_by_ts and weekly_updates.pipeline_snapshot all still stop at ATS/Offered/Hired and the loader still needs tracing)",
+      "project": "rec-dash",
+      "source": "cowork/local_d49da37b-949e-412c-8291-d4116041421d",
+      "source_type": "cowork",
+      "date": "2026-09-02",
+      "confidence": "high",
+      "extras": {
+        "title": "Moved to ATS data discrepancy"
+      },
+      "id": "cowork/local_d49da37b-949e-412c-8291-d4116041421d/rolltheint123stagecolumnsouttothefoursur",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-02",
+      "status": "open"
+    },
+    {
+      "text": "Find out what the 1,060 extra actual screens in Q1 2026 actually were before anyone gates them away - 89% sit in weeks 1 to 12 and the pattern stops dead at week 13, with Ketevan Khorava (223) and Chantal Bozkurt (192) carrying 39% between them, so it is a one-off event on a small group rather than a definition problem and it may be hitting metrics nobody has looked at",
+      "project": "rec-dash",
+      "source": "cowork/local_281e060c-e48d-4769-abfb-95f524648898",
+      "source_type": "cowork",
+      "date": "2026-09-01",
+      "confidence": "medium",
+      "extras": {
+        "title": "Simon's weekly numbers"
+      },
+      "id": "cowork/local_281e060c-e48d-4769-abfb-95f524648898/findoutwhatthe1060extraactualscreensinq1",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-02",
+      "status": "open"
+    },
+    {
+      "text": "Fix the blank-TA screens bug - the who_event_created_for IS NOT NULL filter does not exclude empty string, so 7 actual screens in 2026 are credited to a TA named \"\"; it is a one-word change and it is also the entire difference between the two credit-split options",
+      "project": "rec-dash",
+      "source": "cowork/local_281e060c-e48d-4769-abfb-95f524648898",
+      "source_type": "cowork",
+      "date": "2026-09-01",
+      "confidence": "medium",
+      "extras": {
+        "title": "Simon's weekly numbers"
+      },
+      "id": "cowork/local_281e060c-e48d-4769-abfb-95f524648898/fixtheblanktascreensbugthewho_event_crea",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-02",
+      "status": "open"
+    },
+    {
+      "text": "Freeze our own numbers snapshot as the regression baseline for the funnel work - Andy's April PBI figures can no longer be reproduced under any definition (week 14 Contacted was 1,871 in PBI and reads 2,211 today, everything drifted up 7 to 38% from the max() re-dating), so the old regression test is gone and future checks need a baseline we control",
+      "project": "rec-dash",
+      "source": "cowork/local_281e060c-e48d-4769-abfb-95f524648898",
+      "source_type": "cowork",
+      "date": "2026-09-01",
+      "confidence": "medium",
+      "extras": {
+        "title": "Simon's weekly numbers"
+      },
+      "id": "cowork/local_281e060c-e48d-4769-abfb-95f524648898/freezeourownnumberssnapshotastheregressi",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-02",
+      "status": "open"
+    },
+    {
+      "text": "Check whether Simon Siew set the stage order wrong on one of the Reaktor jobs - candidate 1785064450762x757522664828708600 got Interview 3, Interview 1, Offer and Hired all stamped at 07:05:18.038, including a Hired that is not real; same burst shape as Rodrigo's AVIV jobs, 1 of his 20 backfilled candidates",
+      "project": "rec-dash",
+      "source": "cowork/local_281e060c-e48d-4769-abfb-95f524648898",
+      "source_type": "cowork",
+      "date": "2026-09-01",
+      "confidence": "medium",
+      "extras": {
+        "title": "Simon's weekly numbers"
+      },
+      "id": "cowork/local_281e060c-e48d-4769-abfb-95f524648898/checkwhethersimonsiewsetthestageorderwro",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-02",
       "status": "open"
     }
   ]
