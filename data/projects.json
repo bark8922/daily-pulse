@@ -45,7 +45,7 @@
     "workforce-planning-changes"
   ],
   "lookback_days": 60,
-  "updated": "2026-09-02",
+  "updated": "2026-09-03",
   "generated_from": "data/ledger.json (Notion). Do not hand-edit.",
   "projects": [
     {
