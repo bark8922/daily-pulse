@@ -1,14 +1,14 @@
 {
   "generated_at": "2026-09-04",
   "schema_version": 3,
-  "total": 437,
-  "active_count": 437,
+  "total": 468,
+  "active_count": 468,
   "archived_count": 643,
   "projects": [
     {
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
-      "tier": "medium"
+      "tier": "big"
     },
     {
       "id": "rec-dash",
@@ -73,7 +73,7 @@
     {
       "id": "linkedin",
       "name": "LinkedIn (licenses + posting)",
-      "tier": "medium"
+      "tier": "big"
     },
     {
       "id": "people-ops",
@@ -16552,7 +16552,7 @@
       "project": "infra",
       "source": "gmail/1a03a63365219f08",
       "source_type": "gmail",
-      "date": "2026-08-25",
+      "date": "2026-09-01",
       "confidence": "medium",
       "extras": {
         "subject": "Action required: security vulnerabilities detected in your projects",
@@ -16561,7 +16561,7 @@
       "id": "gmail/1a03a63365219f08",
       "project_name": "Infra & Automation",
       "first_seen": "2026-08-25",
-      "last_seen": "2026-09-01",
+      "last_seen": "2026-09-04",
       "status": "open"
     },
     {
@@ -16926,20 +16926,20 @@
       "status": "open"
     },
     {
-      "text": "Issue and send out the renumbered Tribe.xyz Czech s.r.o. invoices now that Natalie Harustiakova (Boris Gnoth Tax) confirmed on Sep 1 they are ready",
-      "project": "inbox",
+      "text": "Issue and send out the renumbered Tribe.xyz Holding a.s. invoices now that Natalie Harustiakova (Boris Gnoth Tax) confirmed on Sep 3 they are ready (separate batch from the Tribe CZ invoices)",
+      "project": "expense-ops",
       "source": "gmail/1a05c2bd6a070271",
       "source_type": "gmail",
-      "date": "2026-09-01",
+      "date": "2026-09-03",
       "confidence": "medium",
       "extras": {
         "subject": "RE: Tribe CZ invoices",
-        "from": "Natalie Harustiakova <nharustiakova@borisgnoth.cz>"
+        "from": "nharustiakova@borisgnoth.cz"
       },
       "id": "gmail/1a05c2bd6a070271",
-      "project_name": "Needs sorting",
+      "project_name": "Expense Ops",
       "first_seen": "2026-09-01",
-      "last_seen": "2026-09-01",
+      "last_seen": "2026-09-04",
       "status": "open"
     },
     {
@@ -17968,7 +17968,7 @@
       "source": "gmail/1a03af0bcc120f5a",
       "source_type": "gmail",
       "date": "2026-09-02",
-      "confidence": "medium",
+      "confidence": "high",
       "extras": {
         "subject": "Re: Tribe.xyz CZ Payroll (August)",
         "from": "Vera Kolihova <vkolihova@borisgnoth.cz>"
@@ -17976,7 +17976,7 @@
       "id": "gmail/1a03af0bcc120f5a",
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-09-02",
-      "last_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
       "status": "open"
     },
     {
@@ -18484,6 +18484,555 @@
       "id": "cowork/local_2560fb2f-1e9b-4dc7-a385-519c1f2d5e8a/finalizetaxonomyv2byfridaysept4perthe090",
       "project_name": "AI First Working Group",
       "first_seen": "2026-09-02",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Track and report the total volume of LinkedIn InMails used by the team (your action item from the Aug 31 WBR - Delivery Only), feeding the new mandatory sequence policy",
+      "project": "linkedin",
+      "source": "gmail/1a05734dc0fb7778",
+      "source_type": "gmail",
+      "date": "2026-08-31",
+      "confidence": "high",
+      "extras": {
+        "subject": "Notes: \u201cWBR - Delivery Only\u201d Aug 31, 2026",
+        "from": "gemini-notes@google.com"
+      },
+      "id": "gmail/1a05734dc0fb7778",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Research alternative Lattice data-extraction methods or API solutions before the next Claude Master Session, so the performance-review calibration dashboard can pull company-wide data without manual spreadsheet exports",
+      "project": "infra",
+      "source": "gmail/1a057eb88921b606",
+      "source_type": "gmail",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Notes: \u201cClaude: Master Sessions\u201d Aug 31, 2026",
+        "from": "gemini-notes@google.com"
+      },
+      "id": "gmail/1a057eb88921b606",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Speak with Yobo about using the internal recruitment chatbot to gather data for future delivery presentations (action item from the Sep 1 1:1 with Ella)",
+      "project": "tribebot",
+      "source": "gmail/1a05c53652faaa14",
+      "source_type": "gmail",
+      "date": "2026-09-01",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Notes: \u201cBlake / Ella 1:1\u201d Sep 1, 2026",
+        "from": "gemini-notes@google.com"
+      },
+      "id": "gmail/1a05c53652faaa14",
+      "project_name": "Tribebot",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Build a backward-looking track record of how bench Tribsters perform in client interviews (Alex, Edu and others) by mining Martin's inbox and HubSpot deals with AI, and tell Martin whether the numbers are feasible to pull",
+      "project": "rec-dash",
+      "source": "slack/D055NJ27YRY/1788504144.970719",
+      "source_type": "slack",
+      "date": "2026-09-04",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Martin Bernard",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/D055NJ27YRY/1788504144.970719",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Respond to Sanja on releasing InMails for the IR sprint - sequences were only just fixed by Mikhail and are going out too slowly (about 40% contacted)",
+      "project": "linkedin",
+      "source": "slack/D06CHF6CCN5/1788450186.525629",
+      "source_type": "slack",
+      "date": "2026-09-03",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Sanja Pavlovikj",
+        "from": "Sanja Pavlovikj"
+      },
+      "id": "slack/D06CHF6CCN5/1788450186.525629",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Make Martin an admin on the Clay workspace (app.clay.com workspace 306102 team settings)",
+      "project": "infra",
+      "source": "slack/D055NJ27YRY/1788429168.310289",
+      "source_type": "slack",
+      "date": "2026-09-03",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Martin Bernard",
+        "from": "Martin Bernard"
+      },
+      "id": "slack/D055NJ27YRY/1788429168.310289",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Tell Niki Vokalkova how to submit her H1 performance review bonus - include it in the monthly invoice PDF to the accounting mailbox or send it separately",
+      "project": "expense-ops",
+      "source": "slack/D09KKU0GPFU/1788422521.025909",
+      "source_type": "slack",
+      "date": "2026-09-03",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Niki Vokalkova",
+        "from": "Niki Vokalkova"
+      },
+      "id": "slack/D09KKU0GPFU/1788422521.025909",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Decide and tell Nenad whether the Sales Coach can invoice in GBP at a standard exchange rate, since her invoicing system cannot issue in EUR",
+      "project": "expense-ops",
+      "source": "slack/D05UGUJPZ97/1788429648.838929",
+      "source_type": "slack",
+      "date": "2026-09-03",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Nenad Skoko",
+        "from": "Nenad Skoko"
+      },
+      "id": "slack/D05UGUJPZ97/1788429648.838929",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Give Nenad the invoicing details the Sales Coach asked for - contact name, invoice email (confirm whether accounting@tribe.xyz is fine) and company name/address",
+      "project": "expense-ops",
+      "source": "slack/D05UGUJPZ97/1788429727.612929",
+      "source_type": "slack",
+      "date": "2026-09-03",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Nenad Skoko",
+        "from": "Nenad Skoko"
+      },
+      "id": "slack/D05UGUJPZ97/1788429727.612929",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Ask whoever owns the Bubble recruiting workflow (Mikhail) whether closing a candidate can stamp a dated event, or whether an archive date already exists in Bubble that the Keboola extractor is dropping. Today there is no archive event at all: 29,910 candidates carry the disqualified flag with no matching Disqualified event, and only 482 of 12,270 duplicate pairs have a dated closure on the first record, so the 'disqualified then re-added counts twice' rule cannot be implemented.",
+      "project": "rec-dash",
+      "source": "cowork/local_ae52df59-842b-42b8-8849-083c335d58b2",
+      "source_type": "cowork",
+      "date": "2026-09-04",
+      "confidence": "medium",
+      "extras": {
+        "people": [
+          "Mikhail"
+        ],
+        "why": "Blake's preferred dedupe rule is unrecordable until closures are timestamped upstream in Bubble."
+      },
+      "id": "cowork/local_ae52df59-842b-42b8-8849-083c335d58b2/askwhoeverownsthebubblerecruitingworkflo",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Write up the candidate double-counting findings as a recorded data-quality fact rather than a code change: 12,270 duplicate pairs on is_candidate_duplicated, of which 4,395 are same-day double entries and 3,075 are never-contacted shells, inflating weekly funnel counts by roughly 0.4 to 1.5 percent. The decision was that fixing it in place (about 40 edit sites across 10 transformations plus restating all history) is not worth it.",
+      "project": "rec-dash",
+      "source": "cowork/local_ae52df59-842b-42b8-8849-083c335d58b2",
+      "source_type": "cowork",
+      "date": "2026-09-04",
+      "confidence": "medium",
+      "extras": {
+        "why": "Offered at the end of the session and left unanswered; the finding is the deliverable, not the fix."
+      },
+      "id": "cowork/local_ae52df59-842b-42b8-8849-083c335d58b2/writeupthecandidatedoublecountingfinding",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Get LinkedIn compliance (Jackie) to put the practical Recruiter session rules in writing - how many concurrent sessions are acceptable, whether phone plus laptop signed in at once is itself a flag, whether an idle session on a second machine counts as active, whether a second browser or profile counts as a second session, and whether a warning is issued before suspension - then write them into an internal session-hygiene policy and train the recruiting team on it.",
+      "project": "linkedin",
+      "source": "cowork/local_07b830b0-c226-4b3b-9139-2ce9ced7ea9c",
+      "source_type": "cowork",
+      "date": "2026-09-04",
+      "confidence": "high",
+      "extras": {
+        "people": [
+          "Jackie"
+        ],
+        "commitment": "Blake wrote to Jackie: he would write the rules into internal policy, train the team on them and hold people to them."
+      },
+      "id": "cowork/local_07b830b0-c226-4b3b-9139-2ce9ced7ea9c/getlinkedincompliancejackietoputthepract",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Stop Jacopo lending his LinkedIn account to Jelena Lacmanovic while the 30-day Recruiter suspension review is open - account sharing mid-review undermines the entire appeal argument.",
+      "project": "linkedin",
+      "source": "cowork/local_07b830b0-c226-4b3b-9139-2ce9ced7ea9c",
+      "source_type": "cowork",
+      "date": "2026-09-04",
+      "confidence": "high",
+      "extras": {
+        "people": [
+          "Jacopo",
+          "Jelena Lacmanovic"
+        ],
+        "urgency": "flagged twice as a pre-call action, no confirmation it was done"
+      },
+      "id": "cowork/local_07b830b0-c226-4b3b-9139-2ce9ced7ea9c/stopjacopolendinghislinkedinaccounttojel",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Get Brian (LinkedIn Account Director) to credit or pause billing on the two suspended Recruiter licences (Jelena Lacmanovic, Mateja J) for the 30 days they cannot be used - billing sits with him, not with Product Compliance.",
+      "project": "linkedin",
+      "source": "cowork/local_07b830b0-c226-4b3b-9139-2ce9ced7ea9c",
+      "source_type": "cowork",
+      "date": "2026-09-04",
+      "confidence": "high",
+      "extras": {
+        "people": [
+          "Brian"
+        ]
+      },
+      "id": "cowork/local_07b830b0-c226-4b3b-9139-2ce9ced7ea9c/getbrianlinkedinaccountdirectortocredito",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Send Blake's own written summary of the 14:30 Brian call - who does what by when - and get Brian to confirm the actions back in email.",
+      "project": "linkedin",
+      "source": "cowork/local_07b830b0-c226-4b3b-9139-2ce9ced7ea9c",
+      "source_type": "cowork",
+      "date": "2026-09-04",
+      "confidence": "medium",
+      "extras": {
+        "people": [
+          "Brian"
+        ],
+        "commitment": "send your own summary within the hour"
+      },
+      "id": "cowork/local_07b830b0-c226-4b3b-9139-2ce9ced7ea9c/sendblakesownwrittensummaryofthe1430bria",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Check internally that nobody at Tribe is still running PhantomBuster or third-party browser extensions against LinkedIn Recruiter - Mateja used PhantomBuster about three months ago and Alex Ricky's 24-hour suspension was attributed to browser extensions.",
+      "project": "linkedin",
+      "source": "cowork/local_07b830b0-c226-4b3b-9139-2ce9ced7ea9c",
+      "source_type": "cowork",
+      "date": "2026-09-04",
+      "confidence": "medium",
+      "extras": {
+        "note": "deliberately kept out of the LinkedIn call, kept as an internal action"
+      },
+      "id": "cowork/local_07b830b0-c226-4b3b-9139-2ce9ced7ea9c/checkinternallythatnobodyattribeisstillr",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Fix the candidate-side damage from Mateja's suspended LinkedIn profile - his profile and chat history vanished, candidates mid-pipeline are messaging his personal WhatsApp asking if they were scammed, and Tribe is having to ask clients to email candidates to confirm we are real.",
+      "project": "linkedin",
+      "source": "cowork/local_07b830b0-c226-4b3b-9139-2ce9ced7ea9c",
+      "source_type": "cowork",
+      "date": "2026-09-04",
+      "confidence": "medium",
+      "extras": {
+        "people": [
+          "Mateja J"
+        ]
+      },
+      "id": "cowork/local_07b830b0-c226-4b3b-9139-2ce9ced7ea9c/fixthecandidatesidedamagefrommatejassusp",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Take Jacopo's LinkedIn agency-pricing complaint to Brian's manager as a separate conversation - it was deliberately kept off the suspension call agenda and remains unraised.",
+      "project": "linkedin",
+      "source": "cowork/local_07b830b0-c226-4b3b-9139-2ce9ced7ea9c",
+      "source_type": "cowork",
+      "date": "2026-09-04",
+      "confidence": "medium",
+      "extras": {
+        "people": [
+          "Jacopo",
+          "Brian"
+        ],
+        "decision": "before-call decision was not to bring up agency pricing"
+      },
+      "id": "cowork/local_07b830b0-c226-4b3b-9139-2ce9ced7ea9c/takejacoposlinkedinagencypricingcomplain",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Answer section 14 of Eva's D&O questionnaire, still blank, with EUR 1,000,000 and send it together with the Colonnade Cyber Plus answers.",
+      "project": "legal",
+      "source": "cowork/local_f48dd904-60cc-4e88-91bf-e81c0f404837",
+      "source_type": "cowork",
+      "date": "2026-09-04",
+      "confidence": "high",
+      "extras": {
+        "people": [
+          "Eva"
+        ]
+      },
+      "id": "cowork/local_f48dd904-60cc-4e88-91bf-e81c0f404837/answersection14ofevasdoquestionnairestil",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Bind professional indemnity cover of EUR 50,000 per claim in the name of Tribe.xyz Czech s.r.o. by 5 October 2026 to satisfy Voize contract Article 5.4, and ask broker Cibulec whether defence costs sit inside or on top of the limit, whether the annual aggregate is also capped at 50,000, and what EUR 250,000 would cost to match the Article 9.5 liability cap of about EUR 108,000. Do not let the cyber quote delay the PI binding.",
+      "project": "legal",
+      "source": "cowork/local_f48dd904-60cc-4e88-91bf-e81c0f404837",
+      "source_type": "cowork",
+      "date": "2026-09-04",
+      "confidence": "high",
+      "extras": {
+        "deadline": "2026-10-05",
+        "people": [
+          "Cibulec"
+        ],
+        "clause": "Voize Article 5.4, effective 6 August 2026"
+      },
+      "id": "cowork/local_f48dd904-60cc-4e88-91bf-e81c0f404837/bindprofessionalindemnitycoverofeur50000",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Check that section 1 (INFORMACE O NAVRHOVATELI) of Eva's pre-filled Colonnade questionnaire names Tribe.xyz Czech s.r.o., ID No. 241 21 657, Narodni 135/14 Prague - not the a.s. - otherwise the policy comes back in the wrong entity and fails the client insurance clause.",
+      "project": "legal",
+      "source": "cowork/local_f48dd904-60cc-4e88-91bf-e81c0f404837",
+      "source_type": "cowork",
+      "date": "2026-09-04",
+      "confidence": "medium",
+      "extras": {
+        "people": [
+          "Eva"
+        ]
+      },
+      "id": "cowork/local_f48dd904-60cc-4e88-91bf-e81c0f404837/checkthatsection1informaceonavrhovatelio",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Produce the one-page in-scope / out-of-scope summary of the Cembra phase 1 build work (TA operating model, hiring process, hiring manager enablement, employer positioning, interview design) for Anne's legal and compliance colleagues, if she takes up the offer.",
+      "project": "legal",
+      "source": "cowork/local_04e1f462-34da-4839-b78f-49171a632b85",
+      "source_type": "cowork",
+      "date": "2026-09-04",
+      "confidence": "low",
+      "extras": {
+        "people": [
+          "Anne"
+        ],
+        "conditional": "offered in the draft email to Anne, depends on her reply"
+      },
+      "id": "cowork/local_04e1f462-34da-4839-b78f-49171a632b85/producetheonepageinscopeoutofscopesummar",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Split the two Swiss-client options into separate proposals in the email to Jacopo and Martin - (a) the Latvian entity structuring route versus (b) relabelling the contract as employer branding and dropping the placement fee - so they choose knowingly rather than approving a blend. Option (b) was called 'masquerading' in the 2 Sep discussion and would be a written misrepresentation to the client's legal team.",
+      "project": "legal",
+      "source": "cowork/local_903562af-0fb0-42ed-9a19-6bac3bdcea8a",
+      "source_type": "cowork",
+      "date": "2026-09-02",
+      "confidence": "medium",
+      "extras": {
+        "people": [
+          "Jacopo",
+          "Martin"
+        ]
+      },
+      "id": "cowork/local_903562af-0fb0-42ed-9a19-6bac3bdcea8a/splitthetwoswissclientoptionsintoseparat",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Run the three-question TA survey on whether the sourcer roundup updates are actually useful - Martin asked 'who uses this data?' at the 2 Sep OKR check-in / Directors stand-up and gated the blockers view on proving usefulness before building it.",
+      "project": "okrs",
+      "source": "cowork/local_903562af-0fb0-42ed-9a19-6bac3bdcea8a",
+      "source_type": "cowork",
+      "date": "2026-09-02",
+      "confidence": "high",
+      "extras": {
+        "people": [
+          "Martin"
+        ],
+        "origin": "OKR Check-in / Directors stand-up 11:45 on 2 Sep"
+      },
+      "id": "cowork/local_903562af-0fb0-42ed-9a19-6bac3bdcea8a/runthethreequestiontasurveyonwhetherthes",
+      "project_name": "OKRs",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Fix Tribe Bot recommending people who have left the company - it still surfaces Rafael and Andrea as contacts.",
+      "project": "tribebot",
+      "source": "cowork/local_903562af-0fb0-42ed-9a19-6bac3bdcea8a",
+      "source_type": "cowork",
+      "date": "2026-09-02",
+      "confidence": "high",
+      "extras": {
+        "people": [
+          "Rafael",
+          "Andrea"
+        ]
+      },
+      "id": "cowork/local_903562af-0fb0-42ed-9a19-6bac3bdcea8a/fixtribebotrecommendingpeoplewhohaveleft",
+      "project_name": "Tribebot",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Hold the second all@tribe Tribe Bot reminder post until Nenad's answer-consistency bug (reported 1 Sep with a Loom, still failing on re-test at 16:47) is resolved, then send it.",
+      "project": "tribebot",
+      "source": "cowork/local_903562af-0fb0-42ed-9a19-6bac3bdcea8a",
+      "source_type": "cowork",
+      "date": "2026-09-02",
+      "confidence": "medium",
+      "extras": {
+        "people": [
+          "Nenad Skoko"
+        ]
+      },
+      "id": "cowork/local_903562af-0fb0-42ed-9a19-6bac3bdcea8a/holdthesecondalltribetribebotreminderpos",
+      "project_name": "Tribebot",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Publish the Tribe Bot Slack install instructions to unblock the people who already want access - Tribe Bot is at only 4 weekly active users, 3 of them in the AI First group.",
+      "project": "tribebot",
+      "source": "cowork/local_903562af-0fb0-42ed-9a19-6bac3bdcea8a",
+      "source_type": "cowork",
+      "date": "2026-09-02",
+      "confidence": "medium",
+      "extras": {},
+      "id": "cowork/local_903562af-0fb0-42ed-9a19-6bac3bdcea8a/publishthetribebotslackinstallinstructio",
+      "project_name": "Tribebot",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Ask Sanja Pavlovikj directly whether she is joining the AI First working group for internal recruiting (IR) specifically or in general - she never answered the 26 Aug Slack question but accepted the 2 Sep invite.",
+      "project": "ai-first-working-group",
+      "source": "cowork/local_903562af-0fb0-42ed-9a19-6bac3bdcea8a",
+      "source_type": "cowork",
+      "date": "2026-09-02",
+      "confidence": "medium",
+      "extras": {
+        "people": [
+          "Sanja Pavlovikj"
+        ]
+      },
+      "id": "cowork/local_903562af-0fb0-42ed-9a19-6bac3bdcea8a/asksanjapavlovikjdirectlywhethersheisjoi",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Find out who Andreea Vrancianu (102 candidates) and Filip Nogowski (60 candidates) are - both appear as Keboola candidate sourcers in the 2026-08 run but are absent from Job_History_(Tribe).csv entirely, so they are either contractors, leavers, or a BambooHR sync gap.",
+      "project": "fin-dash",
+      "source": "cowork/local_2fb89a07-934c-4fe3-bd8e-5a7afa622b57",
+      "source_type": "cowork",
+      "date": "2026-09-02",
+      "confidence": "high",
+      "extras": {
+        "people": [
+          "Andreea Vrancianu",
+          "Filip Nogowski"
+        ]
+      },
+      "id": "cowork/local_2fb89a07-934c-4fe3-bd8e-5a7afa622b57/findoutwhoandreeavrancianu102candidatesa",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Put a currency figure on the dashboard/BI work for the career-positioning case - replace the 'cost avoided' framing with a hard revenue or savings number, for example the roughly EUR 96K/year Power BI plus Keboola replacement - so the CV and Chief of Staff pitch carry a quantified impact.",
+      "project": "personal",
+      "source": "cowork/local_d455dbc8-3b8e-4f29-be71-44d5e48929a5",
+      "source_type": "cowork",
+      "date": "2026-09-04",
+      "confidence": "medium",
+      "extras": {
+        "note": "fourth of the four gaps in the career-positioning artifact; the other three are already tracked"
+      },
+      "id": "cowork/local_d455dbc8-3b8e-4f29-be71-44d5e48929a5/putacurrencyfigureonthedashboardbiworkfo",
+      "project_name": "Personal",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Follow up on the Siemens 'Senior Transformation Manager, AI Enablement' role in Prague (hybrid, English, no coding requirement, posted March) surfaced in the career-positioning research.",
+      "project": "personal",
+      "source": "cowork/local_d455dbc8-3b8e-4f29-be71-44d5e48929a5",
+      "source_type": "cowork",
+      "date": "2026-09-04",
+      "confidence": "medium",
+      "extras": {},
+      "id": "cowork/local_d455dbc8-3b8e-4f29-be71-44d5e48929a5/followuponthesiemensseniortransformation",
+      "project_name": "Personal",
+      "first_seen": "2026-09-04",
       "last_seen": "2026-09-04",
       "status": "open"
     }

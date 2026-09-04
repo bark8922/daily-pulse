@@ -1,339 +1,339 @@
 {
- "generated_at": "2026-09-04T06:52:09Z",
- "source": "notion",
- "notion_database_url": "https://app.notion.com/p/02932048d7bf455b96b3b2fc534fd405",
- "notion_data_source_id": "298cd4c0-c428-4df7-97e0-10c35f839216",
- "retired": [
-  {
-   "id": "us-expansion",
-   "name": "US expansion",
-   "retired_on": "2026-08-05",
-   "reason": "0 live tasks, dead since 2026-05-31"
-  },
-  {
-   "id": "sales-hubspot",
-   "name": "Sales dashboard + HubSpot",
-   "retired_on": "2026-08-05",
-   "reason": "1 live task (Nexi PO), rerouted to expense-ops"
-  }
- ],
- "projects": [
-  {
-   "id": "ai-first-working-group",
-   "name": "AI First Working Group",
-   "status": "Blocked",
-   "live_tasks": 21,
-   "last_touched": "2026-09-02",
-   "current_state": "21 open. Taxonomy v2 is due with Nenad by Friday 4 Sep, his Historical_Remap_Review_v3 sheet is unreviewed, and the intake extension's candidate-source gap needs Andrea and Rodrigo.",
-   "waiting_on": "Nenad Skoko on taxonomy v2 sign-off, and Andrea Darabasic and Rodrigo on the intake extension's missing candidate-source data.",
-   "next_action": "Finalise taxonomy v2 with Nenad by Friday 4 Sep, then review his Historical_Remap_Review_v3 sheet.",
-   "aliases": [
-    "ai-first",
-    "ai-training",
-    "ai-first-wg",
-    "sourcing-lab"
-   ],
-   "notion_page_id": "3b33de19-8f5e-8126-9426-e51e93ae6db3",
-   "pin_state": false
-  },
-  {
-   "id": "rec-dash",
-   "name": "Tribe Recruiting Dashboard",
-   "status": "Active",
-   "live_tasks": 92,
-   "last_touched": "2026-09-02",
-   "current_state": "92 open. ts_weekly still buckets 465 Contacted from 29-31 Dec 2025 into a nonsense week, Int 1/2/3 columns are missing from four surfaces, and the Interview 1/2/3 build trigger fired at 147 events.",
-   "waiting_on": "Nothing. The Int 1/2/3 rollout, the ts_weekly fix and the 25 out-of-roster Keboola sourcers are Blake's own calls.",
-   "next_action": "Fix ts_weekly to bucket on ISO weeks, then kick off the Interview 1/2/3 transform build.",
-   "aliases": [
-    "circle",
-    "project-circle",
-    "circle-project",
-    "wbr-mbr",
-    "recruiting-dashboard",
-    "recruiting-pipeline",
-    "recruiting",
-    "clients"
-   ],
-   "notion_page_id": "3b33de19-8f5e-812c-b803-f2ddc97ccc95",
-   "pin_state": false
-  },
-  {
-   "id": "infra",
-   "name": "Infra & Automation",
-   "status": "Blocked",
-   "live_tasks": 48,
-   "last_touched": "2026-09-01",
-   "current_state": "48 open. Both tribe-dashboard GitHub Actions workflows failed on main commit d0e1043, the n8n connector is still invalidated, and the invoice workflow's Drive node hit Bad gateway on execution 51657.",
-   "waiting_on": "Mihajlo via Caroline Murphy on the booking.tribe.xyz button going live. Everything else is Blake's own execution.",
-   "next_action": "Fix the failed tribe-dashboard GitHub Actions runs on commit d0e1043, then reconnect the n8n connector.",
-   "aliases": [
-    "n8n",
-    "n8n-workflows",
-    "slack-automation",
-    "automation",
-    "cloudflare",
-    "claude-backups",
-    "backups",
-    "extension",
-    "extension-dashboard",
-    "it-security",
-    "security"
-   ],
-   "notion_page_id": "3b33de19-8f5e-8144-92aa-d250c7a2111f",
-   "pin_state": false
-  },
-  {
-   "id": "okrs",
-   "name": "OKRs",
-   "status": "Active",
-   "live_tasks": 3,
-   "last_touched": "2026-09-01",
-   "current_state": "3 open. Blake's Key Results still need status, data and blockers in Notion after the 2 Sep check-in, the Lattice push conversation is past its 31 Aug date, and Valeriia sits at 4/16.",
-   "waiting_on": "Nothing. The Notion Key Result update, the Lattice push conversation and the Valeriia and Ejla coverage calls are Blake's own.",
-   "next_action": "Update Blake's OKR Key Results in Notion with status, data and blockers.",
-   "aliases": [
-    "okr",
-    "okr-comms",
-    "lattice"
-   ],
-   "notion_page_id": "3b33de19-8f5e-8169-a2b4-da422ec5742f",
-   "pin_state": false
-  },
-  {
-   "id": "ai-recruiting",
-   "name": "Roundup & Intake (AI recruiting tools)",
-   "status": "Blocked",
-   "live_tasks": 29,
-   "last_touched": "2026-09-02",
-   "current_state": "29 open. The intake extension left ~70 hires since 2025 with no candidate source, intake form coverage sits at 25% of eligible roles, and roundup assignments still stop at six sourcers.",
-   "waiting_on": "Andrea Darabasic and Rodrigo on the intake extension's missing candidate-source data, and Nenad Skoko on trying the weekly roundup form.",
-   "next_action": "Follow up with Andrea and Rodrigo on the ~70 source-less hires and propose making source assignment a required field.",
-   "aliases": [
-    "intake-tool",
-    "intake",
-    "roles-roundup",
-    "roles-round-up",
-    "rolls-roundup"
-   ],
-   "notion_page_id": "3b33de19-8f5e-8178-90e7-ca36da5147c0",
-   "pin_state": false
-  },
-  {
-   "id": "tribebot",
-   "name": "Tribebot",
-   "status": "Active",
-   "live_tasks": 23,
-   "last_touched": "2026-09-02",
-   "current_state": "23 open. Nenad's 2 Sep flag stands - TribeBot returns incomplete single-source answers - Slack installation is unintuitive, and there are still only four weekly active users.",
-   "waiting_on": "Nothing. The aggregation fix, the Slack install guidance and the use-case sessions with Andrea Darabasic are Blake's own.",
-   "next_action": "Set a date and a plan for the TribeBot incompleteness fix Nenad raised on 2 Sep.",
-   "aliases": [
-    "tribot-kb",
-    "tribot",
-    "tribebot-kb",
-    "roles-bot"
-   ],
-   "notion_page_id": "3b33de19-8f5e-8178-b511-c054613de472",
-   "pin_state": false
-  },
-  {
-   "id": "fin-dash",
-   "name": "Tribe Financial Dashboard",
-   "status": "Blocked",
-   "live_tasks": 37,
-   "last_touched": "2026-09-02",
-   "current_state": "37 open. Yujing Han chased on the Spain 08.26 close, the Vista invoice for Niki Vokalkova is stuck on Martin's registration details, and the watchdog revenue guard reads September as zero.",
-   "waiting_on": "Martin Bernard on Vista's company registration details, and Kristjana Thorarinsdottir on the Fuad Safarov changeover date before the Aiven invoice goes out.",
-   "next_action": "Send Yujing Han the August information she needs for the TRIBE.XYZ SPAIN month-end close.",
-   "aliases": [
-    "finance",
-    "finance-ops",
-    "cz-tax",
-    "budget",
-    "cashflow"
-   ],
-   "notion_page_id": "3b33de19-8f5e-8192-b003-e25ad2338ba8",
-   "pin_state": false
-  },
-  {
-   "id": "personal",
-   "name": "Personal",
-   "status": "Active",
-   "live_tasks": 35,
-   "last_touched": "2026-09-01",
-   "current_state": "35 open. Career positioning is the live thread - Chief of Staff title, board exposure and one direct report to raise with Martin and Andrea - plus two US job picks from the 1 Sep run.",
-   "waiting_on": "Nothing. Every open item is Blake's own execution or an undecided job-search pick.",
-   "next_action": "Take the three career-positioning asks - title, board exposure, one direct report - to Martin and Andrea.",
-   "aliases": [
-    "job-search",
-    "job-research",
-    "rental",
-    "bezrealitky",
-    "kosik",
-    "household"
-   ],
-   "notion_page_id": "3b33de19-8f5e-8193-9cc4-c0c217401f8a",
-   "pin_state": false
-  },
-  {
-   "id": "legal",
-   "name": "Legal & Contracts",
-   "status": "Blocked",
-   "live_tasks": 25,
-   "last_touched": "2026-09-02",
-   "current_state": "25 open. Cembra is live - Swiss AVG licensing blocks a Czech entity, so the Latvian route needs an NVA check - and Martin's Vista_Tribe Embedded Recruiter Agreement is out for comment.",
-   "waiting_on": "Martin Bernard and Jacopo Lupo Ferrari on the Cembra contracting decision, and Martin on signing the Estonia and insurance paperwork.",
-   "next_action": "Run the Latvia placement-licensing (NVA) check for Cembra, then send Martin and Jacopo the drafted note.",
-   "aliases": [
-    "contracts",
-    "nda",
-    "ndas",
-    "estonia"
-   ],
-   "notion_page_id": "3b33de19-8f5e-8198-a89b-fc4150a825be",
-   "pin_state": false
-  },
-  {
-   "id": "project-hub",
-   "name": "Project Hub",
-   "status": "Active",
-   "live_tasks": 4,
-   "last_touched": "2026-08-31",
-   "current_state": "4 open. Seven daily-pulse tasks still sit with no ledger project so build_pages renders them on no page at all, and three Drive access requests for the 21 Aug recording are still pending.",
-   "waiting_on": "Nothing external.",
-   "next_action": "Route the orphaned inbox tasks to a real ledger project.",
-   "aliases": [
-    "projecthub",
-    "projecthub-comms"
-   ],
-   "notion_page_id": "3b33de19-8f5e-81a2-bca3-c5cf9f2d606d",
-   "pin_state": false
-  },
-  {
-   "id": "leadership",
-   "name": "Leadership comms",
-   "status": "Blocked",
-   "live_tasks": 14,
-   "last_touched": "2026-09-01",
-   "current_state": "14 open. The Keboola contract is unsigned with its new period already started, the Lattice API split with Martin is stalled on company-wide access, and Caroline Murphy's FAIR Barcelona question is open.",
-   "waiting_on": "Martin Bernard on signing the Keboola contract and on testing the Lattice endpoints.",
-   "next_action": "Get Martin's signature on the Keboola contract.",
-   "aliases": [
-    "cos-weekly-log",
-    "cos",
-    "cos-log"
-   ],
-   "notion_page_id": "3b33de19-8f5e-81a4-b4e5-c441366cf630",
-   "pin_state": false
-  },
-  {
-   "id": "keboola-sunset",
-   "name": "Keboola migration / sunset",
-   "status": "Blocked",
-   "live_tasks": 13,
-   "last_touched": "2026-08-31",
-   "current_state": "13 open. The orphaned 1.35 GB out.c-prodv2-rewrite-test bucket is still there, v237's cuts moved PROD V2 runtime only 850s to 834s, and the credit pool empties around mid-June 2027 without a top-up.",
-   "waiting_on": "Anna Duskova on the credit top-up of roughly 516 credits (~$1,800), and Martin Bernard on the upfront payment for the new contract.",
-   "next_action": "Delete the orphaned out.c-prodv2-rewrite-test bucket and log v239-v241 in the changelog.",
-   "aliases": [
-    "keboola",
-    "snowflake",
-    "keboola-spend"
-   ],
-   "notion_page_id": "3b33de19-8f5e-81ad-a83e-e7ce83875b0a",
-   "pin_state": false
-  },
-  {
-   "id": "tribe-talks",
-   "name": "Tribe Talks",
-   "status": "Blocked",
-   "live_tasks": 3,
-   "last_touched": "2026-08-31",
-   "current_state": "3 open. Marcel's 22-23 September Amsterdam bootcamp of twelve seats collides with Tribe Talk promo week, and his parallel amplification from 22 September is still unconfirmed.",
-   "waiting_on": "Marcel on confirming parallel amplification from 22 September.",
-   "next_action": "Get Marcel's explicit confirmation that he will amplify the promo in parallel from 22 September.",
-   "aliases": [
-    "tribe-talks-marcel",
-    "marcel",
-    "tribetalks"
-   ],
-   "notion_page_id": "3b33de19-8f5e-81ae-87a0-d201ff00c518",
-   "pin_state": false
-  },
-  {
-   "id": "linkedin",
-   "name": "LinkedIn (licenses + posting)",
-   "status": "Blocked",
-   "live_tasks": 26,
-   "last_touched": "2026-09-03",
-   "current_state": "26 open. Brian Hamilton's call is the whole game - explicit suspension reasons, cutting the 30-day restrictions on Jelena Lacmanovic and Mateja Jokovic to seven, plus Juice Box as a fallback.",
-   "waiting_on": "Brian Hamilton and the LinkedIn Account Team on the seat-configuration review and on any reduction to the 30-day restrictions.",
-   "next_action": "Send Salem the invite and briefing notes, then lead the call with Brian.",
-   "aliases": [
-    "linkedin-licenses",
-    "license",
-    "licenses",
-    "linkedin-posts"
-   ],
-   "notion_page_id": "3b33de19-8f5e-81bc-bb54-c3713d53c1fc",
-   "pin_state": false
-  },
-  {
-   "id": "people-ops",
-   "name": "People Ops / BambooHR",
-   "status": "Blocked",
-   "live_tasks": 24,
-   "last_touched": "2026-09-03",
-   "current_state": "24 open. Three August payroll runs are live at once - Spanish approval with Federico's two leave corrections, plus Czech s.r.o. from Vera Kolihova - and Adela Geissler's zapoctovy list is unanswered.",
-   "waiting_on": "Ella Darie on the Lattice extraction decision and on the scope of the performance-review dashboard.",
-   "next_action": "Approve the August 2026 Spanish payrolls, confirming Federico Casal Fernandez's two leave corrections.",
-   "aliases": [
-    "hr",
-    "spain-payroll",
-    "payroll"
-   ],
-   "notion_page_id": "3b33de19-8f5e-81d3-bfe5-d5a3428bbc4b",
-   "pin_state": false
-  },
-  {
-   "id": "expense-ops",
-   "name": "Expense Ops",
-   "status": "Blocked",
-   "live_tasks": 30,
-   "last_touched": "2026-09-03",
-   "current_state": "30 open. Kristjana's EUR 176.62 Barcelona flight is stuck behind a 3DS-declined Revolut payment, and the n8n invoice run left 11 duplicate PDFs in Drive after execution 51657.",
-   "waiting_on": "Andreea Vrancianu on a smaller invoice scan, and Justin Fregona and Deel on the buyout amount and the disputed $471.45 Q-39879 invoice.",
-   "next_action": "Approve Kristjana's Perk trip and clear the declined Revolut payment to TravelPerk.",
-   "aliases": [
-    "invoicing",
-    "invoices",
-    "invoice",
-    "expenses",
-    "client-disputes",
-    "sales-hubspot",
-    "hubspot"
-   ],
-   "notion_page_id": "3b33de19-8f5e-81ec-8e6c-e549e4bc6cf7",
-   "pin_state": false
-  },
-  {
-   "id": "team-cohesion",
-   "name": "Team cohesion",
-   "status": "Active",
-   "live_tasks": 2,
-   "last_touched": "2026-08-31",
-   "current_state": "2 open. The Friday 28 August recording and summary are both still missing from #important_updates, and Dean Apicella has chased twice on the 29 October Prague charity football tournament.",
-   "waiting_on": "Nothing. Both are Blake's to post and decide.",
-   "next_action": "Post the missing 28 August recording and summary in #important_updates.",
-   "aliases": [
-    "engagement",
-    "enps",
-    "standup-improvement",
-    "pokedex"
-   ],
-   "notion_page_id": "3b33de19-8f5e-81f0-ae7d-fe83686eb13c",
-   "pin_state": false
-  }
- ]
+  "generated_at": "2026-09-04",
+  "source": "notion",
+  "notion_database_url": "https://app.notion.com/p/02932048d7bf455b96b3b2fc534fd405",
+  "notion_data_source_id": "298cd4c0-c428-4df7-97e0-10c35f839216",
+  "retired": [
+    {
+      "id": "us-expansion",
+      "name": "US expansion",
+      "retired_on": "2026-08-05",
+      "reason": "0 live tasks, dead since 2026-05-31"
+    },
+    {
+      "id": "sales-hubspot",
+      "name": "Sales dashboard + HubSpot",
+      "retired_on": "2026-08-05",
+      "reason": "1 live task (Nexi PO), rerouted to expense-ops"
+    }
+  ],
+  "projects": [
+    {
+      "id": "ai-first-working-group",
+      "name": "AI First Working Group",
+      "status": "Blocked",
+      "live_tasks": 22,
+      "last_touched": "2026-09-02",
+      "current_state": "22 open. Taxonomy v2 is due with Nenad today, 4 Sep, the intake extension's candidate-source gap still needs Andrea and Rodrigo, and Sanja Pavlovikj has not said if she is joining.",
+      "waiting_on": "Nenad Skoko on taxonomy v2 sign-off, Andrea Darabasic and Rodrigo on the intake extension's missing candidate-source data, and Sanja Pavlovikj on whether she is joining for internal recruiting.",
+      "next_action": "Finalise taxonomy v2 with Nenad today, Friday 4 Sep.",
+      "aliases": [
+        "ai-first",
+        "ai-training",
+        "ai-first-wg",
+        "sourcing-lab"
+      ],
+      "notion_page_id": "3b33de19-8f5e-8126-9426-e51e93ae6db3",
+      "pin_state": false
+    },
+    {
+      "id": "rec-dash",
+      "name": "Tribe Recruiting Dashboard",
+      "status": "Blocked",
+      "live_tasks": 95,
+      "last_touched": "2026-09-04",
+      "current_state": "95 open. Martin wants a bench-Tribster interview track record from his inbox and HubSpot, Bubble has no archive event behind 29,910 disqualified candidates, and ts_weekly still misbuckets 465 Contacted.",
+      "waiting_on": "Mikhail on whether closing a Bubble candidate can stamp a dated archive event, and Martin Bernard on access to his inbox and HubSpot for the bench track record.",
+      "next_action": "Ask Mikhail whether Bubble can stamp a dated archive event when a candidate is closed.",
+      "aliases": [
+        "circle",
+        "project-circle",
+        "circle-project",
+        "wbr-mbr",
+        "recruiting-dashboard",
+        "recruiting-pipeline",
+        "recruiting",
+        "clients"
+      ],
+      "notion_page_id": "3b33de19-8f5e-812c-b803-f2ddc97ccc95",
+      "pin_state": false
+    },
+    {
+      "id": "infra",
+      "name": "Infra & Automation",
+      "status": "Blocked",
+      "live_tasks": 50,
+      "last_touched": "2026-09-03",
+      "current_state": "50 open. Martin needs admin on Clay workspace 306102, both tribe-dashboard GitHub Actions workflows still fail on commit d0e1043, and the n8n connector is still invalidated.",
+      "waiting_on": "Mihajlo via Caroline Murphy on the booking.tribe.xyz button going live. The Clay admin grant, the Actions fix and the n8n reconnect are Blake's own.",
+      "next_action": "Make Martin an admin on Clay workspace 306102, then fix the failed tribe-dashboard Actions runs.",
+      "aliases": [
+        "n8n",
+        "n8n-workflows",
+        "slack-automation",
+        "automation",
+        "cloudflare",
+        "claude-backups",
+        "backups",
+        "extension",
+        "extension-dashboard",
+        "it-security",
+        "security"
+      ],
+      "notion_page_id": "3b33de19-8f5e-8144-92aa-d250c7a2111f",
+      "pin_state": false
+    },
+    {
+      "id": "okrs",
+      "name": "OKRs",
+      "status": "Active",
+      "live_tasks": 4,
+      "last_touched": "2026-09-02",
+      "current_state": "4 open. Martin asked 'who uses this data?' at the 2 Sep check-in, so a three-question TA survey on the sourcer roundups is now live, and Blake's Key Results still need status and blockers in Notion.",
+      "waiting_on": "Nothing. The TA survey, the Notion Key Result update and the Lattice push conversation are Blake's own.",
+      "next_action": "Run the three-question TA survey on whether the sourcer roundup updates are useful.",
+      "aliases": [
+        "okr",
+        "okr-comms",
+        "lattice"
+      ],
+      "notion_page_id": "3b33de19-8f5e-8169-a2b4-da422ec5742f",
+      "pin_state": false
+    },
+    {
+      "id": "ai-recruiting",
+      "name": "Roundup & Intake (AI recruiting tools)",
+      "status": "Blocked",
+      "live_tasks": 29,
+      "last_touched": "2026-09-02",
+      "current_state": "29 open. The intake extension left ~70 hires since 2025 with no candidate source, intake form coverage sits at 25% of eligible roles, and roundup assignments still stop at six sourcers.",
+      "waiting_on": "Andrea Darabasic and Rodrigo on the intake extension's missing candidate-source data, and Nenad Skoko on trying the weekly roundup form.",
+      "next_action": "Follow up with Andrea and Rodrigo on the ~70 source-less hires and propose making source assignment a required field.",
+      "aliases": [
+        "intake-tool",
+        "intake",
+        "roles-roundup",
+        "roles-round-up",
+        "rolls-roundup"
+      ],
+      "notion_page_id": "3b33de19-8f5e-8178-90e7-ca36da5147c0",
+      "pin_state": false
+    },
+    {
+      "id": "tribebot",
+      "name": "Tribebot",
+      "status": "Active",
+      "live_tasks": 27,
+      "last_touched": "2026-09-02",
+      "current_state": "27 open. Nenad's 2 Sep flag still has no date or plan - TribeBot returns incomplete single-source answers - Slack installation is unintuitive, and there are still only four weekly active users.",
+      "waiting_on": "Nothing. The aggregation fix, the Slack install guidance and the use-case sessions with Andrea Darabasic are Blake's own.",
+      "next_action": "Set a date and a plan for the TribeBot incompleteness fix Nenad raised on 2 Sep.",
+      "aliases": [
+        "tribot-kb",
+        "tribot",
+        "tribebot-kb",
+        "roles-bot"
+      ],
+      "notion_page_id": "3b33de19-8f5e-8178-b511-c054613de472",
+      "pin_state": false
+    },
+    {
+      "id": "fin-dash",
+      "name": "Tribe Financial Dashboard",
+      "status": "Blocked",
+      "live_tasks": 38,
+      "last_touched": "2026-09-02",
+      "current_state": "38 open. Yujing Han is still chasing the Spain 08.26 close, the Vista invoice for Niki Vokalkova waits on Martin's registration details, and Reaktor e-invoicing needs setting up from Simon Siew's details.",
+      "waiting_on": "Martin Bernard on Vista's company registration details, and Kristjana Thorarinsdottir on the Fuad Safarov changeover date before the Aiven invoice goes out.",
+      "next_action": "Send Yujing Han the August information she needs for the TRIBE.XYZ SPAIN month-end close.",
+      "aliases": [
+        "finance",
+        "finance-ops",
+        "cz-tax",
+        "budget",
+        "cashflow"
+      ],
+      "notion_page_id": "3b33de19-8f5e-8192-b003-e25ad2338ba8",
+      "pin_state": false
+    },
+    {
+      "id": "personal",
+      "name": "Personal",
+      "status": "Active",
+      "live_tasks": 37,
+      "last_touched": "2026-09-04",
+      "current_state": "37 open. Career positioning needs a hard revenue or savings number on the dashboard work before the Martin and Andrea ask, and a Siemens AI Enablement role in Prague came out of the 4 Sep run.",
+      "waiting_on": "Nothing. Every open item is Blake's own execution or an undecided job-search pick.",
+      "next_action": "Put a currency figure on the dashboard and BI work for the career-positioning case.",
+      "aliases": [
+        "job-search",
+        "job-research",
+        "rental",
+        "bezrealitky",
+        "kosik",
+        "household"
+      ],
+      "notion_page_id": "3b33de19-8f5e-8193-9cc4-c0c217401f8a",
+      "pin_state": false
+    },
+    {
+      "id": "legal",
+      "name": "Legal & Contracts",
+      "status": "Blocked",
+      "live_tasks": 30,
+      "last_touched": "2026-09-04",
+      "current_state": "30 open. Voize Article 5.4 needs EUR 50,000 per-claim PI cover bound under Tribe.xyz Czech s.r.o. by 5 October, and Eva's D&O section 14 and Colonnade section 1 are both unanswered.",
+      "waiting_on": "Eva and broker Cibulec on the Colonnade and D&O questionnaire answers, and Martin Bernard and Jacopo Lupo Ferrari on the Cembra contracting decision.",
+      "next_action": "Answer section 14 of Eva's D&O questionnaire with EUR 1,000,000 and send it with the Colonnade answers.",
+      "aliases": [
+        "contracts",
+        "nda",
+        "ndas",
+        "estonia"
+      ],
+      "notion_page_id": "3b33de19-8f5e-8198-a89b-fc4150a825be",
+      "pin_state": false
+    },
+    {
+      "id": "project-hub",
+      "name": "Project Hub",
+      "status": "Active",
+      "live_tasks": 4,
+      "last_touched": "2026-08-31",
+      "current_state": "4 open. Seven daily-pulse tasks still sit in inbox with no ledger project so build_pages renders them on no page at all, and three Drive access requests for the 21 Aug recording are pending.",
+      "waiting_on": "Nothing external.",
+      "next_action": "Route the seven orphaned inbox tasks to a real ledger project.",
+      "aliases": [
+        "projecthub",
+        "projecthub-comms"
+      ],
+      "notion_page_id": "3b33de19-8f5e-81a2-bca3-c5cf9f2d606d",
+      "pin_state": false
+    },
+    {
+      "id": "leadership",
+      "name": "Leadership comms",
+      "status": "Blocked",
+      "live_tasks": 14,
+      "last_touched": "2026-09-01",
+      "current_state": "14 open. The Keboola contract is unsigned with its new period already started, the Lattice API split with Martin is stalled on company-wide access, and Caroline Murphy's FAIR Barcelona question is open.",
+      "waiting_on": "Martin Bernard on signing the Keboola contract and on testing the Lattice endpoints.",
+      "next_action": "Get Martin's signature on the Keboola contract.",
+      "aliases": [
+        "cos-weekly-log",
+        "cos",
+        "cos-log"
+      ],
+      "notion_page_id": "3b33de19-8f5e-81a4-b4e5-c441366cf630",
+      "pin_state": false
+    },
+    {
+      "id": "keboola-sunset",
+      "name": "Keboola migration / sunset",
+      "status": "Blocked",
+      "live_tasks": 13,
+      "last_touched": "2026-08-31",
+      "current_state": "13 open. The orphaned 1.35 GB out.c-prodv2-rewrite-test bucket is still there, v237's cuts moved PROD V2 runtime only 850s to 834s, and the credit pool empties around mid-June 2027 without a top-up.",
+      "waiting_on": "Anna Duskova on the credit top-up of roughly 516 credits (~$1,800), and Martin Bernard on the upfront payment for the new contract.",
+      "next_action": "Delete the orphaned out.c-prodv2-rewrite-test bucket and log v239-v241 in the changelog.",
+      "aliases": [
+        "keboola",
+        "snowflake",
+        "keboola-spend"
+      ],
+      "notion_page_id": "3b33de19-8f5e-81ad-a83e-e7ce83875b0a",
+      "pin_state": false
+    },
+    {
+      "id": "tribe-talks",
+      "name": "Tribe Talks",
+      "status": "Blocked",
+      "live_tasks": 3,
+      "last_touched": "2026-08-31",
+      "current_state": "3 open. Marcel's 22-23 September Amsterdam bootcamp of twelve seats collides with Tribe Talk promo week, and his parallel amplification from 22 September is still unconfirmed.",
+      "waiting_on": "Marcel on confirming parallel amplification from 22 September.",
+      "next_action": "Get Marcel's explicit confirmation that he will amplify the promo in parallel from 22 September.",
+      "aliases": [
+        "tribe-talks-marcel",
+        "marcel",
+        "tribetalks"
+      ],
+      "notion_page_id": "3b33de19-8f5e-81ae-87a0-d201ff00c518",
+      "pin_state": false
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn (licenses + posting)",
+      "status": "Blocked",
+      "live_tasks": 35,
+      "last_touched": "2026-09-04",
+      "current_state": "35 open. Nine items came off the Brian call - billing credit for the two suspended licences, written session rules from compliance, and Jacopo lending his account to Jelena mid-review.",
+      "waiting_on": "Brian Hamilton on crediting the two suspended licences and the seat-configuration review, and LinkedIn compliance (Jackie) on putting the Recruiter session rules in writing.",
+      "next_action": "Stop Jacopo lending his LinkedIn account to Jelena Lacmanovic while the suspension review is open.",
+      "aliases": [
+        "linkedin-licenses",
+        "license",
+        "licenses",
+        "linkedin-posts"
+      ],
+      "notion_page_id": "3b33de19-8f5e-81bc-bb54-c3713d53c1fc",
+      "pin_state": false
+    },
+    {
+      "id": "people-ops",
+      "name": "People Ops / BambooHR",
+      "status": "Blocked",
+      "live_tasks": 24,
+      "last_touched": "2026-09-03",
+      "current_state": "24 open. Three August payroll runs are live at once - Spanish approval with Federico's two leave corrections, plus Czech s.r.o. from Vera Kolihova - and Adela Geissler's zapoctovy list is unanswered.",
+      "waiting_on": "Ella Darie on the Lattice extraction decision and on the scope of the performance-review dashboard.",
+      "next_action": "Approve the August 2026 Spanish payrolls, confirming Federico Casal Fernandez's two leave corrections.",
+      "aliases": [
+        "hr",
+        "spain-payroll",
+        "payroll"
+      ],
+      "notion_page_id": "3b33de19-8f5e-81d3-bfe5-d5a3428bbc4b",
+      "pin_state": false
+    },
+    {
+      "id": "expense-ops",
+      "name": "Expense Ops",
+      "status": "Blocked",
+      "live_tasks": 34,
+      "last_touched": "2026-09-03",
+      "current_state": "34 open. Kristjana's EUR 176.62 Barcelona flight is stuck behind a 3DS-declined Revolut payment, the renumbered Holding a.s. invoices are ready to issue, and Nenad needs a GBP answer.",
+      "waiting_on": "Andreea Vrancianu on a smaller invoice scan, and Justin Fregona and Deel on the buyout amount and the disputed $471.45 Q-39879 invoice.",
+      "next_action": "Approve Kristjana's Perk trip and clear the 3DS-declined Revolut payment to TravelPerk.",
+      "aliases": [
+        "invoicing",
+        "invoices",
+        "invoice",
+        "expenses",
+        "client-disputes",
+        "sales-hubspot",
+        "hubspot"
+      ],
+      "notion_page_id": "3b33de19-8f5e-81ec-8e6c-e549e4bc6cf7",
+      "pin_state": false
+    },
+    {
+      "id": "team-cohesion",
+      "name": "Team cohesion",
+      "status": "Active",
+      "live_tasks": 2,
+      "last_touched": "2026-08-31",
+      "current_state": "2 open. The Friday 28 August recording and summary are both still missing from #important_updates, and Dean Apicella has chased twice on the 29 October Prague charity football tournament.",
+      "waiting_on": "Nothing. Both are Blake's to post and decide.",
+      "next_action": "Post the missing 28 August recording and summary in #important_updates.",
+      "aliases": [
+        "engagement",
+        "enps",
+        "standup-improvement",
+        "pokedex"
+      ],
+      "notion_page_id": "3b33de19-8f5e-81f0-ae7d-fe83686eb13c",
+      "pin_state": false
+    }
+  ]
 }
