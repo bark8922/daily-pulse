@@ -45,74 +45,74 @@
     "workforce-planning-changes"
   ],
   "lookback_days": 60,
-  "updated": "2026-09-03",
+  "updated": "2026-09-04",
   "generated_from": "data/ledger.json (Notion). Do not hand-edit.",
   "projects": [
     {
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
-      "tier": "medium",
-      "notes": "19 open. Nenad Skoko's Historical_Remap_Review_v3 sheet is still unreviewed and the three Tribe Bot use cases are due at today's 2 Sep live session with Nenad and Andrea Darabasic."
+      "tier": "big",
+      "notes": "21 open. Taxonomy v2 is due with Nenad by Friday 4 Sep, his Historical_Remap_Review_v3 sheet is unreviewed, and the intake extension's candidate-source gap needs Andrea and Rodrigo."
     },
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
       "tier": "big",
-      "notes": "89 open. ts_weekly buckets 465 Contacted from 29-31 Dec 2025 into a nonsense week, App.jsx renders two different Screens metrics (lines 416/552 vs 270), and four WBR definition questions block any SQL."
+      "notes": "92 open. ts_weekly still buckets 465 Contacted from 29-31 Dec 2025 into a nonsense week, Int 1/2/3 columns are missing from four surfaces, and the Interview 1/2/3 build trigger fired at 147 events."
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "tier": "big",
-      "notes": "51 open. Both tribe-dashboard GitHub Actions workflows failed on main commit d0e1043, the n8n connector is still invalidated, and the invoice workflow's Drive node hit Bad gateway on execution 51657."
+      "notes": "48 open. Both tribe-dashboard GitHub Actions workflows failed on main commit d0e1043, the n8n connector is still invalidated, and the invoice workflow's Drive node hit Bad gateway on execution 51657."
     },
     {
       "id": "okrs",
       "name": "OKRs",
       "tier": "medium",
-      "notes": "3 open. OKR Key Results need status, data and blockers in Notion before today's 2 Sep check-in, the Lattice push conversation is two days past its 31 Aug due date, and Valeriia sits at 4/16."
+      "notes": "3 open. Blake's Key Results still need status, data and blockers in Notion after the 2 Sep check-in, the Lattice push conversation is past its 31 Aug date, and Valeriia sits at 4/16."
     },
     {
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
-      "tier": "medium",
-      "notes": "19 open. The intake-form-to-database link is severed so column L reports No for real intakes, intake docs still have no naming convention, and blank job IDs need backfilling since 3 Aug."
+      "tier": "big",
+      "notes": "29 open. The intake extension left ~70 hires since 2025 with no candidate source, intake form coverage sits at 25% of eligible roles, and roundup assignments still stop at six sourcers."
     },
     {
       "id": "tribebot",
       "name": "Tribebot",
-      "tier": "medium",
-      "notes": "17 open. TribeBot still answers the same question three different ways per Nenad Skoko's Loom, it refuses his sequences question outright, and the live-session demo is today, 2 Sep."
+      "tier": "big",
+      "notes": "23 open. Nenad's 2 Sep flag stands - TribeBot returns incomplete single-source answers - Slack installation is unintuitive, and there are still only four weekly active users."
     },
     {
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "big",
-      "notes": "40 open. The watchdog revenue guard reads September as zero and will fail every run, Niki Vokalkova's Vista invoice is stuck on registration details, and she starts Wednesday."
+      "notes": "37 open. Yujing Han chased on the Spain 08.26 close, the Vista invoice for Niki Vokalkova is stuck on Martin's registration details, and the watchdog revenue guard reads September as zero."
     },
     {
       "id": "personal",
       "name": "Personal",
       "tier": "big",
-      "notes": "38 open. Career positioning is the live thread - Chief of Staff title, board exposure and one direct report to raise with Martin and Andrea - plus two US job picks from the 1 Sep run."
+      "notes": "35 open. Career positioning is the live thread - Chief of Staff title, board exposure and one direct report to raise with Martin and Andrea - plus two US job picks from the 1 Sep run."
     },
     {
       "id": "legal",
       "name": "Legal & Contracts",
       "tier": "big",
-      "notes": "22 open. Martin Bernard shared the Vista_Tribe Embedded Recruiter Agreement for comment today, Eva Huclova's Colonnade II questionnaire still needs its yellow items, and 7 Recruiter logins sit in recos-v4."
+      "notes": "25 open. Cembra is live - Swiss AVG licensing blocks a Czech entity, so the Latvian route needs an NVA check - and Martin's Vista_Tribe Embedded Recruiter Agreement is out for comment."
     },
     {
       "id": "project-hub",
       "name": "Project Hub",
       "tier": "medium",
-      "notes": "4 open. Eight daily-pulse tasks still sit in inbox with no ledger project so build_pages renders them on no page at all, and the Drive requests for the 21 Aug recording are still pending."
+      "notes": "4 open. Seven daily-pulse tasks still sit with no ledger project so build_pages renders them on no page at all, and three Drive access requests for the 21 Aug recording are still pending."
     },
     {
       "id": "leadership",
       "name": "Leadership comms",
       "tier": "medium",
-      "notes": "14 open. Blake's TL meeting topics are unposted with the meeting today 2 Sep, the Keboola contract is unsigned with its new period already started, and Caroline Murphy's FAIR Barcelona question is unanswered."
+      "notes": "14 open. The Keboola contract is unsigned with its new period already started, the Lattice API split with Martin is stalled on company-wide access, and Caroline Murphy's FAIR Barcelona question is open."
     },
     {
       "id": "keboola-sunset",
@@ -124,25 +124,25 @@
       "id": "tribe-talks",
       "name": "Tribe Talks",
       "tier": "medium",
-      "notes": "4 open. Marcel's 22-23 September Amsterdam bootcamp of twelve seats collides with Tribe Talk promo week, and his parallel amplification from 22 September is still unconfirmed."
+      "notes": "3 open. Marcel's 22-23 September Amsterdam bootcamp of twelve seats collides with Tribe Talk promo week, and his parallel amplification from 22 September is still unconfirmed."
     },
     {
       "id": "linkedin",
       "name": "LinkedIn (licenses + posting)",
-      "tier": "medium",
-      "notes": "10 open. LinkedIn Compliance is moving to suspend Tribe Recruiter users before Thursday's call with Brian Hamilton, and InMail response sits at 16.1% against a 22.5% benchmark."
+      "tier": "big",
+      "notes": "26 open. Brian Hamilton's call is the whole game - explicit suspension reasons, cutting the 30-day restrictions on Jelena Lacmanovic and Mateja Jokovic to seven, plus Juice Box as a fallback."
     },
     {
       "id": "people-ops",
       "name": "People Ops / BambooHR",
       "tier": "big",
-      "notes": "23 open. Four Lattice threads run at once - the August survey due Friday 4 Sep, admin API access, monthly CSV exports and the demo packet Ella Darie has not seen - plus Adela Geissler's name change."
+      "notes": "24 open. Three August payroll runs are live at once - Spanish approval with Federico's two leave corrections, plus Czech s.r.o. from Vera Kolihova - and Adela Geissler's zapoctovy list is unanswered."
     },
     {
       "id": "expense-ops",
       "name": "Expense Ops",
       "tier": "big",
-      "notes": "33 open. The n8n invoice run left 11 duplicate PDFs in the Drive folder after execution 51657, and three receipts still wait to be booked - Claude on Ella's card, Martin's Thailand monitor and the WeWork DRN."
+      "notes": "30 open. Kristjana's EUR 176.62 Barcelona flight is stuck behind a 3DS-declined Revolut payment, and the n8n invoice run left 11 duplicate PDFs in Drive after execution 51657."
     },
     {
       "id": "team-cohesion",

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-03",
+  "generated_at": "2026-09-04",
   "schema_version": 3,
-  "total": 432,
-  "active_count": 432,
-  "archived_count": 631,
+  "total": 437,
+  "active_count": 437,
+  "archived_count": 643,
   "projects": [
     {
       "id": "ai-first-working-group",
@@ -28,12 +28,12 @@
     {
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
-      "tier": "medium"
+      "tier": "big"
     },
     {
       "id": "tribebot",
       "name": "Tribebot",
-      "tier": "medium"
+      "tier": "big"
     },
     {
       "id": "fin-dash",
@@ -11006,7 +11006,8 @@
       "project_name": "Legal & Contracts",
       "first_seen": "2026-08-13",
       "last_seen": "2026-08-19",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-04"
     },
     {
       "text": "Switch the Google AI Studio / Gemini API billing for Tribe from Postpay to Prepay and load credits (with auto-reload) before the Oct 12, 2026 cutoff to avoid service interruption",
@@ -11041,7 +11042,8 @@
       "project_name": "Needs sorting",
       "first_seen": "2026-08-13",
       "last_seen": "2026-08-13",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-04"
     },
     {
       "text": "Confirm whether Maria Gerbore is leaving - she is active in BambooHR with no termination date but her Tribe Fin row goes blank from August, worth 6,000/month either way",
@@ -11092,7 +11094,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-08-13",
       "last_seen": "2026-08-14",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-04"
     },
     {
       "text": "Reflect Samantha Nel coming off Glovo on 12/09 in invoicing and delivery planning - Salem Mansuri posted in #accounting-and-invoicing that Glovo's tech headcount shrank against expectation",
@@ -11127,7 +11130,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-08-13",
       "last_seen": "2026-08-14",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-04"
     },
     {
       "text": "Respond to Nenad Skoko's proposal to build a Candidate Information Pack for Tribe.xyz (per Andreea Lungulescu's post) and demo it to colleagues so TAs can build them for their own clients - decide yes/no and whether it belongs in the AI-First backlog",
@@ -11161,7 +11165,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-08-13",
       "last_seen": "2026-08-14",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-04"
     },
     {
       "text": "Act on the 13 Aug job-search run: Strategy & Operations Manager at GigSafe (84, Austin hybrid, explicitly counts non-traditional backgrounds so the usual consulting/banking gate does not fire), Ops Lead at Trueform (83, remote Europe CET, get-it-out-of-the-founders-heads mandate, gap is running paid campaigns) and Head of Operations / Integrator via Pickle (80, fully remote, but it is a full-time independent contractor position not employment); also decide whether Nokia Chief of Staff in Coppell TX (62) is worth a look purely on location",
@@ -11177,7 +11182,8 @@
       "project_name": "Personal",
       "first_seen": "2026-08-13",
       "last_seen": "2026-08-14",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-04"
     },
     {
       "text": "Decide on the 12 Aug job-search picks that were never actioned: Chief of Staff at Kin Euphorics (80, Austin hybrid, cleanest mechanical fit in a fortnight, ~70% qualify, no AI mandate and no comp published) and Chief of Staff at an Accel/Foundation-backed AI security startup (79, US remote); also whether to overrule the team>15 seniority cap holding Ideawise Senior Operations Manager (75) in Stretch",
@@ -11210,7 +11216,8 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-08-13",
       "last_seen": "2026-08-14",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-04"
     },
     {
       "text": "Fix the Vendor Map entry for Andreea Vrancianu (misspelled 'Vracianu', fixed at 600 EUR against a 2160 EUR variable-hours invoice) so her row stops flagging as an amount mismatch",
@@ -11226,7 +11233,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-08-13",
       "last_seen": "2026-08-14",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-04"
     },
     {
       "text": "Drop a junk PDF into the invoice folder to force a parse failure and confirm the unverified Blake Updates Bot Slack DM credential on the parser's own alert node",
@@ -11242,7 +11250,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-08-13",
       "last_seen": "2026-08-14",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-04"
     },
     {
       "text": "Decide the two Birthday Bot leftovers: delete or keep the now-orphaned Tribe Birthdays sheet, and whether to add a Mar 1 fallback for Feb 29 birthdays",
@@ -11258,7 +11267,8 @@
       "project_name": "People Ops / BambooHR",
       "first_seen": "2026-08-13",
       "last_seen": "2026-08-14",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-04"
     },
     {
       "text": "Check whether the two AVIV 'Engineering Manager Belgium' jobs created 2026-08-07 and 2026-08-10 under different job IDs are a duplicate in the recruiting data",
@@ -11423,7 +11433,8 @@
       "project_name": "Tribe Talks",
       "first_seen": "2026-08-13",
       "last_seen": "2026-08-15",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-04"
     },
     {
       "text": "Validate the HIRES_TECH year mix in Keboola config 01kpr0tr0dt5ryf96a5zk85bx7 block b0.c6 (ts_summary_per_sourcer) - after the tech-role label fix Tech Roles Hired reads 2024 0/9, 2025 3/175 (1.7%) and 2026 20/37 (54%), while an independent count over project_dashboard_hires puts sourcer-attributed tech hires near 9-13%, so the roster scoping may be wrong even though the label matching is now right",
@@ -11471,7 +11482,8 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-08-13",
       "last_seen": "2026-08-15",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-04"
     },
     {
       "text": "Follow up with Damla Kocek on her new insurance card - it is still at the office and she used her old card at the ER; she said she would try to stop by later in the week once recovered, and there was no online way to get her insurance number",
@@ -18195,6 +18207,284 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-09-01",
       "last_seen": "2026-09-03",
+      "status": "open"
+    },
+    {
+      "text": "Send Salem the meeting invite and briefing notes for the call with LinkedIn account manager Brian about the suspension issue",
+      "project": "linkedin",
+      "source": "fireflies/01M1K63C37SRHZXRR3DACXX0B1",
+      "source_type": "fireflies",
+      "date": "2026-09-03",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Delivery Stand Up"
+      },
+      "id": "fireflies/01M1K63C37SRHZXRR3DACXX0B1/sendsalemthemeetinginviteandbriefingnote",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Lead the call with Brian from LinkedIn to get explicit reasons for the account suspensions and discuss resolution strategies",
+      "project": "linkedin",
+      "source": "fireflies/01M1KJB21VG7FTFTFXG4KQSZXV",
+      "source_type": "fireflies",
+      "date": "2026-09-03",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Salem / Blake"
+      },
+      "id": "fireflies/01M1KJB21VG7FTFTFXG4KQSZXV/leadthecallwithbrianfromlinkedintogetexp",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Advocate for reducing the LinkedIn suspension period to ideally seven days during the call with Brian",
+      "project": "linkedin",
+      "source": "fireflies/01M1KJB21VG7FTFTFXG4KQSZXV",
+      "source_type": "fireflies",
+      "date": "2026-09-03",
+      "confidence": "high",
+      "extras": {
+        "meeting": "Salem / Blake"
+      },
+      "id": "fireflies/01M1KJB21VG7FTFTFXG4KQSZXV/advocateforreducingthelinkedinsuspension",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Push for escalation to higher LinkedIn compliance or account management if Brian cannot approve the suspension reduction",
+      "project": "linkedin",
+      "source": "fireflies/01M1KJB21VG7FTFTFXG4KQSZXV",
+      "source_type": "fireflies",
+      "date": "2026-09-03",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Salem / Blake"
+      },
+      "id": "fireflies/01M1KJB21VG7FTFTFXG4KQSZXV/pushforescalationtohigherlinkedincomplia",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Evaluate and possibly test Juice Box as an alternative outreach tool independent of LinkedIn's restrictions",
+      "project": "linkedin",
+      "source": "fireflies/01M1KJB21VG7FTFTFXG4KQSZXV",
+      "source_type": "fireflies",
+      "date": "2026-09-03",
+      "confidence": "medium",
+      "extras": {
+        "meeting": "Salem / Blake"
+      },
+      "id": "fireflies/01M1KJB21VG7FTFTFXG4KQSZXV/evaluateandpossiblytestjuiceboxasanalter",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Approve or decline Kristjana Thorarinsdottir's Perk trip request (Trip 44560083, flight to Barcelona Sept 30-Oct 2, EUR 176.62, billed to Tribe.xyz Czech Travel)",
+      "project": "expense-ops",
+      "source": "gmail/1a067744ad7f96b6",
+      "source_type": "gmail",
+      "date": "2026-09-03",
+      "confidence": "high",
+      "extras": {
+        "subject": "Kristjana Thorarinsdottir has requested trip 44560083 - Flight to Barcelona",
+        "from": "agent@perk.com"
+      },
+      "id": "gmail/1a067744ad7f96b6",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Resolve the declined Revolut card payment to TravelPerk (Tribe.xyz Czech s.r.o. card, EUR 176.62, blocked by 3DS requirement) - review the transaction and get Kristjana's Barcelona flight payment through",
+      "project": "expense-ops",
+      "source": "gmail/1a0679bec07a9a9f",
+      "source_type": "gmail",
+      "date": "2026-09-03",
+      "confidence": "high",
+      "extras": {
+        "subject": "Transaction declined",
+        "from": "no-reply@revolut.com"
+      },
+      "id": "gmail/1a0679bec07a9a9f",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Follow up on your Sep 2 AI First action items: contact Gustavo for weekly roundup feedback, investigate granting weekly roundup access to recruiters outside the internal team, and send Nenad a real roundup example for format visibility",
+      "project": "ai-recruiting",
+      "source": "gmail/1a062511cfe3cef6",
+      "source_type": "gmail",
+      "date": "2026-09-02",
+      "confidence": "high",
+      "extras": {
+        "subject": "Notes: \"AI First\" Sep 2, 2026",
+        "from": "gemini-notes@google.com"
+      },
+      "id": "gmail/1a062511cfe3cef6",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Deliver your Sep 2 OKR Check-in action items: gather TA-partner feedback on the weekly roundup's utility, build a dashboard/view surfacing weekly blockers submitted by sourcers, and draft the client email for Jacopo/Martin explaining the contract-restructuring approach (including the Latvian-entity option) to work around recruiting limitations",
+      "project": "ai-recruiting",
+      "source": "gmail/1a061b88519f12ce",
+      "source_type": "gmail",
+      "date": "2026-09-02",
+      "confidence": "high",
+      "extras": {
+        "subject": "Notes: \"OKR Check-in - Stand-up: Delivery, People, BD\" Sep 2, 2026",
+        "from": "gemini-notes@google.com"
+      },
+      "id": "gmail/1a061b88519f12ce",
+      "project_name": "Roundup & Intake (AI recruiting tools)",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Assign Mateja Jokovic and Jelena Lacmanovic a Juicebox seat - Salem Mansuri asked directly in DM",
+      "project": "linkedin",
+      "source": "slack/D057XNFLHTR/1788448685.289789",
+      "source_type": "slack",
+      "date": "2026-09-03",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Salem Mansuri",
+        "from": "Salem Mansuri"
+      },
+      "id": "slack/D057XNFLHTR/1788448685.289789",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Advise Iryna Dyda on her InMail/credit issue - she could not send InMails sent the day before, believes she should have gotten credits back, and is also having sequences/LI Tool problems that are forcing her to send connect requests manually",
+      "project": "linkedin",
+      "source": "slack/D06KVGY05FC/1788447097.751959",
+      "source_type": "slack",
+      "date": "2026-09-03",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Iryna Dyda",
+        "from": "Iryna Dyda"
+      },
+      "id": "slack/D06KVGY05FC/1788447097.751959",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Follow up on the LinkedIn suspension escalation path beyond the drafted appeal to Jackie/Brian - confirm whether Tribe's paid LinkedIn Recruiter/Sales Navigator contract gives an Account Executive/Customer Success escalation queue, and decide whether to file a DSA Article 20 complaint against LinkedIn Ireland (Tribe is EU-based) if the standard appeal doesn't resolve it.",
+      "project": "linkedin",
+      "source": "cowork/local_ad0c672a-984d-4357-ae16-9d43a5d8cc08",
+      "source_type": "cowork",
+      "date": "2026-09-02",
+      "confidence": "medium",
+      "extras": {
+        "session": "LinkedIn account suspension escalation"
+      },
+      "id": "cowork/local_ad0c672a-984d-4357-ae16-9d43a5d8cc08/followuponthelinkedinsuspensionescalatio",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Decide the two open questions on the drafted LinkedIn post 'The assistants who got moved, not automated' (scheduled Tue 8 Sep in Notion) - whether naming four consultancies (PwC, McKinsey, EY, Coforge) by name is a problem given one could be a client, and whether the AUD 17 million savings figure stays or needs the currency stated or cut.",
+      "project": "linkedin",
+      "source": "cowork/local_b962fa03-e23a-4b58-a15c-2176554b2180",
+      "source_type": "cowork",
+      "date": "2026-09-02",
+      "confidence": "high",
+      "extras": {
+        "session": "Linkedin idea generator morning"
+      },
+      "id": "cowork/local_b962fa03-e23a-4b58-a15c-2176554b2180/decidethetwoopenquestionsonthedraftedlin",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Kick off the transform and dashboard build for the new interview stage types (Interview 1/2/3) per STAGE_FUNNEL_BUILD_PLAN.md - the usage trigger has hit: 147 events/120 candidates into Interview 1, 31/30 into Interview 2, 18/17 into Interview 3 across 17 companies, earliest movement 2026-07-22 through 2026-09-01.",
+      "project": "rec-dash",
+      "source": "cowork/local_5e723beb-7d50-4241-8fbb-354ac7ea46ff",
+      "source_type": "cowork",
+      "date": "2026-09-02",
+      "confidence": "high",
+      "extras": {
+        "session": "Recruiting new stages usage check"
+      },
+      "id": "cowork/local_5e723beb-7d50-4241-8fbb-354ac7ea46ff/kickoffthetransformanddashboardbuildfort",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Follow up with Andrea and Rodrigo on the intake extension's candidate-source gap and propose making source a required field on transcriber submissions - flagged in the 09/02 AI First meeting as leaving roughly 70 hires since 2025 with no candidate source assigned.",
+      "project": "ai-first-working-group",
+      "source": "cowork/local_2560fb2f-1e9b-4dc7-a385-519c1f2d5e8a",
+      "source_type": "cowork",
+      "date": "2026-09-02",
+      "confidence": "high",
+      "extras": {
+        "session": "Ai first weekly notion update"
+      },
+      "id": "cowork/local_2560fb2f-1e9b-4dc7-a385-519c1f2d5e8a/followupwithandreaandrodrigoontheintakee",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Investigate Tribe Bot's data aggregation and answer-consistency problems raised in the 09/02 AI First meeting - answers currently pull from a single source with incomplete aggregation and poor handling of historical role changes.",
+      "project": "tribebot",
+      "source": "cowork/local_2560fb2f-1e9b-4dc7-a385-519c1f2d5e8a",
+      "source_type": "cowork",
+      "date": "2026-09-02",
+      "confidence": "high",
+      "extras": {
+        "session": "Ai first weekly notion update"
+      },
+      "id": "cowork/local_2560fb2f-1e9b-4dc7-a385-519c1f2d5e8a/investigatetribebotsdataaggregationandan",
+      "project_name": "Tribebot",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Finalize taxonomy v2 by Friday (Sept 4) per the 09/02 AI First meeting action items, and coordinate the September tribe bot AI sessions with Andrea.",
+      "project": "ai-first-working-group",
+      "source": "cowork/local_2560fb2f-1e9b-4dc7-a385-519c1f2d5e8a",
+      "source_type": "cowork",
+      "date": "2026-09-02",
+      "confidence": "high",
+      "extras": {
+        "session": "Ai first weekly notion update"
+      },
+      "id": "cowork/local_2560fb2f-1e9b-4dc7-a385-519c1f2d5e8a/finalizetaxonomyv2byfridaysept4perthe090",
+      "project_name": "AI First Working Group",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-04",
       "status": "open"
     }
   ]
