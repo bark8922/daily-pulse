@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-04",
+  "generated_at": "2026-09-05",
   "schema_version": 3,
-  "total": 468,
-  "active_count": 468,
-  "archived_count": 643,
+  "total": 1139,
+  "active_count": 481,
+  "archived_count": 658,
   "projects": [
     {
       "id": "ai-first-working-group",
@@ -11077,7 +11077,8 @@
       "project_name": "Expense Ops",
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-14",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-05"
     },
     {
       "text": "Set up invoicing for the new Vista placement: Niki Vokalkova starts 20 August - Martin Bernard posted it in #accounting-and-invoicing (Blake also sent Vista her formal CV on 13 Aug)",
@@ -11284,7 +11285,8 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-14",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-05"
     },
     {
       "text": "Confirm the status and recurring cost of the dormant WordPress account Caroline Murphy flagged, and cancel it if nothing depends on it",
@@ -11318,7 +11320,8 @@
       "project_name": "AI First Working Group",
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-15",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-05"
     },
     {
       "text": "Close out the 35 screening calls missing from WBR/MBR (Iryna Dyda 0 of 13, Aleksandra Vistac 10 of 32) - Rodrigo Gomes explained Iryna is on Ashby and recording manually and will return to the Tribe Extension next week; confirm she switches back, decide whether Ashby-transcribed screens need a capture path, and backfill the missed weeks 28-31",
@@ -11335,7 +11338,8 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-15",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-05"
     },
     {
       "text": "Decide whether to extend the existing 'cloud vs live parity' watchdog to run the new blank-page render check against the live fin-dash and leader dashboard URLs on a schedule (~10 min work), and whether to add the render-gate changelog entry to tribe-dashboard/docs/CHANGELOG.md",
@@ -11351,7 +11355,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-15",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-05"
     },
     {
       "text": "Sweep every other WBR/MBR aggregate keyed on a raw recruiter name for the split-identity double-spelling bug - it was only fixed in the new team-lead filter, so Simon's and Jelena's numbers may still be halved elsewhere",
@@ -11367,7 +11372,8 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-15",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-05"
     },
     {
       "text": "Add diacritic normalisation to watchdog_228_parity.py - it compares names byte-exact, so report 228's 'Darabasic, Andrea' never matches the bundle's accented spelling and the script silently treats her as terminated; watchdog_check.py already normalises, and this is the same silent-skip failure shape as the Sashka incident",
@@ -11383,7 +11389,8 @@
       "project_name": "Tribe Financial Dashboard",
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-15",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-05"
     },
     {
       "text": "Act on the 14 Aug job-search run: Chief of Staff at Pearl (82, bootstrapped founder-led talent-solutions business of ~50 people, the only pick today whose stated requirements you genuinely part-satisfy via services-agency ops/delivery), Chief of Staff at Finni Health (79, YC W23, purest CoS mandate on the board but all four named backgrounds are gaps) and Senior Strategy & Operations Manager at plancraft (71, Series C AI-first, low 80s on mandate alone but gated by Germany residency plus mandatory Hamburg attendance)",
@@ -11399,7 +11406,8 @@
       "project_name": "Personal",
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-15",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-05"
     },
     {
       "text": "Confirm with Jacopo Lupo Ferrari whether the LinkedIn sequence-tool rollout has an adoption tracking mechanism (who has set up their first sequence and by when) and offer to own that accountability layer",
@@ -11416,7 +11424,8 @@
       "project_name": "Roundup & Intake (AI recruiting tools)",
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-15",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-05"
     },
     {
       "text": "Ask Jacopo Lupo Ferrari to pull the Claude/Slack delivery-channel analysis of Eduardo Moral's client introduction history and failed matches by Thursday, so Martin has it before the Parloa decision",
@@ -11450,7 +11459,8 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-15",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-05"
     },
     {
       "text": "Re-sync the recruiting repo's refresh_staging/ts_summary.sql with what Keboola config 01kpr0tr0dt5ryf96a5zk85bx7 actually runs - the repo copy has drifted and carries no tech logic at all, so grepping the repo finds nothing and only a config search inside Keboola surfaces the live SQL",
@@ -11466,7 +11476,8 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-15",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-05"
     },
     {
       "text": "Update the stale headcount deploy gate in dashboard-memory/feedback_validate_before_deploy.md - it still documents 'headcount >= 70 (currently ~85)' while BambooHR now returns 55 active employees (real attrition, confirmed via get_employee_directory); nothing enforces it in code so it never fires, but it will mislead the next reader",
@@ -11549,7 +11560,8 @@
       "project_name": "Infra & Automation",
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-17",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-05"
     },
     {
       "text": "Verify the BU mapping for the newer WBR clients - Enam, No Isolation and Pliant all appear in recent weeks, and any client missing from the finance BU Client tab silently defaults to Ponies/Unicorns, so a BU split can be wrong with nothing flagging it",
@@ -11565,7 +11577,8 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-17",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-05"
     },
     {
       "text": "Pay the Tribe.xyz Holding a.s. VAT (DPH) 07/2026 liability of CZK 230,794 by August 25, 2026 - Eva Huclova (Boris Gnoth Tax) confirmed the VAT documents were compiled and submitted",
@@ -11599,7 +11612,8 @@
       "project_name": "AI First Working Group",
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-17",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-05"
     },
     {
       "text": "Update invoicing for Eucalyptus - Dusan's engagement is extended until end of year",
@@ -11632,7 +11646,8 @@
       "project_name": "Tribe Recruiting Dashboard",
       "first_seen": "2026-08-14",
       "last_seen": "2026-08-17",
-      "status": "open"
+      "status": "archived",
+      "archived_on": "2026-09-05"
     },
     {
       "text": "Give Vladimir Stankovic access to the Friday 14 August all-hands recording on Google Drive - he asked in the #important_updates thread where Blake posted the summary, slides and recording links",
@@ -19034,6 +19049,481 @@
       "project_name": "Personal",
       "first_seen": "2026-09-04",
       "last_seen": "2026-09-04",
+      "status": "open"
+    },
+    {
+      "text": "Clean up the interview conversion data with Chris and Salem - validate every lost/pending/unknown outcome, separating genuine interview failures from roles clients dropped - and send Ella Darie and Martin Bernard a verified report by Monday; Ella is blocked on it before she can design interview training",
+      "project": "rec-dash",
+      "source": "fireflies/01M1P4KFHCP0T9R03X75BFB07W",
+      "source_type": "fireflies",
+      "date": "2026-09-04",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Operations",
+        "url": "https://app.fireflies.ai/view/01M1P4KFHCP0T9R03X75BFB07W"
+      },
+      "id": "fireflies/01M1P4KFHCP0T9R03X75BFB07W/cleanuptheinterviewstatusdatawithchrisan",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Ask Rodrigo and Andrea whether always-on recording of interviews and client-facing calls is technically feasible, keeping internal 1:1s excluded for privacy",
+      "project": "infra",
+      "source": "fireflies/01M1P4KFHCP0T9R03X75BFB07W",
+      "source_type": "fireflies",
+      "date": "2026-09-04",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Operations",
+        "url": "https://app.fireflies.ai/view/01M1P4KFHCP0T9R03X75BFB07W"
+      },
+      "id": "fireflies/01M1P4KFHCP0T9R03X75BFB07W/askrodrigoandandreawhetheralwaysonrecord",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Hand Ella the cleaned interview conversion data and co-develop the interview coaching plan for failing bench candidates like Edu and Alex",
+      "project": "rec-dash",
+      "source": "fireflies/01M1P4KFHCP0T9R03X75BFB07W",
+      "source_type": "fireflies",
+      "date": "2026-09-04",
+      "confidence": "medium",
+      "extras": {
+        "meeting_title": "Operations",
+        "url": "https://app.fireflies.ai/view/01M1P4KFHCP0T9R03X75BFB07W"
+      },
+      "id": "fireflies/01M1P4KFHCP0T9R03X75BFB07W/handellathecleanedinterviewconversiondat",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Build an automated monthly report of roles opened in the last 30 days with their category and subcategory so Nenad can run monthly taxonomy cleanups (~20 roles/month, ~67% initial accuracy)",
+      "project": "rec-dash",
+      "source": "fireflies/01M1NTDG4EWKHV9YS0XX06FG6W",
+      "source_type": "fireflies",
+      "date": "2026-09-04",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Nenad / Blake",
+        "url": "https://app.fireflies.ai/view/01M1NTDG4EWKHV9YS0XX06FG6W"
+      },
+      "id": "fireflies/01M1NTDG4EWKHV9YS0XX06FG6W/buildanautomatedmonthlyreportofrolesopen",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Load Nenad's category definitions and example job titles into Tribe Bot and pilot AI-assisted category assignment on mixed or borderline roles",
+      "project": "tribebot",
+      "source": "fireflies/01M1NTDG4EWKHV9YS0XX06FG6W",
+      "source_type": "fireflies",
+      "date": "2026-09-04",
+      "confidence": "high",
+      "extras": {
+        "meeting_title": "Nenad / Blake",
+        "url": "https://app.fireflies.ai/view/01M1NTDG4EWKHV9YS0XX06FG6W"
+      },
+      "id": "fireflies/01M1NTDG4EWKHV9YS0XX06FG6W/loadnenadscategorydefinitionsandexamplej",
+      "project_name": "Tribebot",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Ask Shanae in the next finance discussion whether Payroll should stay under Finance and Accounting in the job taxonomy",
+      "project": "inbox",
+      "source": "fireflies/01M1NTDG4EWKHV9YS0XX06FG6W",
+      "source_type": "fireflies",
+      "date": "2026-09-04",
+      "confidence": "medium",
+      "extras": {
+        "meeting_title": "Nenad / Blake",
+        "url": "https://app.fireflies.ai/view/01M1NTDG4EWKHV9YS0XX06FG6W"
+      },
+      "id": "fireflies/01M1NTDG4EWKHV9YS0XX06FG6W/askshanaeinthenextfinancediscussionwheth",
+      "project_name": "Needs sorting",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Approve or decline Kristjana Thorarinsdottir's Perk trip request Trip 44610112 - Stay in Barcelona departing September 30 (separate hotel booking from the flight request, Trip 44560083)",
+      "project": "expense-ops",
+      "source": "gmail/1a06c40f710eac1e",
+      "source_type": "gmail",
+      "date": "2026-09-04",
+      "confidence": "high",
+      "extras": {
+        "subject": "Kristjana Thorarinsdottir has requested trip 44610112 - Stay in Barcelona",
+        "from": "agent@perk.com"
+      },
+      "id": "gmail/1a06c40f710eac1e",
+      "project_name": "Expense Ops",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Process and pay the August 2026 Tribe.xyz Holding a.s. (HoldCo) payroll using the documents Vera Kolihova (Boris Gnoth Tax) sent on Sep 2 - still unread, separate from the Tribe.xyz CZ payroll batch",
+      "project": "people-ops",
+      "source": "gmail/1a03af0be083de84",
+      "source_type": "gmail",
+      "date": "2026-09-02",
+      "confidence": "high",
+      "extras": {
+        "subject": "Re: HoldCo Payroll (August)",
+        "from": "vkolihova@borisgnoth.cz"
+      },
+      "id": "gmail/1a03af0be083de84",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Find a better way to play and share audio for music during the Friday team meetings - your action item from the Sep 4 Friday Team Meeting",
+      "project": "team-cohesion",
+      "source": "gmail/1a06d7032461e50c",
+      "source_type": "gmail",
+      "date": "2026-09-04",
+      "confidence": "medium",
+      "extras": {
+        "subject": "Notes: \u201cFriday Team Meeting\u201d Sep 4, 2026",
+        "from": "gemini-notes@google.com"
+      },
+      "id": "gmail/1a06d7032461e50c",
+      "project_name": "Team cohesion",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Put Nick's five agreed points into the Forager contract and send it for signing - keep the six-month term but add explicit either-party termination on 30 days' written notice (change section 7.1 from 45 to 30 days), state invoicing stops pro-rata the day after the last role is filled, add the one-month trial cancelling the invoice if they are not satisfied, restate the fee as a single EUR 4,000 per role per month covering recruiter, sourcer and Salem's oversight, and leave section 3.3 as drafted while confirming the EUR 350 is per Recruiter licence per month",
+      "project": "legal",
+      "source": "slack/D057XNFLHTR/1788540661.515399",
+      "source_type": "slack",
+      "date": "2026-09-04",
+      "confidence": "high",
+      "extras": {
+        "channel": "DM with Salem Mansuri",
+        "from": "Salem Mansuri",
+        "permalink": "https://tribexyz.slack.com/archives/D057XNFLHTR/p1788540661515399"
+      },
+      "id": "slack/D057XNFLHTR/1788540661.515399",
+      "project_name": "Legal & Contracts",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Give Caroline Murphy per-project delivery data for the website case studies - total number of hires, average time to fill and average cost per hire per client, with a stated timeframe so the numbers stop going stale; Blake offered to pull it if she says exactly what she needs and she is checking overview.tribe.xyz first",
+      "project": "rec-dash",
+      "source": "slack/D0A90RPGE92/1788512083.085299",
+      "source_type": "slack",
+      "date": "2026-09-04",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM with Caroline Murphy",
+        "from": "Caroline Murphy",
+        "permalink": "https://tribexyz.slack.com/archives/D0A90RPGE92/p1788512083085299"
+      },
+      "id": "slack/D0A90RPGE92/1788512083.085299",
+      "project_name": "Tribe Recruiting Dashboard",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Fix the Friday new-jobs recap pipeline - the Keboola query_data (Snowflake) connector timed out after 180s twice on 4 Sep and the recap only ran after falling back to the Keboola Storage API with a local join/filter",
+      "project": "infra",
+      "source": "slack/D0557S3HSDD/1788506029.925259",
+      "source_type": "slack",
+      "date": "2026-09-04",
+      "confidence": "high",
+      "extras": {
+        "channel": "Blake self-DM",
+        "from": "Blake Barkley (automation)",
+        "permalink": "https://tribexyz.slack.com/archives/D0557S3HSDD/p1788506029925259"
+      },
+      "id": "slack/D0557S3HSDD/1788506029.925259",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Before next week's ops meeting, find out and flag to Martin Bernard whether Fuad Safarov's and Meho Saracevic's resistance to coaching has changed since Simon's training attempt four months ago - Martin raised it as an unresolved people risk with no named owner or escalation path",
+      "project": "people-ops",
+      "source": "slack/D0AKAPA0X3J/1788525772.638219",
+      "source_type": "slack",
+      "date": "2026-09-04",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM from Blake Updates Bot (post-meeting brief: Operations Meeting - Interview Pass Rate & Recording Infrastructure)",
+        "from": "Blake Updates Bot",
+        "permalink": "https://tribexyz.slack.com/archives/D0AKAPA0X3J/p1788525772638219"
+      },
+      "id": "slack/D0AKAPA0X3J/1788525772.638219/beforenextweeksopsmeetingfindoutandflagt",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Work out whether the weekly interview conversion report can be automated with existing tooling and propose the setup, instead of leaving it as a verbal idea from the ops meeting",
+      "project": "infra",
+      "source": "slack/D0AKAPA0X3J/1788525772.638219",
+      "source_type": "slack",
+      "date": "2026-09-04",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM from Blake Updates Bot (post-meeting brief: Operations Meeting - Interview Pass Rate & Recording Infrastructure)",
+        "from": "Blake Updates Bot",
+        "permalink": "https://tribexyz.slack.com/archives/D0AKAPA0X3J/p1788525772638219"
+      },
+      "id": "slack/D0AKAPA0X3J/1788525772.638219/workoutwhethertheweeklyinterviewconversi",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Fix the failing 'WBR Google Sheet Sync' n8n workflow - the Read TA Target node returned 'Service unavailable' on 4 Sep 09:00 (execution 52327); set the node to retry automatically",
+      "project": "infra",
+      "source": "slack/D0AKAPA0X3J/1788505204.900369",
+      "source_type": "slack",
+      "date": "2026-09-04",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM from Blake Updates Bot",
+        "from": "Blake Updates Bot",
+        "permalink": "https://tribexyz.slack.com/archives/D0AKAPA0X3J/p1788505204900369"
+      },
+      "id": "slack/D0AKAPA0X3J/1788505204.900369",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Fix the failing 'Tribe Dashboard - Revenue Per Tribster Export Github node' n8n workflow - the Read Revenue Per Tribster Sheet node returned 'Service unavailable' on 31 Aug 09:04 (execution 51250); set the node to retry automatically",
+      "project": "infra",
+      "source": "slack/D0AKAPA0X3J/1788159840.968679",
+      "source_type": "slack",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM from Blake Updates Bot",
+        "from": "Blake Updates Bot",
+        "permalink": "https://tribexyz.slack.com/archives/D0AKAPA0X3J/p1788159840968679"
+      },
+      "id": "slack/D0AKAPA0X3J/1788159840.968679",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Fix the failing 'AI Shadow Categorizer' n8n workflow - the Claude Categorize node returned 'The service failed to process your request' on 31 Aug 08:03 (execution 51229)",
+      "project": "infra",
+      "source": "slack/D0AKAPA0X3J/1788156194.526669",
+      "source_type": "slack",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM from Blake Updates Bot",
+        "from": "Blake Updates Bot",
+        "permalink": "https://tribexyz.slack.com/archives/D0AKAPA0X3J/p1788156194526669"
+      },
+      "id": "slack/D0AKAPA0X3J/1788156194.526669",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Fix the failing 'BambooHR Lists Tab Sync v2 (Revenue Per Tribster)' n8n workflow - the Read Lists Tab via Sheets API node returned 'Service unavailable' on 31 Aug 07:00 (execution 51211); set the node to retry automatically",
+      "project": "infra",
+      "source": "slack/D0AKAPA0X3J/1788152423.194469",
+      "source_type": "slack",
+      "date": "2026-08-31",
+      "confidence": "medium",
+      "extras": {
+        "channel": "DM from Blake Updates Bot",
+        "from": "Blake Updates Bot",
+        "permalink": "https://tribexyz.slack.com/archives/D0AKAPA0X3J/p1788152423194469"
+      },
+      "id": "slack/D0AKAPA0X3J/1788152423.194469",
+      "project_name": "Infra & Automation",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Take the rebuilt bench interview-conversion analysis to Martin - now built on BambooHR report 228 as the placement ledger rather than Slack prose, giving 86 interviews, 81 decided, 65 won, 80% company-wide. Two flagged names: Nenad Skoko at 0% (three losses in eight weeks on the bench - Vista 22 Jul, No Isolation 31 Jul, Augustus 5 Aug, with Vista's reason in writing) and Alexandra Richiteanu at 20% over six interviews.",
+      "project": "people-ops",
+      "source": "cowork/local_e4a6f2f2-375d-44bb-a6e3-cd4ea8fcc780",
+      "source_type": "cowork",
+      "date": "2026-09-04",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Interview performance tracking"
+      },
+      "id": "cowork/local_e4a6f2f2-375d-44bb-a6e3-cd4ea8fcc780/taketherebuiltbenchinterviewconversionan",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Resolve the four wins report 228 does not corroborate before the interview-conversion analysis is circulated - Wladyslaw Gadomski won Filics on 31 July then resigned before starting so it never reached BambooHR, and Mariam's BEAT81 win is unresolved because the ledger has her going to Voize on 6 August instead. Both are flagged on the Opportunities tab.",
+      "project": "people-ops",
+      "source": "cowork/local_e4a6f2f2-375d-44bb-a6e3-cd4ea8fcc780",
+      "source_type": "cowork",
+      "date": "2026-09-04",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Interview performance tracking"
+      },
+      "id": "cowork/local_e4a6f2f2-375d-44bb-a6e3-cd4ea8fcc780/resolvethefourwinsreport228doesnotcorrob",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Fix the underlying reporting gap the interview-conversion work exposed: there is no ledger for lost interviews. Wins now come from BambooHR report 228, but losses are still Slack-only, so the denominator may still be missing interviews nobody wrote down. Decide where a lost client interview gets recorded, since placements are currently announced across at least four channels (#offers_and_hires, #accounting-and-invoicing, #directors and the weekly New jobs created digest).",
+      "project": "people-ops",
+      "source": "cowork/local_e4a6f2f2-375d-44bb-a6e3-cd4ea8fcc780",
+      "source_type": "cowork",
+      "date": "2026-09-04",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Interview performance tracking"
+      },
+      "id": "cowork/local_e4a6f2f2-375d-44bb-a6e3-cd4ea8fcc780/fixtheunderlyingreportinggaptheinterview",
+      "project_name": "People Ops / BambooHR",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Decide the Keboola refresh cadence - the fourteen configs that run 4x daily are 337 of August's 365 billed credits, against an annual pool of 3,600 that is on track to burn roughly 4,380 and run dry around month ten (about 780 credits short, eight $300 top-up blocks, ~$2,400). Going to 2x saves ~169 credits/month with up to 12h staleness, 1x saves ~253 with up to 24h. It is a ten-minute scheduling change and instantly reversible. Blake's 'can we cut it to 1x' referred only to the dedup piece, which is not worth splitting out now that it has been rewritten - the whole-cycle decision is still open.",
+      "project": "keboola-sunset",
+      "source": "cowork/local_ae52df59-842b-42b8-8849-083c335d58b2",
+      "source_type": "cowork",
+      "date": "2026-09-04",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Keboola spend optimization"
+      },
+      "id": "cowork/local_ae52df59-842b-42b8-8849-083c335d58b2/decidethekeboolarefreshcadencethefourtee",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Find out from Valeria what actually happened on Jelena Lacmanovic's LinkedIn Recruiter account before answering LinkedIn's question about support staff in recruiting workflows - Jelena said 'probably yes, when Valeria used it instead of her own', and the reply to Pat deliberately leaves that answer open rather than claiming no coordinators are involved, which is the one claim LinkedIn could disprove.",
+      "project": "linkedin",
+      "source": "cowork/local_07b830b0-c226-4b3b-9139-2ce9ced7ea9c",
+      "source_type": "cowork",
+      "date": "2026-09-04",
+      "confidence": "high",
+      "extras": {
+        "session_title": "LinkedIn Recruiter license suspension appeal"
+      },
+      "id": "cowork/local_07b830b0-c226-4b3b-9139-2ce9ced7ea9c/findoutfromvaleriawhatactuallyhappenedon",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Get Mateja to sign out of the third dormant laptop and close the extra live LinkedIn sessions - he has three machines with his account signed in, including one he rarely opens, and LinkedIn's own guidance says multi-device is fine unless 3+ are active at once. This is the strongest innocent explanation for the 28 August flag and it is checkable, so it needs to be true by the time the appeal is decided.",
+      "project": "linkedin",
+      "source": "cowork/local_07b830b0-c226-4b3b-9139-2ce9ced7ea9c",
+      "source_type": "cowork",
+      "date": "2026-09-04",
+      "confidence": "high",
+      "extras": {
+        "session_title": "LinkedIn Recruiter license suspension appeal"
+      },
+      "id": "cowork/local_07b830b0-c226-4b3b-9139-2ce9ced7ea9c/getmatejatosignoutofthethirddormantlapto",
+      "project_name": "LinkedIn (licenses + posting)",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Close the watchdog gap where the active-employee coverage check only grades the latest actual month, so anyone dropped from forward projection months is invisible to it. Benign on the day it was found (two future-dated terminations) but it would hide a bad end date on a current employee.",
+      "project": "fin-dash",
+      "source": "cowork/local_bad08e56-0b85-4b17-8bfd-7e29506f1cbd",
+      "source_type": "cowork",
+      "date": "2026-09-03",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Tribe dashboard watchdog"
+      },
+      "id": "cowork/local_bad08e56-0b85-4b17-8bfd-7e29506f1cbd/closethewatchdoggapwheretheactiveemploye",
+      "project_name": "Tribe Financial Dashboard",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Decide whether the job-search relevance regex should down-rank partner, revenue, support and marketing 'ops' titles before scoring - the functional-ops false positive has now been named on three consecutive runs and dominated both tabs (Horizon3.ai 86 to 62, CircleCI 86 to 63, Lighthouse 60 despite a perfect DFW location, and DevRev ranked highest of any US metro role at 89 raw while being a quota-carrying channel sales seat).",
+      "project": "personal",
+      "source": "cowork/local_abe09b66-d8e8-4987-97b1-fd874be5e23d",
+      "source_type": "cowork",
+      "date": "2026-09-04",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Job search daily"
+      },
+      "id": "cowork/local_abe09b66-d8e8-4987-97b1-fd874be5e23d/decidewhetherthejobsearchrelevanceregexs",
+      "project_name": "Personal",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Work out why the Keboola SQL workspace is unresponsive - query_data times out after 180s even on SELECT 1, so the Friday new-jobs recap scheduled task will keep failing. Friday's recap only shipped because it fell back to the other Keboola connector's Storage API and did the job, archived/test filtering and sorting locally.",
+      "project": "keboola-sunset",
+      "source": "cowork/local_6f8896ec-99dc-4f8a-9eab-fb35ceedc0ea",
+      "source_type": "cowork",
+      "date": "2026-09-04",
+      "confidence": "high",
+      "extras": {
+        "session_title": "Friday new jobs recap"
+      },
+      "id": "cowork/local_6f8896ec-99dc-4f8a-9eab-fb35ceedc0ea/workoutwhythekeboolasqlworkspaceisunresp",
+      "project_name": "Keboola migration / sunset",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
+      "status": "open"
+    },
+    {
+      "text": "Build the monthly owner-facing decision document that the career-positioning work identified as the real gap - a board pack is the wrong ask for a bootstrapped company, but nothing currently reads the dashboard numbers and says what to do, and the profit-share holders are a second audience for the same artifact. Add one forward-looking margin metric Blake is accountable for rather than reporting on, and claim the three management threads already in place (the person he managed until she left, the contractors he selects and holds accountable, and the AI-First function champions as a zero-headcount dotted-line team).",
+      "project": "personal",
+      "source": "cowork/local_d455dbc8-3b8e-4f29-be71-44d5e48929a5",
+      "source_type": "cowork",
+      "date": "2026-09-04",
+      "confidence": "medium",
+      "extras": {
+        "session_title": "Career role research"
+      },
+      "id": "cowork/local_d455dbc8-3b8e-4f29-be71-44d5e48929a5/buildthemonthlyownerfacingdecisiondocume",
+      "project_name": "Personal",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-05",
       "status": "open"
     }
   ]

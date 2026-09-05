@@ -45,68 +45,68 @@
     "workforce-planning-changes"
   ],
   "lookback_days": 60,
-  "updated": "2026-09-04",
+  "updated": "2026-09-05",
   "generated_from": "data/ledger.json (Notion). Do not hand-edit.",
   "projects": [
     {
       "id": "ai-first-working-group",
       "name": "AI First Working Group",
       "tier": "big",
-      "notes": "22 open. Taxonomy v2 is due with Nenad today, 4 Sep, the intake extension's candidate-source gap still needs Andrea and Rodrigo, and Sanja Pavlovikj has not said if she is joining."
+      "notes": "20 open. Taxonomy v2 was due with Nenad on Friday 4 Sep and is not confirmed closed, the intake extension's ~70 source-less hires still need Andrea and Rodrigo, and Sanja Pavlovikj has not answered."
     },
     {
       "id": "rec-dash",
       "name": "Tribe Recruiting Dashboard",
       "tier": "big",
-      "notes": "95 open. Martin wants a bench-Tribster interview track record from his inbox and HubSpot, Bubble has no archive event behind 29,910 disqualified candidates, and ts_weekly still misbuckets 465 Contacted."
+      "notes": "92 open. The 4 Sep ops meeting put a verified interview conversion report, cleaned with Chris and Salem, due to Ella and Martin by Monday, and Bubble still stamps no archive event behind 29,910 disqualified candidates."
     },
     {
       "id": "infra",
       "name": "Infra & Automation",
       "tier": "big",
-      "notes": "50 open. Martin needs admin on Clay workspace 306102, both tribe-dashboard GitHub Actions workflows still fail on commit d0e1043, and the n8n connector is still invalidated."
+      "notes": "55 open. Four n8n workflows failed on 'Service unavailable' between 31 Aug and 4 Sep, the Friday new-jobs recap only shipped via a Storage API fallback, and Martin still has no Clay admin."
     },
     {
       "id": "okrs",
       "name": "OKRs",
       "tier": "medium",
-      "notes": "4 open. Martin asked 'who uses this data?' at the 2 Sep check-in, so a three-question TA survey on the sourcer roundups is now live, and Blake's Key Results still need status and blockers in Notion."
+      "notes": "4 open. Martin's 'who uses this data?' at the 2 Sep check-in gates the blockers view on a three-question TA survey, and Blake's Key Results still need status and blockers in Notion."
     },
     {
       "id": "ai-recruiting",
       "name": "Roundup & Intake (AI recruiting tools)",
       "tier": "big",
-      "notes": "29 open. The intake extension left ~70 hires since 2025 with no candidate source, intake form coverage sits at 25% of eligible roles, and roundup assignments still stop at six sourcers."
+      "notes": "28 open. The intake extension left ~70 hires since 2025 with no candidate source, intake form coverage sits at 25% of eligible roles, and roundup assignments still stop at six sourcers."
     },
     {
       "id": "tribebot",
       "name": "Tribebot",
       "tier": "big",
-      "notes": "27 open. Nenad's 2 Sep flag still has no date or plan - TribeBot returns incomplete single-source answers - Slack installation is unintuitive, and there are still only four weekly active users."
+      "notes": "28 open. Nenad's category definitions still need loading into Tribe Bot for the AI-assisted categorisation pilot, the incompleteness fix he raised on 2 Sep has no date, and usage is four weekly actives."
     },
     {
       "id": "fin-dash",
       "name": "Tribe Financial Dashboard",
       "tier": "big",
-      "notes": "38 open. Yujing Han is still chasing the Spain 08.26 close, the Vista invoice for Niki Vokalkova waits on Martin's registration details, and Reaktor e-invoicing needs setting up from Simon Siew's details."
+      "notes": "38 open. Yujing Han is still chasing the Spain 08.26 close, the Vista invoice for Niki Vokalkova waits on Martin's registration details, and the watchdog only grades employee coverage in the latest actual month."
     },
     {
       "id": "personal",
       "name": "Personal",
       "tier": "big",
-      "notes": "37 open. Career positioning needs a hard revenue or savings number on the dashboard work before the Martin and Andrea ask, and a Siemens AI Enablement role in Prague came out of the 4 Sep run."
+      "notes": "38 open. The career-positioning case still needs a hard number, roughly EUR 96K/year from replacing Power BI and Keboola, plus a monthly owner-facing decision document, before the Martin and Andrea ask."
     },
     {
       "id": "legal",
       "name": "Legal & Contracts",
       "tier": "big",
-      "notes": "30 open. Voize Article 5.4 needs EUR 50,000 per-claim PI cover bound under Tribe.xyz Czech s.r.o. by 5 October, and Eva's D&O section 14 and Colonnade section 1 are both unanswered."
+      "notes": "31 open. Voize Article 5.4 needs EUR 50,000 per-claim PI cover bound under Tribe.xyz Czech s.r.o. by 5 October, Eva's D&O section 14 is blank, and Nick's five points are not yet in the Forager contract."
     },
     {
       "id": "project-hub",
       "name": "Project Hub",
       "tier": "medium",
-      "notes": "4 open. Seven daily-pulse tasks still sit in inbox with no ledger project so build_pages renders them on no page at all, and three Drive access requests for the 21 Aug recording are pending."
+      "notes": "4 open. Eight daily-pulse tasks still sit in inbox with no ledger project so build_pages renders them on no page at all, and three Drive access requests for the 21 Aug recording are pending."
     },
     {
       "id": "leadership",
@@ -118,7 +118,7 @@
       "id": "keboola-sunset",
       "name": "Keboola migration / sunset",
       "tier": "medium",
-      "notes": "13 open. The orphaned 1.35 GB out.c-prodv2-rewrite-test bucket is still there, v237's cuts moved PROD V2 runtime only 850s to 834s, and the credit pool empties around mid-June 2027 without a top-up."
+      "notes": "15 open. The SQL workspace times out after 180s even on SELECT 1, and fourteen 4x-daily configs burned 337 of August's 365 credits, tracking to about 4,380 against a 3,600 pool."
     },
     {
       "id": "tribe-talks",
@@ -130,25 +130,25 @@
       "id": "linkedin",
       "name": "LinkedIn (licenses + posting)",
       "tier": "big",
-      "notes": "35 open. Nine items came off the Brian call - billing credit for the two suspended licences, written session rules from compliance, and Jacopo lending his account to Jelena mid-review."
+      "notes": "37 open. Brian owes billing credit on the two suspended Recruiter licences, compliance owes written session rules, and Jacopo is still lending his account to Jelena Lacmanovic mid-review."
     },
     {
       "id": "people-ops",
       "name": "People Ops / BambooHR",
       "tier": "big",
-      "notes": "24 open. Three August payroll runs are live at once - Spanish approval with Federico's two leave corrections, plus Czech s.r.o. from Vera Kolihova - and Adela Geissler's zapoctovy list is unanswered."
+      "notes": "29 open. The rebuilt bench conversion analysis on BambooHR report 228 gives 65 wins of 81 decided, but four wins are uncorroborated and lost interviews have no ledger, so it cannot go to Martin yet."
     },
     {
       "id": "expense-ops",
       "name": "Expense Ops",
       "tier": "big",
-      "notes": "34 open. Kristjana's EUR 176.62 Barcelona flight is stuck behind a 3DS-declined Revolut payment, the renumbered Holding a.s. invoices are ready to issue, and Nenad needs a GBP answer."
+      "notes": "34 open. Two of Kristjana's Perk trips wait on Blake, flight 44560083 and hotel 44610112, the flight is stuck behind a 3DS-declined Revolut payment, and Nenad still needs a GBP answer."
     },
     {
       "id": "team-cohesion",
       "name": "Team cohesion",
       "tier": "medium",
-      "notes": "2 open. The Friday 28 August recording and summary are both still missing from #important_updates, and Dean Apicella has chased twice on the 29 October Prague charity football tournament."
+      "notes": "3 open. The Friday 28 August recording and summary are still missing from #important_updates, Friday meeting audio sharing needs fixing after the 4 Sep meeting, and Dean Apicella has chased twice."
     }
   ],
   "project_aliases": {
